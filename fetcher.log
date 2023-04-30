@@ -646,3 +646,21 @@
 [2023-05-01 01:34:07] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.14.tar.gz tmp/cengal-3.1.15.tar.gz --markdown 20230501/c/cengal/3.1.14-3.1.15/diff.md --exclude *.pyd
 [2023-05-01 01:34:49] INFO root fetch - main [MainThread]: End processing [cengal]: success
 [2023-05-01 01:34:49] INFO root fetch - main [MainThread]: Store serial: [17920747]
+[2023-05-01 01:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920747]
+[2023-05-01 01:39:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 01:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comet-ml
+[2023-05-01 01:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongodbm
+[2023-05-01 01:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suap-scraper
+[2023-05-01 01:39:57] INFO root fetch - processPackages [suap-scraper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 01:39:57] WARNING root fetch - processPackages [mongodbm]: Skipping, unable to determine old version
+[2023-05-01 01:39:57] INFO root fetch - main [MainThread]: End processing [mongodbm] error
+[2023-05-01 01:39:57] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-01 01:39:58] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/cb/bd/82e272d126280004167fd19ed6dbe343c42f8a1917a0444b7b058205db51/suap_scraper-0.0.2.tar.gz
+[2023-05-01 01:39:58] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2023-05-01 01:39:58] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20230501/c/comet-ml/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-01 01:39:58] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/03/2d/3abbca5efd315afcb9753c8158ec04b9037374ee8b6b9a50984f6face244/suap_scraper-0.0.3.tar.gz
+[2023-05-01 01:39:58] INFO root fetch - processPackages [suap-scraper]: executing diffoscope
+[2023-05-01 01:39:58] INFO root fetch - processPackages [suap-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suap_scraper-0.0.2.tar.gz tmp/suap_scraper-0.0.3.tar.gz --markdown 20230501/s/suap-scraper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 01:39:59] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
+[2023-05-01 01:39:59] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2023-05-01 01:39:59] INFO root fetch - main [MainThread]: Store serial: [17920766]
