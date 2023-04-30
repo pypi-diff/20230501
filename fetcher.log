@@ -664,3 +664,29 @@
 [2023-05-01 01:39:59] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
 [2023-05-01 01:39:59] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
 [2023-05-01 01:39:59] INFO root fetch - main [MainThread]: Store serial: [17920766]
+[2023-05-01 01:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920766]
+[2023-05-01 01:45:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 01:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyagi
+[2023-05-01 01:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kireji
+[2023-05-01 01:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-mlb-statsapi
+[2023-05-01 01:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sigma-cli
+[2023-05-01 01:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: horde-model-reference
+[2023-05-01 01:45:08] WARNING root fetch - processPackages [horde-model-reference]: Skipping, unable to determine old version
+[2023-05-01 01:45:08] INFO root fetch - main [MainThread]: End processing [horde-model-reference] error
+[2023-05-01 01:45:08] INFO root fetch - processPackages [sigma-cli]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-01 01:45:08] INFO root fetch - processPackages [skyagi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 01:45:08] INFO root fetch - processPackages [python-mlb-statsapi]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-01 01:45:08] WARNING root fetch - processPackages [kireji]: Skipping, unable to determine old version
+[2023-05-01 01:45:08] INFO root fetch - main [MainThread]: End processing [kireji] error
+[2023-05-01 01:45:08] INFO root fetch - processPackages [sigma-cli]: executing diffoscope
+[2023-05-01 01:45:08] INFO root fetch - processPackages [sigma-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigma_cli-0.7.2.tar.gz tmp/sigma_cli-0.7.3.tar.gz --markdown 20230501/s/sigma-cli/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-01 01:45:08] INFO root fetch - processPackages [python-mlb-statsapi]: Downloading https://files.pythonhosted.org/packages/a5/20/febdcd1ad3483cfc7e6699b160d03f25ce5ed6bf055d60105153317982f7/python-mlb-statsapi-0.5.8.tar.gz
+[2023-05-01 01:45:08] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-05-01 01:45:08] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.8.tar.gz tmp/skyagi-0.0.9.tar.gz --markdown 20230501/s/skyagi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 01:45:09] INFO root fetch - processPackages [python-mlb-statsapi]: Downloading https://files.pythonhosted.org/packages/44/6f/8ba2db292dec9a8b271bef9240cbe48d8283e48bc816d1202d28fbfcf3b7/python-mlb-statsapi-0.5.9.tar.gz
+[2023-05-01 01:45:09] INFO root fetch - processPackages [python-mlb-statsapi]: executing diffoscope
+[2023-05-01 01:45:09] INFO root fetch - processPackages [python-mlb-statsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-mlb-statsapi-0.5.8.tar.gz tmp/python-mlb-statsapi-0.5.9.tar.gz --markdown 20230501/p/python-mlb-statsapi/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-01 01:45:09] INFO root fetch - main [MainThread]: End processing [sigma-cli]: success
+[2023-05-01 01:45:09] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-05-01 01:45:10] INFO root fetch - main [MainThread]: End processing [python-mlb-statsapi]: success
+[2023-05-01 01:45:10] INFO root fetch - main [MainThread]: Store serial: [17920791]
