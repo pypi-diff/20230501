@@ -250,3 +250,35 @@
 [2023-05-01 00:31:29] INFO root fetch - main [MainThread]: End processing [OEISsequences]: success
 [2023-05-01 00:31:30] INFO root fetch - main [MainThread]: End processing [numpy-flint]: success
 [2023-05-01 00:31:30] INFO root fetch - main [MainThread]: Store serial: [17920472]
+[2023-05-01 00:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920472]
+[2023-05-01 00:36:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 00:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pangeo-forge-cordex
+[2023-05-01 00:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyLTSpice
+[2023-05-01 00:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uwuipy
+[2023-05-01 00:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itkwasm-dicom-wasi
+[2023-05-01 00:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-social-oauth2
+[2023-05-01 00:36:38] INFO root fetch - processPackages [uwuipy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-01 00:36:38] INFO root fetch - processPackages [pangeo-forge-cordex]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-01 00:36:38] WARNING root fetch - processPackages [itkwasm-dicom-wasi]: Skipping, unable to determine old version
+[2023-05-01 00:36:38] INFO root fetch - processPackages [PyLTSpice]: New version: [4.0] Old Version: [3.1]
+[2023-05-01 00:36:38] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-wasi] error
+[2023-05-01 00:36:38] INFO root fetch - processPackages [drf-social-oauth2]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-01 00:36:38] INFO root fetch - processPackages [pangeo-forge-cordex]: Downloading https://files.pythonhosted.org/packages/a7/b7/a229f59cca21a6e6827d67636ae5346a01f21eedb6f6c0671a75d0273bd0/pangeo-forge-cordex-0.1.1.tar.gz
+[2023-05-01 00:36:38] INFO root fetch - processPackages [uwuipy]: Downloading https://files.pythonhosted.org/packages/f4/a4/da3d68d0e406208ac1afca99566144bc05f0b39c4a55d43aa396e19ffac0/uwuipy-0.1.6.tar.gz
+[2023-05-01 00:36:38] INFO root fetch - processPackages [PyLTSpice]: Downloading https://files.pythonhosted.org/packages/9c/81/b66a0a05ee44e4de6d64102f0b5725582371290b0a83997aa4db3107f6ff/PyLTSpice-3.1.tar.gz
+[2023-05-01 00:36:38] INFO root fetch - processPackages [uwuipy]: executing diffoscope
+[2023-05-01 00:36:38] INFO root fetch - processPackages [uwuipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uwuipy-0.1.5.tar.gz tmp/uwuipy-0.1.6.tar.gz --markdown 20230501/u/uwuipy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 00:36:39] INFO root fetch - processPackages [pangeo-forge-cordex]: Downloading https://files.pythonhosted.org/packages/93/60/18e7af51ffe964c8be74d6830566840388b2f0dcaa94411b1b8ae531a384/pangeo-forge-cordex-0.2.0.tar.gz
+[2023-05-01 00:36:39] INFO root fetch - processPackages [drf-social-oauth2]: Downloading https://files.pythonhosted.org/packages/98/50/20eb15a162f361fb6c6e8d0eeb64fb92ff2abe0ac63baf19a7bc0dae1d02/drf-social-oauth2-2.1.2.tar.gz
+[2023-05-01 00:36:39] INFO root fetch - processPackages [PyLTSpice]: Downloading https://files.pythonhosted.org/packages/1e/e8/33401b2d50d90cefd993584f321e842f71ccbd549797d3959ac30234d1f6/PyLTSpice-4.0.tar.gz
+[2023-05-01 00:36:39] INFO root fetch - processPackages [pangeo-forge-cordex]: executing diffoscope
+[2023-05-01 00:36:39] INFO root fetch - processPackages [pangeo-forge-cordex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pangeo-forge-cordex-0.1.1.tar.gz tmp/pangeo-forge-cordex-0.2.0.tar.gz --markdown 20230501/p/pangeo-forge-cordex/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 00:36:39] INFO root fetch - processPackages [PyLTSpice]: executing diffoscope
+[2023-05-01 00:36:39] INFO root fetch - processPackages [PyLTSpice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLTSpice-3.1.tar.gz tmp/PyLTSpice-4.0.tar.gz --markdown 20230501/P/PyLTSpice/3.1-4.0/diff.md --exclude *.pyd
+[2023-05-01 00:36:39] INFO root fetch - processPackages [drf-social-oauth2]: executing diffoscope
+[2023-05-01 00:36:39] INFO root fetch - processPackages [drf-social-oauth2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-social-oauth2-2.1.1.tar.gz tmp/drf-social-oauth2-2.1.2.tar.gz --markdown 20230501/d/drf-social-oauth2/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-01 00:36:40] INFO root fetch - main [MainThread]: End processing [uwuipy]: success
+[2023-05-01 00:36:40] INFO root fetch - main [MainThread]: End processing [pangeo-forge-cordex]: success
+[2023-05-01 00:36:40] INFO root fetch - main [MainThread]: End processing [drf-social-oauth2]: success
+[2023-05-01 00:36:40] INFO root fetch - main [MainThread]: End processing [PyLTSpice]: success
+[2023-05-01 00:36:40] INFO root fetch - main [MainThread]: Store serial: [17920490]
