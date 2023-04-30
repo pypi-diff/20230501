@@ -398,3 +398,21 @@
 [2023-05-01 00:52:13] INFO root fetch - main [MainThread]: End processing [herald-of-completion]: success
 [2023-05-01 00:52:15] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
 [2023-05-01 00:52:15] INFO root fetch - main [MainThread]: Store serial: [17920580]
+[2023-05-01 00:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920580]
+[2023-05-01 00:57:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: overloaded-iterables
+[2023-05-01 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nekosama
+[2023-05-01 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suap-scraper
+[2023-05-01 00:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nekosama
+[2023-05-01 00:57:23] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.6.22] Old Version: [0.6.2]
+[2023-05-01 00:57:23] WARNING root fetch - processPackages [nekosama]: Skipping, unable to determine old version
+[2023-05-01 00:57:23] WARNING root fetch - processPackages [suap-scraper]: Skipping, unable to determine old version
+[2023-05-01 00:57:23] INFO root fetch - main [MainThread]: End processing [nekosama] error
+[2023-05-01 00:57:23] WARNING root fetch - processPackages [nekosama]: Skipping, unable to determine old version
+[2023-05-01 00:57:23] INFO root fetch - main [MainThread]: End processing [suap-scraper] error
+[2023-05-01 00:57:23] INFO root fetch - main [MainThread]: End processing [nekosama] error
+[2023-05-01 00:57:23] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/48/a8/ff724055310f12c274993b5b84298ce3328bc7edf5347b30852a45ab8ad4/overloaded-iterables-0.6.22.tar.gz
+[2023-05-01 00:57:23] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 00:57:23] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.6.2.tar.gz tmp/overloaded-iterables-0.6.22.tar.gz --markdown 20230501/o/overloaded-iterables/0.6.2-0.6.22/diff.md --exclude *.pyd
+[2023-05-01 00:57:25] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 00:57:25] INFO root fetch - main [MainThread]: Store serial: [17920596]
