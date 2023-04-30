@@ -690,3 +690,53 @@
 [2023-05-01 01:45:09] INFO root fetch - main [MainThread]: End processing [skyagi]: success
 [2023-05-01 01:45:10] INFO root fetch - main [MainThread]: End processing [python-mlb-statsapi]: success
 [2023-05-01 01:45:10] INFO root fetch - main [MainThread]: Store serial: [17920791]
+[2023-05-01 01:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920791]
+[2023-05-01 01:50:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serpyco-rs
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongodbm
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: string-obfuscator
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overloaded-iterables
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stringunitconverter
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autosrt
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typer-tinydb
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webui2
+[2023-05-01 01:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kireji
+[2023-05-01 01:50:19] INFO root fetch - processPackages [autosrt]: New version: [1.2.3] Old Version: [1.1.3]
+[2023-05-01 01:50:19] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.6.22] Old Version: [0.6.2]
+[2023-05-01 01:50:19] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-01 01:50:19] WARNING root fetch - processPackages [mongodbm]: Skipping, unable to determine old version
+[2023-05-01 01:50:19] INFO root fetch - main [MainThread]: End processing [mongodbm] error
+[2023-05-01 01:50:19] WARNING root fetch - processPackages [kireji]: Skipping, unable to determine old version
+[2023-05-01 01:50:19] INFO root fetch - main [MainThread]: End processing [kireji] error
+[2023-05-01 01:50:19] INFO root fetch - processPackages [stringunitconverter]: New version: [0.3] Old Version: [0.2b2]
+[2023-05-01 01:50:19] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 01:50:19] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-05-01 01:50:19] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230501/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-01 01:50:19] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.6.2.tar.gz tmp/overloaded-iterables-0.6.22.tar.gz --markdown 20230501/o/overloaded-iterables/0.6.2-0.6.22/diff.md --exclude *.pyd
+[2023-05-01 01:50:19] INFO root fetch - processPackages [string-obfuscator]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-01 01:50:19] INFO root fetch - processPackages [webui2]: New version: [2.2.0.1] Old Version: [2.2.0]
+[2023-05-01 01:50:19] INFO root fetch - processPackages [typer-tinydb]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-05-01 01:50:19] INFO root fetch - processPackages [stringunitconverter]: Downloading https://files.pythonhosted.org/packages/dd/f3/c5e7685e21582ae76a3842b12e332a9f26bc5562a2963ef6062ef15fbd7a/stringunitconverter-0.2b2.tar.gz
+[2023-05-01 01:50:19] INFO root fetch - processPackages [string-obfuscator]: Downloading https://files.pythonhosted.org/packages/9e/a0/bfcf49291e176dd327f64e89a20e561b18d94ce078bc58615418d6249603/string-obfuscator-0.1.0.tar.gz
+[2023-05-01 01:50:19] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-05-01 01:50:19] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.1.3.tar.gz tmp/autosrt-1.2.3.tar.gz --markdown 20230501/a/autosrt/1.1.3-1.2.3/diff.md --exclude *.pyd
+[2023-05-01 01:50:19] INFO root fetch - processPackages [typer-tinydb]: Downloading https://files.pythonhosted.org/packages/df/7d/217465c875e45f0355653e0207473f4448ac6bdfec7cc22d35854e8cd21a/typer_tinydb-0.1.4.tar.gz
+[2023-05-01 01:50:19] INFO root fetch - processPackages [webui2]: Downloading https://files.pythonhosted.org/packages/14/6b/b829b181f7717194c4636524d1edb178f14983c6e07c5db1810f0154184f/webui2-2.2.0.1.tar.gz
+[2023-05-01 01:50:19] INFO root fetch - processPackages [string-obfuscator]: Downloading https://files.pythonhosted.org/packages/00/51/8f17c7b849e8d6a2fea19b1f367d1ccbdf8f3284052b8281aaa348dea741/string-obfuscator-1.0.0.tar.gz
+[2023-05-01 01:50:19] INFO root fetch - processPackages [typer-tinydb]: executing diffoscope
+[2023-05-01 01:50:19] INFO root fetch - processPackages [typer-tinydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_tinydb-0.1.2.tar.gz tmp/typer_tinydb-0.1.4.tar.gz --markdown 20230501/t/typer-tinydb/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-05-01 01:50:20] INFO root fetch - processPackages [stringunitconverter]: Downloading https://files.pythonhosted.org/packages/54/5c/3fab4161eafdc2b22d2632ffd0c365e078771996ec12f14c6c7cc536dd34/stringunitconverter-0.3.tar.gz
+[2023-05-01 01:50:20] INFO root fetch - processPackages [webui2]: executing diffoscope
+[2023-05-01 01:50:20] INFO root fetch - processPackages [webui2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webui2-2.2.0.tar.gz tmp/webui2-2.2.0.1.tar.gz --markdown 20230501/w/webui2/2.2.0-2.2.0.1/diff.md --exclude *.pyd
+[2023-05-01 01:50:20] INFO root fetch - processPackages [string-obfuscator]: executing diffoscope
+[2023-05-01 01:50:20] INFO root fetch - processPackages [string-obfuscator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string-obfuscator-0.1.0.tar.gz tmp/string-obfuscator-1.0.0.tar.gz --markdown 20230501/s/string-obfuscator/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 01:50:20] INFO root fetch - processPackages [stringunitconverter]: executing diffoscope
+[2023-05-01 01:50:20] INFO root fetch - processPackages [stringunitconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringunitconverter-0.2b2.tar.gz tmp/stringunitconverter-0.3.tar.gz --markdown 20230501/s/stringunitconverter/0.2b2-0.3/diff.md --exclude *.pyd
+[2023-05-01 01:50:20] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 01:50:20] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-05-01 01:50:20] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-05-01 01:50:21] INFO root fetch - main [MainThread]: End processing [typer-tinydb]: success
+[2023-05-01 01:50:21] INFO root fetch - main [MainThread]: End processing [string-obfuscator]: success
+[2023-05-01 01:50:21] INFO root fetch - main [MainThread]: End processing [stringunitconverter]: success
+[2023-05-01 01:50:24] INFO root fetch - main [MainThread]: End processing [webui2]: success
+[2023-05-01 01:50:24] INFO root fetch - main [MainThread]: Store serial: [17920835]
