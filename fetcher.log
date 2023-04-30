@@ -740,3 +740,43 @@
 [2023-05-01 01:50:21] INFO root fetch - main [MainThread]: End processing [stringunitconverter]: success
 [2023-05-01 01:50:24] INFO root fetch - main [MainThread]: End processing [webui2]: success
 [2023-05-01 01:50:24] INFO root fetch - main [MainThread]: Store serial: [17920835]
+[2023-05-01 01:55:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920835]
+[2023-05-01 01:55:33] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 01:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragged-buffer
+[2023-05-01 01:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: overloaded-iterables
+[2023-05-01 01:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suap-scraper
+[2023-05-01 01:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpc-orb
+[2023-05-01 01:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdesy
+[2023-05-01 01:55:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icepool
+[2023-05-01 01:55:34] INFO root fetch - processPackages [suap-scraper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 01:55:34] INFO root fetch - processPackages [mpc-orb]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-01 01:55:34] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-01 01:55:34] INFO root fetch - processPackages [ragged-buffer]: New version: [0.4.7] Old Version: [0.4.4]
+[2023-05-01 01:55:34] INFO root fetch - processPackages [pdesy]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-05-01 01:55:34] INFO root fetch - processPackages [icepool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 01:55:34] INFO root fetch - processPackages [mpc-orb]: executing diffoscope
+[2023-05-01 01:55:34] INFO root fetch - processPackages [mpc-orb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_orb-0.1.7.tar.gz tmp/mpc_orb-0.1.8.tar.gz --markdown 20230501/m/mpc-orb/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 01:55:34] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/e8/2a/b6010428d19086bc9dc9020d74bb4711707416ffe8edfb4ca1c43a80b1dc/suap_scraper-0.0.4.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [ragged-buffer]: Downloading https://files.pythonhosted.org/packages/eb/7a/b749555965f508237548c99263b559789b017eac942e694b45c5cec230b2/ragged_buffer-0.4.4.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [pdesy]: Downloading https://files.pythonhosted.org/packages/de/4e/bf3296bc9eaf23f862ee84738a53a9a4b1ab12857c732b109a47a1edede0/pDESy-0.4.9.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 01:55:34] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.6.1.tar.gz tmp/overloaded-iterables-0.6.2.tar.gz --markdown 20230501/o/overloaded-iterables/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-01 01:55:34] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/94/88/20b99789579285e85ed1bc1b2de8bbdca61acab6696cc2621582ca9cd72e/icepool-0.8.0.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [suap-scraper]: executing diffoscope
+[2023-05-01 01:55:34] INFO root fetch - processPackages [suap-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suap_scraper-0.0.3.tar.gz tmp/suap_scraper-0.0.4.tar.gz --markdown 20230501/s/suap-scraper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 01:55:34] INFO root fetch - processPackages [pdesy]: Downloading https://files.pythonhosted.org/packages/39/32/fbd756d616ce8eac516d48c1b24bed37846139b88f1f33b1c697bd1472e3/pDESy-0.5.0.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [ragged-buffer]: Downloading https://files.pythonhosted.org/packages/65/de/8947e5011878daefc811d4090e76d6733c8ab9faf5171b351c87765c1c0e/ragged_buffer-0.4.7.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [pdesy]: executing diffoscope
+[2023-05-01 01:55:34] INFO root fetch - processPackages [pdesy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pDESy-0.4.9.tar.gz tmp/pDESy-0.5.0.tar.gz --markdown 20230501/p/pdesy/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-05-01 01:55:34] INFO root fetch - processPackages [icepool]: Downloading https://files.pythonhosted.org/packages/89/19/d048a9d0f7be7d936293f865a84bdffde2fd5b06a3b5773d75e376762197/icepool-0.9.0.tar.gz
+[2023-05-01 01:55:34] INFO root fetch - processPackages [ragged-buffer]: executing diffoscope
+[2023-05-01 01:55:34] INFO root fetch - processPackages [ragged-buffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragged_buffer-0.4.4.tar.gz tmp/ragged_buffer-0.4.7.tar.gz --markdown 20230501/r/ragged-buffer/0.4.4-0.4.7/diff.md --exclude *.pyd
+[2023-05-01 01:55:34] INFO root fetch - processPackages [icepool]: executing diffoscope
+[2023-05-01 01:55:34] INFO root fetch - processPackages [icepool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepool-0.8.0.tar.gz tmp/icepool-0.9.0.tar.gz --markdown 20230501/i/icepool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 01:55:35] INFO root fetch - main [MainThread]: End processing [mpc-orb]: success
+[2023-05-01 01:55:35] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
+[2023-05-01 01:55:35] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 01:55:35] INFO root fetch - main [MainThread]: End processing [pdesy]: success
+[2023-05-01 01:55:36] INFO root fetch - main [MainThread]: End processing [icepool]: success
+[2023-05-01 01:55:36] INFO root fetch - main [MainThread]: End processing [ragged-buffer]: success
+[2023-05-01 01:55:36] INFO root fetch - main [MainThread]: Store serial: [17920877]
