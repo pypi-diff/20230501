@@ -282,3 +282,60 @@
 [2023-05-01 00:36:40] INFO root fetch - main [MainThread]: End processing [drf-social-oauth2]: success
 [2023-05-01 00:36:40] INFO root fetch - main [MainThread]: End processing [PyLTSpice]: success
 [2023-05-01 00:36:40] INFO root fetch - main [MainThread]: Store serial: [17920490]
+[2023-05-01 00:41:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920490]
+[2023-05-01 00:41:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rankgun
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itkwasm-dicom-emscripten
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sfu-torch-lib
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itkwasm-dicom
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyHomepass
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redmage
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alignem
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: repository-cli
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyterlab-ui-profiler
+[2023-05-01 00:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ddql-optimal-execution
+[2023-05-01 00:41:49] INFO root fetch - processPackages [redmage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 00:41:49] INFO root fetch - processPackages [sfu-torch-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 00:41:49] INFO root fetch - processPackages [rankgun]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-01 00:41:49] ERROR root fetch - processPackages [PyHomepass]: Unable to get metadata: No such project 'PyHomepass'
+[2023-05-01 00:41:49] WARNING root fetch - processPackages [itkwasm-dicom-emscripten]: Skipping, unable to determine old version
+[2023-05-01 00:41:49] INFO root fetch - processPackages [jupyterlab-ui-profiler]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 00:41:49] WARNING root fetch - processPackages [itkwasm-dicom]: Skipping, unable to determine old version
+[2023-05-01 00:41:49] INFO root fetch - main [MainThread]: End processing [PyHomepass] error
+[2023-05-01 00:41:49] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom-emscripten] error
+[2023-05-01 00:41:49] INFO root fetch - processPackages [alignem]: New version: [0.5.440] Old Version: [0.5.439]
+[2023-05-01 00:41:49] INFO root fetch - main [MainThread]: End processing [itkwasm-dicom] error
+[2023-05-01 00:41:49] INFO root fetch - processPackages [ddql-optimal-execution]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-01 00:41:49] INFO root fetch - processPackages [repository-cli]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-01 00:41:49] INFO root fetch - processPackages [sfu-torch-lib]: Downloading https://files.pythonhosted.org/packages/b1/9d/3c6d3b1fd9018bb12b0dc75c481016c80fc0c54eb988d380232a869c9713/sfu-torch-lib-0.0.8.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [alignem]: Downloading https://files.pythonhosted.org/packages/26/69/0e9350413d4060951ceb740f6260b6e287a87ad3a6bb67c5dd88f4f7fac9/alignem-0.5.439.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [jupyterlab-ui-profiler]: Downloading https://files.pythonhosted.org/packages/ca/9a/18d27263d50d136a8abcf5b1119bf549158fe21d6f35c92fd8040bd5af81/jupyterlab_ui_profiler-0.2.0.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/80/2c/4da3526415b0aabd33b5ecc138b19caf0b3a0614dfb6012df7528fc3e480/redmage-0.0.2.tar.gz
+[2023-05-01 00:41:49] WARNING root fetch - processPackages [alignem]: Skipping package: exceeds size limit 42503476>=10485760
+[2023-05-01 00:41:49] INFO root fetch - main [MainThread]: End processing [alignem] error
+[2023-05-01 00:41:49] INFO root fetch - processPackages [ddql-optimal-execution]: Downloading https://files.pythonhosted.org/packages/1e/3b/218d46af94119d62e6c230070145be550cef67279f2d194c09b818bc724a/ddql_optimal_execution-0.1.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/86/32/e8fdfbd0ed7d858833ecbbdc6b3fc1f40b0b694f6548385b6d5cb357487b/repository-cli-0.5.0.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [rankgun]: Downloading https://files.pythonhosted.org/packages/91/3d/bd591f8a5c82bcecffdaba9587a3b7e49d4aad565015cf3c022b0cdaccc4/rankgun-2.0.6.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-05-01 00:41:49] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.0.1.tar.gz tmp/redmage-0.0.2.tar.gz --markdown 20230501/r/redmage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 00:41:49] INFO root fetch - processPackages [rankgun]: executing diffoscope
+[2023-05-01 00:41:49] INFO root fetch - processPackages [rankgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rankgun-2.0.5.tar.gz tmp/rankgun-2.0.6.tar.gz --markdown 20230501/r/rankgun/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-01 00:41:49] INFO root fetch - processPackages [sfu-torch-lib]: Downloading https://files.pythonhosted.org/packages/53/d3/59502d956314c98604c51fa54b6d9ca7b535a4a0600dae6265c30f1bf228/sfu-torch-lib-0.0.9.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [ddql-optimal-execution]: Downloading https://files.pythonhosted.org/packages/a2/4e/afbf2608386009d5355e4bd5856d598ade57d01cca7d9019fcb5c0c09c73/ddql_optimal_execution-0.1.1.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [repository-cli]: Downloading https://files.pythonhosted.org/packages/82/c1/d116ce009d8947a8cdd4c70f1a2037e5861989d011cbff2670b736bea166/repository-cli-0.6.0.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [ddql-optimal-execution]: executing diffoscope
+[2023-05-01 00:41:49] INFO root fetch - processPackages [ddql-optimal-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddql_optimal_execution-0.1.tar.gz tmp/ddql_optimal_execution-0.1.1.tar.gz --markdown 20230501/d/ddql-optimal-execution/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 00:41:49] INFO root fetch - processPackages [repository-cli]: executing diffoscope
+[2023-05-01 00:41:49] INFO root fetch - processPackages [repository-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository-cli-0.5.0.tar.gz tmp/repository-cli-0.6.0.tar.gz --markdown 20230501/r/repository-cli/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-01 00:41:49] INFO root fetch - processPackages [jupyterlab-ui-profiler]: Downloading https://files.pythonhosted.org/packages/23/bb/e811965d609a3be337b8277283c5aabf4cd43f98791f2e4f6b74f9f4a0f8/jupyterlab_ui_profiler-0.2.1.tar.gz
+[2023-05-01 00:41:49] INFO root fetch - processPackages [sfu-torch-lib]: executing diffoscope
+[2023-05-01 00:41:49] INFO root fetch - processPackages [sfu-torch-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfu-torch-lib-0.0.8.tar.gz tmp/sfu-torch-lib-0.0.9.tar.gz --markdown 20230501/s/sfu-torch-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 00:41:49] INFO root fetch - processPackages [jupyterlab-ui-profiler]: executing diffoscope
+[2023-05-01 00:41:49] INFO root fetch - processPackages [jupyterlab-ui-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_ui_profiler-0.2.0.tar.gz tmp/jupyterlab_ui_profiler-0.2.1.tar.gz --markdown 20230501/j/jupyterlab-ui-profiler/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 00:41:50] INFO root fetch - main [MainThread]: End processing [ddql-optimal-execution]: success
+[2023-05-01 00:41:50] INFO root fetch - main [MainThread]: End processing [rankgun]: success
+[2023-05-01 00:41:50] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-05-01 00:41:50] INFO root fetch - main [MainThread]: End processing [repository-cli]: success
+[2023-05-01 00:41:51] INFO root fetch - main [MainThread]: End processing [sfu-torch-lib]: success
+[2023-05-01 00:41:52] INFO root fetch - main [MainThread]: End processing [jupyterlab-ui-profiler]: success
+[2023-05-01 00:41:52] INFO root fetch - main [MainThread]: Store serial: [17920526]
