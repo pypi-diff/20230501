@@ -208,3 +208,45 @@
 [2023-05-01 00:26:17] INFO root fetch - main [MainThread]: End processing [voxelmap]: success
 [2023-05-01 00:26:18] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-05-01 00:26:18] INFO root fetch - main [MainThread]: Store serial: [17920426]
+[2023-05-01 00:31:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920426]
+[2023-05-01 00:31:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 00:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ProjZ.py
+[2023-05-01 00:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numpy-flint
+[2023-05-01 00:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cocotbext-vidio
+[2023-05-01 00:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itkwasm-compress-stringify-emscripten
+[2023-05-01 00:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rankgun
+[2023-05-01 00:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OEISsequences
+[2023-05-01 00:31:27] INFO root fetch - processPackages [cocotbext-vidio]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 00:31:27] INFO root fetch - processPackages [ProjZ.py]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-05-01 00:31:27] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-01 00:31:27] INFO root fetch - processPackages [rankgun]: New version: [2.0.5] Old Version: [1.0.1]
+[2023-05-01 00:31:27] INFO root fetch - processPackages [numpy-flint]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-01 00:31:27] INFO root fetch - processPackages [OEISsequences]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 00:31:27] INFO root fetch - processPackages [cocotbext-vidio]: Downloading https://files.pythonhosted.org/packages/66/8a/ef0c52b63d237a69963a931762deab77db38d818a8c28c6efeb0f28b8976/cocotbext-vidio-0.0.2.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [ProjZ.py]: Downloading https://files.pythonhosted.org/packages/ad/6e/c7d3abcf90a5f7c7df732a04c9b2f3084e53ceae80e858051d848a09d4cc/ProjZ.py-2.4.4.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [numpy-flint]: Downloading https://files.pythonhosted.org/packages/75/d6/59ffa5ebff9d2efbe6a0fe14ad6a2467d6011747d4f97d4689e29ddf4259/numpy-flint-0.2.3.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: Downloading https://files.pythonhosted.org/packages/fd/44/41d26445e278484f25b24de0471a83c9441270ced74fe0165f880f970952/itkwasm_compress_stringify_emscripten-0.4.5.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [OEISsequences]: Downloading https://files.pythonhosted.org/packages/3a/7d/6419b4a205449a139722f90569fa462c8020b2974b5e6f14ef836759d2e6/OEISsequences-0.1.8.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-05-01 00:31:27] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.4.3.tar.gz tmp/ProjZ.py-2.4.4.tar.gz --markdown 20230501/P/ProjZ.py/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-05-01 00:31:27] INFO root fetch - processPackages [rankgun]: Downloading https://files.pythonhosted.org/packages/c0/2c/b42202381680975b0b45fd99abb7fa700e3dfcf3a4682b5032c9c44179a2/rankgun-2.0.5.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: executing diffoscope
+[2023-05-01 00:31:27] INFO root fetch - processPackages [itkwasm-compress-stringify-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compress_stringify_emscripten-0.4.4.tar.gz tmp/itkwasm_compress_stringify_emscripten-0.4.5.tar.gz --markdown 20230501/i/itkwasm-compress-stringify-emscripten/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-01 00:31:27] INFO root fetch - processPackages [rankgun]: executing diffoscope
+[2023-05-01 00:31:27] INFO root fetch - processPackages [rankgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rankgun-1.0.1.tar.gz tmp/rankgun-2.0.5.tar.gz --markdown 20230501/r/rankgun/1.0.1-2.0.5/diff.md --exclude *.pyd
+[2023-05-01 00:31:27] INFO root fetch - processPackages [cocotbext-vidio]: Downloading https://files.pythonhosted.org/packages/08/36/b61ff68395ec76349f116eac65d32847a1dc5fc7cdc9df91669a69daaf74/cocotbext-vidio-0.0.3.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [cocotbext-vidio]: executing diffoscope
+[2023-05-01 00:31:27] INFO root fetch - processPackages [cocotbext-vidio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocotbext-vidio-0.0.2.tar.gz tmp/cocotbext-vidio-0.0.3.tar.gz --markdown 20230501/c/cocotbext-vidio/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 00:31:27] INFO root fetch - processPackages [numpy-flint]: Downloading https://files.pythonhosted.org/packages/a4/cc/02fdec1b7122b143e538a6b3753cd2aa0050b6f217e242e17aaae78c8fab/numpy-flint-0.2.4.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [OEISsequences]: Downloading https://files.pythonhosted.org/packages/52/77/b1535f6e38bc45155d6d08bb55c675e7d2b785c4690b6f7b78067db78b04/OEISsequences-0.1.9.tar.gz
+[2023-05-01 00:31:27] INFO root fetch - processPackages [numpy-flint]: executing diffoscope
+[2023-05-01 00:31:27] INFO root fetch - processPackages [numpy-flint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numpy-flint-0.2.3.tar.gz tmp/numpy-flint-0.2.4.tar.gz --markdown 20230501/n/numpy-flint/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-01 00:31:28] INFO root fetch - processPackages [OEISsequences]: executing diffoscope
+[2023-05-01 00:31:28] INFO root fetch - processPackages [OEISsequences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OEISsequences-0.1.8.tar.gz tmp/OEISsequences-0.1.9.tar.gz --markdown 20230501/O/OEISsequences/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 00:31:28] INFO root fetch - main [MainThread]: End processing [rankgun]: success
+[2023-05-01 00:31:28] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify-emscripten]: success
+[2023-05-01 00:31:28] INFO root fetch - main [MainThread]: End processing [cocotbext-vidio]: success
+[2023-05-01 00:31:28] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-05-01 00:31:29] INFO root fetch - main [MainThread]: End processing [OEISsequences]: success
+[2023-05-01 00:31:30] INFO root fetch - main [MainThread]: End processing [numpy-flint]: success
+[2023-05-01 00:31:30] INFO root fetch - main [MainThread]: Store serial: [17920472]
