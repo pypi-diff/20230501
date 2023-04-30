@@ -550,3 +550,29 @@
 [2023-05-01 01:13:00] INFO root fetch - main [MainThread]: End processing [balcony]: success
 [2023-05-01 01:13:00] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
 [2023-05-01 01:13:00] INFO root fetch - main [MainThread]: Store serial: [17920692]
+[2023-05-01 01:18:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920692]
+[2023-05-01 01:18:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 01:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cbra
+[2023-05-01 01:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kmaps
+[2023-05-01 01:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unisci
+[2023-05-01 01:18:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elbow
+[2023-05-01 01:18:09] INFO root fetch - processPackages [unisci]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-01 01:18:09] INFO root fetch - processPackages [kmaps]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 01:18:09] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a94]
+[2023-05-01 01:18:09] WARNING root fetch - processPackages [elbow]: Skipping, unable to determine old version
+[2023-05-01 01:18:09] INFO root fetch - main [MainThread]: End processing [elbow] error
+[2023-05-01 01:18:09] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/0e/8f/f74a5484624dce1890bcc57cba77eb0b8f0d2b5d1e7565279f575aa674ad/cbra-2.0.0a94.tar.gz
+[2023-05-01 01:18:09] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/75/88/b9c8581493af020bcdba6a9d7c337e9f094c9c5920e4a31277be7eabf997/kmaps-0.0.4.tar.gz
+[2023-05-01 01:18:09] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/56/ba/efcf3591e883b88787a0321e97adad3502d499b6f1f5e32600979aeae00b/unisci-1.4.2.tar.gz
+[2023-05-01 01:18:09] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-01 01:18:09] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a94.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230501/c/cbra/2.0.0a94-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-01 01:18:09] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/61/18/68e2b00a926922711c62a82c92bc8291ece2b5624983c5c5a56fd20d4785/kmaps-0.0.5.tar.gz
+[2023-05-01 01:18:09] INFO root fetch - processPackages [unisci]: Downloading https://files.pythonhosted.org/packages/12/91/e5cd4608897ac4e33850591b41f62ee46580363be3b3795711b16fd8fa7a/unisci-1.4.3.tar.gz
+[2023-05-01 01:18:09] INFO root fetch - processPackages [kmaps]: executing diffoscope
+[2023-05-01 01:18:09] INFO root fetch - processPackages [kmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmaps-0.0.4.tar.gz tmp/kmaps-0.0.5.tar.gz --markdown 20230501/k/kmaps/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 01:18:09] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-05-01 01:18:09] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.4.2.tar.gz tmp/unisci-1.4.3.tar.gz --markdown 20230501/u/unisci/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-01 01:18:10] INFO root fetch - main [MainThread]: End processing [kmaps]: success
+[2023-05-01 01:18:10] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-05-01 01:18:14] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-01 01:18:14] INFO root fetch - main [MainThread]: Store serial: [17920707]
