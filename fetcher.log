@@ -160,3 +160,51 @@
 [2023-05-01 00:21:06] INFO root fetch - main [MainThread]: End processing [SchedulerX]: success
 [2023-05-01 00:21:07] INFO root fetch - main [MainThread]: End processing [fintekkers-ledger-models]: success
 [2023-05-01 00:21:07] INFO root fetch - main [MainThread]: Store serial: [17920395]
+[2023-05-01 00:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920395]
+[2023-05-01 00:26:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phsa
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alacorder
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkwasm-compress-stringify-wasi
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rust-udf-example
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voxelmap
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parser201
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: itkwasm-compress-stringify
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddql-optimal-execution
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ProjZ.py
+[2023-05-01 00:26:15] WARNING root fetch - processPackages [phsa]: Skipping, unable to determine old version
+[2023-05-01 00:26:15] INFO root fetch - main [MainThread]: End processing [phsa] error
+[2023-05-01 00:26:15] INFO root fetch - processPackages [ProjZ.py]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-05-01 00:26:15] INFO root fetch - processPackages [alacorder]: New version: [80.0.8] Old Version: [80.0.7]
+[2023-05-01 00:26:15] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-01 00:26:15] INFO root fetch - processPackages [parser201]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-01 00:26:16] WARNING root fetch - processPackages [rust-udf-example]: Skipping, unable to determine old version
+[2023-05-01 00:26:16] INFO root fetch - main [MainThread]: End processing [rust-udf-example] error
+[2023-05-01 00:26:16] WARNING root fetch - processPackages [ddql-optimal-execution]: Skipping, unable to determine old version
+[2023-05-01 00:26:16] INFO root fetch - main [MainThread]: End processing [ddql-optimal-execution] error
+[2023-05-01 00:26:16] INFO root fetch - processPackages [voxelmap]: New version: [4.0.0] Old Version: [3.7.1]
+[2023-05-01 00:26:16] INFO root fetch - processPackages [ProjZ.py]: executing diffoscope
+[2023-05-01 00:26:16] INFO root fetch - processPackages [ProjZ.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProjZ.py-2.4.2.tar.gz tmp/ProjZ.py-2.4.3.tar.gz --markdown 20230501/P/ProjZ.py/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-05-01 00:26:16] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-01 00:26:16] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.0.7.tar.gz tmp/alacorder-80.0.8.tar.gz --markdown 20230501/a/alacorder/80.0.7-80.0.8/diff.md --exclude *.pyd
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify]: Downloading https://files.pythonhosted.org/packages/26/df/e8f3d4f985dd6f35d5d2d0d3f1f5e9e452161a85857b4291c9c2ebb620e4/itkwasm_compress_stringify-0.4.4.tar.gz
+[2023-05-01 00:26:16] INFO root fetch - processPackages [parser201]: Downloading https://files.pythonhosted.org/packages/59/ca/9206ff492d5cd94111ce0463db65b51c01eb0d7aa0d38fa26dc025b1e76a/parser201-1.3.1.tar.gz
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: Downloading https://files.pythonhosted.org/packages/4d/c3/82c6ac5f09b96d1c6d43080b8cc2e2336216b70fc81c372b9a46a80f882f/itkwasm_compress_stringify_wasi-0.4.5.tar.gz
+[2023-05-01 00:26:16] INFO root fetch - processPackages [voxelmap]: Downloading https://files.pythonhosted.org/packages/a1/24/23b613bf1a8640f4f3e71f71b3814fdd6270f72df1ff1884a8feab388377/voxelmap-4.0.0.tar.gz
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify]: Downloading https://files.pythonhosted.org/packages/df/65/73c1cb2a69e07ffdb03e7118b7a346bf8b74397e3868845b6c235f5d1467/itkwasm_compress_stringify-0.4.5.tar.gz
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: executing diffoscope
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compress_stringify_wasi-0.4.4.tar.gz tmp/itkwasm_compress_stringify_wasi-0.4.5.tar.gz --markdown 20230501/i/itkwasm-compress-stringify-wasi/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-01 00:26:16] INFO root fetch - processPackages [voxelmap]: executing diffoscope
+[2023-05-01 00:26:16] INFO root fetch - processPackages [voxelmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelmap-3.7.1.tar.gz tmp/voxelmap-4.0.0.tar.gz --markdown 20230501/v/voxelmap/3.7.1-4.0.0/diff.md --exclude *.pyd
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify]: executing diffoscope
+[2023-05-01 00:26:16] INFO root fetch - processPackages [itkwasm-compress-stringify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compress_stringify-0.4.4.tar.gz tmp/itkwasm_compress_stringify-0.4.5.tar.gz --markdown 20230501/i/itkwasm-compress-stringify/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-01 00:26:16] INFO root fetch - processPackages [parser201]: Downloading https://files.pythonhosted.org/packages/63/2d/e684d57583dfc0611f98e6ab696842eccbb63943fc3d49c089aa4db6a47c/parser201-1.4.0.tar.gz
+[2023-05-01 00:26:16] INFO root fetch - processPackages [parser201]: executing diffoscope
+[2023-05-01 00:26:16] INFO root fetch - processPackages [parser201]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parser201-1.3.1.tar.gz tmp/parser201-1.4.0.tar.gz --markdown 20230501/p/parser201/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-01 00:26:17] INFO root fetch - main [MainThread]: End processing [ProjZ.py]: success
+[2023-05-01 00:26:17] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify]: success
+[2023-05-01 00:26:17] INFO root fetch - main [MainThread]: End processing [itkwasm-compress-stringify-wasi]: success
+[2023-05-01 00:26:17] INFO root fetch - main [MainThread]: End processing [parser201]: success
+[2023-05-01 00:26:17] INFO root fetch - main [MainThread]: End processing [voxelmap]: success
+[2023-05-01 00:26:18] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-01 00:26:18] INFO root fetch - main [MainThread]: Store serial: [17920426]
