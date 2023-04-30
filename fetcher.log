@@ -373,3 +373,28 @@
 [2023-05-01 00:47:03] INFO root fetch - main [MainThread]: End processing [fbench]: success
 [2023-05-01 00:47:03] INFO root fetch - main [MainThread]: End processing [pytagi]: success
 [2023-05-01 00:47:03] INFO root fetch - main [MainThread]: Store serial: [17920558]
+[2023-05-01 00:52:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920558]
+[2023-05-01 00:52:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: srtk
+[2023-05-01 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proceso
+[2023-05-01 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geofabrics
+[2023-05-01 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysecurecircuit
+[2023-05-01 00:52:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: herald-of-completion
+[2023-05-01 00:52:12] INFO root fetch - processPackages [geofabrics]: New version: [0.9.4] Old Version: [0.9.3a0]
+[2023-05-01 00:52:12] WARNING root fetch - processPackages [proceso]: Skipping, unable to determine old version
+[2023-05-01 00:52:12] INFO root fetch - main [MainThread]: End processing [proceso] error
+[2023-05-01 00:52:12] WARNING root fetch - processPackages [srtk]: Skipping, unable to determine old version
+[2023-05-01 00:52:12] INFO root fetch - main [MainThread]: End processing [srtk] error
+[2023-05-01 00:52:12] WARNING root fetch - processPackages [pysecurecircuit]: Skipping, unable to determine old version
+[2023-05-01 00:52:12] INFO root fetch - main [MainThread]: End processing [pysecurecircuit] error
+[2023-05-01 00:52:12] INFO root fetch - processPackages [herald-of-completion]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-01 00:52:12] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/ab/a3/b71a0a3a708fc1aaada6e7d6df13d323de45ae1771809c5f09f6b5f972ae/geofabrics-0.9.3a0.tar.gz
+[2023-05-01 00:52:12] INFO root fetch - processPackages [herald-of-completion]: Downloading https://files.pythonhosted.org/packages/37/ea/3b25ad179c80afb6f692c5164570d08fe4b7b7325e1b66cb529060a95d89/herald-of-completion-0.3.0.tar.gz
+[2023-05-01 00:52:12] INFO root fetch - processPackages [herald-of-completion]: executing diffoscope
+[2023-05-01 00:52:12] INFO root fetch - processPackages [herald-of-completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herald-of-completion-0.2.1.tar.gz tmp/herald-of-completion-0.3.0.tar.gz --markdown 20230501/h/herald-of-completion/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 00:52:13] INFO root fetch - processPackages [geofabrics]: Downloading https://files.pythonhosted.org/packages/f3/2f/b84fea41bea143f4e81d14dc8a934fe6294f1788b6baf846c84da4b88c8d/geofabrics-0.9.4.tar.gz
+[2023-05-01 00:52:13] INFO root fetch - processPackages [geofabrics]: executing diffoscope
+[2023-05-01 00:52:13] INFO root fetch - processPackages [geofabrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofabrics-0.9.3a0.tar.gz tmp/geofabrics-0.9.4.tar.gz --markdown 20230501/g/geofabrics/0.9.3a0-0.9.4/diff.md --exclude *.pyd
+[2023-05-01 00:52:13] INFO root fetch - main [MainThread]: End processing [herald-of-completion]: success
+[2023-05-01 00:52:15] INFO root fetch - main [MainThread]: End processing [geofabrics]: success
+[2023-05-01 00:52:15] INFO root fetch - main [MainThread]: Store serial: [17920580]
