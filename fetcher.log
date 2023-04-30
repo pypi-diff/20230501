@@ -339,3 +339,37 @@
 [2023-05-01 00:41:51] INFO root fetch - main [MainThread]: End processing [sfu-torch-lib]: success
 [2023-05-01 00:41:52] INFO root fetch - main [MainThread]: End processing [jupyterlab-ui-profiler]: success
 [2023-05-01 00:41:52] INFO root fetch - main [MainThread]: Store serial: [17920526]
+[2023-05-01 00:46:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920526]
+[2023-05-01 00:47:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 00:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytagi
+[2023-05-01 00:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ds4finance
+[2023-05-01 00:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-homepass
+[2023-05-01 00:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrogibs
+[2023-05-01 00:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telescope-sdk
+[2023-05-01 00:47:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbench
+[2023-05-01 00:47:01] INFO root fetch - processPackages [pytagi]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-01 00:47:01] WARNING root fetch - processPackages [ds4finance]: Skipping, unable to determine old version
+[2023-05-01 00:47:01] INFO root fetch - main [MainThread]: End processing [ds4finance] error
+[2023-05-01 00:47:01] INFO root fetch - processPackages [telescope-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 00:47:01] INFO root fetch - processPackages [hydrogibs]: New version: [0.1.9] Old Version: [0.1.11]
+[2023-05-01 00:47:01] WARNING root fetch - processPackages [py-homepass]: Skipping, unable to determine old version
+[2023-05-01 00:47:01] INFO root fetch - main [MainThread]: End processing [py-homepass] error
+[2023-05-01 00:47:01] INFO root fetch - processPackages [fbench]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 00:47:01] INFO root fetch - processPackages [pytagi]: Downloading https://files.pythonhosted.org/packages/6f/d6/362d04247fa21286d4997a82969b061e19173da3744ae6ac40a4b1f9ff37/pytagi-0.1.4.tar.gz
+[2023-05-01 00:47:02] INFO root fetch - processPackages [hydrogibs]: Downloading https://files.pythonhosted.org/packages/6e/b9/7b5d94fd43b7a5d92f7d821c6a7d8d0b804ec185977cfce70e02d2932042/hydrogibs-0.1.11.tar.gz
+[2023-05-01 00:47:02] INFO root fetch - processPackages [telescope-sdk]: executing diffoscope
+[2023-05-01 00:47:02] INFO root fetch - processPackages [telescope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telescope_sdk-0.1.8.tar.gz tmp/telescope_sdk-0.1.9.tar.gz --markdown 20230501/t/telescope-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 00:47:02] INFO root fetch - processPackages [fbench]: Downloading https://files.pythonhosted.org/packages/a1/70/8a9e250d9483439c3c1d8ead2290cc23a867632a81fd07878ef3a35f8636/fbench-0.2.0.tar.gz
+[2023-05-01 00:47:02] INFO root fetch - processPackages [pytagi]: Downloading https://files.pythonhosted.org/packages/d1/42/87e27aac0269e6fa47093ba938b266c86f6a29feb150c5452d618e8e1166/pytagi-0.1.5.tar.gz
+[2023-05-01 00:47:02] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-05-01 00:47:02] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.1.11.tar.gz tmp/hydrogibs-0.1.9.tar.gz --markdown 20230501/h/hydrogibs/0.1.11-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 00:47:02] INFO root fetch - processPackages [fbench]: Downloading https://files.pythonhosted.org/packages/f2/2c/83f0e75066f02acf80a9e43046eee8dbcad7f9d60618bff55ac0f4ce38a4/fbench-0.3.0.tar.gz
+[2023-05-01 00:47:02] INFO root fetch - processPackages [pytagi]: executing diffoscope
+[2023-05-01 00:47:02] INFO root fetch - processPackages [pytagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytagi-0.1.4.tar.gz tmp/pytagi-0.1.5.tar.gz --markdown 20230501/p/pytagi/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-01 00:47:02] INFO root fetch - processPackages [fbench]: executing diffoscope
+[2023-05-01 00:47:02] INFO root fetch - processPackages [fbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbench-0.2.0.tar.gz tmp/fbench-0.3.0.tar.gz --markdown 20230501/f/fbench/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 00:47:03] INFO root fetch - main [MainThread]: End processing [telescope-sdk]: success
+[2023-05-01 00:47:03] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-05-01 00:47:03] INFO root fetch - main [MainThread]: End processing [fbench]: success
+[2023-05-01 00:47:03] INFO root fetch - main [MainThread]: End processing [pytagi]: success
+[2023-05-01 00:47:03] INFO root fetch - main [MainThread]: Store serial: [17920558]
