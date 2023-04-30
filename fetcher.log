@@ -416,3 +416,67 @@
 [2023-05-01 00:57:23] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.6.2.tar.gz tmp/overloaded-iterables-0.6.22.tar.gz --markdown 20230501/o/overloaded-iterables/0.6.2-0.6.22/diff.md --exclude *.pyd
 [2023-05-01 00:57:25] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
 [2023-05-01 00:57:25] INFO root fetch - main [MainThread]: Store serial: [17920596]
+[2023-05-01 01:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920596]
+[2023-05-01 01:02:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscemu
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redmage
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MetaSBT
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nitrado
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinymovr
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pan-threat-vault-python
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydrogibs
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unisci
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysecurecircuit
+[2023-05-01 01:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tmnt-cu101
+[2023-05-01 01:02:33] INFO root fetch - processPackages [redmage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pyscemu]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [MetaSBT]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [hydrogibs]: New version: [0.1.9] Old Version: [0.1.10]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [unisci]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-01 01:02:33] WARNING root fetch - processPackages [pysecurecircuit]: Skipping, unable to determine old version
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pysecurecircuit]: Start processing: dramatiq-crontab
+[2023-05-01 01:02:33] INFO root fetch - main [MainThread]: End processing [pysecurecircuit] error
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230429] Old Version: [0.7.0b20230428]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pan-threat-vault-python]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tinymovr]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [dramatiq-crontab]: New version: [1.0rc3] Old Version: [1.0rc1]
+[2023-05-01 01:02:33] INFO root fetch - processPackages [unisci]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [unisci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisci-1.4.0.tar.gz tmp/unisci-1.4.1.tar.gz --markdown 20230501/u/unisci/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230428.tar.gz tmp/tmnt-cu101-0.7.0b20230429.tar.gz --markdown 20230501/t/tmnt-cu101/0.7.0b20230428-0.7.0b20230429/diff.md --exclude *.pyd
+[2023-05-01 01:02:33] INFO root fetch - processPackages [MetaSBT]: Downloading https://files.pythonhosted.org/packages/96/4f/8064c3b5272f6613ec99b0bb0b3410486f8ce32f9ec4d6ebf53149d426e6/MetaSBT-0.1.0.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/30/c2/689ba8ee276e3acf40b38a58489093c7127580e319f19f4a45cc5384324b/redmage-0.0.3.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/5d/f4/e1740a68739dfe9b8e39f77f0423f257d01e04eef756c00f6ee3db2432c0/pyscemu-0.1.6.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [hydrogibs]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [hydrogibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrogibs-0.1.10.tar.gz tmp/hydrogibs-0.1.9.tar.gz --markdown 20230501/h/hydrogibs/0.1.10-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pan-threat-vault-python]: Downloading https://files.pythonhosted.org/packages/25/45/b4101a00ed1813d2f5d0dc47343768b71e876d338093d0bf36c94b7758fc/pan-threat-vault-python-0.2.0.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/a4/d9/0780d5f01d3015bd865e1106cf211529ec699f4ed79a8d68c128a1e78673/tinymovr-1.3.1.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [dramatiq-crontab]: Downloading https://files.pythonhosted.org/packages/22/74/61ec0beb61342cebd3763fb42f92d064cd4b1446722b6824697ee5d8ab33/dramatiq-crontab-1.0rc1.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230501/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 01:02:33] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.0.2.tar.gz tmp/redmage-0.0.3.tar.gz --markdown 20230501/r/redmage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tinymovr]: Downloading https://files.pythonhosted.org/packages/c3/be/8f0590d7b6c6f0b79b2d72319bf80433fe9d6a9bb1c27be740d16662e93c/tinymovr-1.4.0.tar.gz
+[2023-05-01 01:02:33] ERROR root fetch - processPackages [MetaSBT]: Unable to fetch info: No such project/version 'MetaSBT' 0.1.0a0
+[2023-05-01 01:02:33] INFO root fetch - main [MainThread]: End processing [MetaSBT] error
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pan-threat-vault-python]: Downloading https://files.pythonhosted.org/packages/fd/bd/625d7481cc21235091d36f69779417d077947d9623365d2484ce26c6ceaa/pan-threat-vault-python-0.3.0.tar.gz
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.1.5.tar.gz tmp/pyscemu-0.1.6.tar.gz --markdown 20230501/p/pyscemu/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tinymovr]: executing diffoscope
+[2023-05-01 01:02:33] INFO root fetch - processPackages [tinymovr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinymovr-1.3.1.tar.gz tmp/tinymovr-1.4.0.tar.gz --markdown 20230501/t/tinymovr/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-01 01:02:34] INFO root fetch - processPackages [dramatiq-crontab]: Downloading https://files.pythonhosted.org/packages/ee/b6/35800d6f02ca6727603c13dd3af072da61ed1b0d542bdab4a05f04cbae51/dramatiq-crontab-1.0rc3.tar.gz
+[2023-05-01 01:02:34] INFO root fetch - processPackages [pan-threat-vault-python]: executing diffoscope
+[2023-05-01 01:02:34] INFO root fetch - processPackages [pan-threat-vault-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pan-threat-vault-python-0.2.0.tar.gz tmp/pan-threat-vault-python-0.3.0.tar.gz --markdown 20230501/p/pan-threat-vault-python/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 01:02:34] INFO root fetch - processPackages [dramatiq-crontab]: executing diffoscope
+[2023-05-01 01:02:34] INFO root fetch - processPackages [dramatiq-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dramatiq-crontab-1.0rc1.tar.gz tmp/dramatiq-crontab-1.0rc3.tar.gz --markdown 20230501/d/dramatiq-crontab/1.0rc1-1.0rc3/diff.md --exclude *.pyd
+[2023-05-01 01:02:34] INFO root fetch - main [MainThread]: End processing [hydrogibs]: success
+[2023-05-01 01:02:34] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-05-01 01:02:34] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: End processing [dramatiq-crontab]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: End processing [unisci]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: End processing [tinymovr]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: End processing [pan-threat-vault-python]: success
+[2023-05-01 01:02:35] INFO root fetch - main [MainThread]: Store serial: [17920645]
