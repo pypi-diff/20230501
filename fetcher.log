@@ -576,3 +576,42 @@
 [2023-05-01 01:18:10] INFO root fetch - main [MainThread]: End processing [unisci]: success
 [2023-05-01 01:18:14] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-01 01:18:14] INFO root fetch - main [MainThread]: Store serial: [17920707]
+[2023-05-01 01:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920707]
+[2023-05-01 01:23:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 01:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysigma
+[2023-05-01 01:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starrail
+[2023-05-01 01:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpc-orb
+[2023-05-01 01:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EC521-malice-package1
+[2023-05-01 01:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starfyre
+[2023-05-01 01:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: systems-manager
+[2023-05-01 01:23:22] INFO root fetch - processPackages [pysigma]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-01 01:23:22] INFO root fetch - processPackages [EC521-malice-package1]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 01:23:23] INFO root fetch - processPackages [systems-manager]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 01:23:23] INFO root fetch - processPackages [mpc-orb]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starrail]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starfyre]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-01 01:23:23] INFO root fetch - processPackages [systems-manager]: executing diffoscope
+[2023-05-01 01:23:23] INFO root fetch - processPackages [systems-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systems_manager-0.8.0-py2.py3-none-any.whl.zip tmp/systems_manager-0.9.0-py2.py3-none-any.whl.zip --markdown 20230501/s/systems-manager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 01:23:23] INFO root fetch - processPackages [EC521-malice-package1]: executing diffoscope
+[2023-05-01 01:23:23] INFO root fetch - processPackages [EC521-malice-package1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EC521_malice_package1-0.2.tar.gz tmp/EC521_malice_package1-0.3.tar.gz --markdown 20230501/E/EC521-malice-package1/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 01:23:23] INFO root fetch - processPackages [pysigma]: Downloading https://files.pythonhosted.org/packages/13/9f/3e47b8bafe9f9f1ac348eb375abc3cb48231485e88682c0a7b64a12388b2/pysigma-0.9.8.tar.gz
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starrail]: Downloading https://files.pythonhosted.org/packages/b0/78/17bda5b7748b70e26003273bae0a23f3cf6b2936997285c4fc227262f376/starrail-0.0.1.tar.gz
+[2023-05-01 01:23:23] INFO root fetch - processPackages [pysigma]: executing diffoscope
+[2023-05-01 01:23:23] INFO root fetch - processPackages [pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma-0.9.7.tar.gz tmp/pysigma-0.9.8.tar.gz --markdown 20230501/p/pysigma/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starfyre]: Downloading https://files.pythonhosted.org/packages/2c/3b/1593c5ad7c2b338a3375b3260e148491940336487e65ff26450b77a92e51/starfyre-0.5.0.tar.gz
+[2023-05-01 01:23:23] INFO root fetch - processPackages [mpc-orb]: Downloading https://files.pythonhosted.org/packages/e3/62/305b0d985432312e278cf815857ccc1d8b232441b5fe176966ebcd4e2ea7/mpc_orb-0.1.8.tar.gz
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starrail]: Downloading https://files.pythonhosted.org/packages/cc/00/5b8d8fc59215db5b92c0c3dfd982160b9d12daef9c3d1699131c7b25a9bc/starrail-0.0.2.tar.gz
+[2023-05-01 01:23:23] INFO root fetch - processPackages [mpc-orb]: executing diffoscope
+[2023-05-01 01:23:23] INFO root fetch - processPackages [mpc-orb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_orb-0.1.7.tar.gz tmp/mpc_orb-0.1.8.tar.gz --markdown 20230501/m/mpc-orb/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starrail]: executing diffoscope
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrail-0.0.1.tar.gz tmp/starrail-0.0.2.tar.gz --markdown 20230501/s/starrail/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starfyre]: Downloading https://files.pythonhosted.org/packages/d7/4a/44e2a522e8c50cd11b51162d725b0cd5f2f047566cad02772a5a37ecb3d9/starfyre-0.6.0.tar.gz
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starfyre]: executing diffoscope
+[2023-05-01 01:23:23] INFO root fetch - processPackages [starfyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starfyre-0.5.0.tar.gz tmp/starfyre-0.6.0.tar.gz --markdown 20230501/s/starfyre/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-01 01:23:24] INFO root fetch - main [MainThread]: End processing [systems-manager]: success
+[2023-05-01 01:23:24] INFO root fetch - main [MainThread]: End processing [EC521-malice-package1]: success
+[2023-05-01 01:23:24] INFO root fetch - main [MainThread]: End processing [starrail]: success
+[2023-05-01 01:23:24] INFO root fetch - main [MainThread]: End processing [pysigma]: success
+[2023-05-01 01:23:26] INFO root fetch - main [MainThread]: End processing [mpc-orb]: success
+[2023-05-01 01:23:48] INFO root fetch - main [MainThread]: End processing [starfyre]: success
+[2023-05-01 01:23:48] INFO root fetch - main [MainThread]: Store serial: [17920726]
