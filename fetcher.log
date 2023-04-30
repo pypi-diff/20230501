@@ -63,3 +63,55 @@
 [2023-05-01 00:10:41] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
 [2023-05-01 00:10:43] INFO root fetch - main [MainThread]: End processing [pyppin]: success
 [2023-05-01 00:10:43] INFO root fetch - main [MainThread]: Store serial: [17920334]
+[2023-05-01 00:15:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920334]
+[2023-05-01 00:15:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-modrinth
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s3-credentials
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: storedict
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalguide
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alacorder
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botfleet
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brazilcep
+[2023-05-01 00:15:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyee
+[2023-05-01 00:15:52] INFO root fetch - processPackages [python-modrinth]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-01 00:15:52] INFO root fetch - processPackages [botfleet]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 00:15:52] INFO root fetch - processPackages [storedict]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 00:15:52] INFO root fetch - processPackages [s3-credentials]: New version: [0.9] Old Version: [0.8]
+[2023-05-01 00:15:52] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 00:15:52] INFO root fetch - processPackages [alacorder]: New version: [80.0.8] Old Version: [80.0.7]
+[2023-05-01 00:15:52] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-01 00:15:52] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230501/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 00:15:52] INFO root fetch - processPackages [python-modrinth]: Downloading https://files.pythonhosted.org/packages/23/d0/8af12d86304d6acc7e20e484c49afecb9cebe679f0432ffebe652e14467a/python-modrinth-1.1.0.tar.gz
+[2023-05-01 00:15:52] INFO root fetch - processPackages [storedict]: Downloading https://files.pythonhosted.org/packages/be/9d/cc9d861687c2384d3059add20347314a8b593147c461c68062684b5fa829/storedict-0.0.2-py3-none-any.whl
+[2023-05-01 00:15:52] INFO root fetch - processPackages [s3-credentials]: Downloading https://files.pythonhosted.org/packages/32/54/5d6e6f6be3baca454765aefc03c4498f64ebf4c738e4f13221cdb27ccf6d/s3-credentials-0.8.tar.gz
+[2023-05-01 00:15:52] INFO root fetch - processPackages [botfleet]: Downloading https://files.pythonhosted.org/packages/e4/a5/daaa21929efd6e1060ca296547faec9cd19c73b7a46b3c35328da5b6bf41/botfleet-0.0.4-py3-none-any.whl
+[2023-05-01 00:15:52] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/74/80/cc4f6e9a55ea7c931199e357296c84f85abe1e9ffc459c43efd8e31a0006/alacorder-80.0.7.tar.gz
+[2023-05-01 00:15:52] INFO root fetch - processPackages [botfleet]: executing diffoscope
+[2023-05-01 00:15:52] INFO root fetch - processPackages [botfleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botfleet-0.0.3-py3-none-any.whl.zip tmp/botfleet-0.0.4-py3-none-any.whl.zip --markdown 20230501/b/botfleet/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 00:15:52] INFO root fetch - processPackages [storedict]: Downloading https://files.pythonhosted.org/packages/19/13/975fa254f99f3a5245a7688978c962dacd49a1fc2728e24fbfe5675535e5/storedict-0.0.3-py3-none-any.whl
+[2023-05-01 00:15:52] INFO root fetch - processPackages [python-modrinth]: Downloading https://files.pythonhosted.org/packages/46/ad/8562048591c32ef1436c0dc291f5d659936d2e43b77f44bb9dbaba683f73/python-modrinth-1.2.0.tar.gz
+[2023-05-01 00:15:52] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/e1/c6/42ef1584d9343fe9b3b972986b95bd7b2a251e7a63e11c47de4a6aa72c67/alacorder-80.0.8.tar.gz
+[2023-05-01 00:15:52] INFO root fetch - processPackages [storedict]: executing diffoscope
+[2023-05-01 00:15:52] INFO root fetch - processPackages [storedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storedict-0.0.2-py3-none-any.whl.zip tmp/storedict-0.0.3-py3-none-any.whl.zip --markdown 20230501/s/storedict/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 00:15:52] INFO root fetch - processPackages [python-modrinth]: executing diffoscope
+[2023-05-01 00:15:52] INFO root fetch - processPackages [python-modrinth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-modrinth-1.1.0.tar.gz tmp/python-modrinth-1.2.0.tar.gz --markdown 20230501/p/python-modrinth/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-01 00:15:53] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-05-01 00:15:53] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-80.0.7.tar.gz tmp/alacorder-80.0.8.tar.gz --markdown 20230501/a/alacorder/80.0.7-80.0.8/diff.md --exclude *.pyd
+[2023-05-01 00:15:53] WARNING root fetch - processPackages [brazilcep]: Skipping, unable to determine old version
+[2023-05-01 00:15:53] INFO root fetch - main [MainThread]: End processing [brazilcep] error
+[2023-05-01 00:15:53] INFO root fetch - processPackages [pyee]: New version: [9.1.0] Old Version: [9.0.4]
+[2023-05-01 00:15:53] INFO root fetch - processPackages [s3-credentials]: Downloading https://files.pythonhosted.org/packages/62/ef/44d5637d933d4ab24a39a42048d7f48f5cf3e56d1f7c7116a952ff089d36/s3-credentials-0.9.tar.gz
+[2023-05-01 00:15:53] INFO root fetch - processPackages [pyee]: Downloading https://files.pythonhosted.org/packages/99/d0/32803671d5d9dc032c766ad6c0716db98fa9b2c6ad9ec544f04849e9d3c7/pyee-9.0.4.tar.gz
+[2023-05-01 00:15:53] INFO root fetch - processPackages [s3-credentials]: executing diffoscope
+[2023-05-01 00:15:53] INFO root fetch - processPackages [s3-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3-credentials-0.8.tar.gz tmp/s3-credentials-0.9.tar.gz --markdown 20230501/s/s3-credentials/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-01 00:15:53] INFO root fetch - processPackages [pyee]: Downloading https://files.pythonhosted.org/packages/df/aa/503e2857e5be360251f894f4f4833d54d3f85b1ac8d8865bcc95d7d4fbfb/pyee-9.1.0.tar.gz
+[2023-05-01 00:15:53] INFO root fetch - processPackages [pyee]: executing diffoscope
+[2023-05-01 00:15:53] INFO root fetch - processPackages [pyee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyee-9.0.4.tar.gz tmp/pyee-9.1.0.tar.gz --markdown 20230501/p/pyee/9.0.4-9.1.0/diff.md --exclude *.pyd
+[2023-05-01 00:15:53] INFO root fetch - main [MainThread]: End processing [botfleet]: success
+[2023-05-01 00:15:53] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-01 00:15:54] INFO root fetch - main [MainThread]: End processing [python-modrinth]: success
+[2023-05-01 00:15:54] INFO root fetch - main [MainThread]: End processing [storedict]: success
+[2023-05-01 00:15:54] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-05-01 00:15:54] INFO root fetch - main [MainThread]: End processing [pyee]: success
+[2023-05-01 00:15:55] INFO root fetch - main [MainThread]: End processing [s3-credentials]: success
+[2023-05-01 00:15:55] INFO root fetch - main [MainThread]: Store serial: [17920362]
