@@ -615,3 +615,18 @@
 [2023-05-01 01:23:26] INFO root fetch - main [MainThread]: End processing [mpc-orb]: success
 [2023-05-01 01:23:48] INFO root fetch - main [MainThread]: End processing [starfyre]: success
 [2023-05-01 01:23:48] INFO root fetch - main [MainThread]: Store serial: [17920726]
+[2023-05-01 01:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920726]
+[2023-05-01 01:28:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-bus-client
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: horde-model-reference
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clone-org
+[2023-05-01 01:28:57] WARNING root fetch - processPackages [horde-model-reference]: Skipping, unable to determine old version
+[2023-05-01 01:28:57] INFO root fetch - main [MainThread]: End processing [horde-model-reference] error
+[2023-05-01 01:28:57] WARNING root fetch - processPackages [clone-org]: Skipping, unable to determine old version
+[2023-05-01 01:28:57] INFO root fetch - main [MainThread]: End processing [clone-org] error
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ovos-bus-client]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ovos-bus-client]: Downloading https://files.pythonhosted.org/packages/ef/22/7e4d2874505a3443add371d155a81cace82292c2921a238aae0c5318660c/ovos-bus-client-0.0.4a6.tar.gz
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ovos-bus-client]: executing diffoscope
+[2023-05-01 01:28:57] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a5.tar.gz tmp/ovos-bus-client-0.0.4a6.tar.gz --markdown 20230501/o/ovos-bus-client/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
+[2023-05-01 01:28:58] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
+[2023-05-01 01:28:58] INFO root fetch - main [MainThread]: Store serial: [17920739]
