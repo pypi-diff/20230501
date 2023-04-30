@@ -630,3 +630,19 @@
 [2023-05-01 01:28:57] INFO root fetch - processPackages [ovos-bus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-bus-client-0.0.4a5.tar.gz tmp/ovos-bus-client-0.0.4a6.tar.gz --markdown 20230501/o/ovos-bus-client/0.0.4a5-0.0.4a6/diff.md --exclude *.pyd
 [2023-05-01 01:28:58] INFO root fetch - main [MainThread]: End processing [ovos-bus-client]: success
 [2023-05-01 01:28:58] INFO root fetch - main [MainThread]: Store serial: [17920739]
+[2023-05-01 01:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920739]
+[2023-05-01 01:34:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 01:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cengal
+[2023-05-01 01:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wait-for-it
+[2023-05-01 01:34:07] INFO root fetch - processPackages [cengal]: New version: [3.1.15] Old Version: [3.1.14]
+[2023-05-01 01:34:07] INFO root fetch - processPackages [wait-for-it]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-01 01:34:07] INFO root fetch - processPackages [cengal]: Downloading https://files.pythonhosted.org/packages/53/c7/8e7e766b003b18e03ec1386dc9719162e90508cc8ced91d6b70a952581d7/cengal-3.1.14.tar.gz
+[2023-05-01 01:34:07] INFO root fetch - processPackages [wait-for-it]: Downloading https://files.pythonhosted.org/packages/39/37/37cff08f49ee6ed2e9c0e93477ff53dc697a4a95bfcab6232ba53fc3d199/wait-for-it-2.2.1.tar.gz
+[2023-05-01 01:34:07] INFO root fetch - processPackages [wait-for-it]: Downloading https://files.pythonhosted.org/packages/85/e2/e51b2fcf08c07d3a1c77fd1faac14d10aea9cef049e74896fc36131867f3/wait-for-it-2.2.2.tar.gz
+[2023-05-01 01:34:07] INFO root fetch - processPackages [cengal]: Downloading https://files.pythonhosted.org/packages/50/a8/d34bd66acda0aa3d1dacf6f10ac2878445d97260e4534f042627cd6f8814/cengal-3.1.15.tar.gz
+[2023-05-01 01:34:07] WARNING root fetch - processPackages [wait-for-it]: Skipping package: exceeds size limit 18304560>=10485760
+[2023-05-01 01:34:07] INFO root fetch - main [MainThread]: End processing [wait-for-it] error
+[2023-05-01 01:34:07] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-01 01:34:07] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.14.tar.gz tmp/cengal-3.1.15.tar.gz --markdown 20230501/c/cengal/3.1.14-3.1.15/diff.md --exclude *.pyd
+[2023-05-01 01:34:49] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-01 01:34:49] INFO root fetch - main [MainThread]: Store serial: [17920747]
