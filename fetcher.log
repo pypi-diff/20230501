@@ -4748,3 +4748,38 @@
 [2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [testghacookiecutter]: success
 [2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
 [2023-05-01 07:33:42] INFO root fetch - main [MainThread]: Store serial: [17923173]
+[2023-05-01 07:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923173]
+[2023-05-01 07:38:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 07:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrle
+[2023-05-01 07:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xchembku
+[2023-05-01 07:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: twitter-api-py
+[2023-05-01 07:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-api-flask
+[2023-05-01 07:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CVAugmentor
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xchembku]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-01 07:38:51] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 07:38:51] INFO root fetch - processPackages [pyrle]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 07:38:51] INFO root fetch - processPackages [twitter-api-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xia-api-flask]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 07:38:51] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/6c/f7/ca9a90114f9a636696999b0087347c74baa2b5c5ae53da8af906d6e2a00c/twitter_api_py-0.1.0.tar.gz
+[2023-05-01 07:38:51] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/55/d2/1b67b67ed4e0cd62bc84b5d12d014ae1ec77043f870aa78ae3d58e919b96/CVAugmentor-1.0.2.tar.gz
+[2023-05-01 07:38:51] INFO root fetch - processPackages [pyrle]: Downloading https://files.pythonhosted.org/packages/74/0e/b38bf14f67f954e15c4534ff8f9ea52d07b7fc4f8bcda330f5b98bd23c9d/pyrle-0.0.8.tar.gz
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xchembku]: Downloading https://files.pythonhosted.org/packages/b6/f4/ed3c95d2c1fbfdae27d69074eeb36daec5f6b0fc646082fb3f7422e60f99/xchembku-1.4.0.tar.gz
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xchembku]: executing diffoscope
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xchembku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchembku-1.3.0.tar.gz tmp/xchembku-1.4.0.tar.gz --markdown 20230501/x/xchembku/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xia-api-flask]: executing diffoscope
+[2023-05-01 07:38:51] INFO root fetch - processPackages [xia-api-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_api_flask-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_api_flask-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-api-flask/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 07:38:51] INFO root fetch - processPackages [twitter-api-py]: Downloading https://files.pythonhosted.org/packages/23/76/e7bf2aa9561e2ecfbf49c68580489b66b2f0bbf5835be2834eb99fcf7a3c/twitter_api_py-0.2.0.tar.gz
+[2023-05-01 07:38:51] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/7b/f4/5ac56631dc4227c5d47db1c8c5ac64ac2d9beb1ccbcc947b9ca4457186f9/CVAugmentor-1.0.3.tar.gz
+[2023-05-01 07:38:51] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-01 07:38:51] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.1.0.tar.gz tmp/twitter_api_py-0.2.0.tar.gz --markdown 20230501/t/twitter-api-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 07:38:51] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-01 07:38:51] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.2.tar.gz tmp/CVAugmentor-1.0.3.tar.gz --markdown 20230501/C/CVAugmentor/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 07:38:52] INFO root fetch - processPackages [pyrle]: Downloading https://files.pythonhosted.org/packages/18/42/b4fe2ccf9c909bf690e74695ea49a524909e4d918cdad15079e9dd268e7f/pyrle-0.0.9.tar.gz
+[2023-05-01 07:38:52] INFO root fetch - processPackages [pyrle]: executing diffoscope
+[2023-05-01 07:38:52] INFO root fetch - processPackages [pyrle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrle-0.0.8.tar.gz tmp/pyrle-0.0.9.tar.gz --markdown 20230501/p/pyrle/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 07:38:52] INFO root fetch - main [MainThread]: End processing [xia-api-flask]: success
+[2023-05-01 07:38:53] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-01 07:38:53] INFO root fetch - main [MainThread]: End processing [xchembku]: success
+[2023-05-01 07:38:53] INFO root fetch - main [MainThread]: End processing [pyrle]: success
+[2023-05-01 07:38:53] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-01 07:38:53] INFO root fetch - main [MainThread]: Store serial: [17923192]
