@@ -11732,3 +11732,92 @@ EOFError: EOF read where object expected
 [2023-05-01 15:40:04] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2023-05-01 15:40:39] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2023-05-01 15:40:39] INFO root fetch - main [MainThread]: Store serial: [17927178]
+[2023-05-01 15:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927178]
+[2023-05-01 15:45:49] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afloat
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcst-mypy
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-type-inference
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abba-python
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethyca-fides
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mtmcxstrtg
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanolayer
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polars-lts-cpu
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nextguild
+[2023-05-01 15:45:49] INFO root fetch - processPackages [mtmcxstrtg]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [abba-python]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 15:45:49] WARNING root fetch - processPackages [mypy-type-inference]: Skipping, unable to determine old version
+[2023-05-01 15:45:49] INFO root fetch - processPackages [mypy-type-inference]: Start processing: wikiseriesbrenttoolcli
+[2023-05-01 15:45:49] INFO root fetch - main [MainThread]: End processing [mypy-type-inference] error
+[2023-05-01 15:45:49] INFO root fetch - processPackages [afloat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [mtmcxstrtg]: executing diffoscope
+[2023-05-01 15:45:49] WARNING root fetch - processPackages [libcst-mypy]: Skipping, unable to determine old version
+[2023-05-01 15:45:49] INFO root fetch - processPackages [mtmcxstrtg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmcxstrtg-1.0.4.tar.gz tmp/mtmcxstrtg-1.0.5.tar.gz --markdown 20230501/m/mtmcxstrtg/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-01 15:45:49] INFO root fetch - processPackages [libcst-mypy]: Start processing: afloat
+[2023-05-01 15:45:49] INFO root fetch - main [MainThread]: End processing [libcst-mypy] error
+[2023-05-01 15:45:49] INFO root fetch - processPackages [nextguild]: New version: [1.1] Old Version: [1.0.5]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-01 15:45:49] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.0.tar.gz tmp/abba_python-0.1.2.tar.gz --markdown 20230501/a/abba-python/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [afloat]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 15:45:49] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-01 15:45:49] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230501/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 15:45:49] WARNING root fetch - processPackages [wikiseriesbrenttoolcli]: Skipping, unable to determine old version
+[2023-05-01 15:45:49] INFO root fetch - processPackages [wikiseriesbrenttoolcli]: Start processing: watchtower-browser-testing
+[2023-05-01 15:45:49] INFO root fetch - main [MainThread]: End processing [wikiseriesbrenttoolcli] error
+[2023-05-01 15:45:49] INFO root fetch - processPackages [afloat]: Downloading https://files.pythonhosted.org/packages/5c/e2/25256a6b41056da932c84b45d0c069f5936d3d15110b65611bf3ba09fefd/afloat-0.0.4.tar.gz
+[2023-05-01 15:45:49] INFO root fetch - processPackages [afloat]: Downloading https://files.pythonhosted.org/packages/5c/e2/25256a6b41056da932c84b45d0c069f5936d3d15110b65611bf3ba09fefd/afloat-0.0.4.tar.gz
+[2023-05-01 15:45:49] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/85/34/e5174c720e76f01f0822c6b152f6a7f8307c045d0ba62166194eb49f80b8/nextguild-1.0.5.tar.gz
+[2023-05-01 15:45:49] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-01 15:45:50] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230501/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-01 15:45:50] INFO root fetch - processPackages [afloat]: Downloading https://files.pythonhosted.org/packages/41/37/8d98907d4c44e69488dff60de9590ee49ea9195ec9635e128a10b5435336/afloat-0.0.5.tar.gz
+[2023-05-01 15:45:50] INFO root fetch - processPackages [afloat]: Downloading https://files.pythonhosted.org/packages/41/37/8d98907d4c44e69488dff60de9590ee49ea9195ec9635e128a10b5435336/afloat-0.0.5.tar.gz
+[2023-05-01 15:45:50] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/14/97/a3d6e1685a1ef1ae671aee338ceefc9ef18819cd05e817d6bb8c894fabe4/nextguild-1.1.tar.gz
+[2023-05-01 15:45:50] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230501/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-01 15:45:50] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.17.8.tar.gz tmp/polars_lts_cpu-0.17.9.tar.gz --markdown 20230501/p/polars-lts-cpu/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-01 15:45:50] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.0.5.tar.gz tmp/nextguild-1.1.tar.gz --markdown 20230501/n/nextguild/1.0.5-1.1/diff.md --exclude *.pyd
+[2023-05-01 15:45:50] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/ab/7b/a1b090a2b2a3025bca19983f6dd990ff2a8cb0b7f58b49f3b0d458ecf95f/watchtower_browser_testing-0.4.4.tar.gz
+[2023-05-01 15:45:50] INFO root fetch - processPackages [afloat]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [afloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afloat-0.0.4.tar.gz tmp/afloat-0.0.5.tar.gz --markdown 20230501/a/afloat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 15:45:50] INFO root fetch - processPackages [afloat]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [afloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afloat-0.0.4.tar.gz tmp/afloat-0.0.5.tar.gz --markdown 20230501/a/afloat/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 15:45:50] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-05-01 15:45:50] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.4.3.tar.gz tmp/watchtower_browser_testing-0.4.4.tar.gz --markdown 20230501/w/watchtower-browser-testing/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-01 15:45:51] INFO root fetch - processPackages [mtmcxstrtg]: Start processing: cinemagoer
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [mtmcxstrtg]: success
+[2023-05-01 15:45:51] INFO root fetch - processPackages [abba-python]: Start processing: noise2read
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-01 15:45:51] INFO root fetch - processPackages [cinemagoer]: New version: [2023.5.1] Old Version: [2022.2.11]
+[2023-05-01 15:45:51] INFO root fetch - processPackages [noise2read]: New version: [0.0.75] Old Version: [0.0.73]
+[2023-05-01 15:45:51] INFO root fetch - processPackages [nanolayer]: Start processing: jojo-ai
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-01 15:45:51] INFO root fetch - processPackages [cinemagoer]: Downloading https://files.pythonhosted.org/packages/cf/ff/4600d7109bbbad4981e7fbb6fb16b13dd3146e512eb6baad3c16ed74c0d6/cinemagoer-2022.2.11.tar.gz
+[2023-05-01 15:45:51] WARNING root fetch - processPackages [jojo-ai]: Skipping, unable to determine old version
+[2023-05-01 15:45:51] INFO root fetch - processPackages [jojo-ai]: Start processing: datasette-annotate
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [jojo-ai] error
+[2023-05-01 15:45:51] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/13/ec/7838598fe83e3c601876a6118e2b2694d11d76a2149f47d7ece206787b3e/noise2read-0.0.73.tar.gz
+[2023-05-01 15:45:51] ERROR root fetch - processPackages [datasette-annotate]: Unable to get metadata: No such project 'datasette-annotate'
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [datasette-annotate] error
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-05-01 15:45:51] INFO root fetch - processPackages [cinemagoer]: Downloading https://files.pythonhosted.org/packages/06/de/3aa6eb738b5c5e39f1909bc080a392842841f9af866edb960de2f22af53c/cinemagoer-2023.5.1.tar.gz
+[2023-05-01 15:45:51] INFO root fetch - main [MainThread]: End processing [afloat]: success
+[2023-05-01 15:45:51] INFO root fetch - processPackages [cinemagoer]: executing diffoscope
+[2023-05-01 15:45:51] INFO root fetch - processPackages [cinemagoer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinemagoer-2022.2.11.tar.gz tmp/cinemagoer-2023.5.1.tar.gz --markdown 20230501/c/cinemagoer/2022.2.11-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 15:45:52] INFO root fetch - main [MainThread]: End processing [afloat]: success
+[2023-05-01 15:45:52] INFO root fetch - processPackages [noise2read]: Downloading https://files.pythonhosted.org/packages/ba/44/751195751152acd2b14f24f17289b5152df5e7fdae720317fc87c0b6eba9/noise2read-0.0.75.tar.gz
+[2023-05-01 15:45:52] INFO root fetch - processPackages [noise2read]: executing diffoscope
+[2023-05-01 15:45:52] INFO root fetch - processPackages [noise2read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noise2read-0.0.73.tar.gz tmp/noise2read-0.0.75.tar.gz --markdown 20230501/n/noise2read/0.0.73-0.0.75/diff.md --exclude *.pyd
+[2023-05-01 15:45:52] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-05-01 15:45:53] INFO root fetch - main [MainThread]: End processing [noise2read]: success
+[2023-05-01 15:45:54] INFO root fetch - main [MainThread]: End processing [cinemagoer]: success
+[2023-05-01 15:46:00] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-05-01 15:46:07] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-05-01 15:46:07] INFO root fetch - main [MainThread]: Store serial: [17927238]
