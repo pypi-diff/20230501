@@ -11084,3 +11084,64 @@
 [2023-05-01 14:52:33] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-s3-bucket]: success
 [2023-05-01 14:52:34] INFO root fetch - main [MainThread]: End processing [efel]: success
 [2023-05-01 14:52:34] INFO root fetch - main [MainThread]: Store serial: [17926797]
+[2023-05-01 14:57:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926797]
+[2023-05-01 14:57:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mermaid
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlptoolssna
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: client-GPT
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cos-alerter
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recon-lw
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napatrackmater
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kmaps
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yaw-sweep-sg-cali
+[2023-05-01 14:57:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numberize
+[2023-05-01 14:57:43] INFO root fetch - processPackages [yaw-sweep-sg-cali]: New version: [1.2] Old Version: [1.1]
+[2023-05-01 14:57:43] INFO root fetch - processPackages [kmaps]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 14:57:43] INFO root fetch - processPackages [numberize]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 14:57:43] INFO root fetch - processPackages [nlptoolssna]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-01 14:57:43] INFO root fetch - processPackages [napatrackmater]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-05-01 14:57:43] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4850773020] Old Version: [2.0.0.dev4850623410]
+[2023-05-01 14:57:43] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.58.2] Old Version: [1.58.1]
+[2023-05-01 14:57:44] INFO root fetch - processPackages [django-mermaid]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 14:57:44] INFO root fetch - processPackages [client-GPT]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-01 14:57:44] INFO root fetch - processPackages [kmaps]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [kmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmaps-0.0.8.tar.gz tmp/kmaps-0.0.9.tar.gz --markdown 20230501/k/kmaps/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [cos-alerter]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 14:57:44] INFO root fetch - processPackages [numberize]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [numberize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numberize-1.0.2.tar.gz tmp/numberize-1.0.3.tar.gz --markdown 20230501/n/numberize/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.4.4.tar.gz tmp/nlptoolssna-0.4.5.tar.gz --markdown 20230501/n/nlptoolssna/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.58.1.tar.gz tmp/Simba-UW-tf-dev-1.58.2.tar.gz --markdown 20230501/S/Simba-UW-tf-dev/1.58.1-1.58.2/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/be/62/b79f556ed48b4c56619b2f7018a1d571483e5fac262cf289b74514ce75d8/client_GPT-1.1.1.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [cos-alerter]: Downloading https://files.pythonhosted.org/packages/ee/90/928fd95283205bab03707270fc8493c197a4e9aebcaf73eab3e0bd43e3dc/cos-alerter-0.2.0.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [django-mermaid]: Downloading https://files.pythonhosted.org/packages/6e/1b/4467c0b9d5879130426f6b7ff0b7fac401575aaf0390c30b6b5cac2315dc/django-mermaid-0.0.4.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/8e/7f/5605e128d29ef81ed513edf51fbcfb654fb4502171eb8fe91df7210c0a84/napatrackmater-3.4.4.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/07/35/bd1fa8e8283e4aa03fe77ab7966b37390df14da57cad47ab5cbee1f6f74d/recon_lw-2.0.0.dev4850773020.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.4.3.tar.gz tmp/napatrackmater-3.4.4.tar.gz --markdown 20230501/n/napatrackmater/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4850623410.tar.gz tmp/recon_lw-2.0.0.dev4850773020.tar.gz --markdown 20230501/r/recon-lw/2.0.0.dev4850623410-2.0.0.dev4850773020/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [django-mermaid]: Downloading https://files.pythonhosted.org/packages/93/dd/f3340391efc6a3631452946c13c9d2855797336b6b183b9f6d6469aefbc6/django-mermaid-0.0.5.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/e4/d7/33e492245f9a3d48d28c534c77e91f83f3dfab790c6cdc9b18995dee540a/client_GPT-1.1.2.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [cos-alerter]: Downloading https://files.pythonhosted.org/packages/64/ef/ccaef362e44924434da71437635410d1081260da91063064adf38ab4db92/cos-alerter-0.3.0.tar.gz
+[2023-05-01 14:57:44] INFO root fetch - processPackages [yaw-sweep-sg-cali]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [yaw-sweep-sg-cali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaw_sweep_sg_cali-1.1.tar.gz tmp/yaw_sweep_sg_cali-1.2.tar.gz --markdown 20230501/y/yaw-sweep-sg-cali/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [django-mermaid]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-1.1.1.tar.gz tmp/client_GPT-1.1.2.tar.gz --markdown 20230501/c/client-GPT/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [django-mermaid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mermaid-0.0.4.tar.gz tmp/django-mermaid-0.0.5.tar.gz --markdown 20230501/d/django-mermaid/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 14:57:44] INFO root fetch - processPackages [cos-alerter]: executing diffoscope
+[2023-05-01 14:57:44] INFO root fetch - processPackages [cos-alerter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-alerter-0.2.0.tar.gz tmp/cos-alerter-0.3.0.tar.gz --markdown 20230501/c/cos-alerter/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 14:57:45] INFO root fetch - main [MainThread]: End processing [kmaps]: success
+[2023-05-01 14:57:45] INFO root fetch - main [MainThread]: End processing [numberize]: success
+[2023-05-01 14:57:45] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-01 14:57:45] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-05-01 14:57:46] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-01 14:57:46] INFO root fetch - main [MainThread]: End processing [yaw-sweep-sg-cali]: success
+[2023-05-01 14:57:46] INFO root fetch - main [MainThread]: End processing [cos-alerter]: success
+[2023-05-01 14:57:46] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-01 14:57:46] INFO root fetch - main [MainThread]: End processing [django-mermaid]: success
+[2023-05-01 14:57:54] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-01 14:57:54] INFO root fetch - main [MainThread]: Store serial: [17926828]
