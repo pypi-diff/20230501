@@ -14192,3 +14192,79 @@ EOFError: EOF read where object expected
 [2023-05-01 18:29:18] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2023-05-01 18:29:21] INFO root fetch - main [MainThread]: End processing [dlplan]: success
 [2023-05-01 18:29:21] INFO root fetch - main [MainThread]: Store serial: [17928808]
+[2023-05-01 18:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928808]
+[2023-05-01 18:34:30] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-pretty-help
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansible-compat
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-cdk
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: housenomics
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alpha-trader-python
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-docker
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cinderx
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radbelt
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feathub-nightly
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: envname
+[2023-05-01 18:34:30] WARNING root fetch - processPackages [alpha-trader-python]: Skipping, unable to determine old version
+[2023-05-01 18:34:30] INFO root fetch - processPackages [alpha-trader-python]: Start processing: wds-client
+[2023-05-01 18:34:30] INFO root fetch - main [MainThread]: End processing [alpha-trader-python] error
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ansible-compat]: New version: [4.0.0a1] Old Version: [4.0.0]
+[2023-05-01 18:34:30] WARNING root fetch - processPackages [envname]: Skipping, unable to determine old version
+[2023-05-01 18:34:30] INFO root fetch - processPackages [envname]: Start processing: expflow
+[2023-05-01 18:34:30] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230430] Old Version: [0.1.dev20230429]
+[2023-05-01 18:34:30] INFO root fetch - main [MainThread]: End processing [envname] error
+[2023-05-01 18:34:30] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ansible-compat]: executing diffoscope
+[2023-05-01 18:34:30] INFO root fetch - processPackages [ansible-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-compat-4.0.0.tar.gz tmp/ansible-compat-4.0.0a1.tar.gz --markdown 20230501/a/ansible-compat/4.0.0-4.0.0a1/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [housenomics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 18:34:31] WARNING root fetch - processPackages [cinderx]: Skipping, unable to determine old version
+[2023-05-01 18:34:31] INFO root fetch - processPackages [cinderx]: Start processing: poetry-git-version-plugin
+[2023-05-01 18:34:31] INFO root fetch - main [MainThread]: End processing [cinderx] error
+[2023-05-01 18:34:31] INFO root fetch - processPackages [discord-pretty-help]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-01 18:34:31] INFO root fetch - processPackages [radbelt]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-05-01 18:34:31] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1682956971] Old Version: [4.3.0a1682620702]
+[2023-05-01 18:34:31] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-01 18:34:31] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230501/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.4a4] Old Version: [0.1.4a3]
+[2023-05-01 18:34:31] INFO root fetch - processPackages [expflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 18:34:31] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/64/67/a466f99836c88a4c2f6a7be7ad1500a3e30ba77ad8e8091986d6da9a3bb9/feathub_nightly-0.1.dev20230430-py3-none-any.whl
+[2023-05-01 18:34:31] INFO root fetch - processPackages [housenomics]: Downloading https://files.pythonhosted.org/packages/67/5d/7c26b4b134cd4ee8108f6058d78a168d2bdf174d8335cefebdc295b36799/housenomics-0.0.8.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [radbelt]: Downloading https://files.pythonhosted.org/packages/57/1e/b5e10d99c1cb2f9746a2254ddffaa48b82aafcf25994bd7b479b416217c7/radbelt-0.1.0.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [discord-pretty-help]: Downloading https://files.pythonhosted.org/packages/ec/e8/e7b3f5946b2ee60c05994299a991eb684c0db8d7b186137f255cdc6190f9/discord_pretty_help-2.0.1.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/34/64/151d94dd82dc705facbeacf5c713438cc90950f6eeef4c11f9046678d3af/poetry_git_version_plugin-0.1.4a4.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/72/24/059c038bd85464de90b534ad64910b7e603419c70583f8e6574ab15cc626/pulumi_docker-4.3.0a1682956971.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.4a3.tar.gz tmp/poetry_git_version_plugin-0.1.4a4.tar.gz --markdown 20230501/p/poetry-git-version-plugin/0.1.4a3-0.1.4a4/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [feathub-nightly]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [feathub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathub_nightly-0.1.dev20230429-py3-none-any.whl.zip tmp/feathub_nightly-0.1.dev20230430-py3-none-any.whl.zip --markdown 20230501/f/feathub-nightly/0.1.dev20230429-0.1.dev20230430/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [expflow]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230501/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [expflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expflow-0.1.8.tar.gz tmp/expflow-0.1.9.tar.gz --markdown 20230501/e/expflow/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [discord-pretty-help]: Downloading https://files.pythonhosted.org/packages/60/94/3f7ed4e166e4e9d65501aef4007ca5e76efc9a488b33830215f4b7fe1cd2/discord_pretty_help-2.0.2.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1682620702.tar.gz tmp/pulumi_docker-4.3.0a1682956971.tar.gz --markdown 20230501/p/pulumi-docker/4.3.0a1682620702-4.3.0a1682956971/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [radbelt]: Downloading https://files.pythonhosted.org/packages/39/15/52159fbdf6b676c42b7798e8a89bdbc0dd205de45f64e6dfc06561161151/radbelt-0.1.3.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [discord-pretty-help]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [discord-pretty-help]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_pretty_help-2.0.1.tar.gz tmp/discord_pretty_help-2.0.2.tar.gz --markdown 20230501/d/discord-pretty-help/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [housenomics]: Downloading https://files.pythonhosted.org/packages/86/9b/1951e198d361de4e1bd8c37b97e0f80b1ef9b8b8cc5615330093cc597471/housenomics-0.0.9.tar.gz
+[2023-05-01 18:34:31] INFO root fetch - processPackages [radbelt]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [radbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radbelt-0.1.0.tar.gz tmp/radbelt-0.1.3.tar.gz --markdown 20230501/r/radbelt/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 18:34:31] INFO root fetch - processPackages [housenomics]: executing diffoscope
+[2023-05-01 18:34:31] INFO root fetch - processPackages [housenomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housenomics-0.0.8.tar.gz tmp/housenomics-0.0.9.tar.gz --markdown 20230501/h/housenomics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:34:32] INFO root fetch - processPackages [ansible-compat]: Start processing: wekalib
+[2023-05-01 18:34:32] INFO root fetch - main [MainThread]: End processing [ansible-compat]: success
+[2023-05-01 18:34:32] INFO root fetch - processPackages [wekalib]: New version: [1.4.3] Old Version: [1.4.0]
+[2023-05-01 18:34:32] INFO root fetch - processPackages [wekalib]: executing diffoscope
+[2023-05-01 18:34:32] INFO root fetch - processPackages [wekalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wekalib-1.4.0.tar.gz tmp/wekalib-1.4.3-py3-none-any.whl.zip --markdown 20230501/w/wekalib/1.4.0-1.4.3/diff.md --exclude *.pyd
+[2023-05-01 18:34:33] INFO root fetch - main [MainThread]: End processing [expflow]: success
+[2023-05-01 18:34:33] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-01 18:34:33] INFO root fetch - main [MainThread]: End processing [discord-pretty-help]: success
+[2023-05-01 18:34:33] INFO root fetch - main [MainThread]: End processing [housenomics]: success
+[2023-05-01 18:34:33] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-01 18:34:33] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-01 18:34:34] INFO root fetch - main [MainThread]: End processing [wekalib]: success
+[2023-05-01 18:34:34] INFO root fetch - main [MainThread]: End processing [radbelt]: success
+[2023-05-01 18:34:34] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-05-01 18:34:34] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
+[2023-05-01 18:34:34] INFO root fetch - main [MainThread]: Store serial: [17928879]
