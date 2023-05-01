@@ -13691,3 +13691,49 @@ EOFError: EOF read where object expected
 [2023-05-01 17:54:25] INFO root fetch - main [MainThread]: End processing [django-iris]: success
 [2023-05-01 17:54:26] INFO root fetch - main [MainThread]: End processing [leuci-pol]: success
 [2023-05-01 17:54:26] INFO root fetch - main [MainThread]: Store serial: [17928422]
+[2023-05-01 17:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928422]
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pf-fpga-tools
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyperlight
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-iris
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leadguru-data
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythoncryptolibV2
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-common
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-assaf-UFAttribute2Enum
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: envname
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyspimosim
+[2023-05-01 17:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xdynamo
+[2023-05-01 17:59:35] INFO root fetch - processPackages [hyperlight]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 17:59:35] WARNING root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Skipping, unable to determine old version
+[2023-05-01 17:59:35] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Start processing: mpy-cross-v6.1
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-UFAttribute2Enum] error
+[2023-05-01 17:59:35] INFO root fetch - processPackages [django-iris]: New version: [0.2.2b1] Old Version: [0.2.1b3]
+[2023-05-01 17:59:35] INFO root fetch - processPackages [pyspimosim]: New version: [0.2.14] Old Version: [0.2.12.2]
+[2023-05-01 17:59:35] INFO root fetch - processPackages [hyperlight]: executing diffoscope
+[2023-05-01 17:59:35] INFO root fetch - processPackages [hyperlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperlight-0.0.1.tar.gz tmp/hyperlight-0.0.2.tar.gz --markdown 20230501/h/hyperlight/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 17:59:35] WARNING root fetch - processPackages [pf-fpga-tools]: Skipping, unable to determine old version
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: End processing [pf-fpga-tools] error
+[2023-05-01 17:59:35] WARNING root fetch - processPackages [pythoncryptolibV2]: Skipping, unable to determine old version
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: End processing [pythoncryptolibV2] error
+[2023-05-01 17:59:35] WARNING root fetch - processPackages [envname]: Skipping, unable to determine old version
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: End processing [envname] error
+[2023-05-01 17:59:35] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 17:59:35] INFO root fetch - processPackages [pyspimosim]: executing diffoscope
+[2023-05-01 17:59:35] INFO root fetch - processPackages [pyspimosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspimosim-0.2.12.2-py3-none-any.whl.zip tmp/pyspimosim-0.2.14-py3-none-any.whl.zip --markdown 20230501/p/pyspimosim/0.2.12.2-0.2.14/diff.md --exclude *.pyd
+[2023-05-01 17:59:35] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 17:59:35] WARNING root fetch - processPackages [xdynamo]: Skipping, unable to determine old version
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: End processing [xdynamo] error
+[2023-05-01 17:59:35] INFO root fetch - processPackages [django-iris]: executing diffoscope
+[2023-05-01 17:59:35] INFO root fetch - processPackages [django-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iris-0.2.1b3.tar.gz tmp/django-iris-0.2.2b1.tar.gz --markdown 20230501/d/django-iris/0.2.1b3-0.2.2b1/diff.md --exclude *.pyd
+[2023-05-01 17:59:35] WARNING root fetch - processPackages [mpy-cross-v6.1]: Skipping, unable to determine old version
+[2023-05-01 17:59:35] INFO root fetch - main [MainThread]: End processing [mpy-cross-v6.1] error
+[2023-05-01 17:59:36] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-01 17:59:36] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230501/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 17:59:36] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-01 17:59:36] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230501/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 17:59:36] INFO root fetch - main [MainThread]: End processing [hyperlight]: success
+[2023-05-01 17:59:37] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-01 17:59:37] INFO root fetch - main [MainThread]: End processing [django-iris]: success
+[2023-05-01 17:59:37] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-01 17:59:54] INFO root fetch - main [MainThread]: End processing [pyspimosim]: success
+[2023-05-01 17:59:54] INFO root fetch - main [MainThread]: Store serial: [17928461]
