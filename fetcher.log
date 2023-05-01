@@ -4060,3 +4060,39 @@
 [2023-05-01 05:33:20] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
 [2023-05-01 05:34:32] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-05-01 05:34:32] INFO root fetch - main [MainThread]: Store serial: [17922778]
+[2023-05-01 05:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922778]
+[2023-05-01 05:39:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 05:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feiticeiro-tec
+[2023-05-01 05:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TrimPypi
+[2023-05-01 05:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deche
+[2023-05-01 05:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toxicjasmine
+[2023-05-01 05:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polynomiograpy
+[2023-05-01 05:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TikTokLiveCustom
+[2023-05-01 05:39:41] WARNING root fetch - processPackages [feiticeiro-tec]: Skipping, unable to determine old version
+[2023-05-01 05:39:41] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec] error
+[2023-05-01 05:39:41] INFO root fetch - processPackages [toxicjasmine]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-01 05:39:41] INFO root fetch - processPackages [deche]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-01 05:39:41] INFO root fetch - processPackages [TrimPypi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 05:39:41] INFO root fetch - processPackages [polynomiograpy]: New version: [0.1.0a1] Old Version: [0.1.0]
+[2023-05-01 05:39:41] WARNING root fetch - processPackages [TikTokLiveCustom]: Skipping, unable to determine old version
+[2023-05-01 05:39:41] INFO root fetch - main [MainThread]: End processing [TikTokLiveCustom] error
+[2023-05-01 05:39:41] INFO root fetch - processPackages [polynomiograpy]: Downloading https://files.pythonhosted.org/packages/60/82/931185743205f6328ab791fdf458c9334930fb0800f6e9f9cf9efef45930/polynomiograpy-0.1.0.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [TrimPypi]: Downloading https://files.pythonhosted.org/packages/33/99/14764db9631753e4efc0bf834726d5cba4634fedaf89d8952515bb38d052/TrimPypi-0.0.1.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [deche]: Downloading https://files.pythonhosted.org/packages/53/3d/a9ab3e9ab84b8bdbc623eea2891a193a8a833178e90cf1a13dca9543451c/deche-0.6.0.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [toxicjasmine]: Downloading https://files.pythonhosted.org/packages/ca/ae/7a1264dcc83e7fddab79936dbbfeea39c061e43eb7a93db5a812a12ed95c/toxicjasmine-0.2.2.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [toxicjasmine]: executing diffoscope
+[2023-05-01 05:39:41] INFO root fetch - processPackages [toxicjasmine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toxicjasmine-0.2.1.tar.gz tmp/toxicjasmine-0.2.2.tar.gz --markdown 20230501/t/toxicjasmine/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-01 05:39:41] INFO root fetch - processPackages [TrimPypi]: Downloading https://files.pythonhosted.org/packages/59/4c/a1f5c7a962d973325931aaba6050c885dddb0ccafaf9329d52088eef3c47/TrimPypi-0.0.2.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [polynomiograpy]: Downloading https://files.pythonhosted.org/packages/e1/f7/b80b8a1e6d6ffa8b5d8dc35bb30eefbb4dce27cbdee32f17e34e8b49c543/polynomiograpy-0.1.0a1.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [deche]: Downloading https://files.pythonhosted.org/packages/8b/ba/08bb3daec1b8a82b883f068fb5a3147c4b80bcae772fc37a87a71bd11d80/deche-0.7.0.tar.gz
+[2023-05-01 05:39:41] INFO root fetch - processPackages [TrimPypi]: executing diffoscope
+[2023-05-01 05:39:41] INFO root fetch - processPackages [TrimPypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrimPypi-0.0.1.tar.gz tmp/TrimPypi-0.0.2.tar.gz --markdown 20230501/T/TrimPypi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 05:39:41] INFO root fetch - processPackages [deche]: executing diffoscope
+[2023-05-01 05:39:41] INFO root fetch - processPackages [deche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deche-0.6.0.tar.gz tmp/deche-0.7.0.tar.gz --markdown 20230501/d/deche/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-01 05:39:41] INFO root fetch - processPackages [polynomiograpy]: executing diffoscope
+[2023-05-01 05:39:41] INFO root fetch - processPackages [polynomiograpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polynomiograpy-0.1.0.tar.gz tmp/polynomiograpy-0.1.0a1.tar.gz --markdown 20230501/p/polynomiograpy/0.1.0-0.1.0a1/diff.md --exclude *.pyd
+[2023-05-01 05:39:42] INFO root fetch - main [MainThread]: End processing [TrimPypi]: success
+[2023-05-01 05:39:42] INFO root fetch - main [MainThread]: End processing [deche]: success
+[2023-05-01 05:39:42] INFO root fetch - main [MainThread]: End processing [polynomiograpy]: success
+[2023-05-01 05:39:42] INFO root fetch - main [MainThread]: End processing [toxicjasmine]: success
+[2023-05-01 05:39:42] INFO root fetch - main [MainThread]: Store serial: [17922804]
