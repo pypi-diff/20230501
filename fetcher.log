@@ -17944,3 +17944,86 @@ EOFError: EOF read where object expected
 [2023-05-01 22:30:25] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2023-05-01 22:30:45] INFO root fetch - main [MainThread]: End processing [ensemble-md]: success
 [2023-05-01 22:30:45] INFO root fetch - main [MainThread]: Store serial: [17931304]
+[2023-05-01 22:35:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931304]
+[2023-05-01 22:35:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacy-wrap
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-shelly-deepfixes
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-test-kit
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blogutils
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonformer
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gym-trading-env
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytez
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-fields-scw
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cortex-cli
+[2023-05-01 22:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blogutils
+[2023-05-01 22:35:54] INFO root fetch - processPackages [spacy-wrap]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-01 22:35:54] WARNING root fetch - processPackages [blogutils]: Skipping, unable to determine old version
+[2023-05-01 22:35:54] INFO root fetch - processPackages [blogutils]: Start processing: botocore
+[2023-05-01 22:35:55] INFO root fetch - main [MainThread]: End processing [blogutils] error
+[2023-05-01 22:35:55] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Skipping, unable to determine old version
+[2023-05-01 22:35:55] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Start processing: boto3
+[2023-05-01 22:35:55] WARNING root fetch - processPackages [xia-fields-scw]: Skipping, unable to determine old version
+[2023-05-01 22:35:55] INFO root fetch - processPackages [cortex-cli]: New version: [1.13.0.post6] Old Version: [1.13.0]
+[2023-05-01 22:35:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deepfixes] error
+[2023-05-01 22:35:55] INFO root fetch - processPackages [xia-fields-scw]: Start processing: datamol
+[2023-05-01 22:35:55] INFO root fetch - processPackages [sql-test-kit]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-01 22:35:55] INFO root fetch - processPackages [jsonformer]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-01 22:35:55] INFO root fetch - main [MainThread]: End processing [xia-fields-scw] error
+[2023-05-01 22:35:55] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:35:55] INFO root fetch - processPackages [gym-trading-env]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-01 22:35:55] WARNING root fetch - processPackages [blogutils]: Skipping, unable to determine old version
+[2023-05-01 22:35:55] INFO root fetch - processPackages [blogutils]: Start processing: awscli
+[2023-05-01 22:35:55] INFO root fetch - main [MainThread]: End processing [blogutils] error
+[2023-05-01 22:35:55] INFO root fetch - processPackages [datamol]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-01 22:35:55] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-05-01 22:35:55] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-01 22:35:55] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-01 22:35:55] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/af/19/daabd41eb269edea96db3597038f83e8ae35c1ca222d4b27341de4cdd46b/jsonformer-0.3.0.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [cortex-cli]: Downloading https://files.pythonhosted.org/packages/6d/11/f1d9494ede4196e27f7a0f62e405cf57a6223830ddfb4d100e00328e3be4/cortex_cli-1.13.0.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [datamol]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [datamol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamol-0.9.7.tar.gz tmp/datamol-0.9.8.tar.gz --markdown 20230501/d/datamol/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [spacy-wrap]: Downloading https://files.pythonhosted.org/packages/ff/09/33ec5a46241c4442225e1312884f0c29e65441f0278d9c1607f7487d21bb/spacy_wrap-1.4.1.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [sql-test-kit]: Downloading https://files.pythonhosted.org/packages/81/b4/c244b4534ddd3bc757330db61ad4fdcf54c57bc7037915375798eb43097e/sql_test_kit-0.2.3.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [gym-trading-env]: Downloading https://files.pythonhosted.org/packages/ea/70/e546a760cf0bcb96b6f73607f79fbbe73d03aa683c970be7718a0e599e59/gym-trading-env-0.2.4.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [sql-test-kit]: Downloading https://files.pythonhosted.org/packages/c7/be/c60f05c7a282e97b00c859f8acb62efa136b6a578d2d5e221481af096d88/sql_test_kit-0.3.0.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [gym-trading-env]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [gym-trading-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gym-trading-env-0.2.3.tar.gz tmp/gym-trading-env-0.2.4.tar.gz --markdown 20230501/g/gym-trading-env/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/23/06/2cd376903d9b797d10b14220b98e2d9e53c1763ce7398d5b3593fd493782/jsonformer-0.4.0.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [sql-test-kit]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [sql-test-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_test_kit-0.2.3.tar.gz tmp/sql_test_kit-0.3.0.tar.gz --markdown 20230501/s/sql-test-kit/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230501/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230501/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [cortex-cli]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cortex_cli-1.13.0.tar.gz tmp/cortex_cli-1.13.0.post6.tar.gz --markdown 20230501/c/cortex-cli/1.13.0-1.13.0.post6/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [jsonformer]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [jsonformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonformer-0.3.0.tar.gz tmp/jsonformer-0.4.0.tar.gz --markdown 20230501/j/jsonformer/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230501/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-01 22:35:55] INFO root fetch - processPackages [spacy-wrap]: Downloading https://files.pythonhosted.org/packages/c5/28/f1b6c92325d4743fea8b5262e95b879f24fe8faf8ff25689d08ee53caf82/spacy_wrap-1.4.2.tar.gz
+[2023-05-01 22:35:55] INFO root fetch - processPackages [spacy-wrap]: executing diffoscope
+[2023-05-01 22:35:55] INFO root fetch - processPackages [spacy-wrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy_wrap-1.4.1.tar.gz tmp/spacy_wrap-1.4.2.tar.gz --markdown 20230501/s/spacy-wrap/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-01 22:35:57] INFO root fetch - processPackages [gym-trading-env]: Start processing: simc-support
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [gym-trading-env]: success
+[2023-05-01 22:35:57] INFO root fetch - processPackages [bytez]: Start processing: oceano-algos
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 22:35:57] INFO root fetch - processPackages [simc-support]: New version: [9.2.5.3] Old Version: [9.2.5.2]
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [sql-test-kit]: success
+[2023-05-01 22:35:57] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 22:35:57] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-01 22:35:57] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230501/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 22:35:57] INFO root fetch - processPackages [simc-support]: executing diffoscope
+[2023-05-01 22:35:57] INFO root fetch - processPackages [simc-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simc_support-9.2.5.2.tar.gz tmp/simc_support-9.2.5.3.tar.gz --markdown 20230501/s/simc-support/9.2.5.2-9.2.5.3/diff.md --exclude *.pyd
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [jsonformer]: success
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [spacy-wrap]: success
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-05-01 22:35:57] INFO root fetch - main [MainThread]: End processing [cortex-cli]: success
+[2023-05-01 22:35:58] INFO root fetch - main [MainThread]: End processing [datamol]: success
+[2023-05-01 22:35:58] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-01 22:36:00] INFO root fetch - main [MainThread]: End processing [simc-support]: success
+[2023-05-01 22:36:08] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-05-01 22:36:18] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-05-01 22:36:18] INFO root fetch - main [MainThread]: Store serial: [17931359]
