@@ -4007,3 +4007,56 @@
 [2023-05-01 05:27:45] INFO root fetch - main [MainThread]: End processing [vnfaker]: success
 [2023-05-01 05:28:07] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
 [2023-05-01 05:28:07] INFO root fetch - main [MainThread]: Store serial: [17922742]
+[2023-05-01 05:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922742]
+[2023-05-01 05:33:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: policyengine-us
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feiticeiro-tec
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trident-models-package
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitcoin-peer-rotate
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feiticeiro-tec
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-account-invoice-overdue-reminder
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TikTokLiveCustom
+[2023-05-01 05:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fern-pave
+[2023-05-01 05:33:17] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-01 05:33:17] WARNING root fetch - processPackages [bitcoin-peer-rotate]: Skipping, unable to determine old version
+[2023-05-01 05:33:17] INFO root fetch - main [MainThread]: End processing [bitcoin-peer-rotate] error
+[2023-05-01 05:33:17] INFO root fetch - processPackages [pyarmor]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-05-01 05:33:17] INFO root fetch - processPackages [feiticeiro-tec]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-01 05:33:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: New version: [12.0.2.2.0.99.dev1] Old Version: [12.0.2.2.0]
+[2023-05-01 05:33:17] INFO root fetch - processPackages [fern-pave]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-01 05:33:17] INFO root fetch - processPackages [trident-models-package]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 05:33:17] INFO root fetch - processPackages [policyengine-us]: New version: [0.310.1] Old Version: [0.310.0]
+[2023-05-01 05:33:17] WARNING root fetch - processPackages [TikTokLiveCustom]: Skipping, unable to determine old version
+[2023-05-01 05:33:17] INFO root fetch - main [MainThread]: End processing [TikTokLiveCustom] error
+[2023-05-01 05:33:17] INFO root fetch - processPackages [fern-pave]: executing diffoscope
+[2023-05-01 05:33:17] INFO root fetch - processPackages [fern-pave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_pave-0.0.17.tar.gz tmp/fern_pave-0.0.18.tar.gz --markdown 20230501/f/fern-pave/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-01 05:33:17] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/eb/e8/752f96b5eabaef21921a98927374b0eb46ef406cdbfd73c9bb23ab53cafa/feiticeiro_tec-1.1.3.tar.gz
+[2023-05-01 05:33:17] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/eb/e8/752f96b5eabaef21921a98927374b0eb46ef406cdbfd73c9bb23ab53cafa/feiticeiro_tec-1.1.3.tar.gz
+[2023-05-01 05:33:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: Downloading https://files.pythonhosted.org/packages/7c/8b/50f3a1ff4a9c7e67225263bc41f3cb860268aeab6689206d1868099aa9ee/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev1-py3-none-any.whl
+[2023-05-01 05:33:17] INFO root fetch - processPackages [trident-models-package]: Downloading https://files.pythonhosted.org/packages/ef/1a/d9ca05683b290da4b3c19e78c791ae1ac0b6bf51fb1c609cc50f5ebd2f29/trident_models_package-0.0.2.tar.gz
+[2023-05-01 05:33:17] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/14/9b/8dcc32005c5e694a93b52a60579ed5e96bd29284b7d0533d990d00f95560/policyengine-us-0.310.1.tar.gz
+[2023-05-01 05:33:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: executing diffoscope
+[2023-05-01 05:33:17] INFO root fetch - processPackages [odoo12-addon-account-invoice-overdue-reminder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0-py3-none-any.whl.zip tmp/odoo12_addon_account_invoice_overdue_reminder-12.0.2.2.0.99.dev1-py3-none-any.whl.zip --markdown 20230501/o/odoo12-addon-account-invoice-overdue-reminder/12.0.2.2.0-12.0.2.2.0.99.dev1/diff.md --exclude *.pyd
+[2023-05-01 05:33:18] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/32/cb/ab0b2546de84f234426daaf0c25fc6f42e8534f2b48f2a77db88903e3fd3/pyarmor-8.2.dev2.zip
+[2023-05-01 05:33:18] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/56/1c/2a00491156e9e71008347e0736be3549054a004b4e8dcb403cc94c70329b/feiticeiro_tec-1.1.4.tar.gz
+[2023-05-01 05:33:18] INFO root fetch - processPackages [feiticeiro-tec]: Downloading https://files.pythonhosted.org/packages/56/1c/2a00491156e9e71008347e0736be3549054a004b4e8dcb403cc94c70329b/feiticeiro_tec-1.1.4.tar.gz
+[2023-05-01 05:33:18] INFO root fetch - processPackages [trident-models-package]: Downloading https://files.pythonhosted.org/packages/2e/5b/964287f8aac753246292c1fff2594d28f8da35d383d2560b208355ea5823/trident_models_package-0.0.3.tar.gz
+[2023-05-01 05:33:18] INFO root fetch - processPackages [feiticeiro-tec]: executing diffoscope
+[2023-05-01 05:33:18] INFO root fetch - processPackages [feiticeiro-tec]: executing diffoscope
+[2023-05-01 05:33:18] INFO root fetch - processPackages [feiticeiro-tec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feiticeiro_tec-1.1.3.tar.gz tmp/feiticeiro_tec-1.1.4.tar.gz --markdown 20230501/f/feiticeiro-tec/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-01 05:33:18] INFO root fetch - processPackages [feiticeiro-tec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feiticeiro_tec-1.1.3.tar.gz tmp/feiticeiro_tec-1.1.4.tar.gz --markdown 20230501/f/feiticeiro-tec/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-01 05:33:18] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-01 05:33:18] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.310.0.tar.gz tmp/policyengine-us-0.310.1.tar.gz --markdown 20230501/p/policyengine-us/0.310.0-0.310.1/diff.md --exclude *.pyd
+[2023-05-01 05:33:18] INFO root fetch - processPackages [trident-models-package]: executing diffoscope
+[2023-05-01 05:33:18] INFO root fetch - processPackages [trident-models-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trident_models_package-0.0.2.tar.gz tmp/trident_models_package-0.0.3.tar.gz --markdown 20230501/t/trident-models-package/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 05:33:18] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-05-01 05:33:18] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.2.dev1.zip tmp/pyarmor-8.2.dev2.zip --markdown 20230501/p/pyarmor/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-05-01 05:33:18] INFO root fetch - main [MainThread]: End processing [fern-pave]: success
+[2023-05-01 05:33:19] INFO root fetch - main [MainThread]: End processing [trident-models-package]: success
+[2023-05-01 05:33:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-overdue-reminder]: success
+[2023-05-01 05:33:19] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec]: success
+[2023-05-01 05:33:19] INFO root fetch - main [MainThread]: End processing [feiticeiro-tec]: success
+[2023-05-01 05:33:20] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-05-01 05:34:32] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-01 05:34:32] INFO root fetch - main [MainThread]: Store serial: [17922778]
