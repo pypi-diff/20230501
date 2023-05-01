@@ -5251,3 +5251,11 @@
 [2023-05-01 08:51:58] INFO root fetch - main [MainThread]: End processing [vatis-asr-commons]: success
 [2023-05-01 08:52:00] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-01 08:52:00] INFO root fetch - main [MainThread]: Store serial: [17923526]
+[2023-05-01 08:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923526]
+[2023-05-01 08:57:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-01 08:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-05-01 08:57:09] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-01 08:57:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-01 08:57:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-01 08:57:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-01 08:57:17] INFO root fetch - main [MainThread]: Store serial: [17923528]
