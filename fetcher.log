@@ -11821,3 +11821,58 @@ EOFError: EOF read where object expected
 [2023-05-01 15:46:00] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-05-01 15:46:07] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-05-01 15:46:07] INFO root fetch - main [MainThread]: Store serial: [17927238]
+[2023-05-01 15:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927238]
+[2023-05-01 15:51:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dokuwikidumper
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh-pipcompile-plugin
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hue-sunrise
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yamcs-cli
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-lc709203f
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelbase2
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: axem-dem
+[2023-05-01 15:51:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySide1-Customized-Window
+[2023-05-01 15:51:16] WARNING root fetch - processPackages [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support]: Skipping, unable to determine old version
+[2023-05-01 15:51:16] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Liav-Add-Internal-Only-Lib-Support] error
+[2023-05-01 15:51:16] INFO root fetch - processPackages [yamcs-cli]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-05-01 15:51:16] INFO root fetch - processPackages [dokuwikidumper]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 15:51:16] WARNING root fetch - processPackages [axem-dem]: Skipping, unable to determine old version
+[2023-05-01 15:51:16] INFO root fetch - processPackages [edwh-pipcompile-plugin]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-01 15:51:16] INFO root fetch - main [MainThread]: End processing [axem-dem] error
+[2023-05-01 15:51:16] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-01 15:51:16] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.2] Old Version: [1.1]
+[2023-05-01 15:51:16] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-01 15:51:16] INFO root fetch - processPackages [adafruit-circuitpython-lc709203f]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-05-01 15:51:16] INFO root fetch - processPackages [yamcs-cli]: Downloading https://files.pythonhosted.org/packages/8c/36/a8448e7f0176dc160b1647b4a062e94bec626dddc1b53e1b617db88cd31a/yamcs-cli-1.4.5.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [adafruit-circuitpython-lc709203f]: Downloading https://files.pythonhosted.org/packages/0a/f0/9945e5942509305a4c292d973c628af3a21e838d201d9c1a53bb7885a877/adafruit-circuitpython-lc709203f-2.2.9.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/8d/bd/b41d464497049fedd938b2379a9d639742a2655fda7fbb6407d6a924ad62/modelbase2-0.1.6.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/db/87/31b7e5fafa19eb191716eb1322201dda816a0fe9a18505af333b61a11e0a/edwh_pipcompile_plugin-0.1.6.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [dokuwikidumper]: executing diffoscope
+[2023-05-01 15:51:16] INFO root fetch - processPackages [dokuwikidumper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dokuwikidumper-0.1.8.tar.gz tmp/dokuwikidumper-0.1.9.tar.gz --markdown 20230501/d/dokuwikidumper/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 15:51:16] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/af/50/b04447f0db5c8200c049b99a8419cb84a206d7425641b9eb3fb95eac9da2/PySide1_Customized_Window-1.2-py3-none-any.whl
+[2023-05-01 15:51:16] INFO root fetch - processPackages [yamcs-cli]: Downloading https://files.pythonhosted.org/packages/a1/95/8b9c0cbc3be74452c7251bffd8d838ded1cc050db5098b80a0d8dbba40d9/yamcs-cli-1.4.6.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [edwh-pipcompile-plugin]: Downloading https://files.pythonhosted.org/packages/f6/ec/7e7f26c741b8089fa6cf2eb013403f5f50c4761de08abbc7ea55d5f9758e/edwh_pipcompile_plugin-0.1.7.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [yamcs-cli]: executing diffoscope
+[2023-05-01 15:51:16] INFO root fetch - processPackages [yamcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamcs-cli-1.4.5.tar.gz tmp/yamcs-cli-1.4.6.tar.gz --markdown 20230501/y/yamcs-cli/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-05-01 15:51:16] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-05-01 15:51:16] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.1-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.2-py3-none-any.whl.zip --markdown 20230501/P/PySide1-Customized-Window/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-01 15:51:16] INFO root fetch - processPackages [adafruit-circuitpython-lc709203f]: Downloading https://files.pythonhosted.org/packages/37/f5/7991e8bd75ab7f22f82d26bf51399495e07d8cc778bc5eb432f2b39f87ed/adafruit-circuitpython-lc709203f-2.3.0.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2023-05-01 15:51:16] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2023-05-01 15:51:17] INFO root fetch - processPackages [edwh-pipcompile-plugin]: executing diffoscope
+[2023-05-01 15:51:17] INFO root fetch - processPackages [edwh-pipcompile-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_pipcompile_plugin-0.1.6.tar.gz tmp/edwh_pipcompile_plugin-0.1.7.tar.gz --markdown 20230501/e/edwh-pipcompile-plugin/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-01 15:51:17] INFO root fetch - processPackages [adafruit-circuitpython-lc709203f]: executing diffoscope
+[2023-05-01 15:51:17] INFO root fetch - processPackages [adafruit-circuitpython-lc709203f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-lc709203f-2.2.9.tar.gz tmp/adafruit-circuitpython-lc709203f-2.3.0.tar.gz --markdown 20230501/a/adafruit-circuitpython-lc709203f/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-05-01 15:51:17] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2023-05-01 15:51:17] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20230501/h/hue-sunrise/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-01 15:51:17] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2023-05-01 15:51:17] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.6.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20230501/m/modelbase2/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 15:51:18] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-05-01 15:51:18] INFO root fetch - main [MainThread]: End processing [dokuwikidumper]: success
+[2023-05-01 15:51:18] INFO root fetch - main [MainThread]: End processing [edwh-pipcompile-plugin]: success
+[2023-05-01 15:51:18] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2023-05-01 15:51:18] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-lc709203f]: success
+[2023-05-01 15:51:18] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2023-05-01 15:51:19] INFO root fetch - main [MainThread]: End processing [yamcs-cli]: success
+[2023-05-01 15:51:19] INFO root fetch - main [MainThread]: Store serial: [17927269]
