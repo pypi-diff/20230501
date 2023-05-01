@@ -10057,3 +10057,87 @@
 [2023-05-01 14:14:55] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-01 14:14:57] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
 [2023-05-01 14:14:57] INFO root fetch - main [MainThread]: Store serial: [17926252]
+[2023-05-01 14:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926252]
+[2023-05-01 14:20:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: navigation-utilities
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: je-editor-dev
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-thomas-tac-type-checker
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaw-sweep-sg-cali
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: austrakka
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymarc
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-shelly-deepSanity
+[2023-05-01 14:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CatRoyale
+[2023-05-01 14:20:06] INFO root fetch - processPackages [navigation-utilities]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: New version: [20230501.12.16.186041] Old Version: [20230501.11.29.317349]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230501.11.50.112654] Old Version: [20230501.10.38.659906]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [yaw-sweep-sg-cali]: New version: [1.2] Old Version: [1.1]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: New version: [20230501.11.39.165991] Old Version: [20230501.10.14.199660]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.84.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230501/j/je-editor-dev/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:20:06] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 14:20:06] INFO root fetch - processPackages [austrakka]: New version: [0.28.0] Old Version: [0.27.3]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [pymarc]: New version: [5.0.0] Old Version: [4.2.2]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [navigation-utilities]: Downloading https://files.pythonhosted.org/packages/62/33/4b6d156d4bc68821f7db7829719a11343bc7cd62db84952e44b48993285e/navigation-utilities-0.1.2.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Downloading https://files.pythonhosted.org/packages/0f/65/a2ae281b2847012c5fcc602b4f8bed0375b7365128f54aa5dd67cd9fae5b/certora-cli-alpha-shelly-deepSanity-20230501.10.14.199660.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Downloading https://files.pythonhosted.org/packages/b2/b2/0db4319ace22fa4f541b0a4c891e33d5397f6280e31f35f5d077a5b24833/certora-cli-alpha-thomas-tac-type-checker-20230501.11.29.317349.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/02/78/0a88769304b10c410339d9e97025b149a164b3afa9adf4abd086a582d4be/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230501.10.38.659906.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [yaw-sweep-sg-cali]: Downloading https://files.pythonhosted.org/packages/fe/52/39314ae0b577de53587a9b65b3602fdf995e3218b2dba4256b36428a9b0d/yaw_sweep_sg_cali-1.2.tar.gz
+[2023-05-01 14:20:06] WARNING root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Skipping package: exceeds size limit 38297303>=10485760
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Start processing: orpc-client
+[2023-05-01 14:20:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-tac-type-checker] error
+[2023-05-01 14:20:06] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Skipping package: exceeds size limit 38324162>=10485760
+[2023-05-01 14:20:06] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38298145>=10485760
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Start processing: blazetest-beta
+[2023-05-01 14:20:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deepSanity] error
+[2023-05-01 14:20:06] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: orpc-server
+[2023-05-01 14:20:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-01 14:20:06] INFO root fetch - processPackages [pymarc]: Downloading https://files.pythonhosted.org/packages/0d/55/cf3cbb983c979069c6fde546453c30972c7905b91ba61b003c79872140eb/pymarc-4.2.2.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.84.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230501/j/je-editor/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:20:06] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/8c/85/e505f405cf12453927c877d6dc3b1f7ca507bdd1038302ae2c0d2fdbe94c/austrakka-0.27.3-py3-none-any.whl
+[2023-05-01 14:20:06] INFO root fetch - processPackages [yaw-sweep-sg-cali]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [yaw-sweep-sg-cali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaw_sweep_sg_cali-1.1.tar.gz tmp/yaw_sweep_sg_cali-1.2.tar.gz --markdown 20230501/y/yaw-sweep-sg-cali/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-01 14:20:06] INFO root fetch - processPackages [orpc-client]: New version: [0.5.8] Old Version: [0.1.3]
+[2023-05-01 14:20:06] WARNING root fetch - processPackages [orpc-server]: Skipping, unable to determine old version
+[2023-05-01 14:20:06] INFO root fetch - processPackages [orpc-server]: Start processing: python-minifier
+[2023-05-01 14:20:06] INFO root fetch - main [MainThread]: End processing [orpc-server] error
+[2023-05-01 14:20:06] INFO root fetch - processPackages [blazetest-beta]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [navigation-utilities]: Downloading https://files.pythonhosted.org/packages/f7/a2/3fd42d6fe70f31f27db9796abc24dc4b48d1271d7c5724fc52a8aa83a5ad/navigation-utilities-0.2.0.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [python-minifier]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-01 14:20:06] INFO root fetch - processPackages [navigation-utilities]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [navigation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigation-utilities-0.1.2.tar.gz tmp/navigation-utilities-0.2.0.tar.gz --markdown 20230501/n/navigation-utilities/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 14:20:06] INFO root fetch - processPackages [pymarc]: Downloading https://files.pythonhosted.org/packages/1d/ad/f53cf6413a72f3a4fa3f53e6576f08c2affa588c43a2d1c77daba341d0e9/pymarc-5.0.0.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [orpc-client]: Downloading https://files.pythonhosted.org/packages/fb/8b/bda122328bd6558766219a70b1087d66d129b7f85ded2743f460220c3ae8/orpc-client-0.1.3.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [blazetest-beta]: Downloading https://files.pythonhosted.org/packages/ba/a1/07f0c06b246857baa9187778c643d815058582a74f88c9311653a0aab2ec/blazetest-beta-0.0.0.8.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [austrakka]: Downloading https://files.pythonhosted.org/packages/52/8e/7177ad9e356cf1e859da4056ba83ae12f63a9e24150b4edd258bbdbc3a97/austrakka-0.28.0-py3-none-any.whl
+[2023-05-01 14:20:06] INFO root fetch - processPackages [python-minifier]: Downloading https://files.pythonhosted.org/packages/ec/f5/d4ea0e1fdf25e020237811d300f899c9cccbbeb7fb64200d44efc1c1606d/python_minifier-2.8.1.tar.gz
+[2023-05-01 14:20:06] INFO root fetch - processPackages [pymarc]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [pymarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymarc-4.2.2.tar.gz tmp/pymarc-5.0.0.tar.gz --markdown 20230501/p/pymarc/4.2.2-5.0.0/diff.md --exclude *.pyd
+[2023-05-01 14:20:06] INFO root fetch - processPackages [austrakka]: executing diffoscope
+[2023-05-01 14:20:06] INFO root fetch - processPackages [austrakka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/austrakka-0.27.3-py3-none-any.whl.zip tmp/austrakka-0.28.0-py3-none-any.whl.zip --markdown 20230501/a/austrakka/0.27.3-0.28.0/diff.md --exclude *.pyd
+[2023-05-01 14:20:07] INFO root fetch - processPackages [python-minifier]: Downloading https://files.pythonhosted.org/packages/06/01/693c38fe45f15b7f81f9773d75e465127c6e63932d3474c54504bd32cba7/python_minifier-2.9.0.tar.gz
+[2023-05-01 14:20:07] INFO root fetch - processPackages [blazetest-beta]: Downloading https://files.pythonhosted.org/packages/94/6f/c4ec9058c2a214dede0d9651ce2e96d85c95bebef11ff8bd7c341509252b/blazetest-beta-0.0.0.9.tar.gz
+[2023-05-01 14:20:07] INFO root fetch - processPackages [python-minifier]: executing diffoscope
+[2023-05-01 14:20:07] INFO root fetch - processPackages [python-minifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_minifier-2.8.1.tar.gz tmp/python_minifier-2.9.0.tar.gz --markdown 20230501/p/python-minifier/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-01 14:20:07] INFO root fetch - processPackages [orpc-client]: Downloading https://files.pythonhosted.org/packages/25/68/3b1d87459cefd799f9dd0b7878d344d65d0e88ed59c399a3e769f983a26a/orpc-client-0.5.8.tar.gz
+[2023-05-01 14:20:07] INFO root fetch - processPackages [orpc-client]: executing diffoscope
+[2023-05-01 14:20:07] INFO root fetch - processPackages [orpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orpc-client-0.1.3.tar.gz tmp/orpc-client-0.5.8.tar.gz --markdown 20230501/o/orpc-client/0.1.3-0.5.8/diff.md --exclude *.pyd
+[2023-05-01 14:20:07] INFO root fetch - processPackages [blazetest-beta]: executing diffoscope
+[2023-05-01 14:20:07] INFO root fetch - processPackages [blazetest-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blazetest-beta-0.0.0.8.tar.gz tmp/blazetest-beta-0.0.0.9.tar.gz --markdown 20230501/b/blazetest-beta/0.0.0.8-0.0.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:20:07] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 14:20:07] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-01 14:20:07] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-01 14:20:07] INFO root fetch - main [MainThread]: End processing [yaw-sweep-sg-cali]: success
+[2023-05-01 14:20:08] INFO root fetch - main [MainThread]: End processing [navigation-utilities]: success
+[2023-05-01 14:20:08] INFO root fetch - main [MainThread]: End processing [orpc-client]: success
+[2023-05-01 14:20:08] INFO root fetch - main [MainThread]: End processing [austrakka]: success
+[2023-05-01 14:20:08] INFO root fetch - main [MainThread]: End processing [python-minifier]: success
+[2023-05-01 14:20:08] INFO root fetch - main [MainThread]: End processing [pymarc]: success
+[2023-05-01 14:20:09] INFO root fetch - main [MainThread]: End processing [blazetest-beta]: success
+[2023-05-01 14:20:09] INFO root fetch - main [MainThread]: Store serial: [17926306]
