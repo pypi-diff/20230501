@@ -15047,3 +15047,132 @@ EOFError: EOF read where object expected
 [2023-05-01 19:22:45] INFO root fetch - main [MainThread]: End processing [anylabeling]: success
 [2023-05-01 19:22:46] INFO root fetch - main [MainThread]: End processing [python-olm]: success
 [2023-05-01 19:22:46] INFO root fetch - main [MainThread]: Store serial: [17929402]
+[2023-05-01 19:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929402]
+[2023-05-01 19:27:54] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-ui
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweelol
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-v4-service
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citizenk
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-core
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vegafusion-python-embed
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mongomini
+[2023-05-01 19:27:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: polywrap-fs-plugin
+[2023-05-01 19:27:54] INFO root fetch - processPackages [sweelol]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 19:27:54] WARNING root fetch - processPackages [polywrap-fs-plugin]: Skipping, unable to determine old version
+[2023-05-01 19:27:54] INFO root fetch - processPackages [polywrap-fs-plugin]: Start processing: skainet
+[2023-05-01 19:27:54] INFO root fetch - main [MainThread]: End processing [polywrap-fs-plugin] error
+[2023-05-01 19:27:54] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230501.17.22.250778] Old Version: [20230501.16.34.777033]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [mongomini]: New version: [23.3.0] Old Version: [0.2.0]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [citizenk]: New version: [0.1.44] Old Version: [0.1.43]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [skainet]: New version: [0.0.0.dev8] Old Version: [0.0.0.dev4]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [vegafusion-python-embed]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-01 19:27:54] INFO root fetch - processPackages [mongomini]: Downloading https://files.pythonhosted.org/packages/09/df/12e14f4b47e18e9bbf2c1e5c6454ac9c48e029d28611d60288e82b7e5a0a/mongomini-0.2.0.tar.gz
+[2023-05-01 19:27:54] INFO root fetch - processPackages [sweelol]: Downloading https://files.pythonhosted.org/packages/b9/90/6af24a61e54d22019a034362e38e123312a5ca7e823d18b3061d1c7d7b42/sweelol-1.0.0.tar.gz
+[2023-05-01 19:27:54] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/6f/55/4d38d7dfb750dbbccbae3240715e37519efd574c2cacc7c5ea4ee224a3f8/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230501.16.34.777033.tar.gz
+[2023-05-01 19:27:55] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/02/d1/4de6cd23f313699cefb3be08e942dfdd1040eba3aa09f37b5d5e5461436e/vegafusion_python_embed-1.2.2.tar.gz
+[2023-05-01 19:27:55] INFO root fetch - processPackages [skainet]: Downloading https://files.pythonhosted.org/packages/b9/d1/ff4ff6023ad7bcb2aebfba49a66f212844dfa3900ef3ebe901276a38fa43/skainet-0.0.0.dev4.tar.gz
+[2023-05-01 19:27:55] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38324654>=10485760
+[2023-05-01 19:27:55] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Start processing: croto
+[2023-05-01 19:27:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-01 19:27:55] INFO root fetch - processPackages [croto]: New version: [1.1] Old Version: [0.91]
+[2023-05-01 19:27:55] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/c9/ab/918dc647365d664a4e8f894d56b620fc2180aab4df191b56b14aca8570f4/citizenk-0.1.44.tar.gz
+[2023-05-01 19:27:55] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-0.91.tar.gz tmp/croto-1.1.tar.gz --markdown 20230501/c/croto/0.91-1.1/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.43.tar.gz tmp/citizenk-0.1.44.tar.gz --markdown 20230501/c/citizenk/0.1.43-0.1.44/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230501/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230501/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [mongomini]: Downloading https://files.pythonhosted.org/packages/b7/0b/46fd988f75ba8d063cca2f926f341ff79d24b519f95cf2b5c3c042ecb497/mongomini-23.3.0.tar.gz
+[2023-05-01 19:27:55] INFO root fetch - processPackages [skainet]: Downloading https://files.pythonhosted.org/packages/b2/52/63efd7fe316d18a78adf089bfd89f3481f6b0c1a56af28f235dd2fd69502/skainet-0.0.0.dev8.tar.gz
+[2023-05-01 19:27:55] INFO root fetch - processPackages [sweelol]: Downloading https://files.pythonhosted.org/packages/eb/1b/79b3dc410b1db874fe3088bd333696721b7abe36ec1404bde26c26fead4f/sweelol-1.1.0.tar.gz
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230501/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230501/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [mongomini]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [mongomini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomini-0.2.0.tar.gz tmp/mongomini-23.3.0.tar.gz --markdown 20230501/m/mongomini/0.2.0-23.3.0/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [sweelol]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [skainet]: executing diffoscope
+[2023-05-01 19:27:55] INFO root fetch - processPackages [sweelol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweelol-1.0.0.tar.gz tmp/sweelol-1.1.0.tar.gz --markdown 20230501/s/sweelol/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 19:27:55] INFO root fetch - processPackages [skainet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skainet-0.0.0.dev4.tar.gz tmp/skainet-0.0.0.dev8.tar.gz --markdown 20230501/s/skainet/0.0.0.dev4-0.0.0.dev8/diff.md --exclude *.pyd
+[2023-05-01 19:27:56] INFO root fetch - processPackages [vegafusion-python-embed]: Downloading https://files.pythonhosted.org/packages/e7/69/a52dab5cf2928dcc9206eb9af4e962ade4125ce4a5d64bc0214abcde9beb/vegafusion_python_embed-1.2.3.tar.gz
+[2023-05-01 19:27:56] INFO root fetch - processPackages [croto]: Start processing: remotior-sensus
+[2023-05-01 19:27:56] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-01 19:27:56] INFO root fetch - processPackages [vegafusion-python-embed]: executing diffoscope
+[2023-05-01 19:27:56] INFO root fetch - processPackages [vegafusion-python-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion_python_embed-1.2.2.tar.gz tmp/vegafusion_python_embed-1.2.3.tar.gz --markdown 20230501/v/vegafusion-python-embed/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-01 19:27:56] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 19:27:56] INFO root fetch - processPackages [mongomini]: Start processing: liblineage
+[2023-05-01 19:27:56] INFO root fetch - main [MainThread]: End processing [mongomini]: success
+[2023-05-01 19:27:56] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-05-01 19:27:56] INFO root fetch - processPackages [liblineage]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-01 19:27:56] INFO root fetch - processPackages [skainet]: Start processing: pyosrs
+[2023-05-01 19:27:56] INFO root fetch - main [MainThread]: End processing [skainet]: success
+[2023-05-01 19:27:56] INFO root fetch - processPackages [pyosrs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 19:27:57] INFO root fetch - processPackages [sweelol]: Start processing: xturing
+[2023-05-01 19:27:57] INFO root fetch - main [MainThread]: End processing [sweelol]: success
+[2023-05-01 19:27:57] INFO root fetch - processPackages [pyosrs]: executing diffoscope
+[2023-05-01 19:27:57] INFO root fetch - processPackages [pyosrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosrs-0.0.1.tar.gz tmp/pyosrs-0.0.2.tar.gz --markdown 20230501/p/pyosrs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 19:27:57] INFO root fetch - processPackages [liblineage]: Downloading https://files.pythonhosted.org/packages/5e/5d/56402ba699b4eb6079d3561b6c0e677ec85739d1baf0be5182e8227ce4a6/liblineage-1.3.1.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [citizenk]: Start processing: vegafusion
+[2023-05-01 19:27:57] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-05-01 19:27:57] INFO root fetch - processPackages [xturing]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 19:27:57] INFO root fetch - processPackages [assemblyline-ui]: Start processing: vegafusion-jupyter
+[2023-05-01 19:27:57] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-01 19:27:57] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion-jupyter]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-01 19:27:57] INFO root fetch - processPackages [xturing]: Downloading https://files.pythonhosted.org/packages/2a/97/0610c308920fed38c32faf5e048719707a98f031318d541383614081f3af/xturing-0.1.1.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/e8/67/ed54b553221dacc4f34a5016cfe3e118ee499bb6d59a729678a818b0544d/vegafusion-1.2.2.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-05-01 19:27:57] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230501/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/f8/d4/b736bc99556774b4e47cdfb8b710ba1930049f71cbb663655ba438a04319/vegafusion-jupyter-1.2.2.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion]: Downloading https://files.pythonhosted.org/packages/93/f9/fd3d6858f9b5a274ed5920091ba8dcff3f346598e37a477b0a2d758f2a60/vegafusion-1.2.3.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [liblineage]: Downloading https://files.pythonhosted.org/packages/54/1b/02de37654690095619babcb70ca486ab2c08aa6f255bbe92422f2d47d0db/liblineage-1.3.2.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [xturing]: Downloading https://files.pythonhosted.org/packages/ca/44/0843e5f97b4d1dfdb000ebf58ccb6887bda6f8c1e232cbd2919aa5750c51/xturing-0.1.2.tar.gz
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion]: executing diffoscope
+[2023-05-01 19:27:57] INFO root fetch - processPackages [vegafusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-1.2.2.tar.gz tmp/vegafusion-1.2.3.tar.gz --markdown 20230501/v/vegafusion/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-01 19:27:57] INFO root fetch - processPackages [liblineage]: executing diffoscope
+[2023-05-01 19:27:57] INFO root fetch - processPackages [liblineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblineage-1.3.1.tar.gz tmp/liblineage-1.3.2.tar.gz --markdown 20230501/l/liblineage/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-01 19:27:57] INFO root fetch - processPackages [xturing]: executing diffoscope
+[2023-05-01 19:27:57] INFO root fetch - processPackages [xturing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xturing-0.1.1.tar.gz tmp/xturing-0.1.2.tar.gz --markdown 20230501/x/xturing/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 19:27:57] INFO root fetch - processPackages [assemblyline]: Start processing: sweelol
+[2023-05-01 19:27:57] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-01 19:27:57] INFO root fetch - processPackages [sweelol]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 19:27:58] INFO root fetch - processPackages [sweelol]: Downloading https://files.pythonhosted.org/packages/63/e2/b52fa2d779d350261e7cb04a483e03f1720ddcd1be6132ec80bc334fa6e0/sweelol-1.1.1.tar.gz
+[2023-05-01 19:27:58] INFO root fetch - processPackages [pyosrs]: Start processing: github-deploy
+[2023-05-01 19:27:58] INFO root fetch - main [MainThread]: End processing [pyosrs]: success
+[2023-05-01 19:27:58] INFO root fetch - processPackages [sweelol]: executing diffoscope
+[2023-05-01 19:27:58] INFO root fetch - processPackages [sweelol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweelol-1.1.0.tar.gz tmp/sweelol-1.1.1.tar.gz --markdown 20230501/s/sweelol/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:27:58] INFO root fetch - processPackages [vegafusion-jupyter]: Downloading https://files.pythonhosted.org/packages/8a/2c/4b880b62af58210243c8e2813245ab338d28232bc454ccc78deb23f077be/vegafusion-jupyter-1.2.3.tar.gz
+[2023-05-01 19:27:58] INFO root fetch - processPackages [github-deploy]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 19:27:58] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: crazy-thursday
+[2023-05-01 19:27:58] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-01 19:27:58] INFO root fetch - processPackages [github-deploy]: Downloading https://files.pythonhosted.org/packages/9d/67/d14607a0f84c7c94acd2f38d09ea6f62c9e27b285bf58bec6f81a746c646/github-deploy-1.1.0.tar.gz
+[2023-05-01 19:27:58] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.2.0] Old Version: [2023.5.1.1]
+[2023-05-01 19:27:58] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/7f/6d/85c42ae0adc66cec4535318f0b163f7982d6de34874245c8c37af2ce68f6/crazy-thursday-2023.5.2.0.tar.gz
+[2023-05-01 19:27:58] INFO root fetch - processPackages [github-deploy]: Downloading https://files.pythonhosted.org/packages/e8/0e/304a8443a61bdf975658faafde1457745004f05b373aec5314c3103fa1d7/github-deploy-1.1.1.tar.gz
+[2023-05-01 19:27:59] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-01 19:27:59] INFO root fetch - processPackages [github-deploy]: executing diffoscope
+[2023-05-01 19:27:59] INFO root fetch - processPackages [github-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github-deploy-1.1.0.tar.gz tmp/github-deploy-1.1.1.tar.gz --markdown 20230501/g/github-deploy/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:27:59] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-01 19:27:59] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.1.1.tar.gz tmp/crazy-thursday-2023.5.2.0.tar.gz --markdown 20230501/c/crazy-thursday/2023.5.1.1-2023.5.2.0/diff.md --exclude *.pyd
+[2023-05-01 19:27:59] INFO root fetch - main [MainThread]: End processing [vegafusion]: success
+[2023-05-01 19:27:59] INFO root fetch - processPackages [vegafusion-jupyter]: executing diffoscope
+[2023-05-01 19:27:59] INFO root fetch - processPackages [vegafusion-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegafusion-jupyter-1.2.2.tar.gz tmp/vegafusion-jupyter-1.2.3.tar.gz --markdown 20230501/v/vegafusion-jupyter/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-01 19:27:59] INFO root fetch - main [MainThread]: End processing [liblineage]: success
+[2023-05-01 19:27:59] INFO root fetch - main [MainThread]: End processing [sweelol]: success
+[2023-05-01 19:28:00] INFO root fetch - main [MainThread]: End processing [github-deploy]: success
+[2023-05-01 19:28:00] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-01 19:28:00] INFO root fetch - main [MainThread]: End processing [xturing]: success
+[2023-05-01 19:28:01] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-05-01 19:28:28] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
+[2023-05-01 19:30:14] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
+[2023-05-01 19:30:14] INFO root fetch - main [MainThread]: Store serial: [17929493]
