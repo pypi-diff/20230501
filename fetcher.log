@@ -6263,3 +6263,36 @@
 [2023-05-01 10:49:56] INFO root fetch - main [MainThread]: End processing [palmers-preprocess]: success
 [2023-05-01 10:50:05] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-01 10:50:05] INFO root fetch - main [MainThread]: Store serial: [17924112]
+[2023-05-01 10:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924112]
+[2023-05-01 10:55:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CryptoLyzer
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: complex-network-link-prediction
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: YMS
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toollib
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-compat
+[2023-05-01 10:55:14] INFO root fetch - processPackages [YMS]: New version: [0.7] Old Version: [0.63]
+[2023-05-01 10:55:14] INFO root fetch - processPackages [CryptoLyzer]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-01 10:55:14] INFO root fetch - processPackages [toollib]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-05-01 10:55:14] INFO root fetch - processPackages [complex-network-link-prediction]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ansible-compat]: New version: [4.0.0a1] Old Version: [4.0.0]
+[2023-05-01 10:55:14] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/e8/78/35578e2605c068732d319b26407ff35add2b238ca5eb8252160f36f7acb2/YMS-0.63.tar.gz
+[2023-05-01 10:55:14] INFO root fetch - processPackages [CryptoLyzer]: Downloading https://files.pythonhosted.org/packages/7b/fd/de0bde7a2f22e15a379273598fa75e622f269d00b8758f6c9e933b4c9eda/CryptoLyzer-0.8.5.tar.gz
+[2023-05-01 10:55:14] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/a5/c9/1dbf3ab2a11538b7a5a60b60ea9729077f846f1852e1e72ee274284e785f/toollib-1.3.8-py3-none-any.whl
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ansible-compat]: Downloading https://files.pythonhosted.org/packages/3c/03/e88fa9c5ab76ad65358a1eeb2adbd67364486b38dbfe04dd4e2756ccbc0f/ansible-compat-4.0.0a1.tar.gz
+[2023-05-01 10:55:14] INFO root fetch - processPackages [complex-network-link-prediction]: Downloading https://files.pythonhosted.org/packages/8a/58/3fcf8c2ef0f6aae2aa1b96ea9353810955eeb870e1393a2ee90f09f8a727/complex-network-link-prediction-1.0.2.tar.gz
+[2023-05-01 10:55:14] ERROR root fetch - processPackages [YMS]: Unable to fetch info: No such project/version 'YMS' 0.7
+[2023-05-01 10:55:14] INFO root fetch - main [MainThread]: End processing [YMS] error
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ansible-compat]: executing diffoscope
+[2023-05-01 10:55:14] INFO root fetch - processPackages [ansible-compat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-compat-4.0.0.tar.gz tmp/ansible-compat-4.0.0a1.tar.gz --markdown 20230501/a/ansible-compat/4.0.0-4.0.0a1/diff.md --exclude *.pyd
+[2023-05-01 10:55:14] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2023-05-01 10:55:14] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.3.7-py3-none-any.whl.zip tmp/toollib-1.3.8-py3-none-any.whl.zip --markdown 20230501/t/toollib/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-05-01 10:55:14] INFO root fetch - processPackages [complex-network-link-prediction]: executing diffoscope
+[2023-05-01 10:55:14] INFO root fetch - processPackages [complex-network-link-prediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complex-network-link-prediction-1.0.1.tar.gz tmp/complex-network-link-prediction-1.0.2.tar.gz --markdown 20230501/c/complex-network-link-prediction/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 10:55:14] INFO root fetch - processPackages [CryptoLyzer]: Downloading https://files.pythonhosted.org/packages/5d/87/fd43a7a0c9ce446dda1c01266a4cf2f62026c1a37decf9f245b77f1ea2df/CryptoLyzer-0.9.0.tar.gz
+[2023-05-01 10:55:15] INFO root fetch - processPackages [CryptoLyzer]: executing diffoscope
+[2023-05-01 10:55:15] INFO root fetch - processPackages [CryptoLyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptoLyzer-0.8.5.tar.gz tmp/CryptoLyzer-0.9.0.tar.gz --markdown 20230501/C/CryptoLyzer/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 10:55:16] INFO root fetch - main [MainThread]: End processing [complex-network-link-prediction]: success
+[2023-05-01 10:55:16] INFO root fetch - main [MainThread]: End processing [ansible-compat]: success
+[2023-05-01 10:55:16] INFO root fetch - main [MainThread]: End processing [CryptoLyzer]: success
+[2023-05-01 10:55:16] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2023-05-01 10:55:16] INFO root fetch - main [MainThread]: Store serial: [17924130]
