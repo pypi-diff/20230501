@@ -18682,3 +18682,159 @@ EOFError: EOF read where object expected
 [2023-05-01 23:16:17] ERROR root fetch - processPackages [mkposters]: Timeout during execution of pkgdiff
 [2023-05-01 23:16:17] INFO root fetch - main [MainThread]: End processing [mkposters] error
 [2023-05-01 23:16:17] INFO root fetch - main [MainThread]: Store serial: [17931777]
+[2023-05-01 23:21:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931777]
+[2023-05-01 23:21:27] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-orca
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: croto
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchling-api-client
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kivy-widgets
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: must
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoEis
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ovos-utils
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twarc2sql
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: featureform
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GosuScreenAPI
+[2023-05-01 23:21:27] INFO root fetch - processPackages [py-orca]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [croto]: New version: [2.0] Old Version: [1.2]
+[2023-05-01 23:21:27] WARNING root fetch - processPackages [must]: Skipping, unable to determine old version
+[2023-05-01 23:21:27] INFO root fetch - processPackages [must]: Start processing: GosuScreenAPI
+[2023-05-01 23:21:27] INFO root fetch - main [MainThread]: End processing [must] error
+[2023-05-01 23:21:27] INFO root fetch - processPackages [kivy-widgets]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [AutoEis]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [twarc2sql]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [featureform]: New version: [1.8.0] Old Version: [1.7.4]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 23:21:27] ERROR root fetch - processPackages [GosuScreenAPI]: Unable to get metadata: No such project 'GosuScreenAPI'
+[2023-05-01 23:21:27] ERROR root fetch - processPackages [GosuScreenAPI]: Unable to get metadata: No such project 'GosuScreenAPI'
+[2023-05-01 23:21:27] INFO root fetch - processPackages [GosuScreenAPI]: Start processing: ligo-scald
+[2023-05-01 23:21:27] INFO root fetch - processPackages [GosuScreenAPI]: Start processing: not1mm
+[2023-05-01 23:21:27] INFO root fetch - main [MainThread]: End processing [GosuScreenAPI] error
+[2023-05-01 23:21:27] INFO root fetch - main [MainThread]: End processing [GosuScreenAPI] error
+[2023-05-01 23:21:27] INFO root fetch - processPackages [not1mm]: New version: [23.5.1.1] Old Version: [23.5.1]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ligo-scald]: New version: [0.8.4] Old Version: [0.8.1]
+[2023-05-01 23:21:27] INFO root fetch - processPackages [croto]: Downloading https://files.pythonhosted.org/packages/36/12/011d90c2d67fd6403808fdb334236468f371fc4b725c39feca01bfd9f6b6/croto-1.2.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [py-orca]: Downloading https://files.pythonhosted.org/packages/d1/9b/6a436ec5d18ad5caa114915b8836d9055bba52bac307d6bb76cd8d335765/py-orca-1.0.1.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [twarc2sql]: Downloading https://files.pythonhosted.org/packages/98/7b/f573cec5c5a3889a2d7b0754492a8919745426f7d36f01035339982467a9/twarc2sql-0.2.2.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ligo-scald]: Downloading https://files.pythonhosted.org/packages/04/ea/05e81e57a2c12ce5e1495436b6288be364161918e847c4032962e7a884be/ligo-scald-0.8.1.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/56/50/ce85aa02de1f3c96d5d74891a1e7216bdc774b1baad84b647fe568a4a67e/not1mm-23.5.1.1.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [AutoEis]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [AutoEis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoEis-0.0.8.tar.gz tmp/AutoEis-0.0.9.tar.gz --markdown 20230501/A/AutoEis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [kivy-widgets]: Downloading https://files.pythonhosted.org/packages/84/6b/3051188a538602553112e12b91e7fc1c182a75c2574e106d75c15ce9edf1/kivy_widgets-0.1.7.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/00/ad/ce090e63a68e2effd026f37f4df964df0c4dc4d10e1228ee01e3250f5e58/featureform-1.8.0.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230501/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230501/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [croto]: Downloading https://files.pythonhosted.org/packages/af/07/b318a7e4f886fe91b1d7025d57a39186d9a471e6538bd20862ee9d220ef0/croto-2.0.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [kivy-widgets]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [kivy-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivy_widgets-0.1.6.tar.gz tmp/kivy_widgets-0.1.7.tar.gz --markdown 20230501/k/kivy-widgets/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [py-orca]: Downloading https://files.pythonhosted.org/packages/91/64/3bc2ec708d3673352919e72c6b1b3f765d973e4947e409ad8005a02a78e7/py-orca-1.1.0.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.5.1.tar.gz tmp/not1mm-23.5.1.1.tar.gz --markdown 20230501/n/not1mm/23.5.1-23.5.1.1/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [twarc2sql]: Downloading https://files.pythonhosted.org/packages/21/b8/6ddae0f40c5a6b5a2596807c8edd11125601c266dd134240e5ac6d0799d1/twarc2sql-1.0.0.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.7.4.tar.gz tmp/featureform-1.8.0.tar.gz --markdown 20230501/f/featureform/1.7.4-1.8.0/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-1.2.tar.gz tmp/croto-2.0.tar.gz --markdown 20230501/c/croto/1.2-2.0/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ligo-scald]: Downloading https://files.pythonhosted.org/packages/3e/97/ce4d5eabf90bd1c6c049ef1cadbc9228d7b38684bfdd04dba69336ccfe62/ligo-scald-0.8.4.tar.gz
+[2023-05-01 23:21:27] INFO root fetch - processPackages [py-orca]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [py-orca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-orca-1.0.1.tar.gz tmp/py-orca-1.1.0.tar.gz --markdown 20230501/p/py-orca/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [twarc2sql]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [twarc2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twarc2sql-0.2.2.tar.gz tmp/twarc2sql-1.0.0.tar.gz --markdown 20230501/t/twarc2sql/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ligo-scald]: executing diffoscope
+[2023-05-01 23:21:27] INFO root fetch - processPackages [ligo-scald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo-scald-0.8.1.tar.gz tmp/ligo-scald-0.8.4.tar.gz --markdown 20230501/l/ligo-scald/0.8.1-0.8.4/diff.md --exclude *.pyd
+[2023-05-01 23:21:29] INFO root fetch - processPackages [AutoEis]: Start processing: sigmadsp
+[2023-05-01 23:21:29] INFO root fetch - main [MainThread]: End processing [AutoEis]: success
+[2023-05-01 23:21:29] INFO root fetch - processPackages [sigmadsp]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-01 23:21:29] INFO root fetch - processPackages [croto]: Start processing: mitoinstaller
+[2023-05-01 23:21:29] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-01 23:21:29] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:21:29] INFO root fetch - processPackages [sigmadsp]: Downloading https://files.pythonhosted.org/packages/dd/19/5a6a5c79607728d0df6126298eed1a42cfa8a0e4da7627f13679ccfbfa11/sigmadsp-3.0.3.tar.gz
+[2023-05-01 23:21:29] INFO root fetch - processPackages [sigmadsp]: executing diffoscope
+[2023-05-01 23:21:29] INFO root fetch - processPackages [sigmadsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmadsp-3.0.2.tar.gz tmp/sigmadsp-3.0.3.tar.gz --markdown 20230501/s/sigmadsp/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-01 23:21:29] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2023-05-01 23:21:29] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20230501/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:21:30] INFO root fetch - processPackages [sigmadsp]: Start processing: conversation-control
+[2023-05-01 23:21:30] INFO root fetch - main [MainThread]: End processing [sigmadsp]: success
+[2023-05-01 23:21:30] INFO root fetch - processPackages [conversation-control]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-01 23:21:30] INFO root fetch - processPackages [mitoinstaller]: Start processing: arvados-python-client
+[2023-05-01 23:21:30] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2023-05-01 23:21:30] INFO root fetch - processPackages [arvados-python-client]: New version: [2.6.2rc3] Old Version: [2.6.2rc2]
+[2023-05-01 23:21:30] INFO root fetch - processPackages [conversation-control]: Downloading https://files.pythonhosted.org/packages/bb/c4/31e13601d56eea8d6dc76f8cf0bd38822b0fe6acf3f71230c390414a4148/conversation_control-0.1.0.tar.gz
+[2023-05-01 23:21:30] INFO root fetch - processPackages [py-orca]: Start processing: arvados-cwl-runner
+[2023-05-01 23:21:30] INFO root fetch - main [MainThread]: End processing [py-orca]: success
+[2023-05-01 23:21:30] INFO root fetch - processPackages [arvados-cwl-runner]: New version: [2.6.2rc3] Old Version: [2.6.2rc2]
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-python-client]: Downloading https://files.pythonhosted.org/packages/f5/56/f3c7debed56e929e61abe5e8eac56af8fc961b9252bb9abbe68f116f05dd/arvados-python-client-2.6.2rc2.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-cwl-runner]: Downloading https://files.pythonhosted.org/packages/91/08/6491b51595468cc8d27a2ddfd7952342c1051f31965a8ac189758ffd539d/arvados-cwl-runner-2.6.2rc2.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [conversation-control]: Downloading https://files.pythonhosted.org/packages/9f/41/6ae1a2210843a5955003ef6ebfeabec844ecf9a42414e0d3b4da96a89b8f/conversation_control-0.1.2.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [ligo-scald]: Start processing: arvados_fuse
+[2023-05-01 23:21:31] INFO root fetch - main [MainThread]: End processing [ligo-scald]: success
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados_fuse]: New version: [2.6.2rc3] Old Version: [2.6.2rc2]
+[2023-05-01 23:21:31] INFO root fetch - processPackages [conversation-control]: executing diffoscope
+[2023-05-01 23:21:31] INFO root fetch - processPackages [conversation-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conversation_control-0.1.0.tar.gz tmp/conversation_control-0.1.2.tar.gz --markdown 20230501/c/conversation-control/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-cwl-runner]: Downloading https://files.pythonhosted.org/packages/0e/34/a16b67714e0da1ffec2f63f045a234092cfe7e4e11e3006acd931ba24f4a/arvados-cwl-runner-2.6.2rc3.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-python-client]: Downloading https://files.pythonhosted.org/packages/5c/0d/d0c5fad1f3c1ac08a9ce295654848ca76bb097bef2bb6fd3cf587067607c/arvados-python-client-2.6.2rc3.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados_fuse]: Downloading https://files.pythonhosted.org/packages/0e/6d/25ab53c9f916e0e94a922a0a676903db9ac4eb71ae64116f9990eced4cba/arvados_fuse-2.6.2rc2.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-cwl-runner]: executing diffoscope
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-cwl-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados-cwl-runner-2.6.2rc2.tar.gz tmp/arvados-cwl-runner-2.6.2rc3.tar.gz --markdown 20230501/a/arvados-cwl-runner/2.6.2rc2-2.6.2rc3/diff.md --exclude *.pyd
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-python-client]: executing diffoscope
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados-python-client-2.6.2rc2.tar.gz tmp/arvados-python-client-2.6.2rc3.tar.gz --markdown 20230501/a/arvados-python-client/2.6.2rc2-2.6.2rc3/diff.md --exclude *.pyd
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados_fuse]: Downloading https://files.pythonhosted.org/packages/89/2f/b17d016374c6d2211f8cb22ede45d57ec0ef5ca0314069ec0769d334653d/arvados_fuse-2.6.2rc3.tar.gz
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados_fuse]: executing diffoscope
+[2023-05-01 23:21:31] INFO root fetch - processPackages [arvados_fuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arvados_fuse-2.6.2rc2.tar.gz tmp/arvados_fuse-2.6.2rc3.tar.gz --markdown 20230501/a/arvados_fuse/2.6.2rc2-2.6.2rc3/diff.md --exclude *.pyd
+[2023-05-01 23:21:32] INFO root fetch - processPackages [not1mm]: Start processing: crunchstat_summary
+[2023-05-01 23:21:32] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-01 23:21:32] INFO root fetch - processPackages [crunchstat_summary]: New version: [2.6.2rc3] Old Version: [2.6.2rc2]
+[2023-05-01 23:21:32] INFO root fetch - processPackages [ovos-utils]: Start processing: bytez
+[2023-05-01 23:21:32] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-05-01 23:21:32] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:21:32] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:21:32] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:21:32] INFO root fetch - processPackages [crunchstat_summary]: Downloading https://files.pythonhosted.org/packages/38/45/a7787d9d3d24c66b2f21fa2a2d68cbb13f4b632902241c6b1c6006f3c5b8/crunchstat_summary-2.6.2rc2.tar.gz
+[2023-05-01 23:21:32] INFO root fetch - processPackages [conversation-control]: Start processing: pure-interface
+[2023-05-01 23:21:32] INFO root fetch - main [MainThread]: End processing [conversation-control]: success
+[2023-05-01 23:21:32] INFO root fetch - processPackages [pure-interface]: New version: [7.0.2] Old Version: [7.0.1]
+[2023-05-01 23:21:32] INFO root fetch - processPackages [twarc2sql]: Start processing: swegram
+[2023-05-01 23:21:32] INFO root fetch - main [MainThread]: End processing [twarc2sql]: success
+[2023-05-01 23:21:32] WARNING root fetch - processPackages [swegram]: Skipping, unable to determine old version
+[2023-05-01 23:21:32] INFO root fetch - processPackages [swegram]: Start processing: inverse
+[2023-05-01 23:21:32] INFO root fetch - main [MainThread]: End processing [swegram] error
+[2023-05-01 23:21:32] INFO root fetch - processPackages [crunchstat_summary]: Downloading https://files.pythonhosted.org/packages/c0/58/752747d2d02a1cb3b5d07e4303a120067d77c24fd2766b179a6ddabf7b14/crunchstat_summary-2.6.2rc3.tar.gz
+[2023-05-01 23:21:32] INFO root fetch - processPackages [inverse]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 23:21:32] INFO root fetch - processPackages [pure-interface]: Downloading https://files.pythonhosted.org/packages/c0/f0/9288f85bec4c0085c6a1da294516f83840037b8985fa95a244d653f7a074/pure_interface-7.0.2.tar.gz
+[2023-05-01 23:21:32] INFO root fetch - processPackages [kivy-widgets]: Start processing: xia-engine-terraform
+[2023-05-01 23:21:32] INFO root fetch - main [MainThread]: End processing [kivy-widgets]: success
+[2023-05-01 23:21:32] INFO root fetch - processPackages [crunchstat_summary]: executing diffoscope
+[2023-05-01 23:21:32] INFO root fetch - processPackages [crunchstat_summary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunchstat_summary-2.6.2rc2.tar.gz tmp/crunchstat_summary-2.6.2rc3.tar.gz --markdown 20230501/c/crunchstat_summary/2.6.2rc2-2.6.2rc3/diff.md --exclude *.pyd
+[2023-05-01 23:21:32] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:21:32] INFO root fetch - processPackages [pure-interface]: executing diffoscope
+[2023-05-01 23:21:32] INFO root fetch - processPackages [pure-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure_interface-7.0.1.tar.gz tmp/pure_interface-7.0.2.tar.gz --markdown 20230501/p/pure-interface/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2023-05-01 23:21:33] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-05-01 23:21:33] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.8-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.9-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-engine-terraform/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:21:33] INFO root fetch - processPackages [arvados-cwl-runner]: Start processing: madblog
+[2023-05-01 23:21:33] INFO root fetch - main [MainThread]: End processing [arvados-cwl-runner]: success
+[2023-05-01 23:21:33] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-01 23:21:33] INFO root fetch - processPackages [inverse]: Downloading https://files.pythonhosted.org/packages/44/4b/c6f014f79109c666d2d623d58483539121a69e6bb9809fb8a40194d3103e/inverse-0.0.3-py3-none-any.whl
+[2023-05-01 23:21:33] INFO root fetch - processPackages [inverse]: executing diffoscope
+[2023-05-01 23:21:33] INFO root fetch - processPackages [inverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inverse-0.0.2-py2.py3-none-any.whl.zip tmp/inverse-0.0.3-py3-none-any.whl.zip --markdown 20230501/i/inverse/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 23:21:33] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2023-05-01 23:21:33] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20230501/m/madblog/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-01 23:21:33] INFO root fetch - processPackages [arvados_fuse]: Start processing: AqEquil
+[2023-05-01 23:21:33] INFO root fetch - main [MainThread]: End processing [arvados_fuse]: success
+[2023-05-01 23:21:33] INFO root fetch - processPackages [AqEquil]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-01 23:21:33] INFO root fetch - processPackages [AqEquil]: Downloading https://files.pythonhosted.org/packages/44/44/6292639aa37b0f2347f4370186346947abc15dcc1a1d7ce11df7dc7d93b1/AqEquil-0.9.2.tar.gz
+[2023-05-01 23:21:34] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:21:34] INFO root fetch - processPackages [AqEquil]: Downloading https://files.pythonhosted.org/packages/c8/c1/16e457b42e7c8508ea98026970d49bfc58a64a387fead17fee2bec0131cb/AqEquil-0.9.3.tar.gz
+[2023-05-01 23:21:34] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-05-01 23:21:34] INFO root fetch - processPackages [AqEquil]: executing diffoscope
+[2023-05-01 23:21:34] INFO root fetch - processPackages [AqEquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AqEquil-0.9.2.tar.gz tmp/AqEquil-0.9.3.tar.gz --markdown 20230501/A/AqEquil/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-01 23:21:34] INFO root fetch - main [MainThread]: End processing [crunchstat_summary]: success
+[2023-05-01 23:21:35] INFO root fetch - main [MainThread]: End processing [inverse]: success
+[2023-05-01 23:21:35] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2023-05-01 23:21:35] INFO root fetch - main [MainThread]: End processing [pure-interface]: success
+[2023-05-01 23:21:35] INFO root fetch - main [MainThread]: End processing [AqEquil]: success
+[2023-05-01 23:21:36] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-05-01 23:21:36] INFO root fetch - main [MainThread]: End processing [arvados-python-client]: success
+[2023-05-01 23:23:14] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-01 23:23:14] INFO root fetch - main [MainThread]: Store serial: [17931876]
