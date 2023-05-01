@@ -17274,3 +17274,81 @@ EOFError: EOF read where object expected
 [2023-05-01 21:46:04] INFO root fetch - processPackages [tree-sitter-languages-lean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_languages_lean-1.7.0-cp39-cp39-musllinux_1_1_x86_64.whl.zip tmp/tree_sitter_languages_lean-1.8.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230501/t/tree-sitter-languages-lean/1.7.0-1.8.0/diff.md --exclude *.pyd
 [2023-05-01 21:46:56] INFO root fetch - main [MainThread]: End processing [tree-sitter-languages-lean]: success
 [2023-05-01 21:46:56] INFO root fetch - main [MainThread]: Store serial: [17930914]
+[2023-05-01 21:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930914]
+[2023-05-01 21:52:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burp-ui
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpyt
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-cpp-python
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: burp-ui-agent
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: burp-ui-monitor
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pMTnet-Omni-Document
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qblox-instruments
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skainet
+[2023-05-01 21:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-radar
+[2023-05-01 21:52:21] INFO root fetch - processPackages [llama-cpp-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [burp-ui-monitor]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [gpyt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [pMTnet-Omni-Document]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [qblox-instruments]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [burp-ui-agent]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [cloud-radar]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [burp-ui]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [skainet]: New version: [0.1.0] Old Version: [0.0.0.dev8]
+[2023-05-01 21:52:21] INFO root fetch - processPackages [pMTnet-Omni-Document]: executing diffoscope
+[2023-05-01 21:52:21] INFO root fetch - processPackages [pMTnet-Omni-Document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pMTnet_Omni_Document-0.0.8.tar.gz tmp/pMTnet_Omni_Document-0.0.9.tar.gz --markdown 20230501/p/pMTnet-Omni-Document/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 21:52:21] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-01 21:52:21] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230501/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-01 21:52:21] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/e9/0d/ede53f0ff7531b6667357d8dbfd96935b10f6d7ef4cee4b347fb54705e22/gpyt-0.1.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-agent]: Downloading https://files.pythonhosted.org/packages/65/87/1b2b0a6a652fc34912e91fd7d8c92bdd812663041becfdb5bccdcdc6809e/burp-ui-agent-1.0.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-monitor]: Downloading https://files.pythonhosted.org/packages/10/9e/81087464c7f62e4f8233027fb91fc056f1a112d43ce4cd45b85cc3d4c254/burp-ui-monitor-1.0.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/c1/21/242023047292d96a3fac3582b4860d2fc3b8915ba19a59dbcde16b68abf0/cloud_radar-0.6.4.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [skainet]: Downloading https://files.pythonhosted.org/packages/99/de/f68f574efb7807f92fb891a741b1366724b98ac7711b74b2981ef35c629d/skainet-0.1.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui]: Downloading https://files.pythonhosted.org/packages/89/28/2967c109700be9fb5d120aec12b08f2819d48ca5ff64e1ebb277b785bf60/burp-ui-1.0.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [qblox-instruments]: Downloading https://files.pythonhosted.org/packages/eb/bb/e574edf6dd6e16e107d834b4c3ff55f38c1c075e2643b01f0062178add1b/qblox_instruments-0.8.2.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [skainet]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [skainet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skainet-0.0.0.dev8.tar.gz tmp/skainet-0.1.0.tar.gz --markdown 20230501/s/skainet/0.0.0.dev8-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 21:52:22] INFO root fetch - processPackages [llama-cpp-python]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [llama-cpp-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_python-0.1.8.tar.gz tmp/llama_cpp_python-0.1.9.tar.gz --markdown 20230501/l/llama-cpp-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 21:52:22] INFO root fetch - processPackages [gpyt]: Downloading https://files.pythonhosted.org/packages/29/ae/ca3a456d78e75cccbf7ffa174829c5768226f9441b67d6f0d5923b505a92/gpyt-0.1.1.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [gpyt]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-agent]: Downloading https://files.pythonhosted.org/packages/87/5a/ea14475ec6cef2d9a46af072efca0d2f5b7d5cb6ed7a97b864ca2b397bff/burp-ui-agent-1.1.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [gpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpyt-0.1.0.tar.gz tmp/gpyt-0.1.1.tar.gz --markdown 20230501/g/gpyt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 21:52:22] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/27/44/41ab0182b28a033d7a9d69378f0eaf74b3a9602a89a39ba97a9cd6da905b/cloud_radar-0.6.5.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-agent]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burp-ui-agent-1.0.0.tar.gz tmp/burp-ui-agent-1.1.0.tar.gz --markdown 20230501/b/burp-ui-agent/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-monitor]: Downloading https://files.pythonhosted.org/packages/03/39/4cb588605487d62aeb672d23551102d490c32ade790795045d2b96ecd711/burp-ui-monitor-1.1.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui]: Downloading https://files.pythonhosted.org/packages/63/b5/5e050820c336c176ea417d8f0381907e66800237bb6571d3ab12c7bea215/burp-ui-1.1.0.tar.gz
+[2023-05-01 21:52:22] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.6.4.tar.gz tmp/cloud_radar-0.6.5.tar.gz --markdown 20230501/c/cloud-radar/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-monitor]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burp-ui-monitor-1.0.0.tar.gz tmp/burp-ui-monitor-1.1.0.tar.gz --markdown 20230501/b/burp-ui-monitor/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui]: executing diffoscope
+[2023-05-01 21:52:22] INFO root fetch - processPackages [burp-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burp-ui-1.0.0.tar.gz tmp/burp-ui-1.1.0.tar.gz --markdown 20230501/b/burp-ui/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 21:52:23] INFO root fetch - processPackages [qblox-instruments]: Downloading https://files.pythonhosted.org/packages/bb/0e/ee75ba6ee81bac9c704a8b2fe7dc84a94751c66195e34dfbe79a0d9fff8f/qblox_instruments-0.9.0.tar.gz
+[2023-05-01 21:52:23] INFO root fetch - processPackages [qblox-instruments]: executing diffoscope
+[2023-05-01 21:52:23] INFO root fetch - processPackages [qblox-instruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qblox_instruments-0.8.2.tar.gz tmp/qblox_instruments-0.9.0.tar.gz --markdown 20230501/q/qblox-instruments/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 21:52:23] INFO root fetch - processPackages [gpyt]: Start processing: moto
+[2023-05-01 21:52:23] INFO root fetch - main [MainThread]: End processing [gpyt]: success
+[2023-05-01 21:52:23] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-01 21:52:23] INFO root fetch - processPackages [skainet]: Start processing: clarifai
+[2023-05-01 21:52:23] INFO root fetch - main [MainThread]: End processing [skainet]: success
+[2023-05-01 21:52:23] INFO root fetch - processPackages [clarifai]: New version: [9.3.3] Old Version: [9.3.2]
+[2023-05-01 21:52:23] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-01 21:52:23] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230501/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-01 21:52:23] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2023-05-01 21:52:23] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/53/56/c0cdcd8a8571366cd583a0f95181c758dad6cd1110c8cd0cc8ad0c4e5d3a/clarifai-9.3.2.tar.gz
+[2023-05-01 21:52:24] INFO root fetch - main [MainThread]: End processing [pMTnet-Omni-Document]: success
+[2023-05-01 21:52:24] INFO root fetch - main [MainThread]: End processing [burp-ui-monitor]: success
+[2023-05-01 21:52:24] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/17/5e/4eee0f25419be8e2d1b996f82d3c612008107d334cb144a9daa33c65d6f1/clarifai-9.3.3.tar.gz
+[2023-05-01 21:52:24] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2023-05-01 21:52:24] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.3.2.tar.gz tmp/clarifai-9.3.3.tar.gz --markdown 20230501/c/clarifai/9.3.2-9.3.3/diff.md --exclude *.pyd
+[2023-05-01 21:52:25] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2023-05-01 21:52:27] INFO root fetch - main [MainThread]: End processing [llama-cpp-python]: success
+[2023-05-01 21:52:27] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-01 21:52:28] INFO root fetch - main [MainThread]: End processing [qblox-instruments]: success
+[2023-05-01 21:52:30] INFO root fetch - main [MainThread]: End processing [burp-ui]: success
+[2023-05-01 21:52:40] INFO root fetch - main [MainThread]: End processing [burp-ui-agent]: success
+[2023-05-01 21:52:57] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-01 21:52:57] INFO root fetch - main [MainThread]: Store serial: [17930962]
