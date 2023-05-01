@@ -15538,3 +15538,71 @@ EOFError: EOF read where object expected
 [2023-05-01 19:53:37] INFO root fetch - main [MainThread]: End processing [tlux]: success
 [2023-05-01 19:53:38] INFO root fetch - main [MainThread]: End processing [flexmeasures]: success
 [2023-05-01 19:53:38] INFO root fetch - main [MainThread]: Store serial: [17929712]
+[2023-05-01 19:58:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929712]
+[2023-05-01 19:58:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: habu-databricks-cli
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sweetbean
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-gui
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mubody
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlplan
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geode-ml
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quartodoc
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HTTP-PyServer
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poetry-git-version-plugin
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nextguild
+[2023-05-01 19:58:47] INFO root fetch - processPackages [sweetbean]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [geode-ml]: New version: [2.6.4] Old Version: [2.6.3]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [dlplan]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.5] Old Version: [0.1.4a5]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [nextguild]: New version: [1.1.1] Old Version: [1.1]
+[2023-05-01 19:58:47] WARNING root fetch - processPackages [habu-databricks-cli]: Skipping, unable to determine old version
+[2023-05-01 19:58:47] INFO root fetch - processPackages [habu-databricks-cli]: Start processing: crosscompute-analytics
+[2023-05-01 19:58:47] INFO root fetch - main [MainThread]: End processing [habu-databricks-cli] error
+[2023-05-01 19:58:47] INFO root fetch - processPackages [sweetbean]: executing diffoscope
+[2023-05-01 19:58:47] INFO root fetch - processPackages [sweetbean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetbean-0.0.8.tar.gz tmp/sweetbean-0.0.9.tar.gz --markdown 20230501/s/sweetbean/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 19:58:47] WARNING root fetch - processPackages [mubody]: Skipping, unable to determine old version
+[2023-05-01 19:58:47] INFO root fetch - processPackages [mubody]: Start processing: nonebot-plugin-chatgpt-on-qq
+[2023-05-01 19:58:47] INFO root fetch - main [MainThread]: End processing [mubody] error
+[2023-05-01 19:58:47] INFO root fetch - processPackages [quartodoc]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [geode-ml]: executing diffoscope
+[2023-05-01 19:58:47] INFO root fetch - processPackages [geode-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geode-ml-2.6.3.tar.gz tmp/geode-ml-2.6.4.tar.gz --markdown 20230501/g/geode-ml/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2023-05-01 19:58:47] INFO root fetch - processPackages [ovos-gui]: New version: [0.0.3a2] Old Version: [0.0.3a1]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-01 19:58:47] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.4a5.tar.gz tmp/poetry_git_version_plugin-0.1.5.tar.gz --markdown 20230501/p/poetry-git-version-plugin/0.1.4a5-0.1.5/diff.md --exclude *.pyd
+[2023-05-01 19:58:47] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.1] Old Version: [0.0.4]
+[2023-05-01 19:58:47] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-05-01 19:58:47] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.2.7.tar.gz tmp/dlplan-0.2.8.tar.gz --markdown 20230501/d/dlplan/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-01 19:58:47] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-05-01 19:58:47] WARNING root fetch - processPackages [crosscompute-analytics]: Skipping, unable to determine old version
+[2023-05-01 19:58:47] INFO root fetch - processPackages [crosscompute-analytics]: Start processing: gpt-review
+[2023-05-01 19:58:47] INFO root fetch - main [MainThread]: End processing [crosscompute-analytics] error
+[2023-05-01 19:58:48] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/38/90/cbffc6cb6a0711445795121d213e583a68c149b2b550b49359142809ff8e/nextguild-1.1.1.tar.gz
+[2023-05-01 19:58:48] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/cc/6a/c80252ddf093f8394063e9cfd00b401ac1b09205ae8e14d3aee523aeb3e5/quartodoc-0.2.2.tar.gz
+[2023-05-01 19:58:48] INFO root fetch - processPackages [ovos-gui]: Downloading https://files.pythonhosted.org/packages/11/79/613c22e7d73b3ca07d8646e499292c5b616cab64b49d214300c19bd1f55a/ovos_gui-0.0.3a1-py3-none-any.whl
+[2023-05-01 19:58:48] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-05-01 19:58:48] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-05-01 19:58:48] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.1.tar.gz tmp/nextguild-1.1.1.tar.gz --markdown 20230501/n/nextguild/1.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:58:48] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/11/0a/fd0c827c5a9a50cdc03b2aa21cee732d687cf6323a251fe0b77f2ad087c4/HTTP-PyServer-0.1.tar.gz
+[2023-05-01 19:58:48] INFO root fetch - processPackages [ovos-gui]: Downloading https://files.pythonhosted.org/packages/4f/0a/63a723ee55a5baab6136b73090bb75e0ed8e98e0aa780a09ba84a90c6b0e/ovos_gui-0.0.3a2-py3-none-any.whl
+[2023-05-01 19:58:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: executing diffoscope
+[2023-05-01 19:58:48] INFO root fetch - processPackages [nonebot-plugin-chatgpt-on-qq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-chatgpt-on-qq-1.3.0.tar.gz tmp/nonebot-plugin-chatgpt-on-qq-1.4.0.tar.gz --markdown 20230501/n/nonebot-plugin-chatgpt-on-qq/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-05-01 19:58:48] INFO root fetch - processPackages [quartodoc]: Downloading https://files.pythonhosted.org/packages/a7/cd/b7fdcfc6cbfb218af6498af8bb2cd76dd81d0b3bf5e8aeedba2b3f747fea/quartodoc-0.3.0.tar.gz
+[2023-05-01 19:58:48] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-05-01 19:58:48] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.0.4.tar.gz tmp/HTTP-PyServer-0.1.tar.gz --markdown 20230501/H/HTTP-PyServer/0.0.4-0.1/diff.md --exclude *.pyd
+[2023-05-01 19:58:48] INFO root fetch - processPackages [ovos-gui]: executing diffoscope
+[2023-05-01 19:58:48] INFO root fetch - processPackages [ovos-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_gui-0.0.3a1-py3-none-any.whl.zip tmp/ovos_gui-0.0.3a2-py3-none-any.whl.zip --markdown 20230501/o/ovos-gui/0.0.3a1-0.0.3a2/diff.md --exclude *.pyd
+[2023-05-01 19:58:48] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-01 19:58:48] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230501/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-05-01 19:58:48] INFO root fetch - processPackages [quartodoc]: executing diffoscope
+[2023-05-01 19:58:48] INFO root fetch - processPackages [quartodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartodoc-0.2.2.tar.gz tmp/quartodoc-0.3.0.tar.gz --markdown 20230501/q/quartodoc/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 19:58:49] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
+[2023-05-01 19:58:49] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-01 19:58:49] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-05-01 19:58:49] INFO root fetch - main [MainThread]: End processing [geode-ml]: success
+[2023-05-01 19:58:49] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-05-01 19:58:50] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-01 19:58:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chatgpt-on-qq]: success
+[2023-05-01 19:58:50] INFO root fetch - main [MainThread]: End processing [quartodoc]: success
+[2023-05-01 19:58:50] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
+[2023-05-01 19:58:53] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-05-01 19:58:53] INFO root fetch - main [MainThread]: Store serial: [17929754]
