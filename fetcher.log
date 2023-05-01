@@ -5312,3 +5312,45 @@
 [2023-05-01 09:08:00] INFO root fetch - processPackages [brayns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brayns-3.1.1.tar.gz tmp/brayns-3.1.2.tar.gz --markdown 20230501/b/brayns/3.1.1-3.1.2/diff.md --exclude *.pyd
 [2023-05-01 09:08:01] INFO root fetch - main [MainThread]: End processing [brayns]: success
 [2023-05-01 09:08:01] INFO root fetch - main [MainThread]: Store serial: [17923559]
+[2023-05-01 09:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923559]
+[2023-05-01 09:13:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geo-espresso
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVAugmentor
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-models-nightly
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nocasedict
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpo3
+[2023-05-01 09:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nocasedict
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-01 09:13:10] WARNING root fetch - processPackages [hpo3]: Skipping, unable to determine old version
+[2023-05-01 09:13:10] INFO root fetch - main [MainThread]: End processing [hpo3] error
+[2023-05-01 09:13:10] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-01 09:13:10] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-01 09:13:10] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-01 09:13:10] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: Downloading https://files.pythonhosted.org/packages/2a/0c/e4ef6de11f5bb9021dd88d5158daf8f57953c5e2b482eb4d6f487344d39c/nocasedict-2.0.0.tar.gz
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: Downloading https://files.pythonhosted.org/packages/2a/0c/e4ef6de11f5bb9021dd88d5158daf8f57953c5e2b482eb4d6f487344d39c/nocasedict-2.0.0.tar.gz
+[2023-05-01 09:13:10] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/a3/73/3e515e7bae40623be4f53734ddd62b20a109f37cd39c9e6a3c45ebb6b037/CVAugmentor-1.0.6.tar.gz
+[2023-05-01 09:13:10] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/7b/b2/cf57b168886a80a202ac483d8655af7bee3dec9ed3f9bf4947573ed3f499/geo-espresso-0.3.2.tar.gz
+[2023-05-01 09:13:10] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-01 09:13:10] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.5.tar.gz tmp/CVAugmentor-1.0.6.tar.gz --markdown 20230501/C/CVAugmentor/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: Downloading https://files.pythonhosted.org/packages/b7/0c/7efaea31c527e62c38c12a2482a8f24114f53746832f9032152950f01786/nocasedict-2.0.1.tar.gz
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: Downloading https://files.pythonhosted.org/packages/b7/0c/7efaea31c527e62c38c12a2482a8f24114f53746832f9032152950f01786/nocasedict-2.0.1.tar.gz
+[2023-05-01 09:13:10] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-01 09:13:10] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230501/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-01 09:13:10] INFO root fetch - processPackages [geo-espresso]: executing diffoscope
+[2023-05-01 09:13:10] INFO root fetch - processPackages [geo-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo-espresso-0.3.1.tar.gz tmp/geo-espresso-0.3.2.tar.gz --markdown 20230501/g/geo-espresso/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-01 09:13:10] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-01 09:13:10] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230501/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: executing diffoscope
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nocasedict-2.0.0.tar.gz tmp/nocasedict-2.0.1.tar.gz --markdown 20230501/n/nocasedict/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: executing diffoscope
+[2023-05-01 09:13:10] INFO root fetch - processPackages [nocasedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nocasedict-2.0.0.tar.gz tmp/nocasedict-2.0.1.tar.gz --markdown 20230501/n/nocasedict/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-01 09:13:11] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-01 09:13:12] INFO root fetch - main [MainThread]: End processing [nocasedict]: success
+[2023-05-01 09:13:12] INFO root fetch - main [MainThread]: End processing [nocasedict]: success
+[2023-05-01 09:13:13] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
+[2023-05-01 09:13:22] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-01 09:13:28] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-01 09:13:28] INFO root fetch - main [MainThread]: Store serial: [17923590]
