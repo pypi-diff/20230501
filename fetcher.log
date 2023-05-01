@@ -7110,3 +7110,84 @@
 [2023-05-01 12:10:28] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
 [2023-05-01 12:10:29] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
 [2023-05-01 12:10:29] INFO root fetch - main [MainThread]: Store serial: [17924693]
+[2023-05-01 12:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924693]
+[2023-05-01 12:15:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veda-cli
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bycon
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-reverb-nightly
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airoboros
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coupml
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: veda-cli
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-yoav-plus-minus-simplification
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aacommpy
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: turms
+[2023-05-01 12:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assisted-service-client
+[2023-05-01 12:15:37] INFO root fetch - processPackages [veda-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 12:15:37] WARNING root fetch - processPackages [airoboros]: Skipping, unable to determine old version
+[2023-05-01 12:15:37] INFO root fetch - processPackages [airoboros]: Start processing: autoLinker
+[2023-05-01 12:15:37] INFO root fetch - main [MainThread]: End processing [airoboros] error
+[2023-05-01 12:15:37] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: New version: [20230501.9.23.937978] Old Version: [20230501.8.7.491844]
+[2023-05-01 12:15:37] WARNING root fetch - processPackages [coupml]: Skipping, unable to determine old version
+[2023-05-01 12:15:37] INFO root fetch - processPackages [veda-cli]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [coupml]: Start processing: certora-cli-alpha-shelly-deepSanity
+[2023-05-01 12:15:37] INFO root fetch - main [MainThread]: End processing [coupml] error
+[2023-05-01 12:15:37] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [turms]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: New version: [20230501.10.14.199660] Old Version: [20230430.20.15.304254]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [autoLinker]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-01 12:15:37] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Downloading https://files.pythonhosted.org/packages/f3/e3/94d58b41596e8de3b1cf8615c27d6bc696d7c3658783854b9dd03c723d92/certora-cli-alpha-yoav-plus_minus_simplification-20230501.8.7.491844.tar.gz
+[2023-05-01 12:15:37] WARNING root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Skipping package: exceeds size limit 38299444>=10485760
+[2023-05-01 12:15:37] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Start processing: oaas-sdk-py
+[2023-05-01 12:15:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-plus-minus-simplification] error
+[2023-05-01 12:15:37] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/56/a6/fee87d49a9c5f90821c015e020dbffef23e30d987b7ad5ede4e9beed978d/veda_cli-0.0.5.tar.gz
+[2023-05-01 12:15:37] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-01 12:15:37] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230501/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 12:15:37] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/56/a6/fee87d49a9c5f90821c015e020dbffef23e30d987b7ad5ede4e9beed978d/veda_cli-0.0.5.tar.gz
+[2023-05-01 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-01 12:15:37] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230501/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230501/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [oaas-sdk-py]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-01 12:15:38] INFO root fetch - processPackages [autoLinker]: Downloading https://files.pythonhosted.org/packages/4b/2b/a73f5bc6b7d8157cae9b82e40235673e8e6b48641edc58f98374fde0b47d/autoLinker-1.0.1.tar.gz
+[2023-05-01 12:15:38] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Downloading https://files.pythonhosted.org/packages/8b/c2/795e509e52ba76e5e965d40b9acd36a13d5be2257b1418e936d327e45a3f/certora-cli-alpha-shelly-deepSanity-20230430.20.15.304254.tar.gz
+[2023-05-01 12:15:38] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Skipping package: exceeds size limit 38324200>=10485760
+[2023-05-01 12:15:38] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Start processing: pipcryptov4
+[2023-05-01 12:15:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deepSanity] error
+[2023-05-01 12:15:38] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230501/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [turms]: Downloading https://files.pythonhosted.org/packages/d8/e8/66626a8cfe04bd3b880cf99eb183201df85866e3a226bbd8bb514c13e241/turms-0.4.2.tar.gz
+[2023-05-01 12:15:38] WARNING root fetch - processPackages [pipcryptov4]: Skipping, unable to determine old version
+[2023-05-01 12:15:38] INFO root fetch - processPackages [pipcryptov4]: Start processing: boston
+[2023-05-01 12:15:38] INFO root fetch - main [MainThread]: End processing [pipcryptov4] error
+[2023-05-01 12:15:38] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/17/02/2b06c339ceeda4d5a782502c1563dd18ae8b70fa37595cedca6172cf1199/oaas_sdk_py-0.1.7.tar.gz
+[2023-05-01 12:15:38] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/19/24/2bfe01df9e8f0037f4204c72eb1d91727dc89976fd95a8c0ce80fda9fe83/veda_cli-0.0.6.tar.gz
+[2023-05-01 12:15:38] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/19/24/2bfe01df9e8f0037f4204c72eb1d91727dc89976fd95a8c0ce80fda9fe83/veda_cli-0.0.6.tar.gz
+[2023-05-01 12:15:38] INFO root fetch - processPackages [boston]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 12:15:38] INFO root fetch - processPackages [autoLinker]: Downloading https://files.pythonhosted.org/packages/9c/90/097e4ef39aea0ac1433a234b9d40b8becfe38890a6f9802c1d023411731f/autoLinker-1.0.2.tar.gz
+[2023-05-01 12:15:38] INFO root fetch - processPackages [turms]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [turms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turms-0.4.1.tar.gz tmp/turms-0.4.2.tar.gz --markdown 20230501/t/turms/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.8.tar.gz tmp/boston-1.0.9.tar.gz --markdown 20230501/b/boston/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.5.tar.gz tmp/veda_cli-0.0.6.tar.gz --markdown 20230501/v/veda-cli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.5.tar.gz tmp/veda_cli-0.0.6.tar.gz --markdown 20230501/v/veda-cli/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/05/40/3907c6419517c4758a695d19754fda89ca3f81c15bc416d285fabf392519/oaas_sdk_py-0.1.8.tar.gz
+[2023-05-01 12:15:38] INFO root fetch - processPackages [autoLinker]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [autoLinker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoLinker-1.0.1.tar.gz tmp/autoLinker-1.0.2.tar.gz --markdown 20230501/a/autoLinker/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 12:15:38] INFO root fetch - processPackages [oaas-sdk-py]: executing diffoscope
+[2023-05-01 12:15:38] INFO root fetch - processPackages [oaas-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaas_sdk_py-0.1.7.tar.gz tmp/oaas_sdk_py-0.1.8.tar.gz --markdown 20230501/o/oaas-sdk-py/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 12:15:39] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-01 12:15:39] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-01 12:15:39] INFO root fetch - main [MainThread]: End processing [autoLinker]: success
+[2023-05-01 12:15:40] INFO root fetch - main [MainThread]: End processing [turms]: success
+[2023-05-01 12:15:40] INFO root fetch - main [MainThread]: End processing [oaas-sdk-py]: success
+[2023-05-01 12:15:40] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-01 12:15:40] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 12:15:42] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-01 12:15:43] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-05-01 12:16:33] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-01 12:16:33] INFO root fetch - main [MainThread]: Store serial: [17924745]
