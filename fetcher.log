@@ -9988,3 +9988,72 @@
 [2023-05-01 14:09:19] INFO root fetch - main [MainThread]: End processing [tryton]: success
 [2023-05-01 14:09:39] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-01 14:09:39] INFO root fetch - main [MainThread]: Store serial: [17926216]
+[2023-05-01 14:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926216]
+[2023-05-01 14:14:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphql-server
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pollination-leed-daylight-option-one
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redisbench-admin
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MJOLNIR
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcsi
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jamstack
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-core
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CatRoyale
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poetry-git-version-plugin
+[2023-05-01 14:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meltanolabs-tap-postgres
+[2023-05-01 14:14:49] INFO root fetch - processPackages [redisbench-admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [vcsi]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [meltanolabs-tap-postgres]: New version: [0.0.1a3] Old Version: [0.0.0]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.4a3] Old Version: [0.1.4a2]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [MJOLNIR]: New version: [1.3.0] Old Version: [1.2.6.post2]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [graphql-server]: New version: [3.0.0b6] Old Version: [3.0.0b5]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [qwak-core]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [jamstack]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [redisbench-admin]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [redisbench-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redisbench-admin-0.9.8.tar.gz tmp/redisbench-admin-0.9.9.tar.gz --markdown 20230501/r/redisbench-admin/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] INFO root fetch - processPackages [vcsi]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [vcsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsi-7.0.8.tar.gz tmp/vcsi-7.0.9.tar.gz --markdown 20230501/v/vcsi/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] INFO root fetch - processPackages [meltanolabs-tap-postgres]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [meltanolabs-tap-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meltanolabs_tap_postgres-0.0.0.tar.gz tmp/meltanolabs_tap_postgres-0.0.1a3.tar.gz --markdown 20230501/m/meltanolabs-tap-postgres/0.0.0-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/8e/29/e58c4dbdbe893d998a0421dc952a616881051f4cc99b09c3ddf88c734276/poetry_git_version_plugin-0.1.4a3.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [graphql-server]: Downloading https://files.pythonhosted.org/packages/b6/5d/b7c83f1d7e5cf5194277d0160593ab04d40f1d9db553cc26e674849ef27b/graphql-server-3.0.0b5.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [MJOLNIR]: Downloading https://files.pythonhosted.org/packages/bd/8a/8e3818c5d6f2a687f7d0b31ade71de867b035d1212c8a2eb5f80be975b6d/MJOLNIR-1.2.6.post2.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [jamstack]: Downloading https://files.pythonhosted.org/packages/40/7b/9e127e2472c21bd6904d08b6d892ff4cf4cca4c6944b41dd5721f9a2bb64/jamstack-1.0.0.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.4a2.tar.gz tmp/poetry_git_version_plugin-0.1.4a3.tar.gz --markdown 20230501/p/poetry-git-version-plugin/0.1.4a2-0.1.4a3/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] WARNING root fetch - processPackages [MJOLNIR]: Skipping package: exceeds size limit 21603651>=10485760
+[2023-05-01 14:14:49] INFO root fetch - processPackages [MJOLNIR]: Start processing: numberize
+[2023-05-01 14:14:49] INFO root fetch - main [MainThread]: End processing [MJOLNIR] error
+[2023-05-01 14:14:49] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [pollination-leed-daylight-option-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-leed-daylight-option-one-0.0.8.tar.gz tmp/pollination-leed-daylight-option-one-0.0.9.tar.gz --markdown 20230501/p/pollination-leed-daylight-option-one/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/08/af/f36952dace77087c7defbc9c54b691b829f26051e0e1386e8f530260a9eb/qwak_core-0.0.38.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [numberize]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 14:14:49] INFO root fetch - processPackages [graphql-server]: Downloading https://files.pythonhosted.org/packages/4a/02/4f070dc80c3ffde5074cc8a7e3760cf19e2c876e4d23d534eead36ec49f6/graphql-server-3.0.0b6.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [jamstack]: Downloading https://files.pythonhosted.org/packages/75/ea/2bc9616d9f5dc25d12898836803b6351bf78b83b22e0a43c4e8f16e0c2b6/jamstack-1.1.0.tar.gz
+[2023-05-01 14:14:49] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-05-01 14:14:49] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.37.tar.gz tmp/qwak_core-0.0.38.tar.gz --markdown 20230501/q/qwak-core/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-05-01 14:14:49] INFO root fetch - processPackages [numberize]: Downloading https://files.pythonhosted.org/packages/05/80/592b8482e3ed808de27109625cf72caccb880ba09803ed188400b0a2be11/numberize-1.0.2.tar.gz
+[2023-05-01 14:14:50] INFO root fetch - processPackages [graphql-server]: executing diffoscope
+[2023-05-01 14:14:50] INFO root fetch - processPackages [graphql-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql-server-3.0.0b5.tar.gz tmp/graphql-server-3.0.0b6.tar.gz --markdown 20230501/g/graphql-server/3.0.0b5-3.0.0b6/diff.md --exclude *.pyd
+[2023-05-01 14:14:50] INFO root fetch - processPackages [jamstack]: executing diffoscope
+[2023-05-01 14:14:50] INFO root fetch - processPackages [jamstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jamstack-1.0.0.tar.gz tmp/jamstack-1.1.0.tar.gz --markdown 20230501/j/jamstack/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 14:14:50] INFO root fetch - processPackages [numberize]: Downloading https://files.pythonhosted.org/packages/92/56/369a22aa13ccfac5d4a5f0570f9991ef11ffd40ac377d20b26e9389d14db/numberize-1.0.3.tar.gz
+[2023-05-01 14:14:50] INFO root fetch - processPackages [numberize]: executing diffoscope
+[2023-05-01 14:14:50] INFO root fetch - processPackages [numberize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numberize-1.0.2.tar.gz tmp/numberize-1.0.3.tar.gz --markdown 20230501/n/numberize/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 14:14:50] INFO root fetch - processPackages [CatRoyale]: Start processing: monlycee
+[2023-05-01 14:14:50] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 14:14:50] INFO root fetch - main [MainThread]: End processing [meltanolabs-tap-postgres]: success
+[2023-05-01 14:14:50] WARNING root fetch - processPackages [monlycee]: Skipping, unable to determine old version
+[2023-05-01 14:14:50] INFO root fetch - main [MainThread]: End processing [monlycee] error
+[2023-05-01 14:14:50] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-01 14:14:51] INFO root fetch - main [MainThread]: End processing [pollination-leed-daylight-option-one]: success
+[2023-05-01 14:14:51] INFO root fetch - main [MainThread]: End processing [vcsi]: success
+[2023-05-01 14:14:51] INFO root fetch - main [MainThread]: End processing [jamstack]: success
+[2023-05-01 14:14:51] INFO root fetch - main [MainThread]: End processing [numberize]: success
+[2023-05-01 14:14:51] INFO root fetch - main [MainThread]: End processing [graphql-server]: success
+[2023-05-01 14:14:55] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-05-01 14:14:57] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
+[2023-05-01 14:14:57] INFO root fetch - main [MainThread]: Store serial: [17926252]
