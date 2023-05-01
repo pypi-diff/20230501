@@ -16339,3 +16339,87 @@ EOFError: EOF read where object expected
 [2023-05-01 20:44:14] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
 [2023-05-01 20:44:15] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
 [2023-05-01 20:44:15] INFO root fetch - main [MainThread]: Store serial: [17930349]
+[2023-05-01 20:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930349]
+[2023-05-01 20:49:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PennyLane
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dexhub
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-arroyo
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finx-io
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commitizen
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: entitylinking-wikipedia
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invoke-plugin-for-pylint
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: environmentaltrends
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasette-sqlite-vss
+[2023-05-01 20:49:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-vss
+[2023-05-01 20:49:24] INFO root fetch - processPackages [entitylinking-wikipedia]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 20:49:24] WARNING root fetch - processPackages [invoke-plugin-for-pylint]: Skipping, unable to determine old version
+[2023-05-01 20:49:24] INFO root fetch - processPackages [invoke-plugin-for-pylint]: Start processing: cromshell
+[2023-05-01 20:49:24] INFO root fetch - main [MainThread]: End processing [invoke-plugin-for-pylint] error
+[2023-05-01 20:49:24] INFO root fetch - processPackages [finx-io]: New version: [0.2.5] Old Version: [0.2.1]
+[2023-05-01 20:49:24] INFO root fetch - processPackages [sentry-arroyo]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-01 20:49:24] INFO root fetch - processPackages [PennyLane]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-01 20:49:24] WARNING root fetch - processPackages [environmentaltrends]: Skipping, unable to determine old version
+[2023-05-01 20:49:24] INFO root fetch - processPackages [dexhub]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-01 20:49:24] INFO root fetch - processPackages [environmentaltrends]: Start processing: pydsdl
+[2023-05-01 20:49:24] INFO root fetch - main [MainThread]: End processing [environmentaltrends] error
+[2023-05-01 20:49:24] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.6a1] Old Version: [0.0.5a1]
+[2023-05-01 20:49:24] INFO root fetch - processPackages [commitizen]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-05-01 20:49:24] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.6a1] Old Version: [0.0.5a1]
+[2023-05-01 20:49:24] WARNING root fetch - processPackages [cromshell]: Skipping, unable to determine old version
+[2023-05-01 20:49:24] INFO root fetch - processPackages [cromshell]: Start processing: Microfire-Mod-NTC
+[2023-05-01 20:49:24] INFO root fetch - main [MainThread]: End processing [cromshell] error
+[2023-05-01 20:49:24] INFO root fetch - processPackages [pydsdl]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-01 20:49:24] WARNING root fetch - processPackages [Microfire-Mod-NTC]: Skipping, unable to determine old version
+[2023-05-01 20:49:24] INFO root fetch - processPackages [Microfire-Mod-NTC]: Start processing: dexhub
+[2023-05-01 20:49:24] INFO root fetch - main [MainThread]: End processing [Microfire-Mod-NTC] error
+[2023-05-01 20:49:24] INFO root fetch - processPackages [finx-io]: Downloading https://files.pythonhosted.org/packages/45/b6/1c075b95a1159a2f4c39870770a8104471ca668cb597b00897721437288d/finx_io-0.2.1.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/33/e1/d5ea1b22b184f43c89eebc82467cf5401a9d986666a8ea6294a7b4969699/sentry-arroyo-2.9.0.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [dexhub]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-01 20:49:24] INFO root fetch - processPackages [entitylinking-wikipedia]: Downloading https://files.pythonhosted.org/packages/42/1b/7890b9249563820849ba227fd0b4ec59ded7ea9acc5a46e1a7c0c05e8751/entitylinking_wikipedia-0.0.5.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [PennyLane]: Downloading https://files.pythonhosted.org/packages/65/32/337774b53bf1630e9e62b241e692b8e1ab930c766eb4102cd413b0d4243f/PennyLane-0.8.1.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/95/b1/0db27a28a6c0e9163f60de92e2c0d2ccf6621a0a44383aa3d8b7f7b20139/dexhub-0.6.2.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/95/b1/0db27a28a6c0e9163f60de92e2c0d2ccf6621a0a44383aa3d8b7f7b20139/dexhub-0.6.2.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/f8/b8/749e2e91e28eee4d7f128b2463d09222a7428efef416f89cfc437561f606/sqlite_vss-0.0.6a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-01 20:49:24] INFO root fetch - processPackages [entitylinking-wikipedia]: executing diffoscope
+[2023-05-01 20:49:24] INFO root fetch - processPackages [entitylinking-wikipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entitylinking_wikipedia-0.0.4.tar.gz tmp/entitylinking_wikipedia-0.0.5.tar.gz --markdown 20230501/e/entitylinking-wikipedia/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 20:49:24] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/0d/9c/46deca09905c4af72eeafc14ec91cf95e0ccfafa706160edaa387a797382/commitizen-3.2.0.tar.gz
+[2023-05-01 20:49:24] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/b9/fa/72f10f68905b48fb0b13707b206089493b0bcff934b535c1efe8ffb44071/datasette_sqlite_vss-0.0.6a1-py3-none-any.whl
+[2023-05-01 20:49:25] INFO root fetch - processPackages [pydsdl]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [pydsdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydsdl-1.9.3.tar.gz tmp/pydsdl-1.9.4.tar.gz --markdown 20230501/p/pydsdl/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.5a1-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.6a1-py3-none-any.whl.zip --markdown 20230501/d/datasette-sqlite-vss/0.0.5a1-0.0.6a1/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.1.tar.gz tmp/dexhub-0.6.2.tar.gz --markdown 20230501/d/dexhub/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.5a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.6a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230501/s/sqlite-vss/0.0.5a1-0.0.6a1/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [finx-io]: Downloading https://files.pythonhosted.org/packages/6b/62/8bafce0e93144c67494f26c2c8911cf114a0187d02ae4f45d60106961128/finx_io-0.2.5.tar.gz
+[2023-05-01 20:49:25] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.1.1.tar.gz tmp/commitizen-3.2.0.tar.gz --markdown 20230501/c/commitizen/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [sentry-arroyo]: Downloading https://files.pythonhosted.org/packages/d4/1a/90766875f9eaa1377c255103ddf3aa1ef3182ea97e8782b0779ebd2e4769/sentry-arroyo-2.9.1.tar.gz
+[2023-05-01 20:49:25] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/25/a6/d5a0fe9e8c507b1fda0b8e2ba0516982502411a4da389a25204a0536da3c/dexhub-0.6.3.tar.gz
+[2023-05-01 20:49:25] INFO root fetch - processPackages [finx-io]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [finx-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finx_io-0.2.1.tar.gz tmp/finx_io-0.2.5.tar.gz --markdown 20230501/f/finx-io/0.2.1-0.2.5/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [PennyLane]: Downloading https://files.pythonhosted.org/packages/e4/8c/27629220480b5d19bd2a5e11ca122122a2fa79acbe2770f4a5f2a41c32bd/PennyLane-0.9.0.tar.gz
+[2023-05-01 20:49:25] INFO root fetch - processPackages [sentry-arroyo]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [sentry-arroyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-arroyo-2.9.0.tar.gz tmp/sentry-arroyo-2.9.1.tar.gz --markdown 20230501/s/sentry-arroyo/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.2.tar.gz tmp/dexhub-0.6.3.tar.gz --markdown 20230501/d/dexhub/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-01 20:49:25] INFO root fetch - processPackages [PennyLane]: executing diffoscope
+[2023-05-01 20:49:25] INFO root fetch - processPackages [PennyLane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-0.8.1.tar.gz tmp/PennyLane-0.9.0.tar.gz --markdown 20230501/P/PennyLane/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 20:49:26] INFO root fetch - processPackages [entitylinking-wikipedia]: Start processing: poetry-plugin-compose
+[2023-05-01 20:49:26] INFO root fetch - main [MainThread]: End processing [entitylinking-wikipedia]: success
+[2023-05-01 20:49:26] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-01 20:49:26] INFO root fetch - processPackages [poetry-plugin-compose]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 20:49:26] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-05-01 20:49:26] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-05-01 20:49:26] INFO root fetch - processPackages [poetry-plugin-compose]: Downloading https://files.pythonhosted.org/packages/b4/f8/d4b727e5f4ac7455b7bb37fb802e1b54f503ba56ce4d6908014b60203b94/poetry_plugin_compose-0.1.2.tar.gz
+[2023-05-01 20:49:27] INFO root fetch - processPackages [poetry-plugin-compose]: executing diffoscope
+[2023-05-01 20:49:27] INFO root fetch - processPackages [poetry-plugin-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_compose-0.1.1.tar.gz tmp/poetry_plugin_compose-0.1.2.tar.gz --markdown 20230501/p/poetry-plugin-compose/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 20:49:27] INFO root fetch - main [MainThread]: End processing [finx-io]: success
+[2023-05-01 20:49:27] INFO root fetch - main [MainThread]: End processing [pydsdl]: success
+[2023-05-01 20:49:27] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-05-01 20:49:28] INFO root fetch - main [MainThread]: End processing [poetry-plugin-compose]: success
+[2023-05-01 20:49:28] INFO root fetch - main [MainThread]: End processing [PennyLane]: success
+[2023-05-01 20:49:48] INFO root fetch - main [MainThread]: End processing [sentry-arroyo]: success
+[2023-05-01 20:50:05] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-01 20:50:05] INFO root fetch - main [MainThread]: Store serial: [17930404]
