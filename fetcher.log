@@ -11190,3 +11190,86 @@
 [2023-05-01 15:03:05] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-01 15:03:06] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
 [2023-05-01 15:03:06] INFO root fetch - main [MainThread]: Store serial: [17926866]
+[2023-05-01 15:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926866]
+[2023-05-01 15:08:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: insidecouchbase
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: numberize
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-tcs34725
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsps
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psl
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insidecouchbase
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcicutils
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-stdlib
+[2023-05-01 15:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-shelly-deepSanity
+[2023-05-01 15:08:15] INFO root fetch - processPackages [fsps]: New version: [0.4.3rc1] Old Version: [0.4.2rc1]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: New version: [20230501.12.17.497803] Old Version: [20230501.11.39.165991]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [insidecouchbase]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [numberize]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [insidecouchbase]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.1] Old Version: [2023.4.30]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [adafruit-circuitpython-tcs34725]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [psl]: New version: [2023.5.1] Old Version: [2023.4.10]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [fsps]: executing diffoscope
+[2023-05-01 15:08:15] INFO root fetch - processPackages [fsps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsps-0.4.2rc1.tar.gz tmp/fsps-0.4.3rc1.tar.gz --markdown 20230501/f/fsps/0.4.2rc1-0.4.3rc1/diff.md --exclude *.pyd
+[2023-05-01 15:08:15] INFO root fetch - processPackages [dcicutils]: New version: [7.4.0] Old Version: [7.3.2.1b2]
+[2023-05-01 15:08:15] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Downloading https://files.pythonhosted.org/packages/1f/d3/0bf23e491bb518a2f5ffc23c587d5789fd1a6069cf229ce74f86c75d66b1/certora-cli-alpha-shelly-deepSanity-20230501.11.39.165991.tar.gz
+[2023-05-01 15:08:15] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-01 15:08:15] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230501/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:08:15] INFO root fetch - processPackages [numberize]: Downloading https://files.pythonhosted.org/packages/39/55/65e899f66e8ba3fa988be104c5c39e77b45444bb2e11d6aa1e9d35b161a7/numberize-1.1.0.tar.gz
+[2023-05-01 15:08:15] INFO root fetch - processPackages [adafruit-circuitpython-tcs34725]: Downloading https://files.pythonhosted.org/packages/88/64/fb14c3fe6a0d1aec243e1ee81d7106caf901b33c01d5bb01357c35c8b7bd/adafruit-circuitpython-tcs34725-3.3.8.tar.gz
+[2023-05-01 15:08:15] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/88/1b/74ed29efcc772e73d55d60019e503bd50f99fbc7ddfc814fc5aa84aec3ed/psl-2023.4.10.tar.gz
+[2023-05-01 15:08:15] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Skipping package: exceeds size limit 38324162>=10485760
+[2023-05-01 15:08:15] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepSanity]: Start processing: nonebot-plugin-zyk-lightNVL
+[2023-05-01 15:08:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deepSanity] error
+[2023-05-01 15:08:16] INFO root fetch - processPackages [insidecouchbase]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [insidecouchbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insidecouchbase-0.0.5.tar.gz tmp/insidecouchbase-0.1.0.tar.gz --markdown 20230501/i/insidecouchbase/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [insidecouchbase]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [insidecouchbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insidecouchbase-0.0.5.tar.gz tmp/insidecouchbase-0.1.0.tar.gz --markdown 20230501/i/insidecouchbase/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: New version: [0.2] Old Version: [0.1.1]
+[2023-05-01 15:08:16] INFO root fetch - processPackages [numberize]: Downloading https://files.pythonhosted.org/packages/58/43/94eb061fd5d7c3147aa6ace34683d00d2e6cb75bacbe84407256663ba3b8/numberize-1.1.1.tar.gz
+[2023-05-01 15:08:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/09/bf/45e274ee7859a5738c79d8b7b1af8d2c74d2989daa51866472efb4e1009e/fbgemm_gpu_nightly_cpu-2023.5.1-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-01 15:08:16] INFO root fetch - processPackages [numberize]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [numberize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numberize-1.1.0.tar.gz tmp/numberize-1.1.1.tar.gz --markdown 20230501/n/numberize/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/30/10/e4637122a704dd09de430e8998436a1891aee2bc3700f3ef4e03a30e615f/dcicutils-7.4.0.tar.gz
+[2023-05-01 15:08:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: Downloading https://files.pythonhosted.org/packages/95/7b/6fe5e934e2b93d577399d2b7ed32cd589e151eb491f4b3d9531492bcb1b8/nonebot_plugin_zyk_lightNVL-0.1.1.tar.gz
+[2023-05-01 15:08:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.30-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.1-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230501/f/fbgemm-gpu-nightly-cpu/2023.4.30-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/8d/7e/df3320e192a25cde9eb6a2907d8218dc51a6e03d08afa03cf28b7e861391/psl-2023.5.1.tar.gz
+[2023-05-01 15:08:16] INFO root fetch - processPackages [adafruit-circuitpython-tcs34725]: Downloading https://files.pythonhosted.org/packages/ae/f6/5b618abb85bef9538117ee9b6db4bd78f2dd8522f8e8de851a155daf6804/adafruit-circuitpython-tcs34725-3.3.9.tar.gz
+[2023-05-01 15:08:16] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.3.2.1b2.tar.gz tmp/dcicutils-7.4.0.tar.gz --markdown 20230501/d/dcicutils/7.3.2.1b2-7.4.0/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [psl]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2023.4.10.tar.gz tmp/psl-2023.5.1.tar.gz --markdown 20230501/p/psl/2023.4.10-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [adafruit-circuitpython-tcs34725]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [adafruit-circuitpython-tcs34725]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tcs34725-3.3.8.tar.gz tmp/adafruit-circuitpython-tcs34725-3.3.9.tar.gz --markdown 20230501/a/adafruit-circuitpython-tcs34725/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-05-01 15:08:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: Downloading https://files.pythonhosted.org/packages/b1/0e/6d3985d3f679d1b7c39cbef250eace4d63a905c57146ae255db7c89a001b/nonebot_plugin_zyk_lightNVL-0.2.tar.gz
+[2023-05-01 15:08:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: executing diffoscope
+[2023-05-01 15:08:16] INFO root fetch - processPackages [nonebot-plugin-zyk-lightNVL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_zyk_lightNVL-0.1.1.tar.gz tmp/nonebot_plugin_zyk_lightNVL-0.2.tar.gz --markdown 20230501/n/nonebot-plugin-zyk-lightNVL/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-05-01 15:08:17] INFO root fetch - processPackages [insidecouchbase]: Start processing: mangadex-downloader
+[2023-05-01 15:08:17] INFO root fetch - main [MainThread]: End processing [insidecouchbase]: success
+[2023-05-01 15:08:17] INFO root fetch - processPackages [mangadex-downloader]: New version: [2.9.0] Old Version: [2.8.3]
+[2023-05-01 15:08:17] INFO root fetch - processPackages [fsps]: Start processing: wikiserieswillemcli
+[2023-05-01 15:08:17] INFO root fetch - main [MainThread]: End processing [fsps]: success
+[2023-05-01 15:08:17] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/4b/95/aea763c1785bd128ce7a5741b5b769fcb3c08cee6a65234dd626fd8f3ecd/mangadex-downloader-2.8.3.tar.gz
+[2023-05-01 15:08:17] WARNING root fetch - processPackages [wikiserieswillemcli]: Skipping, unable to determine old version
+[2023-05-01 15:08:17] INFO root fetch - processPackages [wikiserieswillemcli]: Start processing: nbdev-numpy
+[2023-05-01 15:08:17] INFO root fetch - main [MainThread]: End processing [wikiserieswillemcli] error
+[2023-05-01 15:08:17] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:08:17] INFO root fetch - main [MainThread]: End processing [insidecouchbase]: success
+[2023-05-01 15:08:17] INFO root fetch - main [MainThread]: End processing [numberize]: success
+[2023-05-01 15:08:17] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-01 15:08:17] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230501/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:08:18] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-05-01 15:08:18] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-01 15:08:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-zyk-lightNVL]: success
+[2023-05-01 15:08:18] INFO root fetch - processPackages [mangadex-downloader]: Downloading https://files.pythonhosted.org/packages/24/06/7d739d7f41e4ae780f74dd540596ac75c623c21984d58976a00f6bb9191b/mangadex-downloader-2.9.0.tar.gz
+[2023-05-01 15:08:18] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tcs34725]: success
+[2023-05-01 15:08:18] INFO root fetch - processPackages [mangadex-downloader]: executing diffoscope
+[2023-05-01 15:08:18] INFO root fetch - processPackages [mangadex-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangadex-downloader-2.8.3.tar.gz tmp/mangadex-downloader-2.9.0.tar.gz --markdown 20230501/m/mangadex-downloader/2.8.3-2.9.0/diff.md --exclude *.pyd
+[2023-05-01 15:08:19] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2023-05-01 15:08:19] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-01 15:08:19] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-01 15:08:21] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
+[2023-05-01 15:08:21] INFO root fetch - main [MainThread]: Store serial: [17926922]
