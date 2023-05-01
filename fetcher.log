@@ -16423,3 +16423,65 @@ EOFError: EOF read where object expected
 [2023-05-01 20:49:48] INFO root fetch - main [MainThread]: End processing [sentry-arroyo]: success
 [2023-05-01 20:50:05] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-01 20:50:05] INFO root fetch - main [MainThread]: Store serial: [17930404]
+[2023-05-01 20:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930404]
+[2023-05-01 20:55:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-plugin-compose
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pheno-utils
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: verysimplemodule117
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecopipeline
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: schoolware-api
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tableone
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graph-envs
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streamlit-controllerDF
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: viser
+[2023-05-01 20:55:14] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [poetry-plugin-compose]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 20:55:14] WARNING root fetch - processPackages [verysimplemodule117]: Skipping, unable to determine old version
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always]: New version: [20230501.8.42.292176] Old Version: [20230501.18.49.304037]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [pheno-utils]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [verysimplemodule117]: Start processing: semantic-kernel
+[2023-05-01 20:55:14] INFO root fetch - main [MainThread]: End processing [verysimplemodule117] error
+[2023-05-01 20:55:14] INFO root fetch - processPackages [viser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [streamlit-controllerDF]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [tableone]: New version: [0.8.0] Old Version: [0.7.9]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [graph-envs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [poetry-plugin-compose]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [poetry-plugin-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_compose-0.1.1.tar.gz tmp/poetry_plugin_compose-0.1.2.tar.gz --markdown 20230501/p/poetry-plugin-compose/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.7.tar.gz tmp/schoolware_api-1.0.8.tar.gz --markdown 20230501/s/schoolware-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [semantic-kernel]: New version: [0.2.5.dev0] Old Version: [0.2.4.dev0]
+[2023-05-01 20:55:14] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always]: Downloading https://files.pythonhosted.org/packages/08/a1/951bf066914c4f2bd65d30a6eaae685d82673fc1eec5170850f44fb026ee/certora-cli-alpha-naftali-CERT-1897_parametric_instantiation_always-20230501.18.49.304037.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/cb/f5/f013f503f5b339d78ad453be61c50acb5961c960d8c771453d6f3817f03c/viser-0.0.9.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [tableone]: Downloading https://files.pythonhosted.org/packages/2a/ad/f2783b20a1099e38fe313ef1192c31723145de0bc1bef46974144fac1f30/tableone-0.7.9.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/cb/17/bb3a64693bf8d1e7dad713f955d2e1a3f1a98c2535726442c40c103d21e0/pheno-utils-0.2.0.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [streamlit-controllerDF]: Downloading https://files.pythonhosted.org/packages/b3/55/e06751500856d60f302762e1bd0286fc123ecb6a40f004f8bcbea38fd459/streamlit_controllerDF-0.1.3.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230501/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always]: Skipping package: exceeds size limit 38324589>=10485760
+[2023-05-01 20:55:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always] error
+[2023-05-01 20:55:14] INFO root fetch - processPackages [graph-envs]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [graph-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph-envs-0.0.8.tar.gz tmp/graph-envs-0.0.9.tar.gz --markdown 20230501/g/graph-envs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.1.9.tar.gz tmp/pheno-utils-0.2.0.tar.gz --markdown 20230501/p/pheno-utils/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/21/63/d5f2e0b42f3fad2a7627a425d1b9f7b7f13b3e32869181fc2300bc714f1f/semantic_kernel-0.2.5.dev0.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [streamlit-controllerDF]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [streamlit-controllerDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_controllerDF-0.1.2.tar.gz tmp/streamlit_controllerDF-0.1.3.tar.gz --markdown 20230501/s/streamlit-controllerDF/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.8.tar.gz tmp/viser-0.0.9.tar.gz --markdown 20230501/v/viser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [tableone]: Downloading https://files.pythonhosted.org/packages/dc/bd/a918aabfe8559a9b796022c352b94ab530a099a5c213cd6b6f1be6cf72d4/tableone-0.8.0.tar.gz
+[2023-05-01 20:55:14] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.2.4.dev0.tar.gz tmp/semantic_kernel-0.2.5.dev0.tar.gz --markdown 20230501/s/semantic-kernel/0.2.4.dev0-0.2.5.dev0/diff.md --exclude *.pyd
+[2023-05-01 20:55:14] INFO root fetch - processPackages [tableone]: executing diffoscope
+[2023-05-01 20:55:14] INFO root fetch - processPackages [tableone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableone-0.7.9.tar.gz tmp/tableone-0.8.0.tar.gz --markdown 20230501/t/tableone/0.7.9-0.8.0/diff.md --exclude *.pyd
+[2023-05-01 20:55:15] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-01 20:55:15] INFO root fetch - main [MainThread]: End processing [poetry-plugin-compose]: success
+[2023-05-01 20:55:15] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-01 20:55:15] INFO root fetch - main [MainThread]: End processing [graph-envs]: success
+[2023-05-01 20:55:16] INFO root fetch - main [MainThread]: End processing [streamlit-controllerDF]: success
+[2023-05-01 20:55:16] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-05-01 20:55:16] INFO root fetch - main [MainThread]: End processing [tableone]: success
+[2023-05-01 20:55:37] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2023-05-01 20:57:31] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-05-01 20:57:31] INFO root fetch - main [MainThread]: Store serial: [17930449]
