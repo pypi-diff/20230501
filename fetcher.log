@@ -15326,3 +15326,81 @@ EOFError: EOF read where object expected
 [2023-05-01 19:43:08] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
 [2023-05-01 19:43:08] INFO root fetch - main [MainThread]: End processing [asytest]: success
 [2023-05-01 19:43:08] INFO root fetch - main [MainThread]: Store serial: [17929598]
+[2023-05-01 19:48:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929598]
+[2023-05-01 19:48:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cliprec
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiny-cli
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-pytorch-kmeans
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-pytorch-kmeans
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HACKERTBILIB
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: preemo-worker-sdk
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asytest
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qgate-graph
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eulerpi
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fast-pytorch-kmeans]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fast-pytorch-kmeans]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [HACKERTBILIB]: New version: [0.0.5a0] Old Version: [0.0.5]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [asytest]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [tiny-cli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [asytest]: executing diffoscope
+[2023-05-01 19:48:17] INFO root fetch - processPackages [asytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asytest-0.1.0.tar.gz tmp/asytest-0.1.1.tar.gz --markdown 20230501/a/asytest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:48:17] INFO root fetch - processPackages [eulerpi]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-01 19:48:17] WARNING root fetch - processPackages [cliprec]: Skipping, unable to determine old version
+[2023-05-01 19:48:17] INFO root fetch - processPackages [cliprec]: Start processing: fastphrase
+[2023-05-01 19:48:17] INFO root fetch - main [MainThread]: End processing [cliprec] error
+[2023-05-01 19:48:17] INFO root fetch - processPackages [qgate-graph]: New version: [1.2rc9] Old Version: [1.2rc8]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [preemo-worker-sdk]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-01 19:48:17] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230501/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fast-pytorch-kmeans]: Downloading https://files.pythonhosted.org/packages/51/a1/5c30f8a50e99b5ae2809973ce08f55275265e2db87f2233b6f9e73a276c9/fast_pytorch_kmeans-0.1.8.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fast-pytorch-kmeans]: Downloading https://files.pythonhosted.org/packages/51/a1/5c30f8a50e99b5ae2809973ce08f55275265e2db87f2233b6f9e73a276c9/fast_pytorch_kmeans-0.1.8.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [HACKERTBILIB]: Downloading https://files.pythonhosted.org/packages/09/4e/6ecc0246458703a6042174bfc4d888abe3382d81e45188828b82c4f83cf1/HACKERTBILIB-0.0.5.tar.gz
+[2023-05-01 19:48:17] WARNING root fetch - processPackages [fastphrase]: Skipping, unable to determine old version
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fastphrase]: Start processing: ntlog
+[2023-05-01 19:48:17] INFO root fetch - main [MainThread]: End processing [fastphrase] error
+[2023-05-01 19:48:17] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/43/5b/52f101a17a62cda0f0ae07e536ab528a8093cc4676bbce3b149961dfb1ec/preemo_worker_sdk-0.5.0.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [tiny-cli]: Downloading https://files.pythonhosted.org/packages/e6/30/c611a44c5239cb00ca4d3ac2791028da59cdd8247d9d4488e06814ee0ade/tiny-cli-1.0.8.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/c2/ca/11fb1e6fb9647f297fa3ad307c63b8f4daad79b14798210800203fdfa11a/eulerpi-0.2.1.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ntlog]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 19:48:17] INFO root fetch - processPackages [HACKERTBILIB]: Downloading https://files.pythonhosted.org/packages/d0/59/ded31f0823121222090fab280427a18d80de7cc152ca8c1ec76abb19753f/HACKERTBILIB-0.0.5a0.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fast-pytorch-kmeans]: Downloading https://files.pythonhosted.org/packages/38/39/7c9d7c4bcfa6a5db19ab0024f14d29e239faf2d1f097d00b5a3c75b7a3eb/fast_pytorch_kmeans-0.1.9.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [preemo-worker-sdk]: Downloading https://files.pythonhosted.org/packages/64/6d/216c6a44553cf2a1ddd74510f289b1afd60eb27ab4e95dbf110ed787132e/preemo_worker_sdk-0.5.1.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [fast-pytorch-kmeans]: Downloading https://files.pythonhosted.org/packages/38/39/7c9d7c4bcfa6a5db19ab0024f14d29e239faf2d1f097d00b5a3c75b7a3eb/fast_pytorch_kmeans-0.1.9.tar.gz
+[2023-05-01 19:48:17] INFO root fetch - processPackages [qgate-graph]: executing diffoscope
+[2023-05-01 19:48:17] INFO root fetch - processPackages [qgate-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgate_graph-1.2rc8.tar.gz tmp/qgate_graph-1.2rc9.tar.gz --markdown 20230501/q/qgate-graph/1.2rc8-1.2rc9/diff.md --exclude *.pyd
+[2023-05-01 19:48:17] INFO root fetch - processPackages [ntlog]: Downloading https://files.pythonhosted.org/packages/94/1b/17e51fa2d15b123a6b07895c765342ae11c38f914ef9c430ebc3f153d07e/ntlog-0.2.tar.gz
+[2023-05-01 19:48:18] INFO root fetch - processPackages [fast-pytorch-kmeans]: executing diffoscope
+[2023-05-01 19:48:18] INFO root fetch - processPackages [fast-pytorch-kmeans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_pytorch_kmeans-0.1.8.tar.gz tmp/fast_pytorch_kmeans-0.1.9.tar.gz --markdown 20230501/f/fast-pytorch-kmeans/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 19:48:18] INFO root fetch - processPackages [preemo-worker-sdk]: executing diffoscope
+[2023-05-01 19:48:18] INFO root fetch - processPackages [preemo-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preemo_worker_sdk-0.5.0.tar.gz tmp/preemo_worker_sdk-0.5.1.tar.gz --markdown 20230501/p/preemo-worker-sdk/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-01 19:48:18] INFO root fetch - processPackages [fast-pytorch-kmeans]: executing diffoscope
+[2023-05-01 19:48:18] INFO root fetch - processPackages [fast-pytorch-kmeans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_pytorch_kmeans-0.1.8.tar.gz tmp/fast_pytorch_kmeans-0.1.9.tar.gz --markdown 20230501/f/fast-pytorch-kmeans/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 19:48:18] INFO root fetch - processPackages [HACKERTBILIB]: executing diffoscope
+[2023-05-01 19:48:18] INFO root fetch - processPackages [HACKERTBILIB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HACKERTBILIB-0.0.5.tar.gz tmp/HACKERTBILIB-0.0.5a0.tar.gz --markdown 20230501/H/HACKERTBILIB/0.0.5-0.0.5a0/diff.md --exclude *.pyd
+[2023-05-01 19:48:18] INFO root fetch - processPackages [tiny-cli]: Downloading https://files.pythonhosted.org/packages/ae/8b/06d87da814d88e111b3626fefaf0635dd682c26ca65aa0baaee6cc233201/tiny-cli-1.0.9.tar.gz
+[2023-05-01 19:48:18] INFO root fetch - processPackages [ntlog]: Downloading https://files.pythonhosted.org/packages/bb/d7/1b2e0cdec10a3bff88d4581f3a2ef082518bdb872623222ea2b25a7f7491/ntlog-0.3.tar.gz
+[2023-05-01 19:48:18] INFO root fetch - processPackages [tiny-cli]: executing diffoscope
+[2023-05-01 19:48:18] INFO root fetch - processPackages [tiny-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiny-cli-1.0.8.tar.gz tmp/tiny-cli-1.0.9.tar.gz --markdown 20230501/t/tiny-cli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 19:48:18] INFO root fetch - processPackages [ntlog]: executing diffoscope
+[2023-05-01 19:48:18] INFO root fetch - processPackages [ntlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntlog-0.2.tar.gz tmp/ntlog-0.3.tar.gz --markdown 20230501/n/ntlog/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 19:48:18] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/31/f6/d6074fb5303749df736de951cc9730e3d3e730d4014704c5590ff298d6ce/eulerpi-0.3.0.tar.gz
+[2023-05-01 19:48:18] INFO root fetch - processPackages [asytest]: Start processing: dbdemos
+[2023-05-01 19:48:18] INFO root fetch - main [MainThread]: End processing [asytest]: success
+[2023-05-01 19:48:18] INFO root fetch - processPackages [dbdemos]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-01 19:48:18] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/e0/05/db37ea44a09f1f3d5fdd2029ecf468b29d66f80f712611be2846bfda5fd3/dbdemos-0.3.3-py3-none-any.whl
+[2023-05-01 19:48:19] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 26084057>=10485760
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-05-01 19:48:19] INFO root fetch - processPackages [eulerpi]: executing diffoscope
+[2023-05-01 19:48:19] INFO root fetch - processPackages [eulerpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulerpi-0.2.1.tar.gz tmp/eulerpi-0.3.0.tar.gz --markdown 20230501/e/eulerpi/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [fast-pytorch-kmeans]: success
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [HACKERTBILIB]: success
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [tiny-cli]: success
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [fast-pytorch-kmeans]: success
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [qgate-graph]: success
+[2023-05-01 19:48:19] INFO root fetch - main [MainThread]: End processing [ntlog]: success
+[2023-05-01 19:48:20] INFO root fetch - main [MainThread]: End processing [preemo-worker-sdk]: success
+[2023-05-01 19:48:20] INFO root fetch - main [MainThread]: End processing [eulerpi]: success
+[2023-05-01 19:48:20] INFO root fetch - main [MainThread]: Store serial: [17929645]
