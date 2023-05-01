@@ -13131,3 +13131,94 @@ EOFError: EOF read where object expected
 
 [2023-05-01 17:12:04] INFO root fetch - main [MainThread]: End processing [agilicus] error
 [2023-05-01 17:12:04] INFO root fetch - main [MainThread]: Store serial: [17928051]
+[2023-05-01 17:17:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928051]
+[2023-05-01 17:17:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerebrium
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QPUIQ
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elevenlabs
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: globus-compute-sdk
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CmonCrawl
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: globus-compute-endpoint
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-setuptools
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-openpyxl
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-SQLAlchemy
+[2023-05-01 17:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-passlib
+[2023-05-01 17:17:14] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [cerebrium]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [globus-compute-sdk]: New version: [2.0.2a0] Old Version: [2.0.1a4]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.5] Old Version: [3.1.0.4]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-passlib]: New version: [1.7.7.9] Old Version: [1.7.7.8]
+[2023-05-01 17:17:14] WARNING root fetch - processPackages [CmonCrawl]: Skipping, unable to determine old version
+[2023-05-01 17:17:14] INFO root fetch - processPackages [CmonCrawl]: Start processing: auto-iap-enviroment
+[2023-05-01 17:17:14] INFO root fetch - main [MainThread]: End processing [CmonCrawl] error
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-setuptools]: New version: [67.7.0.1] Old Version: [67.7.0.0]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [globus-compute-endpoint]: New version: [2.0.2a0] Old Version: [2.0.1a4]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-SQLAlchemy]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [auto-iap-enviroment]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1c/fc/b1b82f8303b6179b3506ac584cf9b00e03da9f5476aebbd99a3da5978bea/types-openpyxl-3.1.0.4.tar.gz
+[2023-05-01 17:17:14] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/f9/1c/0bbc440f0365428d92616822c28e2c77080176a276dfdfa94a0c71ecb82a/globus-compute-endpoint-2.0.1a4.tar.gz
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/b8/7f/8d4b6a2ac7f7792cab397a4a7441c1913a4f065a78595214a37075c15c3f/types-setuptools-67.7.0.0.tar.gz
+[2023-05-01 17:17:14] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/f6/f5/11b92f9bce3ea52448aeb025a6f94d64f04cf61bd3a48047ad6220b6d2dd/globus-compute-sdk-2.0.1a4.tar.gz
+[2023-05-01 17:17:14] INFO root fetch - processPackages [types-passlib]: Downloading https://files.pythonhosted.org/packages/00/5d/9a8da8d100ce2912ed825086bb72e7327e194196ae306c849bae898daf9c/types-passlib-1.7.7.8.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [elevenlabs]: Downloading https://files.pythonhosted.org/packages/02/62/ac2064e05e83327571af24fdb93f9752a01ae9ed6bd37df85a5082cea262/elevenlabs-0.2.8.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [auto-iap-enviroment]: Downloading https://files.pythonhosted.org/packages/ca/72/ec97adb53af8407b332716028c73c3c97a42c1d3124e67c6911d0216fb63/auto-iap-enviroment-0.1.2.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [QPUIQ]: Downloading https://files.pythonhosted.org/packages/00/52/bc219186aef62b2b0e8ca7645597a4e4cd561f19c22b99145daed27dd6f0/QPUIQ-0.1.9.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [cerebrium]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [cerebrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebrium-0.4.8.tar.gz tmp/cerebrium-0.4.9.tar.gz --markdown 20230501/c/cerebrium/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-SQLAlchemy]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-SQLAlchemy-1.4.8.tar.gz tmp/types-SQLAlchemy-1.4.9.tar.gz --markdown 20230501/t/types-SQLAlchemy/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/d3/cd/ebb55f567408a0652d930a00a4a2d5bd331b652a7d1c35cce9a5a3169b09/types-setuptools-67.7.0.1.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.7.tar.gz tmp/elevenlabs-0.2.8.tar.gz --markdown 20230501/e/elevenlabs/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [auto-iap-enviroment]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [auto-iap-enviroment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-iap-enviroment-0.1.1.tar.gz tmp/auto-iap-enviroment-0.1.2.tar.gz --markdown 20230501/a/auto-iap-enviroment/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.8.tar.gz tmp/QPUIQ-0.1.9.tar.gz --markdown 20230501/Q/QPUIQ/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/21/3f/3545ca3085b81c0e7b0c6e104bd0db8c924e390734233583e12e42d6929e/globus-compute-sdk-2.0.2a0.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/0a/e2/efd9028dc164dcf3b3590841f825efec8188f24f3227aaa55084c553fc6f/types-openpyxl-3.1.0.5.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/c0/16/af79da19f1407a94f53264a06d5b6d3ef5dd454544bfe8f1710787eca986/globus-compute-endpoint-2.0.2a0.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-67.7.0.0.tar.gz tmp/types-setuptools-67.7.0.1.tar.gz --markdown 20230501/t/types-setuptools/67.7.0.0-67.7.0.1/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [globus-compute-sdk]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [globus-compute-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-sdk-2.0.1a4.tar.gz tmp/globus-compute-sdk-2.0.2a0.tar.gz --markdown 20230501/g/globus-compute-sdk/2.0.1a4-2.0.2a0/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.4.tar.gz tmp/types-openpyxl-3.1.0.5.tar.gz --markdown 20230501/t/types-openpyxl/3.1.0.4-3.1.0.5/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [globus-compute-endpoint]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [globus-compute-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-endpoint-2.0.1a4.tar.gz tmp/globus-compute-endpoint-2.0.2a0.tar.gz --markdown 20230501/g/globus-compute-endpoint/2.0.1a4-2.0.2a0/diff.md --exclude *.pyd
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-passlib]: Downloading https://files.pythonhosted.org/packages/c9/a9/de2551bf8229739be573e637ef97f05204b795c90c4e83077dccf9668d8e/types-passlib-1.7.7.9.tar.gz
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-passlib]: executing diffoscope
+[2023-05-01 17:17:15] INFO root fetch - processPackages [types-passlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-passlib-1.7.7.8.tar.gz tmp/types-passlib-1.7.7.9.tar.gz --markdown 20230501/t/types-passlib/1.7.7.8-1.7.7.9/diff.md --exclude *.pyd
+[2023-05-01 17:17:16] INFO root fetch - processPackages [cerebrium]: Start processing: pvmodule
+[2023-05-01 17:17:16] INFO root fetch - main [MainThread]: End processing [cerebrium]: success
+[2023-05-01 17:17:16] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 17:17:16] INFO root fetch - processPackages [auto-iap-enviroment]: Start processing: zirconium
+[2023-05-01 17:17:16] INFO root fetch - main [MainThread]: End processing [auto-iap-enviroment]: success
+[2023-05-01 17:17:16] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-05-01 17:17:16] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230501/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 17:17:16] INFO root fetch - processPackages [elevenlabs]: Start processing: SeedsLabeler
+[2023-05-01 17:17:16] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-05-01 17:17:16] INFO root fetch - processPackages [zirconium]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-01 17:17:16] INFO root fetch - processPackages [SeedsLabeler]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 17:17:16] INFO root fetch - processPackages [QPUIQ]: Start processing: GptCode
+[2023-05-01 17:17:16] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-05-01 17:17:16] INFO root fetch - processPackages [zirconium]: Downloading https://files.pythonhosted.org/packages/2e/63/ae02f7ca5b2459cac2a40590b2962e6b5cb59f772b4934eef2381797e78e/zirconium-1.1.2.tar.gz
+[2023-05-01 17:17:17] ERROR root fetch - processPackages [GptCode]: Unable to get metadata: No such project 'GptCode'
+[2023-05-01 17:17:17] INFO root fetch - main [MainThread]: End processing [GptCode] error
+[2023-05-01 17:17:17] INFO root fetch - main [MainThread]: End processing [globus-compute-sdk]: success
+[2023-05-01 17:17:17] INFO root fetch - processPackages [SeedsLabeler]: Downloading https://files.pythonhosted.org/packages/9d/64/523b08aa18bd5aae00f31386a5527bb0ee4cb9ad6c16c32a7c988708b723/SeedsLabeler-0.0.8.tar.gz
+[2023-05-01 17:17:17] INFO root fetch - main [MainThread]: End processing [globus-compute-endpoint]: success
+[2023-05-01 17:17:17] INFO root fetch - processPackages [zirconium]: Downloading https://files.pythonhosted.org/packages/85/a4/c96ecfb4a5c48e4def3b504ada06d678747cff8d689c9de6fd58f9b4e2a1/zirconium-1.2.0.tar.gz
+[2023-05-01 17:17:17] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-05-01 17:17:17] INFO root fetch - processPackages [SeedsLabeler]: Downloading https://files.pythonhosted.org/packages/23/21/6bd1b26614413a2eca44a95946836a4719773d828d7d8c248ed84d747d5c/SeedsLabeler-0.0.9.tar.gz
+[2023-05-01 17:17:17] INFO root fetch - main [MainThread]: End processing [types-passlib]: success
+[2023-05-01 17:17:17] INFO root fetch - processPackages [zirconium]: executing diffoscope
+[2023-05-01 17:17:17] INFO root fetch - processPackages [zirconium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zirconium-1.1.2.tar.gz tmp/zirconium-1.2.0.tar.gz --markdown 20230501/z/zirconium/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-01 17:17:17] INFO root fetch - processPackages [SeedsLabeler]: executing diffoscope
+[2023-05-01 17:17:17] INFO root fetch - processPackages [SeedsLabeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeedsLabeler-0.0.8.tar.gz tmp/SeedsLabeler-0.0.9.tar.gz --markdown 20230501/S/SeedsLabeler/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 17:17:18] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-05-01 17:17:18] INFO root fetch - main [MainThread]: End processing [zirconium]: success
+[2023-05-01 17:17:18] INFO root fetch - main [MainThread]: End processing [SeedsLabeler]: success
+[2023-05-01 17:17:19] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-05-01 17:17:19] INFO root fetch - main [MainThread]: End processing [types-SQLAlchemy]: success
+[2023-05-01 17:17:19] INFO root fetch - main [MainThread]: Store serial: [17928100]
