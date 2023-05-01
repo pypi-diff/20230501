@@ -5943,3 +5943,66 @@
 [2023-05-01 10:22:58] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
 [2023-05-01 10:23:03] INFO root fetch - main [MainThread]: End processing [jittor]: success
 [2023-05-01 10:23:03] INFO root fetch - main [MainThread]: Store serial: [17923953]
+[2023-05-01 10:28:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923953]
+[2023-05-01 10:28:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pddl-plus-parser
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bel-digital-handwriting-py
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-template
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyOfficeRobot
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvworld
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytorch-ignite
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Econplex
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recon-lw
+[2023-05-01 10:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py3d
+[2023-05-01 10:28:12] INFO root fetch - processPackages [lightning-template]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 10:28:12] INFO root fetch - processPackages [PyOfficeRobot]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-01 10:28:12] INFO root fetch - processPackages [cvworld]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 10:28:12] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-05-01 10:28:12] INFO root fetch - processPackages [Econplex]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 10:28:12] INFO root fetch - processPackages [bel-digital-handwriting-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230501] Old Version: [0.5.0.dev20230430]
+[2023-05-01 10:28:13] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4849753051] Old Version: [2.0.0.dev4817927417]
+[2023-05-01 10:28:13] INFO root fetch - processPackages [tf-nightly]: New version: [2.13.0.dev20230501] Old Version: [2.13.0.dev20230430]
+[2023-05-01 10:28:13] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-05-01 10:28:13] ERROR root fetch - processPackages [Econplex]: Unable to fetch info: No such project/version 'Econplex' 0.0.1
+[2023-05-01 10:28:13] INFO root fetch - main [MainThread]: End processing [Econplex] error
+[2023-05-01 10:28:13] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/0b/13/410b2ac69578d9cf898d862d5e3198062ef71c452c1f8f3456648518b9a1/PyOfficeRobot-0.1.8.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [cvworld]: Downloading https://files.pythonhosted.org/packages/2d/a2/02c615f2c7e1964f41ef90efc3aa656a760db3ca2239d3cc2a6331d40f09/cvworld-0.3.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/43/2b/01e00cef0fa128452165d3379554c212b3b215e06c806a6514963d1d3e0e/lightning-template-1.0.4.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/86/35/ac24117c8e8197fb78e79830f3fa90f0327e1459bbf6a97476ef31e7416c/py3d-0.0.81.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c8/1e/25827919eab48694ea8816e094b2bb89d9b40eae5cf4c47d42cd42998795/recon_lw-2.0.0.dev4817927417.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/03/5b/575e89e4e01e01ef056d8fbf0e7429dcd9e7e984125ea4b56cb414e62d33/pytorch-ignite-0.5.0.dev20230501.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/92/23/30bc6fa46af0bd4a2ede2f2856eaf037f17379ed5e2db4f5d051544b158f/tf_nightly-2.13.0.dev20230430-cp39-cp39-win_amd64.whl
+[2023-05-01 10:28:13] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.3.tar.gz tmp/lightning-template-1.0.4.tar.gz --markdown 20230501/l/lightning-template/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] INFO root fetch - processPackages [bel-digital-handwriting-py]: Downloading https://files.pythonhosted.org/packages/ec/cf/662e9d0c76ae0b324735ed5714ef1d0a2d10eed931d9575248fc1a12e2ed/bel-digital-handwriting-py-0.0.3.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [PyOfficeRobot]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [PyOfficeRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOfficeRobot-0.1.7.tar.gz tmp/PyOfficeRobot-0.1.8.tar.gz --markdown 20230501/P/PyOfficeRobot/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pddl-plus-parser]: Downloading https://files.pythonhosted.org/packages/ff/6b/9170a5879f6fb9002a9189f45be2bc2f6e7e848b856eac61b7878d907ee9/pddl-plus-parser-3.3.9.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230430.tar.gz tmp/pytorch-ignite-0.5.0.dev20230501.tar.gz --markdown 20230501/p/pytorch-ignite/0.5.0.dev20230430-0.5.0.dev20230501/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] INFO root fetch - processPackages [bel-digital-handwriting-py]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [bel-digital-handwriting-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bel-digital-handwriting-py-0.0.2.tar.gz tmp/bel-digital-handwriting-py-0.0.3.tar.gz --markdown 20230501/b/bel-digital-handwriting-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] INFO root fetch - processPackages [cvworld]: Downloading https://files.pythonhosted.org/packages/6d/e1/50380fa9b66ef63a665df0afc0615347f015446331f77ac54b1a7be14535/cvworld-0.4.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/69/44/7fe0e2f6fb5f44c9658b643ca65700f9cb521538aecc941b76d5ac3239fd/recon_lw-2.0.0.dev4849753051.tar.gz
+[2023-05-01 10:28:13] INFO root fetch - processPackages [cvworld]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [cvworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvworld-0.3.tar.gz tmp/cvworld-0.4.tar.gz --markdown 20230501/c/cvworld/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/11/ac/a2702a822375d8e3b49f63b26d7c0b55abeef2e268752f22fb72b21e3c10/tf_nightly-2.13.0.dev20230501-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.3.8.tar.gz tmp/pddl-plus-parser-3.3.9.tar.gz --markdown 20230501/p/pddl-plus-parser/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 524108729>=10485760
+[2023-05-01 10:28:13] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-05-01 10:28:13] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.81.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230501/p/py3d/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 10:28:13] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-01 10:28:13] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4817927417.tar.gz tmp/recon_lw-2.0.0.dev4849753051.tar.gz --markdown 20230501/r/recon-lw/2.0.0.dev4817927417-2.0.0.dev4849753051/diff.md --exclude *.pyd
+[2023-05-01 10:28:14] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
+[2023-05-01 10:28:14] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py]: success
+[2023-05-01 10:28:14] INFO root fetch - main [MainThread]: End processing [cvworld]: success
+[2023-05-01 10:28:14] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-01 10:28:15] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-01 10:28:15] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-05-01 10:28:15] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-01 10:28:15] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-05-01 10:28:15] INFO root fetch - main [MainThread]: Store serial: [17923985]
