@@ -3145,3 +3145,65 @@
 [2023-05-01 03:21:20] INFO root fetch - main [MainThread]: End processing [odc-geo]: success
 [2023-05-01 03:21:21] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-05-01 03:21:21] INFO root fetch - main [MainThread]: Store serial: [17922174]
+[2023-05-01 03:26:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922174]
+[2023-05-01 03:26:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visual-novel-toolkit
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-layer-curl
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rp
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testprepup
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystorz
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dqrobotics
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-organizations
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gumbi
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scotthsieh-projen-statemachine
+[2023-05-01 03:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bioregistry
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pystorz]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [testprepup]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [gumbi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [visual-novel-toolkit]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [rp]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [bioregistry]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [dqrobotics]: New version: [23.4.0a9] Old Version: [23.4.0a8]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-01 03:26:30] INFO root fetch - processPackages [testprepup]: Downloading https://files.pythonhosted.org/packages/e0/ea/b81a753f699fdd37d7a6c02ca6ce050e5d10f406882dca4150c8ef6c604a/testprepup-0.2.tar.gz
+[2023-05-01 03:26:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230501/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [rp]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [rp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp-0.1.98.tar.gz tmp/rp-0.1.99.tar.gz --markdown 20230501/r/rp/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230501/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [dqrobotics]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [dqrobotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqrobotics-23.4.0a8-cp39-cp39-win_amd64.whl.zip tmp/dqrobotics-23.4.0a9-cp39-cp39-win_amd64.whl.zip --markdown 20230501/d/dqrobotics/23.4.0a8-23.4.0a9/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/da/8b/d8f1d8c7ee601b23862fbceda543119e2a72daeaed19962221db4f787fd7/gumbi-0.2.1.tar.gz
+[2023-05-01 03:26:30] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/ab/53/bcf0f176163cd477442bde3df64cab0e354a50b8e3ed2874729acfb8a1aa/bioregistry-0.9.0.tar.gz
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pystorz]: Downloading https://files.pythonhosted.org/packages/3a/38/766c327a33f1a8bbfcb4c5ddb817053c69f3009f152c0fb5cf26ee280117/pystorz-0.1.8.tar.gz
+[2023-05-01 03:26:30] INFO root fetch - processPackages [gumbi]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [gumbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumbi-0.2.0.tar.gz tmp/gumbi-0.2.1.tar.gz --markdown 20230501/g/gumbi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [testprepup]: Downloading https://files.pythonhosted.org/packages/eb/64/75585253a1ef6ed6acae320b4c08d9557862c3f7b6df1bb9a185c4491a1e/testprepup-0.3.tar.gz
+[2023-05-01 03:26:30] INFO root fetch - processPackages [visual-novel-toolkit]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [visual-novel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_novel_toolkit-1.8.3.tar.gz tmp/visual_novel_toolkit-1.9.0.tar.gz --markdown 20230501/v/visual-novel-toolkit/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pystorz]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pystorz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystorz-0.1.7.tar.gz tmp/pystorz-0.1.8.tar.gz --markdown 20230501/p/pystorz/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230501/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [testprepup]: executing diffoscope
+[2023-05-01 03:26:30] INFO root fetch - processPackages [testprepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testprepup-0.2.tar.gz tmp/testprepup-0.3.tar.gz --markdown 20230501/t/testprepup/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 03:26:30] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/b5/dd/5919365ec71e34ad3a4babef6faf4a110602076a367d657c7e07070c60fe/bioregistry-0.9.1.tar.gz
+[2023-05-01 03:26:31] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-05-01 03:26:31] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.0.tar.gz tmp/bioregistry-0.9.1.tar.gz --markdown 20230501/b/bioregistry/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-01 03:26:32] INFO root fetch - processPackages [dqrobotics]: Start processing: ncnc
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [dqrobotics]: success
+[2023-05-01 03:26:32] WARNING root fetch - processPackages [ncnc]: Skipping, unable to determine old version
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [ncnc] error
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [pystorz]: success
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [visual-novel-toolkit]: success
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [testprepup]: success
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-01 03:26:32] INFO root fetch - main [MainThread]: End processing [rp]: success
+[2023-05-01 03:26:33] INFO root fetch - main [MainThread]: End processing [gumbi]: success
+[2023-05-01 03:27:39] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-05-01 03:27:39] INFO root fetch - main [MainThread]: Store serial: [17922224]
