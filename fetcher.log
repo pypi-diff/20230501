@@ -9459,3 +9459,300 @@
 [2023-05-01 13:58:22] INFO root fetch - main [MainThread]: End processing [trytond-sale-shipment-cost]: success
 [2023-05-01 13:58:24] INFO root fetch - main [MainThread]: End processing [trytond-marketing-email]: success
 [2023-05-01 13:58:24] INFO root fetch - main [MainThread]: Store serial: [17925974]
+[2023-05-01 14:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17925974]
+[2023-05-01 14:03:33] INFO root fetch - main [MainThread]: Found 46 changed packages
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-marketing-email
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-purchase-shipment-cost
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-purchase-blanket-agreement
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trytond-account-stock-continental
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-sale-payment
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-account-payment-sepa
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-stock-supply-forecast
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-stock-lot-sled
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trytond-account-fr
+[2023-05-01 14:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trytond-carrier-carriage
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-marketing-email]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-marketing-email]: executing diffoscope
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-marketing-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_marketing_email-6.6.1.tar.gz tmp/trytond_marketing_email-6.8.0.tar.gz --markdown 20230501/t/trytond-marketing-email/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-purchase-shipment-cost]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-account-stock-continental]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-carrier-carriage]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-stock-supply-forecast]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-sale-payment]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-account-fr]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-account-payment-sepa]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-purchase-shipment-cost]: Downloading https://files.pythonhosted.org/packages/9a/82/faaabcc5c3eeff8e2ee93a16392d1a2f179ad7faf2b7baa583df56b521f4/trytond_purchase_shipment_cost-6.6.0.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-account-stock-continental]: Downloading https://files.pythonhosted.org/packages/5e/2f/d668ae1212138a1070d039f7c48d641f7a2ab5a74511944c5ded3d10f426/trytond_account_stock_continental-6.6.0.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-stock-supply-forecast]: Downloading https://files.pythonhosted.org/packages/e7/10/4b9d5b4af781761f84742bd7caf44273f1161367f07f09de13950e53a42a/trytond_stock_supply_forecast-6.6.0.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-stock-lot-sled]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-account-fr]: Downloading https://files.pythonhosted.org/packages/7a/11/305320e4f837e64d03ee61a579973c5ca3b512cb5755b79c6baa5d6d0a84/trytond_account_fr-6.6.1.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Downloading https://files.pythonhosted.org/packages/c8/f5/c2bee3571a6fd78bea40efdfd4b26772ea3c0b7ff50230db7120caa2264d/trytond_purchase_blanket_agreement-6.6.0.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-account-payment-sepa]: Downloading https://files.pythonhosted.org/packages/87/47/0b8bf3829183c4df86329672b0ca24e3db53f2560998624b780bc76c9d44/trytond_account_payment_sepa-6.6.0.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/31/92/b83ea64100bd1f98e0ed9ec7492f9954690ff99b14d17be2d1c7b7e6e7c6/trytond_sale_payment-6.6.0.tar.gz
+[2023-05-01 14:03:33] INFO root fetch - processPackages [trytond-carrier-carriage]: Downloading https://files.pythonhosted.org/packages/29/6b/d69349148e5970576a0806a277f89637db93d165fff606aeabf71725194d/trytond_carrier_carriage-6.6.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-lot-sled]: Downloading https://files.pythonhosted.org/packages/81/f1/ef143e0a92283122e0660e96b9683a100009cef57ea067f29232b69e96dc/trytond_stock_lot_sled-6.6.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-purchase-shipment-cost]: Downloading https://files.pythonhosted.org/packages/90/8c/f9b1fc1544b2e443c01b82e481977fc651b2ce938d504505fa4a2402fc94/trytond_purchase_shipment_cost-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-purchase-shipment-cost]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-purchase-shipment-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_shipment_cost-6.6.0.tar.gz tmp/trytond_purchase_shipment_cost-6.8.0.tar.gz --markdown 20230501/t/trytond-purchase-shipment-cost/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-stock-continental]: Downloading https://files.pythonhosted.org/packages/39/78/f7ca9b9e9766788517b0403b246731182c21f11a8660b6b8df8cb835f3da/trytond_account_stock_continental-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-supply-forecast]: Downloading https://files.pythonhosted.org/packages/da/57/2d1745cb8039ebaf9eb3ecb00eb198d5f7f105c0c45799799d5b4a5179d1/trytond_stock_supply_forecast-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-fr]: Downloading https://files.pythonhosted.org/packages/fe/8e/8e46beb2e9bd14f7ca192aec87e97e98514c0d94543fc43959893451423c/trytond_account_fr-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-payment-sepa]: Downloading https://files.pythonhosted.org/packages/2e/5e/72c3f8d54edaa79ac0d7a089ad5ea1724a759ebcab515068d1d1177774e9/trytond_account_payment_sepa-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Downloading https://files.pythonhosted.org/packages/5a/1f/a1187741c80213be4d150de4b7b49de2143b315a18bb6dfc7654a30f313d/trytond_purchase_blanket_agreement-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-carrier-carriage]: Downloading https://files.pythonhosted.org/packages/1c/66/bd1e02589cf483366932ef3e5dba21f32f3dbea8e39e28e0c220bffefece/trytond_carrier_carriage-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-sale-payment]: Downloading https://files.pythonhosted.org/packages/0b/64/cf4479f54e69b39121319a205b07fbd619100119160bbffe3de15c43a6d3/trytond_sale_payment-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-supply-forecast]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-supply-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_supply_forecast-6.6.0.tar.gz tmp/trytond_stock_supply_forecast-6.8.0.tar.gz --markdown 20230501/t/trytond-stock-supply-forecast/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-fr]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-fr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_fr-6.6.1.tar.gz tmp/trytond_account_fr-6.8.0.tar.gz --markdown 20230501/t/trytond-account-fr/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_blanket_agreement-6.6.0.tar.gz tmp/trytond_purchase_blanket_agreement-6.8.0.tar.gz --markdown 20230501/t/trytond-purchase-blanket-agreement/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-payment-sepa]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-payment-sepa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_payment_sepa-6.6.0.tar.gz tmp/trytond_account_payment_sepa-6.8.0.tar.gz --markdown 20230501/t/trytond-account-payment-sepa/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-carrier-carriage]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-carrier-carriage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_carrier_carriage-6.6.0.tar.gz tmp/trytond_carrier_carriage-6.8.0.tar.gz --markdown 20230501/t/trytond-carrier-carriage/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-stock-continental]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-account-stock-continental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_stock_continental-6.6.0.tar.gz tmp/trytond_account_stock_continental-6.8.0.tar.gz --markdown 20230501/t/trytond-account-stock-continental/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-sale-payment]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-sale-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_payment-6.6.0.tar.gz tmp/trytond_sale_payment-6.8.0.tar.gz --markdown 20230501/t/trytond-sale-payment/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-lot-sled]: Downloading https://files.pythonhosted.org/packages/fa/65/2e51c561d7d28e6a0099f19c7843696269a8747bd23ef8031cd98204cde5/trytond_stock_lot_sled-6.8.0.tar.gz
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-lot-sled]: executing diffoscope
+[2023-05-01 14:03:34] INFO root fetch - processPackages [trytond-stock-lot-sled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_lot_sled-6.6.0.tar.gz tmp/trytond_stock_lot_sled-6.8.0.tar.gz --markdown 20230501/t/trytond-stock-lot-sled/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:35] INFO root fetch - processPackages [trytond-marketing-email]: Start processing: otoe
+[2023-05-01 14:03:35] INFO root fetch - main [MainThread]: End processing [trytond-marketing-email]: success
+[2023-05-01 14:03:35] INFO root fetch - processPackages [otoe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 14:03:35] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/8d/d0/409bcc0c218f9b8c50b318b9312f8afc8c38cfe62f0dbf7236cac7054018/otoe-0.0.8.tar.gz
+[2023-05-01 14:03:35] INFO root fetch - processPackages [otoe]: Downloading https://files.pythonhosted.org/packages/b3/d3/5f79bcc9631982d2e7bfddcc7cc4f273c726a8027110c81a7cfa6f650f3b/otoe-0.0.9.tar.gz
+[2023-05-01 14:03:35] INFO root fetch - processPackages [otoe]: executing diffoscope
+[2023-05-01 14:03:35] INFO root fetch - processPackages [otoe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otoe-0.0.8.tar.gz tmp/otoe-0.0.9.tar.gz --markdown 20230501/o/otoe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-sale-payment]: Start processing: trytond-sale-extra
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-sale-payment]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-stock-supply-forecast]: Start processing: topologicpy
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-stock-supply-forecast]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-sale-extra]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-purchase-blanket-agreement]: Start processing: trytond-purchase-request-quotation
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-purchase-blanket-agreement]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-account-stock-continental]: Start processing: trytond-analytic-invoice
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-account-stock-continental]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-sale-extra]: Downloading https://files.pythonhosted.org/packages/9a/97/7e11b2d7133b9c96f16c8d66e80a8ac9335c610ef27694a44e8fa5d2cd9f/trytond_sale_extra-6.6.0.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-purchase-request-quotation]: New version: [6.8.0] Old Version: [6.6.2]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-stock-lot-sled]: Start processing: trytond-product-cost-warehouse
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-stock-lot-sled]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-carrier-carriage]: Start processing: trytond-purchase-invoice-line-standalone
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-carrier-carriage]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-purchase-shipment-cost]: Start processing: trytond-account-cash-rounding
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-purchase-shipment-cost]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-analytic-invoice]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-product-cost-warehouse]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-purchase-invoice-line-standalone]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-account-cash-rounding]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Downloading https://files.pythonhosted.org/packages/75/79/9c13e9de5bb60bdf47b06fc90b811844e85cbd33d11b3f76ae6ead561f73/trytond_purchase_request_quotation-6.6.2.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-analytic-invoice]: Downloading https://files.pythonhosted.org/packages/3a/8f/f572b14f7c36d69239e7a6ef206e393780ff40fb891167c6e4834c184bd6/trytond_analytic_invoice-6.6.0.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-account-fr]: Start processing: CatRoyale
+[2023-05-01 14:03:36] INFO root fetch - main [MainThread]: End processing [trytond-account-fr]: success
+[2023-05-01 14:03:36] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-sale-extra]: Downloading https://files.pythonhosted.org/packages/b0/0b/6bb8d109d33b22c163cc025a4e58c664256f23411ab2692ea6d1dd083901/trytond_sale_extra-6.8.0.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-purchase-invoice-line-standalone]: Downloading https://files.pythonhosted.org/packages/bb/17/6b30b90d0308d5caf711c81516dadf2a853abf5d1a96a6446ed77de6812e/trytond_purchase_invoice_line_standalone-6.6.0.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-product-cost-warehouse]: Downloading https://files.pythonhosted.org/packages/2b/48/9493b9ad60d47d8d9e24fd7a0b892dbf920ae637f3f097fca9a6300eac7a/trytond_product_cost_warehouse-6.6.0.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-account-cash-rounding]: Downloading https://files.pythonhosted.org/packages/bd/a9/7a89e55b810c61b27498d58a5db1e539b3d6f157901ddbac5bc0e60b037f/trytond_account_cash_rounding-6.6.0.tar.gz
+[2023-05-01 14:03:36] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 14:03:36] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-sale-extra]: executing diffoscope
+[2023-05-01 14:03:36] INFO root fetch - processPackages [trytond-sale-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_extra-6.6.0.tar.gz tmp/trytond_sale_extra-6.8.0.tar.gz --markdown 20230501/t/trytond-sale-extra/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Downloading https://files.pythonhosted.org/packages/38/ee/7ad8140e30c90bd6e5e5f02a894cfab8e3ac04290ecacc14737dd70ab7ed/trytond_purchase_request_quotation-6.8.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-account-payment-sepa]: Start processing: trytond-stock-package-shipping-ups
+[2023-05-01 14:03:37] INFO root fetch - main [MainThread]: End processing [trytond-account-payment-sepa]: success
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-analytic-invoice]: Downloading https://files.pythonhosted.org/packages/db/f8/c9e53d964c10e4e1379ca4030fff842e12e890b7ff09b643e5ab26b0c946/trytond_analytic_invoice-6.8.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-purchase-request-quotation]: executing diffoscope
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-purchase-request-quotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_request_quotation-6.6.2.tar.gz tmp/trytond_purchase_request_quotation-6.8.0.tar.gz --markdown 20230501/t/trytond-purchase-request-quotation/6.6.2-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-analytic-invoice]: executing diffoscope
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-analytic-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_analytic_invoice-6.6.0.tar.gz tmp/trytond_analytic_invoice-6.8.0.tar.gz --markdown 20230501/t/trytond-analytic-invoice/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-purchase-invoice-line-standalone]: Downloading https://files.pythonhosted.org/packages/4d/9b/51069a21c3703d0ad1b032cb49a0e55ab87160cf9f0bbfc924cbce6a7439/trytond_purchase_invoice_line_standalone-6.8.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-account-cash-rounding]: Downloading https://files.pythonhosted.org/packages/18/8f/eca644f3a248f8c4e08eb45050efeb08f379255192c97a174b382576c7ac/trytond_account_cash_rounding-6.8.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-purchase-invoice-line-standalone]: executing diffoscope
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-purchase-invoice-line-standalone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase_invoice_line_standalone-6.6.0.tar.gz tmp/trytond_purchase_invoice_line_standalone-6.8.0.tar.gz --markdown 20230501/t/trytond-purchase-invoice-line-standalone/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-product-cost-warehouse]: Downloading https://files.pythonhosted.org/packages/37/eb/1f82c64cf152b06eea3ca9eb4059781bdbf488fed81855b45582df308bce/trytond_product_cost_warehouse-6.8.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-account-cash-rounding]: executing diffoscope
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-account-cash-rounding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_cash_rounding-6.6.0.tar.gz tmp/trytond_account_cash_rounding-6.8.0.tar.gz --markdown 20230501/t/trytond-account-cash-rounding/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/fe/dc/bee7766b3887333f4712f6960c22d0b259dac2f7081b75dedf1cd9e9d066/trytond_stock_package_shipping_ups-6.6.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-product-cost-warehouse]: executing diffoscope
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-product-cost-warehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_product_cost_warehouse-6.6.0.tar.gz tmp/trytond_product_cost_warehouse-6.8.0.tar.gz --markdown 20230501/t/trytond-product-cost-warehouse/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:37] INFO root fetch - processPackages [otoe]: Start processing: trytond-analytic-budget
+[2023-05-01 14:03:37] INFO root fetch - main [MainThread]: End processing [otoe]: success
+[2023-05-01 14:03:37] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-05-01 14:03:37] INFO root fetch - processPackages [topologicpy]: Start processing: trytond-account-tax-rule-country
+[2023-05-01 14:03:37] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-analytic-budget]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-account-tax-rule-country]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Downloading https://files.pythonhosted.org/packages/d3/95/767bfc4adcde18e8196c2f1b16633a28ad36fb7a8a55f2e6aabe57221cd3/trytond_stock_package_shipping_ups-6.8.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-analytic-budget]: Downloading https://files.pythonhosted.org/packages/1f/dd/6324dae3517954bef64fedf9be166b20c7658326630bddd057580bd7b982/trytond_analytic_budget-6.6.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-account-tax-rule-country]: Downloading https://files.pythonhosted.org/packages/e8/23/cf898cd3c4e40c34b9a4fec56a8df995d94806b994732e6b707c7bce7a26/trytond_account_tax_rule_country-6.6.0.tar.gz
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: executing diffoscope
+[2023-05-01 14:03:37] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_package_shipping_ups-6.6.0.tar.gz tmp/trytond_stock_package_shipping_ups-6.8.0.tar.gz --markdown 20230501/t/trytond-stock-package-shipping-ups/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-analytic-budget]: Downloading https://files.pythonhosted.org/packages/f5/38/52689350712d92e67ec2119fb6498cd1529b691a5de3fc8358221630545b/trytond_analytic_budget-6.8.0.tar.gz
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-account-tax-rule-country]: Downloading https://files.pythonhosted.org/packages/71/db/a4c0578d9ad41ad925c2b9ccb76b7f1585a67f3a177d885d7dd3dc5f2db3/trytond_account_tax_rule_country-6.8.0.tar.gz
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-analytic-budget]: executing diffoscope
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-analytic-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_analytic_budget-6.6.0.tar.gz tmp/trytond_analytic_budget-6.8.0.tar.gz --markdown 20230501/t/trytond-analytic-budget/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-account-tax-rule-country]: executing diffoscope
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-account-tax-rule-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_tax_rule_country-6.6.0.tar.gz tmp/trytond_account_tax_rule_country-6.8.0.tar.gz --markdown 20230501/t/trytond-account-tax-rule-country/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:38] INFO root fetch - processPackages [CatRoyale]: Start processing: bigdl-dllib-spark3
+[2023-05-01 14:03:38] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 14:03:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230430] Old Version: [2.4.0b20230429]
+[2023-05-01 14:03:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/48/d1/49b365be5c05bfbd90a67a684dd3d0542ade1dde587a2f0378fdef279dd0/bigdl-dllib-spark3-2.4.0b20230429.tar.gz
+[2023-05-01 14:03:38] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251906>=10485760
+[2023-05-01 14:03:38] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: trytond-stock-lot-unit
+[2023-05-01 14:03:38] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-analytic-invoice]: Start processing: trytond-account-stock-eu
+[2023-05-01 14:03:38] INFO root fetch - main [MainThread]: End processing [trytond-analytic-invoice]: success
+[2023-05-01 14:03:38] INFO root fetch - processPackages [trytond-stock-lot-unit]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:39] WARNING root fetch - processPackages [trytond-account-stock-eu]: Skipping, unable to determine old version
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-account-stock-eu]: Start processing: trytond-sale
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-account-stock-eu] error
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale-extra]: Start processing: bigdl-orca-spark3
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-sale-extra]: success
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230430] Old Version: [2.4.0b20230429]
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-stock-lot-unit]: Downloading https://files.pythonhosted.org/packages/4a/59/89fadfc19a21045b8ae8044119cc4b668feb3e2976a2aa431a7c3bb5ed7f/trytond_stock_lot_unit-6.6.0.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-product-cost-warehouse]: Start processing: bigdl-friesian-spark3
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-product-cost-warehouse]: success
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-account-cash-rounding]: Start processing: trytond-sale-point
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-account-cash-rounding]: success
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230430] Old Version: [2.4.0b20230429]
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/b2/a8/4e83ecda4c94788e7be5aa15a5b08a1531d02b4ec39e119cd25caa65bca4/bigdl_orca_spark3-2.4.0b20230429-py3-none-manylinux1_x86_64.whl
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale-point]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-01 14:03:39] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207375>=10485760
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-chronos-spark3
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/1f/c4/20b465802168c0f0625853f5dbc93e1dd957a52d02b3b46dbbc234e85270/trytond_sale-6.6.1.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230430] Old Version: [2.4.0b20230429]
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-stock-package-shipping-ups]: Start processing: bigdl-spark3
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-stock-package-shipping-ups]: success
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230430] Old Version: [2.4.0b20230429]
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-purchase-invoice-line-standalone]: Start processing: trytond-analytic-account
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-purchase-invoice-line-standalone]: success
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-stock-lot-unit]: Downloading https://files.pythonhosted.org/packages/04/32/c7099b169bbff0e811b22d3787590f5b07c5abc820226fa616d8c63db27d/trytond_stock_lot_unit-6.8.0.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale-point]: Downloading https://files.pythonhosted.org/packages/f4/5b/a6aff0d1f660364e5761ac4c6cc8a137c7f5d3c87abc054673248a7a81d2/trytond_sale_point-6.6.1.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-analytic-account]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-stock-lot-unit]: executing diffoscope
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-stock-lot-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_lot_unit-6.6.0.tar.gz tmp/trytond_stock_lot_unit-6.8.0.tar.gz --markdown 20230501/t/trytond-stock-lot-unit/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230429-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230430-py3-none-manylinux1_x86_64.whl.zip --markdown 20230501/b/bigdl-friesian-spark3/2.4.0b20230429-2.4.0b20230430/diff.md --exclude *.pyd
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/53/4b/ba8b5b141120edbd4247bda802583d9aad31888abcc9c5ddfd83fd56656f/trytond_sale-6.8.0.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230429-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230430-py3-none-manylinux1_x86_64.whl.zip --markdown 20230501/b/bigdl-chronos-spark3/2.4.0b20230429-2.4.0b20230430/diff.md --exclude *.pyd
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-analytic-account]: Downloading https://files.pythonhosted.org/packages/d0/02/73353f3638db79257307e88dde91cfade1f24c2c654ecb3cca6b3f1188f8/trytond_analytic_account-6.6.0.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-6.6.1.tar.gz tmp/trytond_sale-6.8.0.tar.gz --markdown 20230501/t/trytond-sale/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale-point]: Downloading https://files.pythonhosted.org/packages/38/77/18048da45edfeafd21fd068e3531a3a1864f33d97ad336e5f585c6a68549/trytond_sale_point-6.8.0.tar.gz
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-account-tax-rule-country]: Start processing: trytond-account-de-skr03
+[2023-05-01 14:03:39] INFO root fetch - main [MainThread]: End processing [trytond-account-tax-rule-country]: success
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-01 14:03:39] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230429-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230430-py3-none-manylinux1_x86_64.whl.zip --markdown 20230501/b/bigdl-spark3/2.4.0b20230429-2.4.0b20230430/diff.md --exclude *.pyd
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale-point]: executing diffoscope
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-sale-point]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_point-6.6.1.tar.gz tmp/trytond_sale_point-6.8.0.tar.gz --markdown 20230501/t/trytond-sale-point/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:39] INFO root fetch - processPackages [trytond-account-de-skr03]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-analytic-budget]: Start processing: trytond-stock-secondary-unit
+[2023-05-01 14:03:40] INFO root fetch - main [MainThread]: End processing [trytond-analytic-budget]: success
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-analytic-account]: Downloading https://files.pythonhosted.org/packages/4a/7c/b35958850e251311c14439feed7f22c7ed10b94d2753e39c52e4d9e460d4/trytond_analytic_account-6.8.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-stock-secondary-unit]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-account-de-skr03]: Downloading https://files.pythonhosted.org/packages/ca/0f/c0e9b404292f057386eda754b11e7c67715d0b095d386c0d2601f0a9104c/trytond_account_de_skr03-6.6.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-analytic-account]: executing diffoscope
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-analytic-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_analytic_account-6.6.0.tar.gz tmp/trytond_analytic_account-6.8.0.tar.gz --markdown 20230501/t/trytond-analytic-account/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-purchase-request-quotation]: Start processing: trytond-sale-opportunity
+[2023-05-01 14:03:40] INFO root fetch - main [MainThread]: End processing [trytond-purchase-request-quotation]: success
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/1f/26/3d178abe0f8f899365d116e1c210bfe4cbbd6c7bf97ff8fc0cafa0c8eb40/trytond_stock_secondary_unit-6.6.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-sale-opportunity]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-account-de-skr03]: Downloading https://files.pythonhosted.org/packages/b3/86/993dde99e126aafd8eae0dfa47441a467b2be06ad904f87bf6ade4e09250/trytond_account_de_skr03-6.8.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-sale-opportunity]: Downloading https://files.pythonhosted.org/packages/5e/5f/0d49b9166135b1586fc237b01cbfba240cc36c94e80582756d49b80fff98/trytond_sale_opportunity-6.6.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-account-de-skr03]: executing diffoscope
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-account-de-skr03]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_de_skr03-6.6.0.tar.gz tmp/trytond_account_de_skr03-6.8.0.tar.gz --markdown 20230501/t/trytond-account-de-skr03/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-stock-secondary-unit]: Downloading https://files.pythonhosted.org/packages/f5/66/3a00148822a9a2c3192f94150cdd3cf0aefb3dccacc0e3a929dfef486658/trytond_stock_secondary_unit-6.8.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-stock-secondary-unit]: executing diffoscope
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-stock-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_secondary_unit-6.6.0.tar.gz tmp/trytond_stock_secondary_unit-6.8.0.tar.gz --markdown 20230501/t/trytond-stock-secondary-unit/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-sale-opportunity]: Downloading https://files.pythonhosted.org/packages/a4/d2/d935c40fab8c4d2c2b4873d16bda2d0d23dbcf1a6c867c507f610802f257/trytond_sale_opportunity-6.8.0.tar.gz
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-sale-opportunity]: executing diffoscope
+[2023-05-01 14:03:40] INFO root fetch - processPackages [trytond-sale-opportunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_opportunity-6.6.0.tar.gz tmp/trytond_sale_opportunity-6.8.0.tar.gz --markdown 20230501/t/trytond-sale-opportunity/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:41] INFO root fetch - processPackages [bigdl-spark3]: Start processing: AsyncPywhatKit
+[2023-05-01 14:03:41] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-01 14:03:41] INFO root fetch - processPackages [AsyncPywhatKit]: New version: [2.2.7.1] Old Version: [2.2.7]
+[2023-05-01 14:03:41] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: trytond-production-work-timesheet
+[2023-05-01 14:03:41] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-01 14:03:41] INFO root fetch - processPackages [trytond-production-work-timesheet]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:41] INFO root fetch - processPackages [AsyncPywhatKit]: Downloading https://files.pythonhosted.org/packages/08/a1/36e06516f0fa827a368d19f51aa41ddf956e7564f6be5dad752a629e79d3/AsyncPywhatKit-2.2.7.1.tar.gz
+[2023-05-01 14:03:41] INFO root fetch - processPackages [trytond-stock-lot-unit]: Start processing: dbdemos
+[2023-05-01 14:03:41] INFO root fetch - main [MainThread]: End processing [trytond-stock-lot-unit]: success
+[2023-05-01 14:03:41] INFO root fetch - processPackages [trytond-production-work-timesheet]: Downloading https://files.pythonhosted.org/packages/2e/68/799adb4d7118de1559fff9a7e0cca2701efbee196791ca80a0c3b92de5f6/trytond_production_work_timesheet-6.6.0.tar.gz
+[2023-05-01 14:03:41] INFO root fetch - processPackages [dbdemos]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-01 14:03:41] INFO root fetch - processPackages [AsyncPywhatKit]: executing diffoscope
+[2023-05-01 14:03:41] INFO root fetch - processPackages [AsyncPywhatKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AsyncPywhatKit-2.2.7.tar.gz tmp/AsyncPywhatKit-2.2.7.1.tar.gz --markdown 20230501/A/AsyncPywhatKit/2.2.7-2.2.7.1/diff.md --exclude *.pyd
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-production-work-timesheet]: Downloading https://files.pythonhosted.org/packages/d5/0d/f00aaeda8e7eb2ae6e07c69e659dd5d955be849e176f55749e3b56065cae/trytond_production_work_timesheet-6.8.0.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [dbdemos]: Downloading https://files.pythonhosted.org/packages/e0/05/db37ea44a09f1f3d5fdd2029ecf468b29d66f80f712611be2846bfda5fd3/dbdemos-0.3.3-py3-none-any.whl
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-production-work-timesheet]: executing diffoscope
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-production-work-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_production_work_timesheet-6.6.0.tar.gz tmp/trytond_production_work_timesheet-6.8.0.tar.gz --markdown 20230501/t/trytond-production-work-timesheet/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:42] WARNING root fetch - processPackages [dbdemos]: Skipping package: exceeds size limit 26084057>=10485760
+[2023-05-01 14:03:42] INFO root fetch - processPackages [dbdemos]: Start processing: trytond-stock-quantity-issue
+[2023-05-01 14:03:42] INFO root fetch - main [MainThread]: End processing [dbdemos] error
+[2023-05-01 14:03:42] INFO root fetch - processPackages [bigdl-chronos-spark3]: Start processing: trytond-account-invoice-defer
+[2023-05-01 14:03:42] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-stock-quantity-issue]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-account-invoice-defer]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-account-de-skr03]: Start processing: trytond-web-shortener
+[2023-05-01 14:03:42] INFO root fetch - main [MainThread]: End processing [trytond-account-de-skr03]: success
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-stock-quantity-issue]: Downloading https://files.pythonhosted.org/packages/1f/e4/a17c442ccc5e5b3237e79a8cb88157475d782bd3667cb7bb7693d489aeb7/trytond_stock_quantity_issue-6.6.0.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-web-shortener]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-account-invoice-defer]: Downloading https://files.pythonhosted.org/packages/f1/4e/48b47c7667467fe4509bec64951ab8c24d1f2ae780feed67ca01ecfcdede/trytond_account_invoice_defer-6.6.0.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-stock-secondary-unit]: Start processing: trytond-sale-stock-quantity
+[2023-05-01 14:03:42] INFO root fetch - main [MainThread]: End processing [trytond-stock-secondary-unit]: success
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-web-shortener]: Downloading https://files.pythonhosted.org/packages/48/f4/a922d55ef47118783c2c2c67e6b80f843e37f3b9502353211dd2b2c01cde/trytond_web_shortener-6.6.0.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-sale-opportunity]: Start processing: CatRoyale
+[2023-05-01 14:03:42] INFO root fetch - main [MainThread]: End processing [trytond-sale-opportunity]: success
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-stock-quantity-issue]: Downloading https://files.pythonhosted.org/packages/18/9f/2c5622f4d30d78a514f7d80bc5076f37aec3503c22de51e83055f72b34b9/trytond_stock_quantity_issue-6.8.0.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-sale-stock-quantity]: New version: [6.8.0] Old Version: [6.6.1]
+[2023-05-01 14:03:42] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-account-invoice-defer]: Downloading https://files.pythonhosted.org/packages/d9/71/f437d740612e77dbcbcdfadcdcc73468d2324275424c30ed2da8f1ee748c/trytond_account_invoice_defer-6.8.0.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 14:03:42] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-sale-stock-quantity]: Downloading https://files.pythonhosted.org/packages/6f/90/70ddbe78266e25131f69145d03b020559bae9df4a8e9e1296147f87471d8/trytond_sale_stock_quantity-6.6.1.tar.gz
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-stock-quantity-issue]: executing diffoscope
+[2023-05-01 14:03:42] INFO root fetch - processPackages [trytond-stock-quantity-issue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock_quantity_issue-6.6.0.tar.gz tmp/trytond_stock_quantity_issue-6.8.0.tar.gz --markdown 20230501/t/trytond-stock-quantity-issue/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-sale]: Start processing: torcheval-nightly
+[2023-05-01 14:03:43] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2023-05-01 14:03:43] INFO root fetch - processPackages [torcheval-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-account-invoice-defer]: executing diffoscope
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-account-invoice-defer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice_defer-6.6.0.tar.gz tmp/trytond_account_invoice_defer-6.8.0.tar.gz --markdown 20230501/t/trytond-account-invoice-defer/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:43] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2023-05-01 14:03:43] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2023.4.8.tar.gz tmp/torcheval-nightly-2023.4.9.tar.gz --markdown 20230501/t/torcheval-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-web-shortener]: Downloading https://files.pythonhosted.org/packages/75/2c/2115cf4896ad0612818a58a016d3888cd5844b6c84db4af706b0d7ca9986/trytond_web_shortener-6.8.0.tar.gz
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-web-shortener]: executing diffoscope
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-web-shortener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_web_shortener-6.6.0.tar.gz tmp/trytond_web_shortener-6.8.0.tar.gz --markdown 20230501/t/trytond-web-shortener/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-sale-stock-quantity]: Downloading https://files.pythonhosted.org/packages/67/c1/d284dbb2e6e7883c79d06852352744ed49f5ab6d4ae42695f055b7fbc601/trytond_sale_stock_quantity-6.8.0.tar.gz
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-sale-point]: Start processing: usepy
+[2023-05-01 14:03:43] INFO root fetch - main [MainThread]: End processing [trytond-sale-point]: success
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-analytic-account]: Start processing: trytond-account-stock-landed-cost
+[2023-05-01 14:03:43] INFO root fetch - main [MainThread]: End processing [trytond-analytic-account]: success
+[2023-05-01 14:03:43] INFO root fetch - processPackages [usepy]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-sale-stock-quantity]: executing diffoscope
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-sale-stock-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale_stock_quantity-6.6.1.tar.gz tmp/trytond_sale_stock_quantity-6.8.0.tar.gz --markdown 20230501/t/trytond-sale-stock-quantity/6.6.1-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-account-stock-landed-cost]: New version: [6.8.0] Old Version: [6.6.0]
+[2023-05-01 14:03:43] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/da/08/628a653c2732435452b8d3d505ae6ca3a4ca85ce45868f2588792a512b8e/usepy-0.1.47.tar.gz
+[2023-05-01 14:03:43] INFO root fetch - processPackages [trytond-account-stock-landed-cost]: Downloading https://files.pythonhosted.org/packages/fd/04/f85adf830befa9ea3a4f1d03e1a136ac766c28557e516e0d0de75ca1e034/trytond_account_stock_landed_cost-6.6.0.tar.gz
+[2023-05-01 14:03:44] INFO root fetch - processPackages [usepy]: executing diffoscope
+[2023-05-01 14:03:44] INFO root fetch - processPackages [usepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy-0.1.46.tar.gz tmp/usepy-0.1.47.tar.gz --markdown 20230501/u/usepy/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-05-01 14:03:44] INFO root fetch - main [MainThread]: End processing [trytond-production-work-timesheet]: success
+[2023-05-01 14:03:44] INFO root fetch - processPackages [trytond-account-stock-landed-cost]: Downloading https://files.pythonhosted.org/packages/ea/a3/5aa3e218e948322ff1cdb89cf625967e67b247e13876496d5f02fb4f8f1a/trytond_account_stock_landed_cost-6.8.0.tar.gz
+[2023-05-01 14:03:44] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 14:03:44] INFO root fetch - processPackages [trytond-account-stock-landed-cost]: executing diffoscope
+[2023-05-01 14:03:44] INFO root fetch - processPackages [trytond-account-stock-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_stock_landed_cost-6.6.0.tar.gz tmp/trytond_account_stock_landed_cost-6.8.0.tar.gz --markdown 20230501/t/trytond-account-stock-landed-cost/6.6.0-6.8.0/diff.md --exclude *.pyd
+[2023-05-01 14:03:44] INFO root fetch - main [MainThread]: End processing [trytond-stock-quantity-issue]: success
+[2023-05-01 14:03:44] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice-defer]: success
+[2023-05-01 14:03:45] INFO root fetch - main [MainThread]: End processing [trytond-web-shortener]: success
+[2023-05-01 14:03:45] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2023-05-01 14:03:45] INFO root fetch - main [MainThread]: End processing [usepy]: success
+[2023-05-01 14:03:45] INFO root fetch - main [MainThread]: End processing [trytond-sale-stock-quantity]: success
+[2023-05-01 14:03:45] INFO root fetch - main [MainThread]: End processing [trytond-account-stock-landed-cost]: success
+[2023-05-01 14:03:53] INFO root fetch - main [MainThread]: End processing [AsyncPywhatKit]: success
+[2023-05-01 14:03:53] INFO root fetch - main [MainThread]: Store serial: [17926112]
