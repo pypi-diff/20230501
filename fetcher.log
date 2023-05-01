@@ -7437,3 +7437,32 @@
 [2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [bmpy]: success
 [2023-05-01 12:43:07] INFO root fetch - main [MainThread]: End processing [vcsi]: success
 [2023-05-01 12:43:07] INFO root fetch - main [MainThread]: Store serial: [17924915]
+[2023-05-01 12:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924915]
+[2023-05-01 12:48:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 12:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catnapmodule
+[2023-05-01 12:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p2pd
+[2023-05-01 12:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythoncolourv8
+[2023-05-01 12:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyVecDB
+[2023-05-01 12:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2023-05-01 12:48:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyzconf
+[2023-05-01 12:48:15] WARNING root fetch - processPackages [pyzconf]: Skipping, unable to determine old version
+[2023-05-01 12:48:15] INFO root fetch - main [MainThread]: End processing [pyzconf] error
+[2023-05-01 12:48:15] INFO root fetch - processPackages [p2pd]: New version: [2.4.0] Old Version: [2.3.6]
+[2023-05-01 12:48:15] WARNING root fetch - processPackages [pythoncolourv8]: Skipping, unable to determine old version
+[2023-05-01 12:48:15] INFO root fetch - main [MainThread]: End processing [pythoncolourv8] error
+[2023-05-01 12:48:15] INFO root fetch - processPackages [catnapmodule]: New version: [1.2] Old Version: [1.1]
+[2023-05-01 12:48:15] WARNING root fetch - processPackages [PyVecDB]: Skipping, unable to determine old version
+[2023-05-01 12:48:15] INFO root fetch - main [MainThread]: End processing [PyVecDB] error
+[2023-05-01 12:48:15] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-05-01 12:48:16] INFO root fetch - processPackages [catnapmodule]: Downloading https://files.pythonhosted.org/packages/f3/f2/d43f8a78c8d6aad18b7a3e651db002ac622c1543a7f7b2adac2f956eaaf8/catnapmodule-1.2.tar.gz
+[2023-05-01 12:48:16] INFO root fetch - processPackages [p2pd]: Downloading https://files.pythonhosted.org/packages/1d/48/3c8484406f6d09b5121de4b1895c0e022601625267a73196d4ab979b662b/p2pd-2.4.0.tar.gz
+[2023-05-01 12:48:16] INFO root fetch - processPackages [catnapmodule]: executing diffoscope
+[2023-05-01 12:48:16] INFO root fetch - processPackages [catnapmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnapmodule-1.1.tar.gz tmp/catnapmodule-1.2.tar.gz --markdown 20230501/c/catnapmodule/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-01 12:48:16] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-05-01 12:48:16] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230501/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-05-01 12:48:16] INFO root fetch - processPackages [p2pd]: executing diffoscope
+[2023-05-01 12:48:16] INFO root fetch - processPackages [p2pd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p2pd-2.3.6.tar.gz tmp/p2pd-2.4.0.tar.gz --markdown 20230501/p/p2pd/2.3.6-2.4.0/diff.md --exclude *.pyd
+[2023-05-01 12:48:17] INFO root fetch - main [MainThread]: End processing [catnapmodule]: success
+[2023-05-01 12:48:17] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-05-01 12:48:18] INFO root fetch - main [MainThread]: End processing [p2pd]: success
+[2023-05-01 12:48:18] INFO root fetch - main [MainThread]: Store serial: [17924943]
