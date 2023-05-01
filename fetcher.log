@@ -849,3 +849,83 @@
 [2023-05-01 02:05:59] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
 [2023-05-01 02:06:01] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-05-01 02:06:01] INFO root fetch - main [MainThread]: Store serial: [17920914]
+[2023-05-01 02:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920914]
+[2023-05-01 02:11:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moptipy
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UpyTest
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: backyardastro
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalguide
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchlayers-nightly
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redmage
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tccli
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-redis
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-common
+[2023-05-01 02:11:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aws-discord-notifiers
+[2023-05-01 02:11:10] INFO root fetch - processPackages [redmage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1682813260] Old Version: [1682726797]
+[2023-05-01 02:11:10] WARNING root fetch - processPackages [backyardastro]: Skipping, unable to determine old version
+[2023-05-01 02:11:10] INFO root fetch - processPackages [backyardastro]: Start processing: pibble
+[2023-05-01 02:11:10] INFO root fetch - main [MainThread]: End processing [backyardastro] error
+[2023-05-01 02:11:10] INFO root fetch - processPackages [UpyTest]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.0.2.tar.gz tmp/redmage-0.0.3.tar.gz --markdown 20230501/r/redmage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230501/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [moptipy]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230501/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [pibble]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.8.tar.gz tmp/cdk-aws-discord-notifiers-0.0.9.tar.gz --markdown 20230501/c/cdk-aws-discord-notifiers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.7.tar.gz tmp/pibble-0.4.8.tar.gz --markdown 20230501/p/pibble/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230501/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/43/e9/29a68f88e5b234637af4ae87c1ca15658f13fa4a47e54938fd0a365a4715/UpyTest-3.0.2.tar.gz
+[2023-05-01 02:11:10] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/0f/68/dceb91ce826341683673bbe9de3aa030f07af58204d8a1f12e6111311df0/torchlayers-nightly-1682813260.tar.gz
+[2023-05-01 02:11:10] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1682726797.tar.gz tmp/torchlayers-nightly-1682813260.tar.gz --markdown 20230501/t/torchlayers-nightly/1682726797-1682813260/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-05-01 02:11:10] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230501/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-01 02:11:10] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/98/1e/4f09312c8b5f4acb45307e5c5113b86e23a571a58f683cde714f72ab4644/UpyTest-3.0.3.tar.gz
+[2023-05-01 02:11:11] INFO root fetch - processPackages [moptipy]: executing diffoscope
+[2023-05-01 02:11:11] INFO root fetch - processPackages [moptipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moptipy-0.9.8.tar.gz tmp/moptipy-0.9.9.tar.gz --markdown 20230501/m/moptipy/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 02:11:11] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-05-01 02:11:11] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.0.2.tar.gz tmp/UpyTest-3.0.3.tar.gz --markdown 20230501/U/UpyTest/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-01 02:11:12] INFO root fetch - processPackages [redmage]: Start processing: constructs
+[2023-05-01 02:11:12] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-05-01 02:11:12] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-05-01 02:11:12] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: cbra
+[2023-05-01 02:11:12] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-05-01 02:11:12] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a94]
+[2023-05-01 02:11:12] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-05-01 02:11:12] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230501/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-05-01 02:11:12] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-05-01 02:11:12] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a94.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230501/c/cbra/2.0.0a94-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-01 02:11:12] INFO root fetch - processPackages [digitalguide]: Start processing: denmune
+[2023-05-01 02:11:12] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-01 02:11:12] INFO root fetch - processPackages [denmune]: New version: [1.15] Old Version: [1.14]
+[2023-05-01 02:11:12] INFO root fetch - processPackages [UpyTest]: Start processing: openbb-nightly
+[2023-05-01 02:11:12] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-05-01 02:11:12] INFO root fetch - processPackages [openbb-nightly]: New version: [3.0.0rc2.dev20230426] Old Version: [3.0.0rc2.dev20230425]
+[2023-05-01 02:11:12] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-05-01 02:11:12] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2023-05-01 02:11:12] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-3.0.0rc2.dev20230425.tar.gz tmp/openbb_nightly-3.0.0rc2.dev20230426.tar.gz --markdown 20230501/o/openbb-nightly/3.0.0rc2.dev20230425-3.0.0rc2.dev20230426/diff.md --exclude *.pyd
+[2023-05-01 02:11:12] INFO root fetch - processPackages [denmune]: Downloading https://files.pythonhosted.org/packages/b3/d6/8b030c7929c17e8c3ece862fa3e8de7f1fce9698e0f5569eb8c03de20fb1/denmune-1.15.tar.gz
+[2023-05-01 02:11:12] INFO root fetch - processPackages [denmune]: executing diffoscope
+[2023-05-01 02:11:12] INFO root fetch - processPackages [denmune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denmune-1.14.tar.gz tmp/denmune-1.15.tar.gz --markdown 20230501/d/denmune/1.14-1.15/diff.md --exclude *.pyd
+[2023-05-01 02:11:12] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-01 02:11:13] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-05-01 02:11:14] INFO root fetch - main [MainThread]: End processing [denmune]: success
+[2023-05-01 02:11:14] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-05-01 02:11:14] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-01 02:11:15] INFO root fetch - main [MainThread]: End processing [moptipy]: success
+[2023-05-01 02:11:15] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-05-01 02:11:16] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-05-01 02:11:25] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2023-05-01 02:11:25] INFO root fetch - main [MainThread]: Store serial: [17920960]
