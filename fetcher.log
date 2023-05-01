@@ -4487,3 +4487,18 @@
 [2023-05-01 06:54:04] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
 [2023-05-01 06:54:04] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
 [2023-05-01 06:54:04] INFO root fetch - main [MainThread]: Store serial: [17923010]
+[2023-05-01 06:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923010]
+[2023-05-01 06:59:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 06:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MKN-third-codes
+[2023-05-01 06:59:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malbench
+[2023-05-01 06:59:13] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.4.1] Old Version: [0.4.4]
+[2023-05-01 06:59:13] INFO root fetch - processPackages [malbench]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-01 06:59:13] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/49/1a/8e532e082fce8e7da65810b8d4944e39475bc9f8548a2adecdac592adfb1/MKN_third_codes-0.4.4.1.tar.gz
+[2023-05-01 06:59:13] INFO root fetch - processPackages [malbench]: Downloading https://files.pythonhosted.org/packages/de/0f/72f1a501bfe2f2780cb7449649deb703e63b4574516d840171f30ae6c945/malbench-0.3.2.tar.gz
+[2023-05-01 06:59:13] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 06:59:13] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.4.4.tar.gz tmp/MKN_third_codes-0.4.4.1.tar.gz --markdown 20230501/M/MKN-third-codes/0.4.4-0.4.4.1/diff.md --exclude *.pyd
+[2023-05-01 06:59:13] INFO root fetch - processPackages [malbench]: executing diffoscope
+[2023-05-01 06:59:13] INFO root fetch - processPackages [malbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malbench-0.3.1.tar.gz tmp/malbench-0.3.2.tar.gz --markdown 20230501/m/malbench/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-01 06:59:14] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 06:59:14] INFO root fetch - main [MainThread]: End processing [malbench]: success
+[2023-05-01 06:59:14] INFO root fetch - main [MainThread]: Store serial: [17923016]
