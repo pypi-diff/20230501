@@ -14089,3 +14089,106 @@ EOFError: EOF read where object expected
 [2023-05-01 18:24:03] ERROR root fetch - processPackages [mkposters]: Timeout during execution of pkgdiff
 [2023-05-01 18:24:03] INFO root fetch - main [MainThread]: End processing [mkposters] error
 [2023-05-01 18:24:03] INFO root fetch - main [MainThread]: Store serial: [17928744]
+[2023-05-01 18:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928744]
+[2023-05-01 18:29:14] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sayhellox123
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymatematics
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dlplan
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satdigitalinvoice
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edge-logger
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molfeat-hype
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sayhellox123
+[2023-05-01 18:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xcsv-plot
+[2023-05-01 18:29:14] INFO root fetch - processPackages [satdigitalinvoice]: New version: [4.0.7] Old Version: [4.0.6]
+[2023-05-01 18:29:14] INFO root fetch - processPackages [sayhellox123]: New version: [0.6] Old Version: [0.5]
+[2023-05-01 18:29:14] INFO root fetch - processPackages [sayhellox123]: New version: [0.6] Old Version: [0.5]
+[2023-05-01 18:29:14] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: New version: [20230501.9.10.400907] Old Version: [20230501.7.56.444471]
+[2023-05-01 18:29:14] INFO root fetch - processPackages [xcsv-plot]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 18:29:14] WARNING root fetch - processPackages [pymatematics]: Skipping, unable to determine old version
+[2023-05-01 18:29:14] INFO root fetch - processPackages [pymatematics]: Start processing: v8unpack
+[2023-05-01 18:29:14] INFO root fetch - processPackages [edge-logger]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 18:29:14] WARNING root fetch - processPackages [molfeat-hype]: Skipping, unable to determine old version
+[2023-05-01 18:29:14] INFO root fetch - main [MainThread]: End processing [pymatematics] error
+[2023-05-01 18:29:14] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping, unable to determine old version
+[2023-05-01 18:29:14] INFO root fetch - processPackages [molfeat-hype]: Start processing: the-best-distance-calculator
+[2023-05-01 18:29:14] INFO root fetch - processPackages [dlplan]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-01 18:29:14] INFO root fetch - main [MainThread]: End processing [molfeat-hype] error
+[2023-05-01 18:29:14] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: maddaq
+[2023-05-01 18:29:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-01 18:29:14] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/dc/5a/92141f87cb54e59aa990f78ca805d64434f17880a563b479b2cd88f6bc04/sayhellox123-0.5.tar.gz
+[2023-05-01 18:29:14] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/dc/5a/92141f87cb54e59aa990f78ca805d64434f17880a563b479b2cd88f6bc04/sayhellox123-0.5.tar.gz
+[2023-05-01 18:29:14] INFO root fetch - processPackages [maddaq]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-05-01 18:29:14] ERROR root fetch - processPackages [the-best-distance-calculator]: Unable to get metadata: No such project 'the-best-distance-calculator'
+[2023-05-01 18:29:14] INFO root fetch - processPackages [the-best-distance-calculator]: Start processing: scalr-ngine
+[2023-05-01 18:29:14] INFO root fetch - processPackages [v8unpack]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-01 18:29:14] INFO root fetch - main [MainThread]: End processing [the-best-distance-calculator] error
+[2023-05-01 18:29:14] INFO root fetch - processPackages [xcsv-plot]: Downloading https://files.pythonhosted.org/packages/6c/9e/f6ab30880ce9fd604b97b4c25624dfb5ff0d0e30a6dd44dc99322379b12a/xcsv_plot-0.2.0.tar.gz
+[2023-05-01 18:29:14] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Downloading https://files.pythonhosted.org/packages/e1/74/1446b9312d2e287d32051c3813cc40379e51c77a183c40f022a4f0dab408/certora-cli-alpha-Shahar-CERT-1859-20230501.7.56.444471.tar.gz
+[2023-05-01 18:29:14] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping package: exceeds size limit 38298305>=10485760
+[2023-05-01 18:29:14] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Start processing: gptdeploy
+[2023-05-01 18:29:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-01 18:29:15] INFO root fetch - processPackages [scalr-ngine]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 18:29:15] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/cf/28/90099b44268f2601dfc8c650d9c5c5e8d954490ef8b103584c65ec35cf70/maddaq-0.7.5.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [satdigitalinvoice]: Downloading https://files.pythonhosted.org/packages/22/97/85194347766de1ddb4c5fa3264f969ac5217e02f3979d1fad64a9ef73204/satdigitalinvoice-4.0.7.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/08/03/98124648a95bcb037324f1ee104dc94b46478b5cdd544f7a874c137dada5/v8unpack-0.9.2.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-05-01 18:29:15] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/93/e7/6261ddeda85fe95fac419508bf68b58d98291ab08490da768f5e66081b4c/edge_logger-0.0.6.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/12/ca/2d639a134d1ddb8d75ae2f5d7ae85c350cf6cd2a8f753adca1d84b1fde7a/sayhellox123-0.6.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/12/ca/2d639a134d1ddb8d75ae2f5d7ae85c350cf6cd2a8f753adca1d84b1fde7a/sayhellox123-0.6.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [dlplan]: Downloading https://files.pythonhosted.org/packages/46/e6/e9ebad99149aad66fec79f4dcdd42f03336dfb754300761454f302e1d45b/dlplan-0.2.8.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [scalr-ngine]: Downloading https://files.pythonhosted.org/packages/31/ad/9eb8204b6e208666f29449cb7bee29a096fb2705a54565cfd2f7bc69912b/scalr-ngine-0.8.0.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [xcsv-plot]: Downloading https://files.pythonhosted.org/packages/72/74/18f6bcc09f520565709a3c62d15739001a81084416102f2130a9e9f9825f/xcsv_plot-0.3.0.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [xcsv-plot]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [xcsv-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsv_plot-0.2.0.tar.gz tmp/xcsv_plot-0.3.0.tar.gz --markdown 20230501/x/xcsv-plot/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [satdigitalinvoice]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [satdigitalinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satdigitalinvoice-4.0.6.tar.gz tmp/satdigitalinvoice-4.0.7.tar.gz --markdown 20230501/s/satdigitalinvoice/4.0.6-4.0.7/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.5.tar.gz tmp/edge_logger-0.0.6.tar.gz --markdown 20230501/e/edge-logger/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [dlplan]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [dlplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlplan-0.2.7.tar.gz tmp/dlplan-0.2.8.tar.gz --markdown 20230501/d/dlplan/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [sayhellox123]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [sayhellox123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayhellox123-0.5.tar.gz tmp/sayhellox123-0.6.tar.gz --markdown 20230501/s/sayhellox123/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [maddaq]: Downloading https://files.pythonhosted.org/packages/6c/b0/2efc63ecf2ba2884de63fa77a78be58d4fd3e2f35caa80f7c1cc4db18614/maddaq-0.7.6.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [maddaq]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [maddaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maddaq-0.7.5.tar.gz tmp/maddaq-0.7.6.tar.gz --markdown 20230501/m/maddaq/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [sayhellox123]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [sayhellox123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayhellox123-0.5.tar.gz tmp/sayhellox123-0.6.tar.gz --markdown 20230501/s/sayhellox123/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230501/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [scalr-ngine]: Downloading https://files.pythonhosted.org/packages/19/16/65153faadab491b0161079e7d29b0daf9c14ff9d8fb94af9aa3bb8926095/scalr-ngine-0.9.0.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [v8unpack]: Downloading https://files.pythonhosted.org/packages/d4/64/0da11cb521c6c2964e5528bda0112e9d37623a5d326ab0631d52ca03a487/v8unpack-0.9.3.tar.gz
+[2023-05-01 18:29:15] INFO root fetch - processPackages [scalr-ngine]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [scalr-ngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalr-ngine-0.8.0.tar.gz tmp/scalr-ngine-0.9.0.tar.gz --markdown 20230501/s/scalr-ngine/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 18:29:15] INFO root fetch - processPackages [v8unpack]: executing diffoscope
+[2023-05-01 18:29:15] INFO root fetch - processPackages [v8unpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v8unpack-0.9.2.tar.gz tmp/v8unpack-0.9.3.tar.gz --markdown 20230501/v/v8unpack/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-01 18:29:16] INFO root fetch - processPackages [edge-logger]: Start processing: simple-distance-calculator
+[2023-05-01 18:29:16] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-05-01 18:29:16] INFO root fetch - processPackages [sayhellox123]: Start processing: wf-dagger
+[2023-05-01 18:29:16] INFO root fetch - main [MainThread]: End processing [sayhellox123]: success
+[2023-05-01 18:29:16] INFO root fetch - processPackages [simple-distance-calculator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 18:29:16] INFO root fetch - processPackages [wf-dagger]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-01 18:29:16] INFO root fetch - processPackages [sayhellox123]: Start processing: aind-data-schema
+[2023-05-01 18:29:16] INFO root fetch - main [MainThread]: End processing [sayhellox123]: success
+[2023-05-01 18:29:16] INFO root fetch - main [MainThread]: End processing [xcsv-plot]: success
+[2023-05-01 18:29:17] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-01 18:29:17] INFO root fetch - processPackages [wf-dagger]: Downloading https://files.pythonhosted.org/packages/54/89/23128980cb603e874ecf43f38cc9b01270c81b266cfe6fa9574bada2b3c4/wf-dagger-0.2.1.tar.gz
+[2023-05-01 18:29:17] INFO root fetch - main [MainThread]: End processing [scalr-ngine]: success
+[2023-05-01 18:29:17] INFO root fetch - main [MainThread]: End processing [maddaq]: success
+[2023-05-01 18:29:17] INFO root fetch - processPackages [simple-distance-calculator]: Downloading https://files.pythonhosted.org/packages/13/cf/fb9d0205c119397885c932ae72fa18a7169ae7d13a54d781844b2bd3b9b1/simple_distance_calculator-0.0.4.tar.gz
+[2023-05-01 18:29:17] INFO root fetch - processPackages [simple-distance-calculator]: executing diffoscope
+[2023-05-01 18:29:17] INFO root fetch - processPackages [simple-distance-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_distance_calculator-0.0.3.tar.gz tmp/simple_distance_calculator-0.0.4.tar.gz --markdown 20230501/s/simple-distance-calculator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 18:29:17] INFO root fetch - processPackages [wf-dagger]: Downloading https://files.pythonhosted.org/packages/53/6a/9540ddd6057da29999d8be015d9f04c44d6fc6d95abd2fcdbede255da243/wf-dagger-0.2.2.tar.gz
+[2023-05-01 18:29:17] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-05-01 18:29:17] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230501/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-01 18:29:17] INFO root fetch - main [MainThread]: End processing [v8unpack]: success
+[2023-05-01 18:29:17] INFO root fetch - processPackages [wf-dagger]: executing diffoscope
+[2023-05-01 18:29:17] INFO root fetch - processPackages [wf-dagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wf-dagger-0.2.1.tar.gz tmp/wf-dagger-0.2.2.tar.gz --markdown 20230501/w/wf-dagger/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-01 18:29:17] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-05-01 18:29:17] INFO root fetch - main [MainThread]: End processing [satdigitalinvoice]: success
+[2023-05-01 18:29:18] INFO root fetch - main [MainThread]: End processing [simple-distance-calculator]: success
+[2023-05-01 18:29:18] INFO root fetch - main [MainThread]: End processing [wf-dagger]: success
+[2023-05-01 18:29:18] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-05-01 18:29:21] INFO root fetch - main [MainThread]: End processing [dlplan]: success
+[2023-05-01 18:29:21] INFO root fetch - main [MainThread]: Store serial: [17928808]
