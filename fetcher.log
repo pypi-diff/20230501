@@ -3551,3 +3551,26 @@
 [2023-05-01 04:12:50] INFO root fetch - main [MainThread]: End processing [yog]: success
 [2023-05-01 04:12:51] INFO root fetch - main [MainThread]: End processing [forust]: success
 [2023-05-01 04:12:51] INFO root fetch - main [MainThread]: Store serial: [17922438]
+[2023-05-01 04:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922438]
+[2023-05-01 04:18:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 04:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-mcq
+[2023-05-01 04:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pibble
+[2023-05-01 04:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-recaptcha-authorizer
+[2023-05-01 04:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkdriver
+[2023-05-01 04:18:00] INFO root fetch - processPackages [pibble]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 04:18:00] INFO root fetch - processPackages [cdk-recaptcha-authorizer]: New version: [2.2.2] Old Version: [2.2.0]
+[2023-05-01 04:18:00] WARNING root fetch - processPackages [django-mcq]: Skipping, unable to determine old version
+[2023-05-01 04:18:00] INFO root fetch - main [MainThread]: End processing [django-mcq] error
+[2023-05-01 04:18:00] INFO root fetch - processPackages [arkdriver]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-01 04:18:00] INFO root fetch - processPackages [cdk-recaptcha-authorizer]: Downloading https://files.pythonhosted.org/packages/3a/59/a71b95d34c6d074d85d646224fad185230bfba4237660b485cda3a86501d/cdk-recaptcha-authorizer-2.2.0.tar.gz
+[2023-05-01 04:18:00] WARNING root fetch - processPackages [cdk-recaptcha-authorizer]: Skipping package: exceeds size limit 11806154>=10485760
+[2023-05-01 04:18:00] INFO root fetch - main [MainThread]: End processing [cdk-recaptcha-authorizer] error
+[2023-05-01 04:18:00] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/10/25/626e8d29474c6afa59cda97beac33b6881cff35ca24a0b29aabe9bac1e1b/arkdriver-1.0.5.tar.gz
+[2023-05-01 04:18:00] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-01 04:18:00] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.8.tar.gz tmp/pibble-0.4.9.tar.gz --markdown 20230501/p/pibble/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 04:18:01] INFO root fetch - processPackages [arkdriver]: Downloading https://files.pythonhosted.org/packages/0e/da/67886fba6a576f20c8576dfba159447d5b34a94db1507813d4f119ab75ba/arkdriver-1.0.6.tar.gz
+[2023-05-01 04:18:01] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-05-01 04:18:01] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.5.tar.gz tmp/arkdriver-1.0.6.tar.gz --markdown 20230501/a/arkdriver/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-01 04:18:02] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-01 04:18:02] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-05-01 04:18:02] INFO root fetch - main [MainThread]: Store serial: [17922457]
