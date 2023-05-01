@@ -4818,3 +4818,19 @@
 [2023-05-01 07:54:21] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
 [2023-05-01 07:54:21] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
 [2023-05-01 07:54:21] INFO root fetch - main [MainThread]: Store serial: [17923207]
+[2023-05-01 07:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923207]
+[2023-05-01 07:59:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-plugins
+[2023-05-01 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: overloaded-iterables
+[2023-05-01 07:59:29] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.12] Old Version: [0.7.0]
+[2023-05-01 07:59:29] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 07:59:29] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/13/e2/56352e17d7eb7584a5adbcba10cd5839a1d445b4d5f72e3b27988906e015/overloaded-iterables-0.7.0.tar.gz
+[2023-05-01 07:59:29] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/40/ab/b6aab6dd5ddaf67396121db56ba61bda13585ec359fe5291e79b5dbc121a/ml_plugins-0.0.3.tar.gz
+[2023-05-01 07:59:30] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-01 07:59:30] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.2.tar.gz tmp/ml_plugins-0.0.3.tar.gz --markdown 20230501/m/ml-plugins/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 07:59:30] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/88/0d/5a63a3d8e3de5e73f80d53e6149a309bc075e8625c7dbc98324939ef0ef7/overloaded-iterables-0.7.12.tar.gz
+[2023-05-01 07:59:30] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 07:59:30] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.0.tar.gz tmp/overloaded-iterables-0.7.12.tar.gz --markdown 20230501/o/overloaded-iterables/0.7.0-0.7.12/diff.md --exclude *.pyd
+[2023-05-01 07:59:31] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-01 07:59:31] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 07:59:31] INFO root fetch - main [MainThread]: Store serial: [17923216]
