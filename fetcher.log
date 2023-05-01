@@ -14316,3 +14316,80 @@ EOFError: EOF read where object expected
 [2023-05-01 18:39:45] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
 [2023-05-01 18:39:45] INFO root fetch - main [MainThread]: End processing [petrolib]: success
 [2023-05-01 18:39:45] INFO root fetch - main [MainThread]: Store serial: [17928912]
+[2023-05-01 18:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928912]
+[2023-05-01 18:44:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: envname
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rebasin
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyalus
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tycho-api
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: InvokeAI
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OncoAMBER
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keypoint-moseq
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: granular-engine
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Zeraora
+[2023-05-01 18:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coredb-pgmq-python
+[2023-05-01 18:44:54] INFO root fetch - processPackages [envname]: New version: [1.0] Old Version: [0.0.2]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [keypoint-moseq]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [rebasin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [hyalus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [granular-engine]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [Zeraora]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [OncoAMBER]: New version: [1.1.3] Old Version: [1.1.1]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [InvokeAI]: New version: [2.3.5rc1] Old Version: [2.3.5]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [coredb-pgmq-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 18:44:54] INFO root fetch - processPackages [rebasin]: Downloading https://files.pythonhosted.org/packages/ee/ec/472b833c31a87a2dde819c67a6501493f5b2e8fce70142675932e85f181d/rebasin-0.0.8.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [envname]: Downloading https://files.pythonhosted.org/packages/ce/1c/bf104014e549402842c9abfcca082ee33987d1f5f4c333bd684d95829d8f/envname-0.0.2.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/8e/ed/feaf0fe051704c784560ec69db4d607a58d11fd2108bd03f2e6cd740727c/InvokeAI-2.3.5.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [hyalus]: Downloading https://files.pythonhosted.org/packages/ff/f2/1b4b4933bed1792d4500a0cfb401a5a76db823e9ab46daa9eb550e764df4/hyalus-0.1.0.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/50/54/51822b47d23707f693b5ee0c164e68dba50015e0c1233004dffe87bd27ea/Zeraora-0.2.4.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/f9/a4/db492f976e6ed40a9809f6de2d5cc50ac182a550eeb9db06cba1c9e9ecf7/granular_engine-0.2.2.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [OncoAMBER]: Downloading https://files.pythonhosted.org/packages/15/d0/ee39fae0fbc588ea3f4d17235fef9c4c8fce7350c5e76145c35834a24074/OncoAMBER-1.1.3.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [envname]: Downloading https://files.pythonhosted.org/packages/5b/16/0ca620eca9581181f779738a84f836e1dae415c101d978f49817a09dc8f1/envname-1.0.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [keypoint-moseq]: Downloading https://files.pythonhosted.org/packages/88/12/66123717fa1534cf5f72b1bf74f0ed54e31c635ad4e7eb55ce93a74c3d63/keypoint-moseq-0.0.5.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [coredb-pgmq-python]: Downloading https://files.pythonhosted.org/packages/50/f3/008bf80fc467ef5aceacf4a4dc09055b275bafd314c35cb2cb2ccd451a1b/coredb_pgmq_python-0.2.1.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230501/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [hyalus]: Downloading https://files.pythonhosted.org/packages/d3/71/2fa6f2a3cbbe19389e23dada9f1202a60bbf04af835cfa935760ea6cd751/hyalus-0.1.1.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/08/67/102bf5ec9d612aa86f016adfc143dfc2ded4b5286fd2a5095343b8659e2a/Zeraora-0.2.5.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [rebasin]: Downloading https://files.pythonhosted.org/packages/8c/bf/a5f0a0921ec6be3d6dc92653299b0a4d5d6e5d3796c7861c541e8bb874a7/rebasin-0.0.9.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.1.1.tar.gz tmp/OncoAMBER-1.1.3.tar.gz --markdown 20230501/O/OncoAMBER/1.1.1-1.1.3/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [keypoint-moseq]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [keypoint-moseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keypoint-moseq-0.0.4.tar.gz tmp/keypoint-moseq-0.0.5.tar.gz --markdown 20230501/k/keypoint-moseq/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-2.3.5.tar.gz tmp/InvokeAI-2.3.5rc1.tar.gz --markdown 20230501/I/InvokeAI/2.3.5-2.3.5rc1/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [envname]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [envname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envname-0.0.2.tar.gz tmp/envname-1.0.tar.gz --markdown 20230501/e/envname/0.0.2-1.0/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [coredb-pgmq-python]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [coredb-pgmq-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredb_pgmq_python-0.2.0.tar.gz tmp/coredb_pgmq_python-0.2.1.tar.gz --markdown 20230501/c/coredb-pgmq-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [granular-engine]: Downloading https://files.pythonhosted.org/packages/90/1e/1f68722f024eb7017ce0dadcda36a7a2e3c0f2e47955f4b7ac0025d4cdc6/granular_engine-0.2.3.tar.gz
+[2023-05-01 18:44:54] INFO root fetch - processPackages [hyalus]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [hyalus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyalus-0.1.0.tar.gz tmp/hyalus-0.1.1.tar.gz --markdown 20230501/h/hyalus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.4.tar.gz tmp/Zeraora-0.2.5.tar.gz --markdown 20230501/Z/Zeraora/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [granular-engine]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [granular-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granular_engine-0.2.2.tar.gz tmp/granular_engine-0.2.3.tar.gz --markdown 20230501/g/granular-engine/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-01 18:44:54] INFO root fetch - processPackages [rebasin]: executing diffoscope
+[2023-05-01 18:44:54] INFO root fetch - processPackages [rebasin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebasin-0.0.8.tar.gz tmp/rebasin-0.0.9.tar.gz --markdown 20230501/r/rebasin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:44:56] INFO root fetch - processPackages [envname]: Start processing: simple_openid_connect
+[2023-05-01 18:44:56] INFO root fetch - main [MainThread]: End processing [envname]: success
+[2023-05-01 18:44:56] INFO root fetch - processPackages [simple_openid_connect]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-01 18:44:56] INFO root fetch - processPackages [coredb-pgmq-python]: Start processing: tycho-api
+[2023-05-01 18:44:56] INFO root fetch - main [MainThread]: End processing [coredb-pgmq-python]: success
+[2023-05-01 18:44:56] INFO root fetch - processPackages [simple_openid_connect]: executing diffoscope
+[2023-05-01 18:44:56] INFO root fetch - processPackages [simple_openid_connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_openid_connect-0.1.3.tar.gz tmp/simple_openid_connect-0.2.0.tar.gz --markdown 20230501/s/simple_openid_connect/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 18:44:56] INFO root fetch - processPackages [tycho-api]: New version: [1.9a1.dev3] Old Version: [1.9a1.dev2]
+[2023-05-01 18:44:56] INFO root fetch - processPackages [tycho-api]: executing diffoscope
+[2023-05-01 18:44:56] INFO root fetch - processPackages [tycho-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tycho-api-1.9a1.dev2.tar.gz tmp/tycho-api-1.9a1.dev3.tar.gz --markdown 20230501/t/tycho-api/1.9a1.dev2-1.9a1.dev3/diff.md --exclude *.pyd
+[2023-05-01 18:44:56] INFO root fetch - main [MainThread]: End processing [granular-engine]: success
+[2023-05-01 18:44:56] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-05-01 18:44:56] INFO root fetch - main [MainThread]: End processing [hyalus]: success
+[2023-05-01 18:44:57] INFO root fetch - main [MainThread]: End processing [rebasin]: success
+[2023-05-01 18:44:57] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-05-01 18:44:57] INFO root fetch - main [MainThread]: End processing [keypoint-moseq]: success
+[2023-05-01 18:44:57] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-05-01 18:44:58] INFO root fetch - main [MainThread]: End processing [tycho-api]: success
+[2023-05-01 18:44:58] INFO root fetch - main [MainThread]: End processing [simple_openid_connect]: success
+[2023-05-01 18:44:59] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2023-05-01 18:44:59] INFO root fetch - main [MainThread]: Store serial: [17928947]
