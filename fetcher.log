@@ -16175,3 +16175,102 @@ EOFError: EOF read where object expected
 [2023-05-01 20:33:34] INFO root fetch - main [MainThread]: End processing [pdpyras]: success
 [2023-05-01 20:33:43] INFO root fetch - main [MainThread]: End processing [ovos-core]: success
 [2023-05-01 20:33:43] INFO root fetch - main [MainThread]: Store serial: [17930220]
+[2023-05-01 20:38:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930220]
+[2023-05-01 20:38:53] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ec-ecology-toolbox
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acryl-datahub
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-axes
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywxdll
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nostr-toolkit
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ofa2
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ofa2
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ofa2
+[2023-05-01 20:38:53] WARNING root fetch - processPackages [nostr-toolkit]: Skipping, unable to determine old version
+[2023-05-01 20:38:53] INFO root fetch - processPackages [nostr-toolkit]: Start processing: ofa2
+[2023-05-01 20:38:53] INFO root fetch - main [MainThread]: End processing [nostr-toolkit] error
+[2023-05-01 20:38:53] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions]: Skipping, unable to determine old version
+[2023-05-01 20:38:53] INFO root fetch - processPackages [django-axes]: New version: [6.0.0b3] Old Version: [6.0.0b2]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [pywxdll]: New version: [0.1.11] Old Version: [0.1.1]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions]: Start processing: ofa2
+[2023-05-01 20:38:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions] error
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ec-ecology-toolbox]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-01 20:38:53] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230501/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230501/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ec-ecology-toolbox]: Downloading https://files.pythonhosted.org/packages/04/7c/75e7cfb57f2cdc92bc49e6cc138954f5679116e5a6c75ebdf5fd5da49d9a/ec_ecology_toolbox-0.0.3.tar.gz
+[2023-05-01 20:38:53] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/9a/35/f0caec77a8d86b8ef5c34ef601080f3916237a8b178d485198809b71b6b8/pywxdll-0.1.11.tar.gz
+[2023-05-01 20:38:53] INFO root fetch - processPackages [django-axes]: Downloading https://files.pythonhosted.org/packages/28/1c/ca4f26cf677324955861511471a274c6cf98568eb86a42a82075e318c5c5/django-axes-6.0.0b3.tar.gz
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/5a/9e/35cb364415b9dd66e51ba4299f2f26bb96a34264f1050d335cde8e63174e/ofa2-0.1.0.post202305011538-py3-none-any.whl
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/5a/9e/35cb364415b9dd66e51ba4299f2f26bb96a34264f1050d335cde8e63174e/ofa2-0.1.0.post202305011538-py3-none-any.whl
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/5a/9e/35cb364415b9dd66e51ba4299f2f26bb96a34264f1050d335cde8e63174e/ofa2-0.1.0.post202305011538-py3-none-any.whl
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/5a/9e/35cb364415b9dd66e51ba4299f2f26bb96a34264f1050d335cde8e63174e/ofa2-0.1.0.post202305011538-py3-none-any.whl
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: Downloading https://files.pythonhosted.org/packages/5a/9e/35cb364415b9dd66e51ba4299f2f26bb96a34264f1050d335cde8e63174e/ofa2-0.1.0.post202305011538-py3-none-any.whl
+[2023-05-01 20:38:53] INFO root fetch - processPackages [pywxdll]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [pywxdll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdll-0.1.1.tar.gz tmp/pywxdll-0.1.11.tar.gz --markdown 20230501/p/pywxdll/0.1.1-0.1.11/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [django-axes]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [django-axes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-axes-6.0.0b2.tar.gz tmp/django-axes-6.0.0b3.tar.gz --markdown 20230501/d/django-axes/6.0.0b2-6.0.0b3/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:53] INFO root fetch - processPackages [ec-ecology-toolbox]: Downloading https://files.pythonhosted.org/packages/f4/cd/e55da0e82e3c2201a94dfd08247cdc5aab117ff65648ed52377bc2a44b61/ec_ecology_toolbox-0.0.4.tar.gz
+[2023-05-01 20:38:54] INFO root fetch - processPackages [ec-ecology-toolbox]: executing diffoscope
+[2023-05-01 20:38:54] INFO root fetch - processPackages [ec-ecology-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec_ecology_toolbox-0.0.3.tar.gz tmp/ec_ecology_toolbox-0.0.4.tar.gz --markdown 20230501/e/ec-ecology-toolbox/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 20:38:54] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: ofa2
+[2023-05-01 20:38:54] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-01 20:38:54] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:55] INFO root fetch - processPackages [pywxdll]: Start processing: ofa2
+[2023-05-01 20:38:55] INFO root fetch - main [MainThread]: End processing [pywxdll]: success
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-05-01 20:38:55] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:55] INFO root fetch - processPackages [ec-ecology-toolbox]: Start processing: dexhub
+[2023-05-01 20:38:55] INFO root fetch - main [MainThread]: End processing [ec-ecology-toolbox]: success
+[2023-05-01 20:38:55] INFO root fetch - processPackages [dexhub]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-05-01 20:38:56] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:56] INFO root fetch - processPackages [dexhub]: Downloading https://files.pythonhosted.org/packages/4e/ae/233237df2f116e403c1673001a1cf4df9473502078db653397173ffbbb08/dexhub-0.6.1.tar.gz
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: Start processing: ofa2
+[2023-05-01 20:38:56] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: New version: [0.1.0.post202305011538] Old Version: [0.1.0.post202304281805]
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: executing diffoscope
+[2023-05-01 20:38:56] INFO root fetch - processPackages [ofa2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa2-0.1.0.post202304281805.tar.gz tmp/ofa2-0.1.0.post202305011538-py3-none-any.whl.zip --markdown 20230501/o/ofa2/0.1.0.post202304281805-0.1.0.post202305011538/diff.md --exclude *.pyd
+[2023-05-01 20:38:56] INFO root fetch - processPackages [dexhub]: executing diffoscope
+[2023-05-01 20:38:56] INFO root fetch - processPackages [dexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexhub-0.6.0.tar.gz tmp/dexhub-0.6.1.tar.gz --markdown 20230501/d/dexhub/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 20:38:56] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:56] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:56] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:56] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:57] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:57] INFO root fetch - main [MainThread]: End processing [django-axes]: success
+[2023-05-01 20:38:57] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:38:57] INFO root fetch - main [MainThread]: End processing [dexhub]: success
+[2023-05-01 20:38:57] INFO root fetch - main [MainThread]: End processing [ofa2]: success
+[2023-05-01 20:39:01] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-01 20:39:01] INFO root fetch - main [MainThread]: Store serial: [17930312]
