@@ -5455,3 +5455,43 @@
 [2023-05-01 09:29:01] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
 [2023-05-01 09:29:01] INFO root fetch - main [MainThread]: End processing [asyncstdlib]: success
 [2023-05-01 09:29:01] INFO root fetch - main [MainThread]: Store serial: [17923644]
+[2023-05-01 09:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923644]
+[2023-05-01 09:34:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiogram-ext
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupysql-plugin
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-engine-terraform
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dipex
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scriptgenpy
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wikiserieswillemlib
+[2023-05-01 09:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CVAugmentor
+[2023-05-01 09:34:10] INFO root fetch - processPackages [aiogram-ext]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-01 09:34:10] INFO root fetch - processPackages [jupysql-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 09:34:10] ERROR root fetch - processPackages [wikiserieswillemlib]: Unable to get metadata: No such project 'wikiserieswillemlib'
+[2023-05-01 09:34:10] INFO root fetch - main [MainThread]: End processing [wikiserieswillemlib] error
+[2023-05-01 09:34:10] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 09:34:10] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-01 09:34:10] WARNING root fetch - processPackages [scriptgenpy]: Skipping, unable to determine old version
+[2023-05-01 09:34:10] INFO root fetch - main [MainThread]: End processing [scriptgenpy] error
+[2023-05-01 09:34:10] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 09:34:10] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-01 09:34:10] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.7.tar.gz tmp/CVAugmentor-1.0.8.tar.gz --markdown 20230501/C/CVAugmentor/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 09:34:10] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-01 09:34:10] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230501/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-01 09:34:10] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/fe/e3/24503021165d92a7945d1109b707154de608b704ea0b39cf70ec5eaefac7/jupysql_plugin-0.1.2.tar.gz
+[2023-05-01 09:34:10] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/ce/cd/861a889fad14b4177ae1eadba696835c8d6a9d9d20335d14dd33d382db03/xia_engine_terraform-0.1.2-cp39-none-win_amd64.whl
+[2023-05-01 09:34:10] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/2d/8f/526596c3a85de0ef3af363a9acfe76bb56ff958e71d1555896604a49f994/aiogram-ext-0.5.3.tar.gz
+[2023-05-01 09:34:10] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/92/d8/3b3cfc38f417b76a1688642716c76dfc257e0a8a9a1468d35fb51e767274/jupysql_plugin-0.1.3.tar.gz
+[2023-05-01 09:34:10] INFO root fetch - processPackages [jupysql-plugin]: executing diffoscope
+[2023-05-01 09:34:10] INFO root fetch - processPackages [jupysql-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql_plugin-0.1.2.tar.gz tmp/jupysql_plugin-0.1.3.tar.gz --markdown 20230501/j/jupysql-plugin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 09:34:10] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/06/3d/87ff5c9859b72b87d5429b464435feefc3e97c31331e92c1bba4e9050155/xia_engine_terraform-0.1.3-cp39-none-win_amd64.whl
+[2023-05-01 09:34:10] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/46/ad/b81a0262af9dff6d67873dec2c1c57c6fc61cd7b726c03ff6e917e6dc381/aiogram-ext-0.6.0.tar.gz
+[2023-05-01 09:34:10] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-05-01 09:34:10] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.2-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.3-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-engine-terraform/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 09:34:10] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-05-01 09:34:10] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.5.3.tar.gz tmp/aiogram-ext-0.6.0.tar.gz --markdown 20230501/a/aiogram-ext/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-01 09:34:11] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-01 09:34:11] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-05-01 09:34:12] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-05-01 09:34:12] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-01 09:34:12] INFO root fetch - main [MainThread]: End processing [jupysql-plugin]: success
+[2023-05-01 09:34:12] INFO root fetch - main [MainThread]: Store serial: [17923671]
