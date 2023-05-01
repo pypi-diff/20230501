@@ -3430,3 +3430,88 @@
 [2023-05-01 03:59:30] INFO root fetch - main [MainThread]: End processing [prepup]: success
 [2023-05-01 03:59:31] INFO root fetch - main [MainThread]: End processing [asymysql]: success
 [2023-05-01 03:59:31] INFO root fetch - main [MainThread]: Store serial: [17922371]
+[2023-05-01 04:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922371]
+[2023-05-01 04:04:39] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cooldfa
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coolmongo
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inigo-py
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coolmysql
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pibble
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: encrypt256
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: increment
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openai2
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qontract-reconcile
+[2023-05-01 04:04:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rstyleslice
+[2023-05-01 04:04:39] INFO root fetch - processPackages [inigo-py]: New version: [0.25.0] Old Version: [0.24.0]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [coolmongo]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [cooldfa]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [pibble]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [coolmysql]: New version: [1.4.5] Old Version: [1.4.4]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [encrypt256]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [rstyleslice]: New version: [1.4.1] Old Version: [1.4]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [openai2]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-01 04:04:39] INFO root fetch - processPackages [increment]: New version: [1.3.1] Old Version: [1.3]
+[2023-05-01 04:04:40] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.4.8.tar.gz tmp/pibble-0.4.9.tar.gz --markdown 20230501/p/pibble/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [inigo-py]: Downloading https://files.pythonhosted.org/packages/06/58/e9cb662fcd115f803f08c18bbc1b8f27c2e4a63c23c73b465f07c5b67c4d/inigo_py-0.24.0.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [cooldfa]: Downloading https://files.pythonhosted.org/packages/43/cc/1e4f675162bd8e8b59170b3bb2563b14b56b83332b6d7841702eaa758a0c/cooldfa-1.0.4.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [encrypt256]: Downloading https://files.pythonhosted.org/packages/5a/16/09c503993b3396de5eee0d5674253f9be02c98aecbc20624b289b5eb7cf2/encrypt256-1.8.1.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [coolmongo]: Downloading https://files.pythonhosted.org/packages/92/6a/a4f47b7e10ae2abfc7f606817df700c7f3d98640739825dd01caf7c2053c/coolmongo-1.3.2.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [rstyleslice]: Downloading https://files.pythonhosted.org/packages/42/bf/a5427065e05a5feb543ced587bf8c74d0c4d425108668a193d055cf7299a/rstyleslice-1.4.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [increment]: Downloading https://files.pythonhosted.org/packages/87/9b/fe024d9377dd6847cbc1f2624666592419df8ae1499efe8532688ba7c011/increment-1.3.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [cooldfa]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [cooldfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cooldfa-1.0.3.tar.gz tmp/cooldfa-1.0.4.tar.gz --markdown 20230501/c/cooldfa/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/b7/5d/79acde274fa41b55152ab991ed1b0a2e717a54fb40728c016f1ac03af6b8/openai2-1.5.1.tar.gz
+[2023-05-01 04:04:40] WARNING root fetch - processPackages [inigo-py]: Skipping package: exceeds size limit 71848498>=10485760
+[2023-05-01 04:04:40] INFO root fetch - processPackages [inigo-py]: Start processing: jax-fdm
+[2023-05-01 04:04:40] INFO root fetch - main [MainThread]: End processing [inigo-py] error
+[2023-05-01 04:04:40] INFO root fetch - processPackages [coolmysql]: Downloading https://files.pythonhosted.org/packages/27/f3/2a481bd38e5a1a8f04907ab4899dad72b7b0237c8967a1efaee989da3403/coolmysql-1.4.5.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [coolmongo]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [coolmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmongo-1.3.1.tar.gz tmp/coolmongo-1.3.2.tar.gz --markdown 20230501/c/coolmongo/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [coolmysql]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [coolmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolmysql-1.4.4.tar.gz tmp/coolmysql-1.4.5.tar.gz --markdown 20230501/c/coolmysql/1.4.4-1.4.5/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [jax-fdm]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-05-01 04:04:40] INFO root fetch - processPackages [encrypt256]: Downloading https://files.pythonhosted.org/packages/00/29/c246baf2aaac0d2e397baa6cba14ab007b8c39b1e8d235ec1cec8b3e5710/encrypt256-1.8.2.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [openai2]: Downloading https://files.pythonhosted.org/packages/6f/81/60b06f4daee25d5c5953ffdaa75aaa3a47ef0f4770eb004c7248cd05797b/openai2-1.5.2.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [encrypt256]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [encrypt256]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encrypt256-1.8.1.tar.gz tmp/encrypt256-1.8.2.tar.gz --markdown 20230501/e/encrypt256/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [rstyleslice]: Downloading https://files.pythonhosted.org/packages/aa/fe/d5d504eb86105bda388bef7bbce9430591578e3eb26542dd7f3f69fdd848/rstyleslice-1.4.1.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [increment]: Downloading https://files.pythonhosted.org/packages/61/87/184be5bbd068c66853d3864a5f5d28ba8da8e5a1f0e19af2069911404004/increment-1.3.1.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [openai2]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [openai2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai2-1.5.1.tar.gz tmp/openai2-1.5.2.tar.gz --markdown 20230501/o/openai2/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [jax-fdm]: Downloading https://files.pythonhosted.org/packages/04/42/f0bd80edfd5d2e1384266234aa8bfd87464c9a891da693530209ff946479/jax_fdm-0.5.2.tar.gz
+[2023-05-01 04:04:40] INFO root fetch - processPackages [increment]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [rstyleslice]: executing diffoscope
+[2023-05-01 04:04:40] INFO root fetch - processPackages [rstyleslice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstyleslice-1.4.tar.gz tmp/rstyleslice-1.4.1.tar.gz --markdown 20230501/r/rstyleslice/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [increment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increment-1.3.tar.gz tmp/increment-1.3.1.tar.gz --markdown 20230501/i/increment/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-05-01 04:04:40] INFO root fetch - processPackages [jax-fdm]: Downloading https://files.pythonhosted.org/packages/83/29/4d1668581f2bac0f9a5dea0038104d693fb7f6a59471b4a7245ba71058c5/jax_fdm-0.6.0.tar.gz
+[2023-05-01 04:04:41] INFO root fetch - processPackages [jax-fdm]: executing diffoscope
+[2023-05-01 04:04:41] INFO root fetch - processPackages [jax-fdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax_fdm-0.5.2.tar.gz tmp/jax_fdm-0.6.0.tar.gz --markdown 20230501/j/jax-fdm/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-05-01 04:04:41] INFO root fetch - processPackages [coolmongo]: Start processing: hackycfgparser
+[2023-05-01 04:04:41] INFO root fetch - main [MainThread]: End processing [coolmongo]: success
+[2023-05-01 04:04:41] INFO root fetch - processPackages [coolmysql]: Start processing: spPersist
+[2023-05-01 04:04:41] INFO root fetch - main [MainThread]: End processing [coolmysql]: success
+[2023-05-01 04:04:41] INFO root fetch - processPackages [spPersist]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 04:04:41] INFO root fetch - processPackages [hackycfgparser]: New version: [0.11] Old Version: [0.10]
+[2023-05-01 04:04:41] INFO root fetch - main [MainThread]: End processing [encrypt256]: success
+[2023-05-01 04:04:41] INFO root fetch - main [MainThread]: End processing [openai2]: success
+[2023-05-01 04:04:41] INFO root fetch - processPackages [hackycfgparser]: Downloading https://files.pythonhosted.org/packages/3c/72/3b6d751b1d99fb649206925abd60a9c18cb69cd20069e85711d20dc0a8e7/hackycfgparser-0.10.tar.gz
+[2023-05-01 04:04:41] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/86/b2/2586518942f4cc24c83d705fc9ced8948f369cf77bd26f64ea9572aad3a6/sppersist-0.0.9.tar.gz
+[2023-05-01 04:04:41] INFO root fetch - main [MainThread]: End processing [increment]: success
+[2023-05-01 04:04:41] INFO root fetch - main [MainThread]: End processing [rstyleslice]: success
+[2023-05-01 04:04:41] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 04:04:41] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.0.8.tar.gz tmp/sppersist-0.0.9.tar.gz --markdown 20230501/s/spPersist/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 04:04:42] INFO root fetch - processPackages [hackycfgparser]: Downloading https://files.pythonhosted.org/packages/95/d4/2e85cce271e93d01dc7fd7574e7d5d5e03674963b118c0654a1e01ed48e7/hackycfgparser-0.11.tar.gz
+[2023-05-01 04:04:42] INFO root fetch - processPackages [hackycfgparser]: executing diffoscope
+[2023-05-01 04:04:42] INFO root fetch - processPackages [hackycfgparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackycfgparser-0.10.tar.gz tmp/hackycfgparser-0.11.tar.gz --markdown 20230501/h/hackycfgparser/0.10-0.11/diff.md --exclude *.pyd
+[2023-05-01 04:04:42] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 04:04:43] INFO root fetch - main [MainThread]: End processing [hackycfgparser]: success
+[2023-05-01 04:04:43] INFO root fetch - main [MainThread]: End processing [jax-fdm]: success
+[2023-05-01 04:04:44] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-05-01 04:04:45] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-01 04:07:40] ERROR root fetch - processPackages [cooldfa]: Timeout during execution of pkgdiff
+[2023-05-01 04:07:40] INFO root fetch - main [MainThread]: End processing [cooldfa] error
+[2023-05-01 04:07:40] INFO root fetch - main [MainThread]: Store serial: [17922410]
