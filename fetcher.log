@@ -4201,3 +4201,42 @@
 [2023-05-01 05:55:58] INFO root fetch - main [MainThread]: End processing [geochemistrypi]: success
 [2023-05-01 05:56:07] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
 [2023-05-01 05:56:07] INFO root fetch - main [MainThread]: Store serial: [17922857]
+[2023-05-01 06:01:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922857]
+[2023-05-01 06:01:17] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-01 06:06:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922859]
+[2023-05-01 06:06:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagknows
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leeger
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galah-python
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laptrack
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysecurecircuit
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lumibot
+[2023-05-01 06:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdeIU
+[2023-05-01 06:06:23] WARNING root fetch - processPackages [pysecurecircuit]: Skipping, unable to determine old version
+[2023-05-01 06:06:23] INFO root fetch - main [MainThread]: End processing [pysecurecircuit] error
+[2023-05-01 06:06:23] INFO root fetch - processPackages [lumibot]: New version: [2.5.9] Old Version: [2.5.8]
+[2023-05-01 06:06:23] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 06:06:23] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/3a/9e/832791be10e746c7884ef5d121d4b811ceaa6cd8d7e5aa2394d9588f0e12/lumibot-2.5.8.tar.gz
+[2023-05-01 06:06:23] WARNING root fetch - processPackages [galah-python]: Skipping, unable to determine old version
+[2023-05-01 06:06:23] INFO root fetch - processPackages [leeger]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-01 06:06:23] INFO root fetch - main [MainThread]: End processing [galah-python] error
+[2023-05-01 06:06:23] INFO root fetch - processPackages [laptrack]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-01 06:06:23] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23647378>=10485760
+[2023-05-01 06:06:23] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-05-01 06:06:23] WARNING root fetch - processPackages [sdeIU]: Skipping, unable to determine old version
+[2023-05-01 06:06:23] INFO root fetch - main [MainThread]: End processing [sdeIU] error
+[2023-05-01 06:06:23] INFO root fetch - processPackages [leeger]: Downloading https://files.pythonhosted.org/packages/58/3f/4746623169843bb878d9e7af5e2c83d193b1a4b76dac225fb4c036998c11/leeger-2.2.0.tar.gz
+[2023-05-01 06:06:23] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/b4/f5/0aa35ae6fc22db6b2ceadd0271c6a5cc23e1293d28a076f6f5c168a38c51/laptrack-0.9.0.tar.gz
+[2023-05-01 06:06:23] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/57/73/fdc53628716b16ae897344fbc1d98948616e9c3bbc4e3651b6f1332389fa/dagknows-0.0.9-py3-none-any.whl
+[2023-05-01 06:06:24] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-05-01 06:06:24] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230501/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 06:06:24] INFO root fetch - processPackages [leeger]: Downloading https://files.pythonhosted.org/packages/d3/42/2e1333df78e8279924583f86b5a3df314fd4be6344286efefb9b2fc4d3ba/leeger-2.3.0.tar.gz
+[2023-05-01 06:06:24] INFO root fetch - processPackages [laptrack]: Downloading https://files.pythonhosted.org/packages/20/7c/08983aa29eb72f42019a5cde5753fde7dedac1946ec3d4f63e1fd14d2879/laptrack-0.9.1.tar.gz
+[2023-05-01 06:06:24] INFO root fetch - processPackages [leeger]: executing diffoscope
+[2023-05-01 06:06:24] INFO root fetch - processPackages [leeger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leeger-2.2.0.tar.gz tmp/leeger-2.3.0.tar.gz --markdown 20230501/l/leeger/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-01 06:06:24] INFO root fetch - processPackages [laptrack]: executing diffoscope
+[2023-05-01 06:06:24] INFO root fetch - processPackages [laptrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laptrack-0.9.0.tar.gz tmp/laptrack-0.9.1.tar.gz --markdown 20230501/l/laptrack/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-01 06:06:25] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-05-01 06:06:25] INFO root fetch - main [MainThread]: End processing [laptrack]: success
+[2023-05-01 06:06:27] INFO root fetch - main [MainThread]: End processing [leeger]: success
+[2023-05-01 06:06:27] INFO root fetch - main [MainThread]: Store serial: [17922878]
