@@ -12284,3 +12284,78 @@ EOFError: EOF read where object expected
 [2023-05-01 16:23:13] INFO root fetch - main [MainThread]: End processing [batdetect2]: success
 [2023-05-01 16:23:17] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-05-01 16:23:17] INFO root fetch - main [MainThread]: Store serial: [17927535]
+[2023-05-01 16:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927535]
+[2023-05-01 16:28:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OWR
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycep-correios
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salamencrypt
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spPersist
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amqp-client-python
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmergenetyper
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prompt-wrangler
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: label-sleuth
+[2023-05-01 16:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OWR
+[2023-05-01 16:28:27] WARNING root fetch - processPackages [OWR]: Skipping, unable to determine old version
+[2023-05-01 16:28:27] INFO root fetch - processPackages [OWR]: Start processing: poc-poetry-partifact-plugin
+[2023-05-01 16:28:27] INFO root fetch - main [MainThread]: End processing [OWR] error
+[2023-05-01 16:28:27] INFO root fetch - processPackages [dxsp]: New version: [1.5.3] Old Version: [1.5.1]
+[2023-05-01 16:28:27] WARNING root fetch - processPackages [OWR]: Skipping, unable to determine old version
+[2023-05-01 16:28:27] INFO root fetch - processPackages [kmergenetyper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [OWR]: Start processing: auto-screener
+[2023-05-01 16:28:27] INFO root fetch - main [MainThread]: End processing [OWR] error
+[2023-05-01 16:28:27] WARNING root fetch - processPackages [prompt-wrangler]: Skipping, unable to determine old version
+[2023-05-01 16:28:27] INFO root fetch - processPackages [prompt-wrangler]: Start processing: chgksuite
+[2023-05-01 16:28:27] INFO root fetch - main [MainThread]: End processing [prompt-wrangler] error
+[2023-05-01 16:28:27] INFO root fetch - processPackages [spPersist]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [pycep-correios]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-05-01 16:28:27] WARNING root fetch - processPackages [salamencrypt]: Skipping, unable to determine old version
+[2023-05-01 16:28:27] INFO root fetch - processPackages [salamencrypt]: Start processing: OWR
+[2023-05-01 16:28:27] INFO root fetch - main [MainThread]: End processing [salamencrypt] error
+[2023-05-01 16:28:27] INFO root fetch - processPackages [amqp-client-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-05-01 16:28:27] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.8.tar.gz tmp/kmergenetyper-1.0.9.tar.gz --markdown 20230501/k/kmergenetyper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:28:27] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [OWR]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-01 16:28:27] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/4a/2d/a0fc13fcc5c33badbba184aaf7109622dc9803b2a0d3c30cd042b27daf10/dxsp-1.5.3.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/77/e0/ee99d0650b8f1910bc9bb3c144dd4782f08b149f5a3bd4099f346117368b/label-sleuth-0.9.3.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/c6/3d/65dc4d2b227fb8e042b515e359253ad6d95820b6625a5004ea345f6cfb68/sppersist-0.1.2.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/69/88/912bf4120f829d436ca7458d1105de703695e48758b8f2dfc8f2b7d876b7/OWR-0.3.0.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [amqp-client-python]: Downloading https://files.pythonhosted.org/packages/bd/98/21a0962f9c2e9ff545ef3748fe9c6422053896a85f2e727cfdc37f6807b5/amqp_client_python-0.1.8.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [pycep-correios]: Downloading https://files.pythonhosted.org/packages/5a/5a/0b4617a9d54575ec5047e45419f0a3233035d783a9ef925ddcf6ff97d38c/pycep_correios-5.1.0.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 16:28:27] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.1.tar.gz tmp/sppersist-0.1.2.tar.gz --markdown 20230501/s/spPersist/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 16:28:27] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-01 16:28:27] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-1.5.1.tar.gz tmp/dxsp-1.5.3.tar.gz --markdown 20230501/d/dxsp/1.5.1-1.5.3/diff.md --exclude *.pyd
+[2023-05-01 16:28:27] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-05-01 16:28:27] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.8.0.tar.gz tmp/poc_poetry_partifact_plugin-0.9.0.tar.gz --markdown 20230501/p/poc-poetry-partifact-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 16:28:27] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-05-01 16:28:27] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230501/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:28:27] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2023-05-01 16:28:27] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20230501/c/chgksuite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-01 16:28:27] INFO root fetch - processPackages [pycep-correios]: Downloading https://files.pythonhosted.org/packages/93/50/97f2758fded749473b75eb254b379d1f0bbda8d565ee94235a97893e8f71/pycep-correios-5.2.0.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [amqp-client-python]: Downloading https://files.pythonhosted.org/packages/50/c5/1e112675c023385e1223ce4d99520577980127285deff0d342fa7b0c6f4f/amqp_client_python-0.1.9.tar.gz
+[2023-05-01 16:28:27] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/3a/86/b09b95cbdf2c6f84221ad5b5da314cd165b0eced6338e58b330a6da58b28/OWR-0.4.0.tar.gz
+[2023-05-01 16:28:28] INFO root fetch - processPackages [pycep-correios]: executing diffoscope
+[2023-05-01 16:28:28] INFO root fetch - processPackages [pycep-correios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycep_correios-5.1.0.tar.gz tmp/pycep-correios-5.2.0.tar.gz --markdown 20230501/p/pycep-correios/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-05-01 16:28:28] INFO root fetch - processPackages [amqp-client-python]: executing diffoscope
+[2023-05-01 16:28:28] INFO root fetch - processPackages [amqp-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amqp_client_python-0.1.8.tar.gz tmp/amqp_client_python-0.1.9.tar.gz --markdown 20230501/a/amqp-client-python/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 16:28:28] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-01 16:28:28] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-0.3.0.tar.gz tmp/OWR-0.4.0.tar.gz --markdown 20230501/O/OWR/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-01 16:28:28] INFO root fetch - processPackages [label-sleuth]: Downloading https://files.pythonhosted.org/packages/dd/ee/ffc7b366823c259f75094f7898e27c3f4ae71d66cd5fa3f5da579f3afbbd/label-sleuth-0.9.4.tar.gz
+[2023-05-01 16:28:28] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-05-01 16:28:28] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-05-01 16:28:28] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230501/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-01 16:28:28] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 16:28:29] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-01 16:28:29] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-05-01 16:28:29] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-05-01 16:28:29] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2023-05-01 16:28:29] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-01 16:28:29] INFO root fetch - main [MainThread]: End processing [pycep-correios]: success
+[2023-05-01 16:28:30] INFO root fetch - main [MainThread]: End processing [amqp-client-python]: success
+[2023-05-01 16:29:12] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-05-01 16:29:12] INFO root fetch - main [MainThread]: Store serial: [17927587]
