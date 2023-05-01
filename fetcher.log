@@ -17873,3 +17873,74 @@ EOFError: EOF read where object expected
 [2023-05-01 22:25:09] INFO root fetch - main [MainThread]: End processing [deface]: success
 [2023-05-01 22:25:10] INFO root fetch - main [MainThread]: End processing [datamol]: success
 [2023-05-01 22:25:10] INFO root fetch - main [MainThread]: Store serial: [17931251]
+[2023-05-01 22:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931251]
+[2023-05-01 22:30:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gsearch-nyaa
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ulid-transform
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ensemble-md
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blogutils
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: holamundoplayerjose
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goatl
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmeel
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bytez
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mpc-orb
+[2023-05-01 22:30:20] WARNING root fetch - processPackages [blogutils]: Skipping, unable to determine old version
+[2023-05-01 22:30:20] INFO root fetch - processPackages [blogutils]: Start processing: jsonformer
+[2023-05-01 22:30:20] INFO root fetch - main [MainThread]: End processing [blogutils] error
+[2023-05-01 22:30:20] INFO root fetch - processPackages [gsearch-nyaa]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [mpc-orb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [goatl]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [jsonformer]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [gsearch-nyaa]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [gsearch-nyaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsearch-nyaa-0.1.tar.gz tmp/gsearch-nyaa-0.1.1.tar.gz --markdown 20230501/g/gsearch-nyaa/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ulid-transform]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ensemble-md]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-01 22:30:20] WARNING root fetch - processPackages [holamundoplayerjose]: Skipping, unable to determine old version
+[2023-05-01 22:30:20] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [holamundoplayerjose]: Start processing: questdb-connect
+[2023-05-01 22:30:20] INFO root fetch - main [MainThread]: End processing [holamundoplayerjose] error
+[2023-05-01 22:30:20] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [cmeel]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.4.1.tar.gz tmp/goatl-0.5.0.tar.gz --markdown 20230501/g/goatl/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-01 22:30:20] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/28/11/3a1a0fd37fe6233103c05e81874079c36f9fd0d02db2876d7b47428d07a7/jsonformer-0.1.0.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [mpc-orb]: Downloading https://files.pythonhosted.org/packages/05/eb/58f58adce799d5fc4e85444ed4044b10954646cf0f66a4b1f5c31a496bf9/mpc_orb-0.1.9.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.25.tar.gz tmp/questdb-connect-0.0.26.tar.gz --markdown 20230501/q/questdb-connect/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ensemble-md]: Downloading https://files.pythonhosted.org/packages/7c/1f/5886a98283ef2edcfdae1dda37d09e3306e5d48da28af634688069f2356c/ensemble_md-0.5.0.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ulid-transform]: Downloading https://files.pythonhosted.org/packages/4e/c2/69d7a91b603cd81508544a06d9fe323e154cce313c5730e83b8c13fa21f7/ulid_transform-0.7.0.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [mpc-orb]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [mpc-orb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpc_orb-0.1.8.tar.gz tmp/mpc_orb-0.1.9.tar.gz --markdown 20230501/m/mpc-orb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/63/3b/ae49ef0626a782e0c602dade13cc3173a667fbbe35d3612a511271eec78a/jsonformer-0.2.0.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230501/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [cmeel]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [cmeel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel-0.8.0.tar.gz tmp/cmeel-0.9.0.tar.gz --markdown 20230501/c/cmeel/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [jsonformer]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [jsonformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonformer-0.1.0.tar.gz tmp/jsonformer-0.2.0.tar.gz --markdown 20230501/j/jsonformer/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ulid-transform]: Downloading https://files.pythonhosted.org/packages/78/95/71a90649fa792457be33699771805e92d3253c652c3f5a5e7a241970ed65/ulid_transform-0.7.1.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ensemble-md]: Downloading https://files.pythonhosted.org/packages/86/7e/2569fe6e13e171686c10583a5269110c9e8d735f51bd7c8cb7e2e15576f8/ensemble_md-0.6.0.tar.gz
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ulid-transform]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ulid-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ulid_transform-0.7.0.tar.gz tmp/ulid_transform-0.7.1.tar.gz --markdown 20230501/u/ulid-transform/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ensemble-md]: executing diffoscope
+[2023-05-01 22:30:20] INFO root fetch - processPackages [ensemble-md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensemble_md-0.5.0.tar.gz tmp/ensemble_md-0.6.0.tar.gz --markdown 20230501/e/ensemble-md/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-01 22:30:21] INFO root fetch - processPackages [gsearch-nyaa]: Start processing: bytez
+[2023-05-01 22:30:21] INFO root fetch - main [MainThread]: End processing [gsearch-nyaa]: success
+[2023-05-01 22:30:21] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:30:21] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-01 22:30:21] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 22:30:21] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [mpc-orb]: success
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [cmeel]: success
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [jsonformer]: success
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [ulid-transform]: success
+[2023-05-01 22:30:22] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 22:30:25] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-01 22:30:45] INFO root fetch - main [MainThread]: End processing [ensemble-md]: success
+[2023-05-01 22:30:45] INFO root fetch - main [MainThread]: Store serial: [17931304]
