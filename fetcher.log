@@ -6576,3 +6576,119 @@
 [2023-05-01 11:17:51] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
 [2023-05-01 11:17:51] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
 [2023-05-01 11:17:51] INFO root fetch - main [MainThread]: Store serial: [17924351]
+[2023-05-01 11:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924351]
+[2023-05-01 11:23:00] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-01 11:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotinst-agent-beta
+[2023-05-01 11:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MDbrew
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: extr-ds
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hansken
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyberpay-utils-lib
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NEURON-nightly
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu-aws
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiopygismeteo
+[2023-05-01 11:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edwh
+[2023-05-01 11:23:01] INFO root fetch - processPackages [MDbrew]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [cyberpay-utils-lib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.283] Old Version: [2.2.282]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [aiopygismeteo]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [hansken]: New version: [2023.5.1] Old Version: [2023.3.6]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [cyberpay-utils-lib]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [cyberpay-utils-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberpay-utils-lib-0.0.8.tar.gz tmp/cyberpay-utils-lib-0.0.9.tar.gz --markdown 20230501/c/cyberpay-utils-lib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0.dev1348] Old Version: [9.0.dev1345]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/a5/7b/ba77f5669be835869d41e37b8a8298a2c7c69f56d204b1dd1d6bd963b470/MDbrew-2.2.0.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.13.0.dev20230501] Old Version: [2.13.0.dev20230430]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230501/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/66/5d/ddc69440b515b26a7d91851679bacc4d5bbfd451a63ecd2b403e154e0703/edwh-0.9.0.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/67/0f/a4316a0a7b1fb4d5f5d6bc6e6ac7a74edc5b167822b3909eb7c3508a6f17/spotinst-agent-beta-2.2.283.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [aiopygismeteo]: Downloading https://files.pythonhosted.org/packages/01/93/0ccd9ca85fa6e645aeabe3b0bfe413cc08c21762f45677452972a1e8b602/aiopygismeteo-5.1.0.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/67/be/5662ccf12737ab8a0f61634d4429236f79c65335e620e095997de9be62f5/hansken-2023.3.6.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230501/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.282.tar.gz tmp/spotinst-agent-beta-2.2.283.tar.gz --markdown 20230501/s/spotinst-agent-beta/2.2.282-2.2.283/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/1a/33/5966e4992392215236074cd16f8d1d3acd67142b2c172d9e162c8bd7171c/NEURON_nightly-9.0.dev1345-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-01 11:23:01] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/38/3a/6c5480bd3316f8f190ea84a652d0f1ec55c97155f4ecb93b10b5dbd51ec7/tf_nightly_cpu_aws-2.13.0.dev20230430-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-01 11:23:01] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 13181344>=10485760
+[2023-05-01 11:23:01] INFO root fetch - processPackages [NEURON-nightly]: Start processing: pygismeteo
+[2023-05-01 11:23:01] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2023-05-01 11:23:01] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 248772929>=10485760
+[2023-05-01 11:23:01] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: dbt-lineage-viewer
+[2023-05-01 11:23:01] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-05-01 11:23:01] INFO root fetch - processPackages [pygismeteo]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [dbt-lineage-viewer]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/e4/b3/1109a06d5a5eefc81c9738fc9701c56f901b3853d8e662d63a7e48e50fd6/MDbrew-2.2.1.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [aiopygismeteo]: Downloading https://files.pythonhosted.org/packages/2a/25/a99405a97d9e28188b3bd1d9a7020419a6e87113a2692ffb47d1deb92a16/aiopygismeteo-5.2.0.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.2.0.tar.gz tmp/MDbrew-2.2.1.tar.gz --markdown 20230501/M/MDbrew/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-01 11:23:01] INFO root fetch - processPackages [aiopygismeteo]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [edwh]: Start processing: spanishconjugator
+[2023-05-01 11:23:01] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-01 11:23:01] INFO root fetch - processPackages [aiopygismeteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiopygismeteo-5.1.0.tar.gz tmp/aiopygismeteo-5.2.0.tar.gz --markdown 20230501/a/aiopygismeteo/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [hansken]: Downloading https://files.pythonhosted.org/packages/f6/4a/18154ed854ee14b69d227af04a507e6d20a29fffe20672aac6f29cb0c6cc/hansken-2023.5.1.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [pygismeteo]: Downloading https://files.pythonhosted.org/packages/f9/00/d9458ba2dfc27adc23868c15ed30bf8c9d49a8bd188b4d3117e1e6cb0dbc/pygismeteo-5.1.0.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [dbt-lineage-viewer]: Downloading https://files.pythonhosted.org/packages/95/cd/2b913002ed42add33766e2bc42d8cc876dfc9a605b8db3e267c2da44d16b/dbt_lineage_viewer-0.3.tar.gz
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-01 11:23:01] INFO root fetch - processPackages [hansken]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [hansken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hansken-2023.3.6.tar.gz tmp/hansken-2023.5.1.tar.gz --markdown 20230501/h/hansken/2023.3.6-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230501/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-01 11:23:01] INFO root fetch - processPackages [dbt-lineage-viewer]: executing diffoscope
+[2023-05-01 11:23:01] INFO root fetch - processPackages [dbt-lineage-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_lineage_viewer-0.2.tar.gz tmp/dbt_lineage_viewer-0.3.tar.gz --markdown 20230501/d/dbt-lineage-viewer/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 11:23:02] INFO root fetch - processPackages [pygismeteo]: Downloading https://files.pythonhosted.org/packages/1a/77/218eda5919c59158d533d6615bd9932af0729ab5eaff085583150ada2126/pygismeteo-5.2.0.tar.gz
+[2023-05-01 11:23:02] INFO root fetch - processPackages [pygismeteo]: executing diffoscope
+[2023-05-01 11:23:02] INFO root fetch - processPackages [pygismeteo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygismeteo-5.1.0.tar.gz tmp/pygismeteo-5.2.0.tar.gz --markdown 20230501/p/pygismeteo/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-05-01 11:23:02] INFO root fetch - processPackages [cyberpay-utils-lib]: Start processing: MDbrew
+[2023-05-01 11:23:02] INFO root fetch - main [MainThread]: End processing [cyberpay-utils-lib]: success
+[2023-05-01 11:23:02] INFO root fetch - processPackages [MDbrew]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-01 11:23:02] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-01 11:23:02] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.2.0.tar.gz tmp/MDbrew-2.2.1.tar.gz --markdown 20230501/M/MDbrew/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-01 11:23:02] INFO root fetch - processPackages [extr-ds]: Start processing: invenio-alma
+[2023-05-01 11:23:02] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-01 11:23:02] INFO root fetch - processPackages [MDbrew]: Start processing: spanishconjugator
+[2023-05-01 11:23:02] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-01 11:23:02] INFO root fetch - processPackages [invenio-alma]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-01 11:23:03] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-01 11:23:03] INFO root fetch - processPackages [aiopygismeteo]: Start processing: properties.py
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [aiopygismeteo]: success
+[2023-05-01 11:23:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-01 11:23:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230501/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-01 11:23:03] INFO root fetch - processPackages [dbt-lineage-viewer]: Start processing: xia-scw-instance
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [dbt-lineage-viewer]: success
+[2023-05-01 11:23:03] INFO root fetch - processPackages [xia-scw-instance]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 11:23:03] INFO root fetch - processPackages [properties.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 11:23:03] INFO root fetch - processPackages [spotinst-agent-beta]: Start processing: iqmma
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2023-05-01 11:23:03] INFO root fetch - processPackages [invenio-alma]: Downloading https://files.pythonhosted.org/packages/c4/3c/7ba0f9060296e6a9eb8361f47bfa8bc61f0602c6dcf20a8662e2dbbc17ec/invenio-alma-0.8.1.tar.gz
+[2023-05-01 11:23:03] INFO root fetch - processPackages [iqmma]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2023-05-01 11:23:03] INFO root fetch - processPackages [spanishconjugator]: Start processing: pyhip-interface
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-01 11:23:03] INFO root fetch - processPackages [properties.py]: Downloading https://files.pythonhosted.org/packages/74/44/d1860e41997f1a4687139edbf6a703f5e913b643077cb96f470382e6d552/properties.py-1.0.1-py3-none-any.whl
+[2023-05-01 11:23:03] INFO root fetch - processPackages [invenio-alma]: executing diffoscope
+[2023-05-01 11:23:03] INFO root fetch - processPackages [invenio-alma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-alma-0.8.0.tar.gz tmp/invenio-alma-0.8.1.tar.gz --markdown 20230501/i/invenio-alma/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [pygismeteo]: success
+[2023-05-01 11:23:03] WARNING root fetch - processPackages [pyhip-interface]: Skipping, unable to determine old version
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [pyhip-interface] error
+[2023-05-01 11:23:03] INFO root fetch - processPackages [xia-scw-instance]: executing diffoscope
+[2023-05-01 11:23:03] INFO root fetch - processPackages [xia-scw-instance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_instance-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_scw_instance-0.0.9-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-scw-instance/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:23:03] INFO root fetch - processPackages [iqmma]: Downloading https://files.pythonhosted.org/packages/7c/4c/6b33bec922e66d5297437f4f51ccd9194a366e2b1b109a6759cf10c46dc3/iqmma-0.1.3.2-py3-none-any.whl
+[2023-05-01 11:23:03] INFO root fetch - processPackages [properties.py]: Downloading https://files.pythonhosted.org/packages/2f/0f/d65c1232372992d7bd12d8d7df124e9d03ee6253088a6d8583b689826c8a/properties.py-1.0.2.tar.gz
+[2023-05-01 11:23:03] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-01 11:23:03] INFO root fetch - processPackages [iqmma]: executing diffoscope
+[2023-05-01 11:23:03] INFO root fetch - processPackages [iqmma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqmma-0.1.3.1-py3-none-any.whl.zip tmp/iqmma-0.1.3.2-py3-none-any.whl.zip --markdown 20230501/i/iqmma/0.1.3.1-0.1.3.2/diff.md --exclude *.pyd
+[2023-05-01 11:23:03] INFO root fetch - processPackages [properties.py]: executing diffoscope
+[2023-05-01 11:23:03] INFO root fetch - processPackages [properties.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/properties.py-1.0.1-py3-none-any.whl.zip tmp/properties.py-1.0.2.tar.gz --markdown 20230501/p/properties.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 11:23:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-01 11:23:04] INFO root fetch - main [MainThread]: End processing [hansken]: success
+[2023-05-01 11:23:04] INFO root fetch - main [MainThread]: End processing [xia-scw-instance]: success
+[2023-05-01 11:23:04] INFO root fetch - main [MainThread]: End processing [properties.py]: success
+[2023-05-01 11:23:05] INFO root fetch - main [MainThread]: End processing [invenio-alma]: success
+[2023-05-01 11:23:07] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-01 11:23:27] INFO root fetch - main [MainThread]: End processing [iqmma]: success
+[2023-05-01 11:23:27] INFO root fetch - main [MainThread]: Store serial: [17924417]
