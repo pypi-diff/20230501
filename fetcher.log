@@ -3515,3 +3515,39 @@
 [2023-05-01 04:07:40] ERROR root fetch - processPackages [cooldfa]: Timeout during execution of pkgdiff
 [2023-05-01 04:07:40] INFO root fetch - main [MainThread]: End processing [cooldfa] error
 [2023-05-01 04:07:40] INFO root fetch - main [MainThread]: Store serial: [17922410]
+[2023-05-01 04:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922410]
+[2023-05-01 04:12:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 04:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepequests
+[2023-05-01 04:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yog
+[2023-05-01 04:12:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forust
+[2023-05-01 04:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TrackerGG
+[2023-05-01 04:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fern-pave
+[2023-05-01 04:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voxelmap
+[2023-05-01 04:12:49] INFO root fetch - processPackages [yog]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-01 04:12:49] WARNING root fetch - processPackages [pepequests]: Skipping, unable to determine old version
+[2023-05-01 04:12:49] INFO root fetch - main [MainThread]: End processing [pepequests] error
+[2023-05-01 04:12:49] WARNING root fetch - processPackages [fern-pave]: Skipping, unable to determine old version
+[2023-05-01 04:12:49] INFO root fetch - main [MainThread]: End processing [fern-pave] error
+[2023-05-01 04:12:49] INFO root fetch - processPackages [forust]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-01 04:12:49] INFO root fetch - processPackages [TrackerGG]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-01 04:12:49] INFO root fetch - processPackages [voxelmap]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-05-01 04:12:49] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/38/5e/79c57ea869159fbcfd4128c3972ac415d754e583e33d457e5f6488090cec/yog-2.1.5.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [TrackerGG]: Downloading https://files.pythonhosted.org/packages/89/72/2f52719628d6c5e3eae77e3a7bf5cb8b5baa61345c9b0be4e6b5e727a07a/TrackerGG-2.3.0.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/8a/19/62135325b0800c35b106dd7726a7451c265c7fbdc00e2a7458c3bc997a33/forust-0.2.2.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [voxelmap]: Downloading https://files.pythonhosted.org/packages/76/40/1b21ac84c71a46495c8cf6b58142c62dda0735765ddadf2c7b831990760d/voxelmap-4.1.4.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [voxelmap]: executing diffoscope
+[2023-05-01 04:12:49] INFO root fetch - processPackages [voxelmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelmap-4.1.3.tar.gz tmp/voxelmap-4.1.4.tar.gz --markdown 20230501/v/voxelmap/4.1.3-4.1.4/diff.md --exclude *.pyd
+[2023-05-01 04:12:49] INFO root fetch - processPackages [TrackerGG]: Downloading https://files.pythonhosted.org/packages/a3/15/f309e821b45ed0cf6d2a996f3edf504a2ab59e73e38535083e033890e405/TrackerGG-2.4.0.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/15/3d/5986dcd6e81d5a643745769ce694df7543e349648ddf8370efb992c8c49d/yog-2.1.6.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [TrackerGG]: executing diffoscope
+[2023-05-01 04:12:49] INFO root fetch - processPackages [TrackerGG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TrackerGG-2.3.0.tar.gz tmp/TrackerGG-2.4.0.tar.gz --markdown 20230501/T/TrackerGG/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-01 04:12:49] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/71/bd/2b6db1579017f560f155ed0edeaa8094903967659e2ccabf769d1a57e483/forust-0.2.3.tar.gz
+[2023-05-01 04:12:49] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-05-01 04:12:49] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.1.5.tar.gz tmp/yog-2.1.6.tar.gz --markdown 20230501/y/yog/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-01 04:12:49] INFO root fetch - processPackages [forust]: executing diffoscope
+[2023-05-01 04:12:49] INFO root fetch - processPackages [forust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forust-0.2.2.tar.gz tmp/forust-0.2.3.tar.gz --markdown 20230501/f/forust/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-01 04:12:50] INFO root fetch - main [MainThread]: End processing [voxelmap]: success
+[2023-05-01 04:12:50] INFO root fetch - main [MainThread]: End processing [TrackerGG]: success
+[2023-05-01 04:12:50] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-05-01 04:12:51] INFO root fetch - main [MainThread]: End processing [forust]: success
+[2023-05-01 04:12:51] INFO root fetch - main [MainThread]: Store serial: [17922438]
