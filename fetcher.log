@@ -12453,3 +12453,105 @@ EOFError: EOF read where object expected
 [2023-05-01 16:34:27] INFO root fetch - main [MainThread]: End processing [Rare]: success
 [2023-05-01 16:34:30] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
 [2023-05-01 16:34:30] INFO root fetch - main [MainThread]: Store serial: [17927641]
+[2023-05-01 16:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927641]
+[2023-05-01 16:39:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tartanair
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypgstac
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neopolitan
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neopolitan
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prompt-wrangler
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microgue
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afloat
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pvmodule
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lskyup
+[2023-05-01 16:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CoverGPT
+[2023-05-01 16:39:39] INFO root fetch - processPackages [prompt-wrangler]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [afloat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [lskyup]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [pypgstac]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [neopolitan]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [neopolitan]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [tartanair]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [microgue]: New version: [2.0.0] Old Version: [1.0.9]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [CoverGPT]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 16:39:39] INFO root fetch - processPackages [prompt-wrangler]: Downloading https://files.pythonhosted.org/packages/0a/73/dd7506985738a389df12f6014092f6dc71027d6c58cb3284abcc2bb30b3f/prompt_wrangler-0.1.0.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [afloat]: Downloading https://files.pythonhosted.org/packages/8b/99/66c02bbd1f86f392b76b803bd82447e4ae71b71ca89375e775a872e33d01/afloat-0.0.9.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/e4/8e/f9961f3c32e5c843a71a8151bfc6fa582a38ae2379c23cbd67440b7cf766/neopolitan-0.0.2.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/e4/8e/f9961f3c32e5c843a71a8151bfc6fa582a38ae2379c23cbd67440b7cf766/neopolitan-0.0.2.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [afloat]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [afloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afloat-0.0.8.tar.gz tmp/afloat-0.0.9.tar.gz --markdown 20230501/a/afloat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [lskyup]: Downloading https://files.pythonhosted.org/packages/1e/52/8b96edfb331e2c0aec8e974b003df1ba5bba9e5447ad51e90376aa2ec7cf/lskyup-0.1.1.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [CoverGPT]: Downloading https://files.pythonhosted.org/packages/c5/6e/3d2ab059b13cafac92d99739821de56fd06abe91357f91e34f63c63b1805/CoverGPT-1.3.0.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [tartanair]: Downloading https://files.pythonhosted.org/packages/bf/78/f4c02b4db7e090c3ba736df6986133c249ad23bf49f3cd14f6d9d2b53ba2/tartanair-1.0.1.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/28/d8/9be7d1d7699dedede98362f909f699a5ffbbfa00620e64eaa5652e6f226b/neopolitan-0.1.0.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/28/d8/9be7d1d7699dedede98362f909f699a5ffbbfa00620e64eaa5652e6f226b/neopolitan-0.1.0.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopolitan-0.0.2.tar.gz tmp/neopolitan-0.1.0.tar.gz --markdown 20230501/n/neopolitan/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [microgue]: Downloading https://files.pythonhosted.org/packages/cf/23/ba0b3a6d038541ff60963190506a26406e08e2d38200fe0fd30ec9c7a217/microgue-2.0.0.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [neopolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopolitan-0.0.2.tar.gz tmp/neopolitan-0.1.0.tar.gz --markdown 20230501/n/neopolitan/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [prompt-wrangler]: Downloading https://files.pythonhosted.org/packages/b1/a6/d125132fb00bdb3c02a7b9a856ba547f8fd4fb1fda7f9dceba2e4f60b949/prompt_wrangler-0.1.1.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [tartanair]: Downloading https://files.pythonhosted.org/packages/fe/29/a8aabc857416f4a53050e2c1c03ec49b8486ea2ca489325657a6b8282e96/tartanair-1.0.2.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [microgue]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [microgue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microgue-1.0.9.tar.gz tmp/microgue-2.0.0.tar.gz --markdown 20230501/m/microgue/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [prompt-wrangler]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [prompt-wrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_wrangler-0.1.0.tar.gz tmp/prompt_wrangler-0.1.1.tar.gz --markdown 20230501/p/prompt-wrangler/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [pypgstac]: Downloading https://files.pythonhosted.org/packages/5e/8f/8884c018f90d9380c250d94d718382fd60c24ace4ae86415093f780b2f17/pypgstac-0.7.6.tar.gz
+[2023-05-01 16:39:40] INFO root fetch - processPackages [CoverGPT]: Downloading https://files.pythonhosted.org/packages/ce/ad/fefaca512e50d966e647429e80f10b93671a2d0508802b1f0ee9ba267ccd/CoverGPT-1.3.1-py3-none-any.whl
+[2023-05-01 16:39:40] INFO root fetch - processPackages [tartanair]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [tartanair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tartanair-1.0.1.tar.gz tmp/tartanair-1.0.2.tar.gz --markdown 20230501/t/tartanair/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230501/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [pypgstac]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [pypgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypgstac-0.7.5.tar.gz tmp/pypgstac-0.7.6.tar.gz --markdown 20230501/p/pypgstac/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-05-01 16:39:40] INFO root fetch - processPackages [CoverGPT]: executing diffoscope
+[2023-05-01 16:39:40] INFO root fetch - processPackages [CoverGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoverGPT-1.3.0.tar.gz tmp/CoverGPT-1.3.1-py3-none-any.whl.zip --markdown 20230501/C/CoverGPT/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-01 16:39:41] INFO root fetch - processPackages [neopolitan]: Start processing: responsibleai-vision
+[2023-05-01 16:39:41] INFO root fetch - main [MainThread]: End processing [neopolitan]: success
+[2023-05-01 16:39:41] INFO root fetch - processPackages [neopolitan]: Start processing: certora-cli-alpha-niv-Add-summary-unittests
+[2023-05-01 16:39:41] INFO root fetch - main [MainThread]: End processing [neopolitan]: success
+[2023-05-01 16:39:41] WARNING root fetch - processPackages [responsibleai-vision]: Skipping, unable to determine old version
+[2023-05-01 16:39:41] INFO root fetch - processPackages [responsibleai-vision]: Start processing: nonebot-plugin-star-rail-calendar
+[2023-05-01 16:39:41] INFO root fetch - main [MainThread]: End processing [responsibleai-vision] error
+[2023-05-01 16:39:42] WARNING root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Skipping, unable to determine old version
+[2023-05-01 16:39:42] INFO root fetch - processPackages [certora-cli-alpha-niv-Add-summary-unittests]: Start processing: treecluster
+[2023-05-01 16:39:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-Add-summary-unittests] error
+[2023-05-01 16:39:42] WARNING root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Skipping, unable to determine old version
+[2023-05-01 16:39:42] INFO root fetch - processPackages [nonebot-plugin-star-rail-calendar]: Start processing: paux
+[2023-05-01 16:39:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-star-rail-calendar] error
+[2023-05-01 16:39:42] INFO root fetch - processPackages [paux]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 16:39:42] INFO root fetch - processPackages [treecluster]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 16:39:42] INFO root fetch - processPackages [paux]: executing diffoscope
+[2023-05-01 16:39:42] INFO root fetch - processPackages [paux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paux-1.0.8.tar.gz tmp/paux-1.0.9.tar.gz --markdown 20230501/p/paux/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:39:42] INFO root fetch - processPackages [afloat]: Start processing: napari-animation
+[2023-05-01 16:39:42] INFO root fetch - main [MainThread]: End processing [afloat]: success
+[2023-05-01 16:39:42] INFO root fetch - processPackages [prompt-wrangler]: Start processing: lti-consumer-xblock
+[2023-05-01 16:39:42] INFO root fetch - main [MainThread]: End processing [prompt-wrangler]: success
+[2023-05-01 16:39:42] INFO root fetch - main [MainThread]: End processing [microgue]: success
+[2023-05-01 16:39:42] INFO root fetch - processPackages [napari-animation]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 16:39:42] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-05-01 16:39:42] INFO root fetch - processPackages [lskyup]: Downloading https://files.pythonhosted.org/packages/51/ef/9ef3bc91c2618a19c537b0b5e43ac10aa19bbb9c8105f661789c028bd775/lskyup-0.1.2.tar.gz
+[2023-05-01 16:39:42] INFO root fetch - processPackages [lti-consumer-xblock]: New version: [9.1.0] Old Version: [9.0.4]
+[2023-05-01 16:39:42] INFO root fetch - processPackages [lskyup]: executing diffoscope
+[2023-05-01 16:39:42] INFO root fetch - processPackages [lskyup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lskyup-0.1.1.tar.gz tmp/lskyup-0.1.2.tar.gz --markdown 20230501/l/lskyup/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 16:39:42] INFO root fetch - processPackages [treecluster]: Downloading https://files.pythonhosted.org/packages/8c/2e/3c2cd262bcfa05979ba810bd361dfd28fe552a548a869da3d8280ae4fb7d/treecluster-1.0.3.tar.gz
+[2023-05-01 16:39:42] INFO root fetch - processPackages [napari-animation]: Downloading https://files.pythonhosted.org/packages/65/b1/5f603ea7233bfc0e846feda17d5114c37b9d6e71ac20fc8c1f2eec1da9e6/napari_animation-0.0.5.tar.gz
+[2023-05-01 16:39:42] INFO root fetch - processPackages [treecluster]: Downloading https://files.pythonhosted.org/packages/f2/33/4c9ab77b8e2693c2f1c443a52de3c267ab7bd180fe796fd04d316be9cbb3/treecluster-1.0.4.tar.gz
+[2023-05-01 16:39:42] INFO root fetch - processPackages [lti-consumer-xblock]: Downloading https://files.pythonhosted.org/packages/34/71/60f89e36094e14ba5ddc93eb65ee9fca83700af4da30b38c35fafc18978a/lti-consumer-xblock-9.1.0.tar.gz
+[2023-05-01 16:39:42] INFO root fetch - processPackages [treecluster]: executing diffoscope
+[2023-05-01 16:39:42] INFO root fetch - processPackages [treecluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treecluster-1.0.3.tar.gz tmp/treecluster-1.0.4.tar.gz --markdown 20230501/t/treecluster/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 16:39:43] INFO root fetch - processPackages [lti-consumer-xblock]: executing diffoscope
+[2023-05-01 16:39:43] INFO root fetch - processPackages [lti-consumer-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lti-consumer-xblock-9.0.4.tar.gz tmp/lti-consumer-xblock-9.1.0.tar.gz --markdown 20230501/l/lti-consumer-xblock/9.0.4-9.1.0/diff.md --exclude *.pyd
+[2023-05-01 16:39:43] INFO root fetch - processPackages [napari-animation]: Downloading https://files.pythonhosted.org/packages/09/8e/b90e0bcae722a183a239a07189c0f02debfa2ee6bce59e080d89496eea8b/napari_animation-0.0.6.tar.gz
+[2023-05-01 16:39:43] INFO root fetch - main [MainThread]: End processing [pypgstac]: success
+[2023-05-01 16:39:43] INFO root fetch - main [MainThread]: End processing [paux]: success
+[2023-05-01 16:39:43] INFO root fetch - processPackages [napari-animation]: executing diffoscope
+[2023-05-01 16:39:43] INFO root fetch - processPackages [napari-animation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_animation-0.0.5.tar.gz tmp/napari_animation-0.0.6.tar.gz --markdown 20230501/n/napari-animation/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 16:39:43] INFO root fetch - main [MainThread]: End processing [lskyup]: success
+[2023-05-01 16:39:44] INFO root fetch - main [MainThread]: End processing [treecluster]: success
+[2023-05-01 16:39:44] INFO root fetch - main [MainThread]: End processing [napari-animation]: success
+[2023-05-01 16:39:45] INFO root fetch - main [MainThread]: End processing [CoverGPT]: success
+[2023-05-01 16:39:45] INFO root fetch - main [MainThread]: End processing [tartanair]: success
+[2023-05-01 16:39:45] INFO root fetch - main [MainThread]: End processing [lti-consumer-xblock]: success
+[2023-05-01 16:39:45] INFO root fetch - main [MainThread]: Store serial: [17927710]
