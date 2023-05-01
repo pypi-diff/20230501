@@ -18027,3 +18027,90 @@ EOFError: EOF read where object expected
 [2023-05-01 22:36:08] INFO root fetch - main [MainThread]: End processing [awscli]: success
 [2023-05-01 22:36:18] INFO root fetch - main [MainThread]: End processing [botocore]: success
 [2023-05-01 22:36:18] INFO root fetch - main [MainThread]: Store serial: [17931359]
+[2023-05-01 22:41:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931359]
+[2023-05-01 22:41:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Cope
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crossmark-jotform-api
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rewards-envs
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filter-stations
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: midas
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dreamai
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: efax
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gsearch-nyaa
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leechem
+[2023-05-01 22:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blogutils
+[2023-05-01 22:41:28] INFO root fetch - processPackages [midas]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [filter-stations]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [rewards-envs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [blogutils]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [dreamai]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [Cope]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [efax]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-01 22:41:28] WARNING root fetch - processPackages [leechem]: Skipping, unable to determine old version
+[2023-05-01 22:41:28] INFO root fetch - processPackages [leechem]: Start processing: gsearch-nyaa
+[2023-05-01 22:41:28] INFO root fetch - main [MainThread]: End processing [leechem] error
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: Downloading https://files.pythonhosted.org/packages/8a/8d/49b711da6e1fc999af0597c1d8d3c679979f02542775c2a98f644f007d88/gsearch-nyaa-0.1.3.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: Downloading https://files.pythonhosted.org/packages/8a/8d/49b711da6e1fc999af0597c1d8d3c679979f02542775c2a98f644f007d88/gsearch-nyaa-0.1.3.tar.gz
+[2023-05-01 22:41:28] ERROR root fetch - processPackages [blogutils]: Unable to fetch info: No such project/version 'blogutils' 0.0.1
+[2023-05-01 22:41:28] INFO root fetch - processPackages [blogutils]: Start processing: mbta-gtfs-sqlite
+[2023-05-01 22:41:28] INFO root fetch - main [MainThread]: End processing [blogutils] error
+[2023-05-01 22:41:28] INFO root fetch - processPackages [mbta-gtfs-sqlite]: New version: [0.9.0] Old Version: [0.1.3]
+[2023-05-01 22:41:28] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/e7/c7/ecafc3426e7b2d754f51c17ac46d8107560a5391a6821889d6484cbcf3d5/Cope-1.4.0.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/59/40/bc8aaf51a178732d6a97c6fcd9872f5022c0e5e282c4900c2796d80e70ef/dreamai-0.4.0.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [midas]: Downloading https://files.pythonhosted.org/packages/46/2d/05c890bbc425800d1270cdb3ff7ac9fcb5db37d856c98d9a144c35726eb0/midas-0.6.0.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [efax]: Downloading https://files.pythonhosted.org/packages/b0/d3/88cf57bd21b97ce0af97e91d814a97737f5278b22981e6339b869ec2b35a/efax-1.9.0.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [filter-stations]: Downloading https://files.pythonhosted.org/packages/d8/2f/885aee93ab6927b2021d35fb21614c457b728cb89d71c90eb5301aa64074/filter_stations-0.3.1.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: Downloading https://files.pythonhosted.org/packages/a9/eb/da51743a55965ba5835788acf80511b9f9ff8d93ab07dc4d2a7a28c8e027/gsearch-nyaa-0.1.4.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [mbta-gtfs-sqlite]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [mbta-gtfs-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbta-gtfs-sqlite-0.1.3.tar.gz tmp/mbta-gtfs-sqlite-0.9.0.tar.gz --markdown 20230501/m/mbta-gtfs-sqlite/0.1.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: Downloading https://files.pythonhosted.org/packages/a9/eb/da51743a55965ba5835788acf80511b9f9ff8d93ab07dc4d2a7a28c8e027/gsearch-nyaa-0.1.4.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsearch-nyaa-0.1.3.tar.gz tmp/gsearch-nyaa-0.1.4.tar.gz --markdown 20230501/g/gsearch-nyaa/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [rewards-envs]: Downloading https://files.pythonhosted.org/packages/93/c8/cf9be820c0824b9dd66bca14929be910cfdc168fdfffbc3b93d60f7e0797/rewards_envs-0.1.2.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [filter-stations]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [filter-stations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filter_stations-0.3.0.tar.gz tmp/filter_stations-0.3.1.tar.gz --markdown 20230501/f/filter-stations/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [crossmark-jotform-api]: Downloading https://files.pythonhosted.org/packages/2f/3c/65f40591072fee0b15c3b4b637b3596263b12023a6d808877d77c59ab20d/crossmark-jotform-api-0.2.0.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [gsearch-nyaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsearch-nyaa-0.1.3.tar.gz tmp/gsearch-nyaa-0.1.4.tar.gz --markdown 20230501/g/gsearch-nyaa/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [Cope]: Downloading https://files.pythonhosted.org/packages/62/c0/1f77131deb2fc521bfbc9311fa4ef6424b022eea14fe113d16869a3536a7/Cope-1.4.1.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [dreamai]: Downloading https://files.pythonhosted.org/packages/ce/57/3dc577e14d8ad6ac073f2f4f9b0c3ed790ad2de0e34705fe9e84d73421b0/dreamai-0.5.0.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.1.9.tar.gz tmp/crossmark-jotform-api-0.2.0.tar.gz --markdown 20230501/c/crossmark-jotform-api/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.4.0.tar.gz tmp/dreamai-0.5.0.tar.gz --markdown 20230501/d/dreamai/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [Cope]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [Cope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Cope-1.4.0.tar.gz tmp/Cope-1.4.1.tar.gz --markdown 20230501/C/Cope/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [rewards-envs]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [rewards-envs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rewards_envs-0.1.1.tar.gz tmp/rewards_envs-0.1.2.tar.gz --markdown 20230501/r/rewards-envs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 22:41:28] INFO root fetch - processPackages [efax]: Downloading https://files.pythonhosted.org/packages/45/ae/9fd314ec092ce76a4044da94da01a98a1ff79c6ede08742ef86a83aea5be/efax-1.9.1.tar.gz
+[2023-05-01 22:41:28] INFO root fetch - processPackages [efax]: executing diffoscope
+[2023-05-01 22:41:28] INFO root fetch - processPackages [efax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efax-1.9.0.tar.gz tmp/efax-1.9.1.tar.gz --markdown 20230501/e/efax/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 22:41:29] INFO root fetch - processPackages [midas]: Downloading https://files.pythonhosted.org/packages/31/3d/4bb1cb1de89a1348f485eb216f3edb21c21d64dd0cc8b158c5a7394bf5f8/midas-0.6.1.tar.gz
+[2023-05-01 22:41:29] INFO root fetch - processPackages [midas]: executing diffoscope
+[2023-05-01 22:41:29] INFO root fetch - processPackages [midas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-0.6.0.tar.gz tmp/midas-0.6.1.tar.gz --markdown 20230501/m/midas/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 22:41:30] INFO root fetch - processPackages [gsearch-nyaa]: Start processing: TheSilent
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [gsearch-nyaa]: success
+[2023-05-01 22:41:30] INFO root fetch - processPackages [gsearch-nyaa]: Start processing: qsimcirq
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [gsearch-nyaa]: success
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [mbta-gtfs-sqlite]: success
+[2023-05-01 22:41:30] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 22:41:30] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-01 22:41:30] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230501/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 22:41:30] INFO root fetch - processPackages [qsimcirq]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [filter-stations]: success
+[2023-05-01 22:41:30] INFO root fetch - processPackages [qsimcirq]: Downloading https://files.pythonhosted.org/packages/f1/b7/f5209414316aced8c706f1efc6eefa355790eff784c5054f218aa525167a/qsimcirq-0.9.2.tar.gz
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [midas]: success
+[2023-05-01 22:41:30] INFO root fetch - processPackages [qsimcirq]: Downloading https://files.pythonhosted.org/packages/a0/f3/0e010198a986bd5508c10baeb7ce387a47ad939d31caf46ccdaa8038b8ab/qsimcirq-0.9.5.tar.gz
+[2023-05-01 22:41:30] INFO root fetch - main [MainThread]: End processing [Cope]: success
+[2023-05-01 22:41:30] INFO root fetch - processPackages [qsimcirq]: executing diffoscope
+[2023-05-01 22:41:30] INFO root fetch - processPackages [qsimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsimcirq-0.9.2.tar.gz tmp/qsimcirq-0.9.5.tar.gz --markdown 20230501/q/qsimcirq/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-01 22:41:31] INFO root fetch - main [MainThread]: End processing [rewards-envs]: success
+[2023-05-01 22:41:31] INFO root fetch - main [MainThread]: End processing [efax]: success
+[2023-05-01 22:41:31] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-01 22:41:32] INFO root fetch - main [MainThread]: End processing [qsimcirq]: success
+[2023-05-01 22:41:32] INFO root fetch - main [MainThread]: Store serial: [17931411]
