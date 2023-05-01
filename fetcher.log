@@ -4802,3 +4802,19 @@
 [2023-05-01 07:49:10] INFO root fetch - main [MainThread]: End processing [sorampt]: success
 [2023-05-01 07:49:11] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
 [2023-05-01 07:49:11] INFO root fetch - main [MainThread]: Store serial: [17923201]
+[2023-05-01 07:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923201]
+[2023-05-01 07:54:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-plugins
+[2023-05-01 07:54:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xia-engine-terraform
+[2023-05-01 07:54:19] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 07:54:19] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 07:54:19] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/43/9a/f8705cc8fdf0e9d053ee9ca2a9d918f5e22139f3f131ebe88adc2b1277f8/ml_plugins-0.0.1.tar.gz
+[2023-05-01 07:54:19] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/9e/ba/00e7e58db3c342d404f3ebada3dbd96bd09ea4269e7fbf32bab2821c57e7/xia_engine_terraform-0.1.1-cp39-none-macosx_11_0_x86_64.whl
+[2023-05-01 07:54:20] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-05-01 07:54:20] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.1-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230501/x/xia-engine-terraform/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 07:54:20] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/07/e4/28bc5ce33d5e97551d6c41a5a1b762f96c6fdc5c83f38894e6cbc57d7ed8/ml_plugins-0.0.2.tar.gz
+[2023-05-01 07:54:20] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-01 07:54:20] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.1.tar.gz tmp/ml_plugins-0.0.2.tar.gz --markdown 20230501/m/ml-plugins/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 07:54:21] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-05-01 07:54:21] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-01 07:54:21] INFO root fetch - main [MainThread]: Store serial: [17923207]
