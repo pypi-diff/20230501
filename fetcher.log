@@ -14809,3 +14809,79 @@ EOFError: EOF read where object expected
 [2023-05-01 19:06:50] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-01 19:07:02] INFO root fetch - main [MainThread]: End processing [ranx]: success
 [2023-05-01 19:07:02] INFO root fetch - main [MainThread]: Store serial: [17929229]
+[2023-05-01 19:12:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929229]
+[2023-05-01 19:12:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-models
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-protos
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-sdk
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-utils
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: batdetect2
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citizenk
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycm
+[2023-05-01 19:12:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: limes-x
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.4.post231] Old Version: [2.8.4.post230]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.4.post231] Old Version: [2.8.4.post230]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [limes-x]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [batdetect2]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.4.post231] Old Version: [2.8.4.post230]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [citizenk]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [pycm]: New version: [3.9] Old Version: [3.8]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.4.post231] Old Version: [2.8.4.post230]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/65/c5/5e79f011dbe48c414b6f0afc0b470d4fffe4baea81a6a9326f267fe64da6/nucliadb_protos-2.8.4.post231-py3-none-any.whl
+[2023-05-01 19:12:12] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/39/fa/e71ba44f3b2190bea9e89eb0bc6ead737f24f51a0cafe336d3a14a25dc1b/citizenk-0.1.42.tar.gz
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/c6/d3/f5325c775187a8a36c5711436e1c79ca68735402b2828da0a7e19538e75e/nucliadb_utils-2.8.4.post230-py3-none-any.whl
+[2023-05-01 19:12:12] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/ef/01/d2a812a7ea4bfd6f9709174f5d3a9582c1450aa4d945bfca52a91dc75b78/nucliadb_sdk-2.8.4.post230-py3-none-any.whl
+[2023-05-01 19:12:12] INFO root fetch - processPackages [batdetect2]: Downloading https://files.pythonhosted.org/packages/c1/78/d302225d7f93f8ea07b621dd698a5263f8fc0c45c6be21d7131be6b63b3a/batdetect2-1.0.4.tar.gz
+[2023-05-01 19:12:12] INFO root fetch - processPackages [limes-x]: Downloading https://files.pythonhosted.org/packages/5e/d4/3f2f8224fc548e39d7f84d23d46d2f9dbfb8d874188236d4ab31d09259d4/limes_x-1.0.2-py3-none-any.whl
+[2023-05-01 19:12:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-01 19:12:12] INFO root fetch - processPackages [pycm]: Downloading https://files.pythonhosted.org/packages/c0/31/81a7321247dc1972a11145deaae2fcdda4876a20136783a13d135da64799/pycm-3.8.tar.gz
+[2023-05-01 19:12:12] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230501/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-01 19:12:12] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-01 19:12:12] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230501/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: pipcoloringsextV1
+[2023-05-01 19:12:14] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-01 19:12:14] INFO root fetch - processPackages [limes-x]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [limes-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limes_x-1.0.1-py3-none-any.whl.zip tmp/limes_x-1.0.2-py3-none-any.whl.zip --markdown 20230501/l/limes-x/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.4.post230-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.4.post231-py3-none-any.whl.zip --markdown 20230501/n/nucliadb-protos/2.8.4.post230-2.8.4.post231/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [batdetect2]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [batdetect2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batdetect2-1.0.3.tar.gz tmp/batdetect2-1.0.4.tar.gz --markdown 20230501/b/batdetect2/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] WARNING root fetch - processPackages [pipcoloringsextV1]: Skipping, unable to determine old version
+[2023-05-01 19:12:14] INFO root fetch - processPackages [pipcoloringsextV1]: Start processing: basic-colormath
+[2023-05-01 19:12:14] INFO root fetch - main [MainThread]: End processing [pipcoloringsextV1] error
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/48/e4/e384be5cf6a7cb771f92d078023aa1ec842bc6aeee16b492d7f3e5ee57e7/nucliadb_sdk-2.8.4.post231-py3-none-any.whl
+[2023-05-01 19:12:14] WARNING root fetch - processPackages [basic-colormath]: Skipping, unable to determine old version
+[2023-05-01 19:12:14] INFO root fetch - processPackages [basic-colormath]: Start processing: remindmail
+[2023-05-01 19:12:14] INFO root fetch - main [MainThread]: End processing [basic-colormath] error
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/1a/e0/18f93b2b31a4c38dcf0206e50f4aa6fcfbd030c5f0ef5c88df1ef3eddfa7/nucliadb_utils-2.8.4.post231-py3-none-any.whl
+[2023-05-01 19:12:14] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/45/f9/d0a404d27fd05d812bc6cf69cfd349d808f9251c1c4af8ff96f6a90b1b22/citizenk-0.1.43.tar.gz
+[2023-05-01 19:12:14] INFO root fetch - processPackages [remindmail]: New version: [2023.4.30.3] Old Version: [2023.4.30.2]
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.4.post230-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.4.post231-py3-none-any.whl.zip --markdown 20230501/n/nucliadb-sdk/2.8.4.post230-2.8.4.post231/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [pycm]: Downloading https://files.pythonhosted.org/packages/20/4f/21a06a6eb9f4cef0ed5ab2731d4be5e2f3bd42eb91b31d2a9ad8fa8dff2d/pycm-3.9.tar.gz
+[2023-05-01 19:12:14] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.42.tar.gz tmp/citizenk-0.1.43.tar.gz --markdown 20230501/c/citizenk/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.4.post230-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.4.post231-py3-none-any.whl.zip --markdown 20230501/n/nucliadb-utils/2.8.4.post230-2.8.4.post231/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [pycm]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [pycm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycm-3.8.tar.gz tmp/pycm-3.9.tar.gz --markdown 20230501/p/pycm/3.8-3.9/diff.md --exclude *.pyd
+[2023-05-01 19:12:14] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-05-01 19:12:14] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.30.2.tar.gz tmp/remindmail-2023.4.30.3.tar.gz --markdown 20230501/r/remindmail/2023.4.30.2-2023.4.30.3/diff.md --exclude *.pyd
+[2023-05-01 19:12:15] INFO root fetch - main [MainThread]: End processing [limes-x]: success
+[2023-05-01 19:12:15] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-01 19:12:15] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-01 19:12:15] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/ca/6e/71c6a55b2ca074f44e5e829fef494f2c597f58a0dd3e11151cee40eb57d8/nucliadb_models-2.8.4.post231-py3-none-any.whl
+[2023-05-01 19:12:15] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-05-01 19:12:15] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-01 19:12:15] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.4.post230-py3-none-any.whl.zip tmp/nucliadb_models-2.8.4.post231-py3-none-any.whl.zip --markdown 20230501/n/nucliadb-models/2.8.4.post230-2.8.4.post231/diff.md --exclude *.pyd
+[2023-05-01 19:12:15] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-05-01 19:12:15] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-01 19:12:16] INFO root fetch - main [MainThread]: End processing [pycm]: success
+[2023-05-01 19:12:16] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-01 19:12:16] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-01 19:12:18] INFO root fetch - main [MainThread]: End processing [batdetect2]: success
+[2023-05-01 19:12:18] INFO root fetch - main [MainThread]: Store serial: [17929279]
