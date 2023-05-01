@@ -7466,3 +7466,61 @@
 [2023-05-01 12:48:17] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
 [2023-05-01 12:48:18] INFO root fetch - main [MainThread]: End processing [p2pd]: success
 [2023-05-01 12:48:18] INFO root fetch - main [MainThread]: Store serial: [17924943]
+[2023-05-01 12:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924943]
+[2023-05-01 12:53:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-serving-api
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorflow-serving-api-gpu
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lecture-automator
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-yuvalbd-skey-detection
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CLAM
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fatpack
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psremoter
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rhoknp
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MCSimPython
+[2023-05-01 12:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edwh-server-provisioning-plugin
+[2023-05-01 12:53:26] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-skey-detection]: Skipping, unable to determine old version
+[2023-05-01 12:53:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-skey-detection] error
+[2023-05-01 12:53:26] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 12:53:26] WARNING root fetch - processPackages [psremoter]: Skipping, unable to determine old version
+[2023-05-01 12:53:26] INFO root fetch - main [MainThread]: End processing [psremoter] error
+[2023-05-01 12:53:26] INFO root fetch - processPackages [tensorflow-serving-api]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-01 12:53:26] INFO root fetch - processPackages [rhoknp]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-05-01 12:53:26] INFO root fetch - processPackages [lecture-automator]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 12:53:26] INFO root fetch - processPackages [fatpack]: New version: [0.7.7] Old Version: [0.7.5]
+[2023-05-01 12:53:26] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: executing diffoscope
+[2023-05-01 12:53:26] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_server_provisioning_plugin-0.2.0.tar.gz tmp/edwh_server_provisioning_plugin-0.2.1.tar.gz --markdown 20230501/e/edwh-server-provisioning-plugin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 12:53:26] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-01 12:53:26] INFO root fetch - processPackages [CLAM]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-05-01 12:53:26] INFO root fetch - processPackages [MCSimPython]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 12:53:27] INFO root fetch - processPackages [rhoknp]: Downloading https://files.pythonhosted.org/packages/cf/42/c3e1637cbfdfa840446c246952c0fc7c07487ecb1a801238e92c06816dc7/rhoknp-1.2.2.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [lecture-automator]: Downloading https://files.pythonhosted.org/packages/ce/cb/17498e942ce87ce4f67b2c76bdf62537a774e3e760c9d4cbe0643cb6a58f/lecture-automator-0.2.0.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [MCSimPython]: Downloading https://files.pythonhosted.org/packages/3d/bd/6e7ddc0875d7de8c32bfbfd08607c1536679ade23ad3cffc93e636f1bb1d/MCSimPython-0.1.1.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [CLAM]: Downloading https://files.pythonhosted.org/packages/96/bb/f0d23a5dc838b4fcb2304ec5ced51ccb0b60ba0ea9860bb59880ffc0d165/CLAM-3.2.5.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [fatpack]: Downloading https://files.pythonhosted.org/packages/62/8e/adf7ba1e4797072080977b7754d2202bb32f6df23bf2d8e42d5be063e801/fatpack-0.7.7.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [tensorflow-serving-api]: executing diffoscope
+[2023-05-01 12:53:27] INFO root fetch - processPackages [tensorflow-serving-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip --markdown 20230501/t/tensorflow-serving-api/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-01 12:53:27] INFO root fetch - processPackages [lecture-automator]: Downloading https://files.pythonhosted.org/packages/e9/96/2a107e895caed54b64f12a1b83bf6bccc2510ce0aaa5dd68fdeb570da17a/lecture-automator-0.2.1.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: executing diffoscope
+[2023-05-01 12:53:27] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip --markdown 20230501/t/tensorflow-serving-api-gpu/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-05-01 12:53:27] INFO root fetch - processPackages [fatpack]: executing diffoscope
+[2023-05-01 12:53:27] INFO root fetch - processPackages [fatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fatpack-0.7.5.tar.gz tmp/fatpack-0.7.7.tar.gz --markdown 20230501/f/fatpack/0.7.5-0.7.7/diff.md --exclude *.pyd
+[2023-05-01 12:53:27] INFO root fetch - processPackages [CLAM]: Downloading https://files.pythonhosted.org/packages/91/64/1704002ce91d0538d2dc3c38e8fbc01cb40587763e6c87108886e74836de/CLAM-3.2.6.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [lecture-automator]: executing diffoscope
+[2023-05-01 12:53:27] INFO root fetch - processPackages [lecture-automator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecture-automator-0.2.0.tar.gz tmp/lecture-automator-0.2.1.tar.gz --markdown 20230501/l/lecture-automator/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 12:53:27] INFO root fetch - processPackages [rhoknp]: Downloading https://files.pythonhosted.org/packages/c9/a9/08dc57ef4cc49a6efc403ffd43fe1b24a0c67600e1076236979d0f12a39c/rhoknp-1.3.0.tar.gz
+[2023-05-01 12:53:27] INFO root fetch - processPackages [rhoknp]: executing diffoscope
+[2023-05-01 12:53:27] INFO root fetch - processPackages [rhoknp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhoknp-1.2.2.tar.gz tmp/rhoknp-1.3.0.tar.gz --markdown 20230501/r/rhoknp/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-05-01 12:53:27] INFO root fetch - processPackages [CLAM]: executing diffoscope
+[2023-05-01 12:53:27] INFO root fetch - processPackages [CLAM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CLAM-3.2.5.tar.gz tmp/CLAM-3.2.6.tar.gz --markdown 20230501/C/CLAM/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-05-01 12:53:28] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin]: success
+[2023-05-01 12:53:28] INFO root fetch - processPackages [MCSimPython]: Downloading https://files.pythonhosted.org/packages/60/24/bbc6053ab7973110be5d9bab3e1992b134d1b4cb06cbf3af57e9db802ac5/MCSimPython-0.1.2.tar.gz
+[2023-05-01 12:53:28] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api]: success
+[2023-05-01 12:53:28] INFO root fetch - main [MainThread]: End processing [fatpack]: success
+[2023-05-01 12:53:28] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api-gpu]: success
+[2023-05-01 12:53:28] INFO root fetch - main [MainThread]: End processing [lecture-automator]: success
+[2023-05-01 12:53:29] INFO root fetch - main [MainThread]: End processing [rhoknp]: success
+[2023-05-01 12:53:30] INFO root fetch - processPackages [MCSimPython]: executing diffoscope
+[2023-05-01 12:53:30] INFO root fetch - processPackages [MCSimPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MCSimPython-0.1.1.tar.gz tmp/MCSimPython-0.1.2.tar.gz --markdown 20230501/M/MCSimPython/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 12:53:32] INFO root fetch - main [MainThread]: End processing [CLAM]: success
+[2023-05-01 12:53:33] INFO root fetch - main [MainThread]: End processing [MCSimPython]: success
+[2023-05-01 12:53:33] INFO root fetch - main [MainThread]: Store serial: [17924969]
