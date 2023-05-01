@@ -7006,3 +7006,25 @@
 [2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [neo3crypto]: success
 [2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-05-01 11:54:52] INFO root fetch - main [MainThread]: Store serial: [17924614]
+[2023-05-01 11:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924614]
+[2023-05-01 12:00:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexo-inpainting
+[2023-05-01 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-yuvalbd-skey-detection
+[2023-05-01 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: detectors
+[2023-05-01 12:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocog
+[2023-05-01 12:00:01] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-skey-detection]: Skipping, unable to determine old version
+[2023-05-01 12:00:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-skey-detection] error
+[2023-05-01 12:00:01] INFO root fetch - processPackages [hexo-inpainting]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 12:00:01] WARNING root fetch - processPackages [detectors]: Skipping, unable to determine old version
+[2023-05-01 12:00:01] INFO root fetch - main [MainThread]: End processing [detectors] error
+[2023-05-01 12:00:01] INFO root fetch - processPackages [autocog]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 12:00:01] INFO root fetch - processPackages [autocog]: Downloading https://files.pythonhosted.org/packages/89/32/526846ca953f16b793c4402491bbfd90da57c578c6ed187783272ff76211/autocog-0.0.4.tar.gz
+[2023-05-01 12:00:01] INFO root fetch - processPackages [hexo-inpainting]: Downloading https://files.pythonhosted.org/packages/fb/c0/444bc73bbbb822ce0e0aa3b3edce6f03fc95c46982c0f5d46ed88914b55a/hexo_inpainting-0.4.tar.gz
+[2023-05-01 12:00:01] INFO root fetch - processPackages [hexo-inpainting]: executing diffoscope
+[2023-05-01 12:00:01] INFO root fetch - processPackages [hexo-inpainting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexo_inpainting-0.3.tar.gz tmp/hexo_inpainting-0.4.tar.gz --markdown 20230501/h/hexo-inpainting/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 12:00:02] INFO root fetch - processPackages [autocog]: Downloading https://files.pythonhosted.org/packages/fa/60/d34e9e4d694ba25aff5279ae88d6d9793a8e56b741df5dfb9f34d81dad37/autocog-0.0.5.tar.gz
+[2023-05-01 12:00:02] INFO root fetch - processPackages [autocog]: executing diffoscope
+[2023-05-01 12:00:02] INFO root fetch - processPackages [autocog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocog-0.0.4.tar.gz tmp/autocog-0.0.5.tar.gz --markdown 20230501/a/autocog/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 12:00:02] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
+[2023-05-01 12:00:03] INFO root fetch - main [MainThread]: End processing [autocog]: success
+[2023-05-01 12:00:03] INFO root fetch - main [MainThread]: Store serial: [17924634]
