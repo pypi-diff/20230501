@@ -5829,3 +5829,68 @@
 [2023-05-01 10:07:17] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-05-01 10:07:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-donation]: success
 [2023-05-01 10:07:17] INFO root fetch - main [MainThread]: Store serial: [17923894]
+[2023-05-01 10:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923894]
+[2023-05-01 10:12:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snk
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-yoav-plus-minus-simplification
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cercis
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: overloaded-iterables
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cashfree-lrs-client
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-poe-chat
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polar-api
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CVAugmentor
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: panda-client
+[2023-05-01 10:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: starrail
+[2023-05-01 10:12:26] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: New version: [20230501.8.7.491844] Old Version: [20230501.7.5.597961]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [cashfree-lrs-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [snk]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.16] Old Version: [0.7.14]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [polar-api]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-01 10:12:26] WARNING root fetch - processPackages [cercis]: Skipping, unable to determine old version
+[2023-05-01 10:12:26] INFO root fetch - processPackages [cercis]: Start processing: pddl-plus-parser
+[2023-05-01 10:12:26] INFO root fetch - main [MainThread]: End processing [cercis] error
+[2023-05-01 10:12:26] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [starrail]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [pddl-plus-parser]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-05-01 10:12:26] INFO root fetch - processPackages [starrail]: executing diffoscope
+[2023-05-01 10:12:26] INFO root fetch - processPackages [starrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starrail-0.0.1.tar.gz tmp/starrail-0.0.2.tar.gz --markdown 20230501/s/starrail/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 10:12:26] INFO root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Downloading https://files.pythonhosted.org/packages/f1/35/6850dbb8a89cc7a14841bfd16064706ae0af26349e41a1a50146db4bd345/certora-cli-alpha-yoav-plus_minus_simplification-20230501.7.5.597961.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/fe/9b/478f2453df3749eecc9257cfd4bd090557e5f8c997df18e09a20facf207d/nonebot_poe_chat-1.1.4.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/1f/21/72cd11b8b9b37e54757299053d7c2420023000b2f876ce2e78c5f46f67d3/overloaded-iterables-0.7.16.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [cashfree-lrs-client]: Downloading https://files.pythonhosted.org/packages/e2/0e/733ec0999c890d02aabd21153ba63322e67f8da5380f91ec8278785d3bcd/cashfree_lrs_client-1.0.3.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [pddl-plus-parser]: executing diffoscope
+[2023-05-01 10:12:26] INFO root fetch - processPackages [pddl-plus-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pddl-plus-parser-3.3.7.tar.gz tmp/pddl-plus-parser-3.3.8.tar.gz --markdown 20230501/p/pddl-plus-parser/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-05-01 10:12:26] INFO root fetch - processPackages [polar-api]: Downloading https://files.pythonhosted.org/packages/df/37/ce262d8f24f1211f5b223d823f71e84dd12597917dc57e3997abe83ec85d/polar_api-0.0.9.tar.gz
+[2023-05-01 10:12:26] WARNING root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Skipping package: exceeds size limit 38299400>=10485760
+[2023-05-01 10:12:26] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13495352>=10485760
+[2023-05-01 10:12:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-plus-minus-simplification] error
+[2023-05-01 10:12:26] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-05-01 10:12:26] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/e6/c3/9df74076ab38d5aa4dbdcce82dd3dc38b2a212e37058ec87e77f33c3f9b8/snk-0.6.0.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/b9/b0/6eb6219678c47cbb89ffc2b44e9de102558029ec97d1984c734f576caead/CVAugmentor-1.0.9.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-05-01 10:12:26] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 10:12:26] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.14.tar.gz tmp/overloaded-iterables-0.7.16.tar.gz --markdown 20230501/o/overloaded-iterables/0.7.14-0.7.16/diff.md --exclude *.pyd
+[2023-05-01 10:12:26] INFO root fetch - processPackages [cashfree-lrs-client]: executing diffoscope
+[2023-05-01 10:12:26] INFO root fetch - processPackages [cashfree-lrs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_lrs_client-1.0.2.tar.gz tmp/cashfree_lrs_client-1.0.3.tar.gz --markdown 20230501/c/cashfree-lrs-client/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 10:12:27] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-01 10:12:27] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.8.tar.gz tmp/CVAugmentor-1.0.9.tar.gz --markdown 20230501/C/CVAugmentor/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 10:12:27] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/6c/05/bd57b2eec224e295988a6dfba9b23ddf3d7ebaf75cb506c61442bedf3251/snk-0.6.1.tar.gz
+[2023-05-01 10:12:27] INFO root fetch - processPackages [polar-api]: Downloading https://files.pythonhosted.org/packages/5d/42/49e6458f48dbc9f0f00206cfef0b3962551b691eb690efe016f28ccbf800/polar_api-1.0.0.tar.gz
+[2023-05-01 10:12:27] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-05-01 10:12:27] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.0.tar.gz tmp/snk-0.6.1.tar.gz --markdown 20230501/s/snk/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 10:12:27] INFO root fetch - processPackages [polar-api]: executing diffoscope
+[2023-05-01 10:12:27] INFO root fetch - processPackages [polar-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polar_api-0.0.9.tar.gz tmp/polar_api-1.0.0.tar.gz --markdown 20230501/p/polar-api/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 10:12:27] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-05-01 10:12:27] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-05-01 10:12:27] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230501/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-05-01 10:12:28] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 10:12:28] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-01 10:12:28] INFO root fetch - main [MainThread]: End processing [polar-api]: success
+[2023-05-01 10:12:28] INFO root fetch - main [MainThread]: End processing [starrail]: success
+[2023-05-01 10:12:28] INFO root fetch - main [MainThread]: End processing [cashfree-lrs-client]: success
+[2023-05-01 10:12:29] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-05-01 10:12:29] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
+[2023-05-01 10:12:31] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-05-01 10:12:31] INFO root fetch - main [MainThread]: Store serial: [17923927]
