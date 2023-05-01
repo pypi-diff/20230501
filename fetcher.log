@@ -3841,3 +3841,45 @@
 [2023-05-01 04:55:56] INFO root fetch - main [MainThread]: End processing [fstflowchat]: success
 [2023-05-01 04:55:56] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-05-01 04:55:56] INFO root fetch - main [MainThread]: Store serial: [17922612]
+[2023-05-01 05:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922612]
+[2023-05-01 05:01:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 05:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils-easy
+[2023-05-01 05:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydrobotdbc
+[2023-05-01 05:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automatize
+[2023-05-01 05:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydmd
+[2023-05-01 05:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CS333-Final-Project
+[2023-05-01 05:01:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prtools
+[2023-05-01 05:01:05] INFO root fetch - processPackages [hydrobotdbc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 05:01:05] INFO root fetch - processPackages [automatize]: New version: [1.0b5] Old Version: [1.0b4]
+[2023-05-01 05:01:05] INFO root fetch - processPackages [utils-easy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 05:01:05] INFO root fetch - processPackages [pydmd]: New version: [0.4.1.post2305] Old Version: [0.4.1.post2304]
+[2023-05-01 05:01:05] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 05:01:05] INFO root fetch - processPackages [prtools]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-01 05:01:05] INFO root fetch - processPackages [hydrobotdbc]: Downloading https://files.pythonhosted.org/packages/dd/2a/90c598e700ef017a121678dc5ff1d39c94043143e0e2715f4d398ce71799/hydrobotdbc-0.0.8.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [pydmd]: Downloading https://files.pythonhosted.org/packages/31/33/df5ae4082b5d1fbf71f7b0056ad6f086e009f42486532798e0595c847c9d/pydmd-0.4.1.post2304.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/24/a7/29e584bafa8572915dba45339a42147f5ea3c39086ebbe3f0b962db826c8/automatize-1.0b5.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [CS333-Final-Project]: Downloading https://files.pythonhosted.org/packages/3f/7d/56c8809791dd65917a18640a05309786767426ca014ca74ff30e3aa4f348/CS333-Final-Project-0.0.4.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [prtools]: Downloading https://files.pythonhosted.org/packages/e1/e6/13ccca4ff90fd3fc34ade7560c128b1f963a5fa13a6376726d3029c09b8b/prtools-0.0.1.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-01 05:01:05] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.3.tar.gz tmp/CS333-Final-Project-0.0.4.tar.gz --markdown 20230501/C/CS333-Final-Project/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 05:01:05] INFO root fetch - processPackages [utils-easy]: Downloading https://files.pythonhosted.org/packages/7d/47/8d87d69be9b8b45458edf9efb3af62bc52b7a3f290e89703454270c9d6fd/utils_easy-0.0.3.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [utils-easy]: executing diffoscope
+[2023-05-01 05:01:05] INFO root fetch - processPackages [utils-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_easy-0.0.2.tar.gz tmp/utils_easy-0.0.3.tar.gz --markdown 20230501/u/utils-easy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 05:01:05] INFO root fetch - processPackages [pydmd]: Downloading https://files.pythonhosted.org/packages/d9/3c/e641721c25faf46d9c1467af3bd1a80018ada4505ddf7f4fe02eb61e5224/pydmd-0.4.1.post2305.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [hydrobotdbc]: Downloading https://files.pythonhosted.org/packages/cd/a8/5139811a0aed629b52887d9a9ae41994eb5ca08952a8b5e383c7f8b07451/hydrobotdbc-0.0.9.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [prtools]: Downloading https://files.pythonhosted.org/packages/d3/58/82ee4aad717e17403a917b4ea556b8844809f23426eddd4f1ddf7d49ce8e/prtools-1.0.0.tar.gz
+[2023-05-01 05:01:05] INFO root fetch - processPackages [hydrobotdbc]: executing diffoscope
+[2023-05-01 05:01:05] INFO root fetch - processPackages [hydrobotdbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrobotdbc-0.0.8.tar.gz tmp/hydrobotdbc-0.0.9.tar.gz --markdown 20230501/h/hydrobotdbc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 05:01:05] INFO root fetch - processPackages [pydmd]: executing diffoscope
+[2023-05-01 05:01:05] INFO root fetch - processPackages [pydmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmd-0.4.1.post2304.tar.gz tmp/pydmd-0.4.1.post2305.tar.gz --markdown 20230501/p/pydmd/0.4.1.post2304-0.4.1.post2305/diff.md --exclude *.pyd
+[2023-05-01 05:01:06] INFO root fetch - processPackages [automatize]: executing diffoscope
+[2023-05-01 05:01:06] INFO root fetch - processPackages [automatize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatize-1.0b4.tar.gz tmp/automatize-1.0b5.tar.gz --markdown 20230501/a/automatize/1.0b4-1.0b5/diff.md --exclude *.pyd
+[2023-05-01 05:01:06] INFO root fetch - processPackages [prtools]: executing diffoscope
+[2023-05-01 05:01:06] INFO root fetch - processPackages [prtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prtools-0.0.1.tar.gz tmp/prtools-1.0.0.tar.gz --markdown 20230501/p/prtools/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 05:01:06] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-01 05:01:06] INFO root fetch - main [MainThread]: End processing [utils-easy]: success
+[2023-05-01 05:01:06] INFO root fetch - main [MainThread]: End processing [hydrobotdbc]: success
+[2023-05-01 05:01:07] INFO root fetch - main [MainThread]: End processing [prtools]: success
+[2023-05-01 05:01:07] INFO root fetch - main [MainThread]: End processing [pydmd]: success
+[2023-05-01 05:01:09] INFO root fetch - main [MainThread]: End processing [automatize]: success
+[2023-05-01 05:01:09] INFO root fetch - main [MainThread]: Store serial: [17922631]
