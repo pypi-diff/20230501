@@ -4274,3 +4274,33 @@
 [2023-05-01 06:11:39] INFO root fetch - main [MainThread]: End processing [requests-toolbelt]: success
 [2023-05-01 06:11:49] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-01 06:11:49] INFO root fetch - main [MainThread]: Store serial: [17922899]
+[2023-05-01 06:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922899]
+[2023-05-01 06:17:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 06:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soremoji
+[2023-05-01 06:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantecon-book-theme
+[2023-05-01 06:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-05-01 06:17:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dank-mids
+[2023-05-01 06:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coco-types
+[2023-05-01 06:17:01] WARNING root fetch - processPackages [soremoji]: Skipping, unable to determine old version
+[2023-05-01 06:17:01] INFO root fetch - main [MainThread]: End processing [soremoji] error
+[2023-05-01 06:17:01] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-05-01 06:17:01] INFO root fetch - processPackages [quantecon-book-theme]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-01 06:17:01] INFO root fetch - processPackages [coco-types]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 06:17:01] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-01 06:17:01] INFO root fetch - processPackages [coco-types]: Downloading https://files.pythonhosted.org/packages/f0/02/ba05e734edeb4ef2db2e86cd73e4596d6a336420dd5196d673d933458eea/coco_types-0.0.8.tar.gz
+[2023-05-01 06:17:01] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/04/c2/c1abcf9546a32e3a7d8515d3f117601fbfa852f369e6ba05292145f28a40/quantecon-book-theme-0.4.2.tar.gz
+[2023-05-01 06:17:01] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-05-01 06:17:01] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230501/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-05-01 06:17:01] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-01 06:17:01] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230501/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-01 06:17:02] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-05-01 06:17:02] INFO root fetch - processPackages [quantecon-book-theme]: Downloading https://files.pythonhosted.org/packages/0d/64/dd19cb92e84048857defd4e97409293844d872d09532e556bf12d7ae831b/quantecon-book-theme-0.4.3.tar.gz
+[2023-05-01 06:17:02] INFO root fetch - processPackages [coco-types]: Downloading https://files.pythonhosted.org/packages/38/ca/d258bf3278586514c7bdcc42b8e54b4d14180056419ff16562b8d9b4d7ba/coco_types-0.0.9.tar.gz
+[2023-05-01 06:17:02] INFO root fetch - processPackages [quantecon-book-theme]: executing diffoscope
+[2023-05-01 06:17:02] INFO root fetch - processPackages [quantecon-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantecon-book-theme-0.4.2.tar.gz tmp/quantecon-book-theme-0.4.3.tar.gz --markdown 20230501/q/quantecon-book-theme/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-01 06:17:03] INFO root fetch - processPackages [coco-types]: executing diffoscope
+[2023-05-01 06:17:03] INFO root fetch - processPackages [coco-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_types-0.0.8.tar.gz tmp/coco_types-0.0.9.tar.gz --markdown 20230501/c/coco-types/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 06:17:03] INFO root fetch - main [MainThread]: End processing [quantecon-book-theme]: success
+[2023-05-01 06:17:04] INFO root fetch - main [MainThread]: End processing [coco-types]: success
+[2023-05-01 06:17:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-01 06:17:04] INFO root fetch - main [MainThread]: Store serial: [17922915]
