@@ -6066,3 +6066,54 @@
 [2023-05-01 10:33:27] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py]: success
 [2023-05-01 10:33:50] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-05-01 10:33:50] INFO root fetch - main [MainThread]: Store serial: [17924014]
+[2023-05-01 10:38:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924014]
+[2023-05-01 10:39:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: palmers-preprocess
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wikiserieswillemlib
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authomize-rest-api-client
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revChatGPT
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redisbench-admin
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-estimator-nightly
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bel-digital-handwriting-py
+[2023-05-01 10:39:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thunno2
+[2023-05-01 10:39:02] INFO root fetch - processPackages [wikiserieswillemlib]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [palmers-preprocess]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [redisbench-admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [thunno2]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [3.2.0] Old Version: [3.1.7]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [bel-digital-handwriting-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [revChatGPT]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-01 10:39:02] INFO root fetch - processPackages [wikiserieswillemlib]: Downloading https://files.pythonhosted.org/packages/5f/88/1410e37076880ed0e9e78ef4b214fe477054dbd61783beaa35607c9d9675/wikiserieswillemlib-0.1.0.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [redisbench-admin]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [redisbench-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redisbench-admin-0.9.8.tar.gz tmp/redisbench-admin-0.9.9.tar.gz --markdown 20230501/r/redisbench-admin/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 10:39:02] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/c5/d0/5322f49a6e652326e40ca26d2d2678c5dbc38e6439c21a9b94594c521f1c/thunno2-2.1.6.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/db/e4/8024ed09b5f4438f1e900ecbd90972066efb8dc6c9c3428f587e85e3ea23/revChatGPT-5.0.0.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [authomize-rest-api-client]: Downloading https://files.pythonhosted.org/packages/62/2d/7650923203346cff36deb3f98ca37b386f992e8bcedd217aa87389c25033/authomize-rest-api-client-3.2.0.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230501/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-01 10:39:02] INFO root fetch - processPackages [palmers-preprocess]: Downloading https://files.pythonhosted.org/packages/86/62/67b1e01275259a8c69ef12e8ed2d1d84e0f008dc6bb6bb34f56b8184edc5/palmers_preprocess-0.0.5.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-3.1.7.tar.gz tmp/authomize-rest-api-client-3.2.0.tar.gz --markdown 20230501/a/authomize-rest-api-client/3.1.7-3.2.0/diff.md --exclude *.pyd
+[2023-05-01 10:39:02] INFO root fetch - processPackages [bel-digital-handwriting-py]: Downloading https://files.pythonhosted.org/packages/0f/86/aaf9602e233b76639ac4a03d73e34b913128316153bf4990728f94c09921/bel-digital-handwriting-py-0.0.5.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [palmers-preprocess]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [palmers-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_preprocess-0.0.4.tar.gz tmp/palmers_preprocess-0.0.5.tar.gz --markdown 20230501/p/palmers-preprocess/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 10:39:02] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.1.5.tar.gz tmp/thunno2-2.1.6.tar.gz --markdown 20230501/t/thunno2/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-01 10:39:02] INFO root fetch - processPackages [wikiserieswillemlib]: Downloading https://files.pythonhosted.org/packages/b0/df/6a443bd96477446fc55692402f7a2287c754da1851e8ae65e963ff3bc966/wikiserieswillemlib-0.2.0.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [wikiserieswillemlib]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [wikiserieswillemlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikiserieswillemlib-0.1.0.tar.gz tmp/wikiserieswillemlib-0.2.0.tar.gz --markdown 20230501/w/wikiserieswillemlib/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 10:39:02] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/e1/66/3a6f80cd76be0e42822910ab55ba77ff04aa9fec1b8eb5c36b8c8aeafcb7/revChatGPT-5.0.1.tar.gz
+[2023-05-01 10:39:02] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-05-01 10:39:02] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-5.0.0.tar.gz tmp/revChatGPT-5.0.1.tar.gz --markdown 20230501/r/revChatGPT/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-01 10:39:03] INFO root fetch - processPackages [bel-digital-handwriting-py]: executing diffoscope
+[2023-05-01 10:39:03] INFO root fetch - processPackages [bel-digital-handwriting-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bel-digital-handwriting-py-0.0.4.tar.gz tmp/bel-digital-handwriting-py-0.0.5.tar.gz --markdown 20230501/b/bel-digital-handwriting-py/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 10:39:03] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-05-01 10:39:04] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-05-01 10:39:04] INFO root fetch - main [MainThread]: End processing [wikiserieswillemlib]: success
+[2023-05-01 10:39:05] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-05-01 10:39:05] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-01 10:39:06] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
+[2023-05-01 10:39:06] INFO root fetch - main [MainThread]: End processing [palmers-preprocess]: success
+[2023-05-01 10:39:08] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py]: success
+[2023-05-01 10:39:08] INFO root fetch - main [MainThread]: Store serial: [17924035]
