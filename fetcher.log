@@ -12636,3 +12636,85 @@ EOFError: EOF read where object expected
 [2023-05-01 16:44:58] INFO root fetch - main [MainThread]: End processing [zenrows]: success
 [2023-05-01 16:45:03] INFO root fetch - main [MainThread]: End processing [galaxygrad]: success
 [2023-05-01 16:45:03] INFO root fetch - main [MainThread]: Store serial: [17927766]
+[2023-05-01 16:50:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927766]
+[2023-05-01 16:50:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 16:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synapgrad
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OWR
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellpy
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galaxygrad
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krbjack
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-interface-tester
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: owo-info
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afloat
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infisical
+[2023-05-01 16:50:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redisbench-admin
+[2023-05-01 16:50:22] INFO root fetch - processPackages [galaxygrad]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [OWR]: New version: [0.5] Old Version: [0.4.0]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [owo-info]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [afloat]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [redisbench-admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [owo-info]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [owo-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owo_info-0.0.0.tar.gz tmp/owo_info-0.0.1.tar.gz --markdown 20230501/o/owo-info/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [cellpy]: New version: [1.0.0a0] Old Version: [0.4.3a3]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [krbjack]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [synapgrad]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-01 16:50:22] WARNING root fetch - processPackages [pytest-interface-tester]: Skipping, unable to determine old version
+[2023-05-01 16:50:22] INFO root fetch - processPackages [pytest-interface-tester]: Start processing: wds-client
+[2023-05-01 16:50:22] INFO root fetch - main [MainThread]: End processing [pytest-interface-tester] error
+[2023-05-01 16:50:22] INFO root fetch - processPackages [infisical]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [redisbench-admin]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [redisbench-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redisbench-admin-0.9.8.tar.gz tmp/redisbench-admin-0.9.9.tar.gz --markdown 20230501/r/redisbench-admin/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [afloat]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [afloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afloat-0.0.8.tar.gz tmp/afloat-0.0.9.tar.gz --markdown 20230501/a/afloat/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [galaxygrad]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [galaxygrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxygrad-0.0.4.tar.gz tmp/galaxygrad-0.0.5.tar.gz --markdown 20230501/g/galaxygrad/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/dd/8e/b9070a38c71681cd6971750281e6f44a5eb70c9597679b2edebcd2e0c09a/OWR-0.5.tar.gz
+[2023-05-01 16:50:22] INFO root fetch - processPackages [wds-client]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-01 16:50:22] INFO root fetch - processPackages [synapgrad]: Downloading https://files.pythonhosted.org/packages/ba/d9/18980d5a61188bfee1d23105c0d64454ed4959dc0948f7b2b9e54e1d295b/synapgrad-0.2.9-py3-none-any.whl
+[2023-05-01 16:50:22] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-0.4.0.tar.gz tmp/OWR-0.5.tar.gz --markdown 20230501/O/OWR/0.4.0-0.5/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [krbjack]: Downloading https://files.pythonhosted.org/packages/f7/2e/08a862db35f534e298c4ff9ef6947557b1a7c8634b745b83caa821df04b7/krbjack-1.0.2.tar.gz
+[2023-05-01 16:50:22] INFO root fetch - processPackages [cellpy]: Downloading https://files.pythonhosted.org/packages/a8/e0/97c9aec8feb89a9ebb6048b6343abc3604c8624fee0d8ce544de10df4b09/cellpy-1.0.0a0.tar.gz
+[2023-05-01 16:50:22] INFO root fetch - processPackages [infisical]: Downloading https://files.pythonhosted.org/packages/7e/91/753a511b52515971e8b45637ee043bcf81787bd8aed80b50d439f9178d01/infisical-1.2.0.tar.gz
+[2023-05-01 16:50:22] INFO root fetch - processPackages [synapgrad]: Downloading https://files.pythonhosted.org/packages/5b/d5/b3d23b3cf6e583e40c8b08b317279c9c23ec3b92567bd2294c428b6d6028/synapgrad-0.3.0-py3-none-any.whl
+[2023-05-01 16:50:22] INFO root fetch - processPackages [krbjack]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [krbjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krbjack-1.0.1.tar.gz tmp/krbjack-1.0.2.tar.gz --markdown 20230501/k/krbjack/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [infisical]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [infisical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infisical-1.1.0.tar.gz tmp/infisical-1.2.0.tar.gz --markdown 20230501/i/infisical/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds-client-0.2.7.tar.gz tmp/wds-client-0.2.8.tar.gz --markdown 20230501/w/wds-client/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [cellpy]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [cellpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellpy-0.4.3a3.tar.gz tmp/cellpy-1.0.0a0.tar.gz --markdown 20230501/c/cellpy/0.4.3a3-1.0.0a0/diff.md --exclude *.pyd
+[2023-05-01 16:50:22] INFO root fetch - processPackages [synapgrad]: executing diffoscope
+[2023-05-01 16:50:22] INFO root fetch - processPackages [synapgrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapgrad-0.2.9-py3-none-any.whl.zip tmp/synapgrad-0.3.0-py3-none-any.whl.zip --markdown 20230501/s/synapgrad/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 16:50:23] INFO root fetch - processPackages [owo-info]: Start processing: enhancedocs
+[2023-05-01 16:50:23] INFO root fetch - main [MainThread]: End processing [owo-info]: success
+[2023-05-01 16:50:23] INFO root fetch - processPackages [enhancedocs]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-01 16:50:23] INFO root fetch - processPackages [OWR]: Start processing: NewareNDA
+[2023-05-01 16:50:23] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-01 16:50:23] INFO root fetch - processPackages [afloat]: Start processing: datalad-installer
+[2023-05-01 16:50:23] INFO root fetch - main [MainThread]: End processing [afloat]: success
+[2023-05-01 16:50:23] INFO root fetch - processPackages [NewareNDA]: New version: [2023.5.1] Old Version: [2023.4.14]
+[2023-05-01 16:50:23] INFO root fetch - processPackages [datalad-installer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-01 16:50:23] INFO root fetch - processPackages [NewareNDA]: Downloading https://files.pythonhosted.org/packages/1c/d1/c9b09814590487ec36001cb156746dd1272decb538b857aaf06478e67516/NewareNDA-2023.4.14-py3-none-any.whl
+[2023-05-01 16:50:23] INFO root fetch - processPackages [enhancedocs]: Downloading https://files.pythonhosted.org/packages/6c/f6/97299bbfa449c8b90b6c6a72032aa0844eacf584d50883566b979bef2089/enhancedocs-0.5.4.tar.gz
+[2023-05-01 16:50:24] INFO root fetch - processPackages [enhancedocs]: executing diffoscope
+[2023-05-01 16:50:24] INFO root fetch - processPackages [enhancedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhancedocs-0.5.3.tar.gz tmp/enhancedocs-0.5.4.tar.gz --markdown 20230501/e/enhancedocs/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-01 16:50:24] INFO root fetch - processPackages [datalad-installer]: Downloading https://files.pythonhosted.org/packages/af/62/6ea42e32dfa6aaf274792d0fa3f00c5991e0cf6252f358b6f51d3d599817/datalad-installer-0.9.1.tar.gz
+[2023-05-01 16:50:24] INFO root fetch - main [MainThread]: End processing [krbjack]: success
+[2023-05-01 16:50:24] INFO root fetch - main [MainThread]: End processing [synapgrad]: success
+[2023-05-01 16:50:24] INFO root fetch - processPackages [NewareNDA]: Downloading https://files.pythonhosted.org/packages/e9/c8/904b3b7ede2ef3148d2b7446bfceeb37a8d1e61863cb375afd3548126d3c/NewareNDA-2023.5.1-py3-none-any.whl
+[2023-05-01 16:50:24] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2023-05-01 16:50:24] INFO root fetch - processPackages [NewareNDA]: executing diffoscope
+[2023-05-01 16:50:24] INFO root fetch - processPackages [NewareNDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewareNDA-2023.4.14-py3-none-any.whl.zip tmp/NewareNDA-2023.5.1-py3-none-any.whl.zip --markdown 20230501/N/NewareNDA/2023.4.14-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 16:50:24] INFO root fetch - processPackages [datalad-installer]: Downloading https://files.pythonhosted.org/packages/84/2b/ea8d4c762a45092baeee150ebfd800b98d77fdacdeef2b19f9952ad467d8/datalad-installer-0.9.2.tar.gz
+[2023-05-01 16:50:24] INFO root fetch - main [MainThread]: End processing [infisical]: success
+[2023-05-01 16:50:24] INFO root fetch - processPackages [datalad-installer]: executing diffoscope
+[2023-05-01 16:50:24] INFO root fetch - processPackages [datalad-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad-installer-0.9.1.tar.gz tmp/datalad-installer-0.9.2.tar.gz --markdown 20230501/d/datalad-installer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-01 16:50:25] INFO root fetch - main [MainThread]: End processing [enhancedocs]: success
+[2023-05-01 16:50:25] INFO root fetch - main [MainThread]: End processing [NewareNDA]: success
+[2023-05-01 16:50:25] INFO root fetch - main [MainThread]: End processing [datalad-installer]: success
+[2023-05-01 16:50:28] INFO root fetch - main [MainThread]: End processing [cellpy]: success
+[2023-05-01 16:50:28] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
+[2023-05-01 16:50:30] INFO root fetch - main [MainThread]: End processing [galaxygrad]: success
+[2023-05-01 16:50:30] INFO root fetch - main [MainThread]: Store serial: [17927814]
