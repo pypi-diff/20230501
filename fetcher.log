@@ -4834,3 +4834,34 @@
 [2023-05-01 07:59:31] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
 [2023-05-01 07:59:31] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
 [2023-05-01 07:59:31] INFO root fetch - main [MainThread]: Store serial: [17923216]
+[2023-05-01 08:04:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923216]
+[2023-05-01 08:04:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 08:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dumbvector
+[2023-05-01 08:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: overloaded-iterables
+[2023-05-01 08:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: overloaded-iterables
+[2023-05-01 08:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jmespath-community
+[2023-05-01 08:04:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nwebclient
+[2023-05-01 08:04:40] INFO root fetch - processPackages [jmespath-community]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.14] Old Version: [0.7.12]
+[2023-05-01 08:04:40] INFO root fetch - processPackages [nwebclient]: New version: [1.0.80] Old Version: [1.0.79]
+[2023-05-01 08:04:40] WARNING root fetch - processPackages [dumbvector]: Skipping, unable to determine old version
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: New version: [0.7.14] Old Version: [0.7.12]
+[2023-05-01 08:04:40] INFO root fetch - main [MainThread]: End processing [dumbvector] error
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/fa/03/c18bb91b8effcd3764278fc1add4da8d1d3f9ba60ad54357f2563f77a622/overloaded-iterables-0.7.14.tar.gz
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: Downloading https://files.pythonhosted.org/packages/fa/03/c18bb91b8effcd3764278fc1add4da8d1d3f9ba60ad54357f2563f77a622/overloaded-iterables-0.7.14.tar.gz
+[2023-05-01 08:04:40] INFO root fetch - processPackages [jmespath-community]: Downloading https://files.pythonhosted.org/packages/2b/2f/b5e6565b42e55bf245e9fc03172b2b24ea6a5455c7a274ddac2db5564016/jmespath-community-1.1.1.tar.gz
+[2023-05-01 08:04:40] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/c3/7f/95485e71ef2d6aafaac2e73e0c31391364687e6b91f9c2b4bd9022c12dd5/nwebclient-1.0.80.tar.gz
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.12.tar.gz tmp/overloaded-iterables-0.7.14.tar.gz --markdown 20230501/o/overloaded-iterables/0.7.12-0.7.14/diff.md --exclude *.pyd
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: executing diffoscope
+[2023-05-01 08:04:40] INFO root fetch - processPackages [overloaded-iterables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overloaded-iterables-0.7.12.tar.gz tmp/overloaded-iterables-0.7.14.tar.gz --markdown 20230501/o/overloaded-iterables/0.7.12-0.7.14/diff.md --exclude *.pyd
+[2023-05-01 08:04:40] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-01 08:04:40] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.79.tar.gz tmp/nwebclient-1.0.80.tar.gz --markdown 20230501/n/nwebclient/1.0.79-1.0.80/diff.md --exclude *.pyd
+[2023-05-01 08:04:40] INFO root fetch - processPackages [jmespath-community]: Downloading https://files.pythonhosted.org/packages/b8/d4/16a69507cf44f77115b5430422810af1f5798c020ea7943d690f16f160d8/jmespath-community-1.1.2.tar.gz
+[2023-05-01 08:04:40] INFO root fetch - processPackages [jmespath-community]: executing diffoscope
+[2023-05-01 08:04:40] INFO root fetch - processPackages [jmespath-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmespath-community-1.1.1.tar.gz tmp/jmespath-community-1.1.2.tar.gz --markdown 20230501/j/jmespath-community/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-01 08:04:41] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 08:04:41] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-01 08:04:41] INFO root fetch - main [MainThread]: End processing [jmespath-community]: success
+[2023-05-01 08:04:41] INFO root fetch - main [MainThread]: End processing [overloaded-iterables]: success
+[2023-05-01 08:04:41] INFO root fetch - main [MainThread]: Store serial: [17923233]
