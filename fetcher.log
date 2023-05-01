@@ -4304,3 +4304,15 @@
 [2023-05-01 06:17:04] INFO root fetch - main [MainThread]: End processing [coco-types]: success
 [2023-05-01 06:17:04] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-01 06:17:04] INFO root fetch - main [MainThread]: Store serial: [17922915]
+[2023-05-01 06:22:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922915]
+[2023-05-01 06:22:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 06:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bingchatAPI
+[2023-05-01 06:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bingchatAPI
+[2023-05-01 06:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: start-github
+[2023-05-01 06:22:13] WARNING root fetch - processPackages [bingchatAPI]: Skipping, unable to determine old version
+[2023-05-01 06:22:13] INFO root fetch - main [MainThread]: End processing [bingchatAPI] error
+[2023-05-01 06:22:13] WARNING root fetch - processPackages [bingchatAPI]: Skipping, unable to determine old version
+[2023-05-01 06:22:13] INFO root fetch - main [MainThread]: End processing [bingchatAPI] error
+[2023-05-01 06:22:13] WARNING root fetch - processPackages [start-github]: Skipping, unable to determine old version
+[2023-05-01 06:22:13] INFO root fetch - main [MainThread]: End processing [start-github] error
+[2023-05-01 06:22:13] INFO root fetch - main [MainThread]: Store serial: [17922929]
