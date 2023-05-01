@@ -11273,3 +11273,123 @@
 [2023-05-01 15:08:19] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-05-01 15:08:21] INFO root fetch - main [MainThread]: End processing [mangadex-downloader]: success
 [2023-05-01 15:08:21] INFO root fetch - main [MainThread]: Store serial: [17926922]
+[2023-05-01 15:13:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926922]
+[2023-05-01 15:13:29] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: silabeador
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oc-ocdm
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-fumen-py
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jhdata
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-watermarker
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: espnet
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proceso
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fides
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-pandas
+[2023-05-01 15:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spaczz
+[2023-05-01 15:13:29] INFO root fetch - processPackages [py-fumen-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 15:13:30] WARNING root fetch - processPackages [proceso]: Skipping, unable to determine old version
+[2023-05-01 15:13:30] INFO root fetch - processPackages [proceso]: Start processing: insidecouchbase
+[2023-05-01 15:13:30] INFO root fetch - main [MainThread]: End processing [proceso] error
+[2023-05-01 15:13:30] INFO root fetch - processPackages [espnet]: New version: [202301] Old Version: [202211]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [spaczz]: New version: [0.6.0a0] Old Version: [0.5.4]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [insidecouchbase]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [silabeador]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [oc-ocdm]: New version: [7.1.9] Old Version: [7.1.8]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [jhdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nonebot-plugin-watermarker]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [fides]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-01 15:13:30] INFO root fetch - processPackages [spaczz]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [spaczz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaczz-0.5.4.tar.gz tmp/spaczz-0.6.0a0.tar.gz --markdown 20230501/s/spaczz/0.5.4-0.6.0a0/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [insidecouchbase]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [insidecouchbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insidecouchbase-0.0.5.tar.gz tmp/insidecouchbase-0.1.0.tar.gz --markdown 20230501/i/insidecouchbase/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230501/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [espnet]: Downloading https://files.pythonhosted.org/packages/1f/0c/3c8d4c27ac0d8b7f8a02fa20aa713e18ecb8b741d9ddb424274db13ef95a/espnet-202211.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [py-fumen-py]: Downloading https://files.pythonhosted.org/packages/9f/5b/5f7f90150a9227dd13589a691398ac8bf25057f60de3bfd4d3f30210a878/py_fumen_py-0.0.3.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nonebot-plugin-watermarker]: Downloading https://files.pythonhosted.org/packages/c2/da/18524dd78cf167e3e5732f8786a27dd32375fa3012a3fac667a65015da73/nonebot-plugin-watermarker-0.1.0.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [py-fumen-py]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [py-fumen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_py-0.0.2.tar.gz tmp/py_fumen_py-0.0.3.tar.gz --markdown 20230501/p/py-fumen-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [jhdata]: Downloading https://files.pythonhosted.org/packages/c2/5c/79815d0fc079e45b7126932c5ee9d0aa9f9c1e07191455ca45b4d7aa503b/jhdata-1.0.8.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [fides]: Downloading https://files.pythonhosted.org/packages/00/6a/e69442c6ff5a2cd8a1c5398c7c7ea2e658dbe9f056edab644d7f3625333f/fides-0.7.6.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [oc-ocdm]: Downloading https://files.pythonhosted.org/packages/81/7c/a54b997e013aef4db7bb00d5bf680abf33c3b6f5846c3421414d6daa74cd/oc_ocdm-7.1.8.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [silabeador]: Downloading https://files.pythonhosted.org/packages/2e/22/90caefef22fd4baa2b130a052bc1a05581d73017b28c38ea9a2f8ee16e2c/silabeador-1.1.8.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nonebot-plugin-watermarker]: Downloading https://files.pythonhosted.org/packages/b4/5f/50810f310c3af4d8c3fdc4eaa396a40525482147732aa1072c3522a3089f/nonebot-plugin-watermarker-0.1.1.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [fides]: Downloading https://files.pythonhosted.org/packages/12/2c/3ea7680ea402ed3ec1aaf7b72a46e9f22af282a32d67ce2618409c461602/fides-0.7.7.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [espnet]: Downloading https://files.pythonhosted.org/packages/cb/98/bfcfd9225abde8d36688c7d0775e66f0692b55315b25e7014421a040c01f/espnet-202301.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [fides]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fides-0.7.6.tar.gz tmp/fides-0.7.7.tar.gz --markdown 20230501/f/fides/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nonebot-plugin-watermarker]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [nonebot-plugin-watermarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-watermarker-0.1.0.tar.gz tmp/nonebot-plugin-watermarker-0.1.1.tar.gz --markdown 20230501/n/nonebot-plugin-watermarker/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [jhdata]: Downloading https://files.pythonhosted.org/packages/80/e3/ddbeca24baab4d889b7a8e3c17240ef0ab9144556172f2f9a63e67a96df6/jhdata-1.0.9.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [silabeador]: Downloading https://files.pythonhosted.org/packages/60/85/b389238a09639eb0f6e386e46781eed898b8ad9ce0ae7d95829de2dd15a7/silabeador-1.1.9.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [oc-ocdm]: Downloading https://files.pythonhosted.org/packages/bd/cb/2ff41e8d4621489f46a10c0d4087273899da894461046a72a0f6839f1e8b/oc_ocdm-7.1.9.tar.gz
+[2023-05-01 15:13:30] INFO root fetch - processPackages [silabeador]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [silabeador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silabeador-1.1.8.tar.gz tmp/silabeador-1.1.9.tar.gz --markdown 20230501/s/silabeador/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-01 15:13:30] INFO root fetch - processPackages [espnet]: executing diffoscope
+[2023-05-01 15:13:30] INFO root fetch - processPackages [espnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espnet-202211.tar.gz tmp/espnet-202301.tar.gz --markdown 20230501/e/espnet/202211-202301/diff.md --exclude *.pyd
+[2023-05-01 15:13:31] INFO root fetch - processPackages [oc-ocdm]: executing diffoscope
+[2023-05-01 15:13:31] INFO root fetch - processPackages [oc-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_ocdm-7.1.8.tar.gz tmp/oc_ocdm-7.1.9.tar.gz --markdown 20230501/o/oc-ocdm/7.1.8-7.1.9/diff.md --exclude *.pyd
+[2023-05-01 15:13:31] INFO root fetch - processPackages [jhdata]: executing diffoscope
+[2023-05-01 15:13:31] INFO root fetch - processPackages [jhdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhdata-1.0.8.tar.gz tmp/jhdata-1.0.9.tar.gz --markdown 20230501/j/jhdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-pandas]: Start processing: embedbase-client
+[2023-05-01 15:13:31] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-01 15:13:31] INFO root fetch - processPackages [spaczz]: Start processing: nbdev-pytorch
+[2023-05-01 15:13:31] INFO root fetch - main [MainThread]: End processing [spaczz]: success
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:13:31] WARNING root fetch - processPackages [embedbase-client]: Skipping, unable to determine old version
+[2023-05-01 15:13:31] INFO root fetch - processPackages [embedbase-client]: Start processing: nbdev-scipy
+[2023-05-01 15:13:31] INFO root fetch - main [MainThread]: End processing [embedbase-client] error
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:13:31] INFO root fetch - processPackages [py-fumen-py]: Start processing: span-marker
+[2023-05-01 15:13:31] INFO root fetch - main [MainThread]: End processing [py-fumen-py]: success
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230501/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-01 15:13:31] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230501/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:13:31] INFO root fetch - processPackages [span-marker]: New version: [1.0.0] Old Version: [0.2.2]
+[2023-05-01 15:13:32] INFO root fetch - processPackages [insidecouchbase]: Start processing: mnm
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [insidecouchbase]: success
+[2023-05-01 15:13:32] INFO root fetch - processPackages [span-marker]: Downloading https://files.pythonhosted.org/packages/6b/ac/66a5c011e8f736b10dbc510c264f4274c336426b7e01625a2b32632410c5/span_marker-0.2.2.tar.gz
+[2023-05-01 15:13:32] INFO root fetch - processPackages [fides]: Start processing: wikiserieswillemcli
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [fides]: success
+[2023-05-01 15:13:32] WARNING root fetch - processPackages [wikiserieswillemcli]: Skipping, unable to determine old version
+[2023-05-01 15:13:32] INFO root fetch - processPackages [wikiserieswillemcli]: Start processing: hoppr-security-commons
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [wikiserieswillemcli] error
+[2023-05-01 15:13:32] WARNING root fetch - processPackages [mnm]: Skipping, unable to determine old version
+[2023-05-01 15:13:32] INFO root fetch - processPackages [mnm]: Start processing: c2cwsgiutils
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [mnm] error
+[2023-05-01 15:13:32] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 15:13:32] INFO root fetch - processPackages [c2cwsgiutils]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-05-01 15:13:32] INFO root fetch - processPackages [nonebot-plugin-watermarker]: Start processing: aacommpy
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-watermarker]: success
+[2023-05-01 15:13:32] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 15:13:32] INFO root fetch - processPackages [span-marker]: Downloading https://files.pythonhosted.org/packages/52/be/e544721ebf3c67f49ea5d2eeba550852e219138c47e0d74c2d6676bcd5e4/span_marker-1.0.0.tar.gz
+[2023-05-01 15:13:32] INFO root fetch - processPackages [silabeador]: Start processing: certora-cli-alpha-alexstolr-or-ruleEvents
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [silabeador]: success
+[2023-05-01 15:13:32] WARNING root fetch - processPackages [certora-cli-alpha-alexstolr-or-ruleEvents]: Skipping, unable to determine old version
+[2023-05-01 15:13:32] INFO root fetch - processPackages [certora-cli-alpha-alexstolr-or-ruleEvents]: Start processing: nbdev-sphinx
+[2023-05-01 15:13:32] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alexstolr-or-ruleEvents] error
+[2023-05-01 15:13:32] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:13:32] INFO root fetch - processPackages [span-marker]: executing diffoscope
+[2023-05-01 15:13:32] INFO root fetch - processPackages [span-marker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/span_marker-0.2.2.tar.gz tmp/span_marker-1.0.0.tar.gz --markdown 20230501/s/span-marker/0.2.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 15:13:32] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-01 15:13:32] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230501/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 15:13:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/00/0c/5aed31bbbef2c017b7316cffb0dada856962d2356c49fc8948209f5adb84/c2cwsgiutils-5.2.1.tar.gz
+[2023-05-01 15:13:32] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-01 15:13:32] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230501/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:13:32] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2023-05-01 15:13:32] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.8.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20230501/h/hoppr-security-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 15:13:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/55/93/2e4f992a13695d7fbb2850755523ce47803febe908b690ecebf49fe4ab9c/c2cwsgiutils-5.2.2.tar.gz
+[2023-05-01 15:13:33] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-05-01 15:13:33] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-5.2.1.tar.gz tmp/c2cwsgiutils-5.2.2.tar.gz --markdown 20230501/c/c2cwsgiutils/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-05-01 15:13:33] INFO root fetch - main [MainThread]: End processing [jhdata]: success
+[2023-05-01 15:13:33] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-01 15:13:33] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2023-05-01 15:13:33] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-01 15:13:34] INFO root fetch - main [MainThread]: End processing [span-marker]: success
+[2023-05-01 15:13:34] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-05-01 15:13:34] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-01 15:13:34] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-01 15:13:34] INFO root fetch - main [MainThread]: End processing [oc-ocdm]: success
+[2023-05-01 15:13:39] INFO root fetch - main [MainThread]: End processing [espnet]: success
+[2023-05-01 15:13:39] INFO root fetch - main [MainThread]: Store serial: [17926989]
