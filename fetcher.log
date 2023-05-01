@@ -15176,3 +15176,105 @@ EOFError: EOF read where object expected
 [2023-05-01 19:28:28] INFO root fetch - main [MainThread]: End processing [vegafusion-python-embed]: success
 [2023-05-01 19:30:14] INFO root fetch - main [MainThread]: End processing [vegafusion-jupyter]: success
 [2023-05-01 19:30:14] INFO root fetch - main [MainThread]: Store serial: [17929493]
+[2023-05-01 19:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929493]
+[2023-05-01 19:35:37] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libsrg
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-eyalf-split-CallTrace-loop
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfscanner
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovito
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pynamer
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: issue-db-api
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicsnovault
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opal-common
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opal-client
+[2023-05-01 19:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opal-server
+[2023-05-01 19:35:37] INFO root fetch - processPackages [libsrg]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-01 19:35:37] WARNING root fetch - processPackages [pynamer]: Skipping, unable to determine old version
+[2023-05-01 19:35:37] INFO root fetch - processPackages [pynamer]: Start processing: musiclang
+[2023-05-01 19:35:37] INFO root fetch - main [MainThread]: End processing [pynamer] error
+[2023-05-01 19:35:38] INFO root fetch - processPackages [cfscanner]: New version: [1.3.15] Old Version: [1.3.14]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [certora-cli-alpha-eyalf-split-CallTrace-loop]: New version: [20230501.17.30.174908] Old Version: [20230501.14.54.596944]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [issue-db-api]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-client]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-server]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [ovito]: New version: [3.8.4.dev13] Old Version: [3.8.3]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [musiclang]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-common]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [dcicsnovault]: New version: [8.0.1.0b3] Old Version: [8.0.1.0b2]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/c8/ad/6d3db954db3400c3d8b193433003efdc6c002b60d96731ab6c13ffeb0178/libsrg-3.3.0-py3-none-any.whl
+[2023-05-01 19:35:38] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/98/eb/85354e753d7440cbae2df3dbc4fb34eda3b7fefc4182431cf7f72c3b97e6/cfscanner-1.3.14.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-client]: Downloading https://files.pythonhosted.org/packages/90/45/810ba2c647f82820bfe181b07920cc889d9a9a817184b20a0197c7941e82/opal-client-0.6.0.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [certora-cli-alpha-eyalf-split-CallTrace-loop]: Downloading https://files.pythonhosted.org/packages/12/3f/932f8b458756e76c3af001794bfe3c9b18125511d657c196e5e3a75bc5e0/certora-cli-alpha-eyalf-split-CallTrace-loop-20230501.14.54.596944.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-server]: Downloading https://files.pythonhosted.org/packages/04/e6/06850c7c2c977b775daf7acb2250c650496472c992dc6f1f637340491296/opal-server-0.6.0.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/77/cf/c3448d6652bda48e0b75ad14224a23ae47c8f67db5c05f3f11a4d984cf98/ovito-3.8.3-cp39-cp39-win_amd64.whl
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-common]: Downloading https://files.pythonhosted.org/packages/fc/52/48aceb20dd8bddb0d773654c151063af20382662af482c10722d1c165f9e/opal-common-0.6.0.tar.gz
+[2023-05-01 19:35:38] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 75692358>=10485760
+[2023-05-01 19:35:38] INFO root fetch - processPackages [ovito]: Start processing: qcs-sdk-python
+[2023-05-01 19:35:38] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2023-05-01 19:35:38] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/67/6e/093f4b9d6d2d77572743f872e57142b69c7a15cfab5f4f6287543d7104be/issue_db_api-0.6.3.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/ab/5e/b60ba183ccdfa821f79fdbb517f4b088438a3c850d8c29dc5ce3df3b727c/dcicsnovault-8.0.1.0b3.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [musiclang]: Downloading https://files.pythonhosted.org/packages/ba/4b/e61dacbd45b84a20ed731ca6f309717059adca1a16f9febcf0ed05aae252/musiclang-0.8.4.tar.gz
+[2023-05-01 19:35:38] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-split-CallTrace-loop]: Skipping package: exceeds size limit 38297923>=10485760
+[2023-05-01 19:35:38] INFO root fetch - processPackages [certora-cli-alpha-eyalf-split-CallTrace-loop]: Start processing: pynecone
+[2023-05-01 19:35:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-split-CallTrace-loop] error
+[2023-05-01 19:35:38] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.5.0rc6] Old Version: [0.5.0rc5]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [libsrg]: Downloading https://files.pythonhosted.org/packages/01/a5/d76c1816a29174ebff29627493fdee1ab9e28b0a8056bfab285a900898ff/libsrg-3.3.1-py3-none-any.whl
+[2023-05-01 19:35:38] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-client]: Downloading https://files.pythonhosted.org/packages/37/1e/6ead483e5dd4bd72cc6a694d59eca540c86243ab079e6108fcd7aec56db2/opal-client-0.6.1.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.6.2.tar.gz tmp/issue_db_api-0.6.3.tar.gz --markdown 20230501/i/issue-db-api/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-common]: Downloading https://files.pythonhosted.org/packages/29/3b/045c4398a98d9a00d3204a3c1d24f21e8651e2e8c3d7a7d875cd944b8457/opal-common-0.6.1.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.0.1.0b2.tar.gz tmp/dcicsnovault-8.0.1.0b3.tar.gz --markdown 20230501/d/dcicsnovault/8.0.1.0b2-8.0.1.0b3/diff.md --exclude *.pyd
+[2023-05-01 19:35:38] INFO root fetch - processPackages [musiclang]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [musiclang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musiclang-0.8.3.tar.gz tmp/musiclang-0.8.4.tar.gz --markdown 20230501/m/musiclang/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-01 19:35:38] INFO root fetch - processPackages [pynecone]: New version: [0.1.28a0] Old Version: [0.1.27a2]
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-server]: Downloading https://files.pythonhosted.org/packages/6b/ff/31be2c25e78a8d6075fbc0053416b64ebb26bd56efb136a0b4ce04af1fdd/opal-server-0.6.1.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [libsrg]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [libsrg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsrg-3.3.0-py3-none-any.whl.zip tmp/libsrg-3.3.1-py3-none-any.whl.zip --markdown 20230501/l/libsrg/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-client]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opal-client-0.6.0.tar.gz tmp/opal-client-0.6.1.tar.gz --markdown 20230501/o/opal-client/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-common]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opal-common-0.6.0.tar.gz tmp/opal-common-0.6.1.tar.gz --markdown 20230501/o/opal-common/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 19:35:38] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/33/50/4e54a40da1a5194266c8ced58fceb4ee5e5616d5c968d7a98bab74338d51/qcs_sdk_python-0.5.0rc5.tar.gz
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-server]: executing diffoscope
+[2023-05-01 19:35:38] INFO root fetch - processPackages [opal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opal-server-0.6.0.tar.gz tmp/opal-server-0.6.1.tar.gz --markdown 20230501/o/opal-server/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 19:35:39] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/81/29/bc401cd229554a2f9aaae4cff2e9622e07cae37db1098688bdc70baca5ff/pynecone-0.1.28a0.tar.gz
+[2023-05-01 19:35:39] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/98/10/b81a2b281d7e8d0681ae013fb9660062ec423ac39af3d7ecc75e8fb552cd/qcs_sdk_python-0.5.0rc6.tar.gz
+[2023-05-01 19:35:39] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-05-01 19:35:39] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.27a2.tar.gz tmp/pynecone-0.1.28a0.tar.gz --markdown 20230501/p/pynecone/0.1.27a2-0.1.28a0/diff.md --exclude *.pyd
+[2023-05-01 19:35:39] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-05-01 19:35:39] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.5.0rc5.tar.gz tmp/qcs_sdk_python-0.5.0rc6.tar.gz --markdown 20230501/q/qcs-sdk-python/0.5.0rc5-0.5.0rc6/diff.md --exclude *.pyd
+[2023-05-01 19:35:39] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/8f/71/5cae88a76d4052589615bbb448e7fedc3b95738c815cd2be132cfea76471/cfscanner-1.3.15.tar.gz
+[2023-05-01 19:35:40] INFO root fetch - processPackages [cfscanner]: executing diffoscope
+[2023-05-01 19:35:40] INFO root fetch - processPackages [cfscanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfscanner-1.3.14.tar.gz tmp/cfscanner-1.3.15.tar.gz --markdown 20230501/c/cfscanner/1.3.14-1.3.15/diff.md --exclude *.pyd
+[2023-05-01 19:35:40] INFO root fetch - processPackages [libsrg]: Start processing: viser
+[2023-05-01 19:35:40] INFO root fetch - main [MainThread]: End processing [libsrg]: success
+[2023-05-01 19:35:40] INFO root fetch - processPackages [viser]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 19:35:40] INFO root fetch - processPackages [opal-server]: Start processing: flake8-linenumber
+[2023-05-01 19:35:40] INFO root fetch - main [MainThread]: End processing [opal-server]: success
+[2023-05-01 19:35:40] INFO root fetch - processPackages [flake8-linenumber]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-01 19:35:40] INFO root fetch - processPackages [opal-client]: Start processing: linode-api4
+[2023-05-01 19:35:40] INFO root fetch - main [MainThread]: End processing [opal-client]: success
+[2023-05-01 19:35:40] INFO root fetch - processPackages [flake8-linenumber]: Downloading https://files.pythonhosted.org/packages/8e/33/5046ca92650771a906319b6d68b4e263bc855067b8ed371edcc62837514f/flake8_linenumber-0.1.7.tar.gz
+[2023-05-01 19:35:40] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-01 19:35:40] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/6e/fe/c353160b1cadb91f2eb1f35a3c0e853765a09f0b07a38f84fb158ed4da6c/viser-0.0.8.tar.gz
+[2023-05-01 19:35:40] INFO root fetch - processPackages [linode-api4]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-05-01 19:35:41] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-05-01 19:35:41] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.7.tar.gz tmp/viser-0.0.8.tar.gz --markdown 20230501/v/viser/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 19:35:41] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/59/dd/1f1c1d406d0ec9275cfb14bbbd387cd3c0069be646e2312f5f160d13033e/linode_api4-5.3.0.tar.gz
+[2023-05-01 19:35:41] INFO root fetch - main [MainThread]: End processing [musiclang]: success
+[2023-05-01 19:35:41] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-05-01 19:35:41] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/4c/1b/a9bae838036b9ab8e0b6f80adc507dfdd8f9425c236e119b01ff029a190c/linode_api4-5.4.0.tar.gz
+[2023-05-01 19:35:41] INFO root fetch - processPackages [flake8-linenumber]: Downloading https://files.pythonhosted.org/packages/f9/cf/01c1dc035a97a4943cec79977058dd384fa840e1ed2baaaabd6f4d3c7d81/flake8_linenumber-0.1.8.tar.gz
+[2023-05-01 19:35:41] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-05-01 19:35:41] INFO root fetch - processPackages [flake8-linenumber]: executing diffoscope
+[2023-05-01 19:35:41] INFO root fetch - processPackages [flake8-linenumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_linenumber-0.1.7.tar.gz tmp/flake8_linenumber-0.1.8.tar.gz --markdown 20230501/f/flake8-linenumber/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-01 19:35:41] INFO root fetch - main [MainThread]: End processing [opal-common]: success
+[2023-05-01 19:35:41] INFO root fetch - processPackages [linode-api4]: executing diffoscope
+[2023-05-01 19:35:41] INFO root fetch - processPackages [linode-api4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_api4-5.3.0.tar.gz tmp/linode_api4-5.4.0.tar.gz --markdown 20230501/l/linode-api4/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-05-01 19:35:42] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-05-01 19:35:42] INFO root fetch - main [MainThread]: End processing [flake8-linenumber]: success
+[2023-05-01 19:35:43] INFO root fetch - main [MainThread]: End processing [cfscanner]: success
+[2023-05-01 19:35:43] INFO root fetch - main [MainThread]: End processing [linode-api4]: success
+[2023-05-01 19:37:57] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-05-01 19:37:57] INFO root fetch - main [MainThread]: Store serial: [17929559]
