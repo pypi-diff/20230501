@@ -11936,3 +11936,45 @@ EOFError: EOF read where object expected
 [2023-05-01 15:56:32] INFO root fetch - main [MainThread]: End processing [dataquality]: success
 [2023-05-01 15:56:37] INFO root fetch - main [MainThread]: End processing [django-powerwiki]: success
 [2023-05-01 15:56:37] INFO root fetch - main [MainThread]: Store serial: [17927349]
+[2023-05-01 16:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927349]
+[2023-05-01 16:01:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuNet
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdok-geopackage-validator
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MKN-third-codes
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aesim.simba
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanolayer
+[2023-05-01 16:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MKN-third-codes
+[2023-05-01 16:01:47] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.4.1] Old Version: [0.4.4]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.4.1] Old Version: [0.4.4]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 16:01:47] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.4.4.tar.gz tmp/MKN_third_codes-0.4.4.1.tar.gz --markdown 20230501/M/MKN-third-codes/0.4.4-0.4.4.1/diff.md --exclude *.pyd
+[2023-05-01 16:01:47] INFO root fetch - processPackages [pdok-geopackage-validator]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [aesim.simba]: New version: [2023.5.1a1] Old Version: [2023.4.17a1]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 16:01:47] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.4.4.tar.gz tmp/MKN_third_codes-0.4.4.1.tar.gz --markdown 20230501/M/MKN-third-codes/0.4.4-0.4.4.1/diff.md --exclude *.pyd
+[2023-05-01 16:01:47] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 16:01:47] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-01 16:01:47] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230501/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:01:47] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-01 16:01:47] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230501/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 16:01:47] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2023-05-01 16:01:47] INFO root fetch - processPackages [pdok-geopackage-validator]: Downloading https://files.pythonhosted.org/packages/68/72/a43a5973d73808d767c8e313a6ebc414c6f99b6e90d22a8a06af770718c7/pdok-geopackage-validator-0.8.3.tar.gz
+[2023-05-01 16:01:47] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/5b/40/153a433636e2bfc85bd727cfad3f88331632424118578a57abcce0ca4eb9/aesim.simba-2023.4.17a1-py3-none-win_amd64.whl
+[2023-05-01 16:01:47] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 86836287>=10485760
+[2023-05-01 16:01:47] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2023-05-01 16:01:47] INFO root fetch - processPackages [pdok-geopackage-validator]: Downloading https://files.pythonhosted.org/packages/ba/ff/f557db1df9d9f3672ded1f5803acca898eb259e7107e654bdbb5fff96ce8/pdok-geopackage-validator-0.8.4.tar.gz
+[2023-05-01 16:01:47] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2023-05-01 16:01:47] INFO root fetch - processPackages [pdok-geopackage-validator]: executing diffoscope
+[2023-05-01 16:01:47] INFO root fetch - processPackages [pdok-geopackage-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdok-geopackage-validator-0.8.3.tar.gz tmp/pdok-geopackage-validator-0.8.4.tar.gz --markdown 20230501/p/pdok-geopackage-validator/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-01 16:01:47] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2023-05-01 16:01:47] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20230501/m/modelbase/1.9.3-1rc2/diff.md --exclude *.pyd
+[2023-05-01 16:01:48] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 16:01:48] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 16:01:48] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-01 16:01:48] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-01 16:01:49] INFO root fetch - main [MainThread]: End processing [pdok-geopackage-validator]: success
+[2023-05-01 16:01:49] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2023-05-01 16:01:49] INFO root fetch - main [MainThread]: Store serial: [17927370]
