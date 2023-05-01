@@ -14393,3 +14393,70 @@ EOFError: EOF read where object expected
 [2023-05-01 18:44:58] INFO root fetch - main [MainThread]: End processing [simple_openid_connect]: success
 [2023-05-01 18:44:59] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-05-01 18:44:59] INFO root fetch - main [MainThread]: Store serial: [17928947]
+[2023-05-01 18:50:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928947]
+[2023-05-01 18:50:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: not1mm
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rbcl
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarobot-early-access
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: start-url
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-sdk-preview
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: findmyorder
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nanolayer
+[2023-05-01 18:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gamla
+[2023-05-01 18:50:08] INFO root fetch - processPackages [start-url]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [start-url]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [start-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_url-0.0.4.tar.gz tmp/start_url-0.0.5.tar.gz --markdown 20230501/s/start-url/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230501/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [not1mm]: New version: [23.5.1] Old Version: [23.4.6]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [rbcl]: New version: [1.0.1] Old Version: [0.4.2]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.2.0.2023.5.1] Old Version: [3.2.0.2023.4.3]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [gamla]: New version: [99] Old Version: [98]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230501/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-05-01 18:50:08] INFO root fetch - processPackages [rbcl]: Downloading https://files.pythonhosted.org/packages/60/4c/8bcaf0e1f5fddb67164bf0964bd9f83b179fdfb212014d12ca57764b2cf4/rbcl-0.4.2.tar.gz
+[2023-05-01 18:50:08] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/9c/ad/2f969e6951f964f420c211fc81f135e11b4391de5b689f00edf3fb21dd0d/datarobot_early_access-3.2.0.2023.4.3.tar.gz
+[2023-05-01 18:50:08] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/69/f8/ecd46c1a43ef4f38dc58417cdb0231d02fe691e1bc702abaaa13d469a421/gamla-98.tar.gz
+[2023-05-01 18:50:08] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/b9/8a/e58aabe16fea583c72eebd94136e82cc07edd324498a957e92298ae9e40c/not1mm-23.5.1.tar.gz
+[2023-05-01 18:50:08] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.8.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230501/m/mystring/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230501/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [rbcl]: Downloading https://files.pythonhosted.org/packages/d7/cc/d0a762fe04307cb90dabeed2e0349639761fc37c4ef09d4b8e7f9648b1e8/rbcl-1.0.1.tar.gz
+[2023-05-01 18:50:08] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-23.4.6.tar.gz tmp/not1mm-23.5.1.tar.gz --markdown 20230501/n/not1mm/23.4.6-23.5.1/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-05-01 18:50:08] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230501/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-05-01 18:50:08] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/1f/74/45a95488cfc06358d337f03959ac12e49991f0fe12a307779ac2781d7a5d/datarobot_early_access-3.2.0.2023.5.1.tar.gz
+[2023-05-01 18:50:09] INFO root fetch - processPackages [gamla]: Downloading https://files.pythonhosted.org/packages/d5/30/3ac70220c721ace5db4771369280b855e8d9d0f11f63afae59c2a5877427/gamla-99.tar.gz
+[2023-05-01 18:50:09] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2023-05-01 18:50:09] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.2.0.2023.4.3.tar.gz tmp/datarobot_early_access-3.2.0.2023.5.1.tar.gz --markdown 20230501/d/datarobot-early-access/3.2.0.2023.4.3-3.2.0.2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 18:50:09] INFO root fetch - processPackages [rbcl]: executing diffoscope
+[2023-05-01 18:50:09] INFO root fetch - processPackages [rbcl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbcl-0.4.2.tar.gz tmp/rbcl-1.0.1.tar.gz --markdown 20230501/r/rbcl/0.4.2-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 18:50:09] INFO root fetch - processPackages [gamla]: executing diffoscope
+[2023-05-01 18:50:09] INFO root fetch - processPackages [gamla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gamla-98.tar.gz tmp/gamla-99.tar.gz --markdown 20230501/g/gamla/98-99/diff.md --exclude *.pyd
+[2023-05-01 18:50:09] INFO root fetch - processPackages [findmyorder]: Start processing: HTTP-PyServer
+[2023-05-01 18:50:09] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-01 18:50:09] INFO root fetch - main [MainThread]: End processing [start-url]: success
+[2023-05-01 18:50:09] INFO root fetch - processPackages [HTTP-PyServer]: New version: [0.0.7] Old Version: [0.0.4]
+[2023-05-01 18:50:09] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-01 18:50:09] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/18/c2/09d41388bad96f43e6456e40ed52a408140a92b46146a8c566af1f7d53cc/HTTP-PyServer-0.0.4.tar.gz
+[2023-05-01 18:50:10] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-01 18:50:10] INFO root fetch - main [MainThread]: End processing [rbcl]: success
+[2023-05-01 18:50:10] INFO root fetch - processPackages [HTTP-PyServer]: Downloading https://files.pythonhosted.org/packages/23/9d/0f1fb887318f9ca2b42775ab53e36e9336eaf76f83d77b1d5882b6f271f0/HTTP-PyServer-0.0.7.tar.gz
+[2023-05-01 18:50:10] INFO root fetch - processPackages [HTTP-PyServer]: executing diffoscope
+[2023-05-01 18:50:10] INFO root fetch - processPackages [HTTP-PyServer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HTTP-PyServer-0.0.4.tar.gz tmp/HTTP-PyServer-0.0.7.tar.gz --markdown 20230501/H/HTTP-PyServer/0.0.4-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 18:50:11] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2023-05-01 18:50:11] INFO root fetch - main [MainThread]: End processing [HTTP-PyServer]: success
+[2023-05-01 18:50:11] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2023-05-01 18:50:11] INFO root fetch - main [MainThread]: End processing [gamla]: success
+[2023-05-01 18:50:27] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-05-01 18:50:43] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-05-01 18:50:43] INFO root fetch - main [MainThread]: Store serial: [17929004]
