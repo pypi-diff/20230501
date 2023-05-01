@@ -13513,3 +13513,88 @@ EOFError: EOF read where object expected
 [2023-05-01 17:43:44] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
 [2023-05-01 17:44:00] INFO root fetch - main [MainThread]: End processing [pyspimosim]: success
 [2023-05-01 17:44:00] INFO root fetch - main [MainThread]: Store serial: [17928295]
+[2023-05-01 17:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928295]
+[2023-05-01 17:49:10] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sayhellox123
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scale-sensor-fusion-io
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: expiringsqlitedict
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jojo-ai
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PH-Baseliner
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robocorp-log
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pf-fpga-tools
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scarfer
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncqb
+[2023-05-01 17:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wtt01
+[2023-05-01 17:49:10] WARNING root fetch - processPackages [jojo-ai]: Skipping, unable to determine old version
+[2023-05-01 17:49:10] INFO root fetch - processPackages [jojo-ai]: Start processing: croto
+[2023-05-01 17:49:10] INFO root fetch - main [MainThread]: End processing [jojo-ai] error
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scarfer]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [croto]: New version: [0.8] Old Version: [0.7]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scale-sensor-fusion-io]: New version: [0.0.6] Old Version: [0.0.15]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [expiringsqlitedict]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-01 17:49:10] WARNING root fetch - processPackages [pf-fpga-tools]: Skipping, unable to determine old version
+[2023-05-01 17:49:10] INFO root fetch - processPackages [pf-fpga-tools]: Start processing: syscryptographymodsV2
+[2023-05-01 17:49:10] INFO root fetch - main [MainThread]: End processing [pf-fpga-tools] error
+[2023-05-01 17:49:10] INFO root fetch - processPackages [wtt01]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [robocorp-log]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-01 17:49:10] WARNING root fetch - processPackages [PH-Baseliner]: Skipping, unable to determine old version
+[2023-05-01 17:49:10] INFO root fetch - processPackages [PH-Baseliner]: Start processing: dwload-server
+[2023-05-01 17:49:10] INFO root fetch - main [MainThread]: End processing [PH-Baseliner] error
+[2023-05-01 17:49:10] INFO root fetch - processPackages [syncqb]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scarfer]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scarfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scarfer-0.3.5-py3-none-any.whl.zip tmp/scarfer-0.3.6.tar.gz --markdown 20230501/s/scarfer/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-0.7.tar.gz tmp/croto-0.8.tar.gz --markdown 20230501/c/croto/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] WARNING root fetch - processPackages [syscryptographymodsV2]: Skipping, unable to determine old version
+[2023-05-01 17:49:10] INFO root fetch - processPackages [syscryptographymodsV2]: Start processing: sayhellox123
+[2023-05-01 17:49:10] INFO root fetch - main [MainThread]: End processing [syscryptographymodsV2] error
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scale-sensor-fusion-io]: Downloading https://files.pythonhosted.org/packages/6f/c8/e9bc4ae4553a44889e5c9eb1d907445553383a1405bd1f60195842f04300/scale_sensor_fusion_io-0.0.15.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [dwload-server]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/b4/d7/d8e6afc8cf1104586c2c4621e659317abcbe023a742ef1b6052c7ba1f213/sayhellox123-0.2.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/b4/d7/d8e6afc8cf1104586c2c4621e659317abcbe023a742ef1b6052c7ba1f213/sayhellox123-0.2.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [robocorp-log]: Downloading https://files.pythonhosted.org/packages/ce/bd/e845fe866bd2d6555f919455acda463b72e1bfd7bc19920b0124b037fdda/robocorp_log-0.0.14.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [dwload-server]: Downloading https://files.pythonhosted.org/packages/25/1e/4c9055b64cf9dfb2020c861795ff79abbfd2dc208f74594b02aa313ec690/dwload_server-0.5.0.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [wtt01]: Downloading https://files.pythonhosted.org/packages/4b/16/676ed34a38773c5495fe0ada7e5c328974328e8cb394f0c14d3507df4927/wtt01-0.3.4.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [expiringsqlitedict]: Downloading https://files.pythonhosted.org/packages/3f/0f/e45b3aec84309cb29326858943debc6d14d9961f245cd0898e7bb1cffea0/expiringsqlitedict-5.0.1.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [syncqb]: Downloading https://files.pythonhosted.org/packages/3e/55/4652e157f8c8730a3f0ff84d3ffcdb14f7d2551e801ee9c08b2c984dae7a/syncqb-1.0.6.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/c0/5a/de8a0f08c5c4ef0156839b5e86cc27eb9c57be9280feefa90b0919b181a1/sayhellox123-0.3.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: Downloading https://files.pythonhosted.org/packages/c0/5a/de8a0f08c5c4ef0156839b5e86cc27eb9c57be9280feefa90b0919b181a1/sayhellox123-0.3.tar.gz
+[2023-05-01 17:49:10] INFO root fetch - processPackages [robocorp-log]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [robocorp-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_log-0.0.13.tar.gz tmp/robocorp_log-0.0.14.tar.gz --markdown 20230501/r/robocorp-log/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [expiringsqlitedict]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [expiringsqlitedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expiringsqlitedict-5.0.0.tar.gz tmp/expiringsqlitedict-5.0.1.tar.gz --markdown 20230501/e/expiringsqlitedict/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [syncqb]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [syncqb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncqb-1.0.5.tar.gz tmp/syncqb-1.0.6.tar.gz --markdown 20230501/s/syncqb/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [wtt01]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [wtt01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtt01-0.3.3.tar.gz tmp/wtt01-0.3.4.tar.gz --markdown 20230501/w/wtt01/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayhellox123-0.2.tar.gz tmp/sayhellox123-0.3.tar.gz --markdown 20230501/s/sayhellox123/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scale-sensor-fusion-io]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [scale-sensor-fusion-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_sensor_fusion_io-0.0.15.tar.gz tmp/scale_sensor_fusion_io-0.0.6-py3-none-any.whl.zip --markdown 20230501/s/scale-sensor-fusion-io/0.0.15-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: executing diffoscope
+[2023-05-01 17:49:10] INFO root fetch - processPackages [sayhellox123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayhellox123-0.2.tar.gz tmp/sayhellox123-0.3.tar.gz --markdown 20230501/s/sayhellox123/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 17:49:11] INFO root fetch - processPackages [dwload-server]: Downloading https://files.pythonhosted.org/packages/f0/3b/0c96ea9f6c0bc20e14f7cafddae14cb287f891cec5239daf548b3525bacd/dwload_server-0.5.1.tar.gz
+[2023-05-01 17:49:11] INFO root fetch - processPackages [dwload-server]: executing diffoscope
+[2023-05-01 17:49:11] INFO root fetch - processPackages [dwload-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwload_server-0.5.0.tar.gz tmp/dwload_server-0.5.1.tar.gz --markdown 20230501/d/dwload-server/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-01 17:49:11] INFO root fetch - processPackages [croto]: Start processing: bow-cli
+[2023-05-01 17:49:11] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-01 17:49:11] INFO root fetch - processPackages [scarfer]: Start processing: characterai
+[2023-05-01 17:49:11] INFO root fetch - main [MainThread]: End processing [scarfer]: success
+[2023-05-01 17:49:11] WARNING root fetch - processPackages [bow-cli]: Skipping, unable to determine old version
+[2023-05-01 17:49:11] INFO root fetch - main [MainThread]: End processing [bow-cli] error
+[2023-05-01 17:49:11] INFO root fetch - processPackages [characterai]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-01 17:49:11] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/90/5f/70ad7c9b9688377042e76ffa41ebaac9c4bbeac64e4e334792fb9d0f7595/characterai-0.3.1.tar.gz
+[2023-05-01 17:49:12] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-05-01 17:49:12] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.3.0.tar.gz tmp/characterai-0.3.1.tar.gz --markdown 20230501/c/characterai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [wtt01]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [syncqb]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [expiringsqlitedict]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [robocorp-log]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [sayhellox123]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [sayhellox123]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [dwload-server]: success
+[2023-05-01 17:49:12] INFO root fetch - main [MainThread]: End processing [scale-sensor-fusion-io]: success
+[2023-05-01 17:49:13] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-05-01 17:49:13] INFO root fetch - main [MainThread]: Store serial: [17928347]
