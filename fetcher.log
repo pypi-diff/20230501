@@ -5062,3 +5062,72 @@
 [2023-05-01 08:30:52] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-01 08:31:05] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
 [2023-05-01 08:31:05] INFO root fetch - main [MainThread]: Store serial: [17923376]
+[2023-05-01 08:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923376]
+[2023-05-01 08:36:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sklearn2pmml
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-index
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CVAugmentor
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-calamine
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zwkit
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-plugins
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msaDocModels
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-SAM4IS
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CUQIpy-CIL
+[2023-05-01 08:36:14] INFO root fetch - processPackages [CUQIpy-CIL]: New version: [0.3.0.post0.dev2] Old Version: [0.3.0]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [napari-SAM4IS]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [CVAugmentor]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.92.1] Old Version: [0.92.0]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [zwkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [python-calamine]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [llama-index]: New version: [0.6.0a5] Old Version: [0.6.0a4]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [gpt-index]: New version: [0.6.0a5] Old Version: [0.6.0a4]
+[2023-05-01 08:36:14] INFO root fetch - processPackages [zwkit]: executing diffoscope
+[2023-05-01 08:36:14] INFO root fetch - processPackages [zwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwkit-0.4.8.tar.gz tmp/zwkit-0.4.9.tar.gz --markdown 20230501/z/zwkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 08:36:14] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-05-01 08:36:14] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230501/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 08:36:14] INFO root fetch - processPackages [CUQIpy-CIL]: Downloading https://files.pythonhosted.org/packages/27/03/d99da8b1f7a802569d7bd4d1607fd31ea0d056fef33acbd9b90d09d8ea99/CUQIpy-CIL-0.3.0.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [CVAugmentor]: Downloading https://files.pythonhosted.org/packages/e7/1f/699bb923eec5bb9323a5aba057359689c00f2794c6e61e53f57b4065bd12/CVAugmentor-1.0.4.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/8a/73/ab39a6086bbec5f4e1c347045230b044d241aa81d9dde2993edbe045ae56/sklearn2pmml-0.92.0.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/f8/0f/1743e5af111b2563716cfd1dfc7a9205527b4f1defd5532d03e286ceea40/ml_plugins-0.0.6.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/bd/d9/f0669b726dc31edcd9ed9d1db1ac247552da4c42e3946568a757ffa0ed8a/python_calamine-0.1.0.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/bc/0c/bffcc5a331d4cf2fa061ed4c2de7e8e7a2057c042758bec8427cd8d04381/llama_index-0.6.0a5.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [CVAugmentor]: executing diffoscope
+[2023-05-01 08:36:14] INFO root fetch - processPackages [CVAugmentor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CVAugmentor-1.0.3.tar.gz tmp/CVAugmentor-1.0.4.tar.gz --markdown 20230501/C/CVAugmentor/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-01 08:36:14] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.5.tar.gz tmp/ml_plugins-0.0.6.tar.gz --markdown 20230501/m/ml-plugins/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 08:36:14] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/bd/30/7f331dc93a54ceeef59134efc5d11f48057563ab22c54ebd1d72f3bece29/gpt_index-0.6.0a5.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [napari-SAM4IS]: Downloading https://files.pythonhosted.org/packages/31/f1/8072c2f6d6461a7fc16971ff4aaaddefb4fd03e9ab166692e05ce0ff0a02/napari-SAM4IS-0.0.4.tar.gz
+[2023-05-01 08:36:14] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-01 08:36:15] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.0a4.tar.gz tmp/llama_index-0.6.0a5.tar.gz --markdown 20230501/l/llama-index/0.6.0a4-0.6.0a5/diff.md --exclude *.pyd
+[2023-05-01 08:36:15] INFO root fetch - processPackages [CUQIpy-CIL]: Downloading https://files.pythonhosted.org/packages/9b/44/cf2d5a308b012094326d0d0082592b4cefb90867b757b2cbd119f0e198d8/CUQIpy-CIL-0.3.0.post0.dev2.tar.gz
+[2023-05-01 08:36:15] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-01 08:36:15] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.0a4.tar.gz tmp/gpt_index-0.6.0a5.tar.gz --markdown 20230501/g/gpt-index/0.6.0a4-0.6.0a5/diff.md --exclude *.pyd
+[2023-05-01 08:36:15] INFO root fetch - processPackages [napari-SAM4IS]: executing diffoscope
+[2023-05-01 08:36:15] INFO root fetch - processPackages [napari-SAM4IS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-SAM4IS-0.0.3.tar.gz tmp/napari-SAM4IS-0.0.4.tar.gz --markdown 20230501/n/napari-SAM4IS/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 08:36:15] INFO root fetch - processPackages [python-calamine]: Downloading https://files.pythonhosted.org/packages/96/7a/06f7942e5c338f7e88b8c006fc10fb01dd8e0ab627739ae3f543007cfcf8/python_calamine-0.1.1.tar.gz
+[2023-05-01 08:36:15] INFO root fetch - processPackages [CUQIpy-CIL]: executing diffoscope
+[2023-05-01 08:36:15] INFO root fetch - processPackages [CUQIpy-CIL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-CIL-0.3.0.tar.gz tmp/CUQIpy-CIL-0.3.0.post0.dev2.tar.gz --markdown 20230501/C/CUQIpy-CIL/0.3.0-0.3.0.post0.dev2/diff.md --exclude *.pyd
+[2023-05-01 08:36:15] INFO root fetch - processPackages [python-calamine]: executing diffoscope
+[2023-05-01 08:36:15] INFO root fetch - processPackages [python-calamine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_calamine-0.1.0.tar.gz tmp/python_calamine-0.1.1.tar.gz --markdown 20230501/p/python-calamine/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 08:36:15] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/1a/f9/caa414170003cb979bcbd50a8abedc2e8ab9d8d16ea490adf2f76381eae0/sklearn2pmml-0.92.1.tar.gz
+[2023-05-01 08:36:16] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2023-05-01 08:36:16] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.92.0.tar.gz tmp/sklearn2pmml-0.92.1.tar.gz --markdown 20230501/s/sklearn2pmml/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2023-05-01 08:36:16] INFO root fetch - processPackages [msaDocModels]: Start processing: msaBase
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-05-01 08:36:16] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 08:36:16] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-01 08:36:16] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230501/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [zwkit]: success
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [CVAugmentor]: success
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [CUQIpy-CIL]: success
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [python-calamine]: success
+[2023-05-01 08:36:16] INFO root fetch - main [MainThread]: End processing [napari-SAM4IS]: success
+[2023-05-01 08:36:17] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-01 08:36:18] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-01 08:36:19] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-01 08:36:22] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2023-05-01 08:36:22] INFO root fetch - main [MainThread]: Store serial: [17923464]
