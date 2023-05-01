@@ -3900,3 +3900,20 @@
 [2023-05-01 05:06:18] INFO root fetch - main [MainThread]: End processing [notation]: success
 [2023-05-01 05:06:19] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
 [2023-05-01 05:06:19] INFO root fetch - main [MainThread]: Store serial: [17922642]
+[2023-05-01 05:11:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922642]
+[2023-05-01 05:11:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 05:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-bank-statement-import
+[2023-05-01 05:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toxicjasmine
+[2023-05-01 05:11:28] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: New version: [16.0.20230324.0] Old Version: [16.0.20230323.0]
+[2023-05-01 05:11:28] INFO root fetch - processPackages [toxicjasmine]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-01 05:11:28] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/ed/96/b4d165a21f7b86cad99f05acb7b71018aece65e3f4f5a5779ae728d2f563/odoo_addons_oca_bank_statement_import-16.0.20230323.0-py3-none-any.whl
+[2023-05-01 05:11:28] INFO root fetch - processPackages [toxicjasmine]: Downloading https://files.pythonhosted.org/packages/fa/bb/7ef0e48c75971acb21d9108daebaf60d10ce7b7196b11203f9c9b0e2996c/toxicjasmine-0.2.tar.gz
+[2023-05-01 05:11:28] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/cf/97/b00182737333e33342f7598e7d48fbe1704c791532453bf8f19666b42659/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl
+[2023-05-01 05:11:28] INFO root fetch - processPackages [toxicjasmine]: Downloading https://files.pythonhosted.org/packages/9b/39/c1d675b6805eb4f32ec96684584f7d37b08526dfd916f8febc4df0c69dbd/toxicjasmine-0.2.1.tar.gz
+[2023-05-01 05:11:28] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: executing diffoscope
+[2023-05-01 05:11:28] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_bank_statement_import-16.0.20230323.0-py3-none-any.whl.zip tmp/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl.zip --markdown 20230501/o/odoo-addons-oca-bank-statement-import/16.0.20230323.0-16.0.20230324.0/diff.md --exclude *.pyd
+[2023-05-01 05:11:28] INFO root fetch - processPackages [toxicjasmine]: executing diffoscope
+[2023-05-01 05:11:28] INFO root fetch - processPackages [toxicjasmine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toxicjasmine-0.2.tar.gz tmp/toxicjasmine-0.2.1.tar.gz --markdown 20230501/t/toxicjasmine/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 05:11:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-bank-statement-import]: success
+[2023-05-01 05:11:29] INFO root fetch - main [MainThread]: End processing [toxicjasmine]: success
+[2023-05-01 05:11:29] INFO root fetch - main [MainThread]: Store serial: [17922646]
