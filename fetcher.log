@@ -3614,3 +3614,59 @@
 [2023-05-01 04:23:15] INFO root fetch - main [MainThread]: End processing [anki]: success
 [2023-05-01 04:24:46] INFO root fetch - main [MainThread]: End processing [aqt]: success
 [2023-05-01 04:24:46] INFO root fetch - main [MainThread]: Store serial: [17922484]
+[2023-05-01 04:29:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922484]
+[2023-05-01 04:29:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testprepup
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardano-nft-vending-machine
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-24
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akinator.py
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automatize
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ooze
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-26
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iam-actions
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloudflare-images
+[2023-05-01 04:29:56] INFO root fetch - processPackages [akinator.py]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [testprepup]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [automatize]: New version: [1.0b3] Old Version: [1.0b2]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cardano-nft-vending-machine]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230430] Old Version: [1.2.20230429]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ooze]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cloudflare-images]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.7.8.tar.gz tmp/cdk8s-plus-24-2.7.9.tar.gz --markdown 20230501/c/cdk8s-plus-24/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-01 04:29:56] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230429.tar.gz tmp/iam_actions-1.2.20230430.tar.gz --markdown 20230501/i/iam-actions/1.2.20230429-1.2.20230430/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [akinator.py]: Downloading https://files.pythonhosted.org/packages/8a/c3/be798266e3dc4894fc8273fe1587183ec58f3c9d74f61826d9779d714477/akinator.py-0.2.3.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [testprepup]: Downloading https://files.pythonhosted.org/packages/8a/bc/b8f7bb8f479991209bb95a529f8e0125ed92a153451b41c5488c7222ae60/testprepup-0.4.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/8b/05/5352bf73aa9e9bf58f1118b3cfdc23c14b46f538c75c0eba115e8db7601e/automatize-1.0b3.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cardano-nft-vending-machine]: Downloading https://files.pythonhosted.org/packages/a9/88/bcf9abf81534af2fb82d0ecaa4279a20ca464b1d1abff00e808f3ede11f9/cardano-nft-vending-machine-0.6.3.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.3.8.tar.gz tmp/cdk8s-plus-26-2.3.9.tar.gz --markdown 20230501/c/cdk8s-plus-26/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [testprepup]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [testprepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testprepup-0.3.tar.gz tmp/testprepup-0.4.tar.gz --markdown 20230501/t/testprepup/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ooze]: Downloading https://files.pythonhosted.org/packages/2d/cb/3f1d49c38524c09a9244047d706c96249871c8306d996b738605663bf1ad/ooze-1.0.1.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cloudflare-images]: Downloading https://files.pythonhosted.org/packages/9c/ea/3fb5ae53e48db69069af57466fdf49bca5ddf3d24184a2b3095953cdc63e/cloudflare_images-0.0.3.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ooze]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [ooze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooze-1.0.0.tar.gz tmp/ooze-1.0.1.tar.gz --markdown 20230501/o/ooze/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cardano-nft-vending-machine]: Downloading https://files.pythonhosted.org/packages/c5/8d/db42e822d6e72666458a070eaa97662d1468ec9e7395f0c3f408b58fb720/cardano-nft-vending-machine-0.6.4.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [akinator.py]: Downloading https://files.pythonhosted.org/packages/c2/48/445211fb2657bef3612b21fcafc9fa80ca3776686df58bb790ee83212390/akinator.py-0.2.4.tar.gz
+[2023-05-01 04:29:56] INFO root fetch - processPackages [akinator.py]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [akinator.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akinator.py-0.2.3.tar.gz tmp/akinator.py-0.2.4.tar.gz --markdown 20230501/a/akinator.py/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cardano-nft-vending-machine]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cardano-nft-vending-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardano-nft-vending-machine-0.6.3.tar.gz tmp/cardano-nft-vending-machine-0.6.4.tar.gz --markdown 20230501/c/cardano-nft-vending-machine/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cloudflare-images]: executing diffoscope
+[2023-05-01 04:29:56] INFO root fetch - processPackages [cloudflare-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare_images-0.0.2.tar.gz tmp/cloudflare_images-0.0.3.tar.gz --markdown 20230501/c/cloudflare-images/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 04:29:57] INFO root fetch - processPackages [automatize]: executing diffoscope
+[2023-05-01 04:29:57] INFO root fetch - processPackages [automatize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatize-1.0b2.tar.gz tmp/automatize-1.0b3.tar.gz --markdown 20230501/a/automatize/1.0b2-1.0b3/diff.md --exclude *.pyd
+[2023-05-01 04:29:57] INFO root fetch - main [MainThread]: End processing [testprepup]: success
+[2023-05-01 04:29:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-05-01 04:29:58] INFO root fetch - main [MainThread]: End processing [cloudflare-images]: success
+[2023-05-01 04:29:58] INFO root fetch - main [MainThread]: End processing [cardano-nft-vending-machine]: success
+[2023-05-01 04:29:58] INFO root fetch - main [MainThread]: End processing [akinator.py]: success
+[2023-05-01 04:29:58] INFO root fetch - main [MainThread]: End processing [ooze]: success
+[2023-05-01 04:29:58] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-05-01 04:29:59] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-05-01 04:30:00] INFO root fetch - main [MainThread]: End processing [automatize]: success
+[2023-05-01 04:30:00] INFO root fetch - main [MainThread]: Store serial: [17922528]
