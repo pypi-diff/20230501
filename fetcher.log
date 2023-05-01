@@ -3965,3 +3965,45 @@
 [2023-05-01 05:21:50] INFO root fetch - processPackages [citiespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citiespy-0.3.6-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/citiespy-0.3.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230501/c/citiespy/0.3.6-0.3.7/diff.md --exclude *.pyd
 [2023-05-01 05:22:22] INFO root fetch - main [MainThread]: End processing [citiespy]: success
 [2023-05-01 05:22:22] INFO root fetch - main [MainThread]: Store serial: [17922681]
+[2023-05-01 05:27:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922681]
+[2023-05-01 05:27:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TrimPypi
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnfaker
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudflarestatus
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastdev-py
+[2023-05-01 05:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.runtime
+[2023-05-01 05:27:43] WARNING root fetch - processPackages [TrimPypi]: Skipping, unable to determine old version
+[2023-05-01 05:27:43] INFO root fetch - main [MainThread]: End processing [TrimPypi] error
+[2023-05-01 05:27:43] INFO root fetch - processPackages [vnfaker]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-05-01 05:27:43] INFO root fetch - processPackages [fastdev-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-01 05:27:43] WARNING root fetch - processPackages [cloudflarestatus]: Skipping, unable to determine old version
+[2023-05-01 05:27:43] INFO root fetch - main [MainThread]: End processing [cloudflarestatus] error
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-05-01 05:27:43] INFO root fetch - processPackages [vnfaker]: Downloading https://files.pythonhosted.org/packages/2e/d4/26d5e88462b4e4a61efe3af7e7cb4b8177e8ae301e7050d95887855da272/vnfaker-0.0.1.tar.gz
+[2023-05-01 05:27:43] INFO root fetch - processPackages [fastdev-py]: Downloading https://files.pythonhosted.org/packages/2a/f7/eeda3f6e90776a80d502a69cfccadab916083054035ff7905abc838040d9/fastdev-py-0.2.1.tar.gz
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/58/d6/ac109f3c3337cabe88f01410b858a2020a8f962d90fff6c3cb4d659dab24/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip --markdown 20230501/p/pyarmor.cli/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/64/6b/2faea895b456da4f408b1ef4672beb2434ef0d96f377ead169004b1f76bd/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl
+[2023-05-01 05:27:43] INFO root fetch - processPackages [fastdev-py]: Downloading https://files.pythonhosted.org/packages/d4/c2/befb0cac3a08c65ead6d60c4da9363e597e2fbeacc2e15412ac5386bc572/fastdev-py-0.2.2.tar.gz
+[2023-05-01 05:27:43] INFO root fetch - processPackages [vnfaker]: Downloading https://files.pythonhosted.org/packages/00/56/c76502b93e12a1704dfb64d06d411fe90cb2170385f19ef3ed05b54fa6ea/vnfaker-0.0.2.tar.gz
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-05-01 05:27:43] INFO root fetch - processPackages [fastdev-py]: executing diffoscope
+[2023-05-01 05:27:43] INFO root fetch - processPackages [fastdev-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdev-py-0.2.1.tar.gz tmp/fastdev-py-0.2.2.tar.gz --markdown 20230501/f/fastdev-py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-01 05:27:43] INFO root fetch - processPackages [vnfaker]: executing diffoscope
+[2023-05-01 05:27:43] INFO root fetch - processPackages [vnfaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnfaker-0.0.1.tar.gz tmp/vnfaker-0.0.2.tar.gz --markdown 20230501/v/vnfaker/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230501/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-05-01 05:27:43] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip --markdown 20230501/p/pyarmor.cli.runtime/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-05-01 05:27:44] INFO root fetch - main [MainThread]: End processing [fastdev-py]: success
+[2023-05-01 05:27:44] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-05-01 05:27:44] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-05-01 05:27:45] INFO root fetch - main [MainThread]: End processing [vnfaker]: success
+[2023-05-01 05:28:07] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-05-01 05:28:07] INFO root fetch - main [MainThread]: Store serial: [17922742]
