@@ -11464,3 +11464,113 @@
 [2023-05-01 15:18:51] INFO root fetch - main [MainThread]: End processing [markdown-inline-graphviz-extension]: success
 [2023-05-01 15:18:52] INFO root fetch - main [MainThread]: End processing [PhysicalQuantities]: success
 [2023-05-01 15:18:52] INFO root fetch - main [MainThread]: Store serial: [17927029]
+[2023-05-01 15:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927029]
+[2023-05-01 15:24:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gps-building-blocks
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wikiseriessjoerdtoolcli
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: properties.py
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abba-python
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numberize
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Fletxible
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanolayer
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acryo
+[2023-05-01 15:24:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tpfi
+[2023-05-01 15:24:03] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.4.30] Old Version: [2023.4.29]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [properties.py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [numberize]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [properties.py]: executing diffoscope
+[2023-05-01 15:24:03] INFO root fetch - processPackages [properties.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/properties.py-1.0.1-py3-none-any.whl.zip tmp/properties.py-1.0.2.tar.gz --markdown 20230501/p/properties.py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 15:24:03] INFO root fetch - processPackages [abba-python]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [tpfi]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-01 15:24:03] INFO root fetch - processPackages [numberize]: executing diffoscope
+[2023-05-01 15:24:03] WARNING root fetch - processPackages [wikiseriessjoerdtoolcli]: Skipping, unable to determine old version
+[2023-05-01 15:24:03] INFO root fetch - processPackages [wikiseriessjoerdtoolcli]: Start processing: guify
+[2023-05-01 15:24:03] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230501/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 15:24:03] INFO root fetch - processPackages [numberize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numberize-1.1.0.tar.gz tmp/numberize-1.1.1.tar.gz --markdown 20230501/n/numberize/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 15:24:03] INFO root fetch - main [MainThread]: End processing [wikiseriessjoerdtoolcli] error
+[2023-05-01 15:24:03] WARNING root fetch - processPackages [Fletxible]: Skipping, unable to determine old version
+[2023-05-01 15:24:03] INFO root fetch - processPackages [acryo]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [Fletxible]: Start processing: pyranges
+[2023-05-01 15:24:03] INFO root fetch - main [MainThread]: End processing [Fletxible] error
+[2023-05-01 15:24:03] INFO root fetch - processPackages [guify]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [pyranges]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:24:03] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/ad/e6/c12ebf303e73ddbe0b574b98f7660763aa2e3b02cd2521546015c3a2d664/fbgemm_gpu_nightly-2023.4.29-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-01 15:24:03] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2023-05-01 15:24:03] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.98.tar.gz tmp/pyranges-0.0.99.tar.gz --markdown 20230501/p/pyranges/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:24:03] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-01 15:24:03] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.1.1.tar.gz tmp/guify-0.1.2.tar.gz --markdown 20230501/g/guify/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 15:24:03] INFO root fetch - processPackages [abba-python]: Downloading https://files.pythonhosted.org/packages/ae/ff/4c4dd7377319d1712f0f234d23a9254ddf300c253cabeb13e57ee5b7d68d/abba_python-0.1.0.tar.gz
+[2023-05-01 15:24:03] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/71/de/29b8d5afef1de629736885761de3eeeed53a58c7f5dc93ea834fa2edae65/gps_building_blocks-1.98.0-py3-none-any.whl
+[2023-05-01 15:24:03] INFO root fetch - processPackages [acryo]: Downloading https://files.pythonhosted.org/packages/e0/75/b08a7002eb9cbb5d51fe3b2fe121e3bd83d6eeda2aabc49c42c628b00078/acryo-0.2.3.tar.gz
+[2023-05-01 15:24:03] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 265796821>=10485760
+[2023-05-01 15:24:03] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-01 15:24:03] INFO root fetch - processPackages [tpfi]: Downloading https://files.pythonhosted.org/packages/04/00/8eeef527f48a510e1072dba07709b6a50b9be8f360fbf94b2a20492934a1/tpfi-1.0.2.tar.gz
+[2023-05-01 15:24:03] INFO root fetch - processPackages [abba-python]: Downloading https://files.pythonhosted.org/packages/aa/cb/4d648da815b4f6e7fe1c3859215c5bfe6a1584a3c1c38a6c9da4193fff11/abba_python-0.1.2.tar.gz
+[2023-05-01 15:24:03] INFO root fetch - processPackages [tpfi]: executing diffoscope
+[2023-05-01 15:24:03] INFO root fetch - processPackages [tpfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpfi-1.0.1.tar.gz tmp/tpfi-1.0.2.tar.gz --markdown 20230501/t/tpfi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 15:24:04] INFO root fetch - processPackages [abba-python]: executing diffoscope
+[2023-05-01 15:24:04] INFO root fetch - processPackages [abba-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abba_python-0.1.0.tar.gz tmp/abba_python-0.1.2.tar.gz --markdown 20230501/a/abba-python/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 15:24:04] INFO root fetch - processPackages [acryo]: Downloading https://files.pythonhosted.org/packages/e6/fe/b970f4884269e7edadcd839576c2410f2c36e620a767e7fcda89476b490d/acryo-0.3.0.tar.gz
+[2023-05-01 15:24:04] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/79/b4/9d18eee49dfd6521e304862a4c835a7fe5cf477f45d83a4f98f885c76c29/gps_building_blocks-1.99.0-py3-none-any.whl
+[2023-05-01 15:24:04] INFO root fetch - processPackages [acryo]: executing diffoscope
+[2023-05-01 15:24:04] INFO root fetch - processPackages [acryo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryo-0.2.3.tar.gz tmp/acryo-0.3.0.tar.gz --markdown 20230501/a/acryo/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 15:24:04] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2023-05-01 15:24:04] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20230501/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-05-01 15:24:04] INFO root fetch - main [MainThread]: End processing [properties.py]: success
+[2023-05-01 15:24:04] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-01 15:24:05] INFO root fetch - main [MainThread]: End processing [tpfi]: success
+[2023-05-01 15:24:05] INFO root fetch - main [MainThread]: End processing [numberize]: success
+[2023-05-01 15:24:06] INFO root fetch - main [MainThread]: End processing [abba-python]: success
+[2023-05-01 15:24:06] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-01 15:24:06] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2023-05-01 15:24:06] INFO root fetch - main [MainThread]: End processing [acryo]: success
+[2023-05-01 15:24:06] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2023-05-01 15:24:09] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-01 15:24:09] INFO root fetch - main [MainThread]: Store serial: [17927075]
