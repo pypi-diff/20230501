@@ -8011,3 +8011,73 @@
 [2023-05-01 13:26:09] INFO root fetch - main [MainThread]: End processing [sil-thot]: success
 [2023-05-01 13:26:18] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2023-05-01 13:26:18] INFO root fetch - main [MainThread]: Store serial: [17925299]
+[2023-05-01 13:31:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17925299]
+[2023-05-01 13:31:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2kerastl
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lskyup
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchrec-nightly
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recon-lw
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudsmith-api
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-thomas-tac-type-checker
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: guify
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchserve-nightly
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-model-archiver-nightly
+[2023-05-01 13:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-workflow-archiver-nightly
+[2023-05-01 13:31:26] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4850623410] Old Version: [2.0.0.dev4849753051]
+[2023-05-01 13:31:26] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: New version: [20230501.10.38.920152] Old Version: [20230430.18.41.951558]
+[2023-05-01 13:31:26] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.84.dev1] Old Version: [0.0.84.0]
+[2023-05-01 13:31:26] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-05-01 13:31:26] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-05-01 13:31:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-05-01 13:31:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-05-01 13:31:27] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Downloading https://files.pythonhosted.org/packages/86/e6/fdb7499c544342e29396a5f9bcebcb0d6f63ea6e1b12b44976fd97ed3931/certora-cli-alpha-thomas-tac-type-checker-20230430.18.41.951558.tar.gz
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-05-01 13:31:27] INFO root fetch - processPackages [cloudsmith-api]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-01 13:31:27] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-01 13:31:27] WARNING root fetch - processPackages [lskyup]: Skipping, unable to determine old version
+[2023-05-01 13:31:27] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4849753051.tar.gz tmp/recon_lw-2.0.0.dev4850623410.tar.gz --markdown 20230501/r/recon-lw/2.0.0.dev4849753051-2.0.0.dev4850623410/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] INFO root fetch - processPackages [lskyup]: Start processing: crunch-cli
+[2023-05-01 13:31:27] INFO root fetch - main [MainThread]: End processing [lskyup] error
+[2023-05-01 13:31:27] INFO root fetch - processPackages [guify]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230501/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-05-01 13:31:27] WARNING root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Skipping package: exceeds size limit 38297366>=10485760
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torchserve-nightly]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-01 13:31:27] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-01 13:31:27] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Start processing: pyre-check-nightly
+[2023-05-01 13:31:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-tac-type-checker] error
+[2023-05-01 13:31:27] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.84.0.tar.gz tmp/onnx2kerastl-0.0.84.dev1.tar.gz --markdown 20230501/o/onnx2kerastl/0.0.84.0-0.0.84.dev1/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230501/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230501/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230501.10.56.711782] Old Version: [20230430.18.40.62439]
+[2023-05-01 13:31:27] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-01 13:31:27] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101682939362] Old Version: [0.0.101682853102]
+[2023-05-01 13:31:27] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/da/a8/a0c9098bdf43306ad6327790e903fd6d5617c796837fd0d147681634a676/cloudsmith_api-2.0.1-py2.py3-none-any.whl
+[2023-05-01 13:31:27] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/1c/74/8c764424b40a5cb39bc7cc74232b90cde22d40f24e68bd5d91af05482556/guify-0.1.1.tar.gz
+[2023-05-01 13:31:27] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/15/16/d23cb838ad20729b31878042c732c77a1723c4c754af5f551b0931f91d30/certora-cli-alpha-roy-CERT-1844-usage-20230430.18.40.62439.tar.gz
+[2023-05-01 13:31:27] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38300796>=10485760
+[2023-05-01 13:31:27] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-01 13:31:27] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/f8/8a/781a6e68b0af0b54da7b274caac3ba5142531e1ce548f28bcaa345256217/pyre-check-nightly-0.0.101682853102.tar.gz
+[2023-05-01 13:31:27] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23258605>=10485760
+[2023-05-01 13:31:27] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-05-01 13:31:27] INFO root fetch - processPackages [cloudsmith-api]: Downloading https://files.pythonhosted.org/packages/6a/ca/ea4199f8a6e8ef4ee06a30411a6a144052b5087972fe38bea081477fd609/cloudsmith_api-2.0.2-py2.py3-none-any.whl
+[2023-05-01 13:31:27] INFO root fetch - processPackages [guify]: Downloading https://files.pythonhosted.org/packages/bc/c0/0b73b7747b1468dcae732991d330f68fbe517a16e531e6ff54937bc6caea/guify-0.1.2.tar.gz
+[2023-05-01 13:31:27] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230501/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] INFO root fetch - processPackages [cloudsmith-api]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [cloudsmith-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_api-2.0.1-py2.py3-none-any.whl.zip tmp/cloudsmith_api-2.0.2-py2.py3-none-any.whl.zip --markdown 20230501/c/cloudsmith-api/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-01 13:31:27] INFO root fetch - processPackages [guify]: executing diffoscope
+[2023-05-01 13:31:27] INFO root fetch - processPackages [guify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guify-0.1.1.tar.gz tmp/guify-0.1.2.tar.gz --markdown 20230501/g/guify/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 13:31:28] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-01 13:31:28] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-01 13:31:28] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-01 13:31:28] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-05-01 13:31:28] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-01 13:31:29] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-05-01 13:31:31] INFO root fetch - main [MainThread]: End processing [guify]: success
+[2023-05-01 13:31:33] INFO root fetch - main [MainThread]: End processing [cloudsmith-api]: success
+[2023-05-01 13:31:33] INFO root fetch - main [MainThread]: Store serial: [17925342]
