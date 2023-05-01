@@ -7028,3 +7028,55 @@
 [2023-05-01 12:00:02] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
 [2023-05-01 12:00:03] INFO root fetch - main [MainThread]: End processing [autocog]: success
 [2023-05-01 12:00:03] INFO root fetch - main [MainThread]: Store serial: [17924634]
+[2023-05-01 12:05:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924634]
+[2023-05-01 12:05:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydfl
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-openapi-schema
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplerabbit
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tj-kits-wind
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boston
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edwh-server-provisioning-plugin
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poetry-git-version-plugin
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: catnapmodule
+[2023-05-01 12:05:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: honeybee-radiance-postprocess
+[2023-05-01 12:05:11] WARNING root fetch - processPackages [pydfl]: Skipping, unable to determine old version
+[2023-05-01 12:05:11] INFO root fetch - main [MainThread]: End processing [pydfl] error
+[2023-05-01 12:05:11] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 12:05:11] INFO root fetch - processPackages [catnapmodule]: New version: [1.1] Old Version: [0.21]
+[2023-05-01 12:05:11] INFO root fetch - processPackages [simplerabbit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 12:05:11] WARNING root fetch - processPackages [tj-kits-wind]: Skipping, unable to determine old version
+[2023-05-01 12:05:11] INFO root fetch - processPackages [boston]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 12:05:11] INFO root fetch - main [MainThread]: End processing [tj-kits-wind] error
+[2023-05-01 12:05:11] WARNING root fetch - processPackages [drf-openapi-schema]: Skipping, unable to determine old version
+[2023-05-01 12:05:11] INFO root fetch - main [MainThread]: End processing [drf-openapi-schema] error
+[2023-05-01 12:05:11] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.4a2] Old Version: [0.1.4]
+[2023-05-01 12:05:11] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-01 12:05:11] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 12:05:11] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.8.tar.gz tmp/boston-1.0.9.tar.gz --markdown 20230501/b/boston/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:05:11] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-01 12:05:11] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-01 12:05:11] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-01 12:05:11] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/2e/83/ff9b3ec05d22a7a074f2443a809d336b5f81a0082471f187f975ce6ece2c/simplerabbit-0.0.8.tar.gz
+[2023-05-01 12:05:11] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/91/1c/baed368a39610b995befd87c4d295fd9ec39a73c9dd573596efddd90895f/poetry_git_version_plugin-0.1.4a2.tar.gz
+[2023-05-01 12:05:12] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-01 12:05:12] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.4.tar.gz tmp/poetry_git_version_plugin-0.1.4a2.tar.gz --markdown 20230501/p/poetry-git-version-plugin/0.1.4-0.1.4a2/diff.md --exclude *.pyd
+[2023-05-01 12:05:12] INFO root fetch - processPackages [catnapmodule]: Downloading https://files.pythonhosted.org/packages/d9/69/93adfa0b4669ad2f80a027811ce8c6ec326fd2b98beaaf86767aa889b054/catnapmodule-1.1.tar.gz
+[2023-05-01 12:05:12] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: Downloading https://files.pythonhosted.org/packages/71/7b/29c1c9c4c047d44dc5e4350194f9d03011e63d2bc98b9116a748e1155a9e/edwh_server_provisioning_plugin-0.2.1.tar.gz
+[2023-05-01 12:05:12] INFO root fetch - processPackages [catnapmodule]: executing diffoscope
+[2023-05-01 12:05:12] INFO root fetch - processPackages [catnapmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnapmodule-0.21.tar.gz tmp/catnapmodule-1.1.tar.gz --markdown 20230501/c/catnapmodule/0.21-1.1/diff.md --exclude *.pyd
+[2023-05-01 12:05:12] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: executing diffoscope
+[2023-05-01 12:05:12] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_server_provisioning_plugin-0.2.0.tar.gz tmp/edwh_server_provisioning_plugin-0.2.1.tar.gz --markdown 20230501/e/edwh-server-provisioning-plugin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 12:05:12] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/47/7a/7dc5049b920a917322132e41a0bd586312d7501a23cb4de9f30639f920f1/simplerabbit-0.0.9.tar.gz
+[2023-05-01 12:05:12] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-01 12:05:12] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230501/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-01 12:05:12] INFO root fetch - processPackages [simplerabbit]: executing diffoscope
+[2023-05-01 12:05:12] INFO root fetch - processPackages [simplerabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerabbit-0.0.8.tar.gz tmp/simplerabbit-0.0.9.tar.gz --markdown 20230501/s/simplerabbit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:05:12] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 12:05:13] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-01 12:05:13] INFO root fetch - main [MainThread]: End processing [catnapmodule]: success
+[2023-05-01 12:05:13] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin]: success
+[2023-05-01 12:05:13] INFO root fetch - main [MainThread]: End processing [simplerabbit]: success
+[2023-05-01 12:05:13] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-01 12:05:18] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-01 12:05:18] INFO root fetch - main [MainThread]: Store serial: [17924675]
