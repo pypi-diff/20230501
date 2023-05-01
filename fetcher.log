@@ -14268,3 +14268,51 @@ EOFError: EOF read where object expected
 [2023-05-01 18:34:34] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2023-05-01 18:34:34] INFO root fetch - main [MainThread]: End processing [feathub-nightly]: success
 [2023-05-01 18:34:34] INFO root fetch - main [MainThread]: Store serial: [17928879]
+[2023-05-01 18:39:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928879]
+[2023-05-01 18:39:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wynntilsresolver
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petrolib
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-shelly-deep2
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: client-GPT
+[2023-05-01 18:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edl-mod
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230501.15.50.742045] Old Version: [20230501.12.21.124466]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [client-GPT]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-shelly-deep2]: New version: [20230501.16.4.403586] Old Version: [20230501.16.17.418997]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230501.15.49.563155] Old Version: [20230501.12.26.15372]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [wynntilsresolver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [petrolib]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230501.16.34.777033] Old Version: [20230501.15.50.876040]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [edl-mod]: New version: [0.0.32] Old Version: [0.0.31]
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/2b/db/0e80d3e960e6df5ef6eb4f39b9faa13cff266e960ed385a51ea7854ff2d1/certora-cli-alpha-roy-CERT-1844-usage-20230501.12.21.124466.tar.gz
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-shelly-deep2]: Downloading https://files.pythonhosted.org/packages/f7/e8/e88242d9ec34a3cc2b15e61c0f07464e5a03154f375488786147ec419c30/certora-cli-alpha-shelly-deep2-20230501.16.17.418997.tar.gz
+[2023-05-01 18:39:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fe/43/127f3b31f5ae542bf55dbd4ced7049b9fcdd2b43f7e008f252ad91ce468c/certora-cli-alpha-master-20230501.12.26.15372.tar.gz
+[2023-05-01 18:39:44] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38300979>=10485760
+[2023-05-01 18:39:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-01 18:39:44] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deep2]: Skipping package: exceeds size limit 38324233>=10485760
+[2023-05-01 18:39:44] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38297108>=10485760
+[2023-05-01 18:39:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deep2] error
+[2023-05-01 18:39:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-01 18:39:44] INFO root fetch - processPackages [petrolib]: Downloading https://files.pythonhosted.org/packages/4c/25/5038c882db39cc8046dc7e34998c2c831c8500d584480e3db48296a1511c/petrolib-1.2.3.tar.gz
+[2023-05-01 18:39:44] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/d6/49/ef887d5f6f269f7e9dda647a06ee5d5851a29dd1ce490f51df8e8034e2b9/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230501.15.50.876040.tar.gz
+[2023-05-01 18:39:44] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/a4/24/01f0067089c7a1f7a407d9ada43a5107ac4d38ffbc6ebadeb7c440d470d5/client_GPT-1.1.4.tar.gz
+[2023-05-01 18:39:44] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38324715>=10485760
+[2023-05-01 18:39:44] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-01 18:39:44] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-05-01 18:39:44] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-1.1.3.tar.gz tmp/client_GPT-1.1.4.tar.gz --markdown 20230501/c/client-GPT/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-01 18:39:44] INFO root fetch - processPackages [wynntilsresolver]: Downloading https://files.pythonhosted.org/packages/1e/82/330a1f95ac58a3ae5f0ff4ba3ede36cd46d46f99c38827a070fd8b235013/wynntilsresolver-0.1.2.tar.gz
+[2023-05-01 18:39:44] INFO root fetch - processPackages [edl-mod]: Downloading https://files.pythonhosted.org/packages/aa/3d/faa7e7aeca7a3a10e2039bba1db06f544cb1ae4e817a05327bd1b659cc0b/edl-mod-0.0.32.tar.gz
+[2023-05-01 18:39:44] INFO root fetch - processPackages [wynntilsresolver]: executing diffoscope
+[2023-05-01 18:39:44] INFO root fetch - processPackages [wynntilsresolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wynntilsresolver-0.1.1.tar.gz tmp/wynntilsresolver-0.1.2.tar.gz --markdown 20230501/w/wynntilsresolver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 18:39:44] INFO root fetch - processPackages [edl-mod]: executing diffoscope
+[2023-05-01 18:39:44] INFO root fetch - processPackages [edl-mod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edl-mod-0.0.31.tar.gz tmp/edl-mod-0.0.32.tar.gz --markdown 20230501/e/edl-mod/0.0.31-0.0.32/diff.md --exclude *.pyd
+[2023-05-01 18:39:44] INFO root fetch - processPackages [petrolib]: Downloading https://files.pythonhosted.org/packages/86/d1/2af4885f0b5db09d07f8cb3892e28ba15ba862b84da7af8e1808e9b2437e/petrolib-1.2.4.tar.gz
+[2023-05-01 18:39:44] INFO root fetch - processPackages [petrolib]: executing diffoscope
+[2023-05-01 18:39:44] INFO root fetch - processPackages [petrolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrolib-1.2.3.tar.gz tmp/petrolib-1.2.4.tar.gz --markdown 20230501/p/petrolib/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-01 18:39:45] INFO root fetch - main [MainThread]: End processing [edl-mod]: success
+[2023-05-01 18:39:45] INFO root fetch - main [MainThread]: End processing [wynntilsresolver]: success
+[2023-05-01 18:39:45] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-05-01 18:39:45] INFO root fetch - main [MainThread]: End processing [petrolib]: success
+[2023-05-01 18:39:45] INFO root fetch - main [MainThread]: Store serial: [17928912]
