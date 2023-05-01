@@ -7191,3 +7191,71 @@
 [2023-05-01 12:15:43] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-05-01 12:16:33] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-01 12:16:33] INFO root fetch - main [MainThread]: Store serial: [17924745]
+[2023-05-01 12:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924745]
+[2023-05-01 12:21:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydapsys
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pizurscan
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: detectors
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bilireq
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfn-stk
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: augraphy
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiotubes
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pykx
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arwcom
+[2023-05-01 12:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prosemble
+[2023-05-01 12:21:42] INFO root fetch - processPackages [pydapsys]: New version: [1.0b1] Old Version: [0.2.0]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [detectors]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [bilireq]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-01 12:21:42] WARNING root fetch - processPackages [pizurscan]: Skipping, unable to determine old version
+[2023-05-01 12:21:42] INFO root fetch - processPackages [pizurscan]: Start processing: hexo-inpainting
+[2023-05-01 12:21:42] INFO root fetch - main [MainThread]: End processing [pizurscan] error
+[2023-05-01 12:21:42] WARNING root fetch - processPackages [arwcom]: Skipping, unable to determine old version
+[2023-05-01 12:21:42] INFO root fetch - processPackages [aiotubes]: New version: [3.3] Old Version: [3.2]
+[2023-05-01 12:21:42] INFO root fetch - main [MainThread]: End processing [arwcom] error
+[2023-05-01 12:21:42] INFO root fetch - processPackages [cfn-stk]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [prosemble]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [augraphy]: New version: [8.2.3] Old Version: [8.2.2]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [pykx]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [hexo-inpainting]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 12:21:42] INFO root fetch - processPackages [pydapsys]: Downloading https://files.pythonhosted.org/packages/ce/6f/f5b851eb3d30c10708ce018004bd11c192d920e289c1c5e3274d8cfb175c/pydapsys-0.2.0.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [detectors]: Downloading https://files.pythonhosted.org/packages/04/58/4bc893e202d86968a08808f3f881fe064d501cafd9e8a857fda951db1bca/detectors-0.1.8-py3-none-any.whl
+[2023-05-01 12:21:42] INFO root fetch - processPackages [hexo-inpainting]: executing diffoscope
+[2023-05-01 12:21:42] INFO root fetch - processPackages [hexo-inpainting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexo_inpainting-0.3.tar.gz tmp/hexo_inpainting-0.4.tar.gz --markdown 20230501/h/hexo-inpainting/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 12:21:42] INFO root fetch - processPackages [aiotubes]: Downloading https://files.pythonhosted.org/packages/a3/d5/0f208f5c9238d5227f8448783d84b42fc98fe1b127537bbeaa55b67e7804/aiotubes-3.2.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [cfn-stk]: Downloading https://files.pythonhosted.org/packages/e0/ba/978181d547e27ed336867dc3757bb4af78a8987f78a9b701d28c8f353a63/cfn-stk-0.15.0.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [pykx]: Downloading https://files.pythonhosted.org/packages/1c/11/460badaad9eb1ae9dcf4e4d53f09a169fdd0b0313f8865c4abda6577741f/pykx-1.5.1-cp39-cp39-win_amd64.whl
+[2023-05-01 12:21:42] INFO root fetch - processPackages [bilireq]: Downloading https://files.pythonhosted.org/packages/bb/1f/39c400c31ed32e2da8a9f0dfd9ecd3f0ff57e9f328d1dcfd91828c0e6882/bilireq-0.2.4.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [augraphy]: Downloading https://files.pythonhosted.org/packages/68/cc/c7db4c2799070919aafce7911cbd30d2f4656237c2ce79b8bfd361651f08/augraphy-8.2.3.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [prosemble]: Downloading https://files.pythonhosted.org/packages/8c/e5/fafb0695f1ec166572a9d1bbea68f0a26914bb7263991461ab9b8a84eb41/prosemble-0.7.0.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [detectors]: Downloading https://files.pythonhosted.org/packages/f1/29/88ad1c498744dfeadf249fcc9386e81375aefcd630e55657223ae1e187bc/detectors-0.1.9.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [pydapsys]: Downloading https://files.pythonhosted.org/packages/51/da/aec3160f39d15452ce39e01934753cc7c63efb36f18dc8c444e1be1de495/pydapsys-1.0b1.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [cfn-stk]: Downloading https://files.pythonhosted.org/packages/b9/91/eb019d8e4820f6ac120c768e34649ba6acf5c43cc8557cc34ab34e0de2e9/cfn-stk-0.15.1.tar.gz
+[2023-05-01 12:21:42] INFO root fetch - processPackages [augraphy]: executing diffoscope
+[2023-05-01 12:21:42] INFO root fetch - processPackages [augraphy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augraphy-8.2.2.tar.gz tmp/augraphy-8.2.3.tar.gz --markdown 20230501/a/augraphy/8.2.2-8.2.3/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [aiotubes]: Downloading https://files.pythonhosted.org/packages/d9/64/df5cafe9cf0a183b09cb0fcbb25205bfb6477ee35bf9c165db9097fe0c97/aiotubes-3.3.tar.gz
+[2023-05-01 12:21:43] INFO root fetch - processPackages [prosemble]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [prosemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosemble-0.6.0.tar.gz tmp/prosemble-0.7.0.tar.gz --markdown 20230501/p/prosemble/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [bilireq]: Downloading https://files.pythonhosted.org/packages/49/dd/26bc44ababaa4912d6272d3b5a15d5eab4c52868ec59753a478599fa64bc/bilireq-0.2.5.tar.gz
+[2023-05-01 12:21:43] INFO root fetch - processPackages [cfn-stk]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [cfn-stk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-stk-0.15.0.tar.gz tmp/cfn-stk-0.15.1.tar.gz --markdown 20230501/c/cfn-stk/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [detectors]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detectors-0.1.8-py3-none-any.whl.zip tmp/detectors-0.1.9.tar.gz --markdown 20230501/d/detectors/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [aiotubes]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [aiotubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotubes-3.2.tar.gz tmp/aiotubes-3.3.tar.gz --markdown 20230501/a/aiotubes/3.2-3.3/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [pydapsys]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [pydapsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydapsys-0.2.0.tar.gz tmp/pydapsys-1.0b1.tar.gz --markdown 20230501/p/pydapsys/0.2.0-1.0b1/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [bilireq]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [bilireq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilireq-0.2.4.tar.gz tmp/bilireq-0.2.5.tar.gz --markdown 20230501/b/bilireq/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-01 12:21:43] INFO root fetch - processPackages [pykx]: Downloading https://files.pythonhosted.org/packages/a8/ad/6752c24a52907d046310e1c8ef37e76f5b8b1cb4bb4220e5120cbede88dd/pykx-1.5.2-cp39-cp39-win_amd64.whl
+[2023-05-01 12:21:43] INFO root fetch - processPackages [pykx]: executing diffoscope
+[2023-05-01 12:21:43] INFO root fetch - processPackages [pykx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykx-1.5.1-cp39-cp39-win_amd64.whl.zip tmp/pykx-1.5.2-cp39-cp39-win_amd64.whl.zip --markdown 20230501/p/pykx/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-01 12:21:44] INFO root fetch - main [MainThread]: End processing [prosemble]: success
+[2023-05-01 12:21:44] INFO root fetch - main [MainThread]: End processing [pydapsys]: success
+[2023-05-01 12:21:44] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
+[2023-05-01 12:21:44] INFO root fetch - main [MainThread]: End processing [cfn-stk]: success
+[2023-05-01 12:21:44] INFO root fetch - main [MainThread]: End processing [aiotubes]: success
+[2023-05-01 12:21:45] INFO root fetch - main [MainThread]: End processing [detectors]: success
+[2023-05-01 12:21:45] INFO root fetch - main [MainThread]: End processing [augraphy]: success
+[2023-05-01 12:21:47] INFO root fetch - main [MainThread]: End processing [bilireq]: success
+[2023-05-01 12:21:47] INFO root fetch - main [MainThread]: End processing [pykx]: success
+[2023-05-01 12:21:47] INFO root fetch - main [MainThread]: Store serial: [17924793]
