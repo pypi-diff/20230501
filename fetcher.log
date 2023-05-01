@@ -3670,3 +3670,53 @@
 [2023-05-01 04:29:59] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
 [2023-05-01 04:30:00] INFO root fetch - main [MainThread]: End processing [automatize]: success
 [2023-05-01 04:30:00] INFO root fetch - main [MainThread]: Store serial: [17922528]
+[2023-05-01 04:35:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922528]
+[2023-05-01 04:35:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nitrado
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdata
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-pave
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automatize
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-plus-25
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utils-easy
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spPersist
+[2023-05-01 04:35:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gif-pygame
+[2023-05-01 04:35:09] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [fern-pave]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [automatize]: New version: [1.0b4] Old Version: [1.0b3]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [spPersist]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [utils-easy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [gif-pygame]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 04:35:09] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230501/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 04:35:09] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.0.8.tar.gz tmp/sppersist-0.0.9.tar.gz --markdown 20230501/s/spPersist/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 04:35:09] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230501/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 04:35:09] INFO root fetch - processPackages [fern-pave]: Downloading https://files.pythonhosted.org/packages/8c/b8/70caed6c6076b60b0114631cabe88911c5e057a573ae9bc66ee6e08efd39/fern_pave-0.0.13.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230501/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-01 04:35:09] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/77/3f/aa0765c8f48a8a19c0f697b4f7db339a63bf61c8ef97ebb4f60232b401f1/automatize-1.0b4.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [utils-easy]: Downloading https://files.pythonhosted.org/packages/db/3e/cf8783720183e062209b210d0b559acde95d3f7f81308dd8012759a3f7fd/utils_easy-0.0.1.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [gif-pygame]: Downloading https://files.pythonhosted.org/packages/48/11/b5a07747b9460dff064a58c355f2df739bfd53ba96296456a500dd3415ba/gif_pygame-0.0.5.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [fern-pave]: Downloading https://files.pythonhosted.org/packages/85/d7/25ebc3da50fd6441eff794c91a5aec1a9af9a09fc8ecbff636cc03a80d4c/fern_pave-0.0.14.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [utils-easy]: Downloading https://files.pythonhosted.org/packages/ac/15/810ff9ea26ea19ae794ec715cbefae9e07374b38220e4cb81a3425022291/utils_easy-0.0.2.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [utils-easy]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [utils-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_easy-0.0.1.tar.gz tmp/utils_easy-0.0.2.tar.gz --markdown 20230501/u/utils-easy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 04:35:09] INFO root fetch - processPackages [gif-pygame]: Downloading https://files.pythonhosted.org/packages/b1/7f/ae3b192ad715a36ccf77d30a216b85c1db19307aa52882b43f8ff6458d12/gif_pygame-0.0.6.tar.gz
+[2023-05-01 04:35:09] INFO root fetch - processPackages [fern-pave]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [fern-pave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_pave-0.0.13.tar.gz tmp/fern_pave-0.0.14.tar.gz --markdown 20230501/f/fern-pave/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-05-01 04:35:09] INFO root fetch - processPackages [gif-pygame]: executing diffoscope
+[2023-05-01 04:35:09] INFO root fetch - processPackages [gif-pygame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gif_pygame-0.0.5.tar.gz tmp/gif_pygame-0.0.6.tar.gz --markdown 20230501/g/gif-pygame/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 04:35:10] INFO root fetch - processPackages [automatize]: executing diffoscope
+[2023-05-01 04:35:10] INFO root fetch - processPackages [automatize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatize-1.0b3.tar.gz tmp/automatize-1.0b4.tar.gz --markdown 20230501/a/automatize/1.0b3-1.0b4/diff.md --exclude *.pyd
+[2023-05-01 04:35:10] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 04:35:10] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-05-01 04:35:10] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-01 04:35:10] INFO root fetch - main [MainThread]: End processing [utils-easy]: success
+[2023-05-01 04:35:10] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-01 04:35:11] INFO root fetch - main [MainThread]: End processing [fern-pave]: success
+[2023-05-01 04:35:11] INFO root fetch - main [MainThread]: End processing [gif-pygame]: success
+[2023-05-01 04:35:14] INFO root fetch - main [MainThread]: End processing [automatize]: success
+[2023-05-01 04:35:14] INFO root fetch - main [MainThread]: Store serial: [17922552]
