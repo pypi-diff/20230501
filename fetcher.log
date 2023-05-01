@@ -19409,3 +19409,104 @@ EOFError: EOF read where object expected
 [2023-05-01 23:49:49] INFO root fetch - main [MainThread]: End processing [canvasrobot]: success
 [2023-05-01 23:50:18] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-01 23:50:18] INFO root fetch - main [MainThread]: Store serial: [17932236]
+[2023-05-01 23:55:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932236]
+[2023-05-01 23:55:27] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphcol
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipsqlpackageV2
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-review
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klym-telemetry
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bfet
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eeggan
+[2023-05-01 23:55:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bytez
+[2023-05-01 23:55:27] INFO root fetch - processPackages [keras]: New version: [2.9.0rc2] Old Version: [2.9.0rc1]
+[2023-05-01 23:55:27] WARNING root fetch - processPackages [pipsqlpackageV2]: Skipping, unable to determine old version
+[2023-05-01 23:55:27] INFO root fetch - processPackages [pipsqlpackageV2]: Start processing: trade-republic-api
+[2023-05-01 23:55:27] INFO root fetch - main [MainThread]: End processing [pipsqlpackageV2] error
+[2023-05-01 23:55:27] INFO root fetch - processPackages [graphcol]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-01 23:55:27] WARNING root fetch - processPackages [klym-telemetry]: Skipping, unable to determine old version
+[2023-05-01 23:55:27] INFO root fetch - processPackages [klym-telemetry]: Start processing: nautobot
+[2023-05-01 23:55:27] INFO root fetch - main [MainThread]: End processing [klym-telemetry] error
+[2023-05-01 23:55:27] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3] Old Version: [0.0.1rc95.post1]
+[2023-05-01 23:55:27] INFO root fetch - processPackages [eeggan]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-05-01 23:55:27] INFO root fetch - processPackages [bfet]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:55:27] WARNING root fetch - processPackages [trade-republic-api]: Skipping, unable to determine old version
+[2023-05-01 23:55:27] INFO root fetch - processPackages [trade-republic-api]: Start processing: graphcol
+[2023-05-01 23:55:27] INFO root fetch - main [MainThread]: End processing [trade-republic-api] error
+[2023-05-01 23:55:27] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:55:27] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-01 23:55:27] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-01 23:55:27] INFO root fetch - processPackages [graphcol]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-01 23:55:27] INFO root fetch - processPackages [nautobot]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2023-05-01 23:55:28] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230501/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230501/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/5e/b6/32fb50c1116cfe9cb9ab0f12691e78899eba322bfa76ddad7b0ef2de290b/keras-2.9.0rc1-py2.py3-none-any.whl
+[2023-05-01 23:55:28] INFO root fetch - processPackages [eeggan]: Downloading https://files.pythonhosted.org/packages/16/c0/949ce7c5260d0582156d563c7961b6ca81fc04988a9e56185baeab5bbd33/eeggan-0.0.9.tar.gz
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: Downloading https://files.pythonhosted.org/packages/dc/c7/a6759b78d634af71e69723252cfb6248dbeb2b2c237ef171d623089f4033/graphcol-0.4.1.tar.gz
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: Downloading https://files.pythonhosted.org/packages/dc/c7/a6759b78d634af71e69723252cfb6248dbeb2b2c237ef171d623089f4033/graphcol-0.4.1.tar.gz
+[2023-05-01 23:55:28] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc95.post1.tar.gz tmp/gpt-review-0.2.3.tar.gz --markdown 20230501/g/gpt-review/0.0.1rc95.post1-0.2.3/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/59/83/30d3200ba3d4394379c1335ba986f2a80c46d6fbdee3085b00f2896088a6/nautobot-2.0.0a2.tar.gz
+[2023-05-01 23:55:28] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 86772048>=10485760
+[2023-05-01 23:55:28] INFO root fetch - processPackages [nautobot]: Start processing: certora-cli-alpha-shelly-deepfixes
+[2023-05-01 23:55:28] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2023-05-01 23:55:28] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: New version: [20230501.21.53.489243] Old Version: [20230501.20.30.334726]
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: Downloading https://files.pythonhosted.org/packages/da/c3/4e0148994e843e3e9ae5463aec73025f6d56bb84cae603d099d359c645a8/graphcol-0.4.2.tar.gz
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: Downloading https://files.pythonhosted.org/packages/da/c3/4e0148994e843e3e9ae5463aec73025f6d56bb84cae603d099d359c645a8/graphcol-0.4.2.tar.gz
+[2023-05-01 23:55:28] INFO root fetch - processPackages [bfet]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [bfet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfet-0.1.8.tar.gz tmp/bfet-0.1.9.tar.gz --markdown 20230501/b/bfet/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Downloading https://files.pythonhosted.org/packages/6e/63/8f0cc8e6e2d059b5fb69e9fd844b87463fc96dbaabb7c74a01a948e74036/certora-cli-alpha-shelly-deepfixes-20230501.20.30.334726.tar.gz
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphcol-0.4.1.tar.gz tmp/graphcol-0.4.2.tar.gz --markdown 20230501/g/graphcol/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [graphcol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphcol-0.4.1.tar.gz tmp/graphcol-0.4.2.tar.gz --markdown 20230501/g/graphcol/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Skipping package: exceeds size limit 38324841>=10485760
+[2023-05-01 23:55:28] INFO root fetch - processPackages [certora-cli-alpha-shelly-deepfixes]: Start processing: flake8-pyi
+[2023-05-01 23:55:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deepfixes] error
+[2023-05-01 23:55:28] WARNING root fetch - processPackages [eeggan]: Skipping package: exceeds size limit 32323567>=10485760
+[2023-05-01 23:55:28] INFO root fetch - processPackages [eeggan]: Start processing: datasette-sqlite-vss
+[2023-05-01 23:55:28] INFO root fetch - main [MainThread]: End processing [eeggan] error
+[2023-05-01 23:55:28] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.6a1] Old Version: [0.0.6]
+[2023-05-01 23:55:28] INFO root fetch - processPackages [flake8-pyi]: New version: [23.5.0] Old Version: [23.4.1]
+[2023-05-01 23:55:28] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.6-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.6a1-py3-none-any.whl.zip --markdown 20230501/d/datasette-sqlite-vss/0.0.6-0.0.6a1/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [keras]: Downloading https://files.pythonhosted.org/packages/73/3d/ccfb487c255c9fcb53bce542f3a7e36efae5af17223f8978014b7a4112c0/keras-2.9.0rc2-py2.py3-none-any.whl
+[2023-05-01 23:55:28] INFO root fetch - processPackages [keras]: executing diffoscope
+[2023-05-01 23:55:28] INFO root fetch - processPackages [keras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-2.9.0rc1-py2.py3-none-any.whl.zip tmp/keras-2.9.0rc2-py2.py3-none-any.whl.zip --markdown 20230501/k/keras/2.9.0rc1-2.9.0rc2/diff.md --exclude *.pyd
+[2023-05-01 23:55:28] INFO root fetch - processPackages [flake8-pyi]: Downloading https://files.pythonhosted.org/packages/7a/1e/37cc2e044b49a7b06fd9977d2b18a819b19fbe22c716f23169d74cf4670a/flake8_pyi-23.4.1.tar.gz
+[2023-05-01 23:55:29] INFO root fetch - processPackages [flake8-pyi]: Downloading https://files.pythonhosted.org/packages/b0/4f/ca2fd3f9bd77be3485154952b38030d586bc1ae3e292bda21234af1f3f53/flake8_pyi-23.5.0.tar.gz
+[2023-05-01 23:55:29] INFO root fetch - processPackages [flake8-pyi]: executing diffoscope
+[2023-05-01 23:55:29] INFO root fetch - processPackages [flake8-pyi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_pyi-23.4.1.tar.gz tmp/flake8_pyi-23.5.0.tar.gz --markdown 20230501/f/flake8-pyi/23.4.1-23.5.0/diff.md --exclude *.pyd
+[2023-05-01 23:55:29] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Start processing: sqlite-vss
+[2023-05-01 23:55:29] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-01 23:55:29] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.6a1] Old Version: [0.0.6]
+[2023-05-01 23:55:29] INFO root fetch - processPackages [gpt-review]: Start processing: gpt-review
+[2023-05-01 23:55:29] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-01 23:55:29] INFO root fetch - processPackages [gpt-review]: New version: [0.2.3rc260.post1] Old Version: [0.2.3]
+[2023-05-01 23:55:29] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-01 23:55:29] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.6a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230501/s/sqlite-vss/0.0.6-0.0.6a1/diff.md --exclude *.pyd
+[2023-05-01 23:55:29] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/20/f6/4a437345cdccd0ed49fc0042d349e4856b032f89f6bcd0c9bf04448924a5/gpt-review-0.2.3rc260.post1.tar.gz
+[2023-05-01 23:55:29] INFO root fetch - processPackages [bytez]: Start processing: bytez
+[2023-05-01 23:55:29] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:55:29] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:55:29] INFO root fetch - main [MainThread]: End processing [graphcol]: success
+[2023-05-01 23:55:30] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:55:30] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:55:30] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-01 23:55:30] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.2.3.tar.gz tmp/gpt-review-0.2.3rc260.post1.tar.gz --markdown 20230501/g/gpt-review/0.2.3-0.2.3rc260.post1/diff.md --exclude *.pyd
+[2023-05-01 23:55:30] INFO root fetch - main [MainThread]: End processing [graphcol]: success
+[2023-05-01 23:55:30] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-01 23:55:30] INFO root fetch - main [MainThread]: End processing [bfet]: success
+[2023-05-01 23:55:31] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:55:31] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-01 23:55:31] INFO root fetch - main [MainThread]: End processing [flake8-pyi]: success
+[2023-05-01 23:55:34] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-01 23:55:36] INFO root fetch - main [MainThread]: End processing [keras]: success
+[2023-05-01 23:55:52] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-01 23:55:52] INFO root fetch - main [MainThread]: Store serial: [17932295]
