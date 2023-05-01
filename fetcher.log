@@ -6199,3 +6199,67 @@
 [2023-05-01 10:44:27] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-01 10:44:42] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
 [2023-05-01 10:44:42] INFO root fetch - main [MainThread]: Store serial: [17924076]
+[2023-05-01 10:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924076]
+[2023-05-01 10:49:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfp-nightly
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecidacli
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlitemanager
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tj-kits-winds
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inpainting
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-engine-terraform-gcs
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boston
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dbm-agent
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xeno
+[2023-05-01 10:49:53] INFO root fetch - processPackages [yeref]: New version: [0.1.50] Old Version: [0.1.49]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ecidacli]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.4] Old Version: [8.33.3]
+[2023-05-01 10:49:53] WARNING root fetch - processPackages [tj-kits-winds]: Skipping, unable to determine old version
+[2023-05-01 10:49:53] WARNING root fetch - processPackages [inpainting]: Skipping, unable to determine old version
+[2023-05-01 10:49:53] INFO root fetch - processPackages [tj-kits-winds]: Start processing: palmers-preprocess
+[2023-05-01 10:49:53] INFO root fetch - main [MainThread]: End processing [tj-kits-winds] error
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xia-engine-terraform-gcs]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-01 10:49:53] INFO root fetch - main [MainThread]: End processing [inpainting] error
+[2023-05-01 10:49:53] INFO root fetch - processPackages [sqlitemanager]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [boston]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [palmers-preprocess]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xeno]: New version: [6.1.0] Old Version: [6.0.3]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [palmers-preprocess]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [palmers-preprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_preprocess-0.0.4.tar.gz tmp/palmers_preprocess-0.0.5.tar.gz --markdown 20230501/p/palmers-preprocess/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Downloading https://files.pythonhosted.org/packages/62/8b/d66ac26a5fdfed2a5836499f35360b90808b32bcda03ab315878c4779a41/xia_engine_terraform_gcs-0.0.6-cp39-none-win_amd64.whl
+[2023-05-01 10:49:53] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/a6/7b/0382fc84cc771d104d33ae38ca9eed2a871e3505dc99bb4d98bd4aebb7f7/yeref-0.1.49.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/84/ec/58fcf8741c3a25a54dde65b5cf4d653cf0c654feab723fb1091b867ed57d/boston-1.0.4.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [sqlitemanager]: Downloading https://files.pythonhosted.org/packages/17/3a/ed85bfe6d06c0f77c303b9b8e96369e6044ead4cb1b2964144db9b8a8caf/sqlitemanager-0.7.2.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/a5/be/22e1d4cf3d4d80c61b191542863f96c4a9b702b3869c77436bab4342c9ad/ecidacli-0.0.8.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [sqlitemanager]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [sqlitemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlitemanager-0.7.1.tar.gz tmp/sqlitemanager-0.7.2.tar.gz --markdown 20230501/s/sqlitemanager/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ecidacli]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [ecidacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecidacli-0.0.7.tar.gz tmp/ecidacli-0.0.8.tar.gz --markdown 20230501/e/ecidacli/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/d2/4f/c4dbbb2e19e955462ccc6487746941736a30fb2845075318f5ee309de61c/dbm-agent-8.33.4.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/ae/5c/d703d35b3cfe3293b431af5e7da7eb19634f771520ca5bfd9c1158c09261/boston-1.0.5.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/e1/f0/4bf98d52cd54f6d27fb560095941578971f2ec914e738adaae0310cc8d66/yeref-0.1.50.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xeno]: Downloading https://files.pythonhosted.org/packages/0b/e9/c447408186c28941da79c8831d110f1164b356dc866739c6733ab9655414/xeno-6.1.0.tar.gz
+[2023-05-01 10:49:53] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.3.tar.gz tmp/dbm-agent-8.33.4.tar.gz --markdown 20230501/d/dbm-agent/8.33.3-8.33.4/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xia-engine-terraform-gcs]: Downloading https://files.pythonhosted.org/packages/a9/a7/01053ce18efd6c39a019cab774e034ff0087eeecda3575fa398452b94b2d/xia_engine_terraform_gcs-0.0.8-cp39-none-win_amd64.whl
+[2023-05-01 10:49:53] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230501/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.4.tar.gz tmp/boston-1.0.5.tar.gz --markdown 20230501/b/boston/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xeno]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xeno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xeno-6.0.3.tar.gz tmp/xeno-6.1.0.tar.gz --markdown 20230501/x/xeno/6.0.3-6.1.0/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.1.49.tar.gz tmp/yeref-0.1.50.tar.gz --markdown 20230501/y/yeref/0.1.49-0.1.50/diff.md --exclude *.pyd
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xia-engine-terraform-gcs]: executing diffoscope
+[2023-05-01 10:49:53] INFO root fetch - processPackages [xia-engine-terraform-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform_gcs-0.0.6-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform_gcs-0.0.8-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-engine-terraform-gcs/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 10:49:54] INFO root fetch - main [MainThread]: End processing [sqlitemanager]: success
+[2023-05-01 10:49:54] INFO root fetch - main [MainThread]: End processing [ecidacli]: success
+[2023-05-01 10:49:55] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 10:49:55] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform-gcs]: success
+[2023-05-01 10:49:55] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-05-01 10:49:55] INFO root fetch - main [MainThread]: End processing [xeno]: success
+[2023-05-01 10:49:55] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-05-01 10:49:56] INFO root fetch - main [MainThread]: End processing [palmers-preprocess]: success
+[2023-05-01 10:50:05] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-05-01 10:50:05] INFO root fetch - main [MainThread]: Store serial: [17924112]
