@@ -18280,3 +18280,107 @@ EOFError: EOF read where object expected
 [2023-05-01 22:52:00] INFO root fetch - main [MainThread]: End processing [PyZEAL]: success
 [2023-05-01 22:52:05] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
 [2023-05-01 22:52:05] INFO root fetch - main [MainThread]: Store serial: [17931509]
+[2023-05-01 22:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931509]
+[2023-05-01 22:57:14] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ReverseShell
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybids
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: questdb-connect
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ConvertChemistry
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reixs
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ulid-transform
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weatherly
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fast-depends
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-filter-autotools
+[2023-05-01 22:57:14] INFO root fetch - processPackages [pybids]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-01 22:57:14] WARNING root fetch - processPackages [ConvertChemistry]: Skipping, unable to determine old version
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ConvertChemistry]: Start processing: simulateIRAS
+[2023-05-01 22:57:14] INFO root fetch - main [MainThread]: End processing [ConvertChemistry] error
+[2023-05-01 22:57:14] WARNING root fetch - processPackages [django-filter-autotools]: Skipping, unable to determine old version
+[2023-05-01 22:57:14] INFO root fetch - processPackages [django-filter-autotools]: Start processing: TheSilent
+[2023-05-01 22:57:14] INFO root fetch - processPackages [fast-depends]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-01 22:57:14] INFO root fetch - main [MainThread]: End processing [django-filter-autotools] error
+[2023-05-01 22:57:14] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [weatherly]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ReverseShell]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [reixs]: New version: [0.5.7] Old Version: [0.5.6a0]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ulid-transform]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [simulateIRAS]: New version: [0.1.0.post1] Old Version: [0.1.0]
+[2023-05-01 22:57:14] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/63/4a/199e84cb394ab4a62f71bb2f4251ba8ed34a199ea385b81408c7c1997f13/questdb-connect-0.0.27.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/03/06/c701a10f9e012e1f77712258b1aff47c5cb3026a937884a57c4293c8d2fd/fast_depends-1.1.2.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [weatherly]: Downloading https://files.pythonhosted.org/packages/db/a0/87b46f86a912ffe5956cb69a7969e9a58b396cb0f7f2476f40275a7051ab/weatherly-0.5.1.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ulid-transform]: Downloading https://files.pythonhosted.org/packages/ba/44/ea5c2608ba7e56a0a3b142b019e9cb27852b2bf87ac02653b3961627aebf/ulid_transform-0.7.2.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [simulateIRAS]: Downloading https://files.pythonhosted.org/packages/84/94/0b402bc9f7783fe2a2952b04bd875a973b1fefcd864b5270a1aa8d5a31d7/simulateIRAS-0.1.0.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [reixs]: Downloading https://files.pythonhosted.org/packages/c6/b4/909b5bc47889f3bd6f5c38587dda85507ea359dc922053d1534d4b9b5746/reixs-0.5.6a0.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ReverseShell]: Downloading https://files.pythonhosted.org/packages/cf/03/ecc0f7e2619056a67199eca124ad75a496e1c577786adbf33037020fe83f/ReverseShell-0.0.6.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [pybids]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [pybids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybids-0.9.4.tar.gz tmp/pybids-0.9.5.tar.gz --markdown 20230501/p/pybids/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/4b/3b/63462e7a9ceb159bf2b0df4729a1223b5efc0e0ba1de5c1aad00f0a638a5/fast_depends-1.1.3.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/b5/47/9621306db9f036ba2bdee9ee7d8069edd27032eb9a3e0b9aec3f8fd3b21c/questdb-connect-0.0.28.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ulid-transform]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ulid-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ulid_transform-0.7.1.tar.gz tmp/ulid_transform-0.7.2.tar.gz --markdown 20230501/u/ulid-transform/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [weatherly]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [weatherly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weatherly-0.5.0.tar.gz tmp/weatherly-0.5.1.tar.gz --markdown 20230501/w/weatherly/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230501/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230501/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [simulateIRAS]: Downloading https://files.pythonhosted.org/packages/93/86/e00833ffc39e383bdd3fb6e24da8a326dbdd9a38d41b9307d228a0813223/simulateIRAS-0.1.0.post1.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [ReverseShell]: Downloading https://files.pythonhosted.org/packages/df/1a/371d465528874c3a3b4f61ffd6226aff0db36a7f08ae3536ce4fc0b4551e/ReverseShell-0.0.7.tar.gz
+[2023-05-01 22:57:14] INFO root fetch - processPackages [fast-depends]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [fast-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_depends-1.1.2.tar.gz tmp/fast_depends-1.1.3.tar.gz --markdown 20230501/f/fast-depends/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.27.tar.gz tmp/questdb-connect-0.0.28.tar.gz --markdown 20230501/q/questdb-connect/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [simulateIRAS]: executing diffoscope
+[2023-05-01 22:57:14] INFO root fetch - processPackages [simulateIRAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulateIRAS-0.1.0.tar.gz tmp/simulateIRAS-0.1.0.post1.tar.gz --markdown 20230501/s/simulateIRAS/0.1.0-0.1.0.post1/diff.md --exclude *.pyd
+[2023-05-01 22:57:14] INFO root fetch - processPackages [reixs]: Downloading https://files.pythonhosted.org/packages/4c/67/4b59988fa9bebb9dc2ae98d8aff1171dd2f7cd60b42fe40b15d6a0daf393/reixs-0.5.7.tar.gz
+[2023-05-01 22:57:15] INFO root fetch - processPackages [ReverseShell]: executing diffoscope
+[2023-05-01 22:57:15] INFO root fetch - processPackages [ReverseShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReverseShell-0.0.6.tar.gz tmp/ReverseShell-0.0.7.tar.gz --markdown 20230501/R/ReverseShell/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 22:57:15] INFO root fetch - processPackages [reixs]: executing diffoscope
+[2023-05-01 22:57:15] INFO root fetch - processPackages [reixs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reixs-0.5.6a0.tar.gz tmp/reixs-0.5.7.tar.gz --markdown 20230501/r/reixs/0.5.6a0-0.5.7/diff.md --exclude *.pyd
+[2023-05-01 22:57:16] INFO root fetch - processPackages [TheSilent]: Start processing: widgets-lib
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-01 22:57:16] INFO root fetch - processPackages [widgets-lib]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-05-01 22:57:16] INFO root fetch - processPackages [ulid-transform]: Start processing: valparse
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [ulid-transform]: success
+[2023-05-01 22:57:16] WARNING root fetch - processPackages [valparse]: Skipping, unable to determine old version
+[2023-05-01 22:57:16] INFO root fetch - processPackages [valparse]: Start processing: bytez
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [valparse] error
+[2023-05-01 22:57:16] INFO root fetch - processPackages [questdb-connect]: Start processing: ezregex
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-01 22:57:16] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:57:16] INFO root fetch - processPackages [simulateIRAS]: Start processing: PCRinSilico
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [simulateIRAS]: success
+[2023-05-01 22:57:16] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/9e/a3/6405ecd96bd43062e8235304b1d09da431a24478580c1b577e209c55c30e/widgets-lib-2.7.2.tar.gz
+[2023-05-01 22:57:16] INFO root fetch - processPackages [ezregex]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 22:57:16] WARNING root fetch - processPackages [PCRinSilico]: Skipping, unable to determine old version
+[2023-05-01 22:57:16] INFO root fetch - processPackages [PCRinSilico]: Start processing: django-filter-autotools
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [PCRinSilico] error
+[2023-05-01 22:57:16] INFO root fetch - processPackages [django-filter-autotools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 22:57:16] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 22:57:16] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:57:16] INFO root fetch - processPackages [django-filter-autotools]: Downloading https://files.pythonhosted.org/packages/2c/d2/b14530f24151fc2a24692fa2ec54a083b02c5893b66c1080618e795ca8a9/django-filter-autotools-0.0.1.tar.gz
+[2023-05-01 22:57:16] INFO root fetch - processPackages [widgets-lib]: Downloading https://files.pythonhosted.org/packages/6f/e8/461810196d7c6ae8daeb6d65204ef990137000bbb55f3bb86ed2098a972f/widgets-lib-2.7.3.tar.gz
+[2023-05-01 22:57:16] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/fa/88/05fbbc44744e680f1b62e023c083020887c85e150daa1ba874623cf49074/ezregex-1.0.0.tar.gz
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [ReverseShell]: success
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-01 22:57:16] INFO root fetch - main [MainThread]: End processing [weatherly]: success
+[2023-05-01 22:57:16] INFO root fetch - processPackages [widgets-lib]: executing diffoscope
+[2023-05-01 22:57:16] INFO root fetch - processPackages [widgets-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgets-lib-2.7.2.tar.gz tmp/widgets-lib-2.7.3.tar.gz --markdown 20230501/w/widgets-lib/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-05-01 22:57:17] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/fb/1f/a48d2e6f77f8f9db81781293e606b3098f882c568b97466edded81a8c093/ezregex-1.1.0.tar.gz
+[2023-05-01 22:57:17] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
+[2023-05-01 22:57:17] INFO root fetch - processPackages [django-filter-autotools]: Downloading https://files.pythonhosted.org/packages/e8/6e/3230bd9f23c2293c75fac285e03bc5f431e9718daa1f0e2b9b3b515ff598/django-filter-autotools-0.0.2.tar.gz
+[2023-05-01 22:57:17] INFO root fetch - processPackages [ezregex]: executing diffoscope
+[2023-05-01 22:57:17] INFO root fetch - processPackages [ezregex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezregex-1.0.0.tar.gz tmp/ezregex-1.1.0.tar.gz --markdown 20230501/e/ezregex/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 22:57:17] INFO root fetch - processPackages [django-filter-autotools]: executing diffoscope
+[2023-05-01 22:57:17] INFO root fetch - processPackages [django-filter-autotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-filter-autotools-0.0.1.tar.gz tmp/django-filter-autotools-0.0.2.tar.gz --markdown 20230501/d/django-filter-autotools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 22:57:17] INFO root fetch - main [MainThread]: End processing [reixs]: success
+[2023-05-01 22:57:17] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 22:57:18] INFO root fetch - main [MainThread]: End processing [widgets-lib]: success
+[2023-05-01 22:57:18] INFO root fetch - main [MainThread]: End processing [django-filter-autotools]: success
+[2023-05-01 22:57:18] INFO root fetch - main [MainThread]: End processing [ezregex]: success
+[2023-05-01 23:00:14] ERROR root fetch - processPackages [pybids]: Timeout during execution of pkgdiff
+[2023-05-01 23:00:14] INFO root fetch - main [MainThread]: End processing [pybids] error
+[2023-05-01 23:00:14] INFO root fetch - main [MainThread]: Store serial: [17931565]
