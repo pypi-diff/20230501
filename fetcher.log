@@ -3045,3 +3045,28 @@
 [2023-05-01 03:10:12] INFO root fetch - main [MainThread]: End processing [automatize]: success
 [2023-05-01 03:10:30] INFO root fetch - main [MainThread]: End processing [gumbi]: success
 [2023-05-01 03:10:30] INFO root fetch - main [MainThread]: Store serial: [17922076]
+[2023-05-01 03:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922076]
+[2023-05-01 03:15:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 03:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DBRetina
+[2023-05-01 03:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sops-secrets
+[2023-05-01 03:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testprepup
+[2023-05-01 03:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anonlink
+[2023-05-01 03:15:40] INFO root fetch - processPackages [DBRetina]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-01 03:15:40] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 03:15:40] WARNING root fetch - processPackages [testprepup]: Skipping, unable to determine old version
+[2023-05-01 03:15:40] INFO root fetch - main [MainThread]: End processing [testprepup] error
+[2023-05-01 03:15:40] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-05-01 03:15:40] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.8.tar.gz tmp/cdk-sops-secrets-1.2.9.tar.gz --markdown 20230501/c/cdk-sops-secrets/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 03:15:40] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/94/aa/8592ece066da0d1cf81fde61201bc3f370236d8460d2a9024fbf0017c5de/DBRetina-2.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-01 03:15:40] INFO root fetch - processPackages [anonlink]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-01 03:15:40] INFO root fetch - processPackages [anonlink]: Downloading https://files.pythonhosted.org/packages/a2/0e/65552dfe8bd13b1d7d32bbc8a663538137167f9ed599ccb3210f4259171c/anonlink-0.8.1.tar.gz
+[2023-05-01 03:15:40] INFO root fetch - processPackages [DBRetina]: Downloading https://files.pythonhosted.org/packages/a7/56/ac1baf2acfb77cf828344c983e0dc5ebb9246612df62ef9da7f41210a102/DBRetina-2.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-01 03:15:41] INFO root fetch - processPackages [anonlink]: Downloading https://files.pythonhosted.org/packages/af/8f/7ad97255a1e61b7cb4ec333adeaa12216f772bf91f970b24c026faa01d10/anonlink-0.9.0.tar.gz
+[2023-05-01 03:15:41] INFO root fetch - processPackages [DBRetina]: executing diffoscope
+[2023-05-01 03:15:41] INFO root fetch - processPackages [DBRetina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DBRetina-2.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/DBRetina-2.2.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230501/D/DBRetina/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-01 03:15:41] INFO root fetch - processPackages [anonlink]: executing diffoscope
+[2023-05-01 03:15:41] INFO root fetch - processPackages [anonlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anonlink-0.8.1.tar.gz tmp/anonlink-0.9.0.tar.gz --markdown 20230501/a/anonlink/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 03:15:42] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-05-01 03:15:42] INFO root fetch - main [MainThread]: End processing [anonlink]: success
+[2023-05-01 03:16:03] INFO root fetch - main [MainThread]: End processing [DBRetina]: success
+[2023-05-01 03:16:03] INFO root fetch - main [MainThread]: Store serial: [17922089]
