@@ -18528,3 +18528,157 @@ EOFError: EOF read where object expected
 [2023-05-01 23:05:58] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-05-01 23:08:04] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
 [2023-05-01 23:08:04] INFO root fetch - main [MainThread]: Store serial: [17931672]
+[2023-05-01 23:13:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931672]
+[2023-05-01 23:13:14] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VDBforGenAI
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellxgene-census
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skillsnetwork-authoring-extension
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: entitylinking-wikipedia
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: typer-config
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysubprocess
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simulateIRAS
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: awpr
+[2023-05-01 23:13:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fsai-shared-funcs
+[2023-05-01 23:13:14] INFO root fetch - processPackages [cellxgene-census]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-05-01 23:13:14] INFO root fetch - processPackages [VDBforGenAI]: New version: [0.21] Old Version: [0.2]
+[2023-05-01 23:13:14] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: New version: [0.5.6rc1] Old Version: [0.5.6]
+[2023-05-01 23:13:14] WARNING root fetch - processPackages [typer-config]: Skipping, unable to determine old version
+[2023-05-01 23:13:14] INFO root fetch - processPackages [typer-config]: Start processing: cvat-manifest-builder
+[2023-05-01 23:13:14] INFO root fetch - processPackages [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions]: New version: [20230501.21.7.982956] Old Version: [20230501.20.16.936344]
+[2023-05-01 23:13:14] INFO root fetch - main [MainThread]: End processing [typer-config] error
+[2023-05-01 23:13:14] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:14] WARNING root fetch - processPackages [pysubprocess]: Skipping, unable to determine old version
+[2023-05-01 23:13:14] INFO root fetch - processPackages [simulateIRAS]: New version: [0.1.0.post2] Old Version: [0.1.0.post1]
+[2023-05-01 23:13:14] INFO root fetch - processPackages [pysubprocess]: Start processing: recursive-validator
+[2023-05-01 23:13:14] INFO root fetch - main [MainThread]: End processing [pysubprocess] error
+[2023-05-01 23:13:14] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:14] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:14] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:15] INFO root fetch - processPackages [entitylinking-wikipedia]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 23:13:15] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: Downloading https://files.pythonhosted.org/packages/24/0d/e2e876f10a114678fbed34a7fcca481944fef30c5738e99194dc7beea056/skillsnetwork-authoring-extension-0.5.6.tar.gz
+[2023-05-01 23:13:15] INFO root fetch - processPackages [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions]: Downloading https://files.pythonhosted.org/packages/a5/7c/e7e7b8852f2060a4ae882f83c27c7cedc73930c3e6e95bd1358cb32fc83f/certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions-20230501.20.16.936344.tar.gz
+[2023-05-01 23:13:15] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions]: Skipping package: exceeds size limit 38324670>=10485760
+[2023-05-01 23:13:15] INFO root fetch - processPackages [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions]: Start processing: fsai-grpc-api
+[2023-05-01 23:13:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-add-tests-for-CallTrace-functions] error
+[2023-05-01 23:13:15] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/5e/3c/301d0b118610435f57d71a503538653026a44a4f428f54767f8b514fa594/cellxgene_census-1.0.0rc2.tar.gz
+[2023-05-01 23:13:15] INFO root fetch - processPackages [simulateIRAS]: Downloading https://files.pythonhosted.org/packages/42/8c/a2180f8c384f42c8f2c1d1f0592fee83a8f3eda1979ef6f360f8480097da/simulateIRAS-0.1.0.post2.tar.gz
+[2023-05-01 23:13:15] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:15] INFO root fetch - processPackages [VDBforGenAI]: Downloading https://files.pythonhosted.org/packages/00/7b/5cd5dacfc9738acd5c913c453cce7139a41a061dfb8798114f5999dc3cd0/VDBforGenAI-0.21-py3-none-any.whl
+[2023-05-01 23:13:15] INFO root fetch - processPackages [entitylinking-wikipedia]: Downloading https://files.pythonhosted.org/packages/3d/41/ea64bdac2cfd0ae891fd25ed3a4fc1f87ec4423eeed1cb84b1b34cf0e5c9/entitylinking_wikipedia-0.0.8.tar.gz
+[2023-05-01 23:13:15] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230501/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [simulateIRAS]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [simulateIRAS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulateIRAS-0.1.0.post1.tar.gz tmp/simulateIRAS-0.1.0.post2.tar.gz --markdown 20230501/s/simulateIRAS/0.1.0.post1-0.1.0.post2/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.0.0rc1.tar.gz tmp/cellxgene_census-1.0.0rc2.tar.gz --markdown 20230501/c/cellxgene-census/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: Downloading https://files.pythonhosted.org/packages/a2/7a/147ac82b04cdb20d3fa0e482cdbb56806729e616d54bfcbe0301169302fe/skillsnetwork-authoring-extension-0.5.6rc1.tar.gz
+[2023-05-01 23:13:15] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230501/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [VDBforGenAI]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [VDBforGenAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VDBforGenAI-0.2.tar.gz tmp/VDBforGenAI-0.21-py3-none-any.whl.zip --markdown 20230501/V/VDBforGenAI/0.2-0.21/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230501/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230501/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [entitylinking-wikipedia]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [entitylinking-wikipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entitylinking_wikipedia-0.0.7.tar.gz tmp/entitylinking_wikipedia-0.0.8.tar.gz --markdown 20230501/e/entitylinking-wikipedia/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillsnetwork-authoring-extension-0.5.6.tar.gz tmp/skillsnetwork-authoring-extension-0.5.6rc1.tar.gz --markdown 20230501/s/skillsnetwork-authoring-extension/0.5.6-0.5.6rc1/diff.md --exclude *.pyd
+[2023-05-01 23:13:15] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-05-01 23:13:15] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230501/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] INFO root fetch - processPackages [VDBforGenAI]: Start processing: json-file-split
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [VDBforGenAI]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: geopix
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [awpr]: Start processing: iwx-manifest-builder
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [simulateIRAS]: Start processing: neon-mq-connector
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [simulateIRAS]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [recursive-validator]: Start processing: mkposters
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [neon-mq-connector]: New version: [0.6.1a9] Old Version: [0.6.1a8]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [fsai-shared-funcs]: Start processing: digitalguide
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [cellxgene-census]: Start processing: botocore-stubs
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [entitylinking-wikipedia]: Start processing: chatgpt-bot
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [entitylinking-wikipedia]: success
+[2023-05-01 23:13:17] INFO root fetch - processPackages [mkposters]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [botocore-stubs]: New version: [1.29.99] Old Version: [1.29.98]
+[2023-05-01 23:13:17] WARNING root fetch - processPackages [chatgpt-bot]: Skipping, unable to determine old version
+[2023-05-01 23:13:17] INFO root fetch - processPackages [chatgpt-bot]: Start processing: tuotuo
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [chatgpt-bot] error
+[2023-05-01 23:13:17] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230501/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] WARNING root fetch - processPackages [tuotuo]: Skipping, unable to determine old version
+[2023-05-01 23:13:17] INFO root fetch - processPackages [tuotuo]: Start processing: clipped
+[2023-05-01 23:13:17] INFO root fetch - main [MainThread]: End processing [tuotuo] error
+[2023-05-01 23:13:17] INFO root fetch - processPackages [clipped]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-01 23:13:17] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230501/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230501/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] INFO root fetch - processPackages [mkposters]: Downloading https://files.pythonhosted.org/packages/16/fb/ab92d2616937abf1021e279fe540b3793ff5be83d87623ba41a140a72d4b/mkposters-0.0.4.tar.gz
+[2023-05-01 23:13:17] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230501/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] INFO root fetch - processPackages [neon-mq-connector]: Downloading https://files.pythonhosted.org/packages/5d/23/77e30dd054c96e9642f37c97c04edf98f8ad0f04da347397e45cdd180628/neon_mq_connector-0.6.1a9-py3-none-any.whl
+[2023-05-01 23:13:17] INFO root fetch - processPackages [mkposters]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [mkposters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkposters-0.0.3.tar.gz tmp/mkposters-0.0.4.tar.gz --markdown 20230501/m/mkposters/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] INFO root fetch - processPackages [neon-mq-connector]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [neon-mq-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mq_connector-0.6.1a8-py3-none-any.whl.zip tmp/neon_mq_connector-0.6.1a9-py3-none-any.whl.zip --markdown 20230501/n/neon-mq-connector/0.6.1a8-0.6.1a9/diff.md --exclude *.pyd
+[2023-05-01 23:13:17] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/a9/26/3e1012704b2dac3c99b18c631a70a52739428d23a930fe5daccb2ba06c9f/clipped-0.3.2.tar.gz
+[2023-05-01 23:13:17] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-05-01 23:13:17] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.29.98.tar.gz tmp/botocore_stubs-1.29.99.tar.gz --markdown 20230501/b/botocore-stubs/1.29.98-1.29.99/diff.md --exclude *.pyd
+[2023-05-01 23:13:18] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-05-01 23:13:18] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.3.1.tar.gz tmp/clipped-0.3.2.tar.gz --markdown 20230501/c/clipped/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-01 23:13:18] INFO root fetch - processPackages [fsai-grpc-api]: Start processing: saffier
+[2023-05-01 23:13:18] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-05-01 23:13:18] INFO root fetch - processPackages [saffier]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 23:13:18] INFO root fetch - processPackages [skillsnetwork-authoring-extension]: Start processing: WWOpenLabeling
+[2023-05-01 23:13:18] INFO root fetch - main [MainThread]: End processing [skillsnetwork-authoring-extension]: success
+[2023-05-01 23:13:18] WARNING root fetch - processPackages [WWOpenLabeling]: Skipping, unable to determine old version
+[2023-05-01 23:13:18] INFO root fetch - processPackages [WWOpenLabeling]: Start processing: bytez
+[2023-05-01 23:13:18] INFO root fetch - main [MainThread]: End processing [WWOpenLabeling] error
+[2023-05-01 23:13:18] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:13:18] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:13:18] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:13:19] INFO root fetch - processPackages [json-file-split]: Start processing: commandsgpt
+[2023-05-01 23:13:19] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-05-01 23:13:19] INFO root fetch - processPackages [saffier]: Downloading https://files.pythonhosted.org/packages/99/de/13d5d5a50bf0ad19fa250bf5792c9eef3bfd95820d26e56e8b4cfe13a6a9/saffier-0.9.0.tar.gz
+[2023-05-01 23:13:19] WARNING root fetch - processPackages [commandsgpt]: Skipping, unable to determine old version
+[2023-05-01 23:13:19] INFO root fetch - processPackages [commandsgpt]: Start processing: goatl
+[2023-05-01 23:13:19] INFO root fetch - main [MainThread]: End processing [commandsgpt] error
+[2023-05-01 23:13:19] INFO root fetch - processPackages [goatl]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-01 23:13:19] INFO root fetch - processPackages [saffier]: executing diffoscope
+[2023-05-01 23:13:19] INFO root fetch - processPackages [saffier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saffier-0.8.0.tar.gz tmp/saffier-0.9.0.tar.gz --markdown 20230501/s/saffier/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 23:13:19] INFO root fetch - processPackages [geopix]: Start processing: cluster-colors
+[2023-05-01 23:13:19] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-05-01 23:13:19] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/24/00/cbc1d2e29c2575b85ae0420efd8c3038ea0feef0d0410ff5c23b252ba850/goatl-0.5.3.tar.gz
+[2023-05-01 23:13:19] INFO root fetch - processPackages [cluster-colors]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-01 23:13:19] INFO root fetch - processPackages [iwx-manifest-builder]: Start processing: findmyorder
+[2023-05-01 23:13:19] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-05-01 23:13:19] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/d0/f3/08694ad772d82457055d0bbbf70abc6885cdaa16e2383a0c4f6a2179b51f/goatl-0.5.4.tar.gz
+[2023-05-01 23:13:19] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 23:13:19] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-01 23:13:19] INFO root fetch - main [MainThread]: End processing [neon-mq-connector]: success
+[2023-05-01 23:13:19] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-01 23:13:19] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.5.3.tar.gz tmp/goatl-0.5.4.tar.gz --markdown 20230501/g/goatl/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-01 23:13:19] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-01 23:13:19] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230501/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 23:13:19] INFO root fetch - processPackages [cluster-colors]: executing diffoscope
+[2023-05-01 23:13:19] INFO root fetch - processPackages [cluster-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_colors-0.9.1.tar.gz tmp/cluster_colors-0.9.2.tar.gz --markdown 20230501/c/cluster-colors/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-01 23:13:20] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-05-01 23:13:20] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-05-01 23:13:20] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-01 23:13:20] INFO root fetch - main [MainThread]: End processing [saffier]: success
+[2023-05-01 23:13:20] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-01 23:13:20] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:13:21] INFO root fetch - main [MainThread]: End processing [cluster-colors]: success
+[2023-05-01 23:16:17] ERROR root fetch - processPackages [mkposters]: Timeout during execution of pkgdiff
+[2023-05-01 23:16:17] INFO root fetch - main [MainThread]: End processing [mkposters] error
+[2023-05-01 23:16:17] INFO root fetch - main [MainThread]: Store serial: [17931777]
