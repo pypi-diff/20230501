@@ -3207,3 +3207,28 @@
 [2023-05-01 03:26:33] INFO root fetch - main [MainThread]: End processing [gumbi]: success
 [2023-05-01 03:27:39] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-05-01 03:27:39] INFO root fetch - main [MainThread]: Store serial: [17922224]
+[2023-05-01 03:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922224]
+[2023-05-01 03:32:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-organizations
+[2023-05-01 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arkdata
+[2023-05-01 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: d2lapi
+[2023-05-01 03:32:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-wordpress
+[2023-05-01 03:32:47] INFO root fetch - processPackages [d2lapi]: New version: [0.2.0] Old Version: [0.0.0]
+[2023-05-01 03:32:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-01 03:32:47] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 03:32:47] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:32:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-01 03:32:47] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230501/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-01 03:32:48] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-01 03:32:48] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230501/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 03:32:48] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-05-01 03:32:48] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230501/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:32:48] INFO root fetch - processPackages [d2lapi]: Downloading https://files.pythonhosted.org/packages/ca/95/e40da9e5d5df71eb28853262edb1eb5636c291d99f8fccb5cec3bb341a42/d2lapi-0.0.1-py3-none-any.whl
+[2023-05-01 03:32:48] INFO root fetch - processPackages [d2lapi]: Downloading https://files.pythonhosted.org/packages/32/e6/fe65741bde2218bb01e947977b9e312f529d0807d207ff57891b05a01468/d2lapi-0.2.0.tar.gz
+[2023-05-01 03:32:48] INFO root fetch - processPackages [d2lapi]: executing diffoscope
+[2023-05-01 03:32:48] INFO root fetch - processPackages [d2lapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2lapi-0.0.1-py3-none-any.whl.zip tmp/d2lapi-0.2.0.tar.gz --markdown 20230501/d/d2lapi/0.0.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 03:32:49] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-05-01 03:32:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-01 03:32:49] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-01 03:32:49] INFO root fetch - main [MainThread]: End processing [d2lapi]: success
+[2023-05-01 03:32:49] INFO root fetch - main [MainThread]: Store serial: [17922254]
