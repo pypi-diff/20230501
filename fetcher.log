@@ -15707,3 +15707,168 @@ EOFError: EOF read where object expected
 [2023-05-01 20:07:07] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
 [2023-05-01 20:07:07] INFO root fetch - main [MainThread]: End processing [grpcio] error
 [2023-05-01 20:07:07] INFO root fetch - main [MainThread]: Store serial: [17929855]
+[2023-05-01 20:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929855]
+[2023-05-01 20:12:16] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-aioworkers
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grpcio-admin
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grpcio-channelz
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grpcio-csds
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcio-health-checking
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grpcio-reflection
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: petrolib
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grpcio-status
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grpcio-testing
+[2023-05-01 20:12:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grpcio-tools
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-channelz]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-csds]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [pytest-aioworkers]: New version: [0.4.0a1] Old Version: [0.4.0]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [petrolib]: New version: [1.2.4.1] Old Version: [1.2.4]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-admin]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-testing]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-health-checking]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-status]: New version: [1.55.0rc1] Old Version: [1.54.0rc1]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-reflection]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-tools]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-01 20:12:16] INFO root fetch - processPackages [pytest-aioworkers]: Downloading https://files.pythonhosted.org/packages/eb/86/06429c8754a91f33764bcc4123131f7076309913f150f6fa8aa838a05a08/pytest_aioworkers-0.4.0.tar.gz
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/ce/f6/6d00e66b39593b696e010076c778d3b6a3d307d313d9517d7a479f4525a7/grpcio-channelz-1.54.0rc1.tar.gz
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/8f/25/3aad76f0bdd4122b88e38f3d4dd148390f99f095a480a46a8991062b474b/grpcio-admin-1.54.0rc1.tar.gz
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/84/d4/40f55b809f3b1a977a263022db8e81aac06448dc55a97cf88c5f1ce39b04/grpcio-csds-1.54.0rc1.tar.gz
+[2023-05-01 20:12:16] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/ea/52/37ac14cc90867f55f80ce8b7d903f219c75e05c741b5d82cff4440e3e159/grpcio-health-checking-1.9.0rc3.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/6a/26/01ed8dea550986f42f74221fa8d8d31756be28d6e5c473372af8567632c8/grpcio-reflection-1.9.0rc3.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/61/01/5aeaf7dc6c6deb17eb5be4ad0555a2f65157e2fcb37dbf6e3145348e58cc/grpcio-status-1.54.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/bc/15/7cf7407c0f07816eb55994e677680edbff3d180c3403ac0b1c69ec05b738/grpcio-testing-1.54.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/c5/04/1e6e73100e408d346552703ab15b45318d7fae3a7e45b0c4c810795dbcda/grpcio-tools-1.9.0rc3.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [petrolib]: Downloading https://files.pythonhosted.org/packages/c6/1c/614fa1a7f942c12aeed622fd780844e8e0c19914096b37b92baf2dd1b373/petrolib-1.2.4.1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [petrolib]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [petrolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrolib-1.2.4.tar.gz tmp/petrolib-1.2.4.1.tar.gz --markdown 20230501/p/petrolib/1.2.4-1.2.4.1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/ab/cf/af71ea1d05cb49d63e035dad21ab17120cd0baf86de6dae6fd00e9114eac/grpcio-status-1.55.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/71/e8/161eb5b3492f31c6601922ebb5ddf50e23cd333e9455b91dc02d00920799/grpcio-admin-1.55.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/cb/53/b43cc1087ae1a8f5697b35a401f41a7095040d1d124573a9139023aba699/grpcio-csds-1.55.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/12/fc/c5aabe7a042ff72683cecaeab51b3ac55b8f905e17aeaf4d28306dff725d/grpcio-channelz-1.55.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/dd/91/214c989e853ebd8e15e8d701e445fcf8047d0734f79ea5335674dd528292/grpcio-reflection-1.9.1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/90/d9/7c9ebe0855232f981fedd3acc3eeae5c554311bad2ad98cafe715bfb6753/grpcio-testing-1.55.0rc1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [pytest-aioworkers]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [pytest-aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aioworkers-0.4.0.tar.gz tmp/pytest_aioworkers-0.4.0a1.tar.gz --markdown 20230501/p/pytest-aioworkers/0.4.0-0.4.0a1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-admin]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-admin-1.54.0rc1.tar.gz tmp/grpcio-admin-1.55.0rc1.tar.gz --markdown 20230501/g/grpcio-admin/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-csds]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-csds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-csds-1.54.0rc1.tar.gz tmp/grpcio-csds-1.55.0rc1.tar.gz --markdown 20230501/g/grpcio-csds/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-channelz]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-channelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-channelz-1.54.0rc1.tar.gz tmp/grpcio-channelz-1.55.0rc1.tar.gz --markdown 20230501/g/grpcio-channelz/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-status]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-status-1.54.0rc1.tar.gz tmp/grpcio-status-1.55.0rc1.tar.gz --markdown 20230501/g/grpcio-status/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-testing]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-testing-1.54.0rc1.tar.gz tmp/grpcio-testing-1.55.0rc1.tar.gz --markdown 20230501/g/grpcio-testing/1.54.0rc1-1.55.0rc1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/26/3d/061e0162aeb88dba757e56bc8a9bdacfce70ad6e43b8181a48b29acd827c/grpcio-tools-1.9.1.tar.gz
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-reflection]: executing diffoscope
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-reflection-1.9.0rc3.tar.gz tmp/grpcio-reflection-1.9.1.tar.gz --markdown 20230501/g/grpcio-reflection/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 20:12:17] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/64/b7/1a150f6c068a235ac47628bf0cdaa0bf74044a58548b9cbd624532e6d478/grpcio-health-checking-1.9.1.tar.gz
+[2023-05-01 20:12:18] INFO root fetch - processPackages [grpcio-tools]: executing diffoscope
+[2023-05-01 20:12:18] INFO root fetch - processPackages [grpcio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-tools-1.9.0rc3.tar.gz tmp/grpcio-tools-1.9.1.tar.gz --markdown 20230501/g/grpcio-tools/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 20:12:18] INFO root fetch - processPackages [grpcio-health-checking]: executing diffoscope
+[2023-05-01 20:12:18] INFO root fetch - processPackages [grpcio-health-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-health-checking-1.9.0rc3.tar.gz tmp/grpcio-health-checking-1.9.1.tar.gz --markdown 20230501/g/grpcio-health-checking/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 20:12:19] INFO root fetch - processPackages [pytest-aioworkers]: Start processing: cool-seq-tool
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [pytest-aioworkers]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-csds]: Start processing: piperider-nightly
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-csds]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [cool-seq-tool]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-status]: Start processing: poetry-git-version-plugin
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-status]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [petrolib]: Start processing: PennyLane-Lightning
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [petrolib]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.6] Old Version: [0.1.5a2]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-testing]: Start processing: censoredsummarystats
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-testing]: success
+[2023-05-01 20:12:19] WARNING root fetch - processPackages [censoredsummarystats]: Skipping, unable to determine old version
+[2023-05-01 20:12:19] INFO root fetch - processPackages [censoredsummarystats]: Start processing: poetry-git-version-plugin
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [censoredsummarystats] error
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-admin]: Start processing: asterism
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-admin]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.6] Old Version: [0.1.5a2]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [cool-seq-tool]: Downloading https://files.pythonhosted.org/packages/df/50/3ea6b583939adcd09bed86beb8a61ee56dc9e507b397a9d0b186ce6cefa9/cool_seq_tool-0.1.8.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-reflection]: Start processing: wynntilsresolver
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-reflection]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-channelz]: Start processing: dscustom-libs
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-channelz]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [wynntilsresolver]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [PennyLane-Lightning]: New version: [0.30.0] Old Version: [0.29.0]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/c1/99/37b839016787ad177d53d956ecb6b343109c00310c4a70e0cdf9568e19d8/poetry_git_version_plugin-0.1.5a2.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [grpcio-health-checking]: Start processing: easy-crud-repo-service
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [grpcio-health-checking]: success
+[2023-05-01 20:12:19] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/c1/99/37b839016787ad177d53d956ecb6b343109c00310c4a70e0cdf9568e19d8/poetry_git_version_plugin-0.1.5a2.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [asterism]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-01 20:12:19] WARNING root fetch - processPackages [dscustom-libs]: Skipping, unable to determine old version
+[2023-05-01 20:12:19] INFO root fetch - processPackages [dscustom-libs]: Start processing: holidays
+[2023-05-01 20:12:19] INFO root fetch - main [MainThread]: End processing [dscustom-libs] error
+[2023-05-01 20:12:19] INFO root fetch - processPackages [wynntilsresolver]: executing diffoscope
+[2023-05-01 20:12:19] INFO root fetch - processPackages [wynntilsresolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wynntilsresolver-0.1.1.tar.gz tmp/wynntilsresolver-0.1.2.tar.gz --markdown 20230501/w/wynntilsresolver/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 20:12:19] INFO root fetch - processPackages [easy-crud-repo-service]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [PennyLane-Lightning]: Downloading https://files.pythonhosted.org/packages/ad/4b/4ba11d66fa3ac57655d6fd7b6cd0c0d9cab6ae9e077f0da62af11162ad49/PennyLane-Lightning-0.29.0.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [holidays]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 20:12:19] INFO root fetch - processPackages [asterism]: Downloading https://files.pythonhosted.org/packages/19/24/61666b884db31266f0cb4f98326afb689e66d949e5fac45b92a2e4d95004/asterism-1.0.0.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2023-05-01 20:12:19] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20230501/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2023-05-01 20:12:19] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/91/b1/f66f313d002ada1dc687389b139850f3050bf54788ffff8682dc2fbed414/poetry_git_version_plugin-0.1.6.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [easy-crud-repo-service]: Downloading https://files.pythonhosted.org/packages/46/6a/f53b327a147bc8baddcfad3486139e742967ad08477f58850b2ae5ad7337/easy_crud_repo_service-0.1.0.tar.gz
+[2023-05-01 20:12:19] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/cc/da/7d0642a8b94ea413fc7005f4538c01475a45b420d705f57481752552ac55/holidays-0.9.8.tar.gz
+[2023-05-01 20:12:20] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/91/b1/f66f313d002ada1dc687389b139850f3050bf54788ffff8682dc2fbed414/poetry_git_version_plugin-0.1.6.tar.gz
+[2023-05-01 20:12:20] INFO root fetch - processPackages [easy-crud-repo-service]: Downloading https://files.pythonhosted.org/packages/69/d7/53ef9b1abe05fcd7e8ce105d55fca9992feffc25f272c516573e05c4d8bc/easy_crud_repo_service-0.1.1.tar.gz
+[2023-05-01 20:12:20] INFO root fetch - processPackages [PennyLane-Lightning]: Downloading https://files.pythonhosted.org/packages/60/37/5f96dfc2d9cf01255aad9ece197b74f06064f2d1f0c10a6b47cf23d2af43/PennyLane-Lightning-0.30.0.tar.gz
+[2023-05-01 20:12:20] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-01 20:12:20] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.5a2.tar.gz tmp/poetry_git_version_plugin-0.1.6.tar.gz --markdown 20230501/p/poetry-git-version-plugin/0.1.5a2-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 20:12:20] INFO root fetch - processPackages [easy-crud-repo-service]: executing diffoscope
+[2023-05-01 20:12:20] INFO root fetch - processPackages [easy-crud-repo-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_crud_repo_service-0.1.0.tar.gz tmp/easy_crud_repo_service-0.1.1.tar.gz --markdown 20230501/e/easy-crud-repo-service/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 20:12:20] INFO root fetch - processPackages [PennyLane-Lightning]: executing diffoscope
+[2023-05-01 20:12:20] INFO root fetch - processPackages [PennyLane-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-Lightning-0.29.0.tar.gz tmp/PennyLane-Lightning-0.30.0.tar.gz --markdown 20230501/P/PennyLane-Lightning/0.29.0-0.30.0/diff.md --exclude *.pyd
+[2023-05-01 20:12:20] INFO root fetch - processPackages [asterism]: Downloading https://files.pythonhosted.org/packages/50/e8/bde2725d7ac2911685f2a3abc41b9667af0de42175167bff847c7f6615a1/asterism-1.1.0.tar.gz
+[2023-05-01 20:12:20] INFO root fetch - processPackages [asterism]: executing diffoscope
+[2023-05-01 20:12:20] INFO root fetch - processPackages [asterism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asterism-1.0.0.tar.gz tmp/asterism-1.1.0.tar.gz --markdown 20230501/a/asterism/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 20:12:20] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-05-01 20:12:20] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.5a2.tar.gz tmp/poetry_git_version_plugin-0.1.6.tar.gz --markdown 20230501/p/poetry-git-version-plugin/0.1.5a2-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 20:12:20] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/40/b0/3dfe3d3ed79087848a22de46d379462e371517571ee64668791f3d49ea29/holidays-0.9.9.tar.gz
+[2023-05-01 20:12:20] INFO root fetch - processPackages [holidays]: executing diffoscope
+[2023-05-01 20:12:20] INFO root fetch - processPackages [holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holidays-0.9.8.tar.gz tmp/holidays-0.9.9.tar.gz --markdown 20230501/h/holidays/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 20:12:20] INFO root fetch - processPackages [wynntilsresolver]: Start processing: rdt
+[2023-05-01 20:12:20] INFO root fetch - main [MainThread]: End processing [wynntilsresolver]: success
+[2023-05-01 20:12:20] INFO root fetch - processPackages [rdt]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2023-05-01 20:12:21] INFO root fetch - processPackages [rdt]: Downloading https://files.pythonhosted.org/packages/68/df/8d103ba2a967f5a0550a4a382beaa876c59d2481b932835357eeb8e22a63/rdt-1.4.2.dev0.tar.gz
+[2023-05-01 20:12:21] INFO root fetch - processPackages [cool-seq-tool]: Downloading https://files.pythonhosted.org/packages/7a/85/89d9f2c807328e39fe3f1e63ffc6d736a857897f4c07b40b8471a5700029/cool_seq_tool-0.1.9.tar.gz
+[2023-05-01 20:12:21] INFO root fetch - processPackages [rdt]: executing diffoscope
+[2023-05-01 20:12:21] INFO root fetch - processPackages [rdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdt-1.4.1.dev0.tar.gz tmp/rdt-1.4.2.dev0.tar.gz --markdown 20230501/r/rdt/1.4.1.dev0-1.4.2.dev0/diff.md --exclude *.pyd
+[2023-05-01 20:12:21] INFO root fetch - processPackages [easy-crud-repo-service]: Start processing: rdt-identity
+[2023-05-01 20:12:21] INFO root fetch - main [MainThread]: End processing [easy-crud-repo-service]: success
+[2023-05-01 20:12:21] INFO root fetch - processPackages [rdt-identity]: New version: [1.4.2.dev0] Old Version: [1.4.1.dev0]
+[2023-05-01 20:12:21] INFO root fetch - processPackages [asterism]: Start processing: strawberry-django-plus
+[2023-05-01 20:12:21] INFO root fetch - main [MainThread]: End processing [asterism]: success
+[2023-05-01 20:12:21] INFO root fetch - processPackages [poetry-git-version-plugin]: Start processing: binpan
+[2023-05-01 20:12:21] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-01 20:12:21] INFO root fetch - processPackages [poetry-git-version-plugin]: Start processing: wa-crypt-tools
+[2023-05-01 20:12:21] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-05-01 20:12:21] INFO root fetch - processPackages [strawberry-django-plus]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-05-01 20:12:21] INFO root fetch - processPackages [rdt-identity]: Downloading https://files.pythonhosted.org/packages/f4/04/6d161e6429f333080b06842302451d7f02c1245ece6d1a14c7f7e96f4dd2/rdt_identity-1.4.2.dev0.tar.gz
+[2023-05-01 20:12:21] INFO root fetch - processPackages [binpan]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 20:12:22] WARNING root fetch - processPackages [wa-crypt-tools]: Skipping, unable to determine old version
+[2023-05-01 20:12:22] INFO root fetch - main [MainThread]: End processing [wa-crypt-tools] error
+[2023-05-01 20:12:22] INFO root fetch - processPackages [cool-seq-tool]: executing diffoscope
+[2023-05-01 20:12:22] INFO root fetch - processPackages [cool-seq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cool_seq_tool-0.1.8.tar.gz tmp/cool_seq_tool-0.1.9.tar.gz --markdown 20230501/c/cool-seq-tool/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 20:12:22] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/83/40/dea4378c3c3bd98041c1d0c0dee5881e6d6b157a72945ffdb45717ea590e/strawberry_django_plus-2.3.2.tar.gz
+[2023-05-01 20:12:22] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/9a/c3/428612272a28dfbf5f1cdd8ea5a1b04925a2386a536f411087b1c492cb6b/binpan-0.4.8.tar.gz
+[2023-05-01 20:12:22] INFO root fetch - processPackages [rdt-identity]: executing diffoscope
+[2023-05-01 20:12:22] INFO root fetch - processPackages [rdt-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdt_identity-1.4.1.dev0.tar.gz tmp/rdt_identity-1.4.2.dev0.tar.gz --markdown 20230501/r/rdt-identity/1.4.1.dev0-1.4.2.dev0/diff.md --exclude *.pyd
+[2023-05-01 20:12:22] INFO root fetch - processPackages [strawberry-django-plus]: Downloading https://files.pythonhosted.org/packages/de/72/70552d0feba0dc166af5fb1c02de8d8241ffee3fd0df2a2a93af1e7ca62e/strawberry_django_plus-2.4.0.tar.gz
+[2023-05-01 20:12:22] INFO root fetch - processPackages [binpan]: Downloading https://files.pythonhosted.org/packages/a0/98/349c07c553f7bfad1d6e1c7717a411195002cd92d0fc40e3ade7867c8d7f/binpan-0.4.9.tar.gz
+[2023-05-01 20:12:22] INFO root fetch - processPackages [strawberry-django-plus]: executing diffoscope
+[2023-05-01 20:12:22] INFO root fetch - processPackages [strawberry-django-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry_django_plus-2.3.2.tar.gz tmp/strawberry_django_plus-2.4.0.tar.gz --markdown 20230501/s/strawberry-django-plus/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-05-01 20:12:22] INFO root fetch - processPackages [binpan]: executing diffoscope
+[2023-05-01 20:12:22] INFO root fetch - processPackages [binpan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binpan-0.4.8.tar.gz tmp/binpan-0.4.9.tar.gz --markdown 20230501/b/binpan/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 20:12:22] INFO root fetch - main [MainThread]: End processing [PennyLane-Lightning]: success
+[2023-05-01 20:12:23] INFO root fetch - main [MainThread]: End processing [holidays]: success
+[2023-05-01 20:12:23] INFO root fetch - main [MainThread]: End processing [rdt]: success
+[2023-05-01 20:12:24] INFO root fetch - main [MainThread]: End processing [strawberry-django-plus]: success
+[2023-05-01 20:12:24] INFO root fetch - main [MainThread]: End processing [binpan]: success
+[2023-05-01 20:12:24] INFO root fetch - main [MainThread]: End processing [cool-seq-tool]: success
+[2023-05-01 20:12:25] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2023-05-01 20:12:25] INFO root fetch - main [MainThread]: End processing [rdt-identity]: success
+[2023-05-01 20:12:29] INFO root fetch - main [MainThread]: End processing [grpcio-tools]: success
+[2023-05-01 20:12:29] INFO root fetch - main [MainThread]: Store serial: [17930008]
