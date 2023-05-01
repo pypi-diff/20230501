@@ -5712,3 +5712,57 @@
 [2023-05-01 09:55:04] INFO root fetch - main [MainThread]: End processing [hyclib]: success
 [2023-05-01 09:56:40] INFO root fetch - main [MainThread]: End processing [django-admin-modernize]: success
 [2023-05-01 09:56:40] INFO root fetch - main [MainThread]: Store serial: [17923830]
+[2023-05-01 10:01:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923830]
+[2023-05-01 10:01:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: voxx-cli
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colors5
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dipex
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pizur-scanner
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shelly-certoraclibeta
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-admin-modernize
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commonX
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-wake
+[2023-05-01 10:01:57] INFO root fetch - processPackages [voxx-cli]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-01 10:01:57] WARNING root fetch - processPackages [colors5]: Skipping, unable to determine old version
+[2023-05-01 10:01:57] INFO root fetch - main [MainThread]: End processing [colors5] error
+[2023-05-01 10:01:57] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: New version: [20230501.7.58.139255] Old Version: [20230430.18.52.709899]
+[2023-05-01 10:01:57] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping, unable to determine old version
+[2023-05-01 10:01:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-01 10:01:57] INFO root fetch - processPackages [django-admin-modernize]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 10:01:57] WARNING root fetch - processPackages [pizur-scanner]: Skipping, unable to determine old version
+[2023-05-01 10:01:57] INFO root fetch - main [MainThread]: End processing [pizur-scanner] error
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-01 10:01:57] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-01 10:01:57] INFO root fetch - processPackages [commonX]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-05-01 10:01:57] INFO root fetch - processPackages [pytest-wake]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-01 10:01:57] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-01 10:01:57] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230501/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-01 10:01:57] INFO root fetch - processPackages [django-admin-modernize]: Downloading https://files.pythonhosted.org/packages/0c/ed/37ef6044485ef147fbc8ab8ccc643462f199dc215be81dd7307e6d172d94/django-admin-modernize-1.0.2.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Downloading https://files.pythonhosted.org/packages/f4/82/53fc6ddbfc99f6fd5b92380ce378a69daca38c5243a08ed3daeb9408792a/certora-cli-alpha-shelly-certoraclibeta-20230430.18.52.709899.tar.gz
+[2023-05-01 10:01:57] WARNING root fetch - processPackages [certora-cli-alpha-shelly-certoraclibeta]: Skipping package: exceeds size limit 38297563>=10485760
+[2023-05-01 10:01:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-certoraclibeta] error
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-01 10:01:57] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230501/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-01 10:01:57] INFO root fetch - processPackages [voxx-cli]: Downloading https://files.pythonhosted.org/packages/a0/45/db4736f7e1f489ac1366d070340d3a8d3efa3b21cf31590bac17d4d2cdaf/voxx-cli-1.0.7.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [pytest-wake]: Downloading https://files.pythonhosted.org/packages/cd/fe/53c24c087c8d3eb273030a482a61c2d31a4133852eadf7f2d2bc0fcc66cc/pytest-wake-0.3.4.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/91/77/d937d39096aa0c052e839c010fdb1587c1fa120454a7e0a528c47dacc95f/commonX-0.4.1.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [voxx-cli]: executing diffoscope
+[2023-05-01 10:01:57] INFO root fetch - processPackages [voxx-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxx-cli-1.0.6.tar.gz tmp/voxx-cli-1.0.7.tar.gz --markdown 20230501/v/voxx-cli/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-01 10:01:57] INFO root fetch - processPackages [pytest-wake]: Downloading https://files.pythonhosted.org/packages/9e/38/f1d7fb4261bf5e3a20d9474b7b7a5d8e57857bd53eebdc848a230ee562ae/pytest-wake-0.3.5.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/d3/ae/d6bc65a98a99caf0b6380b76d2e744a61fb1759d100bc0264a05f627943d/commonX-0.4.3.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [django-admin-modernize]: Downloading https://files.pythonhosted.org/packages/6a/cc/487fdc5ecd83e7698a48e3e6b8f43fdfc7b866566b3ad9cdfab98fb00c4d/django-admin-modernize-1.0.3.tar.gz
+[2023-05-01 10:01:57] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-05-01 10:01:57] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.1.tar.gz tmp/commonX-0.4.3.tar.gz --markdown 20230501/c/commonX/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-01 10:01:57] INFO root fetch - processPackages [pytest-wake]: executing diffoscope
+[2023-05-01 10:01:57] INFO root fetch - processPackages [pytest-wake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-wake-0.3.4.tar.gz tmp/pytest-wake-0.3.5.tar.gz --markdown 20230501/p/pytest-wake/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-01 10:01:57] INFO root fetch - processPackages [django-admin-modernize]: executing diffoscope
+[2023-05-01 10:01:57] INFO root fetch - processPackages [django-admin-modernize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-modernize-1.0.2.tar.gz tmp/django-admin-modernize-1.0.3.tar.gz --markdown 20230501/d/django-admin-modernize/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 10:01:58] INFO root fetch - main [MainThread]: End processing [voxx-cli]: success
+[2023-05-01 10:01:58] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-05-01 10:01:58] INFO root fetch - main [MainThread]: End processing [pytest-wake]: success
+[2023-05-01 10:01:59] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-01 10:02:00] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-01 10:02:06] INFO root fetch - main [MainThread]: End processing [django-admin-modernize]: success
+[2023-05-01 10:02:06] INFO root fetch - main [MainThread]: Store serial: [17923864]
