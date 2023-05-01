@@ -13338,3 +13338,53 @@ EOFError: EOF read where object expected
 [2023-05-01 17:27:49] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
 [2023-05-01 17:27:50] INFO root fetch - main [MainThread]: End processing [hsfs]: success
 [2023-05-01 17:27:50] INFO root fetch - main [MainThread]: Store serial: [17928161]
+[2023-05-01 17:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928161]
+[2023-05-01 17:33:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: embedbase
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GptCode
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdog
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: salamencrypt
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: characterai
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neopolitan
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: catboost
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bow-cli
+[2023-05-01 17:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Werkzeug
+[2023-05-01 17:33:00] INFO root fetch - processPackages [neopolitan]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 17:33:00] INFO root fetch - processPackages [Werkzeug]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-01 17:33:00] WARNING root fetch - processPackages [salamencrypt]: Skipping, unable to determine old version
+[2023-05-01 17:33:00] INFO root fetch - main [MainThread]: End processing [salamencrypt] error
+[2023-05-01 17:33:00] INFO root fetch - processPackages [characterai]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-01 17:33:00] INFO root fetch - processPackages [GptCode]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 17:33:00] INFO root fetch - processPackages [embedbase]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 17:33:00] INFO root fetch - processPackages [deepdog]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-05-01 17:33:00] WARNING root fetch - processPackages [bow-cli]: Skipping, unable to determine old version
+[2023-05-01 17:33:00] INFO root fetch - main [MainThread]: End processing [bow-cli] error
+[2023-05-01 17:33:00] INFO root fetch - processPackages [catboost]: New version: [1.2] Old Version: [1.1.1]
+[2023-05-01 17:33:00] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-05-01 17:33:00] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.2.7.tar.gz tmp/characterai-0.3.0.tar.gz --markdown 20230501/c/characterai/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 17:33:00] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/57/30/d8523b2d4d19856ec8851dc8a10d67ef988aa20e41ca49bf7d4ef86f41f6/neopolitan-0.1.1.tar.gz
+[2023-05-01 17:33:00] INFO root fetch - processPackages [neopolitan]: executing diffoscope
+[2023-05-01 17:33:00] INFO root fetch - processPackages [neopolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopolitan-0.1.0.tar.gz tmp/neopolitan-0.1.1.tar.gz --markdown 20230501/n/neopolitan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 17:33:00] INFO root fetch - processPackages [catboost]: Downloading https://files.pythonhosted.org/packages/2c/47/f89f840e31c4c7dc0cdec5bdb46de650836ca4aec8006b79fd9cf7bebaab/catboost-1.1.1-cp39-none-win_amd64.whl
+[2023-05-01 17:33:00] INFO root fetch - processPackages [Werkzeug]: executing diffoscope
+[2023-05-01 17:33:00] INFO root fetch - processPackages [Werkzeug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Werkzeug-2.3.1.tar.gz tmp/Werkzeug-2.3.2.tar.gz --markdown 20230501/W/Werkzeug/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-01 17:33:00] WARNING root fetch - processPackages [catboost]: Skipping package: exceeds size limit 73964939>=10485760
+[2023-05-01 17:33:00] INFO root fetch - main [MainThread]: End processing [catboost] error
+[2023-05-01 17:33:00] INFO root fetch - processPackages [embedbase]: Downloading https://files.pythonhosted.org/packages/4d/7b/df1c2e4fa4b0a85268c5fa22588533191bc8518e365c815dd35d8d704cd8/embedbase-1.0.9.tar.gz
+[2023-05-01 17:33:00] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/63/5d/00067ab05d48a4c8c63a1f79a3d0115c82577431a0815b2451193e1fdb70/deepdog-0.6.7.tar.gz
+[2023-05-01 17:33:00] INFO root fetch - processPackages [embedbase]: executing diffoscope
+[2023-05-01 17:33:00] INFO root fetch - processPackages [embedbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedbase-1.0.8.tar.gz tmp/embedbase-1.0.9.tar.gz --markdown 20230501/e/embedbase/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 17:33:01] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/6d/97/5295e4f328ce56ef759d133697a43204a71d42dd9eb2666ba064c61449bc/deepdog-0.7.0.tar.gz
+[2023-05-01 17:33:01] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2023-05-01 17:33:01] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-0.6.7.tar.gz tmp/deepdog-0.7.0.tar.gz --markdown 20230501/d/deepdog/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-05-01 17:33:01] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/0a/f7/c9056e3ee4ef709f359d18fcf1320c92d38f397114eaf413484b072144bf/GptCode-1.0.0.tar.gz
+[2023-05-01 17:33:01] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-05-01 17:33:01] INFO root fetch - processPackages [GptCode]: Downloading https://files.pythonhosted.org/packages/79/5d/2ab5982d27f278f2c16229c26a48b56581a7dd971f90872a9dbb54f6ec8c/GptCode-1.0.1.tar.gz
+[2023-05-01 17:33:01] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-01 17:33:01] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.0.tar.gz tmp/GptCode-1.0.1.tar.gz --markdown 20230501/G/GptCode/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 17:33:01] INFO root fetch - main [MainThread]: End processing [neopolitan]: success
+[2023-05-01 17:33:01] INFO root fetch - main [MainThread]: End processing [embedbase]: success
+[2023-05-01 17:33:02] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2023-05-01 17:33:02] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-01 17:33:03] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
+[2023-05-01 17:33:03] INFO root fetch - main [MainThread]: Store serial: [17928206]
