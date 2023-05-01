@@ -3785,3 +3785,37 @@
 [2023-05-01 04:45:35] INFO root fetch - main [MainThread]: End processing [image-reward]: success
 [2023-05-01 04:45:35] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
 [2023-05-01 04:45:35] INFO root fetch - main [MainThread]: Store serial: [17922587]
+[2023-05-01 04:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922587]
+[2023-05-01 04:50:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 04:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hackycfgparser
+[2023-05-01 04:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fern-pave
+[2023-05-01 04:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: souJpg-comm
+[2023-05-01 04:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-mcq
+[2023-05-01 04:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qt-custom
+[2023-05-01 04:50:43] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 04:50:43] INFO root fetch - processPackages [django-mcq]: New version: [0.2] Old Version: [0.1]
+[2023-05-01 04:50:43] INFO root fetch - processPackages [fern-pave]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-01 04:50:43] INFO root fetch - processPackages [hackycfgparser]: New version: [0.12] Old Version: [0.11]
+[2023-05-01 04:50:43] INFO root fetch - processPackages [qt-custom]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-01 04:50:43] INFO root fetch - processPackages [django-mcq]: Downloading https://files.pythonhosted.org/packages/2a/8c/ef6df4e848113b38313c68b3bdb398db76378521e3e8a274488ff12ef3cf/django-mcq-0.1.tar.gz
+[2023-05-01 04:50:44] INFO root fetch - processPackages [fern-pave]: Downloading https://files.pythonhosted.org/packages/a0/49/8b7c36cb8bc189bdc0371506de586395ada882b47ba103f93ffb97a12fbb/fern_pave-0.0.18.tar.gz
+[2023-05-01 04:50:44] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/8f/9b/6e26b170a3b160c00f39c2f427413edcdc0fc9145da961ee003665fc1da5/souJpg-comm-1.0.4.tar.gz
+[2023-05-01 04:50:44] INFO root fetch - processPackages [hackycfgparser]: Downloading https://files.pythonhosted.org/packages/b9/26/1c1f9cbe919bb9c8a4f49dcdb4afc03184f0e3a2db9e6971a08ab8509761/hackycfgparser-0.12.tar.gz
+[2023-05-01 04:50:44] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/b8/b1/1429f15ea29caa6c5da4381c77c795f0b8673cfd43e2c4218439937d2b3d/qt-custom-0.2.8.tar.gz
+[2023-05-01 04:50:44] INFO root fetch - processPackages [fern-pave]: executing diffoscope
+[2023-05-01 04:50:44] INFO root fetch - processPackages [fern-pave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_pave-0.0.17.tar.gz tmp/fern_pave-0.0.18.tar.gz --markdown 20230501/f/fern-pave/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-01 04:50:44] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-05-01 04:50:44] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.0.3.tar.gz tmp/souJpg-comm-1.0.4.tar.gz --markdown 20230501/s/souJpg-comm/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 04:50:44] INFO root fetch - processPackages [hackycfgparser]: executing diffoscope
+[2023-05-01 04:50:44] INFO root fetch - processPackages [hackycfgparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hackycfgparser-0.11.tar.gz tmp/hackycfgparser-0.12.tar.gz --markdown 20230501/h/hackycfgparser/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-01 04:50:44] INFO root fetch - processPackages [qt-custom]: executing diffoscope
+[2023-05-01 04:50:44] INFO root fetch - processPackages [qt-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-custom-0.2.7.tar.gz tmp/qt-custom-0.2.8.tar.gz --markdown 20230501/q/qt-custom/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-01 04:50:44] INFO root fetch - processPackages [django-mcq]: Downloading https://files.pythonhosted.org/packages/94/89/ec9513cc7b4f1e57db475a65ab380d624e3f3ddbeb0cd83b6faf739b20f6/django-mcq-0.2.tar.gz
+[2023-05-01 04:50:44] INFO root fetch - processPackages [django-mcq]: executing diffoscope
+[2023-05-01 04:50:44] INFO root fetch - processPackages [django-mcq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mcq-0.1.tar.gz tmp/django-mcq-0.2.tar.gz --markdown 20230501/d/django-mcq/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-01 04:50:45] INFO root fetch - main [MainThread]: End processing [fern-pave]: success
+[2023-05-01 04:50:45] INFO root fetch - main [MainThread]: End processing [hackycfgparser]: success
+[2023-05-01 04:50:45] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
+[2023-05-01 04:50:45] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-05-01 04:50:46] INFO root fetch - main [MainThread]: End processing [django-mcq]: success
+[2023-05-01 04:50:46] INFO root fetch - main [MainThread]: Store serial: [17922603]
