@@ -7856,3 +7856,50 @@
 [2023-05-01 13:14:24] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
 [2023-05-01 13:14:26] INFO root fetch - main [MainThread]: End processing [simc-support]: success
 [2023-05-01 13:14:26] INFO root fetch - main [MainThread]: Store serial: [17925199]
+[2023-05-01 13:19:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17925199]
+[2023-05-01 13:19:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightning-template
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CatRoyale
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asrp
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CatRoyale
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-spectacular-sidecar
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psremoter
+[2023-05-01 13:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlptoolssna
+[2023-05-01 13:19:34] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [psremoter]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [lightning-template]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [asrp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [drf-spectacular-sidecar]: New version: [2023.5.1] Old Version: [2023.4.1]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [nlptoolssna]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-01 13:19:34] INFO root fetch - processPackages [asrp]: executing diffoscope
+[2023-05-01 13:19:34] INFO root fetch - processPackages [asrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asrp-0.0.8.tar.gz tmp/asrp-0.0.9.tar.gz --markdown 20230501/a/asrp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 13:19:34] INFO root fetch - processPackages [psremoter]: executing diffoscope
+[2023-05-01 13:19:34] INFO root fetch - processPackages [psremoter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psremoter-1.0.2.tar.gz tmp/psremoter-1.0.3.tar.gz --markdown 20230501/p/psremoter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 13:19:34] INFO root fetch - processPackages [CatRoyale]: Downloading https://files.pythonhosted.org/packages/88/d3/b300f8f42f6eed447b17e2396c749ba26b756c8cae22294ad4c75e5974f0/CatRoyale-1.8.tar.gz
+[2023-05-01 13:19:34] INFO root fetch - processPackages [CatRoyale]: Downloading https://files.pythonhosted.org/packages/88/d3/b300f8f42f6eed447b17e2396c749ba26b756c8cae22294ad4c75e5974f0/CatRoyale-1.8.tar.gz
+[2023-05-01 13:19:34] INFO root fetch - processPackages [lightning-template]: Downloading https://files.pythonhosted.org/packages/10/78/1217e634751775d4769a76bbc3547b1a2c301e176e2d7a919a9f0a124a12/lightning-template-1.0.6.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/a3/41/ac876034715ab46846eb8da6074a7947258464908da0784b704548cbd61b/drf-spectacular-sidecar-2023.4.1.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [lightning-template]: executing diffoscope
+[2023-05-01 13:19:35] INFO root fetch - processPackages [lightning-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-template-1.0.5.tar.gz tmp/lightning-template-1.0.6.tar.gz --markdown 20230501/l/lightning-template/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-01 13:19:35] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/77/60/39d736e7a726f2f3c392f28edde00a5ddc1fe01eeffd52acec29bfd28534/nlptoolssna-0.4.2.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [CatRoyale]: Downloading https://files.pythonhosted.org/packages/41/b9/341ac34a0159c84f75688a95c47f3fc01897568978dcaf28b281e62fafb4/CatRoyale-1.9.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [CatRoyale]: Downloading https://files.pythonhosted.org/packages/41/b9/341ac34a0159c84f75688a95c47f3fc01897568978dcaf28b281e62fafb4/CatRoyale-1.9.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/92/f6/026afc3e0f92bf64141cc4d655b94368f77e9f19d57349f876dca43f3855/nlptoolssna-0.4.3.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/7e/1e/ac307efd06055373e6ce865dbe709253c33f36e9458a2495a29a84c5aef2/drf-spectacular-sidecar-2023.5.1.tar.gz
+[2023-05-01 13:19:35] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 13:19:35] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 13:19:35] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 13:19:35] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 13:19:35] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-05-01 13:19:35] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.4.2.tar.gz tmp/nlptoolssna-0.4.3.tar.gz --markdown 20230501/n/nlptoolssna/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-01 13:19:35] INFO root fetch - processPackages [drf-spectacular-sidecar]: executing diffoscope
+[2023-05-01 13:19:35] INFO root fetch - processPackages [drf-spectacular-sidecar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-spectacular-sidecar-2023.4.1.tar.gz tmp/drf-spectacular-sidecar-2023.5.1.tar.gz --markdown 20230501/d/drf-spectacular-sidecar/2023.4.1-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 13:19:36] INFO root fetch - main [MainThread]: End processing [psremoter]: success
+[2023-05-01 13:19:36] INFO root fetch - main [MainThread]: End processing [asrp]: success
+[2023-05-01 13:19:36] INFO root fetch - main [MainThread]: End processing [lightning-template]: success
+[2023-05-01 13:19:36] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 13:19:36] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 13:19:36] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-05-01 13:20:52] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
+[2023-05-01 13:20:52] INFO root fetch - main [MainThread]: Store serial: [17925220]
