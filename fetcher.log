@@ -15947,3 +15947,75 @@ EOFError: EOF read where object expected
 [2023-05-01 20:17:42] INFO root fetch - main [MainThread]: End processing [classgraphic]: success
 [2023-05-01 20:17:47] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-01 20:17:47] INFO root fetch - main [MainThread]: Store serial: [17930052]
+[2023-05-01 20:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930052]
+[2023-05-01 20:22:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pineboo
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-lineage-viewer
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-ujson
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinecone-cli
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Devicegen
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aind-dispim-processing
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gtFrame
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genomenotebook
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pineboo
+[2023-05-01 20:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: incydr
+[2023-05-01 20:22:56] INFO root fetch - processPackages [dbt-lineage-viewer]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 20:22:56] INFO root fetch - processPackages [genomenotebook]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-01 20:22:56] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.2] Old Version: [1.0.4.1]
+[2023-05-01 20:22:56] INFO root fetch - processPackages [pineboo]: New version: [1.0.4.2] Old Version: [1.0.4.1]
+[2023-05-01 20:22:56] INFO root fetch - processPackages [types-ujson]: New version: [5.7.0.5] Old Version: [5.7.0.4]
+[2023-05-01 20:22:56] INFO root fetch - processPackages [gtFrame]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-01 20:22:56] WARNING root fetch - processPackages [Devicegen]: Skipping, unable to determine old version
+[2023-05-01 20:22:56] WARNING root fetch - processPackages [aind-dispim-processing]: Skipping, unable to determine old version
+[2023-05-01 20:22:56] INFO root fetch - processPackages [Devicegen]: Start processing: se-lib
+[2023-05-01 20:22:56] INFO root fetch - processPackages [incydr]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-01 20:22:56] INFO root fetch - main [MainThread]: End processing [Devicegen] error
+[2023-05-01 20:22:56] INFO root fetch - processPackages [aind-dispim-processing]: Start processing: raga-cli
+[2023-05-01 20:22:56] INFO root fetch - processPackages [pinecone-cli]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-01 20:22:56] INFO root fetch - main [MainThread]: End processing [aind-dispim-processing] error
+[2023-05-01 20:22:56] INFO root fetch - processPackages [se-lib]: New version: [0.26] Old Version: [0.25]
+[2023-05-01 20:22:56] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/2f/3d/34b430fe67a1981bb0eeed240c329f9fe0ee513988871da5564a4b3120a9/genomenotebook-0.4.7.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - processPackages [dbt-lineage-viewer]: Downloading https://files.pythonhosted.org/packages/d5/07/7c37bb8952104ad804d38ac2c066c0fe914366b857d0d55c14bc7a5ab647/dbt_lineage_viewer-0.4.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - processPackages [raga-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-01 20:22:56] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21352647>=10485760
+[2023-05-01 20:22:56] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/1f/80/47c27cc7ac98e6271d58d057788b70dfdba2a1cdd6a930166f5358ff5598/pineboo-1.0.4.1.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-05-01 20:22:56] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/1f/80/47c27cc7ac98e6271d58d057788b70dfdba2a1cdd6a930166f5358ff5598/pineboo-1.0.4.1.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - processPackages [incydr]: Downloading https://files.pythonhosted.org/packages/8f/e3/2afe15596589a5faeb7503768e689e0aa51e10dde4b0aee5e883c8af86dc/incydr-1.0.1.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - processPackages [se-lib]: executing diffoscope
+[2023-05-01 20:22:56] INFO root fetch - processPackages [se-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/se_lib-0.25.tar.gz tmp/se_lib-0.26.tar.gz --markdown 20230501/s/se-lib/0.25-0.26/diff.md --exclude *.pyd
+[2023-05-01 20:22:56] INFO root fetch - processPackages [gtFrame]: Downloading https://files.pythonhosted.org/packages/eb/c6/fee8ae5c17fdef25bdc2ffa3c09f6b46bf80079da5e7d4e0641a00aed9cc/gtFrame-1.2.2.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - processPackages [pinecone-cli]: Downloading https://files.pythonhosted.org/packages/c3/8b/ef011c8b5271f235315cd59765f7edaab62dbfbc045c0270e2b2b67151f1/pinecone_cli-0.5.1.tar.gz
+[2023-05-01 20:22:56] INFO root fetch - processPackages [dbt-lineage-viewer]: executing diffoscope
+[2023-05-01 20:22:56] INFO root fetch - processPackages [dbt-lineage-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_lineage_viewer-0.3.tar.gz tmp/dbt_lineage_viewer-0.4.tar.gz --markdown 20230501/d/dbt-lineage-viewer/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 20:22:56] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/e3/ea/d5cac750312e707b3a85c329b3c3dda07de7cf02889912067c85a49dce2b/types-ujson-5.7.0.5.tar.gz
+[2023-05-01 20:22:57] INFO root fetch - processPackages [types-ujson]: executing diffoscope
+[2023-05-01 20:22:57] INFO root fetch - processPackages [types-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ujson-5.7.0.4.tar.gz tmp/types-ujson-5.7.0.5.tar.gz --markdown 20230501/t/types-ujson/5.7.0.4-5.7.0.5/diff.md --exclude *.pyd
+[2023-05-01 20:22:57] INFO root fetch - processPackages [raga-cli]: Downloading https://files.pythonhosted.org/packages/78/a3/703dabf6c18fb5a26c8061124ba8ad7b525cb4bdd4ae0fe5a9774b8c5b4d/raga-cli-0.1.5.tar.gz
+[2023-05-01 20:22:57] INFO root fetch - processPackages [pinecone-cli]: Downloading https://files.pythonhosted.org/packages/f7/9f/17edfa99ddcd61f85f8eacad3b38b4d322fc2818ecf94c400596c3554e14/pinecone_cli-0.5.2-py3-none-any.whl
+[2023-05-01 20:22:57] INFO root fetch - processPackages [gtFrame]: Downloading https://files.pythonhosted.org/packages/1e/ab/71439d6b72d3b54b6335717deaad25a37001768e7c6ea35472f649a84e1b/gtFrame-1.2.3.tar.gz
+[2023-05-01 20:22:57] INFO root fetch - processPackages [incydr]: Downloading https://files.pythonhosted.org/packages/1d/e1/0a69ea97aba0e61a439d139c7b48d8353700945dea492dc9532e0a9c3b05/incydr-1.1.0.tar.gz
+[2023-05-01 20:22:57] INFO root fetch - processPackages [pinecone-cli]: executing diffoscope
+[2023-05-01 20:22:57] INFO root fetch - processPackages [pinecone-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_cli-0.5.1.tar.gz tmp/pinecone_cli-0.5.2-py3-none-any.whl.zip --markdown 20230501/p/pinecone-cli/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-01 20:22:57] INFO root fetch - processPackages [gtFrame]: executing diffoscope
+[2023-05-01 20:22:57] INFO root fetch - processPackages [gtFrame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtFrame-1.2.2.tar.gz tmp/gtFrame-1.2.3.tar.gz --markdown 20230501/g/gtFrame/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-01 20:22:57] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-01 20:22:57] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.4.tar.gz tmp/raga-cli-0.1.5.tar.gz --markdown 20230501/r/raga-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-01 20:22:57] INFO root fetch - processPackages [incydr]: executing diffoscope
+[2023-05-01 20:22:57] INFO root fetch - processPackages [incydr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incydr-1.0.1.tar.gz tmp/incydr-1.1.0.tar.gz --markdown 20230501/i/incydr/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 20:22:58] INFO root fetch - main [MainThread]: End processing [dbt-lineage-viewer]: success
+[2023-05-01 20:22:58] INFO root fetch - main [MainThread]: End processing [se-lib]: success
+[2023-05-01 20:22:58] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/80/64/2ace84e64cf29f03fb9f96f8fee5a173f87779aa6bbf5305df9abff688d1/pineboo-1.0.4.2.tar.gz
+[2023-05-01 20:22:58] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/80/64/2ace84e64cf29f03fb9f96f8fee5a173f87779aa6bbf5305df9abff688d1/pineboo-1.0.4.2.tar.gz
+[2023-05-01 20:22:58] INFO root fetch - main [MainThread]: End processing [pinecone-cli]: success
+[2023-05-01 20:22:58] INFO root fetch - main [MainThread]: End processing [types-ujson]: success
+[2023-05-01 20:22:58] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-01 20:22:58] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.1.tar.gz tmp/pineboo-1.0.4.2.tar.gz --markdown 20230501/p/pineboo/1.0.4.1-1.0.4.2/diff.md --exclude *.pyd
+[2023-05-01 20:22:58] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-01 20:22:58] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.1.tar.gz tmp/pineboo-1.0.4.2.tar.gz --markdown 20230501/p/pineboo/1.0.4.1-1.0.4.2/diff.md --exclude *.pyd
+[2023-05-01 20:22:58] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-01 20:22:58] INFO root fetch - main [MainThread]: End processing [gtFrame]: success
+[2023-05-01 20:22:59] INFO root fetch - main [MainThread]: End processing [incydr]: success
+[2023-05-01 20:23:06] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-01 20:23:06] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-01 20:23:06] INFO root fetch - main [MainThread]: Store serial: [17930092]
