@@ -4897,3 +4897,37 @@
 [2023-05-01 08:09:52] INFO root fetch - main [MainThread]: End processing [genv]: success
 [2023-05-01 08:09:55] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-05-01 08:09:55] INFO root fetch - main [MainThread]: Store serial: [17923250]
+[2023-05-01 08:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923250]
+[2023-05-01 08:15:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 08:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libdeeplake
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-plugins
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usearch
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xia-engine-terraform
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msaDocModels
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-cloudformation-snowflake-user-user
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 08:15:04] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 08:15:04] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 08:15:04] WARNING root fetch - processPackages [usearch]: Skipping, unable to determine old version
+[2023-05-01 08:15:04] INFO root fetch - main [MainThread]: End processing [usearch] error
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-01 08:15:04] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.2.tar.gz tmp/ml_plugins-0.0.3.tar.gz --markdown 20230501/m/ml-plugins/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-snowflake-user-user]: New version: [1.2.0a7] Old Version: [1.1.0a7]
+[2023-05-01 08:15:04] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 08:15:04] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-01 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-snowflake-user-user]: Downloading https://files.pythonhosted.org/packages/04/ef/b82b8760538ddd553651880cac030e1cc08cd449d090239079e72b87a485/cdk-cloudformation-snowflake-user-user-1.1.0a7.tar.gz
+[2023-05-01 08:15:04] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/8b/f7/5e0ace60578b08b040bf0ee92f005f88ae99db05acf7105f198e35970e16/xia_engine_terraform-0.1.1-cp39-none-win_amd64.whl
+[2023-05-01 08:15:04] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-05-01 08:15:04] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.0-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.1-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-engine-terraform/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 08:15:04] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-05-01 08:15:04] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230501/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-snowflake-user-user]: Downloading https://files.pythonhosted.org/packages/17/72/b0746d20b0819addd9f1e461b519b272756fcd03f907ab1ad989575565dc/cdk-cloudformation-snowflake-user-user-1.2.0a7.tar.gz
+[2023-05-01 08:15:04] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-05-01 08:15:04] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-05-01 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-snowflake-user-user]: executing diffoscope
+[2023-05-01 08:15:04] INFO root fetch - processPackages [cdk-cloudformation-snowflake-user-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-snowflake-user-user-1.1.0a7.tar.gz tmp/cdk-cloudformation-snowflake-user-user-1.2.0a7.tar.gz --markdown 20230501/c/cdk-cloudformation-snowflake-user-user/1.1.0a7-1.2.0a7/diff.md --exclude *.pyd
+[2023-05-01 08:15:05] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-01 08:15:05] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-05-01 08:15:05] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-05-01 08:15:06] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-user-user]: success
+[2023-05-01 08:15:06] INFO root fetch - main [MainThread]: Store serial: [17923311]
