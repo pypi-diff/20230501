@@ -16485,3 +16485,102 @@ EOFError: EOF read where object expected
 [2023-05-01 20:55:37] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
 [2023-05-01 20:57:31] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-05-01 20:57:31] INFO root fetch - main [MainThread]: Store serial: [17930449]
+[2023-05-01 21:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930449]
+[2023-05-01 21:02:41] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-yoav-signed-stuff-1
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ZoomFoundry
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peakrdl-python
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: helrmerter
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonformer
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chalkpy
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: schoolware-api
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycrosskit
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goatl
+[2023-05-01 21:02:41] WARNING root fetch - processPackages [certora-cli-alpha-yoav-signed-stuff-1]: Skipping, unable to determine old version
+[2023-05-01 21:02:41] INFO root fetch - processPackages [certora-cli-alpha-yoav-signed-stuff-1]: Start processing: transformers-gradients
+[2023-05-01 21:02:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-signed-stuff-1] error
+[2023-05-01 21:02:41] INFO root fetch - processPackages [peakrdl-python]: New version: [0.6.1] Old Version: [0.6.0rc1]
+[2023-05-01 21:02:41] WARNING root fetch - processPackages [jsonformer]: Skipping, unable to determine old version
+[2023-05-01 21:02:41] INFO root fetch - processPackages [jsonformer]: Start processing: hightouch
+[2023-05-01 21:02:41] INFO root fetch - main [MainThread]: End processing [jsonformer] error
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ZoomFoundry]: New version: [6.9.1] Old Version: [6.7.5]
+[2023-05-01 21:02:41] WARNING root fetch - processPackages [helrmerter]: Skipping, unable to determine old version
+[2023-05-01 21:02:41] INFO root fetch - processPackages [goatl]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [helrmerter]: Start processing: svg.transform
+[2023-05-01 21:02:41] INFO root fetch - main [MainThread]: End processing [helrmerter] error
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [pycrosskit]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [transformers-gradients]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [hightouch]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-01 21:02:41] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.7.tar.gz tmp/schoolware_api-1.0.8.tar.gz --markdown 20230501/s/schoolware-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 21:02:41] INFO root fetch - processPackages [transformers-gradients]: executing diffoscope
+[2023-05-01 21:02:41] INFO root fetch - processPackages [transformers-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_gradients-0.0.8.tar.gz tmp/transformers_gradients-0.0.9.tar.gz --markdown 20230501/t/transformers-gradients/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 21:02:41] WARNING root fetch - processPackages [svg.transform]: Skipping, unable to determine old version
+[2023-05-01 21:02:41] INFO root fetch - processPackages [svg.transform]: Start processing: mkdocs-placeholder-plugin
+[2023-05-01 21:02:41] INFO root fetch - main [MainThread]: End processing [svg.transform] error
+[2023-05-01 21:02:41] INFO root fetch - processPackages [peakrdl-python]: Downloading https://files.pythonhosted.org/packages/68/fe/cd419bf753e8ffe2c5bb1908180c3565047139a6b98cf7ad2d882df15e70/peakrdl-python-0.6.0rc1.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [mkdocs-placeholder-plugin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-01 21:02:41] INFO root fetch - processPackages [hightouch]: Downloading https://files.pythonhosted.org/packages/62/ba/54d92208f532ffb826fec3e95aa3c510069ba292763c5956585597cd4bb6/hightouch-1.9.0.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [ZoomFoundry]: Downloading https://files.pythonhosted.org/packages/7b/44/dda30d53379fe6decd2f663d6d5c89e57914d70fd6745fe1bd1b4bba71be/ZoomFoundry-6.7.5.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/d8/19/62f91afea04e1d4efefad021c94c0e8fb0c37d01e6467f0f80cf53d74cb1/pycrosskit-1.7.1.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/6d/d5/f7d323f2c2739648dc8b746aefecd6a6e439783ee4a67d447b2e383d02cc/goatl-0.5.0.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [mkdocs-placeholder-plugin]: Downloading https://files.pythonhosted.org/packages/90/d0/26ce75212afb7a9be4722a52766254a76ff4736fe0540aba833c746d9c4a/mkdocs-placeholder-plugin-0.3.0.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/de/0e/3701fcd4b4a1a1c36776fd9927d279abb877cc05c725421b113d381e8983/chalkpy-2.0.0.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/de/0e/3701fcd4b4a1a1c36776fd9927d279abb877cc05c725421b113d381e8983/chalkpy-2.0.0.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-01 21:02:41] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.4.1.tar.gz tmp/goatl-0.5.0.tar.gz --markdown 20230501/g/goatl/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-01 21:02:41] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/3d/db/6d5a14d016677d64b40080ffe9df19ceca7d2fe8d8ec4e02e1ebd3981442/pycrosskit-1.7.2.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [peakrdl-python]: Downloading https://files.pythonhosted.org/packages/9d/90/75e34cef9fc7e1b8c641b122391aad6aa4dbd7d0f6e14a138c485eccacdf/peakrdl-python-0.6.1.tar.gz
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.9.tar.gz tmp/chalkpy-2.0.0.tar.gz --markdown 20230501/c/chalkpy/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-01 21:02:41] INFO root fetch - processPackages [pycrosskit]: executing diffoscope
+[2023-05-01 21:02:41] INFO root fetch - processPackages [pycrosskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrosskit-1.7.1.tar.gz tmp/pycrosskit-1.7.2.tar.gz --markdown 20230501/p/pycrosskit/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-05-01 21:02:41] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.9.tar.gz tmp/chalkpy-2.0.0.tar.gz --markdown 20230501/c/chalkpy/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-05-01 21:02:42] INFO root fetch - processPackages [ZoomFoundry]: Downloading https://files.pythonhosted.org/packages/2f/35/4c009609141d05e029b6d7ac2e7ec9c8fed641956394c5d8cf848ae2c35f/ZoomFoundry-6.9.1.tar.gz
+[2023-05-01 21:02:42] INFO root fetch - processPackages [mkdocs-placeholder-plugin]: Downloading https://files.pythonhosted.org/packages/39/55/4318e2b87fda7d51b42e26ea26e60fc7e06179e161c2f2754fed5f57d24a/mkdocs-placeholder-plugin-0.3.1.tar.gz
+[2023-05-01 21:02:42] INFO root fetch - processPackages [peakrdl-python]: executing diffoscope
+[2023-05-01 21:02:42] INFO root fetch - processPackages [peakrdl-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl-python-0.6.0rc1.tar.gz tmp/peakrdl-python-0.6.1.tar.gz --markdown 20230501/p/peakrdl-python/0.6.0rc1-0.6.1/diff.md --exclude *.pyd
+[2023-05-01 21:02:42] INFO root fetch - processPackages [mkdocs-placeholder-plugin]: executing diffoscope
+[2023-05-01 21:02:42] INFO root fetch - processPackages [mkdocs-placeholder-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-placeholder-plugin-0.3.0.tar.gz tmp/mkdocs-placeholder-plugin-0.3.1.tar.gz --markdown 20230501/m/mkdocs-placeholder-plugin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-01 21:02:42] INFO root fetch - processPackages [transformers-gradients]: Start processing: PennyLane-qiskit
+[2023-05-01 21:02:42] INFO root fetch - main [MainThread]: End processing [transformers-gradients]: success
+[2023-05-01 21:02:42] INFO root fetch - processPackages [PennyLane-qiskit]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-01 21:02:42] INFO root fetch - processPackages [schoolware-api]: Start processing: toml-tools
+[2023-05-01 21:02:42] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-01 21:02:42] INFO root fetch - processPackages [toml-tools]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-05-01 21:02:42] INFO root fetch - processPackages [PennyLane-qiskit]: Downloading https://files.pythonhosted.org/packages/d9/b4/a81c0b03da497ad947c0d1e37d51b98cbef413232cacb58e9e5105eafb66/PennyLane-qiskit-0.8.2.tar.gz
+[2023-05-01 21:02:42] INFO root fetch - processPackages [ZoomFoundry]: executing diffoscope
+[2023-05-01 21:02:42] INFO root fetch - processPackages [ZoomFoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ZoomFoundry-6.7.5.tar.gz tmp/ZoomFoundry-6.9.1.tar.gz --markdown 20230501/Z/ZoomFoundry/6.7.5-6.9.1/diff.md --exclude *.pyd
+[2023-05-01 21:02:42] INFO root fetch - processPackages [toml-tools]: Downloading https://files.pythonhosted.org/packages/b3/42/5aeb5f186506403fa165aaeeaa4e357254f315364fe58b71a51e835385d0/toml_tools-2.0.0.tar.gz
+[2023-05-01 21:02:42] INFO root fetch - processPackages [goatl]: Start processing: ztasimb
+[2023-05-01 21:02:42] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-01 21:02:42] WARNING root fetch - processPackages [ztasimb]: Skipping, unable to determine old version
+[2023-05-01 21:02:42] INFO root fetch - processPackages [ztasimb]: Start processing: schoolware-api
+[2023-05-01 21:02:42] INFO root fetch - main [MainThread]: End processing [ztasimb] error
+[2023-05-01 21:02:43] INFO root fetch - processPackages [schoolware-api]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 21:02:43] INFO root fetch - processPackages [schoolware-api]: executing diffoscope
+[2023-05-01 21:02:43] INFO root fetch - processPackages [schoolware-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schoolware_api-1.0.7.tar.gz tmp/schoolware_api-1.0.8.tar.gz --markdown 20230501/s/schoolware-api/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 21:02:43] INFO root fetch - processPackages [toml-tools]: executing diffoscope
+[2023-05-01 21:02:43] INFO root fetch - processPackages [toml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_tools-1.1.1.tar.gz tmp/toml_tools-2.0.0.tar.gz --markdown 20230501/t/toml-tools/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-01 21:02:43] INFO root fetch - processPackages [PennyLane-qiskit]: Downloading https://files.pythonhosted.org/packages/1c/29/a159d23c2c645bae7a194e8206a3a27e88a0667509717383ae1b9035c6ab/PennyLane-qiskit-0.9.0.tar.gz
+[2023-05-01 21:02:43] INFO root fetch - main [MainThread]: End processing [pycrosskit]: success
+[2023-05-01 21:02:43] INFO root fetch - processPackages [hightouch]: Downloading https://files.pythonhosted.org/packages/c4/da/8b738d4387d3840cdb0234b38ad7a8192370fe4b1db3df420b15bccf5ecd/hightouch-1.9.1.tar.gz
+[2023-05-01 21:02:43] INFO root fetch - main [MainThread]: End processing [peakrdl-python]: success
+[2023-05-01 21:02:43] INFO root fetch - main [MainThread]: End processing [mkdocs-placeholder-plugin]: success
+[2023-05-01 21:02:43] INFO root fetch - processPackages [PennyLane-qiskit]: executing diffoscope
+[2023-05-01 21:02:43] INFO root fetch - processPackages [PennyLane-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PennyLane-qiskit-0.8.2.tar.gz tmp/PennyLane-qiskit-0.9.0.tar.gz --markdown 20230501/P/PennyLane-qiskit/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 21:02:43] INFO root fetch - processPackages [hightouch]: executing diffoscope
+[2023-05-01 21:02:43] INFO root fetch - processPackages [hightouch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hightouch-1.9.0.tar.gz tmp/hightouch-1.9.1.tar.gz --markdown 20230501/h/hightouch/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 21:02:44] INFO root fetch - main [MainThread]: End processing [toml-tools]: success
+[2023-05-01 21:02:44] INFO root fetch - main [MainThread]: End processing [schoolware-api]: success
+[2023-05-01 21:02:44] INFO root fetch - main [MainThread]: End processing [PennyLane-qiskit]: success
+[2023-05-01 21:02:45] INFO root fetch - main [MainThread]: End processing [hightouch]: success
+[2023-05-01 21:02:46] INFO root fetch - main [MainThread]: End processing [ZoomFoundry]: success
+[2023-05-01 21:02:47] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-01 21:02:50] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-05-01 21:02:50] INFO root fetch - main [MainThread]: Store serial: [17930509]
