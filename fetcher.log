@@ -13899,3 +13899,101 @@ EOFError: EOF read where object expected
 [2023-05-01 18:10:34] INFO root fetch - main [MainThread]: End processing [neural-diffeqs]: success
 [2023-05-01 18:10:35] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-05-01 18:10:35] INFO root fetch - main [MainThread]: Store serial: [17928625]
+[2023-05-01 18:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928625]
+[2023-05-01 18:15:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nx5d
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libzim
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uc-micro-py
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antsibull
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansible-variables
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bow-cli
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hivemind
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quota-notifier
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-jobs
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-vpc
+[2023-05-01 18:15:47] INFO root fetch - processPackages [bow-cli]: New version: [1.0.0.6] Old Version: [1.0.0.5]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [nx5d]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ansible-variables]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [uc-micro-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [quota-notifier]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [hivemind]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [antsibull]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [libzim]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [pepperize.cdk-vpc]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 18:15:47] INFO root fetch - processPackages [bow-cli]: Downloading https://files.pythonhosted.org/packages/4f/06/7f8c9664b4c370c111e09df3362d63c071da4185261277be6d5e1d5c39aa/bow_cli-1.0.0.6.tar.gz
+[2023-05-01 18:15:47] INFO root fetch - processPackages [uc-micro-py]: Downloading https://files.pythonhosted.org/packages/8d/01/865815288cb9b2cd2e7181bbe17fe55e4e3d30f29f28efcef2be4247e6a0/uc-micro-py-1.0.1.tar.gz
+[2023-05-01 18:15:47] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/80/58/9f0dfa43324776ac13d4d29df6d3a3774158b5d87e7ad4f64bf2bb64844d/antsibull-0.8.0.tar.gz
+[2023-05-01 18:15:47] INFO root fetch - processPackages [bow-cli]: executing diffoscope
+[2023-05-01 18:15:47] INFO root fetch - processPackages [bow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bow_cli-1.0.0.5.tar.gz tmp/bow_cli-1.0.0.6.tar.gz --markdown 20230501/b/bow-cli/1.0.0.5-1.0.0.6/diff.md --exclude *.pyd
+[2023-05-01 18:15:47] INFO root fetch - processPackages [ansible-variables]: Downloading https://files.pythonhosted.org/packages/90/89/cbb87e5839c38c16f55f1cbd26170d9c92a8800bdead491e467adca32ace/ansible-variables-0.4.2.tar.gz
+[2023-05-01 18:15:47] INFO root fetch - processPackages [libzim]: Downloading https://files.pythonhosted.org/packages/99/88/3ff4dd75f92d54754937d28a20b39efe29b7297d068a7adc93caead9fb51/libzim-3.0.0.tar.gz
+[2023-05-01 18:15:47] INFO root fetch - processPackages [quota-notifier]: Downloading https://files.pythonhosted.org/packages/4f/ca/ac979b436d03a6badac1b44dbf3f6dfeae2108fab424cafd0601fa821a62/quota_notifier-0.5.5.tar.gz
+[2023-05-01 18:15:47] INFO root fetch - processPackages [hivemind]: Downloading https://files.pythonhosted.org/packages/af/da/90370f70ec97e403df27dab4e9dc5ba4c823eb501a947e311e8bf8fdc87b/hivemind-1.1.7.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/25/92/bc6193354aa6fc3df8d4045e8ce88990970e21f61e04a1c16185a52632b1/nx5d-0.3.5.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230501/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [uc-micro-py]: Downloading https://files.pythonhosted.org/packages/75/db/241444fe6df6970a4c18d227193cad77fab7cec55d98e296099147de017f/uc-micro-py-1.0.2.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [ansible-variables]: Downloading https://files.pythonhosted.org/packages/b9/76/710fbc521fb9fc4d4d91d7b988b41884160734b256006537ec60954ae64c/ansible-variables-0.4.3.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/40/21/de47d6527979090205d05aaf002a69b9447cf479be6f424141c1ea076168/antsibull-0.9.0.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [pepperize.cdk-vpc]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [pepperize.cdk-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-vpc-0.0.98.tar.gz tmp/pepperize.cdk-vpc-0.0.99.tar.gz --markdown 20230501/p/pepperize.cdk-vpc/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [nx5d]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [nx5d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx5d-0.3.4.tar.gz tmp/nx5d-0.3.5.tar.gz --markdown 20230501/n/nx5d/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [quota-notifier]: Downloading https://files.pythonhosted.org/packages/be/4e/bb0deff9a33d7d5a07cbc1fe68fa2ff1b7fa1081ef858f7527d9344cca9b/quota_notifier-0.5.6.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [uc-micro-py]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [uc-micro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uc-micro-py-1.0.1.tar.gz tmp/uc-micro-py-1.0.2.tar.gz --markdown 20230501/u/uc-micro-py/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [ansible-variables]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [ansible-variables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-variables-0.4.2.tar.gz tmp/ansible-variables-0.4.3.tar.gz --markdown 20230501/a/ansible-variables/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [quota-notifier]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [quota-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quota_notifier-0.5.5.tar.gz tmp/quota_notifier-0.5.6.tar.gz --markdown 20230501/q/quota-notifier/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [hivemind]: Downloading https://files.pythonhosted.org/packages/59/ce/a284ee6a287ab03968bdbcf212a4aac498cd550f7068e936e261cf0b601c/hivemind-1.1.8.tar.gz
+[2023-05-01 18:15:48] INFO root fetch - processPackages [antsibull]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [antsibull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-0.8.0.tar.gz tmp/antsibull-0.9.0.tar.gz --markdown 20230501/a/antsibull/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 18:15:48] INFO root fetch - processPackages [hivemind]: executing diffoscope
+[2023-05-01 18:15:48] INFO root fetch - processPackages [hivemind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivemind-1.1.7.tar.gz tmp/hivemind-1.1.8.tar.gz --markdown 20230501/h/hivemind/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-01 18:15:49] INFO root fetch - processPackages [bow-cli]: Start processing: xcsv
+[2023-05-01 18:15:49] INFO root fetch - main [MainThread]: End processing [bow-cli]: success
+[2023-05-01 18:15:49] INFO root fetch - processPackages [xcsv]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-01 18:15:49] INFO root fetch - processPackages [libzim]: Downloading https://files.pythonhosted.org/packages/45/1a/129c826240f7965173f3c66cfc31aa3da97e4a3eb667572bb31a8cb3d9d2/libzim-3.1.0.tar.gz
+[2023-05-01 18:15:49] INFO root fetch - processPackages [leadguru-jobs]: Start processing: amazon-braket-default-simulator
+[2023-05-01 18:15:49] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-01 18:15:49] INFO root fetch - processPackages [pepperize.cdk-vpc]: Start processing: strangeworks-vqe
+[2023-05-01 18:15:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-vpc]: success
+[2023-05-01 18:15:49] INFO root fetch - processPackages [xcsv]: Downloading https://files.pythonhosted.org/packages/db/98/3fece7a558a6217d359e920d2f7194782a7cc8fee4b82c12ea89c61d260f/xcsv-0.3.0.tar.gz
+[2023-05-01 18:15:49] INFO root fetch - processPackages [libzim]: executing diffoscope
+[2023-05-01 18:15:49] INFO root fetch - processPackages [libzim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libzim-3.0.0.tar.gz tmp/libzim-3.1.0.tar.gz --markdown 20230501/l/libzim/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-01 18:15:49] INFO root fetch - processPackages [amazon-braket-default-simulator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-01 18:15:49] INFO root fetch - processPackages [strangeworks-vqe]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 18:15:49] INFO root fetch - processPackages [uc-micro-py]: Start processing: lifelines
+[2023-05-01 18:15:49] INFO root fetch - main [MainThread]: End processing [uc-micro-py]: success
+[2023-05-01 18:15:49] INFO root fetch - processPackages [lifelines]: New version: [0.9.4] Old Version: [0.9.3.2]
+[2023-05-01 18:15:49] INFO root fetch - processPackages [xcsv]: Downloading https://files.pythonhosted.org/packages/29/2f/1edb71a9fa152ab7520ee6f94866c191473c634a14cba722fe55c201cfce/xcsv-0.4.0.tar.gz
+[2023-05-01 18:15:50] INFO root fetch - processPackages [strangeworks-vqe]: Downloading https://files.pythonhosted.org/packages/4a/e7/17f806d6849f6259277ba1be062126c8b857158d9cf224c526ae2b25b429/strangeworks_vqe-0.1.2.tar.gz
+[2023-05-01 18:15:50] INFO root fetch - processPackages [xcsv]: executing diffoscope
+[2023-05-01 18:15:50] INFO root fetch - processPackages [xcsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsv-0.3.0.tar.gz tmp/xcsv-0.4.0.tar.gz --markdown 20230501/x/xcsv/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-01 18:15:50] INFO root fetch - processPackages [amazon-braket-default-simulator]: executing diffoscope
+[2023-05-01 18:15:50] INFO root fetch - processPackages [amazon-braket-default-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-default-simulator-1.9.0.tar.gz tmp/amazon-braket-default-simulator-1.9.1.tar.gz --markdown 20230501/a/amazon-braket-default-simulator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 18:15:50] INFO root fetch - processPackages [quota-notifier]: Start processing: adafruit-circuitpython-simpleio
+[2023-05-01 18:15:50] INFO root fetch - main [MainThread]: End processing [quota-notifier]: success
+[2023-05-01 18:15:50] INFO root fetch - main [MainThread]: End processing [ansible-variables]: success
+[2023-05-01 18:15:50] INFO root fetch - processPackages [strangeworks-vqe]: Downloading https://files.pythonhosted.org/packages/0c/82/d23d6da2ce045a4f80a7fc05f65d21f1e706764b5554b9eee9908a7fe422/strangeworks_vqe-0.1.3.tar.gz
+[2023-05-01 18:15:50] INFO root fetch - processPackages [adafruit-circuitpython-simpleio]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-01 18:15:50] INFO root fetch - processPackages [lifelines]: executing diffoscope
+[2023-05-01 18:15:50] INFO root fetch - processPackages [lifelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lifelines-0.9.3.2.tar.gz tmp/lifelines-0.9.4.tar.gz --markdown 20230501/l/lifelines/0.9.3.2-0.9.4/diff.md --exclude *.pyd
+[2023-05-01 18:15:50] INFO root fetch - processPackages [strangeworks-vqe]: executing diffoscope
+[2023-05-01 18:15:50] INFO root fetch - processPackages [strangeworks-vqe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_vqe-0.1.2.tar.gz tmp/strangeworks_vqe-0.1.3.tar.gz --markdown 20230501/s/strangeworks-vqe/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 18:15:50] INFO root fetch - main [MainThread]: End processing [nx5d]: success
+[2023-05-01 18:15:50] INFO root fetch - processPackages [adafruit-circuitpython-simpleio]: Downloading https://files.pythonhosted.org/packages/08/77/6e7d41d6378f48b954b9dfd3fc43290d032dda70b799800f3e5c839a421d/adafruit-circuitpython-simpleio-3.0.8.tar.gz
+[2023-05-01 18:15:51] INFO root fetch - main [MainThread]: End processing [xcsv]: success
+[2023-05-01 18:15:51] INFO root fetch - processPackages [adafruit-circuitpython-simpleio]: Downloading https://files.pythonhosted.org/packages/d6/88/1b6e51a920a63812a9bf77b840b095afeb871e56e7f44f3feb90238daa4a/adafruit-circuitpython-simpleio-3.0.9.tar.gz
+[2023-05-01 18:15:51] INFO root fetch - main [MainThread]: End processing [strangeworks-vqe]: success
+[2023-05-01 18:15:51] INFO root fetch - processPackages [adafruit-circuitpython-simpleio]: executing diffoscope
+[2023-05-01 18:15:51] INFO root fetch - processPackages [adafruit-circuitpython-simpleio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-simpleio-3.0.8.tar.gz tmp/adafruit-circuitpython-simpleio-3.0.9.tar.gz --markdown 20230501/a/adafruit-circuitpython-simpleio/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:15:51] INFO root fetch - main [MainThread]: End processing [antsibull]: success
+[2023-05-01 18:15:51] INFO root fetch - main [MainThread]: End processing [lifelines]: success
+[2023-05-01 18:15:51] INFO root fetch - main [MainThread]: End processing [amazon-braket-default-simulator]: success
+[2023-05-01 18:15:51] INFO root fetch - main [MainThread]: End processing [libzim]: success
+[2023-05-01 18:15:52] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-simpleio]: success
+[2023-05-01 18:15:53] INFO root fetch - main [MainThread]: End processing [hivemind]: success
+[2023-05-01 18:15:53] INFO root fetch - main [MainThread]: Store serial: [17928693]
