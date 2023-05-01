@@ -5190,3 +5190,26 @@
 [2023-05-01 08:41:36] INFO root fetch - processPackages [cdk-gradle-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gradle-uploader-0.0.8.tar.gz tmp/cdk-gradle-uploader-0.0.9.tar.gz --markdown 20230501/c/cdk-gradle-uploader/0.0.8-0.0.9/diff.md --exclude *.pyd
 [2023-05-01 08:41:37] INFO root fetch - main [MainThread]: End processing [cdk-gradle-uploader]: success
 [2023-05-01 08:41:37] INFO root fetch - main [MainThread]: Store serial: [17923494]
+[2023-05-01 08:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923494]
+[2023-05-01 08:46:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpservice
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shopcloud-organize
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-plugins
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: soremoji
+[2023-05-01 08:46:46] WARNING root fetch - processPackages [soremoji]: Skipping, unable to determine old version
+[2023-05-01 08:46:46] INFO root fetch - main [MainThread]: End processing [soremoji] error
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 08:46:46] INFO root fetch - processPackages [shopcloud-organize]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 08:46:46] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-05-01 08:46:46] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-05-01 08:46:46] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230501/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/eb/ea/2b2c6582a4dbead37d487dd6cb3940110f255e6fa859539363282aa2bc5c/ml_plugins-0.0.7.tar.gz
+[2023-05-01 08:46:46] INFO root fetch - processPackages [shopcloud-organize]: Downloading https://files.pythonhosted.org/packages/b2/ca/4f535d4e1667810c19959cec1665629d32c90e4541d947df4cf3d8e30602/shopcloud_organize-1.1.1.tar.gz
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-01 08:46:46] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.6.tar.gz tmp/ml_plugins-0.0.7.tar.gz --markdown 20230501/m/ml-plugins/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 08:46:46] INFO root fetch - processPackages [shopcloud-organize]: executing diffoscope
+[2023-05-01 08:46:46] INFO root fetch - processPackages [shopcloud-organize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud_organize-1.1.0.tar.gz tmp/shopcloud_organize-1.1.1.tar.gz --markdown 20230501/s/shopcloud-organize/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 08:46:47] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-01 08:46:47] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-05-01 08:46:47] INFO root fetch - main [MainThread]: End processing [shopcloud-organize]: success
+[2023-05-01 08:46:47] INFO root fetch - main [MainThread]: Store serial: [17923509]
