@@ -15606,3 +15606,104 @@ EOFError: EOF read where object expected
 [2023-05-01 19:58:50] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
 [2023-05-01 19:58:53] INFO root fetch - main [MainThread]: End processing [dlplan]: success
 [2023-05-01 19:58:53] INFO root fetch - main [MainThread]: Store serial: [17929754]
+[2023-05-01 20:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929754]
+[2023-05-01 20:04:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpp-demangle
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: salamencrypt
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neopolitan
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotior-sensus
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcio
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hugchat
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymathematics
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simulateIRAS
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appthreat-vulnerability-db
+[2023-05-01 20:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asytest
+[2023-05-01 20:04:02] INFO root fetch - processPackages [cpp-demangle]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [hugchat]: New version: [0.0.5.1] Old Version: [0.0.4]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [neopolitan]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [salamencrypt]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 20:04:02] WARNING root fetch - processPackages [simulateIRAS]: Skipping, unable to determine old version
+[2023-05-01 20:04:02] INFO root fetch - processPackages [asytest]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [simulateIRAS]: Start processing: coppyr
+[2023-05-01 20:04:02] INFO root fetch - processPackages [appthreat-vulnerability-db]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-05-01 20:04:02] INFO root fetch - main [MainThread]: End processing [simulateIRAS] error
+[2023-05-01 20:04:02] INFO root fetch - processPackages [pymathematics]: New version: [2023.5.1] Old Version: [2023.4.29]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [coppyr]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [grpcio]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-05-01 20:04:02] INFO root fetch - processPackages [salamencrypt]: Downloading https://files.pythonhosted.org/packages/65/c3/6cfb05266fe8f222f5528548f0e2fb2128030954dcaeef82aeb9a2d4d883/salamencrypt-1.0.1.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-05-01 20:04:02] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230501/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 20:04:02] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/e7/7d/4cdcb5fdfdeea236c16a5c33c3313b63455de120c17426d4eed88dd7ad56/appthreat-vulnerability-db-5.1.3.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [cpp-demangle]: Downloading https://files.pythonhosted.org/packages/2b/3e/27df06472db5ccc0fd73b8d79a7baf951bcbc03f6bd0e9768ae4535e0c85/cpp_demangle-0.1.1-cp39-cp39-win_amd64.whl
+[2023-05-01 20:04:02] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/8b/01/1993a68b3436b061982120e2fbea3b0142c5ff3b44270bbfd9047e9f8a77/neopolitan-0.1.2.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [asytest]: Downloading https://files.pythonhosted.org/packages/57/66/888d505186ea53760296f9c435fdd09dd0d4ce37f9ab569b5e204b5a1662/asytest-0.1.2.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/a5/65/9a6b6049ce04f7072b169052fc70760cc10bf0aabfef8d02199470f0f296/grpcio-1.9.0rc3.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/72/a1/59a9a1b5d1fff15d693f17138694e55a2984b06cd801beadd17fc69395e8/hugchat-0.0.5.1.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/2b/2a/fed29c46f550258ad6ae7b4f7fed2703f437e6168471ddbe6e9a4c6d9414/pymathematics-2023.5.1.tar.gz
+[2023-05-01 20:04:02] INFO root fetch - processPackages [coppyr]: Downloading https://files.pythonhosted.org/packages/10/94/feb475e6136ed1cc64e564b064da563f2cbfe1e5d687c57a0cedf271aaa7/coppyr-0.9.3.tar.gz
+[2023-05-01 20:04:03] INFO root fetch - processPackages [appthreat-vulnerability-db]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [appthreat-vulnerability-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-vulnerability-db-5.1.2.tar.gz tmp/appthreat-vulnerability-db-5.1.3.tar.gz --markdown 20230501/a/appthreat-vulnerability-db/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [salamencrypt]: Downloading https://files.pythonhosted.org/packages/cc/99/4cab25289c59324367093bcc9efff587a0d089f3a5cd35817809f5cf39ec/salamencrypt-1.0.2.tar.gz
+[2023-05-01 20:04:03] INFO root fetch - processPackages [coppyr]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [coppyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coppyr-0.9.2.tar.gz tmp/coppyr-0.9.3.tar.gz --markdown 20230501/c/coppyr/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [neopolitan]: Downloading https://files.pythonhosted.org/packages/80/c4/923debe865fcf80b081b303be419d8192f078387cc8131035a855b4ec9f2/neopolitan-0.1.3.tar.gz
+[2023-05-01 20:04:03] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.4.29.tar.gz tmp/pymathematics-2023.5.1.tar.gz --markdown 20230501/p/pymathematics/2023.4.29-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [salamencrypt]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [salamencrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salamencrypt-1.0.1.tar.gz tmp/salamencrypt-1.0.2.tar.gz --markdown 20230501/s/salamencrypt/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [asytest]: Downloading https://files.pythonhosted.org/packages/51/32/d6f92a9e8afacfa2238ee06ad181962e90ea8f41685f52606faa0d8410aa/asytest-0.1.3.tar.gz
+[2023-05-01 20:04:03] INFO root fetch - processPackages [cpp-demangle]: Downloading https://files.pythonhosted.org/packages/7b/2d/93f687a797083f6ccf694187882b853327cb9fdacf24f125645cd8a5e366/cpp_demangle-0.1.2-cp39-cp39-win_amd64.whl
+[2023-05-01 20:04:03] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.0.4.tar.gz tmp/hugchat-0.0.5.1.tar.gz --markdown 20230501/h/hugchat/0.0.4-0.0.5.1/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [neopolitan]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [neopolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopolitan-0.1.2.tar.gz tmp/neopolitan-0.1.3.tar.gz --markdown 20230501/n/neopolitan/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [asytest]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [asytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asytest-0.1.2.tar.gz tmp/asytest-0.1.3.tar.gz --markdown 20230501/a/asytest/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 20:04:03] INFO root fetch - processPackages [cpp-demangle]: executing diffoscope
+[2023-05-01 20:04:03] INFO root fetch - processPackages [cpp-demangle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpp_demangle-0.1.1-cp39-cp39-win_amd64.whl.zip tmp/cpp_demangle-0.1.2-cp39-cp39-win_amd64.whl.zip --markdown 20230501/c/cpp-demangle/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 20:04:04] INFO root fetch - processPackages [pymathematics]: Start processing: napatrackmater
+[2023-05-01 20:04:04] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-05-01 20:04:04] INFO root fetch - processPackages [napatrackmater]: New version: [3.4.7] Old Version: [3.4.6]
+[2023-05-01 20:04:04] INFO root fetch - processPackages [hugchat]: Start processing: pywxdll
+[2023-05-01 20:04:04] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2023-05-01 20:04:04] INFO root fetch - processPackages [pywxdll]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-01 20:04:04] INFO root fetch - processPackages [salamencrypt]: Start processing: cmo-dataexplore
+[2023-05-01 20:04:04] INFO root fetch - main [MainThread]: End processing [salamencrypt]: success
+[2023-05-01 20:04:04] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/f2/06/13cd55102d928f5b760838569edb315827821ec8b71bcd9ca016ffe172e0/napatrackmater-3.4.6.tar.gz
+[2023-05-01 20:04:04] WARNING root fetch - processPackages [cmo-dataexplore]: Skipping, unable to determine old version
+[2023-05-01 20:04:04] INFO root fetch - processPackages [cmo-dataexplore]: Start processing: ecopipeline
+[2023-05-01 20:04:04] INFO root fetch - main [MainThread]: End processing [cmo-dataexplore] error
+[2023-05-01 20:04:04] INFO root fetch - processPackages [asytest]: Start processing: SiteScraper
+[2023-05-01 20:04:04] INFO root fetch - main [MainThread]: End processing [asytest]: success
+[2023-05-01 20:04:04] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/83/dd/c9e0b995694359302a0404958299019bd81469c96991e5ab0316e6b5029b/pywxdll-0.1.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:04:05] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/1c/fe/3d7d56fa37700bf347e30278c869598c2e57492ce8c814b0864483614333/napatrackmater-3.4.7.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - main [MainThread]: End processing [coppyr]: success
+[2023-05-01 20:04:05] INFO root fetch - processPackages [SiteScraper]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-01 20:04:05] INFO root fetch - main [MainThread]: End processing [neopolitan]: success
+[2023-05-01 20:04:05] INFO root fetch - main [MainThread]: End processing [cpp-demangle]: success
+[2023-05-01 20:04:05] INFO root fetch - main [MainThread]: End processing [appthreat-vulnerability-db]: success
+[2023-05-01 20:04:05] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/cb/75/4560f5e82f0f4207498d2d541602a9919ddc6ae8fabf6f5226fdc7cd498d/ecopipeline-0.0.8.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - processPackages [pywxdll]: Downloading https://files.pythonhosted.org/packages/96/45/57b1d6fbeda0bc5ee82a8ccee6a65665e0b6e25acf0ba49bdf8c0f6e607b/pywxdll-0.1.1.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-01 20:04:05] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.4.6.tar.gz tmp/napatrackmater-3.4.7.tar.gz --markdown 20230501/n/napatrackmater/3.4.6-3.4.7/diff.md --exclude *.pyd
+[2023-05-01 20:04:05] INFO root fetch - processPackages [pywxdll]: executing diffoscope
+[2023-05-01 20:04:05] INFO root fetch - processPackages [pywxdll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdll-0.1.tar.gz tmp/pywxdll-0.1.1.tar.gz --markdown 20230501/p/pywxdll/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 20:04:05] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/0b/32/5aaf0c829ef0dab92285c99020572f46648136f62c377b31418ef040c075/SiteScraper-0.2.0.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/3a/ba/d8a45feb20c25eba0a4e627b0d5ebc86967c08d62663693c523c091a8486/ecopipeline-0.0.9.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-05-01 20:04:05] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-0.1.1.tar.gz tmp/SiteScraper-0.2.0.tar.gz --markdown 20230501/S/SiteScraper/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 20:04:05] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/01/0b/7033eb8a2b8e7f8eaf849490ee27c9b121b1b5624d644c3b5b988d7386cf/grpcio-1.9.1.tar.gz
+[2023-05-01 20:04:05] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-05-01 20:04:05] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230501/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 20:04:06] INFO root fetch - main [MainThread]: End processing [pywxdll]: success
+[2023-05-01 20:04:06] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-01 20:04:06] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-05-01 20:04:07] INFO root fetch - processPackages [grpcio]: executing diffoscope
+[2023-05-01 20:04:07] INFO root fetch - processPackages [grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-1.9.0rc3.tar.gz tmp/grpcio-1.9.1.tar.gz --markdown 20230501/g/grpcio/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 20:04:07] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-05-01 20:04:23] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-05-01 20:07:07] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
+[2023-05-01 20:07:07] INFO root fetch - main [MainThread]: End processing [grpcio] error
+[2023-05-01 20:07:07] INFO root fetch - main [MainThread]: Store serial: [17929855]
