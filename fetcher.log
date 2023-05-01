@@ -929,3 +929,94 @@
 [2023-05-01 02:11:16] INFO root fetch - main [MainThread]: End processing [cbra]: success
 [2023-05-01 02:11:25] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2023-05-01 02:11:25] INFO root fetch - main [MainThread]: Store serial: [17920960]
+[2023-05-01 02:16:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920960]
+[2023-05-01 02:16:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.codepipeline-extensions
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mitm
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-scaler
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netunicorn-connector-kubernetes
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UpyTest
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: suap-scraper
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyload-ng
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kmaps
+[2023-05-01 02:16:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-common
+[2023-05-01 02:16:34] INFO root fetch - processPackages [torch-scaler]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [mitm]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [UpyTest]: New version: [3.0.5] Old Version: [3.0.3]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [kmaps]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 02:16:34] WARNING root fetch - processPackages [netunicorn-connector-kubernetes]: Skipping, unable to determine old version
+[2023-05-01 02:16:34] INFO root fetch - processPackages [netunicorn-connector-kubernetes]: Start processing: cdk-events-notify
+[2023-05-01 02:16:34] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-kubernetes] error
+[2023-05-01 02:16:34] INFO root fetch - processPackages [suap-scraper]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [pyload-ng]: New version: [0.5.0b3.dev67] Old Version: [0.5.0b3.dev66]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 02:16:34] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 02:16:35] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/7d/d4/878b97731996288bb5d3826c197a640142d65ce7df16df0b4326fb109127/suap_scraper-0.0.5.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/05/de/d0968a43fac2c8e8c153c94fa9f5e2b8f0b40a858a0a06cd47430b444e79/kmaps-0.0.7.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Downloading https://files.pythonhosted.org/packages/df/6c/78f1bfa2ffc81709ec21b0077aff92b7460ad1f071d595e2d767653cedc0/cdklabs.codepipeline-extensions-0.0.98.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [UpyTest]: Downloading https://files.pythonhosted.org/packages/d0/27/8e7b8f58b8c1b9d12ccf03958d014f55c480d36b43b8a405381b62368f48/UpyTest-3.0.5.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230501/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230501/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [torch-scaler]: Downloading https://files.pythonhosted.org/packages/fa/13/86f994a4be6f13b99699bf4600899ea9c017bd31ac35110c9dc25b289f41/torch-scaler-0.0.1.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.0.98.tar.gz tmp/cdk-events-notify-2.0.99.tar.gz --markdown 20230501/c/cdk-events-notify/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [mitm]: Downloading https://files.pythonhosted.org/packages/57/6d/2d9feb9f0f7f681e8e86c67e7570c5e40724f69160103a05d160d8b3ec4b/mitm-1.5.0.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [mitm]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [mitm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitm-1.4.3.tar.gz tmp/mitm-1.5.0.tar.gz --markdown 20230501/m/mitm/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [kmaps]: Downloading https://files.pythonhosted.org/packages/11/bd/e23800a9c7d55c34e08f621e6a6c42e68fa9139dac3f7b67eb62b3424904/kmaps-0.0.8.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [pyload-ng]: Downloading https://files.pythonhosted.org/packages/93/37/e9c85d83aa96e43c7f61891c87de85500d02a85e7621510687199f29d5c9/pyload-ng-0.5.0b3.dev67.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [suap-scraper]: Downloading https://files.pythonhosted.org/packages/f9/e6/dfb95005c113cb7d04d23d48e253efe7b6400e6eda2322c0cbe1615ad8d6/suap_scraper-0.0.6.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [kmaps]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [kmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmaps-0.0.7.tar.gz tmp/kmaps-0.0.8.tar.gz --markdown 20230501/k/kmaps/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [UpyTest]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [UpyTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UpyTest-3.0.3.tar.gz tmp/UpyTest-3.0.5.tar.gz --markdown 20230501/U/UpyTest/3.0.3-3.0.5/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [torch-scaler]: Downloading https://files.pythonhosted.org/packages/09/60/59389952acc2974afe2ea3f2ac56ec08894c49a49a967d7c3708d5a6adbd/torch-scaler-0.0.2.tar.gz
+[2023-05-01 02:16:35] INFO root fetch - processPackages [pyload-ng]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [pyload-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyload-ng-0.5.0b3.dev66.tar.gz tmp/pyload-ng-0.5.0b3.dev67.tar.gz --markdown 20230501/p/pyload-ng/0.5.0b3.dev66-0.5.0b3.dev67/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [torch-scaler]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [torch-scaler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-scaler-0.0.1.tar.gz tmp/torch-scaler-0.0.2.tar.gz --markdown 20230501/t/torch-scaler/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 02:16:35] INFO root fetch - processPackages [suap-scraper]: executing diffoscope
+[2023-05-01 02:16:35] INFO root fetch - processPackages [suap-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suap_scraper-0.0.5.tar.gz tmp/suap_scraper-0.0.6.tar.gz --markdown 20230501/s/suap-scraper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 02:16:36] WARNING root fetch - processPackages [cdklabs.codepipeline-extensions]: Skipping package: exceeds size limit 12637726>=10485760
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdklabs.codepipeline-extensions]: Start processing: cdktf-gitlab-runner
+[2023-05-01 02:16:36] INFO root fetch - main [MainThread]: End processing [cdklabs.codepipeline-extensions] error
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20230501/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-stacksets
+[2023-05-01 02:16:36] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-stacksets]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-events-notify]: Start processing: cdk-skylight
+[2023-05-01 02:16:36] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20230501/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-05-01 02:16:36] INFO root fetch - processPackages [torch-scaler]: Start processing: tencentcloud-sdk-python
+[2023-05-01 02:16:36] INFO root fetch - main [MainThread]: End processing [torch-scaler]: success
+[2023-05-01 02:16:36] INFO root fetch - processPackages [cdk-stacksets]: Downloading https://files.pythonhosted.org/packages/a8/4e/2082f114acbb300aad97bebe1418cfca35780944d62f3cd4e1b64e2b388f/cdk-stacksets-0.0.91.tar.gz
+[2023-05-01 02:16:36] INFO root fetch - processPackages [mitm]: Start processing: pytorch-ignite
+[2023-05-01 02:16:36] INFO root fetch - main [MainThread]: End processing [mitm]: success
+[2023-05-01 02:16:37] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.5.0.dev20230430] Old Version: [0.5.0.dev20230429]
+[2023-05-01 02:16:37] INFO root fetch - main [MainThread]: End processing [kmaps]: success
+[2023-05-01 02:16:37] INFO root fetch - processPackages [cdk-stacksets]: executing diffoscope
+[2023-05-01 02:16:37] INFO root fetch - processPackages [cdk-stacksets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-stacksets-0.0.90.tar.gz tmp/cdk-stacksets-0.0.91.tar.gz --markdown 20230501/c/cdk-stacksets/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-05-01 02:16:37] INFO root fetch - main [MainThread]: End processing [suap-scraper]: success
+[2023-05-01 02:16:37] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2023-05-01 02:16:37] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.dev20230429.tar.gz tmp/pytorch-ignite-0.5.0.dev20230430.tar.gz --markdown 20230501/p/pytorch-ignite/0.5.0.dev20230429-0.5.0.dev20230430/diff.md --exclude *.pyd
+[2023-05-01 02:16:37] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-01 02:16:37] INFO root fetch - main [MainThread]: End processing [UpyTest]: success
+[2023-05-01 02:16:37] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2023-05-01 02:16:37] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-05-01 02:16:37] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230501/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-01 02:16:38] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2023-05-01 02:16:38] INFO root fetch - main [MainThread]: End processing [cdk-stacksets]: success
+[2023-05-01 02:16:38] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2023-05-01 02:16:39] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-05-01 02:16:42] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-05-01 02:16:45] INFO root fetch - main [MainThread]: End processing [pyload-ng]: success
+[2023-05-01 02:16:45] INFO root fetch - main [MainThread]: Store serial: [17921014]
