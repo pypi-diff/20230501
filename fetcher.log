@@ -7326,3 +7326,51 @@
 [2023-05-01 12:32:13] INFO root fetch - processPackages [meter-digits-recognizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-digits-recognizer-0.1.8.tar.gz tmp/meter-digits-recognizer-0.1.9.tar.gz --markdown 20230501/m/meter-digits-recognizer/0.1.8-0.1.9/diff.md --exclude *.pyd
 [2023-05-01 12:32:22] INFO root fetch - main [MainThread]: End processing [meter-digits-recognizer]: success
 [2023-05-01 12:32:22] INFO root fetch - main [MainThread]: Store serial: [17924838]
+[2023-05-01 12:37:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924838]
+[2023-05-01 12:37:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzconf
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psremoter
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance-postprocess
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hitchpylibrarytoolkit
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automatic-meter-reader
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GPTAgent
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-naftali-library-love
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybiginteger
+[2023-05-01 12:37:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pybiginteger-stubs
+[2023-05-01 12:37:31] WARNING root fetch - processPackages [pyzconf]: Skipping, unable to determine old version
+[2023-05-01 12:37:31] WARNING root fetch - processPackages [psremoter]: Skipping, unable to determine old version
+[2023-05-01 12:37:31] INFO root fetch - main [MainThread]: End processing [pyzconf] error
+[2023-05-01 12:37:31] INFO root fetch - main [MainThread]: End processing [psremoter] error
+[2023-05-01 12:37:31] INFO root fetch - processPackages [GPTAgent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 12:37:31] INFO root fetch - processPackages [hitchpylibrarytoolkit]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-05-01 12:37:31] WARNING root fetch - processPackages [certora-cli-alpha-naftali-library-love]: Skipping, unable to determine old version
+[2023-05-01 12:37:31] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-library-love] error
+[2023-05-01 12:37:31] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-01 12:37:31] INFO root fetch - processPackages [automatic-meter-reader]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 12:37:31] INFO root fetch - processPackages [pybiginteger]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-05-01 12:37:31] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-05-01 12:37:31] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230501/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-01 12:37:31] INFO root fetch - processPackages [pybiginteger-stubs]: New version: [1.3.0] Old Version: [1.2.7]
+[2023-05-01 12:37:31] INFO root fetch - processPackages [automatic-meter-reader]: Downloading https://files.pythonhosted.org/packages/a5/32/930585560cea00afdaa55b0d43c68331dfe6e1197cfd38289d540ab9ff65/automatic-meter-reader-1.0.3.tar.gz
+[2023-05-01 12:37:31] INFO root fetch - processPackages [pybiginteger]: Downloading https://files.pythonhosted.org/packages/6c/1a/c2ccb1ffd1a16dd7a51f5b1b0ce2bdc1637a91202d0a7f3627d5506a657f/pybiginteger-1.2.7-cp39-cp39-win_amd64.whl
+[2023-05-01 12:37:31] INFO root fetch - processPackages [pybiginteger-stubs]: Downloading https://files.pythonhosted.org/packages/f6/32/c1d4e97f48f5d4a7d5ee7ae19aab6196bcac24a56520d73387a8412ccec9/pybiginteger_stubs-1.2.7-py3-none-any.whl
+[2023-05-01 12:37:31] INFO root fetch - processPackages [hitchpylibrarytoolkit]: executing diffoscope
+[2023-05-01 12:37:31] INFO root fetch - processPackages [hitchpylibrarytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitchpylibrarytoolkit-0.6.7.tar.gz tmp/hitchpylibrarytoolkit-0.6.9.tar.gz --markdown 20230501/h/hitchpylibrarytoolkit/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-05-01 12:37:31] INFO root fetch - processPackages [GPTAgent]: executing diffoscope
+[2023-05-01 12:37:31] INFO root fetch - processPackages [GPTAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptagent-0.0.8.tar.gz tmp/gptagent-0.0.9.tar.gz --markdown 20230501/G/GPTAgent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:37:31] INFO root fetch - processPackages [automatic-meter-reader]: Downloading https://files.pythonhosted.org/packages/26/40/f1d6d66540859be2308d4bd360035ee830167c538e78a338f460d0f20ab5/automatic-meter-reader-1.0.4.tar.gz
+[2023-05-01 12:37:31] INFO root fetch - processPackages [automatic-meter-reader]: executing diffoscope
+[2023-05-01 12:37:31] INFO root fetch - processPackages [automatic-meter-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatic-meter-reader-1.0.3.tar.gz tmp/automatic-meter-reader-1.0.4.tar.gz --markdown 20230501/a/automatic-meter-reader/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 12:37:31] INFO root fetch - processPackages [pybiginteger-stubs]: Downloading https://files.pythonhosted.org/packages/31/b4/6618cd9fab7b1ca7d703333c07e0eca3f7c68097664a8753015bad7dd287/pybiginteger_stubs-1.3.0-py3-none-any.whl
+[2023-05-01 12:37:31] INFO root fetch - processPackages [pybiginteger]: Downloading https://files.pythonhosted.org/packages/3d/ca/314f3a0197f6200445b6ead47b384f095f9e68fbd2bc8165bd27c06e65b2/pybiginteger-1.3.0-cp311-cp311-win_amd64.whl
+[2023-05-01 12:37:32] INFO root fetch - processPackages [pybiginteger-stubs]: executing diffoscope
+[2023-05-01 12:37:32] INFO root fetch - processPackages [pybiginteger-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiginteger_stubs-1.2.7-py3-none-any.whl.zip tmp/pybiginteger_stubs-1.3.0-py3-none-any.whl.zip --markdown 20230501/p/pybiginteger-stubs/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-05-01 12:37:32] INFO root fetch - processPackages [pybiginteger]: executing diffoscope
+[2023-05-01 12:37:32] INFO root fetch - processPackages [pybiginteger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiginteger-1.2.7-cp39-cp39-win_amd64.whl.zip tmp/pybiginteger-1.3.0-cp311-cp311-win_amd64.whl.zip --markdown 20230501/p/pybiginteger/1.2.7-1.3.0/diff.md --exclude *.pyd
+[2023-05-01 12:37:32] INFO root fetch - main [MainThread]: End processing [GPTAgent]: success
+[2023-05-01 12:37:32] INFO root fetch - main [MainThread]: End processing [hitchpylibrarytoolkit]: success
+[2023-05-01 12:37:32] INFO root fetch - main [MainThread]: End processing [automatic-meter-reader]: success
+[2023-05-01 12:37:33] INFO root fetch - main [MainThread]: End processing [pybiginteger-stubs]: success
+[2023-05-01 12:37:33] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-05-01 12:37:56] INFO root fetch - main [MainThread]: End processing [pybiginteger]: success
+[2023-05-01 12:37:56] INFO root fetch - main [MainThread]: Store serial: [17924878]
