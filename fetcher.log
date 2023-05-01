@@ -3819,3 +3819,25 @@
 [2023-05-01 04:50:45] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
 [2023-05-01 04:50:46] INFO root fetch - main [MainThread]: End processing [django-mcq]: success
 [2023-05-01 04:50:46] INFO root fetch - main [MainThread]: Store serial: [17922603]
+[2023-05-01 04:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922603]
+[2023-05-01 04:55:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CS333-Final-Project
+[2023-05-01 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-05-01 04:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fstflowchat
+[2023-05-01 04:55:54] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 04:55:54] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 04:55:54] INFO root fetch - processPackages [fstflowchat]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 04:55:55] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-05-01 04:55:55] INFO root fetch - processPackages [CS333-Final-Project]: Downloading https://files.pythonhosted.org/packages/b8/1d/62209ffa76c446bf95b35ae04a0be6567133fb7d0a37ddb66f11adc0610e/CS333-Final-Project-0.0.3.tar.gz
+[2023-05-01 04:55:55] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/e4/c1/c92b03dc21bec98126612eb601c296a396a56bbe4da51497ef89cddc8db4/fstflowchat-0.0.3.tar.gz
+[2023-05-01 04:55:55] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-05-01 04:55:55] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230501/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 04:55:55] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-01 04:55:55] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.2.tar.gz tmp/CS333-Final-Project-0.0.3.tar.gz --markdown 20230501/C/CS333-Final-Project/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 04:55:55] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/e3/43/5c2d4e104da95c79fe620732a0800ee6ef66d2a1e39cb597074bfbb9ea8a/fstflowchat-0.0.4.tar.gz
+[2023-05-01 04:55:55] INFO root fetch - processPackages [fstflowchat]: executing diffoscope
+[2023-05-01 04:55:55] INFO root fetch - processPackages [fstflowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstflowchat-0.0.3.tar.gz tmp/fstflowchat-0.0.4.tar.gz --markdown 20230501/f/fstflowchat/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 04:55:56] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-01 04:55:56] INFO root fetch - main [MainThread]: End processing [fstflowchat]: success
+[2023-05-01 04:55:56] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-05-01 04:55:56] INFO root fetch - main [MainThread]: Store serial: [17922612]
