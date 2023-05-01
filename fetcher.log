@@ -17691,3 +17691,185 @@ EOFError: EOF read where object expected
 [2023-05-01 22:19:48] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
 [2023-05-01 22:19:52] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-01 22:19:52] INFO root fetch - main [MainThread]: Store serial: [17931158]
+[2023-05-01 22:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931158]
+[2023-05-01 22:25:01] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrapyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-abakst-storage-analysis-static-arrays-again
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linuxp-plugin
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt4free
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bytez
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: augmenty
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pMTnet-Omni-Document
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: invenio-campusonline
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyracf
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-05-01 22:25:01] WARNING root fetch - processPackages [certora-cli-alpha-abakst-storage-analysis-static-arrays-again]: Skipping, unable to determine old version
+[2023-05-01 22:25:01] INFO root fetch - processPackages [certora-cli-alpha-abakst-storage-analysis-static-arrays-again]: Start processing: ultralytics
+[2023-05-01 22:25:01] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-abakst-storage-analysis-static-arrays-again] error
+[2023-05-01 22:25:01] INFO root fetch - processPackages [linuxp-plugin]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [gpt4free]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [invenio-campusonline]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [augmenty]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [scrapyd]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pMTnet-Omni-Document]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pyracf]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ultralytics]: New version: [8.0.91] Old Version: [8.0.90]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pMTnet-Omni-Document]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pMTnet-Omni-Document]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pMTnet_Omni_Document-0.0.8.tar.gz tmp/pMTnet_Omni_Document-0.0.9.tar.gz --markdown 20230501/p/pMTnet-Omni-Document/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-01 22:25:01] INFO root fetch - processPackages [gpt4free]: Downloading https://files.pythonhosted.org/packages/2c/11/118bd5205f0f239197f35d4b7c239a417604043a75c1efed1470c33edb6b/gpt4free-0.1.5.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [scrapyd]: Downloading https://files.pythonhosted.org/packages/ad/ac/02d8b9dafecd210563723cc15b860272680ba292681a562fc266c61151fe/scrapyd-1.4.1.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [linuxp-plugin]: Downloading https://files.pythonhosted.org/packages/5d/73/ee87de6879d71853237c94aef93bb0dca27af486d97983d5e27723d357a3/linuxp-plugin-1.0.2.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/5c/d5/6e726db01d011e00a6e89b3109fd514725fbc62af9c03d2814bf9eaa3743/pyracf-0.5.3.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230501/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [invenio-campusonline]: Downloading https://files.pythonhosted.org/packages/a1/aa/02c3d3d41e00f82f082e54aba773b1466ba9044d63a40bc0d0164e44a9eb/invenio-campusonline-0.1.1.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [augmenty]: Downloading https://files.pythonhosted.org/packages/f2/23/2cbdefda1ebbbb6836219d7364364428e004e015689c537d9766d9a2ee00/augmenty-1.3.5.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [gpt4free]: Downloading https://files.pythonhosted.org/packages/f7/0e/0c83d5c762421eba48b57667019aa5f33e3711d97e717290e3d52d82e666/gpt4free-1.0.0.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/36/67/5a2260b663bf41c65e9caa39154392ffdf280f0d4ba76d664b29fa7dc7fa/ultralytics-8.0.91.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [gpt4free]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [gpt4free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4free-0.1.5.tar.gz tmp/gpt4free-1.0.0.tar.gz --markdown 20230501/g/gpt4free/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [invenio-campusonline]: Downloading https://files.pythonhosted.org/packages/86/ee/96c6faf91c9fa1010ea96a5dab385d420449438ddc3e6531fe5e850ccb6c/invenio-campusonline-0.1.2.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [augmenty]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [augmenty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmenty-1.3.4.tar.gz tmp/augmenty-1.3.5.tar.gz --markdown 20230501/a/augmenty/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/e7/90/9673de7b338076b6f6cbacb59016563c2ed76719b38b1b292c35143fcbcc/pyracf-0.5.4.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [invenio-campusonline]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [invenio-campusonline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-campusonline-0.1.1.tar.gz tmp/invenio-campusonline-0.1.2.tar.gz --markdown 20230501/i/invenio-campusonline/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.90.tar.gz tmp/ultralytics-8.0.91.tar.gz --markdown 20230501/u/ultralytics/8.0.90-8.0.91/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [linuxp-plugin]: Downloading https://files.pythonhosted.org/packages/49/81/15f8d2b44c0972c3ce9ecc1ab4b94299fa331378fe9c582fefd7a425945a/linuxp-plugin-1.0.3.tar.gz
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pyracf]: executing diffoscope
+[2023-05-01 22:25:01] INFO root fetch - processPackages [pyracf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracf-0.5.3.tar.gz tmp/pyracf-0.5.4.tar.gz --markdown 20230501/p/pyracf/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-01 22:25:01] INFO root fetch - processPackages [scrapyd]: Downloading https://files.pythonhosted.org/packages/54/7b/8208b057e80ef51eb5c18c5483e4124103388bbf1cc958a16516b02ab21c/scrapyd-1.4.2.tar.gz
+[2023-05-01 22:25:02] INFO root fetch - processPackages [scrapyd]: executing diffoscope
+[2023-05-01 22:25:02] INFO root fetch - processPackages [scrapyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapyd-1.4.1.tar.gz tmp/scrapyd-1.4.2.tar.gz --markdown 20230501/s/scrapyd/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-01 22:25:02] INFO root fetch - processPackages [linuxp-plugin]: executing diffoscope
+[2023-05-01 22:25:02] INFO root fetch - processPackages [linuxp-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linuxp-plugin-1.0.2.tar.gz tmp/linuxp-plugin-1.0.3.tar.gz --markdown 20230501/l/linuxp-plugin/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 22:25:02] INFO root fetch - processPackages [bytez]: Start processing: viso-sdk-python
+[2023-05-01 22:25:02] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 22:25:02] INFO root fetch - processPackages [viso-sdk-python]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 22:25:02] INFO root fetch - processPackages [pMTnet-Omni-Document]: Start processing: datamol
+[2023-05-01 22:25:02] INFO root fetch - main [MainThread]: End processing [pMTnet-Omni-Document]: success
+[2023-05-01 22:25:02] INFO root fetch - processPackages [datamol]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-01 22:25:02] INFO root fetch - processPackages [viso-sdk-python]: Downloading https://files.pythonhosted.org/packages/78/eb/19559f73f79d4d9bfd76e689285430c7cea52aa5348584600bb17f286fd2/viso-sdk-python-0.0.5.tar.gz
+[2023-05-01 22:25:02] INFO root fetch - processPackages [spanishconjugator]: Start processing: amarps
+[2023-05-01 22:25:02] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-01 22:25:03] INFO root fetch - processPackages [datamol]: Downloading https://files.pythonhosted.org/packages/d6/49/11f2e02a4f5ea2927d9b332aa97db4521464198dbfefa70ef5379d4731f3/datamol-0.9.7.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [amarps]: New version: [0.19.0] Old Version: [0.18.0]
+[2023-05-01 22:25:03] INFO root fetch - processPackages [gpt4free]: Start processing: google-cloud-automlops
+[2023-05-01 22:25:03] INFO root fetch - main [MainThread]: End processing [gpt4free]: success
+[2023-05-01 22:25:03] INFO root fetch - processPackages [amarps]: Downloading https://files.pythonhosted.org/packages/ec/d6/32c8a70a23bb4e7946ff3602ddeba2f9425eb3fc550aabf2891f85883ba5/amarps-0.18.0.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [viso-sdk-python]: Downloading https://files.pythonhosted.org/packages/a8/33/192c039ad71a94fc8a95b96114376d936f309d6afc8b51143bac972ce30d/viso-sdk-python-0.0.6.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [google-cloud-automlops]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-01 22:25:03] INFO root fetch - processPackages [invenio-campusonline]: Start processing: spanishconjugator
+[2023-05-01 22:25:03] INFO root fetch - main [MainThread]: End processing [invenio-campusonline]: success
+[2023-05-01 22:25:03] INFO root fetch - processPackages [viso-sdk-python]: executing diffoscope
+[2023-05-01 22:25:03] INFO root fetch - processPackages [viso-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viso-sdk-python-0.0.5.tar.gz tmp/viso-sdk-python-0.0.6.tar.gz --markdown 20230501/v/viso-sdk-python/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 22:25:03] INFO root fetch - processPackages [amarps]: Downloading https://files.pythonhosted.org/packages/4d/36/f71b188dd5dcdfe3a6ec56391648252d1889959afb916eec7737d21d7060/amarps-0.19.0.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [google-cloud-automlops]: Downloading https://files.pythonhosted.org/packages/3b/8f/55c8c522c5cb3e1fb54401f2d45156eb003c1f33b35dc8d8a25853c1707c/google-cloud-automlops-1.0.5.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-01 22:25:03] INFO root fetch - processPackages [linuxp-plugin]: Start processing: git2net
+[2023-05-01 22:25:03] INFO root fetch - main [MainThread]: End processing [linuxp-plugin]: success
+[2023-05-01 22:25:03] INFO root fetch - processPackages [amarps]: executing diffoscope
+[2023-05-01 22:25:03] INFO root fetch - processPackages [amarps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amarps-0.18.0.tar.gz tmp/amarps-0.19.0.tar.gz --markdown 20230501/a/amarps/0.18.0-0.19.0/diff.md --exclude *.pyd
+[2023-05-01 22:25:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-01 22:25:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230501/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-01 22:25:03] INFO root fetch - processPackages [pyracf]: Start processing: bytez
+[2023-05-01 22:25:03] INFO root fetch - main [MainThread]: End processing [pyracf]: success
+[2023-05-01 22:25:03] INFO root fetch - processPackages [git2net]: New version: [1.7.0] Old Version: [1.6.3]
+[2023-05-01 22:25:03] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:25:03] INFO root fetch - processPackages [google-cloud-automlops]: Downloading https://files.pythonhosted.org/packages/9a/fa/9474594a8a544e399304f6d763e1b5dbc3478e61fb2f43c3f95ce60fb0fc/google-cloud-automlops-1.1.0.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 22:25:03] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:25:03] INFO root fetch - processPackages [scrapyd]: Start processing: text-fabric
+[2023-05-01 22:25:03] INFO root fetch - main [MainThread]: End processing [scrapyd]: success
+[2023-05-01 22:25:03] INFO root fetch - processPackages [git2net]: Downloading https://files.pythonhosted.org/packages/10/aa/da425a14ff65aa2e804445697dbdfc7b51f2a1478fe33b5e7d8a54051a5e/git2net-1.6.3.tar.gz
+[2023-05-01 22:25:03] INFO root fetch - processPackages [google-cloud-automlops]: executing diffoscope
+[2023-05-01 22:25:03] INFO root fetch - processPackages [google-cloud-automlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-automlops-1.0.5.tar.gz tmp/google-cloud-automlops-1.1.0.tar.gz --markdown 20230501/g/google-cloud-automlops/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 22:25:04] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.5.1]
+[2023-05-01 22:25:04] INFO root fetch - processPackages [git2net]: Downloading https://files.pythonhosted.org/packages/e4/ca/8a66150a8aa99abd683093a077d1321ec05f1198dfedf58ef3e92192cd24/git2net-1.7.0.tar.gz
+[2023-05-01 22:25:04] INFO root fetch - processPackages [ultralytics]: Start processing: rule-based-model
+[2023-05-01 22:25:04] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-01 22:25:04] INFO root fetch - processPackages [datamol]: Downloading https://files.pythonhosted.org/packages/59/b3/831830ab7991bd95ed22c7f61ee82c0eab6da7e47ec70237cb4ea95ed842/datamol-0.9.8.tar.gz
+[2023-05-01 22:25:04] INFO root fetch - processPackages [git2net]: executing diffoscope
+[2023-05-01 22:25:04] INFO root fetch - processPackages [git2net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git2net-1.6.3.tar.gz tmp/git2net-1.7.0.tar.gz --markdown 20230501/g/git2net/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2023-05-01 22:25:04] INFO root fetch - processPackages [rule-based-model]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 22:25:04] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-01 22:25:04] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.5.1-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230501/t/text-fabric/9.5.1-9.5.2/diff.md --exclude *.pyd
+[2023-05-01 22:25:04] INFO root fetch - processPackages [rule-based-model]: Downloading https://files.pythonhosted.org/packages/a7/05/9b0e7e430d9aec3205d0f5655c283d8f6bb6a8a309df02f80e6348aba1db/rule_based_model-0.0.3.tar.gz
+[2023-05-01 22:25:04] INFO root fetch - processPackages [rule-based-model]: executing diffoscope
+[2023-05-01 22:25:04] INFO root fetch - processPackages [rule-based-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rule_based_model-0.0.2.tar.gz tmp/rule_based_model-0.0.3.tar.gz --markdown 20230501/r/rule-based-model/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 22:25:05] INFO root fetch - processPackages [amarps]: Start processing: screenpen
+[2023-05-01 22:25:05] INFO root fetch - main [MainThread]: End processing [amarps]: success
+[2023-05-01 22:25:05] INFO root fetch - processPackages [bytez]: Start processing: visual-novel-toolkit
+[2023-05-01 22:25:05] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 22:25:05] INFO root fetch - processPackages [visual-novel-toolkit]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-01 22:25:05] INFO root fetch - processPackages [spanishconjugator]: Start processing: questdb-connect
+[2023-05-01 22:25:05] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-01 22:25:05] INFO root fetch - processPackages [screenpen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 22:25:05] INFO root fetch - processPackages [datamol]: executing diffoscope
+[2023-05-01 22:25:05] INFO root fetch - processPackages [datamol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamol-0.9.7.tar.gz tmp/datamol-0.9.8.tar.gz --markdown 20230501/d/datamol/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-01 22:25:05] INFO root fetch - processPackages [visual-novel-toolkit]: executing diffoscope
+[2023-05-01 22:25:05] INFO root fetch - processPackages [visual-novel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_novel_toolkit-1.8.3.tar.gz tmp/visual_novel_toolkit-1.9.0.tar.gz --markdown 20230501/v/visual-novel-toolkit/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-01 22:25:05] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-05-01 22:25:05] INFO root fetch - processPackages [google-cloud-automlops]: Start processing: gsearch-nyaa
+[2023-05-01 22:25:05] INFO root fetch - main [MainThread]: End processing [google-cloud-automlops]: success
+[2023-05-01 22:25:05] INFO root fetch - processPackages [screenpen]: Downloading https://files.pythonhosted.org/packages/fc/60/d95c8cb2ce04a7fc2e7805c4fbadb1aa95fd10402a806a61c0a30231a0f3/screenpen-0.1.8.tar.gz
+[2023-05-01 22:25:05] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/d1/ff/ca28f896b95daaa2c553c126ab6ef0a9bd2d6563a706ac60c5f222fe18b6/questdb-connect-0.0.25.tar.gz
+[2023-05-01 22:25:05] INFO root fetch - processPackages [gsearch-nyaa]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-01 22:25:05] INFO root fetch - processPackages [viso-sdk-python]: Start processing: chgksuite
+[2023-05-01 22:25:05] INFO root fetch - main [MainThread]: End processing [viso-sdk-python]: success
+[2023-05-01 22:25:05] INFO root fetch - processPackages [chgksuite]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-01 22:25:05] INFO root fetch - processPackages [gsearch-nyaa]: Downloading https://files.pythonhosted.org/packages/3a/1d/67c72486b9ac32e13321bd219d6b46768eb409b1d160b499f0f942a154de/gsearch-nyaa-0.1.tar.gz
+[2023-05-01 22:25:05] INFO root fetch - processPackages [chgksuite]: executing diffoscope
+[2023-05-01 22:25:05] INFO root fetch - processPackages [chgksuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chgksuite-0.9.0.tar.gz tmp/chgksuite-0.9.1.tar.gz --markdown 20230501/c/chgksuite/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-01 22:25:05] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/13/05/aa6e9d620d9bd5372289d01b67daaf9f32e43d16dc80f86c9c94b0ab0f18/questdb-connect-0.0.26.tar.gz
+[2023-05-01 22:25:06] INFO root fetch - processPackages [gsearch-nyaa]: Downloading https://files.pythonhosted.org/packages/a8/f3/93d59d9ff60c44ce16ac51a3bb170cfa632552459d69e512bdb28e785ca2/gsearch-nyaa-0.1.1.tar.gz
+[2023-05-01 22:25:06] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-01 22:25:06] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.25.tar.gz tmp/questdb-connect-0.0.26.tar.gz --markdown 20230501/q/questdb-connect/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-05-01 22:25:06] INFO root fetch - processPackages [gsearch-nyaa]: executing diffoscope
+[2023-05-01 22:25:06] INFO root fetch - processPackages [gsearch-nyaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsearch-nyaa-0.1.tar.gz tmp/gsearch-nyaa-0.1.1.tar.gz --markdown 20230501/g/gsearch-nyaa/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 22:25:06] INFO root fetch - processPackages [screenpen]: Downloading https://files.pythonhosted.org/packages/7e/57/39f331ef6b95ec7e7698d799be09bcd827d1aff0a89bf84ca237ed1e60d8/screenpen-0.1.9.tar.gz
+[2023-05-01 22:25:06] INFO root fetch - processPackages [rule-based-model]: Start processing: jsonformer
+[2023-05-01 22:25:06] INFO root fetch - main [MainThread]: End processing [rule-based-model]: success
+[2023-05-01 22:25:06] WARNING root fetch - processPackages [jsonformer]: Skipping, unable to determine old version
+[2023-05-01 22:25:06] INFO root fetch - processPackages [jsonformer]: Start processing: aws-analytics-reference-architecture
+[2023-05-01 22:25:06] INFO root fetch - main [MainThread]: End processing [jsonformer] error
+[2023-05-01 22:25:06] INFO root fetch - processPackages [screenpen]: executing diffoscope
+[2023-05-01 22:25:06] INFO root fetch - processPackages [screenpen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screenpen-0.1.8.tar.gz tmp/screenpen-0.1.9.tar.gz --markdown 20230501/s/screenpen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 22:25:06] INFO root fetch - processPackages [git2net]: Start processing: deface
+[2023-05-01 22:25:06] INFO root fetch - main [MainThread]: End processing [git2net]: success
+[2023-05-01 22:25:06] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-01 22:25:06] INFO root fetch - processPackages [deface]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-01 22:25:06] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-05-01 22:25:06] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-05-01 22:25:06] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Start processing: gsearch-nyaa
+[2023-05-01 22:25:06] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-05-01 22:25:06] INFO root fetch - processPackages [gsearch-nyaa]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-01 22:25:06] INFO root fetch - processPackages [visual-novel-toolkit]: Start processing: ghananews-scraper
+[2023-05-01 22:25:06] INFO root fetch - main [MainThread]: End processing [visual-novel-toolkit]: success
+[2023-05-01 22:25:06] INFO root fetch - processPackages [deface]: Downloading https://files.pythonhosted.org/packages/c5/6f/87f3af4a87f3ddf3205f716d7cc13ab3ae8b4182e941a92d85b995f12332/deface-1.2.0.tar.gz
+[2023-05-01 22:25:06] INFO root fetch - processPackages [gsearch-nyaa]: executing diffoscope
+[2023-05-01 22:25:06] INFO root fetch - processPackages [gsearch-nyaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsearch-nyaa-0.1.tar.gz tmp/gsearch-nyaa-0.1.1.tar.gz --markdown 20230501/g/gsearch-nyaa/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 22:25:06] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-01 22:25:06] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/97/0e/c4248f2233c7e2823088e371149b2113a1630e5c0f88cba7f7b39148216b/ghananews-scraper-1.0.5.tar.gz
+[2023-05-01 22:25:07] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/19/80/38f97de4d6638fd280ff52296c5ff1c2742cb49fd97a3bc1bcc59794e976/ghananews-scraper-1.0.6.tar.gz
+[2023-05-01 22:25:07] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-05-01 22:25:07] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.5.tar.gz tmp/ghananews-scraper-1.0.6.tar.gz --markdown 20230501/g/ghananews-scraper/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-01 22:25:07] INFO root fetch - main [MainThread]: End processing [augmenty]: success
+[2023-05-01 22:25:07] INFO root fetch - main [MainThread]: End processing [gsearch-nyaa]: success
+[2023-05-01 22:25:07] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-01 22:25:07] INFO root fetch - main [MainThread]: End processing [screenpen]: success
+[2023-05-01 22:25:07] INFO root fetch - processPackages [deface]: Downloading https://files.pythonhosted.org/packages/21/db/ef172cec2a088544e5021961e0380ec9ccf111d028c5fbbdb72b83bc2b30/deface-1.3.0.tar.gz
+[2023-05-01 22:25:07] INFO root fetch - main [MainThread]: End processing [gsearch-nyaa]: success
+[2023-05-01 22:25:07] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-01 22:25:07] INFO root fetch - processPackages [deface]: executing diffoscope
+[2023-05-01 22:25:07] INFO root fetch - processPackages [deface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deface-1.2.0.tar.gz tmp/deface-1.3.0.tar.gz --markdown 20230501/d/deface/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-01 22:25:08] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-05-01 22:25:08] INFO root fetch - main [MainThread]: End processing [chgksuite]: success
+[2023-05-01 22:25:09] INFO root fetch - main [MainThread]: End processing [deface]: success
+[2023-05-01 22:25:10] INFO root fetch - main [MainThread]: End processing [datamol]: success
+[2023-05-01 22:25:10] INFO root fetch - main [MainThread]: Store serial: [17931251]
