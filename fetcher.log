@@ -13222,3 +13222,82 @@ EOFError: EOF read where object expected
 [2023-05-01 17:17:19] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
 [2023-05-01 17:17:19] INFO root fetch - main [MainThread]: End processing [types-SQLAlchemy]: success
 [2023-05-01 17:17:19] INFO root fetch - main [MainThread]: Store serial: [17928100]
+[2023-05-01 17:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928100]
+[2023-05-01 17:22:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funcx
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcx-endpoint
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wekalib
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OWR
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nadia-proof
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bark
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hordelib
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: state-space-generator
+[2023-05-01 17:22:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-assaf-UFAttribute2Enum
+[2023-05-01 17:22:28] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-01 17:22:28] INFO root fetch - processPackages [OWR]: New version: [0.6] Old Version: [0.5]
+[2023-05-01 17:22:28] WARNING root fetch - processPackages [state-space-generator]: Skipping, unable to determine old version
+[2023-05-01 17:22:28] INFO root fetch - processPackages [state-space-generator]: Start processing: neopolitan
+[2023-05-01 17:22:28] INFO root fetch - main [MainThread]: End processing [state-space-generator] error
+[2023-05-01 17:22:28] INFO root fetch - processPackages [neopolitan]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-01 17:22:28] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-01 17:22:28] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230501/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-01 17:22:28] INFO root fetch - processPackages [wekalib]: New version: [1.4.3] Old Version: [1.4.0]
+[2023-05-01 17:22:28] INFO root fetch - processPackages [funcx]: New version: [2.0.2a0] Old Version: [2.0.1a4]
+[2023-05-01 17:22:28] INFO root fetch - processPackages [funcx-endpoint]: New version: [2.0.2a0] Old Version: [2.0.1a4]
+[2023-05-01 17:22:28] INFO root fetch - processPackages [nadia-proof]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-01 17:22:28] WARNING root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Skipping, unable to determine old version
+[2023-05-01 17:22:28] INFO root fetch - processPackages [certora-cli-alpha-assaf-UFAttribute2Enum]: Start processing: lskyup
+[2023-05-01 17:22:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-UFAttribute2Enum] error
+[2023-05-01 17:22:28] WARNING root fetch - processPackages [bark]: Skipping, unable to determine old version
+[2023-05-01 17:22:28] INFO root fetch - processPackages [bark]: Start processing: gtrpy
+[2023-05-01 17:22:28] INFO root fetch - main [MainThread]: End processing [bark] error
+[2023-05-01 17:22:28] INFO root fetch - processPackages [lskyup]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 17:22:28] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-01 17:22:29] INFO root fetch - processPackages [gtrpy]: New version: [1.8] Old Version: [1.7]
+[2023-05-01 17:22:29] INFO root fetch - processPackages [neopolitan]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [neopolitan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neopolitan-0.0.2.tar.gz tmp/neopolitan-0.1.0.tar.gz --markdown 20230501/n/neopolitan/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/95/83/b35a3709934709c2f1972e0da45f34dcefb2cb45ebde682cd9c1c4091e84/funcx-2.0.1a4.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [wekalib]: Downloading https://files.pythonhosted.org/packages/78/29/0eac4777ed11602160c1c9e2205beeb6d45206a1319402634c0867f207b8/wekalib-1.4.0.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [nadia-proof]: Downloading https://files.pythonhosted.org/packages/ed/58/0f993eb45b72f890b43f6121426c593bd97aa6198ecae623547d895e6596/nadia-proof-0.1.5.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [OWR]: Downloading https://files.pythonhosted.org/packages/cd/aa/e709995813e09c9bb723ed12c82e439dbbe600c22dcf109b1beb8eb97356/OWR-0.6.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/dc/2a/03f2b5043e6d260839bcf5e7457d449253a9527c7712e31ff86159f4892e/funcx-endpoint-2.0.1a4.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [gtrpy]: Downloading https://files.pythonhosted.org/packages/f7/84/7c42108eae36edb12a55f797f1476ebcab8dacbda3d4175aabc98bf001ba/gtrpy-1.7.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [OWR]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [OWR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OWR-0.5.tar.gz tmp/OWR-0.6.tar.gz --markdown 20230501/O/OWR/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] ERROR root fetch - processPackages [lskyup]: Unable to fetch info: No such project/version 'lskyup' 0.1.2
+[2023-05-01 17:22:29] INFO root fetch - processPackages [lskyup]: Start processing: forcefield-step
+[2023-05-01 17:22:29] INFO root fetch - main [MainThread]: End processing [lskyup] error
+[2023-05-01 17:22:29] INFO root fetch - processPackages [wekalib]: Downloading https://files.pythonhosted.org/packages/95/df/28ee6ae452cc8410242657b4079c7be6afff9c40238dc4f62f3c3b49c21f/wekalib-1.4.3-py3-none-any.whl
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx]: Downloading https://files.pythonhosted.org/packages/c1/8c/68cb33fcf71ae65ef61d651537f738017f9c6781bfb8efdf1c62e71602b2/funcx-2.0.2a0.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230501/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [nadia-proof]: Downloading https://files.pythonhosted.org/packages/eb/03/609daaf840d74a292b44735b3beeef65213757c191ead48d25546a1b790d/nadia-proof-0.1.6.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [wekalib]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [wekalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wekalib-1.4.0.tar.gz tmp/wekalib-1.4.3-py3-none-any.whl.zip --markdown 20230501/w/wekalib/1.4.0-1.4.3/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [forcefield-step]: New version: [2023.5.1] Old Version: [2023.4.6]
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-2.0.1a4.tar.gz tmp/funcx-2.0.2a0.tar.gz --markdown 20230501/f/funcx/2.0.1a4-2.0.2a0/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx-endpoint]: Downloading https://files.pythonhosted.org/packages/a3/aa/49ebd068a921d5f3f141a344981d526b6d2df17291238f1575ab251da68c/funcx-endpoint-2.0.2a0.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [nadia-proof]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [nadia-proof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadia-proof-0.1.5.tar.gz tmp/nadia-proof-0.1.6.tar.gz --markdown 20230501/n/nadia-proof/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx-endpoint]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [funcx-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcx-endpoint-2.0.1a4.tar.gz tmp/funcx-endpoint-2.0.2a0.tar.gz --markdown 20230501/f/funcx-endpoint/2.0.1a4-2.0.2a0/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [gtrpy]: Downloading https://files.pythonhosted.org/packages/01/c0/04cfcd8d61605d780461ba856c3203258ce7027adf8b6b2d5175ad4ab28d/gtrpy-1.8.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [forcefield-step]: Downloading https://files.pythonhosted.org/packages/1d/2b/aaf2e5f31e7a5e8176ae12e7af8b3568780f978e02cd02d9ef92d5f134eb/forcefield_step-2023.4.6.tar.gz
+[2023-05-01 17:22:29] INFO root fetch - processPackages [gtrpy]: executing diffoscope
+[2023-05-01 17:22:29] INFO root fetch - processPackages [gtrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtrpy-1.7.tar.gz tmp/gtrpy-1.8.tar.gz --markdown 20230501/g/gtrpy/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-01 17:22:29] INFO root fetch - processPackages [forcefield-step]: Downloading https://files.pythonhosted.org/packages/00/08/eb15a7596a462d368a8411bb1ca4d507efae9b8d86b67e555322e35ba03d/forcefield_step-2023.5.1.tar.gz
+[2023-05-01 17:22:30] INFO root fetch - processPackages [forcefield-step]: executing diffoscope
+[2023-05-01 17:22:30] INFO root fetch - processPackages [forcefield-step]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forcefield_step-2023.4.6.tar.gz tmp/forcefield_step-2023.5.1.tar.gz --markdown 20230501/f/forcefield-step/2023.4.6-2023.5.1/diff.md --exclude *.pyd
+[2023-05-01 17:22:30] INFO root fetch - main [MainThread]: End processing [OWR]: success
+[2023-05-01 17:22:30] INFO root fetch - main [MainThread]: End processing [neopolitan]: success
+[2023-05-01 17:22:31] INFO root fetch - main [MainThread]: End processing [funcx-endpoint]: success
+[2023-05-01 17:22:31] INFO root fetch - main [MainThread]: End processing [funcx]: success
+[2023-05-01 17:22:31] INFO root fetch - main [MainThread]: End processing [nadia-proof]: success
+[2023-05-01 17:22:31] INFO root fetch - main [MainThread]: End processing [wekalib]: success
+[2023-05-01 17:22:31] INFO root fetch - main [MainThread]: End processing [gtrpy]: success
+[2023-05-01 17:22:32] INFO root fetch - main [MainThread]: End processing [forcefield-step]: success
+[2023-05-01 17:22:37] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-01 17:22:37] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-01 17:22:37] INFO root fetch - main [MainThread]: Store serial: [17928146]
