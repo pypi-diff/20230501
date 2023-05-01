@@ -7374,3 +7374,66 @@
 [2023-05-01 12:37:33] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
 [2023-05-01 12:37:56] INFO root fetch - main [MainThread]: End processing [pybiginteger]: success
 [2023-05-01 12:37:56] INFO root fetch - main [MainThread]: Store serial: [17924878]
+[2023-05-01 12:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924878]
+[2023-05-01 12:43:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexo-inpainting
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-thomas-tac-type-checker
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automatic-meter-reader
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcsi
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vicops-api-py
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythoncolorv4
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmpy
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vicops-api
+[2023-05-01 12:43:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lbt-honeybee
+[2023-05-01 12:43:05] INFO root fetch - processPackages [hexo-inpainting]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 12:43:05] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: New version: [20230501.10.38.920152] Old Version: [20230430.18.41.951558]
+[2023-05-01 12:43:05] INFO root fetch - processPackages [bmpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vcsi]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vicops-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 12:43:05] ERROR root fetch - processPackages [vicops-api-py]: Unable to get metadata: No such project 'vicops-api-py'
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vicops-api-py]: Start processing: pyqrack
+[2023-05-01 12:43:05] INFO root fetch - processPackages [automatic-meter-reader]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-01 12:43:05] INFO root fetch - main [MainThread]: End processing [vicops-api-py] error
+[2023-05-01 12:43:05] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: New version: [20230501.10.38.659906] Old Version: [20230430.18.40.419597]
+[2023-05-01 12:43:05] WARNING root fetch - processPackages [pythoncolorv4]: Skipping, unable to determine old version
+[2023-05-01 12:43:05] INFO root fetch - main [MainThread]: End processing [pythoncolorv4] error
+[2023-05-01 12:43:05] INFO root fetch - processPackages [pyqrack]: New version: [1.7.0] Old Version: [1.6.4]
+[2023-05-01 12:43:05] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-01 12:43:05] INFO root fetch - processPackages [hexo-inpainting]: Downloading https://files.pythonhosted.org/packages/20/2a/123d81b852633b2d368b0dbf341f48cac7da2fabe63529ad3461d0de764e/hexo_inpainting-1.0.2.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.6.4.tar.gz tmp/pyqrack-1.7.0.tar.gz --markdown 20230501/p/pyqrack/1.6.4-1.7.0/diff.md --exclude *.pyd
+[2023-05-01 12:43:05] INFO root fetch - processPackages [automatic-meter-reader]: Downloading https://files.pythonhosted.org/packages/6c/70/40b247e7e3c23e65ce9884459e94ef8baf51f6248f51b5a8f5db94c1c8cb/automatic-meter-reader-1.0.5.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [bmpy]: Downloading https://files.pythonhosted.org/packages/c3/7d/81f82603f7a23fd3c20af9d83c3b5cad1dc5a545275b5478a509133feeeb/bmpy-0.0.1.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vcsi]: Downloading https://files.pythonhosted.org/packages/65/ca/60c98cd78a65022cfe932dea51989cfcd2a088d0c24d467483738a514ce7/vcsi-7.0.8.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Downloading https://files.pythonhosted.org/packages/86/e6/fdb7499c544342e29396a5f9bcebcb0d6f63ea6e1b12b44976fd97ed3931/certora-cli-alpha-thomas-tac-type-checker-20230430.18.41.951558.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vicops-api]: Downloading https://files.pythonhosted.org/packages/c1/96/760c4fac29d62a5aaa0c44a5e8a12abd31d192baf23c25df24287a649c3f/vicops_api-1.1.0.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Downloading https://files.pythonhosted.org/packages/59/fb/300d35e85fe599cbd4363ae3228e4829eda4733129b723e4415faf99d914/certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors-20230430.18.40.419597.tar.gz
+[2023-05-01 12:43:05] WARNING root fetch - processPackages [certora-cli-alpha-thomas-tac-type-checker]: Skipping package: exceeds size limit 38297366>=10485760
+[2023-05-01 12:43:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-tac-type-checker] error
+[2023-05-01 12:43:05] INFO root fetch - processPackages [automatic-meter-reader]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [automatic-meter-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatic-meter-reader-1.0.4.tar.gz tmp/automatic-meter-reader-1.0.5.tar.gz --markdown 20230501/a/automatic-meter-reader/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-01 12:43:05] WARNING root fetch - processPackages [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors]: Skipping package: exceeds size limit 38298188>=10485760
+[2023-05-01 12:43:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-bgreenwald-vyper-slot-typedescriptors] error
+[2023-05-01 12:43:05] INFO root fetch - processPackages [hexo-inpainting]: Downloading https://files.pythonhosted.org/packages/38/f3/094e36c509b87e4905c204ac52a83d098af9f8085d8376b029e253426bc0/hexo_inpainting-1.0.3.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [bmpy]: Downloading https://files.pythonhosted.org/packages/eb/4f/5dc6bb641e1f6a1d71657e10e0daad4bc86e8140e3a4544101e8112b31b3/bmpy-0.0.2.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [hexo-inpainting]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [hexo-inpainting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexo_inpainting-1.0.2.tar.gz tmp/hexo_inpainting-1.0.3.tar.gz --markdown 20230501/h/hexo-inpainting/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vicops-api]: Downloading https://files.pythonhosted.org/packages/07/60/a1818ea32b8e50aa339d9002f59665ca26e61ca773a26b887a3caed34384/vicops_api-1.1.1.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230501/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-01 12:43:05] INFO root fetch - processPackages [bmpy]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [bmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmpy-0.0.1.tar.gz tmp/bmpy-0.0.2.tar.gz --markdown 20230501/b/bmpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vcsi]: Downloading https://files.pythonhosted.org/packages/8e/32/45d926ec7b104d5e87cec4df98b6468461a253378cd52d650665f26a43a6/vcsi-7.0.9.tar.gz
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vicops-api]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vicops-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vicops_api-1.1.0.tar.gz tmp/vicops_api-1.1.1.tar.gz --markdown 20230501/v/vicops-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vcsi]: executing diffoscope
+[2023-05-01 12:43:05] INFO root fetch - processPackages [vcsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsi-7.0.8.tar.gz tmp/vcsi-7.0.9.tar.gz --markdown 20230501/v/vcsi/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [automatic-meter-reader]: success
+[2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
+[2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [vicops-api]: success
+[2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-05-01 12:43:06] INFO root fetch - main [MainThread]: End processing [bmpy]: success
+[2023-05-01 12:43:07] INFO root fetch - main [MainThread]: End processing [vcsi]: success
+[2023-05-01 12:43:07] INFO root fetch - main [MainThread]: Store serial: [17924915]
