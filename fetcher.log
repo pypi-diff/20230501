@@ -5894,3 +5894,31 @@
 [2023-05-01 10:12:29] INFO root fetch - main [MainThread]: End processing [pddl-plus-parser]: success
 [2023-05-01 10:12:31] INFO root fetch - main [MainThread]: End processing [panda-client]: success
 [2023-05-01 10:12:31] INFO root fetch - main [MainThread]: Store serial: [17923927]
+[2023-05-01 10:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923927]
+[2023-05-01 10:17:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 10:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bel-digital-handwriting-py
+[2023-05-01 10:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-roy-CERT-1891-allocId-c
+[2023-05-01 10:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhip-interface
+[2023-05-01 10:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SchedulerX
+[2023-05-01 10:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firex-flame-ui
+[2023-05-01 10:17:39] INFO root fetch - processPackages [bel-digital-handwriting-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 10:17:40] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1891-allocId-c]: Skipping, unable to determine old version
+[2023-05-01 10:17:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1891-allocId-c] error
+[2023-05-01 10:17:40] INFO root fetch - processPackages [SchedulerX]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-01 10:17:40] INFO root fetch - processPackages [firex-flame-ui]: New version: [0.5] Old Version: [0.4]
+[2023-05-01 10:17:40] WARNING root fetch - processPackages [pyhip-interface]: Skipping, unable to determine old version
+[2023-05-01 10:17:40] INFO root fetch - main [MainThread]: End processing [pyhip-interface] error
+[2023-05-01 10:17:40] INFO root fetch - processPackages [SchedulerX]: executing diffoscope
+[2023-05-01 10:17:40] INFO root fetch - processPackages [SchedulerX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SchedulerX-0.0.3.tar.gz tmp/SchedulerX-1.0.0.tar.gz --markdown 20230501/S/SchedulerX/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 10:17:40] INFO root fetch - processPackages [bel-digital-handwriting-py]: Downloading https://files.pythonhosted.org/packages/32/70/528d0a32f166eb6c8a5d3b0171d89c62fa957832ed6b5790383b70b3ba8e/bel-digital-handwriting-py-0.0.1.tar.gz
+[2023-05-01 10:17:40] INFO root fetch - processPackages [firex-flame-ui]: Downloading https://files.pythonhosted.org/packages/16/35/e5827a063bd5bc86bcfb1203dcfe119f3d65f5bbd5a6242765b475767f0f/firex_flame_ui-0.4.tar.gz
+[2023-05-01 10:17:40] INFO root fetch - processPackages [bel-digital-handwriting-py]: Downloading https://files.pythonhosted.org/packages/10/32/84c2b776500a3a53a0bfcea48cd9aa3117ed1d761fb62d8800030ef2090e/bel-digital-handwriting-py-0.0.2.tar.gz
+[2023-05-01 10:17:40] INFO root fetch - processPackages [bel-digital-handwriting-py]: executing diffoscope
+[2023-05-01 10:17:40] INFO root fetch - processPackages [bel-digital-handwriting-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bel-digital-handwriting-py-0.0.1.tar.gz tmp/bel-digital-handwriting-py-0.0.2.tar.gz --markdown 20230501/b/bel-digital-handwriting-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 10:17:40] INFO root fetch - processPackages [firex-flame-ui]: Downloading https://files.pythonhosted.org/packages/df/b9/4a36f6c021003eb03a13e164b40b96cd12546c19265317674e26e3f26452/firex_flame_ui-0.5.tar.gz
+[2023-05-01 10:17:40] INFO root fetch - processPackages [firex-flame-ui]: executing diffoscope
+[2023-05-01 10:17:40] INFO root fetch - processPackages [firex-flame-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firex_flame_ui-0.4.tar.gz tmp/firex_flame_ui-0.5.tar.gz --markdown 20230501/f/firex-flame-ui/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-01 10:17:41] INFO root fetch - main [MainThread]: End processing [SchedulerX]: success
+[2023-05-01 10:17:41] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py]: success
+[2023-05-01 10:17:48] INFO root fetch - main [MainThread]: End processing [firex-flame-ui]: success
+[2023-05-01 10:17:48] INFO root fetch - main [MainThread]: Store serial: [17923945]
