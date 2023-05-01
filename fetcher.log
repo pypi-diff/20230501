@@ -4467,3 +4467,23 @@
 [2023-05-01 06:48:33] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
 [2023-05-01 06:48:54] INFO root fetch - main [MainThread]: End processing [age3d]: success
 [2023-05-01 06:48:54] INFO root fetch - main [MainThread]: Store serial: [17922998]
+[2023-05-01 06:53:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922998]
+[2023-05-01 06:54:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 06:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MKN-third-codes
+[2023-05-01 06:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: package-translate-paper-title
+[2023-05-01 06:54:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MKN-third-codes
+[2023-05-01 06:54:03] WARNING root fetch - processPackages [package-translate-paper-title]: Skipping, unable to determine old version
+[2023-05-01 06:54:03] INFO root fetch - main [MainThread]: End processing [package-translate-paper-title] error
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.4] Old Version: [0.4.3.1]
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.4] Old Version: [0.4.3.1]
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/ec/72/12f0988509fdaba9aeec6391abd4bd552a558c35871268530a16aebe417e/MKN_third_codes-0.4.3.1.tar.gz
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/ec/72/12f0988509fdaba9aeec6391abd4bd552a558c35871268530a16aebe417e/MKN_third_codes-0.4.3.1.tar.gz
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/4c/c1/0eff092407879a779391470c532117284b7047f728d7db84300a76cb831f/MKN_third_codes-0.4.4.tar.gz
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/4c/c1/0eff092407879a779391470c532117284b7047f728d7db84300a76cb831f/MKN_third_codes-0.4.4.tar.gz
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.4.3.1.tar.gz tmp/MKN_third_codes-0.4.4.tar.gz --markdown 20230501/M/MKN-third-codes/0.4.3.1-0.4.4/diff.md --exclude *.pyd
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 06:54:03] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.4.3.1.tar.gz tmp/MKN_third_codes-0.4.4.tar.gz --markdown 20230501/M/MKN-third-codes/0.4.3.1-0.4.4/diff.md --exclude *.pyd
+[2023-05-01 06:54:04] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 06:54:04] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 06:54:04] INFO root fetch - main [MainThread]: Store serial: [17923010]
