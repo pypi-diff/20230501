@@ -6117,3 +6117,85 @@
 [2023-05-01 10:39:06] INFO root fetch - main [MainThread]: End processing [palmers-preprocess]: success
 [2023-05-01 10:39:08] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py]: success
 [2023-05-01 10:39:08] INFO root fetch - main [MainThread]: Store serial: [17924035]
+[2023-05-01 10:44:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924035]
+[2023-05-01 10:44:16] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: je-editor
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: je-editor-dev
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polar-api
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gbd-tools
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecidacli
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tff-nightly
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hordelib
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eeg-eyetracking-parser
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mtmtool
+[2023-05-01 10:44:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always
+[2023-05-01 10:44:17] INFO root fetch - processPackages [ecidacli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [mtmtool]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [polar-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 10:44:17] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always]: Skipping, unable to determine old version
+[2023-05-01 10:44:17] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always]: Start processing: parse-it
+[2023-05-01 10:44:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1897-parametric-instantiation-always] error
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [eeg-eyetracking-parser]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [hordelib]: New version: [0.9.5] Old Version: [0.9.2]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230430] Old Version: [0.0.1.dev20230429]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.2] Old Version: [4.5.1]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/f8/ea/060a33b0de6e47ead160ceae306127d13278ff608a2286acc53b5ddd8230/je_editor-0.0.83.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/bb/09/67be8a984eff0ee00f0acda8e5ccfbaa08381fef7bb809aa14beae73a406/je_editor_dev-0.0.83.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/6e/95/c8ac28a6c11c93c3be49c35a0c11317084d838fe77bd4a30b5f240afcd07/ecidacli-0.0.6.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [polar-api]: Downloading https://files.pythonhosted.org/packages/9b/cd/9624def8d6b2064add855af878c928d5b1324b1c058e9a2bb2b85bd9c49a/polar_api-1.0.2.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/77/2b/9054cd64a75fa89916164fb39edc8a09715603ca82c229c2ae8fe274c8fa/mtmtool-1.2.3.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/31/ca/4f2cf695cff1b56d1334bfe9524885fc3d00113d9e6a4a37ae3badb7ff46/tff_nightly-0.0.1.dev20230430-py2.py3-none-any.whl
+[2023-05-01 10:44:17] INFO root fetch - processPackages [eeg-eyetracking-parser]: Downloading https://files.pythonhosted.org/packages/20/c1/e30496da083324b9178cb7c8e3167678c3d9cdc1aec99ec74cb83520509f/eeg_eyetracking_parser-0.8.0.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [polar-api]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [polar-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polar_api-1.0.1.tar.gz tmp/polar_api-1.0.2.tar.gz --markdown 20230501/p/polar-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/cd/52/dbb13663fccbffb09d020cc56e8a7a1b551efa4c47759a518f758bba3f02/parse_it-3.7.0.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/c2/62/083652023d4ea5d3e19daa2ad8bffe54ea41c814f95fb09ca98d785df739/gbd_tools-4.5.2.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230429-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230430-py2.py3-none-any.whl.zip --markdown 20230501/t/tff-nightly/0.0.1.dev20230429-0.0.1.dev20230430/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [ecidacli]: Downloading https://files.pythonhosted.org/packages/86/c6/74bddf84a672792a6dd0f2eabd941f0fc9a307cc7eb67b38aa57ce0bc22c/ecidacli-0.0.7.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.83.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230501/j/je-editor-dev/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.83.tar.gz tmp/je_editor-0.0.9.tar.gz --markdown 20230501/j/je-editor/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.2.tar.gz tmp/hordelib-0.9.5.tar.gz --markdown 20230501/h/hordelib/0.9.2-0.9.5/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.1.tar.gz tmp/gbd_tools-4.5.2.tar.gz --markdown 20230501/g/gbd-tools/4.5.1-4.5.2/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [ecidacli]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [ecidacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecidacli-0.0.6.tar.gz tmp/ecidacli-0.0.7.tar.gz --markdown 20230501/e/ecidacli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/12/26/fcc997432c5ec72cd6e289c154aa8349aceaa5168d97d5c5d9d0077c0791/mtmtool-1.2.4.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [eeg-eyetracking-parser]: Downloading https://files.pythonhosted.org/packages/c1/33/ae10ae09a9292f3b7c210d45d63138bcd2a5f81c06432f47ca26a7739d81/eeg_eyetracking_parser-0.9.0.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.3.tar.gz tmp/mtmtool-1.2.4.tar.gz --markdown 20230501/m/mtmtool/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-01 10:44:17] INFO root fetch - processPackages [parse-it]: Downloading https://files.pythonhosted.org/packages/3b/d8/0a3f4a732fa677a35dbea4e9c72741f55e44859dc1c79bf5edfce61d95f0/parse_it-3.8.0.tar.gz
+[2023-05-01 10:44:17] INFO root fetch - processPackages [eeg-eyetracking-parser]: executing diffoscope
+[2023-05-01 10:44:17] INFO root fetch - processPackages [eeg-eyetracking-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eeg_eyetracking_parser-0.8.0.tar.gz tmp/eeg_eyetracking_parser-0.9.0.tar.gz --markdown 20230501/e/eeg-eyetracking-parser/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 10:44:18] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-01 10:44:18] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230501/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-01 10:44:19] INFO root fetch - processPackages [ecidacli]: Start processing: python-upbit-api
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [ecidacli]: success
+[2023-05-01 10:44:19] WARNING root fetch - processPackages [python-upbit-api]: Skipping, unable to determine old version
+[2023-05-01 10:44:19] INFO root fetch - processPackages [python-upbit-api]: Start processing: parse-it
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [python-upbit-api] error
+[2023-05-01 10:44:19] INFO root fetch - processPackages [parse-it]: New version: [3.8.0] Old Version: [3.7.0]
+[2023-05-01 10:44:19] INFO root fetch - processPackages [parse-it]: executing diffoscope
+[2023-05-01 10:44:19] INFO root fetch - processPackages [parse-it]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_it-3.7.0.tar.gz tmp/parse_it-3.8.0.tar.gz --markdown 20230501/p/parse-it/3.7.0-3.8.0/diff.md --exclude *.pyd
+[2023-05-01 10:44:19] INFO root fetch - processPackages [polar-api]: Start processing: zadu
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [polar-api]: success
+[2023-05-01 10:44:19] INFO root fetch - processPackages [zadu]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-05-01 10:44:19] INFO root fetch - processPackages [zadu]: executing diffoscope
+[2023-05-01 10:44:19] INFO root fetch - processPackages [zadu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zadu-0.0.6.tar.gz tmp/zadu-0.0.7.tar.gz --markdown 20230501/z/zadu/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-01 10:44:19] INFO root fetch - main [MainThread]: End processing [eeg-eyetracking-parser]: success
+[2023-05-01 10:44:20] INFO root fetch - main [MainThread]: End processing [parse-it]: success
+[2023-05-01 10:44:20] INFO root fetch - main [MainThread]: End processing [zadu]: success
+[2023-05-01 10:44:27] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-05-01 10:44:42] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-01 10:44:42] INFO root fetch - main [MainThread]: Store serial: [17924076]
