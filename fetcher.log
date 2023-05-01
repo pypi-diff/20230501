@@ -7259,3 +7259,39 @@
 [2023-05-01 12:21:47] INFO root fetch - main [MainThread]: End processing [bilireq]: success
 [2023-05-01 12:21:47] INFO root fetch - main [MainThread]: End processing [pykx]: success
 [2023-05-01 12:21:47] INFO root fetch - main [MainThread]: Store serial: [17924793]
+[2023-05-01 12:26:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924793]
+[2023-05-01 12:26:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 12:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aacommpy
+[2023-05-01 12:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-05-01 12:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veda-cli
+[2023-05-01 12:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PSRemoter
+[2023-05-01 12:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vMedNLP
+[2023-05-01 12:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paux
+[2023-05-01 12:26:58] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 12:26:58] INFO root fetch - processPackages [paux]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 12:26:58] INFO root fetch - processPackages [veda-cli]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 12:26:58] INFO root fetch - processPackages [vMedNLP]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-01 12:26:58] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-05-01 12:26:58] WARNING root fetch - processPackages [PSRemoter]: Skipping, unable to determine old version
+[2023-05-01 12:26:58] INFO root fetch - main [MainThread]: End processing [PSRemoter] error
+[2023-05-01 12:26:58] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-01 12:26:58] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230501/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-05-01 12:26:58] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-01 12:26:58] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230501/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 12:26:59] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/b3/ff/530e46a6e3b19e36fd7b669a24c7e0eebca35f0770b5cd3c62f10436c2a2/vMedNLP-2.0.0-py310-none-any.whl
+[2023-05-01 12:26:59] INFO root fetch - processPackages [paux]: Downloading https://files.pythonhosted.org/packages/01/5a/0a7278949d935c4b2aa6a9a8dd76644d2fd34f508914864825306237283e/paux-1.0.8.tar.gz
+[2023-05-01 12:26:59] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/0a/97/ca312a39e3f76e0c8fbd482ada58938cb85cdcf23b4a5021f45196879e51/veda_cli-0.0.7.tar.gz
+[2023-05-01 12:26:59] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-01 12:26:59] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.6.tar.gz tmp/veda_cli-0.0.7.tar.gz --markdown 20230501/v/veda-cli/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 12:26:59] INFO root fetch - processPackages [vMedNLP]: Downloading https://files.pythonhosted.org/packages/54/c8/0c30f082e4933c476e88719112894bebd7e57bca2bd90267ca6ea7b69713/vMedNLP-2.0.1-py310-none-any.whl
+[2023-05-01 12:26:59] INFO root fetch - processPackages [vMedNLP]: executing diffoscope
+[2023-05-01 12:26:59] INFO root fetch - processPackages [vMedNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vMedNLP-2.0.0-py310-none-any.whl.zip tmp/vMedNLP-2.0.1-py310-none-any.whl.zip --markdown 20230501/v/vMedNLP/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-01 12:26:59] INFO root fetch - processPackages [paux]: Downloading https://files.pythonhosted.org/packages/72/de/3f48581ee8ebd48919d024a6c2c5737a88cec7170ef7de5acab24a467587/paux-1.0.9.tar.gz
+[2023-05-01 12:26:59] INFO root fetch - processPackages [paux]: executing diffoscope
+[2023-05-01 12:26:59] INFO root fetch - processPackages [paux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paux-1.0.8.tar.gz tmp/paux-1.0.9.tar.gz --markdown 20230501/p/paux/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:27:00] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-01 12:27:00] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-01 12:27:00] INFO root fetch - main [MainThread]: End processing [vMedNLP]: success
+[2023-05-01 12:27:00] INFO root fetch - main [MainThread]: End processing [paux]: success
+[2023-05-01 12:27:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-01 12:27:02] INFO root fetch - main [MainThread]: Store serial: [17924816]
