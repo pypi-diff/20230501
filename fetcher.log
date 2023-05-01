@@ -10141,3 +10141,52 @@
 [2023-05-01 14:20:08] INFO root fetch - main [MainThread]: End processing [pymarc]: success
 [2023-05-01 14:20:09] INFO root fetch - main [MainThread]: End processing [blazetest-beta]: success
 [2023-05-01 14:20:09] INFO root fetch - main [MainThread]: Store serial: [17926306]
+[2023-05-01 14:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926306]
+[2023-05-01 14:25:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Simba-UW-tf-dev
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CatRoyale
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-eks-blueprint
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coinkite-tap-protocol
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CatRoyale
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medspellchecker
+[2023-05-01 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kmergenetyper
+[2023-05-01 14:25:18] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: New version: [20230501.11.30.698619] Old Version: [20230501.10.56.711782]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [cdk-eks-blueprint]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [CatRoyale]: New version: [1.9] Old Version: [1.8]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 14:25:18] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 14:25:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.58.2] Old Version: [1.58.1]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [medspellchecker]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [kmergenetyper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [coinkite-tap-protocol]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-01 14:25:18] INFO root fetch - processPackages [CatRoyale]: executing diffoscope
+[2023-05-01 14:25:18] INFO root fetch - processPackages [CatRoyale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CatRoyale-1.8.tar.gz tmp/CatRoyale-1.9.tar.gz --markdown 20230501/C/CatRoyale/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-01 14:25:18] INFO root fetch - processPackages [cdk-eks-blueprint]: executing diffoscope
+[2023-05-01 14:25:18] INFO root fetch - processPackages [cdk-eks-blueprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-blueprint-0.0.2.tar.gz tmp/cdk-eks-blueprint-0.0.3.tar.gz --markdown 20230501/c/cdk-eks-blueprint/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 14:25:18] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Downloading https://files.pythonhosted.org/packages/a2/34/9bbf58912256440625604160120ba5c60afed6ad85588591bc5deaf2d0b6/certora-cli-alpha-roy-CERT-1844-usage-20230501.10.56.711782.tar.gz
+[2023-05-01 14:25:18] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping package: exceeds size limit 38300883>=10485760
+[2023-05-01 14:25:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-01 14:25:18] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/e3/e7/127c1d33013b6176bd975ec56c2793b2888b903479794639d464251ebf17/kmergenetyper-1.0.8.tar.gz
+[2023-05-01 14:25:18] INFO root fetch - processPackages [coinkite-tap-protocol]: Downloading https://files.pythonhosted.org/packages/c1/29/41eec5a2e1905a82ac1bc43608f8ecd613f0a650baaff04c1c65a6d44fb2/coinkite-tap-protocol-1.2.1.tar.gz
+[2023-05-01 14:25:18] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/e2/ea/f7b14ae1e4d16474c6390177b5413d749ee850ca0ff9485400dd51a5a88b/Simba-UW-tf-dev-1.58.2.tar.gz
+[2023-05-01 14:25:18] INFO root fetch - processPackages [medspellchecker]: Downloading https://files.pythonhosted.org/packages/35/2b/c5dec150e297b5cc4d95b8a92eae4c2fe5f8de46f712bea44922e7c95eb3/medspellchecker-0.0.4.tar.gz
+[2023-05-01 14:25:18] INFO root fetch - processPackages [kmergenetyper]: Downloading https://files.pythonhosted.org/packages/5d/ae/321fdf636e730e328a51851060905d6ad88481ecfc38352aafe0bb250ef7/kmergenetyper-1.0.9.tar.gz
+[2023-05-01 14:25:18] INFO root fetch - processPackages [coinkite-tap-protocol]: Downloading https://files.pythonhosted.org/packages/bf/8a/3290527f3f76e942fd9a9f96748c8769ff280803140cfe873116a97363aa/coinkite-tap-protocol-1.2.2.tar.gz
+[2023-05-01 14:25:19] INFO root fetch - processPackages [medspellchecker]: executing diffoscope
+[2023-05-01 14:25:19] INFO root fetch - processPackages [medspellchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medspellchecker-0.0.3.tar.gz tmp/medspellchecker-0.0.4.tar.gz --markdown 20230501/m/medspellchecker/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 14:25:19] INFO root fetch - processPackages [coinkite-tap-protocol]: executing diffoscope
+[2023-05-01 14:25:19] INFO root fetch - processPackages [coinkite-tap-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coinkite-tap-protocol-1.2.1.tar.gz tmp/coinkite-tap-protocol-1.2.2.tar.gz --markdown 20230501/c/coinkite-tap-protocol/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-01 14:25:19] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-05-01 14:25:19] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.8.tar.gz tmp/kmergenetyper-1.0.9.tar.gz --markdown 20230501/k/kmergenetyper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 14:25:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2023-05-01 14:25:19] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.58.1.tar.gz tmp/Simba-UW-tf-dev-1.58.2.tar.gz --markdown 20230501/S/Simba-UW-tf-dev/1.58.1-1.58.2/diff.md --exclude *.pyd
+[2023-05-01 14:25:19] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 14:25:19] INFO root fetch - main [MainThread]: End processing [CatRoyale]: success
+[2023-05-01 14:25:19] INFO root fetch - main [MainThread]: End processing [cdk-eks-blueprint]: success
+[2023-05-01 14:25:20] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-05-01 14:25:20] INFO root fetch - main [MainThread]: End processing [coinkite-tap-protocol]: success
+[2023-05-01 14:25:25] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2023-05-01 14:25:43] INFO root fetch - main [MainThread]: End processing [medspellchecker]: success
+[2023-05-01 14:25:43] INFO root fetch - main [MainThread]: Store serial: [17926329]
