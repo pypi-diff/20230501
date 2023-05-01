@@ -4597,3 +4597,66 @@
 [2023-05-01 07:10:02] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-05-01 07:12:50] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
 [2023-05-01 07:12:50] INFO root fetch - main [MainThread]: Store serial: [17923071]
+[2023-05-01 07:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923071]
+[2023-05-01 07:17:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spPersist
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mwxlib
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-keycloak
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-homeassistant-custom-component
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CS333-Final-Project
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GrowattRequestsAsync
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pgmini
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unitranscode
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapidpe-rift-pipe
+[2023-05-01 07:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testghapythonpackage
+[2023-05-01 07:17:59] INFO root fetch - processPackages [CS333-Final-Project]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [streamlit-keycloak]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [spPersist]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [mwxlib]: New version: [0.82.4] Old Version: [0.82.0]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [testghapythonpackage]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [unitranscode]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230501] Old Version: [0.2.2.dev20230430]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [pgmini]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-01 07:17:59] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 07:17:59] WARNING root fetch - processPackages [GrowattRequestsAsync]: Skipping, unable to determine old version
+[2023-05-01 07:17:59] INFO root fetch - main [MainThread]: End processing [GrowattRequestsAsync] error
+[2023-05-01 07:17:59] INFO root fetch - processPackages [pgmini]: Downloading https://files.pythonhosted.org/packages/e1/34/9f6e0cd8cb756ff8b3af974cebf7a8774d6512a58bb8344b0e478163735f/pgmini-0.1.4.tar.gz
+[2023-05-01 07:17:59] INFO root fetch - processPackages [unitranscode]: Downloading https://files.pythonhosted.org/packages/31/91/6030282505d3b9b65f14774903e4326ddc7f9393d86d82ba721d0ee09b30/unitranscode-0.3.2.tar.gz
+[2023-05-01 07:17:59] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/94/b4/a46e6eb6e07a18e06ae6bb9a2622eef567e3ca495ea4276bca73a8ff2720/mwxlib-0.82.0-py3-none-any.whl
+[2023-05-01 07:17:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c5/fa/59b800b226526c2db6d203619270a94904e595ccc2157763863fa0419349/rapidpe_rift_pipe-0.2.2.dev20230501.tar.gz
+[2023-05-01 07:17:59] INFO root fetch - processPackages [streamlit-keycloak]: Downloading https://files.pythonhosted.org/packages/9a/ff/a76b9d32cdb2893c65758317607b83dd8068dc59203d8088d764ab9a4f67/streamlit-keycloak-1.0.1.tar.gz
+[2023-05-01 07:17:59] INFO root fetch - processPackages [testghapythonpackage]: Downloading https://files.pythonhosted.org/packages/7c/72/d32ed1689e5c0c58b3b24ec97695e8ee584b39d3f18c50922b3835af0182/testghapythonpackage-0.0.8.tar.gz
+[2023-05-01 07:18:00] INFO root fetch - processPackages [CS333-Final-Project]: Downloading https://files.pythonhosted.org/packages/65/c8/1ec1e62754002a79f4868949c77cbe8ce9cefe1a691a7294bb0377be18e9/CS333-Final-Project-0.0.6.tar.gz
+[2023-05-01 07:18:00] INFO root fetch - processPackages [unitranscode]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [unitranscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitranscode-0.3.1.tar.gz tmp/unitranscode-0.3.2.tar.gz --markdown 20230501/u/unitranscode/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/51/0d/7f277c7717a688d48ffcb095a2a16322d769d5c68cf2e103a71d86bb61bc/sppersist-0.1.0.tar.gz
+[2023-05-01 07:18:00] INFO root fetch - processPackages [CS333-Final-Project]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [CS333-Final-Project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CS333-Final-Project-0.0.5.tar.gz tmp/CS333-Final-Project-0.0.6.tar.gz --markdown 20230501/C/CS333-Final-Project/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230430.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230501.tar.gz --markdown 20230501/r/rapidpe-rift-pipe/0.2.2.dev20230430-0.2.2.dev20230501/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230501/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.0.9.tar.gz tmp/sppersist-0.1.0.tar.gz --markdown 20230501/s/spPersist/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [pgmini]: Downloading https://files.pythonhosted.org/packages/0b/c1/f03aab3245ae205170c3dacb4bde462abd2bb2c05cfa44c20edeab60d941/pgmini-0.1.5.tar.gz
+[2023-05-01 07:18:00] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/09/25/f4fe63357334bd5d338b4ea3a172005911aa0c1f71efca76528374fe30c8/mwxlib-0.82.4-py3-none-any.whl
+[2023-05-01 07:18:00] INFO root fetch - processPackages [streamlit-keycloak]: Downloading https://files.pythonhosted.org/packages/e6/2a/70381ad846a832654cde318f850b734adb4d88d1cdf6c5a459a2be40c31b/streamlit-keycloak-1.1.0.tar.gz
+[2023-05-01 07:18:00] INFO root fetch - processPackages [pgmini]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [pgmini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgmini-0.1.4.tar.gz tmp/pgmini-0.1.5.tar.gz --markdown 20230501/p/pgmini/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [testghapythonpackage]: Downloading https://files.pythonhosted.org/packages/88/23/f63b2a1da7c353ee781f13fd56e3673222b27e3389ae58755dcf1500db75/testghapythonpackage-0.0.9.tar.gz
+[2023-05-01 07:18:00] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.82.0-py3-none-any.whl.zip tmp/mwxlib-0.82.4-py3-none-any.whl.zip --markdown 20230501/m/mwxlib/0.82.0-0.82.4/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [streamlit-keycloak]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [streamlit-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-keycloak-1.0.1.tar.gz tmp/streamlit-keycloak-1.1.0.tar.gz --markdown 20230501/s/streamlit-keycloak/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 07:18:00] INFO root fetch - processPackages [testghapythonpackage]: executing diffoscope
+[2023-05-01 07:18:00] INFO root fetch - processPackages [testghapythonpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testghapythonpackage-0.0.8.tar.gz tmp/testghapythonpackage-0.0.9.tar.gz --markdown 20230501/t/testghapythonpackage/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 07:18:01] INFO root fetch - main [MainThread]: End processing [unitranscode]: success
+[2023-05-01 07:18:01] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project]: success
+[2023-05-01 07:18:01] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 07:18:02] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-05-01 07:18:02] INFO root fetch - main [MainThread]: End processing [testghapythonpackage]: success
+[2023-05-01 07:18:02] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-05-01 07:18:02] INFO root fetch - main [MainThread]: End processing [pgmini]: success
+[2023-05-01 07:18:03] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-01 07:18:11] INFO root fetch - main [MainThread]: End processing [streamlit-keycloak]: success
+[2023-05-01 07:18:11] INFO root fetch - main [MainThread]: Store serial: [17923100]
