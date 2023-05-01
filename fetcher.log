@@ -7524,3 +7524,76 @@
 [2023-05-01 12:53:32] INFO root fetch - main [MainThread]: End processing [CLAM]: success
 [2023-05-01 12:53:33] INFO root fetch - main [MainThread]: End processing [MCSimPython]: success
 [2023-05-01 12:53:33] INFO root fetch - main [MainThread]: Store serial: [17924969]
+[2023-05-01 12:58:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924969]
+[2023-05-01 12:58:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh-server-provisioning-plugin
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyranges
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscemu
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzconf
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-nl-xaf-auditfile-export
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythoncryptov4
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-roy-CERT-1844-usage
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rq
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CatRoyale
+[2023-05-01 12:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hexo-inpainting
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyscemu]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-01 12:58:43] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Skipping, unable to determine old version
+[2023-05-01 12:58:43] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1844-usage]: Start processing: fsps
+[2023-05-01 12:58:43] INFO root fetch - processPackages [hexo-inpainting]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 12:58:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1844-usage] error
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyranges]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [hexo-inpainting]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [hexo-inpainting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexo_inpainting-1.0.2.tar.gz tmp/hexo_inpainting-1.0.3.tar.gz --markdown 20230501/h/hexo-inpainting/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.1.5.tar.gz tmp/pyscemu-0.1.6.tar.gz --markdown 20230501/p/pyscemu/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] WARNING root fetch - processPackages [pythoncryptov4]: Skipping, unable to determine old version
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyzconf]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-05-01 12:58:43] WARNING root fetch - processPackages [CatRoyale]: Skipping, unable to determine old version
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pythoncryptov4]: Start processing: bmgen
+[2023-05-01 12:58:43] INFO root fetch - main [MainThread]: End processing [pythoncryptov4] error
+[2023-05-01 12:58:43] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: New version: [14.0.3.0.0] Old Version: [14.0.2.0.0]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [CatRoyale]: Start processing: narrow-down
+[2023-05-01 12:58:43] INFO root fetch - main [MainThread]: End processing [CatRoyale] error
+[2023-05-01 12:58:43] INFO root fetch - processPackages [rq]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.98.tar.gz tmp/pyranges-0.0.99.tar.gz --markdown 20230501/p/pyranges/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [fsps]: New version: [0.4.3rc1] Old Version: [0.4.2rc1]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [narrow-down]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [bmgen]: New version: [2023.5.0b0] Old Version: [2023.4.0b3]
+[2023-05-01 12:58:43] INFO root fetch - processPackages [narrow-down]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [narrow-down]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/narrow_down-1.0.0-cp37-abi3-win_amd64.whl.zip tmp/narrow_down-1.0.1-cp37-abi3-win_amd64.whl.zip --markdown 20230501/n/narrow-down/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyzconf]: Downloading https://files.pythonhosted.org/packages/87/50/4998b4cd000733bf3f8bb50da0c0e4f79d7235d85cbc1ede62ea4a77484d/pyzconf-0.1.0.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: Downloading https://files.pythonhosted.org/packages/6c/22/536092f1c33f2587f38114bf8c26c0456808f70a041f06ce33e3a1540f0e/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.2.0.0-py3-none-any.whl
+[2023-05-01 12:58:43] INFO root fetch - processPackages [rq]: Downloading https://files.pythonhosted.org/packages/f2/8f/2a63a51079ed5903496c113b2a4bda5fe91e748d6c00d4a533f2d901b9d8/rq-1.8.1.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [fsps]: Downloading https://files.pythonhosted.org/packages/0d/5b/398ae4a7eb8f15fbd6b47ad2775b67a813fe88f4836b8fe06d8f37fbee7e/fsps-0.4.2rc1.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: Downloading https://files.pythonhosted.org/packages/00/f8/9eb5b93ae607e5448f6ea6642c3deeff0a39a9aa675a3085ddc53ea6fb08/edwh_server_provisioning_plugin-0.3.0.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [bmgen]: Downloading https://files.pythonhosted.org/packages/85/e9/dbe3e86e55f13ebe0914671bfbe6dc717cec0d547351502f4c82799c7e89/bmgen-2023.4.0b3.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyzconf]: Downloading https://files.pythonhosted.org/packages/3e/5f/d7edea215ff29e43fd7ce60fb815e998c523c617b0128cdecd3f682c7ff8/pyzconf-0.1.2.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_server_provisioning_plugin-0.2.1.tar.gz tmp/edwh_server_provisioning_plugin-0.3.0.tar.gz --markdown 20230501/e/edwh-server-provisioning-plugin/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: Downloading https://files.pythonhosted.org/packages/c2/a2/bfc32a4460b039c726a785478719566366ef245c3679ec2a0833072100d9/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.3.0.0-py3-none-any.whl
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyzconf]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [pyzconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzconf-0.1.0.tar.gz tmp/pyzconf-0.1.2.tar.gz --markdown 20230501/p/pyzconf/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [odoo14-addon-l10n-nl-xaf-auditfile-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_nl_xaf_auditfile_export-14.0.3.0.0-py3-none-any.whl.zip --markdown 20230501/o/odoo14-addon-l10n-nl-xaf-auditfile-export/14.0.2.0.0-14.0.3.0.0/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [rq]: Downloading https://files.pythonhosted.org/packages/e9/20/97f8e3e0b73382d4708880f27683b0d93c0426360ff1ece2c02591e1f265/rq-1.9.0.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [bmgen]: Downloading https://files.pythonhosted.org/packages/f7/4a/d4e2d6b0071cc39601134bef1a1732d04126a35ab686c9d9b807fcb3bf7e/bmgen-2023.5.0b0.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [fsps]: Downloading https://files.pythonhosted.org/packages/a9/ff/c19b344835a2bf64cec296c677a9af7eafb9a087b63a9fa1582be981f367/fsps-0.4.3rc1.tar.gz
+[2023-05-01 12:58:43] INFO root fetch - processPackages [bmgen]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [bmgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmgen-2023.4.0b3.tar.gz tmp/bmgen-2023.5.0b0.tar.gz --markdown 20230501/b/bmgen/2023.4.0b3-2023.5.0b0/diff.md --exclude *.pyd
+[2023-05-01 12:58:43] INFO root fetch - processPackages [fsps]: executing diffoscope
+[2023-05-01 12:58:43] INFO root fetch - processPackages [fsps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsps-0.4.2rc1.tar.gz tmp/fsps-0.4.3rc1.tar.gz --markdown 20230501/f/fsps/0.4.2rc1-0.4.3rc1/diff.md --exclude *.pyd
+[2023-05-01 12:58:44] INFO root fetch - processPackages [rq]: executing diffoscope
+[2023-05-01 12:58:44] INFO root fetch - processPackages [rq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rq-1.8.1.tar.gz tmp/rq-1.9.0.tar.gz --markdown 20230501/r/rq/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-01 12:58:44] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
+[2023-05-01 12:58:44] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-05-01 12:58:44] INFO root fetch - main [MainThread]: End processing [narrow-down]: success
+[2023-05-01 12:58:45] INFO root fetch - main [MainThread]: End processing [pyzconf]: success
+[2023-05-01 12:58:45] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin]: success
+[2023-05-01 12:58:45] INFO root fetch - main [MainThread]: End processing [bmgen]: success
+[2023-05-01 12:58:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-nl-xaf-auditfile-export]: success
+[2023-05-01 12:58:45] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2023-05-01 12:58:46] INFO root fetch - main [MainThread]: End processing [fsps]: success
+[2023-05-01 12:58:47] INFO root fetch - main [MainThread]: End processing [rq]: success
+[2023-05-01 12:58:47] INFO root fetch - main [MainThread]: Store serial: [17925020]
