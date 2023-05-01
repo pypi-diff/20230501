@@ -19006,3 +19006,74 @@ EOFError: EOF read where object expected
 [2023-05-01 23:28:32] INFO root fetch - main [MainThread]: End processing [snek5000]: success
 [2023-05-01 23:28:32] INFO root fetch - main [MainThread]: End processing [tuotuo]: success
 [2023-05-01 23:28:32] INFO root fetch - main [MainThread]: Store serial: [17932004]
+[2023-05-01 23:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932004]
+[2023-05-01 23:33:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: madblog
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: limacharlie
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: croto
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mage-ai
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-vss
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-vss
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bytez
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sw-mc-lib
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WWOpenLabeling
+[2023-05-01 23:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bytez
+[2023-05-01 23:33:42] INFO root fetch - processPackages [limacharlie]: New version: [4.4.6] Old Version: [4.4.5]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [croto]: New version: [2.2] Old Version: [2.1]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.0.6a1] Old Version: [0.0.6]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [madblog]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [WWOpenLabeling]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [sw-mc-lib]: New version: [0.2.0] Old Version: [0.1]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [sqlite-vss]: New version: [0.0.6a1] Old Version: [0.0.6]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:33:42] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:33:42] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:33:42] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:33:42] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:33:42] INFO root fetch - processPackages [madblog]: executing diffoscope
+[2023-05-01 23:33:42] INFO root fetch - processPackages [madblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madblog-0.2.8.tar.gz tmp/madblog-0.2.9.tar.gz --markdown 20230501/m/madblog/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/cf/b6/7fda3c60f05715e5864bed51441cc959c3faa3ab758c26b8bd803e51c385/datasette_sqlite_vss-0.0.6-py3-none-any.whl
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/cc/58/25c3abd8d9d2e9be79719f53e1ae039eb4ec1b2108fd24ad0b77bd009e8a/sqlite_vss-0.0.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-05-01 23:33:43] INFO root fetch - processPackages [croto]: Downloading https://files.pythonhosted.org/packages/4b/6d/abc0e6305f5358b44f3135a70e5c6bf0644c3490a35f6a8ed7e306731193/croto-2.2.tar.gz
+[2023-05-01 23:33:43] INFO root fetch - processPackages [limacharlie]: Downloading https://files.pythonhosted.org/packages/6e/c5/5f06e16284ebb4d2ab8b4c036a6769b92ecc6ca43f6a9e63207aba78a484/limacharlie-4.4.6.tar.gz
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sw-mc-lib]: Downloading https://files.pythonhosted.org/packages/2d/ff/f98bd8691023de2e7f4d41f1b54a38da004c4e11d32cc22323e644232bd0/sw_mc_lib-0.1.tar.gz
+[2023-05-01 23:33:43] INFO root fetch - processPackages [WWOpenLabeling]: Downloading https://files.pythonhosted.org/packages/13/a4/12852b48d55de43f449c1c5a3412a80a7479e828f5bb9ab8a121f040b908/WWOpenLabeling-1.0.3.tar.gz
+[2023-05-01 23:33:43] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.0.6-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.0.6a1-py3-none-any.whl.zip --markdown 20230501/d/datasette-sqlite-vss/0.0.6-0.0.6a1/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-2.1.tar.gz tmp/croto-2.2.tar.gz --markdown 20230501/c/croto/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [limacharlie]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [limacharlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limacharlie-4.4.5.tar.gz tmp/limacharlie-4.4.6.tar.gz --markdown 20230501/l/limacharlie/4.4.5-4.4.6/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230501/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [WWOpenLabeling]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [WWOpenLabeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WWOpenLabeling-1.0.1.tar.gz tmp/WWOpenLabeling-1.0.3.tar.gz --markdown 20230501/W/WWOpenLabeling/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sw-mc-lib]: Downloading https://files.pythonhosted.org/packages/29/09/4ab8221de9949f340a2831d2e22ec2dfec81ccfefc990cecd25eed3f7a2d/sw_mc_lib-0.2.0.tar.gz
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sw-mc-lib]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sw-mc-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sw_mc_lib-0.1.tar.gz tmp/sw_mc_lib-0.2.0.tar.gz --markdown 20230501/s/sw-mc-lib/0.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-05-01 23:33:43] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.0.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.0.6a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230501/s/sqlite-vss/0.0.6-0.0.6a1/diff.md --exclude *.pyd
+[2023-05-01 23:33:44] INFO root fetch - processPackages [datasette-sqlite-vss]: Start processing: jsonformer
+[2023-05-01 23:33:44] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-05-01 23:33:44] INFO root fetch - processPackages [jsonformer]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-01 23:33:44] INFO root fetch - processPackages [croto]: Start processing: emmet-core
+[2023-05-01 23:33:44] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-01 23:33:44] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-01 23:33:44] INFO root fetch - main [MainThread]: End processing [WWOpenLabeling]: success
+[2023-05-01 23:33:44] INFO root fetch - processPackages [jsonformer]: Downloading https://files.pythonhosted.org/packages/ee/d8/3363ecf9b89eba2be5605eb9c64f6db6534522875b74ecb642905003db02/jsonformer-0.5.0.tar.gz
+[2023-05-01 23:33:44] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-05-01 23:33:44] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230501/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-01 23:33:44] INFO root fetch - main [MainThread]: End processing [limacharlie]: success
+[2023-05-01 23:33:44] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:33:44] INFO root fetch - processPackages [jsonformer]: executing diffoscope
+[2023-05-01 23:33:44] INFO root fetch - processPackages [jsonformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonformer-0.4.0.tar.gz tmp/jsonformer-0.5.0.tar.gz --markdown 20230501/j/jsonformer/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-01 23:33:44] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:33:45] INFO root fetch - main [MainThread]: End processing [sw-mc-lib]: success
+[2023-05-01 23:33:45] INFO root fetch - main [MainThread]: End processing [jsonformer]: success
+[2023-05-01 23:33:46] INFO root fetch - main [MainThread]: End processing [madblog]: success
+[2023-05-01 23:33:47] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-05-01 23:33:53] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-05-01 23:34:05] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-05-01 23:34:05] INFO root fetch - main [MainThread]: Store serial: [17932039]
