@@ -5259,3 +5259,43 @@
 [2023-05-01 08:57:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
 [2023-05-01 08:57:17] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-01 08:57:17] INFO root fetch - main [MainThread]: Store serial: [17923528]
+[2023-05-01 09:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923528]
+[2023-05-01 09:02:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zwkit
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wombato
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-logger
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyranges
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seqio-nightly
+[2023-05-01 09:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandas-streaming
+[2023-05-01 09:02:25] INFO root fetch - processPackages [pyranges]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 09:02:25] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-01 09:02:25] INFO root fetch - processPackages [pandas-streaming]: New version: [0.3.239] Old Version: [0.3.218]
+[2023-05-01 09:02:25] INFO root fetch - processPackages [zwkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 09:02:25] WARNING root fetch - processPackages [wombato]: Skipping, unable to determine old version
+[2023-05-01 09:02:25] INFO root fetch - main [MainThread]: End processing [wombato] error
+[2023-05-01 09:02:26] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-01 09:02:26] INFO root fetch - processPackages [ml-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 09:02:26] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2023-05-01 09:02:26] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.98.tar.gz tmp/pyranges-0.0.99.tar.gz --markdown 20230501/p/pyranges/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 09:02:26] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-01 09:02:26] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230501/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-01 09:02:26] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-01 09:02:26] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-01 09:02:26] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/ec/1b/27ce922215cb6668309725864644ecb6ea7e94953063d450a07eb0a76208/ml_logger-0.9.8.tar.gz
+[2023-05-01 09:02:26] INFO root fetch - processPackages [pandas-streaming]: Downloading https://files.pythonhosted.org/packages/9b/7a/7e703ecba8b87a831e925ae841f2aa3b99747b8d674fea592074e60ebf79/pandas_streaming-0.3.218.tar.gz
+[2023-05-01 09:02:26] INFO root fetch - processPackages [zwkit]: executing diffoscope
+[2023-05-01 09:02:26] INFO root fetch - processPackages [zwkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zwkit-0.4.8.tar.gz tmp/zwkit-0.4.9.tar.gz --markdown 20230501/z/zwkit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 09:02:26] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/5e/73/772ea95da7b25d502cf034bc9d04a1f427674d9ad9fc87e212fccc33c1f0/ml_logger-0.9.9.tar.gz
+[2023-05-01 09:02:26] INFO root fetch - processPackages [pandas-streaming]: Downloading https://files.pythonhosted.org/packages/04/e9/b162bae9e7761119cfa1f200fc932dedee313451216f58375ef95975166e/pandas_streaming-0.3.239.tar.gz
+[2023-05-01 09:02:26] INFO root fetch - processPackages [ml-logger]: executing diffoscope
+[2023-05-01 09:02:26] INFO root fetch - processPackages [ml-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logger-0.9.8.tar.gz tmp/ml_logger-0.9.9.tar.gz --markdown 20230501/m/ml-logger/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 09:02:26] INFO root fetch - processPackages [pandas-streaming]: executing diffoscope
+[2023-05-01 09:02:26] INFO root fetch - processPackages [pandas-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_streaming-0.3.218.tar.gz tmp/pandas_streaming-0.3.239.tar.gz --markdown 20230501/p/pandas-streaming/0.3.218-0.3.239/diff.md --exclude *.pyd
+[2023-05-01 09:02:27] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-01 09:02:27] INFO root fetch - main [MainThread]: End processing [ml-logger]: success
+[2023-05-01 09:02:27] INFO root fetch - main [MainThread]: End processing [zwkit]: success
+[2023-05-01 09:02:29] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2023-05-01 09:02:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-01 09:02:50] INFO root fetch - main [MainThread]: End processing [pandas-streaming]: success
+[2023-05-01 09:02:50] INFO root fetch - main [MainThread]: Store serial: [17923552]
