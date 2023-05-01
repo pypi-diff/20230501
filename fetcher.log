@@ -4783,3 +4783,22 @@
 [2023-05-01 07:38:53] INFO root fetch - main [MainThread]: End processing [pyrle]: success
 [2023-05-01 07:38:53] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-01 07:38:53] INFO root fetch - main [MainThread]: Store serial: [17923192]
+[2023-05-01 07:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923192]
+[2023-05-01 07:44:02] INFO root fetch - main [MainThread]: No changed packages found
+[2023-05-01 07:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923194]
+[2023-05-01 07:49:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sorampt
+[2023-05-01 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csoundengine
+[2023-05-01 07:49:08] INFO root fetch - processPackages [sorampt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-01 07:49:08] INFO root fetch - processPackages [csoundengine]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-01 07:49:08] INFO root fetch - processPackages [sorampt]: Downloading https://files.pythonhosted.org/packages/20/a8/d14a5aea7b40f15427055f939d7fbd716383975bb49dfa38617e1939d06d/sorampt-0.1.5.tar.gz
+[2023-05-01 07:49:08] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/7e/65/7ced7dbe4e22e46686d21b1c1f4f9ccdae973749309778d5040775d47b64/csoundengine-1.9.0.tar.gz
+[2023-05-01 07:49:08] INFO root fetch - processPackages [sorampt]: Downloading https://files.pythonhosted.org/packages/a1/cb/97aafc1beb2c20c9869a47b98444d3ee8bec76712f14722d4608421788db/sorampt-0.1.6.tar.gz
+[2023-05-01 07:49:09] INFO root fetch - processPackages [sorampt]: executing diffoscope
+[2023-05-01 07:49:09] INFO root fetch - processPackages [sorampt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorampt-0.1.5.tar.gz tmp/sorampt-0.1.6.tar.gz --markdown 20230501/s/sorampt/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 07:49:09] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/4a/14/227b8a91163ff83cd5f33dd91852165fa3635f9750a26d2738e5de432cf7/csoundengine-1.9.1.tar.gz
+[2023-05-01 07:49:09] INFO root fetch - processPackages [csoundengine]: executing diffoscope
+[2023-05-01 07:49:09] INFO root fetch - processPackages [csoundengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csoundengine-1.9.0.tar.gz tmp/csoundengine-1.9.1.tar.gz --markdown 20230501/c/csoundengine/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-01 07:49:10] INFO root fetch - main [MainThread]: End processing [sorampt]: success
+[2023-05-01 07:49:11] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
+[2023-05-01 07:49:11] INFO root fetch - main [MainThread]: Store serial: [17923201]
