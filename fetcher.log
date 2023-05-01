@@ -16854,3 +16854,68 @@ EOFError: EOF read where object expected
 [2023-05-01 21:19:05] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
 [2023-05-01 21:19:09] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-05-01 21:19:09] INFO root fetch - main [MainThread]: Store serial: [17930659]
+[2023-05-01 21:24:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930659]
+[2023-05-01 21:24:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mara-page
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: denmune
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrape-schema
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tecton
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-translate-plugin-deepl
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: likeprocessing
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Pequena
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-naftali-library-love
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cortex-cli
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-review
+[2023-05-01 21:24:18] INFO root fetch - processPackages [mara-page]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [cortex-cli]: New version: [1.13.0.post2] Old Version: [1.13.0.post1]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [scrape-schema]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [certora-cli-alpha-naftali-library-love]: New version: [20230501.19.22.663603] Old Version: [20230501.13.27.703316]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [Pequena]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [likeprocessing]: New version: [0.1.7.2.7] Old Version: [0.1.7.2.6]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [denmune]: New version: [1.16.0] Old Version: [1.15.9]
+[2023-05-01 21:24:18] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-01 21:24:18] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230501/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [cortex-cli]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cortex_cli-1.13.0.post1.tar.gz tmp/cortex_cli-1.13.0.post2.tar.gz --markdown 20230501/c/cortex-cli/1.13.0.post1-1.13.0.post2/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [mara-page]: Downloading https://files.pythonhosted.org/packages/a3/7d/3d1e51108db2976fd8b353922d167bbac73fa68042b7fbaff105a96ecfc5/mara-page-1.6.1.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [certora-cli-alpha-naftali-library-love]: Downloading https://files.pythonhosted.org/packages/c6/ab/60939a9dcdc2889a2cb795b0beef4c454c62e0643e17e0bd4690dda7fb01/certora-cli-alpha-naftali-library_love-20230501.13.27.703316.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/c1/23/ddf93290fd7b852a84b9f2afb126ed8ad474a73c3a7bb8806c8beb6546c7/likeprocessing-0.1.7.2.6.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [denmune]: Downloading https://files.pythonhosted.org/packages/e4/43/ce72320f847997caee46583806c7dfd0f2a3ed1185ccbbf25c6493799244/denmune-1.16.0.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/39/c4/e2a435e2a0381e4b08335ab0ee72a0cc7369298f5f7c6b26f6df83dbaec4/scrape_schema-0.1.3.tar.gz
+[2023-05-01 21:24:19] WARNING root fetch - processPackages [certora-cli-alpha-naftali-library-love]: Skipping package: exceeds size limit 38296596>=10485760
+[2023-05-01 21:24:19] INFO root fetch - processPackages [certora-cli-alpha-naftali-library-love]: Start processing: ztfidr
+[2023-05-01 21:24:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-library-love] error
+[2023-05-01 21:24:19] INFO root fetch - processPackages [denmune]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [denmune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denmune-1.15.9.tar.gz tmp/denmune-1.16.0.tar.gz --markdown 20230501/d/denmune/1.15.9-1.16.0/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.1.1.tar.gz tmp/scrape_schema-0.1.3.tar.gz --markdown 20230501/s/scrape-schema/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [ztfidr]: New version: [0.8.1] Old Version: [0.7.9]
+[2023-05-01 21:24:19] INFO root fetch - processPackages [Pequena]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [Pequena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pequena-0.0.8.tar.gz tmp/Pequena-0.0.9.tar.gz --markdown 20230501/P/Pequena/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230501/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/39/26/e771019c37e713a3cb8ca5dd8466ed971d866534e5f48ef60272cfc1db76/likeprocessing-0.1.7.2.7.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [ovos-translate-plugin-deepl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_translate_plugin_deepl-0.0.0a1-py3-none-any.whl.zip tmp/ovos_translate_plugin_deepl-0.0.0a2-py3-none-any.whl.zip --markdown 20230501/o/ovos-translate-plugin-deepl/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [likeprocessing]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [likeprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeprocessing-0.1.7.2.6.tar.gz tmp/likeprocessing-0.1.7.2.7.tar.gz --markdown 20230501/l/likeprocessing/0.1.7.2.6-0.1.7.2.7/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [ztfidr]: Downloading https://files.pythonhosted.org/packages/fe/a9/1779cba64cf96515e0688a95a18266ee3cfbcaedb4bfa451798a3c662926/ztfidr-0.8.1.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [mara-page]: Downloading https://files.pythonhosted.org/packages/8b/eb/7753f7c9c4d788cf7e3cf31f604c490d2200906812ca8457b35bd1a551ae/mara-page-1.7.0.tar.gz
+[2023-05-01 21:24:19] INFO root fetch - processPackages [mara-page]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [mara-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mara-page-1.6.1.tar.gz tmp/mara-page-1.7.0.tar.gz --markdown 20230501/m/mara-page/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-05-01 21:24:19] INFO root fetch - processPackages [ztfidr]: executing diffoscope
+[2023-05-01 21:24:19] INFO root fetch - processPackages [ztfidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfidr-0.7.9.tar.gz tmp/ztfidr-0.8.1.tar.gz --markdown 20230501/z/ztfidr/0.7.9-0.8.1/diff.md --exclude *.pyd
+[2023-05-01 21:24:20] INFO root fetch - main [MainThread]: End processing [Pequena]: success
+[2023-05-01 21:24:20] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-01 21:24:20] INFO root fetch - main [MainThread]: End processing [denmune]: success
+[2023-05-01 21:24:20] INFO root fetch - main [MainThread]: End processing [ovos-translate-plugin-deepl]: success
+[2023-05-01 21:24:20] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-05-01 21:24:21] INFO root fetch - main [MainThread]: End processing [mara-page]: success
+[2023-05-01 21:24:21] INFO root fetch - main [MainThread]: End processing [cortex-cli]: success
+[2023-05-01 21:24:21] INFO root fetch - main [MainThread]: End processing [ztfidr]: success
+[2023-05-01 21:24:23] INFO root fetch - main [MainThread]: End processing [likeprocessing]: success
+[2023-05-01 21:24:25] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-01 21:24:25] INFO root fetch - main [MainThread]: Store serial: [17930691]
