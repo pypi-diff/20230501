@@ -11393,3 +11393,74 @@
 [2023-05-01 15:13:34] INFO root fetch - main [MainThread]: End processing [oc-ocdm]: success
 [2023-05-01 15:13:39] INFO root fetch - main [MainThread]: End processing [espnet]: success
 [2023-05-01 15:13:39] INFO root fetch - main [MainThread]: Store serial: [17926989]
+[2023-05-01 15:18:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926989]
+[2023-05-01 15:18:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vtece4564-gamelib
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mtmcxstrtg
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-django
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaw-sweep-sg-cali
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-apl
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orpc-client
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PhysicalQuantities
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: orpc-server
+[2023-05-01 15:18:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: forensicface
+[2023-05-01 15:18:48] INFO root fetch - processPackages [orpc-client]: New version: [0.5.8] Old Version: [0.1.3]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [yaw-sweep-sg-cali]: New version: [2.0] Old Version: [1.2]
+[2023-05-01 15:18:48] WARNING root fetch - processPackages [orpc-server]: Skipping, unable to determine old version
+[2023-05-01 15:18:48] INFO root fetch - processPackages [orpc-server]: Start processing: wombato
+[2023-05-01 15:18:48] INFO root fetch - main [MainThread]: End processing [orpc-server] error
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.746] Old Version: [0.0.745]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [wombato]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [vtece4564-gamelib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [PhysicalQuantities]: New version: [1.1.1] Old Version: [0.9.1]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [mtmcxstrtg]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [orpc-client]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [orpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orpc-client-0.1.3.tar.gz tmp/orpc-client-0.5.8.tar.gz --markdown 20230501/o/orpc-client/0.1.3-0.5.8/diff.md --exclude *.pyd
+[2023-05-01 15:18:48] INFO root fetch - processPackages [forensicface]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 15:18:48] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230501/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 15:18:48] INFO root fetch - processPackages [wombato]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [wombato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wombato-0.0.1.tar.gz tmp/wombato-0.0.2.tar.gz --markdown 20230501/w/wombato/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230501/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:18:48] INFO root fetch - processPackages [yaw-sweep-sg-cali]: Downloading https://files.pythonhosted.org/packages/6b/80/d3a8378557910f6212e9fe19cde361bce16c3e248f1d79c1ce4fef544f03/yaw_sweep_sg_cali-2.0.tar.gz
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/53/93/344255dbdd60f3b2979671d4f271fa56398aebc572eb2094853f856d1b61/nbdev-apl-0.0.746.tar.gz
+[2023-05-01 15:18:48] INFO root fetch - processPackages [PhysicalQuantities]: Downloading https://files.pythonhosted.org/packages/78/88/69de9f6e5daebaa64d0dd5d96674cd5e6014612300d6f0601ec3e688b93e/PhysicalQuantities-0.9.1.tar.gz
+[2023-05-01 15:18:48] INFO root fetch - processPackages [yaw-sweep-sg-cali]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [yaw-sweep-sg-cali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaw_sweep_sg_cali-1.2.tar.gz tmp/yaw_sweep_sg_cali-2.0.tar.gz --markdown 20230501/y/yaw-sweep-sg-cali/1.2-2.0/diff.md --exclude *.pyd
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.745.tar.gz tmp/nbdev-apl-0.0.746.tar.gz --markdown 20230501/n/nbdev-apl/0.0.745-0.0.746/diff.md --exclude *.pyd
+[2023-05-01 15:18:48] INFO root fetch - processPackages [mtmcxstrtg]: Downloading https://files.pythonhosted.org/packages/75/40/3a66b3e238f79ec404d2a7df26e797b469afc61e88ae159379d00b97451f/mtmcxstrtg-1.0.5.tar.gz
+[2023-05-01 15:18:48] INFO root fetch - processPackages [vtece4564-gamelib]: executing diffoscope
+[2023-05-01 15:18:48] INFO root fetch - processPackages [vtece4564-gamelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtece4564-gamelib-0.0.8.tar.gz tmp/vtece4564-gamelib-0.0.9.tar.gz --markdown 20230501/v/vtece4564-gamelib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 15:18:49] INFO root fetch - processPackages [mtmcxstrtg]: executing diffoscope
+[2023-05-01 15:18:49] INFO root fetch - processPackages [mtmcxstrtg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmcxstrtg-1.0.4.tar.gz tmp/mtmcxstrtg-1.0.5.tar.gz --markdown 20230501/m/mtmcxstrtg/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-01 15:18:49] INFO root fetch - processPackages [PhysicalQuantities]: Downloading https://files.pythonhosted.org/packages/f7/0b/592a534ef4224a446829b6ff5a20feb326157b10d8ce5654cbb818eed05c/PhysicalQuantities-1.1.1.tar.gz
+[2023-05-01 15:18:49] INFO root fetch - processPackages [forensicface]: executing diffoscope
+[2023-05-01 15:18:49] INFO root fetch - processPackages [forensicface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forensicface-0.1.8.tar.gz tmp/forensicface-0.1.9.tar.gz --markdown 20230501/f/forensicface/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 15:18:49] INFO root fetch - processPackages [PhysicalQuantities]: executing diffoscope
+[2023-05-01 15:18:49] INFO root fetch - processPackages [PhysicalQuantities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PhysicalQuantities-0.9.1.tar.gz tmp/PhysicalQuantities-1.1.1.tar.gz --markdown 20230501/P/PhysicalQuantities/0.9.1-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 15:18:49] INFO root fetch - processPackages [orpc-client]: Start processing: vec-geohash
+[2023-05-01 15:18:49] INFO root fetch - main [MainThread]: End processing [orpc-client]: success
+[2023-05-01 15:18:49] WARNING root fetch - processPackages [vec-geohash]: Skipping, unable to determine old version
+[2023-05-01 15:18:49] INFO root fetch - processPackages [vec-geohash]: Start processing: markdown-inline-graphviz-extension
+[2023-05-01 15:18:49] INFO root fetch - main [MainThread]: End processing [vec-geohash] error
+[2023-05-01 15:18:50] INFO root fetch - processPackages [markdown-inline-graphviz-extension]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [wombato]: success
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-01 15:18:50] INFO root fetch - processPackages [markdown-inline-graphviz-extension]: Downloading https://files.pythonhosted.org/packages/02/35/607ca124fb3818724f6ff53098a5d18d36f7ce1368d66b4151a9342cf9a3/markdown_inline_graphviz_extension-1.1.1.tar.gz
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [yaw-sweep-sg-cali]: success
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [vtece4564-gamelib]: success
+[2023-05-01 15:18:50] INFO root fetch - processPackages [markdown-inline-graphviz-extension]: Downloading https://files.pythonhosted.org/packages/53/45/afd2f42c4bfd00e4098ce4f6a168e92a95fa2f1015c5fc9b95cd22264f25/markdown_inline_graphviz_extension-1.1.2.tar.gz
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [forensicface]: success
+[2023-05-01 15:18:50] INFO root fetch - processPackages [markdown-inline-graphviz-extension]: executing diffoscope
+[2023-05-01 15:18:50] INFO root fetch - processPackages [markdown-inline-graphviz-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_inline_graphviz_extension-1.1.1.tar.gz tmp/markdown_inline_graphviz_extension-1.1.2.tar.gz --markdown 20230501/m/markdown-inline-graphviz-extension/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-01 15:18:50] INFO root fetch - main [MainThread]: End processing [mtmcxstrtg]: success
+[2023-05-01 15:18:51] INFO root fetch - main [MainThread]: End processing [markdown-inline-graphviz-extension]: success
+[2023-05-01 15:18:52] INFO root fetch - main [MainThread]: End processing [PhysicalQuantities]: success
+[2023-05-01 15:18:52] INFO root fetch - main [MainThread]: Store serial: [17927029]
