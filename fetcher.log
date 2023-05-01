@@ -19077,3 +19077,68 @@ EOFError: EOF read where object expected
 [2023-05-01 23:33:53] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-01 23:34:05] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-05-01 23:34:05] INFO root fetch - main [MainThread]: Store serial: [17932039]
+[2023-05-01 23:39:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17932039]
+[2023-05-01 23:39:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emmet-builders
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-with-marked-sections
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emmet-api
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: locust-grasshopper
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: umail
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strawberry-graphql
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt-review
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nextguild
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WWOpenLabeling
+[2023-05-01 23:39:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bytez
+[2023-05-01 23:39:15] WARNING root fetch - processPackages [text-with-marked-sections]: Skipping, unable to determine old version
+[2023-05-01 23:39:15] INFO root fetch - processPackages [text-with-marked-sections]: Start processing: referencing
+[2023-05-01 23:39:15] INFO root fetch - main [MainThread]: End processing [text-with-marked-sections] error
+[2023-05-01 23:39:15] WARNING root fetch - processPackages [umail]: Skipping, unable to determine old version
+[2023-05-01 23:39:15] INFO root fetch - processPackages [umail]: Start processing: aws-analytics-reference-architecture
+[2023-05-01 23:39:15] INFO root fetch - main [MainThread]: End processing [umail] error
+[2023-05-01 23:39:15] INFO root fetch - processPackages [locust-grasshopper]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [nextguild]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [WWOpenLabeling]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [aws-analytics-reference-architecture]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [gpt-review]: New version: [0.0.1rc95.post1] Old Version: [0.0.1rc93.post1]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [bytez]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-api]: New version: [0.53.0] Old Version: [0.52.2]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-05-01 23:39:15] INFO root fetch - processPackages [aws-analytics-reference-architecture]: Downloading https://files.pythonhosted.org/packages/ae/2b/5f638a1ef1f2c98e5cabf7d36e8ec3c32166be2db0c031a731483adef20f/aws_analytics_reference_architecture-2.9.8.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [bytez]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [bytez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytez-0.1.8.tar.gz tmp/bytez-0.1.9.tar.gz --markdown 20230501/b/bytez/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] WARNING root fetch - processPackages [aws-analytics-reference-architecture]: Skipping package: exceeds size limit 118649369>=10485760
+[2023-05-01 23:39:15] INFO root fetch - main [MainThread]: End processing [aws-analytics-reference-architecture] error
+[2023-05-01 23:39:15] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.0.1rc93.post1.tar.gz tmp/gpt-review-0.0.1rc95.post1.tar.gz --markdown 20230501/g/gpt-review/0.0.1rc93.post1-0.0.1rc95.post1/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/5c/d4/315cf029e1c8b3208e2ffd89597a445b610fb93487e6de4533a4aa3c1c00/nextguild-1.1.2.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [WWOpenLabeling]: Downloading https://files.pythonhosted.org/packages/63/f3/aeaac4a50f38edfe69774166183ec204ae2e00defcbfeef67a53020e3ea9/WWOpenLabeling-1.0.4.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [locust-grasshopper]: Downloading https://files.pythonhosted.org/packages/b4/30/189e565eccf374ae73f325df13ff4a1a14c20abecee0fced344fc9eb1a74/locust-grasshopper-1.2.8.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/56/f9/ce4285d789f8d4f76f748b1c7a3683cfc775ee9aac8d12bc68489c566025/emmet-api-0.53.0.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [WWOpenLabeling]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [WWOpenLabeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WWOpenLabeling-1.0.3.tar.gz tmp/WWOpenLabeling-1.0.4.tar.gz --markdown 20230501/W/WWOpenLabeling/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.52.2.tar.gz tmp/emmet-api-0.53.0.tar.gz --markdown 20230501/e/emmet-api/0.52.2-0.53.0/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230501/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] INFO root fetch - processPackages [nextguild]: Downloading https://files.pythonhosted.org/packages/84/c2/759bfef028541ebcc4b5f9bfce478c3f0857b9ad228a32d67c13d6b62db2/nextguild-1.1.3.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230501/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230501/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-05-01 23:39:15] INFO root fetch - processPackages [locust-grasshopper]: Downloading https://files.pythonhosted.org/packages/81/0b/fa9ebd062fd147765db8d2dc784ae7a00ba4b81c5941ba2916474003e982/locust-grasshopper-1.2.9.tar.gz
+[2023-05-01 23:39:15] INFO root fetch - processPackages [nextguild]: executing diffoscope
+[2023-05-01 23:39:15] INFO root fetch - processPackages [nextguild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextguild-1.1.2.tar.gz tmp/nextguild-1.1.3.tar.gz --markdown 20230501/n/nextguild/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-01 23:39:16] INFO root fetch - processPackages [locust-grasshopper]: executing diffoscope
+[2023-05-01 23:39:16] INFO root fetch - processPackages [locust-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-grasshopper-1.2.8.tar.gz tmp/locust-grasshopper-1.2.9.tar.gz --markdown 20230501/l/locust-grasshopper/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 23:39:16] INFO root fetch - main [MainThread]: End processing [bytez]: success
+[2023-05-01 23:39:17] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-01 23:39:17] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-05-01 23:39:17] INFO root fetch - main [MainThread]: End processing [nextguild]: success
+[2023-05-01 23:39:17] INFO root fetch - main [MainThread]: End processing [locust-grasshopper]: success
+[2023-05-01 23:39:17] INFO root fetch - main [MainThread]: End processing [WWOpenLabeling]: success
+[2023-05-01 23:39:17] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-05-01 23:39:18] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-05-01 23:39:19] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2023-05-01 23:39:19] INFO root fetch - main [MainThread]: Store serial: [17932080]
