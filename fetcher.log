@@ -16735,3 +16735,122 @@ EOFError: EOF read where object expected
 [2023-05-01 21:13:48] INFO root fetch - main [MainThread]: End processing [media-tools]: success
 [2023-05-01 21:13:49] INFO root fetch - main [MainThread]: End processing [livekit-server-sdk-python]: success
 [2023-05-01 21:13:49] INFO root fetch - main [MainThread]: Store serial: [17930588]
+[2023-05-01 21:18:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930588]
+[2023-05-01 21:18:57] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datamate
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aim-ui
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-utils
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumos-sat
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamachine
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aim
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wipypedia
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: denmune
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robotcode-core
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotcode
+[2023-05-01 21:18:57] INFO root fetch - processPackages [datamate]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-01 21:18:57] WARNING root fetch - processPackages [wipypedia]: Skipping, unable to determine old version
+[2023-05-01 21:18:57] INFO root fetch - processPackages [wipypedia]: Start processing: robotcode-plugin
+[2023-05-01 21:18:57] INFO root fetch - main [MainThread]: End processing [wipypedia] error
+[2023-05-01 21:18:57] INFO root fetch - processPackages [lumos-sat]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [datamachine]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [robotcode-core]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [ovos-utils]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [robotcode]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [denmune]: New version: [1.15.9] Old Version: [1.15.8]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [robotcode-plugin]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:18:57] INFO root fetch - processPackages [aim]: New version: [4.0.0.dev5] Old Version: [4.0.0.dev4]
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamachine]: Downloading https://files.pythonhosted.org/packages/5e/35/5f7ed7fa89a8decf2f517d31540d18896e25acb1e48020893454c96be07f/datamachine-0.1.0.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [lumos-sat]: Downloading https://files.pythonhosted.org/packages/9b/74/37cd2844787a53a3a6d31d78f7d062922b8a94b192aa0b42ac192e13da71/lumos-sat-1.0.1.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [denmune]: Downloading https://files.pythonhosted.org/packages/1a/4b/708ab50c683b5bd7504bf99d9d3a04b865cafa02b820657f65159b22d87e/denmune-1.15.9.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/15/04/0624cfb818b4aa00681fd98b1d6ff24f56e0dc30cc0aa27fb90fce93dcc3/aim-ui-4.0.0.dev4.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamate]: Downloading https://files.pythonhosted.org/packages/48/2f/6f7f7039c632de7594315d1e3203c4b913ce5097071f1580bd786e98850c/datamate-0.1.6.tar.gz
+[2023-05-01 21:18:58] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 21591110>=10485760
+[2023-05-01 21:18:58] INFO root fetch - processPackages [aim-ui]: Start processing: robotcode-robot
+[2023-05-01 21:18:58] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-robot]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-core]: Downloading https://files.pythonhosted.org/packages/f3/d2/7ea739c2da3eaa53e666671258dfcb46aa409c61230ca1c42d343ec209e2/robotcode_core-0.36.0.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-plugin]: Downloading https://files.pythonhosted.org/packages/d8/c5/4711d28b04226b62dec88cda142553fcf0b7678407a7ae7f7e85550848c9/robotcode_plugin-0.36.0.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamate]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [denmune]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamate-0.1.5.tar.gz tmp/datamate-0.1.6.tar.gz --markdown 20230501/d/datamate/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [denmune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/denmune-1.15.8.tar.gz tmp/denmune-1.15.9.tar.gz --markdown 20230501/d/denmune/1.15.8-1.15.9/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [ovos-utils]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [ovos-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_utils-0.0.9.tar.gz tmp/ovos_utils-0.0.9a1.tar.gz --markdown 20230501/o/ovos-utils/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode-0.9.5.tar.gz tmp/robotcode-0.9.6.tar.gz --markdown 20230501/r/robotcode/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/bf/77/0a0197c1a2ee5d84592b13fa6e8d94fabeeb6a52152924656a1defe8572c/aim-4.0.0.dev5.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamachine]: Downloading https://files.pythonhosted.org/packages/f4/93/bf199da3d3a2c92fa6845426d8ca6ced532e58679f26c64c6e899303e321/datamachine-0.1.1.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-core]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_core-0.35.0.tar.gz tmp/robotcode_core-0.36.0.tar.gz --markdown 20230501/r/robotcode-core/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-plugin]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_plugin-0.35.0.tar.gz tmp/robotcode_plugin-0.36.0.tar.gz --markdown 20230501/r/robotcode-plugin/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [lumos-sat]: Downloading https://files.pythonhosted.org/packages/6b/16/d12a455158c837c5c82b26e3a17e0f5ac197bc45e1938c4c1adfa8c43c01/lumos-sat-1.0.2.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamachine]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [datamachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamachine-0.1.0.tar.gz tmp/datamachine-0.1.1.tar.gz --markdown 20230501/d/datamachine/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0.dev4.tar.gz tmp/aim-4.0.0.dev5.tar.gz --markdown 20230501/a/aim/4.0.0.dev4-4.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [lumos-sat]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [lumos-sat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumos-sat-1.0.1.tar.gz tmp/lumos-sat-1.0.2.tar.gz --markdown 20230501/l/lumos-sat/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-robot]: Downloading https://files.pythonhosted.org/packages/6a/93/d22d2bfe21c2995f9b14c00780f0aeea326f35340259cd0aa7ecb68f7617/robotcode_robot-0.36.0.tar.gz
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-robot]: executing diffoscope
+[2023-05-01 21:18:58] INFO root fetch - processPackages [robotcode-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_robot-0.35.0.tar.gz tmp/robotcode_robot-0.36.0.tar.gz --markdown 20230501/r/robotcode-robot/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-core]: Start processing: robotcode-runner
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [robotcode-core]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-runner]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [denmune]: Start processing: robotcode-jsonrpc2
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [denmune]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-jsonrpc2]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [datamate]: Start processing: robotcode-debugger
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [datamate]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-plugin]: Start processing: robotcode-analyze
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [robotcode-plugin]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-debugger]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-analyze]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [datamachine]: Start processing: robotcode-modifiers
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [datamachine]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-modifiers]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-robot]: Start processing: robotcode-language-server
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [robotcode-robot]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-runner]: Downloading https://files.pythonhosted.org/packages/d6/d5/bb5e18bffc1dfca6f6f91ba1adbf49f0dd0c9d689f84371fbf8250349eba/robotcode_runner-0.36.0.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-language-server]: New version: [0.36.0] Old Version: [0.35.0]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [ovos-utils]: Start processing: tlux
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [ovos-utils]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [tlux]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-runner]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_runner-0.35.0.tar.gz tmp/robotcode_runner-0.36.0.tar.gz --markdown 20230501/r/robotcode-runner/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [lumos-sat]: Start processing: remotecall
+[2023-05-01 21:19:00] INFO root fetch - main [MainThread]: End processing [lumos-sat]: success
+[2023-05-01 21:19:00] INFO root fetch - processPackages [tlux]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [tlux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlux-0.0.8.tar.gz tmp/tlux-0.0.9.tar.gz --markdown 20230501/t/tlux/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-jsonrpc2]: Downloading https://files.pythonhosted.org/packages/b1/60/6dce1ac0a9ea249bc05eaddd16f50265a679b007bcb80f332f5183cca268/robotcode_jsonrpc2-0.36.0.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-debugger]: Downloading https://files.pythonhosted.org/packages/93/d2/06436d1bb2e2dd5ae957d4f897be99584e752b7775b6077804946539e426/robotcode_debugger-0.36.0.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-analyze]: Downloading https://files.pythonhosted.org/packages/71/f4/5b471b1698e42f7538443eeba9ba7a260c2b2d80c470d7a55182de261d93/robotcode_analyze-0.36.0.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-modifiers]: Downloading https://files.pythonhosted.org/packages/03/5e/5b7afb15b5bcec9c7b438c1b066d11df9097358ac66d5b09aec7f5d1057e/robotcode_modifiers-0.36.0.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [remotecall]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-jsonrpc2]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-jsonrpc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_jsonrpc2-0.35.0.tar.gz tmp/robotcode_jsonrpc2-0.36.0.tar.gz --markdown 20230501/r/robotcode-jsonrpc2/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-debugger]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_debugger-0.35.0.tar.gz tmp/robotcode_debugger-0.36.0.tar.gz --markdown 20230501/r/robotcode-debugger/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-language-server]: Downloading https://files.pythonhosted.org/packages/41/75/ced064c63cc0d15ea63fae5c26df6516fd6f7e1c79b48d82168e3c23fe31/robotcode_language_server-0.36.0.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-modifiers]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-modifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_modifiers-0.35.0.tar.gz tmp/robotcode_modifiers-0.36.0.tar.gz --markdown 20230501/r/robotcode-modifiers/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-analyze]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-analyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_analyze-0.35.0.tar.gz tmp/robotcode_analyze-0.36.0.tar.gz --markdown 20230501/r/robotcode-analyze/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:00] INFO root fetch - processPackages [remotecall]: Downloading https://files.pythonhosted.org/packages/46/21/30fd88503df6393c68b614acd5b0d421e43583adebd1d60a5a9779fb57d5/remotecall-0.1.1.tar.gz
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-language-server]: executing diffoscope
+[2023-05-01 21:19:00] INFO root fetch - processPackages [robotcode-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotcode_language_server-0.35.0.tar.gz tmp/robotcode_language_server-0.36.0.tar.gz --markdown 20230501/r/robotcode-language-server/0.35.0-0.36.0/diff.md --exclude *.pyd
+[2023-05-01 21:19:01] INFO root fetch - processPackages [remotecall]: Downloading https://files.pythonhosted.org/packages/b4/46/a53178ed3cc2ebceaf209eb5d748ee3e2ec81bfeb63a352c1bf43b183d9f/remotecall-0.1.2.tar.gz
+[2023-05-01 21:19:01] INFO root fetch - processPackages [remotecall]: executing diffoscope
+[2023-05-01 21:19:01] INFO root fetch - processPackages [remotecall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotecall-0.1.1.tar.gz tmp/remotecall-0.1.2.tar.gz --markdown 20230501/r/remotecall/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 21:19:01] INFO root fetch - main [MainThread]: End processing [robotcode-runner]: success
+[2023-05-01 21:19:02] INFO root fetch - main [MainThread]: End processing [robotcode-modifiers]: success
+[2023-05-01 21:19:02] INFO root fetch - main [MainThread]: End processing [robotcode-debugger]: success
+[2023-05-01 21:19:02] INFO root fetch - main [MainThread]: End processing [robotcode-analyze]: success
+[2023-05-01 21:19:02] INFO root fetch - main [MainThread]: End processing [robotcode-jsonrpc2]: success
+[2023-05-01 21:19:02] INFO root fetch - main [MainThread]: End processing [tlux]: success
+[2023-05-01 21:19:02] INFO root fetch - main [MainThread]: End processing [remotecall]: success
+[2023-05-01 21:19:03] INFO root fetch - main [MainThread]: End processing [robotcode]: success
+[2023-05-01 21:19:05] INFO root fetch - main [MainThread]: End processing [robotcode-language-server]: success
+[2023-05-01 21:19:09] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-05-01 21:19:09] INFO root fetch - main [MainThread]: Store serial: [17930659]
