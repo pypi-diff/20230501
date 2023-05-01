@@ -13737,3 +13737,101 @@ EOFError: EOF read where object expected
 [2023-05-01 17:59:37] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
 [2023-05-01 17:59:54] INFO root fetch - main [MainThread]: End processing [pyspimosim]: success
 [2023-05-01 17:59:54] INFO root fetch - main [MainThread]: Store serial: [17928461]
+[2023-05-01 18:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928461]
+[2023-05-01 18:05:03] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpy-cross-v6.1
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bow-cli
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wynntilsresolver
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llvm-installer
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-silly-auth
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hiddifypanel
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ape-vyper
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bow-cli
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: satcfdi
+[2023-05-01 18:05:03] WARNING root fetch - processPackages [mpy-cross-v6.1]: Skipping, unable to determine old version
+[2023-05-01 18:05:03] INFO root fetch - processPackages [mpy-cross-v6.1]: Start processing: autora-workflow
+[2023-05-01 18:05:03] INFO root fetch - main [MainThread]: End processing [mpy-cross-v6.1] error
+[2023-05-01 18:05:03] INFO root fetch - processPackages [llvm-installer]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [wynntilsresolver]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora]: New version: [3.0.0a6] Old Version: [3.0.0a4]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [django-silly-auth]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [hiddifypanel]: New version: [6.0.1] Old Version: [6.0.0.dev5]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ape-vyper]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora-workflow]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: Downloading https://files.pythonhosted.org/packages/ff/d4/e24818ba909a416169957384783810fb4bb2b8955ca8b9c5f803b7430b7d/bow_cli-1.0.0.4.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: Downloading https://files.pythonhosted.org/packages/ff/d4/e24818ba909a416169957384783810fb4bb2b8955ca8b9c5f803b7430b7d/bow_cli-1.0.0.4.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [wynntilsresolver]: Downloading https://files.pythonhosted.org/packages/0d/c2/a9b44f8e9b1f83459e0975d1909057d95cd93e164ab1004eff4ffd07011f/wynntilsresolver-0.1.0.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [llvm-installer]: Downloading https://files.pythonhosted.org/packages/53/14/16c831df7fb6a962f1d5bb9ce1ce8bdb44b2e4ca50ae99ccfc04caf8963f/llvm-installer-1.3.0.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/72/3d/8286173bc477aa516eb3a03bb373041c7c2834501b2b018131771c2f82b7/hiddifypanel-6.0.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bow_cli-1.0.0.3.tar.gz tmp/bow_cli-1.0.0.4.tar.gz --markdown 20230501/b/bow-cli/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [bow-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bow_cli-1.0.0.3.tar.gz tmp/bow_cli-1.0.0.4.tar.gz --markdown 20230501/b/bow-cli/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [django-silly-auth]: Downloading https://files.pythonhosted.org/packages/22/db/8b8344b7434fb4a21c14185fac467c3e12f60703837e195561a22bc6d41e/django-silly-auth-1.1.1.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora]: Downloading https://files.pythonhosted.org/packages/ff/7e/bdba05e600352bb05e6af900f5c7f1f54740bb64637ca4d3d17ff4536469/autora-3.0.0a6.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ape-vyper]: Downloading https://files.pythonhosted.org/packages/3e/ec/54f61109119e654522aea81def12b42e8e082531de4d376daffe82cee170/ape-vyper-0.6.5.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora-workflow]: Downloading https://files.pythonhosted.org/packages/8b/7a/5a2eb1c0e4d7427ef04b91f24999fc907c7427c289fb598a110cf974fc34/autora-workflow-0.2.1.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [llvm-installer]: Downloading https://files.pythonhosted.org/packages/1e/5a/16aa013dc28dabbb800b8fc2c7d228776e6ca11aa05e34203068845cd4fc/llvm-installer-1.3.1.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [django-silly-auth]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [django-silly-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-silly-auth-1.1.0.tar.gz tmp/django-silly-auth-1.1.1.tar.gz --markdown 20230501/d/django-silly-auth/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [wynntilsresolver]: Downloading https://files.pythonhosted.org/packages/dc/a0/bffea8de1897a27b46aa55d06f8baa9ff06de57d36e40511c3371a67eab5/wynntilsresolver-0.1.1.tar.gz
+[2023-05-01 18:05:03] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230501/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-3.0.0a4.tar.gz tmp/autora-3.0.0a6.tar.gz --markdown 20230501/a/autora/3.0.0a4-3.0.0a6/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ape-vyper]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [ape-vyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-vyper-0.6.4.tar.gz tmp/ape-vyper-0.6.5.tar.gz --markdown 20230501/a/ape-vyper/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [llvm-installer]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [llvm-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llvm-installer-1.3.0.tar.gz tmp/llvm-installer-1.3.1.tar.gz --markdown 20230501/l/llvm-installer/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora-workflow]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [autora-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-workflow-0.2.0.tar.gz tmp/autora-workflow-0.2.1.tar.gz --markdown 20230501/a/autora-workflow/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 18:05:03] INFO root fetch - processPackages [wynntilsresolver]: executing diffoscope
+[2023-05-01 18:05:03] INFO root fetch - processPackages [wynntilsresolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wynntilsresolver-0.1.0.tar.gz tmp/wynntilsresolver-0.1.1.tar.gz --markdown 20230501/w/wynntilsresolver/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 18:05:04] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-01 18:05:04] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.0.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230501/h/hiddifypanel/6.0.0.dev5-6.0.1/diff.md --exclude *.pyd
+[2023-05-01 18:05:04] INFO root fetch - processPackages [bow-cli]: Start processing: entitylinking-wikipedia
+[2023-05-01 18:05:04] INFO root fetch - main [MainThread]: End processing [bow-cli]: success
+[2023-05-01 18:05:05] WARNING root fetch - processPackages [entitylinking-wikipedia]: Skipping, unable to determine old version
+[2023-05-01 18:05:05] INFO root fetch - processPackages [entitylinking-wikipedia]: Start processing: entitylinkin-wikipedia
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [entitylinking-wikipedia] error
+[2023-05-01 18:05:05] INFO root fetch - processPackages [bow-cli]: Start processing: adafruit-circuitpython-rockblock
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [bow-cli]: success
+[2023-05-01 18:05:05] ERROR root fetch - processPackages [entitylinkin-wikipedia]: Unable to get metadata: No such project 'entitylinkin-wikipedia'
+[2023-05-01 18:05:05] INFO root fetch - processPackages [entitylinkin-wikipedia]: Start processing: certora-cli-alpha-shelly-deep2
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [entitylinkin-wikipedia] error
+[2023-05-01 18:05:05] INFO root fetch - processPackages [adafruit-circuitpython-rockblock]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-01 18:05:05] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deep2]: Skipping, unable to determine old version
+[2023-05-01 18:05:05] INFO root fetch - processPackages [certora-cli-alpha-shelly-deep2]: Start processing: autora-core
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deep2] error
+[2023-05-01 18:05:05] INFO root fetch - processPackages [wynntilsresolver]: Start processing: autora-theorist-darts
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [wynntilsresolver]: success
+[2023-05-01 18:05:05] INFO root fetch - processPackages [adafruit-circuitpython-rockblock]: Downloading https://files.pythonhosted.org/packages/40/76/526b31a283fbbd11ce864bb699921d43d21af426bc84019ddb40c4115e8b/adafruit-circuitpython-rockblock-1.3.8.tar.gz
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-core]: New version: [3.0.0a7] Old Version: [3.0.0a6]
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-theorist-darts]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-workflow]: Start processing: reflect-client
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [autora-workflow]: success
+[2023-05-01 18:05:05] WARNING root fetch - processPackages [reflect-client]: Skipping, unable to determine old version
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [reflect-client] error
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [llvm-installer]: success
+[2023-05-01 18:05:05] INFO root fetch - processPackages [adafruit-circuitpython-rockblock]: Downloading https://files.pythonhosted.org/packages/9c/e2/dc8be4aa1dbe451c3b2dc0a56a24b0896f4bf2c329b7cd40b047214d62c6/adafruit-circuitpython-rockblock-1.3.9.tar.gz
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-theorist-darts]: Downloading https://files.pythonhosted.org/packages/48/dd/e3585169d9c9f183f6b6c4fc46fa6bc66bd3751415e586569fff69e99e51/autora-theorist-darts-1.0.0a4.tar.gz
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-core]: Downloading https://files.pythonhosted.org/packages/cd/c0/d4975a6c1ceedcddae384e5c826f36e1d964e4ecc571d1087c61260840d8/autora-core-3.0.0a7.tar.gz
+[2023-05-01 18:05:05] INFO root fetch - processPackages [adafruit-circuitpython-rockblock]: executing diffoscope
+[2023-05-01 18:05:05] INFO root fetch - processPackages [adafruit-circuitpython-rockblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-rockblock-1.3.8.tar.gz tmp/adafruit-circuitpython-rockblock-1.3.9.tar.gz --markdown 20230501/a/adafruit-circuitpython-rockblock/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-01 18:05:05] INFO root fetch - main [MainThread]: End processing [ape-vyper]: success
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-theorist-darts]: executing diffoscope
+[2023-05-01 18:05:05] INFO root fetch - processPackages [autora-theorist-darts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-theorist-darts-1.0.0a3.tar.gz tmp/autora-theorist-darts-1.0.0a4.tar.gz --markdown 20230501/a/autora-theorist-darts/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-05-01 18:05:06] INFO root fetch - processPackages [autora-core]: executing diffoscope
+[2023-05-01 18:05:06] INFO root fetch - processPackages [autora-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-core-3.0.0a6.tar.gz tmp/autora-core-3.0.0a7.tar.gz --markdown 20230501/a/autora-core/3.0.0a6-3.0.0a7/diff.md --exclude *.pyd
+[2023-05-01 18:05:06] INFO root fetch - main [MainThread]: End processing [django-silly-auth]: success
+[2023-05-01 18:05:06] INFO root fetch - main [MainThread]: End processing [autora]: success
+[2023-05-01 18:05:07] INFO root fetch - main [MainThread]: End processing [autora-theorist-darts]: success
+[2023-05-01 18:05:07] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-rockblock]: success
+[2023-05-01 18:05:07] INFO root fetch - main [MainThread]: End processing [autora-core]: success
+[2023-05-01 18:05:11] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-05-01 18:05:21] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-01 18:05:21] INFO root fetch - main [MainThread]: Store serial: [17928585]
