@@ -3285,3 +3285,67 @@
 [2023-05-01 03:38:03] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
 [2023-05-01 03:38:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
 [2023-05-01 03:38:03] INFO root fetch - main [MainThread]: Store serial: [17922294]
+[2023-05-01 03:43:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922294]
+[2023-05-01 03:43:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez-data-pipeline
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepequests
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-sphinx
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nlp2
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arroba
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prepup
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-django
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: souJpg-comm
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-apl
+[2023-05-01 03:43:11] WARNING root fetch - processPackages [ez-data-pipeline]: Skipping, unable to determine old version
+[2023-05-01 03:43:11] WARNING root fetch - processPackages [arroba]: Skipping, unable to determine old version
+[2023-05-01 03:43:11] INFO root fetch - processPackages [ez-data-pipeline]: Start processing: cdk-lambda-layer-wget
+[2023-05-01 03:43:11] INFO root fetch - processPackages [arroba]: Start processing: shady-island
+[2023-05-01 03:43:11] INFO root fetch - main [MainThread]: End processing [ez-data-pipeline] error
+[2023-05-01 03:43:11] INFO root fetch - main [MainThread]: End processing [arroba] error
+[2023-05-01 03:43:11] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 03:43:11] INFO root fetch - processPackages [nlp2]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-05-01 03:43:11] WARNING root fetch - processPackages [pepequests]: Skipping, unable to determine old version
+[2023-05-01 03:43:11] INFO root fetch - main [MainThread]: End processing [pepequests] error
+[2023-05-01 03:43:12] INFO root fetch - processPackages [prepup]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.745] Old Version: [0.0.744]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [shady-island]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nlp2]: Downloading https://files.pythonhosted.org/packages/f2/ac/4b1993bb4ce5c0365c691765e8d11701c3777a583807e435399f95275891/nlp2-1.8.8.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [prepup]: Downloading https://files.pythonhosted.org/packages/d1/64/e4641c37e77a7dfc8774d8dcad07a7b3e1c68978cea8d65478f907705d36/prepup-0.0.7.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230501/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230501/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230501/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/46/ac/209c7094ac5d87545f7b714ddf31babb92d54886942fee9d802b8b6e1305/souJpg-comm-1.0.0.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.744.tar.gz tmp/nbdev-apl-0.0.745.tar.gz --markdown 20230501/n/nbdev-apl/0.0.744-0.0.745/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/ed/ae/a7a990a5b643750cce1402cad9e15fd73a9c16dc25acb3c8a49f79eb7a7d/shady-island-0.0.8.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [prepup]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [prepup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepup-0.0.6.tar.gz tmp/prepup-0.0.7.tar.gz --markdown 20230501/p/prepup/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230501/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/80/6d/905453533424105b62396c209a707af2a8736fd8b1c2109c4361227d1339/souJpg-comm-1.0.1.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nlp2]: Downloading https://files.pythonhosted.org/packages/77/ab/46377678d6582d770be274d90003d2465bf547b723dae63270bcf1718015/nlp2-1.8.9.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.0.0.tar.gz tmp/souJpg-comm-1.0.1.tar.gz --markdown 20230501/s/souJpg-comm/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 03:43:12] INFO root fetch - processPackages [shady-island]: Downloading https://files.pythonhosted.org/packages/69/14/ae3dbf243e4cb1db1d1a6d89c5b0ab88ad11f64d1873591474d5e78d2c24/shady-island-0.0.9.tar.gz
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nlp2]: executing diffoscope
+[2023-05-01 03:43:12] INFO root fetch - processPackages [nlp2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp2-1.8.8.tar.gz tmp/nlp2-1.8.9.tar.gz --markdown 20230501/n/nlp2/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-05-01 03:43:13] INFO root fetch - processPackages [shady-island]: executing diffoscope
+[2023-05-01 03:43:13] INFO root fetch - processPackages [shady-island]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shady-island-0.0.8.tar.gz tmp/shady-island-0.0.9.tar.gz --markdown 20230501/s/shady-island/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 03:43:13] INFO root fetch - main [MainThread]: End processing [prepup]: success
+[2023-05-01 03:43:13] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-01 03:43:13] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-01 03:43:14] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-01 03:43:14] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-05-01 03:43:14] INFO root fetch - main [MainThread]: End processing [nlp2]: success
+[2023-05-01 03:43:14] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-01 03:43:15] INFO root fetch - main [MainThread]: End processing [shady-island]: success
+[2023-05-01 03:43:15] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-01 03:43:15] INFO root fetch - main [MainThread]: Store serial: [17922337]
