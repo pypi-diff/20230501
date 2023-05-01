@@ -5641,3 +5641,74 @@
 [2023-05-01 09:49:50] INFO root fetch - main [MainThread]: End processing [sqlmap]: success
 [2023-05-01 09:49:51] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-05-01 09:49:51] INFO root fetch - main [MainThread]: Store serial: [17923778]
+[2023-05-01 09:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923778]
+[2023-05-01 09:55:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bel-digital-handwriting-py
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gqt
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiomisc
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geo-espresso
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xia-engine-terraform
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spPersist
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matfree
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-admin-modernize
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-cpu
+[2023-05-01 09:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: python-upbit-api
+[2023-05-01 09:55:00] INFO root fetch - processPackages [spPersist]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 09:55:00] INFO root fetch - processPackages [geo-espresso]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-01 09:55:00] INFO root fetch - processPackages [django-admin-modernize]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 09:55:00] WARNING root fetch - processPackages [bel-digital-handwriting-py]: Skipping, unable to determine old version
+[2023-05-01 09:55:00] INFO root fetch - processPackages [bel-digital-handwriting-py]: Start processing: numerizer
+[2023-05-01 09:55:00] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py] error
+[2023-05-01 09:55:00] INFO root fetch - processPackages [gqt]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 09:55:00] INFO root fetch - processPackages [matfree]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 09:55:00] WARNING root fetch - processPackages [python-upbit-api]: Skipping, unable to determine old version
+[2023-05-01 09:55:00] INFO root fetch - processPackages [python-upbit-api]: Start processing: hyclib
+[2023-05-01 09:55:00] INFO root fetch - main [MainThread]: End processing [python-upbit-api] error
+[2023-05-01 09:55:00] INFO root fetch - processPackages [geo-espresso]: executing diffoscope
+[2023-05-01 09:55:00] INFO root fetch - processPackages [geo-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo-espresso-0.3.1.tar.gz tmp/geo-espresso-0.3.2.tar.gz --markdown 20230501/g/geo-espresso/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-01 09:55:00] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2023-05-01 09:55:01] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.13.0.dev20230501] Old Version: [2.13.0.dev20230430]
+[2023-05-01 09:55:01] INFO root fetch - processPackages [django-admin-modernize]: Downloading https://files.pythonhosted.org/packages/74/56/471ca20ac05d1492793617f4e65ebf210b9cd07fd589bad48bff67f1e122/django-admin-modernize-1.0.0.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [xia-engine-terraform]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-01 09:55:01] INFO root fetch - processPackages [numerizer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-01 09:55:01] INFO root fetch - processPackages [hyclib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 09:55:01] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/29/3f/816d95b2c4c4b85038a6e107b4f742aaaeec6e242ab67054dfaab19fcd2e/sppersist-0.1.1.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [numerizer]: Downloading https://files.pythonhosted.org/packages/07/ea/25782597d4ee2e1c88101e3f47bd37d8d6135e182218ee2aad470fac13c9/numerizer-0.2.2.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.0.tar.gz tmp/sppersist-0.1.1.tar.gz --markdown 20230501/s/spPersist/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [hyclib]: Downloading https://files.pythonhosted.org/packages/5e/ac/7534f51c03e918d15d9a92ae60089f592e452864d253fa5f61fd12bfca20/hyclib-0.1.8.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/d2/b8/89864fdc5fc6b7136fe1bcdc9ea1d63c5cd2345d750f4f97423701f63aef/matfree-0.0.3.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [numerizer]: Downloading https://files.pythonhosted.org/packages/08/59/39970654029b4508baf9a8edb08148d15e7f47b2be0e6899af1e91d3a14f/numerizer-0.2.3.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/0d/1a/3b78fe91f77c7d2b4587fb24ec79aed4cef23e3c4aad9beb8d4b9034fc88/tf_nightly_cpu-2.13.0.dev20230501-cp39-cp39-win_amd64.whl
+[2023-05-01 09:55:01] INFO root fetch - processPackages [gqt]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [gqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqt-0.98.0.tar.gz tmp/gqt-0.99.0.tar.gz --markdown 20230501/g/gqt/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [xia-engine-terraform]: Downloading https://files.pythonhosted.org/packages/b0/af/6e48261b38f2042d2e25f24574ddbbdc83f5ada727b3dac9f8ed37425522/xia_engine_terraform-0.1.5-cp39-none-win_amd64.whl
+[2023-05-01 09:55:01] INFO root fetch - processPackages [matfree]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [matfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfree-0.0.2.tar.gz tmp/matfree-0.0.3.tar.gz --markdown 20230501/m/matfree/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.13.0.dev20230430-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.13.0.dev20230501-cp39-cp39-win_amd64.whl.zip --markdown 20230501/t/tf-nightly-cpu/2.13.0.dev20230430-2.13.0.dev20230501/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [numerizer]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [numerizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerizer-0.2.2.tar.gz tmp/numerizer-0.2.3.tar.gz --markdown 20230501/n/numerizer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [xia-engine-terraform]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [xia-engine-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_engine_terraform-0.1.4-cp39-none-win_amd64.whl.zip tmp/xia_engine_terraform-0.1.5-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-engine-terraform/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [hyclib]: Downloading https://files.pythonhosted.org/packages/77/60/3605b1fea9e2e63684965d62093a210f1426336c8909c5206e1d73fea36a/hyclib-0.1.9.tar.gz
+[2023-05-01 09:55:01] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20230501/a/aiomisc/9.8.1-9.8.4/diff.md --exclude *.pyd
+[2023-05-01 09:55:01] INFO root fetch - processPackages [hyclib]: executing diffoscope
+[2023-05-01 09:55:01] INFO root fetch - processPackages [hyclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyclib-0.1.8.tar.gz tmp/hyclib-0.1.9.tar.gz --markdown 20230501/h/hyclib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 09:55:02] INFO root fetch - processPackages [django-admin-modernize]: Downloading https://files.pythonhosted.org/packages/3d/2e/891bad53c951cb668eb776802dc3b9ffaa6679736529ed21d0581606328b/django-admin-modernize-1.0.1.tar.gz
+[2023-05-01 09:55:02] INFO root fetch - processPackages [django-admin-modernize]: executing diffoscope
+[2023-05-01 09:55:02] INFO root fetch - processPackages [django-admin-modernize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-modernize-1.0.0.tar.gz tmp/django-admin-modernize-1.0.1.tar.gz --markdown 20230501/d/django-admin-modernize/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 09:55:02] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 09:55:02] INFO root fetch - main [MainThread]: End processing [gqt]: success
+[2023-05-01 09:55:03] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-01 09:55:03] INFO root fetch - main [MainThread]: End processing [matfree]: success
+[2023-05-01 09:55:03] INFO root fetch - main [MainThread]: End processing [numerizer]: success
+[2023-05-01 09:55:03] INFO root fetch - main [MainThread]: End processing [xia-engine-terraform]: success
+[2023-05-01 09:55:03] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2023-05-01 09:55:03] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
+[2023-05-01 09:55:04] INFO root fetch - main [MainThread]: End processing [hyclib]: success
+[2023-05-01 09:56:40] INFO root fetch - main [MainThread]: End processing [django-admin-modernize]: success
+[2023-05-01 09:56:40] INFO root fetch - main [MainThread]: Store serial: [17923830]
