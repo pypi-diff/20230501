@@ -5007,3 +5007,30 @@
 [2023-05-01 08:20:21] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-01 08:20:22] INFO root fetch - main [MainThread]: End processing [kirui]: success
 [2023-05-01 08:20:22] INFO root fetch - main [MainThread]: Store serial: [17923348]
+[2023-05-01 08:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923348]
+[2023-05-01 08:25:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xia-scw-template
+[2023-05-01 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kirui
+[2023-05-01 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyranges
+[2023-05-01 08:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-05-01 08:25:31] INFO root fetch - processPackages [xia-scw-template]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-01 08:25:31] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230430] Old Version: [20230429]
+[2023-05-01 08:25:31] INFO root fetch - processPackages [pyranges]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 08:25:31] INFO root fetch - processPackages [kirui]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-01 08:25:31] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-01 08:25:31] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230429.tar.gz tmp/fake-bpy-module-latest-20230430.tar.gz --markdown 20230501/f/fake-bpy-module-latest/20230429-20230430/diff.md --exclude *.pyd
+[2023-05-01 08:25:31] INFO root fetch - processPackages [kirui]: Downloading https://files.pythonhosted.org/packages/9a/df/1561aea9ee1e30545436a6b57d4a11cd4400a64cf6c8ef3d4b8751bed164/kirui-0.5.9.tar.gz
+[2023-05-01 08:25:31] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/cc/7d/48a8a699ffa2c49b6484bd47cf8433b3c68d05ef4b57fc8806a3ebf31bae/pyranges-0.0.98.tar.gz
+[2023-05-01 08:25:31] INFO root fetch - processPackages [xia-scw-template]: Downloading https://files.pythonhosted.org/packages/03/f0/e80129ac4904b55ab357c8b6223329028bc657abcdc89cad36a05f75b38f/xia_scw_template-0.0.4-cp39-none-win_amd64.whl
+[2023-05-01 08:25:31] INFO root fetch - processPackages [xia-scw-template]: executing diffoscope
+[2023-05-01 08:25:31] INFO root fetch - processPackages [xia-scw-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_template-0.0.2-cp39-none-win_amd64.whl.zip tmp/xia_scw_template-0.0.4-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-scw-template/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 08:25:31] INFO root fetch - processPackages [kirui]: executing diffoscope
+[2023-05-01 08:25:31] INFO root fetch - processPackages [kirui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirui-0.5.8.tar.gz tmp/kirui-0.5.9.tar.gz --markdown 20230501/k/kirui/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-01 08:25:32] INFO root fetch - processPackages [pyranges]: Downloading https://files.pythonhosted.org/packages/4b/72/075fd9696e4c448209d751656d7184b1b3a7738ab256428ba4bef0fbbc25/pyranges-0.0.99.tar.gz
+[2023-05-01 08:25:32] INFO root fetch - processPackages [pyranges]: executing diffoscope
+[2023-05-01 08:25:32] INFO root fetch - processPackages [pyranges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyranges-0.0.98.tar.gz tmp/pyranges-0.0.99.tar.gz --markdown 20230501/p/pyranges/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 08:25:32] INFO root fetch - main [MainThread]: End processing [xia-scw-template]: success
+[2023-05-01 08:25:34] INFO root fetch - main [MainThread]: End processing [pyranges]: success
+[2023-05-01 08:25:36] INFO root fetch - main [MainThread]: End processing [kirui]: success
+[2023-05-01 08:25:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-01 08:25:37] INFO root fetch - main [MainThread]: Store serial: [17923365]
