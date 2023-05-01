@@ -6525,3 +6525,54 @@
 [2023-05-01 11:12:37] INFO root fetch - main [MainThread]: End processing [QScintilla]: success
 [2023-05-01 11:12:40] INFO root fetch - main [MainThread]: End processing [PyQt6-QScintilla]: success
 [2023-05-01 11:12:40] INFO root fetch - main [MainThread]: Store serial: [17924299]
+[2023-05-01 11:17:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924299]
+[2023-05-01 11:17:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyosrs
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Shark-sac-Korean-editor
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-lineage-viewer
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KorDigits
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: extr-ds
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xia-scw-vpc
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SpectroscopicBinarySystem
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentrain
+[2023-05-01 11:17:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hexo-inpainting
+[2023-05-01 11:17:49] WARNING root fetch - processPackages [Shark-sac-Korean-editor]: Skipping, unable to determine old version
+[2023-05-01 11:17:49] INFO root fetch - main [MainThread]: End processing [Shark-sac-Korean-editor] error
+[2023-05-01 11:17:49] INFO root fetch - processPackages [pyosrs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 11:17:49] INFO root fetch - processPackages [dbt-lineage-viewer]: New version: [0.2] Old Version: [0.1]
+[2023-05-01 11:17:49] INFO root fetch - processPackages [KorDigits]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 11:17:49] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.1.42] Old Version: [1.1.41]
+[2023-05-01 11:17:49] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 11:17:49] INFO root fetch - processPackages [opentrain]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-05-01 11:17:49] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 11:17:49] WARNING root fetch - processPackages [hexo-inpainting]: Skipping, unable to determine old version
+[2023-05-01 11:17:49] INFO root fetch - main [MainThread]: End processing [hexo-inpainting] error
+[2023-05-01 11:17:49] INFO root fetch - processPackages [pyosrs]: Downloading https://files.pythonhosted.org/packages/c6/30/25c52ddfc7fcebf10e0018f1dffdfd267372a0f2811f06734efacb8dbc78/pyosrs-0.0.1.tar.gz
+[2023-05-01 11:17:49] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/af/20/77aa9c03db5d83b92fbb35be71a22b65f08e8310e8b489fb7f49b7927178/KorDigits-0.1.0-py3-none-any.whl
+[2023-05-01 11:17:49] INFO root fetch - processPackages [dbt-lineage-viewer]: Downloading https://files.pythonhosted.org/packages/ca/12/81185959d34dcba9bfb6564109109606ed6f946bf4d063c8cdec4dd966de/dbt_lineage_viewer-0.1.tar.gz
+[2023-05-01 11:17:49] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 28594981>=10485760
+[2023-05-01 11:17:49] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-05-01 11:17:49] INFO root fetch - processPackages [pyosrs]: Downloading https://files.pythonhosted.org/packages/20/7e/75975367762bec1675fbebcabe8d0d8d485b0d7f6dd16f477431414713b2/pyosrs-0.0.2.tar.gz
+[2023-05-01 11:17:49] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/0f/ee/3726c8f4343936f0aaf0d1a61caad6df45723391b3678639bb55e7e4ba56/SpectroscopicBinarySystem-1.1.42.tar.gz
+[2023-05-01 11:17:49] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/62/88/3405c1cba88b75b7398c4caf83fc74d55eedf23f2cb18a1f762c17a2e8ef/xia_scw_vpc-0.0.9-cp39-none-macosx_11_0_x86_64.whl
+[2023-05-01 11:17:49] INFO root fetch - processPackages [opentrain]: Downloading https://files.pythonhosted.org/packages/26/01/0e6684857feaa45774828b80112b7d938f60822acc826ed00e728b124cd4/opentrain-0.1.0.tar.gz
+[2023-05-01 11:17:49] INFO root fetch - processPackages [pyosrs]: executing diffoscope
+[2023-05-01 11:17:49] INFO root fetch - processPackages [pyosrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyosrs-0.0.1.tar.gz tmp/pyosrs-0.0.2.tar.gz --markdown 20230501/p/pyosrs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 11:17:49] INFO root fetch - processPackages [dbt-lineage-viewer]: Downloading https://files.pythonhosted.org/packages/72/ee/193faed4f2dc5b9db99ef2ae7321ed3008d4dab8ccc6ddc2a4176d0b1982/dbt_lineage_viewer-0.2.tar.gz
+[2023-05-01 11:17:49] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-05-01 11:17:49] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.1.41.tar.gz tmp/SpectroscopicBinarySystem-1.1.42.tar.gz --markdown 20230501/S/SpectroscopicBinarySystem/1.1.41-1.1.42/diff.md --exclude *.pyd
+[2023-05-01 11:17:49] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-01 11:17:49] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230501/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:17:49] INFO root fetch - processPackages [opentrain]: executing diffoscope
+[2023-05-01 11:17:49] INFO root fetch - processPackages [opentrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrain-0.0.4.tar.gz tmp/opentrain-0.1.0.tar.gz --markdown 20230501/o/opentrain/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 11:17:49] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-05-01 11:17:49] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.0.8-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.0.9-cp39-none-macosx_11_0_x86_64.whl.zip --markdown 20230501/x/xia-scw-vpc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:17:49] INFO root fetch - processPackages [dbt-lineage-viewer]: executing diffoscope
+[2023-05-01 11:17:49] INFO root fetch - processPackages [dbt-lineage-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_lineage_viewer-0.1.tar.gz tmp/dbt_lineage_viewer-0.2.tar.gz --markdown 20230501/d/dbt-lineage-viewer/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-01 11:17:50] INFO root fetch - main [MainThread]: End processing [pyosrs]: success
+[2023-05-01 11:17:50] INFO root fetch - main [MainThread]: End processing [dbt-lineage-viewer]: success
+[2023-05-01 11:17:50] INFO root fetch - main [MainThread]: End processing [opentrain]: success
+[2023-05-01 11:17:51] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-01 11:17:51] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-05-01 11:17:51] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-05-01 11:17:51] INFO root fetch - main [MainThread]: Store serial: [17924351]
