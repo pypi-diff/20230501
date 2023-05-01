@@ -4331,3 +4331,42 @@
 [2023-05-01 06:27:23] INFO root fetch - main [MainThread]: End processing [llmbda-fastapi]: success
 [2023-05-01 06:27:23] INFO root fetch - main [MainThread]: End processing [remindmail]: success
 [2023-05-01 06:27:23] INFO root fetch - main [MainThread]: Store serial: [17922935]
+[2023-05-01 06:32:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922935]
+[2023-05-01 06:32:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-bottle
+[2023-05-01 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyorder
+[2023-05-01 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywencai
+[2023-05-01 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algokit-utils
+[2023-05-01 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vmt
+[2023-05-01 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: puffy
+[2023-05-01 06:32:32] INFO root fetch - processPackages [vmt]: New version: [0.0.0b5] Old Version: [0.0.0b4]
+[2023-05-01 06:32:32] INFO root fetch - processPackages [nonebot-plugin-bottle]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-05-01 06:32:32] INFO root fetch - processPackages [algokit-utils]: New version: [1.1.0b4] Old Version: [1.1.0b3]
+[2023-05-01 06:32:32] INFO root fetch - processPackages [pywencai]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-01 06:32:32] INFO root fetch - processPackages [puffy]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 06:32:32] INFO root fetch - processPackages [findmyorder]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 06:32:32] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-05-01 06:32:32] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.0.8.tar.gz tmp/findmyorder-1.0.9.tar.gz --markdown 20230501/f/findmyorder/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 06:32:32] INFO root fetch - processPackages [vmt]: Downloading https://files.pythonhosted.org/packages/6e/cb/c83c31cd753f259fbc4dec18ec5568bc5bd8f7ebdacb7c835cde71421817/vmt-0.0.0b4.tar.gz
+[2023-05-01 06:32:32] INFO root fetch - processPackages [nonebot-plugin-bottle]: Downloading https://files.pythonhosted.org/packages/29/7c/6e03c16d3d190aa965c67fcb60c73ef277883ba84db45d474db54e61af9f/nonebot_plugin_bottle-1.0.0.4.tar.gz
+[2023-05-01 06:32:32] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/63/9e/91da71a0c129d097ad96c25055e40786e1fd63c699a631baa903b47e8f7c/algokit_utils-1.1.0b4-py3-none-any.whl
+[2023-05-01 06:32:32] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/07/f4/17579472004cf15c431477992caf59d50a398fe4fad9b2c6dd0d05294625/pywencai-0.7.1.tar.gz
+[2023-05-01 06:32:32] INFO root fetch - processPackages [puffy]: Downloading https://files.pythonhosted.org/packages/57/f0/d5354881f25843ed2bafb501c46a32af399c00fa9f36de76d506ebfe2c81/puffy-0.3.0.tar.gz
+[2023-05-01 06:32:32] INFO root fetch - processPackages [nonebot-plugin-bottle]: executing diffoscope
+[2023-05-01 06:32:32] INFO root fetch - processPackages [nonebot-plugin-bottle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bottle-1.0.0.3-py3-none-any.whl.zip tmp/nonebot_plugin_bottle-1.0.0.4.tar.gz --markdown 20230501/n/nonebot-plugin-bottle/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-05-01 06:32:32] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-05-01 06:32:32] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.1.0b3-py3-none-any.whl.zip tmp/algokit_utils-1.1.0b4-py3-none-any.whl.zip --markdown 20230501/a/algokit-utils/1.1.0b3-1.1.0b4/diff.md --exclude *.pyd
+[2023-05-01 06:32:32] INFO root fetch - processPackages [vmt]: Downloading https://files.pythonhosted.org/packages/a9/24/ea45d1bde726a975836d8a3f506e7807bc2447c69cfc764a6d16712528e2/vmt-0.0.0b5.tar.gz
+[2023-05-01 06:32:32] INFO root fetch - processPackages [puffy]: executing diffoscope
+[2023-05-01 06:32:32] INFO root fetch - processPackages [puffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/puffy-0.2.0.tar.gz tmp/puffy-0.3.0.tar.gz --markdown 20230501/p/puffy/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 06:32:32] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-05-01 06:32:32] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.7.0.tar.gz tmp/pywencai-0.7.1.tar.gz --markdown 20230501/p/pywencai/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-01 06:32:32] INFO root fetch - processPackages [vmt]: executing diffoscope
+[2023-05-01 06:32:32] INFO root fetch - processPackages [vmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmt-0.0.0b4.tar.gz tmp/vmt-0.0.0b5.tar.gz --markdown 20230501/v/vmt/0.0.0b4-0.0.0b5/diff.md --exclude *.pyd
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bottle]: success
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: End processing [vmt]: success
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: End processing [puffy]: success
+[2023-05-01 06:32:33] INFO root fetch - main [MainThread]: Store serial: [17922954]
