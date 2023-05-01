@@ -4433,3 +4433,37 @@
 [2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [edgar-analyzer]: success
 [2023-05-01 06:43:21] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-05-01 06:43:21] INFO root fetch - main [MainThread]: Store serial: [17922984]
+[2023-05-01 06:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922984]
+[2023-05-01 06:48:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 06:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: start-url
+[2023-05-01 06:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: age3d
+[2023-05-01 06:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MKN-third-codes
+[2023-05-01 06:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalarztools
+[2023-05-01 06:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MKN-third-codes
+[2023-05-01 06:48:29] INFO root fetch - processPackages [start-url]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 06:48:29] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.3] Old Version: [0.3.3.1]
+[2023-05-01 06:48:29] INFO root fetch - processPackages [age3d]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 06:48:29] INFO root fetch - processPackages [digitalarztools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 06:48:29] INFO root fetch - processPackages [MKN-third-codes]: New version: [0.4.3] Old Version: [0.3.3.1]
+[2023-05-01 06:48:30] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/b5/68/99097e7e8ab286315bea6cc0c6648f909b981f4e2065be485528760f507d/digitalarztools-0.0.8.tar.gz
+[2023-05-01 06:48:30] INFO root fetch - processPackages [start-url]: Downloading https://files.pythonhosted.org/packages/dd/af/73d68c710c8e5cafe35615fb573b767986c440679f090a358a0d150057bc/start_url-0.0.5.tar.gz
+[2023-05-01 06:48:30] INFO root fetch - processPackages [age3d]: Downloading https://files.pythonhosted.org/packages/2a/be/f25005e95b9e25c5ac39852dac6c981aa451b054c94df8f1d3b0d0a0c898/age3d-0.3.0.tar.gz
+[2023-05-01 06:48:30] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/2c/97/0dcee763356bd25957f65d3ae5b95166ef4b3b2a4bb5ee5dabe56b7f0f33/MKN_third_codes-0.4.3.tar.gz
+[2023-05-01 06:48:30] INFO root fetch - processPackages [MKN-third-codes]: Downloading https://files.pythonhosted.org/packages/2c/97/0dcee763356bd25957f65d3ae5b95166ef4b3b2a4bb5ee5dabe56b7f0f33/MKN_third_codes-0.4.3.tar.gz
+[2023-05-01 06:48:30] INFO root fetch - processPackages [start-url]: executing diffoscope
+[2023-05-01 06:48:30] INFO root fetch - processPackages [start-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_url-0.0.4.tar.gz tmp/start_url-0.0.5.tar.gz --markdown 20230501/s/start-url/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 06:48:30] INFO root fetch - processPackages [age3d]: executing diffoscope
+[2023-05-01 06:48:30] INFO root fetch - processPackages [age3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/age3d-0.2.0.tar.gz tmp/age3d-0.3.0.tar.gz --markdown 20230501/a/age3d/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 06:48:30] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 06:48:30] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.3.1.tar.gz tmp/MKN_third_codes-0.4.3.tar.gz --markdown 20230501/M/MKN-third-codes/0.3.3.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-01 06:48:30] INFO root fetch - processPackages [MKN-third-codes]: executing diffoscope
+[2023-05-01 06:48:30] INFO root fetch - processPackages [MKN-third-codes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MKN_third_codes-0.3.3.1.tar.gz tmp/MKN_third_codes-0.4.3.tar.gz --markdown 20230501/M/MKN-third-codes/0.3.3.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-01 06:48:30] INFO root fetch - processPackages [digitalarztools]: Downloading https://files.pythonhosted.org/packages/00/25/c980e24e95c2d2aab7f7e3042a4ea7fabfcb8deb667f49e39a2c04a8a201/digitalarztools-0.0.9.tar.gz
+[2023-05-01 06:48:30] INFO root fetch - processPackages [digitalarztools]: executing diffoscope
+[2023-05-01 06:48:30] INFO root fetch - processPackages [digitalarztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalarztools-0.0.8.tar.gz tmp/digitalarztools-0.0.9.tar.gz --markdown 20230501/d/digitalarztools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 06:48:31] INFO root fetch - main [MainThread]: End processing [start-url]: success
+[2023-05-01 06:48:31] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 06:48:31] INFO root fetch - main [MainThread]: End processing [MKN-third-codes]: success
+[2023-05-01 06:48:33] INFO root fetch - main [MainThread]: End processing [digitalarztools]: success
+[2023-05-01 06:48:54] INFO root fetch - main [MainThread]: End processing [age3d]: success
+[2023-05-01 06:48:54] INFO root fetch - main [MainThread]: Store serial: [17922998]
