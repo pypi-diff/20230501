@@ -4096,3 +4096,32 @@
 [2023-05-01 05:39:42] INFO root fetch - main [MainThread]: End processing [polynomiograpy]: success
 [2023-05-01 05:39:42] INFO root fetch - main [MainThread]: End processing [toxicjasmine]: success
 [2023-05-01 05:39:42] INFO root fetch - main [MainThread]: Store serial: [17922804]
+[2023-05-01 05:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922804]
+[2023-05-01 05:44:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kangas
+[2023-05-01 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LyricLib
+[2023-05-01 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dknovautils
+[2023-05-01 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polynomiograpy
+[2023-05-01 05:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utils-easy
+[2023-05-01 05:44:51] INFO root fetch - processPackages [kangas]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-05-01 05:44:51] INFO root fetch - processPackages [polynomiograpy]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-05-01 05:44:51] INFO root fetch - processPackages [dknovautils]: New version: [0.0.39] Old Version: [0.0.38]
+[2023-05-01 05:44:51] WARNING root fetch - processPackages [LyricLib]: Skipping, unable to determine old version
+[2023-05-01 05:44:51] INFO root fetch - main [MainThread]: End processing [LyricLib] error
+[2023-05-01 05:44:51] INFO root fetch - processPackages [utils-easy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 05:44:51] INFO root fetch - processPackages [kangas]: Downloading https://files.pythonhosted.org/packages/c3/de/a78d5977c658f26ccc9b307675d5b8595d9872e1bc9b62d02c497b2ac1b0/kangas-2.3.3-py3-none-any.whl
+[2023-05-01 05:44:51] INFO root fetch - processPackages [utils-easy]: Downloading https://files.pythonhosted.org/packages/9b/33/65aec3fa408dac9fe019f5a22e45c0f64f930d48452d999f775762dd0c45/utils_easy-0.0.4.tar.gz
+[2023-05-01 05:44:51] INFO root fetch - processPackages [polynomiograpy]: Downloading https://files.pythonhosted.org/packages/f1/7d/25bc847d078f360b7f8199b8f3b17a7eea008b34f5ed280257358f79fb6d/polynomiograpy-0.1.0a2.tar.gz
+[2023-05-01 05:44:51] INFO root fetch - processPackages [utils-easy]: executing diffoscope
+[2023-05-01 05:44:51] INFO root fetch - processPackages [utils-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_easy-0.0.3.tar.gz tmp/utils_easy-0.0.4.tar.gz --markdown 20230501/u/utils-easy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 05:44:51] WARNING root fetch - processPackages [kangas]: Skipping package: exceeds size limit 15690684>=10485760
+[2023-05-01 05:44:51] INFO root fetch - main [MainThread]: End processing [kangas] error
+[2023-05-01 05:44:51] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/59/70/9a5f4fce49280865697f09894a4237ab04007ea489dcd168093f6c21f358/dknovautils-0.0.39.tar.gz
+[2023-05-01 05:44:51] INFO root fetch - processPackages [polynomiograpy]: executing diffoscope
+[2023-05-01 05:44:51] INFO root fetch - processPackages [polynomiograpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polynomiograpy-0.1.0a1.tar.gz tmp/polynomiograpy-0.1.0a2.tar.gz --markdown 20230501/p/polynomiograpy/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-05-01 05:44:51] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2023-05-01 05:44:51] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.0.38.tar.gz tmp/dknovautils-0.0.39.tar.gz --markdown 20230501/d/dknovautils/0.0.38-0.0.39/diff.md --exclude *.pyd
+[2023-05-01 05:44:52] INFO root fetch - main [MainThread]: End processing [utils-easy]: success
+[2023-05-01 05:44:52] INFO root fetch - main [MainThread]: End processing [polynomiograpy]: success
+[2023-05-01 05:44:52] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2023-05-01 05:44:52] INFO root fetch - main [MainThread]: Store serial: [17922820]
