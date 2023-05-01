@@ -6486,3 +6486,42 @@
 [2023-05-01 11:06:01] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
 [2023-05-01 11:07:24] INFO root fetch - main [MainThread]: End processing [basx-bread]: success
 [2023-05-01 11:07:24] INFO root fetch - main [MainThread]: Store serial: [17924234]
+[2023-05-01 11:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924234]
+[2023-05-01 11:12:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finalynx
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-lineage-viewer
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QScintilla
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-dread-rando
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt6-QScintilla
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-Shahar-CERT-1859
+[2023-05-01 11:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tj-kits-winds
+[2023-05-01 11:12:33] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-01 11:12:33] WARNING root fetch - processPackages [dbt-lineage-viewer]: Skipping, unable to determine old version
+[2023-05-01 11:12:33] INFO root fetch - main [MainThread]: End processing [dbt-lineage-viewer] error
+[2023-05-01 11:12:33] INFO root fetch - processPackages [open-dread-rando]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-01 11:12:33] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: New version: [20230501.9.10.400907] Old Version: [20230501.7.56.444471]
+[2023-05-01 11:12:33] WARNING root fetch - processPackages [tj-kits-winds]: Skipping, unable to determine old version
+[2023-05-01 11:12:33] INFO root fetch - main [MainThread]: End processing [tj-kits-winds] error
+[2023-05-01 11:12:33] INFO root fetch - processPackages [PyQt6-QScintilla]: New version: [2.14.0] Old Version: [2.13.4]
+[2023-05-01 11:12:33] INFO root fetch - processPackages [QScintilla]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-05-01 11:12:33] INFO root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Downloading https://files.pythonhosted.org/packages/e1/74/1446b9312d2e287d32051c3813cc40379e51c77a183c40f022a4f0dab408/certora-cli-alpha-Shahar-CERT-1859-20230501.7.56.444471.tar.gz
+[2023-05-01 11:12:33] INFO root fetch - processPackages [PyQt6-QScintilla]: Downloading https://files.pythonhosted.org/packages/74/74/cb2f0d5e9fc0931741e0ffb7325f0b2fad88add236e8380fd1353d7cd6a5/PyQt6_QScintilla-2.13.4.tar.gz
+[2023-05-01 11:12:33] WARNING root fetch - processPackages [certora-cli-alpha-Shahar-CERT-1859]: Skipping package: exceeds size limit 38298305>=10485760
+[2023-05-01 11:12:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-Shahar-CERT-1859] error
+[2023-05-01 11:12:34] INFO root fetch - processPackages [QScintilla]: Downloading https://files.pythonhosted.org/packages/9c/6e/258ca2ffe1e3fd1aa425fae4505b3da3bdc0d7e4fcecc71e11b180d3df8c/QScintilla-2.9.3-cp35-none-win_amd64.whl
+[2023-05-01 11:12:34] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-05-01 11:12:34] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230501/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-01 11:12:34] INFO root fetch - processPackages [open-dread-rando]: Downloading https://files.pythonhosted.org/packages/f3/e3/653dc4b52548dfd32d02b77f6edb0ce990de14e97ef277316735f00a1301/open-dread-rando-2.1.0.tar.gz
+[2023-05-01 11:12:34] INFO root fetch - processPackages [PyQt6-QScintilla]: Downloading https://files.pythonhosted.org/packages/c5/09/34788ef414a7a9f64feab7fab13fa524e5418b685c6defca634685e24674/PyQt6_QScintilla-2.14.0.tar.gz
+[2023-05-01 11:12:34] INFO root fetch - processPackages [open-dread-rando]: executing diffoscope
+[2023-05-01 11:12:34] INFO root fetch - processPackages [open-dread-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-dread-rando-2.0.0.tar.gz tmp/open-dread-rando-2.1.0.tar.gz --markdown 20230501/o/open-dread-rando/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-01 11:12:34] INFO root fetch - processPackages [PyQt6-QScintilla]: executing diffoscope
+[2023-05-01 11:12:34] INFO root fetch - processPackages [PyQt6-QScintilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6_QScintilla-2.13.4.tar.gz tmp/PyQt6_QScintilla-2.14.0.tar.gz --markdown 20230501/P/PyQt6-QScintilla/2.13.4-2.14.0/diff.md --exclude *.pyd
+[2023-05-01 11:12:35] INFO root fetch - processPackages [QScintilla]: Downloading https://files.pythonhosted.org/packages/8f/74/39898b3f6238b775d2172f7bf25b7f69276e0a21406b85d09a0db158946b/QScintilla-2.9.4-5.7.1-cp34.cp35.cp36-none-win_amd64.whl
+[2023-05-01 11:12:35] INFO root fetch - processPackages [QScintilla]: executing diffoscope
+[2023-05-01 11:12:35] INFO root fetch - processPackages [QScintilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QScintilla-2.9.3-cp35-none-win_amd64.whl.zip tmp/QScintilla-2.9.4-5.7.1-cp34.cp35.cp36-none-win_amd64.whl.zip --markdown 20230501/Q/QScintilla/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-05-01 11:12:35] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-05-01 11:12:36] INFO root fetch - main [MainThread]: End processing [open-dread-rando]: success
+[2023-05-01 11:12:37] INFO root fetch - main [MainThread]: End processing [QScintilla]: success
+[2023-05-01 11:12:40] INFO root fetch - main [MainThread]: End processing [PyQt6-QScintilla]: success
+[2023-05-01 11:12:40] INFO root fetch - main [MainThread]: Store serial: [17924299]
