@@ -5299,3 +5299,16 @@
 [2023-05-01 09:02:31] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-01 09:02:50] INFO root fetch - main [MainThread]: End processing [pandas-streaming]: success
 [2023-05-01 09:02:50] INFO root fetch - main [MainThread]: Store serial: [17923552]
+[2023-05-01 09:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923552]
+[2023-05-01 09:07:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 09:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-yoav-plus-minus-simplification
+[2023-05-01 09:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: brayns
+[2023-05-01 09:07:59] INFO root fetch - processPackages [brayns]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-05-01 09:07:59] WARNING root fetch - processPackages [certora-cli-alpha-yoav-plus-minus-simplification]: Skipping, unable to determine old version
+[2023-05-01 09:07:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-plus-minus-simplification] error
+[2023-05-01 09:07:59] INFO root fetch - processPackages [brayns]: Downloading https://files.pythonhosted.org/packages/9a/19/2e9d844bbfb1a3631204b40294dba66a08e9f8bff6fb3669ae278e92e1b8/brayns-3.1.1.tar.gz
+[2023-05-01 09:07:59] INFO root fetch - processPackages [brayns]: Downloading https://files.pythonhosted.org/packages/9c/25/865f77218573773b5c3f49fd5f76ae54cd00c44b05ad71d068b639bad3a6/brayns-3.1.2.tar.gz
+[2023-05-01 09:08:00] INFO root fetch - processPackages [brayns]: executing diffoscope
+[2023-05-01 09:08:00] INFO root fetch - processPackages [brayns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brayns-3.1.1.tar.gz tmp/brayns-3.1.2.tar.gz --markdown 20230501/b/brayns/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-05-01 09:08:01] INFO root fetch - main [MainThread]: End processing [brayns]: success
+[2023-05-01 09:08:01] INFO root fetch - main [MainThread]: Store serial: [17923559]
