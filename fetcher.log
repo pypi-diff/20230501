@@ -13424,3 +13424,92 @@ EOFError: EOF read where object expected
 [2023-05-01 17:38:29] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
 [2023-05-01 17:38:30] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-05-01 17:38:30] INFO root fetch - main [MainThread]: Store serial: [17928249]
+[2023-05-01 17:43:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928249]
+[2023-05-01 17:43:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyspimosim
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ask-sdk-model
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foursight-cgap
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stackmanager
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: croto
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GptCode
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-markup
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openai-multi-client
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zeroconf
+[2023-05-01 17:43:39] INFO root fetch - processPackages [GptCode]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [zeroconf]: New version: [0.59.0] Old Version: [0.58.2]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [croto]: New version: [0.8] Old Version: [0.7]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [pyspimosim]: New version: [0.2.14] Old Version: [0.2.12.2]
+[2023-05-01 17:43:39] WARNING root fetch - processPackages [openai-multi-client]: Skipping, unable to determine old version
+[2023-05-01 17:43:39] INFO root fetch - processPackages [openai-multi-client]: Start processing: quera-ahs-utils
+[2023-05-01 17:43:39] INFO root fetch - main [MainThread]: End processing [openai-multi-client] error
+[2023-05-01 17:43:39] INFO root fetch - processPackages [stackmanager]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [django-markup]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [GptCode]: executing diffoscope
+[2023-05-01 17:43:39] INFO root fetch - processPackages [GptCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GptCode-1.0.0.tar.gz tmp/GptCode-1.0.1.tar.gz --markdown 20230501/G/GptCode/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 17:43:39] INFO root fetch - processPackages [ask-sdk-model]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [foursight]: New version: [3.4.0.5b60] Old Version: [3.4.0.5b59]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [foursight-cgap]: New version: [3.4.0.5b60] Old Version: [3.4.0.5b59]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [quera-ahs-utils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-01 17:43:39] INFO root fetch - processPackages [croto]: Downloading https://files.pythonhosted.org/packages/08/a7/b8df76788b5ef87a37ef497fe0855ecf8a4bd8b9c61b58ceff7d2e2b56aa/croto-0.7.tar.gz
+[2023-05-01 17:43:39] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/dd/81/bf187e20753c7de145917e63b89df8bffa72fe5dc4c1650ec6feda87ff72/foursight-3.4.0.5b59.tar.gz
+[2023-05-01 17:43:39] INFO root fetch - processPackages [stackmanager]: Downloading https://files.pythonhosted.org/packages/26/2d/d8c0b5f758aea5a98ce65cef44d0e2e02edab26673c7bb54bf8ef13d610a/stackmanager-1.4.1.tar.gz
+[2023-05-01 17:43:39] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/b4/41/e1b443f2967d6bcab2fce0aa7a8271d9a92ef29925859d28fd4ae8d40517/foursight_cgap-3.4.0.5b59.tar.gz
+[2023-05-01 17:43:39] INFO root fetch - processPackages [quera-ahs-utils]: Downloading https://files.pythonhosted.org/packages/a6/65/cb535abc186cedb5f4e7cd7b0c0e0ba44dd6486be504b9a1eb98fe6403b2/quera-ahs-utils-0.4.0.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/b5/f1/e5f687b94da50d51178fc082865419482a7966ca7cab2764ca9547f1fb2e/zeroconf-0.59.0.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [django-markup]: Downloading https://files.pythonhosted.org/packages/e8/fc/501d4177937e3641288fc37faf479560372cb6536dd09a75ac280a29fa0e/django-markup-1.7.2.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [pyspimosim]: Downloading https://files.pythonhosted.org/packages/9a/11/39a1edc2f896143e35abc58d254c99ba2e14075fa6a67dabee131d2c64c4/pyspimosim-0.2.14-py3-none-any.whl
+[2023-05-01 17:43:40] INFO root fetch - processPackages [ask-sdk-model]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [ask-sdk-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ask-sdk-model-1.8.0.tar.gz tmp/ask-sdk-model-1.9.0.tar.gz --markdown 20230501/a/ask-sdk-model/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.58.2.tar.gz tmp/zeroconf-0.59.0.tar.gz --markdown 20230501/z/zeroconf/0.58.2-0.59.0/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [croto]: Downloading https://files.pythonhosted.org/packages/5a/1b/28b00ff267cde0679271a285543558c504290721ed79c3c1bca3f00d6e19/croto-0.8.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [django-markup]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [django-markup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-markup-1.7.1.tar.gz tmp/django-markup-1.7.2.tar.gz --markdown 20230501/d/django-markup/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [foursight]: Downloading https://files.pythonhosted.org/packages/1a/63/f4e9537c8f5ceca1e8f36f1a74f63ec6f38a5dd14fc6c992a4155f8503f5/foursight-3.4.0.5b60.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [foursight-cgap]: Downloading https://files.pythonhosted.org/packages/c1/76/42a7032d6a00a148c4bab3cd693901eb59efb7c3f21f3484b7e0369703c3/foursight_cgap-3.4.0.5b60.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-0.7.tar.gz tmp/croto-0.8.tar.gz --markdown 20230501/c/croto/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [pyspimosim]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [pyspimosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspimosim-0.2.12.2-py3-none-any.whl.zip tmp/pyspimosim-0.2.14-py3-none-any.whl.zip --markdown 20230501/p/pyspimosim/0.2.12.2-0.2.14/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [quera-ahs-utils]: Downloading https://files.pythonhosted.org/packages/2f/20/dddfa1458246db1a3d63a4fb90dbc51b353b1b32d93cd00e5d52e66a6b8d/quera-ahs-utils-0.4.1.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [foursight]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [foursight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight-3.4.0.5b59.tar.gz tmp/foursight-3.4.0.5b60.tar.gz --markdown 20230501/f/foursight/3.4.0.5b59-3.4.0.5b60/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [stackmanager]: Downloading https://files.pythonhosted.org/packages/88/45/82f335e5ffd985c6c6a3e7c16f685c7d651ff1ddd9cb90bcfdc7969e420e/stackmanager-1.4.2.tar.gz
+[2023-05-01 17:43:40] INFO root fetch - processPackages [foursight-cgap]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [foursight-cgap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_cgap-3.4.0.5b59.tar.gz tmp/foursight_cgap-3.4.0.5b60.tar.gz --markdown 20230501/f/foursight-cgap/3.4.0.5b59-3.4.0.5b60/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [quera-ahs-utils]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [quera-ahs-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quera-ahs-utils-0.4.0.tar.gz tmp/quera-ahs-utils-0.4.1.tar.gz --markdown 20230501/q/quera-ahs-utils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-01 17:43:40] INFO root fetch - processPackages [stackmanager]: executing diffoscope
+[2023-05-01 17:43:40] INFO root fetch - processPackages [stackmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackmanager-1.4.1.tar.gz tmp/stackmanager-1.4.2.tar.gz --markdown 20230501/s/stackmanager/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-01 17:43:41] INFO root fetch - processPackages [GptCode]: Start processing: Flask
+[2023-05-01 17:43:41] INFO root fetch - main [MainThread]: End processing [GptCode]: success
+[2023-05-01 17:43:41] INFO root fetch - processPackages [Flask]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-01 17:43:41] INFO root fetch - processPackages [Flask]: Downloading https://files.pythonhosted.org/packages/4d/00/ef81c18da32fdfcde6381c315f4b11597fb6691180a330418848efee0ae7/Flask-2.3.2.tar.gz
+[2023-05-01 17:43:41] INFO root fetch - processPackages [Flask]: executing diffoscope
+[2023-05-01 17:43:41] INFO root fetch - processPackages [Flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-2.3.1.tar.gz tmp/Flask-2.3.2.tar.gz --markdown 20230501/F/Flask/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-01 17:43:41] INFO root fetch - processPackages [croto]: Start processing: splittr
+[2023-05-01 17:43:41] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-01 17:43:41] INFO root fetch - processPackages [splittr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 17:43:41] INFO root fetch - processPackages [quera-ahs-utils]: Start processing: sayhellox123
+[2023-05-01 17:43:41] INFO root fetch - main [MainThread]: End processing [quera-ahs-utils]: success
+[2023-05-01 17:43:42] INFO root fetch - processPackages [foursight-cgap]: Start processing: croto
+[2023-05-01 17:43:42] INFO root fetch - main [MainThread]: End processing [foursight-cgap]: success
+[2023-05-01 17:43:42] WARNING root fetch - processPackages [sayhellox123]: Skipping, unable to determine old version
+[2023-05-01 17:43:42] INFO root fetch - main [MainThread]: End processing [sayhellox123] error
+[2023-05-01 17:43:42] INFO root fetch - processPackages [croto]: New version: [0.8] Old Version: [0.7]
+[2023-05-01 17:43:42] INFO root fetch - main [MainThread]: End processing [stackmanager]: success
+[2023-05-01 17:43:42] INFO root fetch - processPackages [croto]: executing diffoscope
+[2023-05-01 17:43:42] INFO root fetch - processPackages [croto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croto-0.7.tar.gz tmp/croto-0.8.tar.gz --markdown 20230501/c/croto/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-01 17:43:42] INFO root fetch - processPackages [splittr]: Downloading https://files.pythonhosted.org/packages/28/63/8b68585c87a0a4e6ea1b508d172a4c5f90fb4226faae94cde740d35253ea/splittr-0.0.2.tar.gz
+[2023-05-01 17:43:42] INFO root fetch - main [MainThread]: End processing [foursight]: success
+[2023-05-01 17:43:42] INFO root fetch - processPackages [splittr]: executing diffoscope
+[2023-05-01 17:43:42] INFO root fetch - processPackages [splittr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splittr-0.0.1.tar.gz tmp/splittr-0.0.2.tar.gz --markdown 20230501/s/splittr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 17:43:42] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-05-01 17:43:42] INFO root fetch - main [MainThread]: End processing [django-markup]: success
+[2023-05-01 17:43:43] INFO root fetch - main [MainThread]: End processing [croto]: success
+[2023-05-01 17:43:43] INFO root fetch - main [MainThread]: End processing [splittr]: success
+[2023-05-01 17:43:44] INFO root fetch - main [MainThread]: End processing [Flask]: success
+[2023-05-01 17:43:44] INFO root fetch - main [MainThread]: End processing [ask-sdk-model]: success
+[2023-05-01 17:44:00] INFO root fetch - main [MainThread]: End processing [pyspimosim]: success
+[2023-05-01 17:44:00] INFO root fetch - main [MainThread]: Store serial: [17928295]
