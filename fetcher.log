@@ -6821,3 +6821,57 @@
 [2023-05-01 11:39:01] INFO root fetch - main [MainThread]: End processing [dinohub-seedwork-be]: success
 [2023-05-01 11:39:02] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
 [2023-05-01 11:39:02] INFO root fetch - main [MainThread]: Store serial: [17924491]
+[2023-05-01 11:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924491]
+[2023-05-01 11:44:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boston
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-fumen-py
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-alma
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nurtelecom-gras-library
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edwh-server-provisioning-plugin
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owo-info
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: characterai
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: extr-ds
+[2023-05-01 11:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: boston
+[2023-05-01 11:44:11] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: New version: [0.2.0] Old Version: [0.1.3b1]
+[2023-05-01 11:44:11] INFO root fetch - processPackages [py-fumen-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 11:44:11] INFO root fetch - processPackages [invenio-alma]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-01 11:44:11] INFO root fetch - processPackages [characterai]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-01 11:44:11] WARNING root fetch - processPackages [owo-info]: Skipping, unable to determine old version
+[2023-05-01 11:44:11] INFO root fetch - processPackages [nurtelecom-gras-library]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-01 11:44:11] INFO root fetch - main [MainThread]: End processing [owo-info] error
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 11:44:11] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 11:44:11] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230501/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [invenio-alma]: Downloading https://files.pythonhosted.org/packages/81/79/f8e46151e651a2c7ffc4cac6a537672fd34249bd9b351ccb44decd95ff9f/invenio-alma-0.8.2.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [nurtelecom-gras-library]: Downloading https://files.pythonhosted.org/packages/50/04/ffe4c27b853cba42f43ba7e0173505f956a3ae6198886397d00b7b2cac7f/nurtelecom_gras_library-1.1.5.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [py-fumen-py]: Downloading https://files.pythonhosted.org/packages/85/7b/4686105ba15ec8c1cd72b030d610e1441d28a6421134a0d04cdc8373083b/py_fumen_py-0.0.1.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [nurtelecom-gras-library]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [nurtelecom-gras-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nurtelecom_gras_library-1.1.4.tar.gz tmp/nurtelecom_gras_library-1.1.5.tar.gz --markdown 20230501/n/nurtelecom-gras-library/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [invenio-alma]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [invenio-alma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-alma-0.8.1.tar.gz tmp/invenio-alma-0.8.2.tar.gz --markdown 20230501/i/invenio-alma/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: Downloading https://files.pythonhosted.org/packages/48/0a/3d89d658d98532610a07f0c1d7747e954c4ee3d68620ee00ca96e7e18553/edwh_server_provisioning_plugin-0.2.0.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [edwh-server-provisioning-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_server_provisioning_plugin-0.1.3b1.tar.gz tmp/edwh_server_provisioning_plugin-0.2.0.tar.gz --markdown 20230501/e/edwh-server-provisioning-plugin/0.1.3b1-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [characterai]: Downloading https://files.pythonhosted.org/packages/24/74/d714f70c58c3d48345adfc3b82a99fbb82fe00428b2f11901a36d4f0b743/characterai-0.3.0.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/a8/ee/438f9ad2c72a8db505586dffa1bbc6b19349b3db20f21d295044157d5e3d/boston-1.0.8.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: Downloading https://files.pythonhosted.org/packages/a8/ee/438f9ad2c72a8db505586dffa1bbc6b19349b3db20f21d295044157d5e3d/boston-1.0.8.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [characterai]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [characterai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/characterai-0.2.7.tar.gz tmp/characterai-0.3.0.tar.gz --markdown 20230501/c/characterai/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [py-fumen-py]: Downloading https://files.pythonhosted.org/packages/41/72/58a062273c8a16535e81fadf7939b10eb78624ab8fe03bf73fb70edb1d5d/py_fumen_py-0.0.2.tar.gz
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.7.tar.gz tmp/boston-1.0.8.tar.gz --markdown 20230501/b/boston/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.7.tar.gz tmp/boston-1.0.8.tar.gz --markdown 20230501/b/boston/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 11:44:11] INFO root fetch - processPackages [py-fumen-py]: executing diffoscope
+[2023-05-01 11:44:11] INFO root fetch - processPackages [py-fumen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_py-0.0.1.tar.gz tmp/py_fumen_py-0.0.2.tar.gz --markdown 20230501/p/py-fumen-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 11:44:12] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-01 11:44:12] INFO root fetch - main [MainThread]: End processing [nurtelecom-gras-library]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: End processing [edwh-server-provisioning-plugin]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: End processing [characterai]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: End processing [invenio-alma]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: End processing [py-fumen-py]: success
+[2023-05-01 11:44:13] INFO root fetch - main [MainThread]: Store serial: [17924518]
