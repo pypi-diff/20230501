@@ -6006,3 +6006,63 @@
 [2023-05-01 10:28:15] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
 [2023-05-01 10:28:15] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2023-05-01 10:28:15] INFO root fetch - main [MainThread]: Store serial: [17923985]
+[2023-05-01 10:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923985]
+[2023-05-01 10:33:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fireblocks-defi-sdk
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bel-digital-handwriting-py
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-keycloak
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polar-api
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipref
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuclio-sdk
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccxt
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auditwheel
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thunno2
+[2023-05-01 10:33:24] INFO root fetch - processPackages [fireblocks-defi-sdk]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [polar-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [bel-digital-handwriting-py]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [nuclio-sdk]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [auditwheel]: New version: [5.4.0] Old Version: [5.3.0]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ipref]: New version: [0.2.1] Old Version: [0.2.0rc2]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [python-keycloak]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ccxt]: New version: [3.0.9] Old Version: [3.0.85]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [thunno2]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-05-01 10:33:24] INFO root fetch - processPackages [polar-api]: Downloading https://files.pythonhosted.org/packages/76/92/63ea661ab712a0bbddd0d8a9e9989409054f541e142ec83f845ab0f2b7e0/polar_api-1.0.1.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/d4/a7/89caa4c03212badde82fdad49e32f400076b1e1bbcc64ab16d3527c298cd/nuclio_sdk-0.5.1.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [bel-digital-handwriting-py]: Downloading https://files.pythonhosted.org/packages/38/3f/f592129553c47cb1373498aea389f5aba0bc1fb68e3f859856c937c28a2f/bel-digital-handwriting-py-0.0.4.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [fireblocks-defi-sdk]: Downloading https://files.pythonhosted.org/packages/38/b8/fb71b04cf4baeaafd54a9a0dae1ce8005cc7c802a1798437f1217ef08b3c/fireblocks_defi_sdk-1.0.2.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [auditwheel]: Downloading https://files.pythonhosted.org/packages/57/9d/c3870dbcc8d4f4c2fc6c0914350a8205a2fe691f80392ab68dd8184f9464/auditwheel-5.3.0.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/8a/1a/8d37ed72c18ceb234b766fb2014f039e9b90583a993c3af971de31f3136c/ccxt-3.0.85.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ipref]: Downloading https://files.pythonhosted.org/packages/b6/b3/7a611e0609b91cd8ea5963f7504666d4c7b864547bc21434b929cf6938f3/ipref-0.2.0rc2.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [polar-api]: executing diffoscope
+[2023-05-01 10:33:24] INFO root fetch - processPackages [polar-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polar_api-1.0.0.tar.gz tmp/polar_api-1.0.1.tar.gz --markdown 20230501/p/polar-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 10:33:24] INFO root fetch - processPackages [nuclio-sdk]: Downloading https://files.pythonhosted.org/packages/df/fb/15a42d9429b69d6e875d65d366250092dbc58485f03b53f1217ca1de0aa1/nuclio_sdk-0.5.2.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [python-keycloak]: executing diffoscope
+[2023-05-01 10:33:24] INFO root fetch - processPackages [python-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_keycloak-2.8.0.tar.gz tmp/python_keycloak-2.9.0.tar.gz --markdown 20230501/p/python-keycloak/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-01 10:33:24] INFO root fetch - processPackages [bel-digital-handwriting-py]: executing diffoscope
+[2023-05-01 10:33:24] INFO root fetch - processPackages [bel-digital-handwriting-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bel-digital-handwriting-py-0.0.3.tar.gz tmp/bel-digital-handwriting-py-0.0.4.tar.gz --markdown 20230501/b/bel-digital-handwriting-py/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 10:33:24] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/54/ba/10e71f12e1e5efd56b7b87f3726c73f0c9da9aa6c036751dd7f794f55ede/thunno2-2.1.5.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.85.tar.gz tmp/ccxt-3.0.9.tar.gz --markdown 20230501/c/ccxt/3.0.85-3.0.9/diff.md --exclude *.pyd
+[2023-05-01 10:33:24] INFO root fetch - processPackages [nuclio-sdk]: executing diffoscope
+[2023-05-01 10:33:24] INFO root fetch - processPackages [nuclio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclio_sdk-0.5.1.tar.gz tmp/nuclio_sdk-0.5.2.tar.gz --markdown 20230501/n/nuclio-sdk/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-01 10:33:24] INFO root fetch - processPackages [fireblocks-defi-sdk]: Downloading https://files.pythonhosted.org/packages/68/d3/7a9e9b94dc25f543c10377ce6a3a07bb1bef75ce3e6f4ce6caf092b7cf3d/fireblocks_defi_sdk-1.1.0.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [ipref]: Downloading https://files.pythonhosted.org/packages/2e/86/db60fbe415ca18c34ad9b6fe2ae6b902c5a236fe433f17a0ef562543ced1/ipref-0.2.1.tar.gz
+[2023-05-01 10:33:24] INFO root fetch - processPackages [auditwheel]: Downloading https://files.pythonhosted.org/packages/79/4b/640fb9c5e9d0310f8209f276f093bdd1ffe09aeb029296a80157d82602b1/auditwheel-5.4.0.tar.gz
+[2023-05-01 10:33:25] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-05-01 10:33:25] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.1.4.tar.gz tmp/thunno2-2.1.5.tar.gz --markdown 20230501/t/thunno2/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-05-01 10:33:25] INFO root fetch - processPackages [fireblocks-defi-sdk]: executing diffoscope
+[2023-05-01 10:33:25] INFO root fetch - processPackages [fireblocks-defi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireblocks_defi_sdk-1.0.2.tar.gz tmp/fireblocks_defi_sdk-1.1.0.tar.gz --markdown 20230501/f/fireblocks-defi-sdk/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-01 10:33:25] INFO root fetch - processPackages [ipref]: executing diffoscope
+[2023-05-01 10:33:25] INFO root fetch - processPackages [ipref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipref-0.2.0rc2.tar.gz tmp/ipref-0.2.1.tar.gz --markdown 20230501/i/ipref/0.2.0rc2-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 10:33:25] INFO root fetch - processPackages [auditwheel]: executing diffoscope
+[2023-05-01 10:33:25] INFO root fetch - processPackages [auditwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auditwheel-5.3.0.tar.gz tmp/auditwheel-5.4.0.tar.gz --markdown 20230501/a/auditwheel/5.3.0-5.4.0/diff.md --exclude *.pyd
+[2023-05-01 10:33:26] INFO root fetch - main [MainThread]: End processing [polar-api]: success
+[2023-05-01 10:33:26] INFO root fetch - main [MainThread]: End processing [fireblocks-defi-sdk]: success
+[2023-05-01 10:33:26] INFO root fetch - main [MainThread]: End processing [ipref]: success
+[2023-05-01 10:33:26] INFO root fetch - main [MainThread]: End processing [nuclio-sdk]: success
+[2023-05-01 10:33:26] INFO root fetch - main [MainThread]: End processing [python-keycloak]: success
+[2023-05-01 10:33:26] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-05-01 10:33:27] INFO root fetch - main [MainThread]: End processing [auditwheel]: success
+[2023-05-01 10:33:27] INFO root fetch - main [MainThread]: End processing [bel-digital-handwriting-py]: success
+[2023-05-01 10:33:50] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-01 10:33:50] INFO root fetch - main [MainThread]: Store serial: [17924014]
