@@ -4316,3 +4316,18 @@
 [2023-05-01 06:22:13] WARNING root fetch - processPackages [start-github]: Skipping, unable to determine old version
 [2023-05-01 06:22:13] INFO root fetch - main [MainThread]: End processing [start-github] error
 [2023-05-01 06:22:13] INFO root fetch - main [MainThread]: Store serial: [17922929]
+[2023-05-01 06:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922929]
+[2023-05-01 06:27:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-01 06:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remindmail
+[2023-05-01 06:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmbda-fastapi
+[2023-05-01 06:27:21] INFO root fetch - processPackages [remindmail]: New version: [2023.4.30.3] Old Version: [2023.4.30.2]
+[2023-05-01 06:27:21] INFO root fetch - processPackages [llmbda-fastapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 06:27:22] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/53/cb/040daa409565c0b80aaf1610556fefab7ce3d829b9b49836ca53c50b4b41/remindmail-2023.4.30.2.tar.gz
+[2023-05-01 06:27:22] INFO root fetch - processPackages [llmbda-fastapi]: executing diffoscope
+[2023-05-01 06:27:22] INFO root fetch - processPackages [llmbda-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmbda_fastapi-0.0.7.tar.gz tmp/llmbda_fastapi-0.0.8.tar.gz --markdown 20230501/l/llmbda-fastapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 06:27:22] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/fa/32/6e66332de8c170df84aeb7e52ab3ed8ddb7c4fee861f63c9e57fdbaefbca/remindmail-2023.4.30.3.tar.gz
+[2023-05-01 06:27:22] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-05-01 06:27:22] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.30.2.tar.gz tmp/remindmail-2023.4.30.3.tar.gz --markdown 20230501/r/remindmail/2023.4.30.2-2023.4.30.3/diff.md --exclude *.pyd
+[2023-05-01 06:27:23] INFO root fetch - main [MainThread]: End processing [llmbda-fastapi]: success
+[2023-05-01 06:27:23] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-05-01 06:27:23] INFO root fetch - main [MainThread]: Store serial: [17922935]
