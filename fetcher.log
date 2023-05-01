@@ -4177,3 +4177,27 @@
 [2023-05-01 05:50:37] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-05-01 05:50:38] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
 [2023-05-01 05:50:38] INFO root fetch - main [MainThread]: Store serial: [17922849]
+[2023-05-01 05:55:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922849]
+[2023-05-01 05:55:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 05:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycollimator
+[2023-05-01 05:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SALTISE-components
+[2023-05-01 05:55:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geochemistrypi
+[2023-05-01 05:55:55] INFO root fetch - processPackages [SALTISE-components]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-01 05:55:55] INFO root fetch - processPackages [pycollimator]: New version: [1.3.884.post7] Old Version: [1.3.884.post59]
+[2023-05-01 05:55:55] INFO root fetch - processPackages [geochemistrypi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-01 05:55:55] INFO root fetch - processPackages [SALTISE-components]: Downloading https://files.pythonhosted.org/packages/4f/06/bec99c39cfa3f27370714ba6fe88aba7694a893ef80e501566df34ef8afc/SALTISE_components-0.2.6.tar.gz
+[2023-05-01 05:55:55] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/fe/5a/b1704152657ae8b84614eaa72deb30e6faf782dd4233cdef200557fc46e5/pycollimator-1.3.884.post59.tar.gz
+[2023-05-01 05:55:55] INFO root fetch - processPackages [geochemistrypi]: Downloading https://files.pythonhosted.org/packages/fd/ca/54314aefac9d0f33fc13a2b3ee3acb4642d07df41e57b6684e4b409b7f26/geochemistrypi-0.2.0.tar.gz
+[2023-05-01 05:55:56] INFO root fetch - processPackages [geochemistrypi]: Downloading https://files.pythonhosted.org/packages/41/6b/9e0b1ce687e18fd912d4fb1b92ce5a40f258d3beb420f514e5eb6968f81c/geochemistrypi-0.2.1.tar.gz
+[2023-05-01 05:55:56] INFO root fetch - processPackages [geochemistrypi]: executing diffoscope
+[2023-05-01 05:55:56] INFO root fetch - processPackages [geochemistrypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geochemistrypi-0.2.0.tar.gz tmp/geochemistrypi-0.2.1.tar.gz --markdown 20230501/g/geochemistrypi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-01 05:55:56] INFO root fetch - processPackages [pycollimator]: Downloading https://files.pythonhosted.org/packages/28/48/cbe684e42ce1b7d6fdda574e916633fbab71c9d102edc94b21376e5316ee/pycollimator-1.3.884.post7.tar.gz
+[2023-05-01 05:55:56] INFO root fetch - processPackages [pycollimator]: executing diffoscope
+[2023-05-01 05:55:56] INFO root fetch - processPackages [pycollimator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycollimator-1.3.884.post59.tar.gz tmp/pycollimator-1.3.884.post7.tar.gz --markdown 20230501/p/pycollimator/1.3.884.post59-1.3.884.post7/diff.md --exclude *.pyd
+[2023-05-01 05:55:56] INFO root fetch - processPackages [SALTISE-components]: Downloading https://files.pythonhosted.org/packages/ca/47/f1c187d16e583a59b97c3badbb5da3e2d93ad028ec6e8d7e0b7952db6b88/SALTISE_components-0.2.7.tar.gz
+[2023-05-01 05:55:56] INFO root fetch - processPackages [SALTISE-components]: executing diffoscope
+[2023-05-01 05:55:56] INFO root fetch - processPackages [SALTISE-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SALTISE_components-0.2.6.tar.gz tmp/SALTISE_components-0.2.7.tar.gz --markdown 20230501/S/SALTISE-components/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-01 05:55:57] INFO root fetch - main [MainThread]: End processing [pycollimator]: success
+[2023-05-01 05:55:58] INFO root fetch - main [MainThread]: End processing [geochemistrypi]: success
+[2023-05-01 05:56:07] INFO root fetch - main [MainThread]: End processing [SALTISE-components]: success
+[2023-05-01 05:56:07] INFO root fetch - main [MainThread]: Store serial: [17922857]
