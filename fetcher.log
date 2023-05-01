@@ -17497,3 +17497,47 @@ EOFError: EOF read where object expected
 [2023-05-01 22:03:33] INFO root fetch - main [MainThread]: End processing [turbo-queue]: success
 [2023-05-01 22:03:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-01 22:03:37] INFO root fetch - main [MainThread]: Store serial: [17931050]
+[2023-05-01 22:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17931050]
+[2023-05-01 22:08:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScriptCollection
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RaspyGeo
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valr-py
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: icpp
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voxelmap
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blogutils
+[2023-05-01 22:08:46] INFO root fetch - processPackages [RaspyGeo]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ScriptCollection]: New version: [3.3.9] Old Version: [3.3.80]
+[2023-05-01 22:08:46] INFO root fetch - processPackages [valr-py]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-01 22:08:46] INFO root fetch - processPackages [icpp]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-05-01 22:08:46] INFO root fetch - processPackages [voxelmap]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-05-01 22:08:46] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 22:08:46] WARNING root fetch - processPackages [blogutils]: Skipping, unable to determine old version
+[2023-05-01 22:08:46] INFO root fetch - main [MainThread]: End processing [blogutils] error
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ScriptCollection]: Downloading https://files.pythonhosted.org/packages/4b/ce/b2533fa2e981674922b7d1c63e0c2e7a3aae67b720960230e1d7dc6daa2f/ScriptCollection-3.3.80-py3-none-any.whl
+[2023-05-01 22:08:46] INFO root fetch - processPackages [valr-py]: Downloading https://files.pythonhosted.org/packages/cb/19/d4124bb457c60cbde8d5b9bdf420825db4d766cb4378ad3982c16889cf81/valr-py-0.3.0.tar.gz
+[2023-05-01 22:08:46] INFO root fetch - processPackages [RaspyGeo]: Downloading https://files.pythonhosted.org/packages/1c/f6/0ae459d1056c2d877738fb36d7c98267270aa4bb5ad03ab03de25ef1b04f/RaspyGeo-0.0.3.tar.gz
+[2023-05-01 22:08:46] INFO root fetch - processPackages [icpp]: Downloading https://files.pythonhosted.org/packages/7c/68/9f350c473252b88cd865e964f4036350e11c4cf3230ffbf76d53dcc2745a/icpp-2.0.3-py3-none-any.whl
+[2023-05-01 22:08:46] INFO root fetch - processPackages [voxelmap]: Downloading https://files.pythonhosted.org/packages/3e/cd/1fa545682a20002f95385021ea5d8fe4803c6717f8bd70fe9e6540d158e3/voxelmap-4.1.5.tar.gz
+[2023-05-01 22:08:46] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-01 22:08:46] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230501/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 22:08:46] INFO root fetch - processPackages [valr-py]: Downloading https://files.pythonhosted.org/packages/0c/98/673d313c19bdac75c12772279b23df5e9e0dec4b1867166ec21695e075b2/valr-py-0.3.1.tar.gz
+[2023-05-01 22:08:46] INFO root fetch - processPackages [icpp]: Downloading https://files.pythonhosted.org/packages/73/77/36d970b866fe2f56ed73984efb8f83024c61d61155c0c7ebffa678cb58c9/icpp-2.1.0-py3-none-any.whl
+[2023-05-01 22:08:46] INFO root fetch - processPackages [voxelmap]: executing diffoscope
+[2023-05-01 22:08:46] INFO root fetch - processPackages [voxelmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxelmap-4.1.4.tar.gz tmp/voxelmap-4.1.5.tar.gz --markdown 20230501/v/voxelmap/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-05-01 22:08:46] INFO root fetch - processPackages [RaspyGeo]: Downloading https://files.pythonhosted.org/packages/2d/08/275a60c0e01e24d945ce4638ecbeed99c3a1d482e73e9487bfa2fa9f31ec/RaspyGeo-0.0.4.tar.gz
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ScriptCollection]: executing diffoscope
+[2023-05-01 22:08:46] INFO root fetch - processPackages [ScriptCollection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScriptCollection-3.3.80-py3-none-any.whl.zip tmp/ScriptCollection-3.3.9-py3-none-any.whl.zip --markdown 20230501/S/ScriptCollection/3.3.80-3.3.9/diff.md --exclude *.pyd
+[2023-05-01 22:08:46] INFO root fetch - processPackages [valr-py]: executing diffoscope
+[2023-05-01 22:08:46] INFO root fetch - processPackages [valr-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valr-py-0.3.0.tar.gz tmp/valr-py-0.3.1.tar.gz --markdown 20230501/v/valr-py/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-01 22:08:46] INFO root fetch - processPackages [icpp]: executing diffoscope
+[2023-05-01 22:08:46] INFO root fetch - processPackages [icpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp-2.0.3-py3-none-any.whl.zip tmp/icpp-2.1.0-py3-none-any.whl.zip --markdown 20230501/i/icpp/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-05-01 22:08:46] INFO root fetch - processPackages [RaspyGeo]: executing diffoscope
+[2023-05-01 22:08:46] INFO root fetch - processPackages [RaspyGeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RaspyGeo-0.0.3.tar.gz tmp/RaspyGeo-0.0.4.tar.gz --markdown 20230501/R/RaspyGeo/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 22:08:47] INFO root fetch - main [MainThread]: End processing [voxelmap]: success
+[2023-05-01 22:08:47] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-01 22:08:48] INFO root fetch - main [MainThread]: End processing [icpp]: success
+[2023-05-01 22:08:48] INFO root fetch - main [MainThread]: End processing [RaspyGeo]: success
+[2023-05-01 22:08:48] INFO root fetch - main [MainThread]: End processing [ScriptCollection]: success
+[2023-05-01 22:09:11] INFO root fetch - main [MainThread]: End processing [valr-py]: success
+[2023-05-01 22:09:11] INFO root fetch - main [MainThread]: Store serial: [17931067]
