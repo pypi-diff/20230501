@@ -3883,3 +3883,20 @@
 [2023-05-01 05:01:07] INFO root fetch - main [MainThread]: End processing [pydmd]: success
 [2023-05-01 05:01:09] INFO root fetch - main [MainThread]: End processing [automatize]: success
 [2023-05-01 05:01:09] INFO root fetch - main [MainThread]: Store serial: [17922631]
+[2023-05-01 05:06:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922631]
+[2023-05-01 05:06:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 05:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moonrise
+[2023-05-01 05:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: souJpg-comm
+[2023-05-01 05:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notation
+[2023-05-01 05:06:17] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-01 05:06:17] INFO root fetch - processPackages [notation]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 05:06:17] WARNING root fetch - processPackages [moonrise]: Skipping, unable to determine old version
+[2023-05-01 05:06:17] INFO root fetch - main [MainThread]: End processing [moonrise] error
+[2023-05-01 05:06:17] INFO root fetch - processPackages [notation]: executing diffoscope
+[2023-05-01 05:06:17] INFO root fetch - processPackages [notation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notation-0.0.1.tar.gz tmp/notation-0.0.2.tar.gz --markdown 20230501/n/notation/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 05:06:18] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/dd/cd/daee5a60a6136371c73f9ee4805b8c0a8d5be12e5951ef77a429e2b8eb9c/souJpg-comm-1.0.5.tar.gz
+[2023-05-01 05:06:18] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-05-01 05:06:18] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.0.4.tar.gz tmp/souJpg-comm-1.0.5.tar.gz --markdown 20230501/s/souJpg-comm/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-01 05:06:18] INFO root fetch - main [MainThread]: End processing [notation]: success
+[2023-05-01 05:06:19] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-05-01 05:06:19] INFO root fetch - main [MainThread]: Store serial: [17922642]
