@@ -16019,3 +16019,95 @@ EOFError: EOF read where object expected
 [2023-05-01 20:23:06] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-01 20:23:06] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-01 20:23:06] INFO root fetch - main [MainThread]: Store serial: [17930092]
+[2023-05-01 20:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17930092]
+[2023-05-01 20:28:14] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformers-gradients
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domolibrary
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ondewo-s2t-client
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shareddata
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itkdb
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libdeeplake
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wk-metaflow-plugins
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goatl
+[2023-05-01 20:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: goatl
+[2023-05-01 20:28:15] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [shareddata]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [ondewo-s2t-client]: New version: [5.3.0] Old Version: [5.2.0]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [itkdb]: New version: [0.4.2] Old Version: [0.4.1rc1]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [transformers-gradients]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-01 20:28:15] WARNING root fetch - processPackages [wk-metaflow-plugins]: Skipping, unable to determine old version
+[2023-05-01 20:28:15] INFO root fetch - processPackages [wk-metaflow-plugins]: Start processing: goatl
+[2023-05-01 20:28:15] INFO root fetch - main [MainThread]: End processing [wk-metaflow-plugins] error
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230501/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-05-01 20:28:15] INFO root fetch - processPackages [libdeeplake]: Start processing: decentralizedroutines
+[2023-05-01 20:28:15] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [ondewo-s2t-client]: Downloading https://files.pythonhosted.org/packages/2f/61/129abc81974baa2bdf7a58f2e272050f2e258817fb206ccb92d82d8b67f9/ondewo-s2t-client-5.2.0.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [decentralizedroutines]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/13/0e/e41466cab7dc9d6d8c57d0cd7514514ee50c2f10bef6038f3a11d82fe599/goatl-0.4.0.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/13/0e/e41466cab7dc9d6d8c57d0cd7514514ee50c2f10bef6038f3a11d82fe599/goatl-0.4.0.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/13/0e/e41466cab7dc9d6d8c57d0cd7514514ee50c2f10bef6038f3a11d82fe599/goatl-0.4.0.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [transformers-gradients]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [transformers-gradients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_gradients-0.0.8.tar.gz tmp/transformers_gradients-0.0.9.tar.gz --markdown 20230501/t/transformers-gradients/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/d9/a2/1debf336669148e0885a33adb67430d7d678070c7d0044dd40ecd5e83438/itkdb-0.4.2.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/77/c2/b004371f9cdcdee67ac2dd882d036bd2e85fc92db90313773c33d5f1d42f/shareddata-2.0.1.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230501/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.0.tar.gz tmp/shareddata-2.0.1.tar.gz --markdown 20230501/s/shareddata/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/8e/72/865de232b07b60b8089447fdb12b5efc72954d10a78dc5a85cac3fa070ce/goatl-0.4.1.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/8e/72/865de232b07b60b8089447fdb12b5efc72954d10a78dc5a85cac3fa070ce/goatl-0.4.1.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: Downloading https://files.pythonhosted.org/packages/8e/72/865de232b07b60b8089447fdb12b5efc72954d10a78dc5a85cac3fa070ce/goatl-0.4.1.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [decentralizedroutines]: Downloading https://files.pythonhosted.org/packages/ae/26/0667b0126174109d6a393970bab1781aa6b7f7e994854778ff5ff12f0cac/decentralizedroutines-2.0.1.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [ondewo-s2t-client]: Downloading https://files.pythonhosted.org/packages/67/89/fa645c757fb9b1d4a85aaf9081b466f4cb29096e26a223af47f479548c0d/ondewo-s2t-client-5.3.0.tar.gz
+[2023-05-01 20:28:15] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.4.1rc1.tar.gz tmp/itkdb-0.4.2.tar.gz --markdown 20230501/i/itkdb/0.4.1rc1-0.4.2/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.4.0.tar.gz tmp/goatl-0.4.1.tar.gz --markdown 20230501/g/goatl/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.4.0.tar.gz tmp/goatl-0.4.1.tar.gz --markdown 20230501/g/goatl/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [goatl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goatl-0.4.0.tar.gz tmp/goatl-0.4.1.tar.gz --markdown 20230501/g/goatl/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-01 20:28:15] INFO root fetch - processPackages [decentralizedroutines]: executing diffoscope
+[2023-05-01 20:28:15] INFO root fetch - processPackages [decentralizedroutines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentralizedroutines-2.0.0.tar.gz tmp/decentralizedroutines-2.0.1.tar.gz --markdown 20230501/d/decentralizedroutines/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-01 20:28:16] INFO root fetch - processPackages [ondewo-s2t-client]: executing diffoscope
+[2023-05-01 20:28:16] INFO root fetch - processPackages [ondewo-s2t-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ondewo-s2t-client-5.2.0.tar.gz tmp/ondewo-s2t-client-5.3.0.tar.gz --markdown 20230501/o/ondewo-s2t-client/5.2.0-5.3.0/diff.md --exclude *.pyd
+[2023-05-01 20:28:16] INFO root fetch - processPackages [goatl]: Start processing: spacs
+[2023-05-01 20:28:16] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-01 20:28:17] INFO root fetch - processPackages [spacs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 20:28:17] INFO root fetch - processPackages [transformers-gradients]: Start processing: edx-enterprise
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [transformers-gradients]: success
+[2023-05-01 20:28:17] INFO root fetch - processPackages [goatl]: Start processing: dbt-lineage-viewer
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-01 20:28:17] INFO root fetch - processPackages [dbt-lineage-viewer]: New version: [0.5] Old Version: [0.4]
+[2023-05-01 20:28:17] INFO root fetch - processPackages [goatl]: Start processing: multi-agent-path-planning
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [goatl]: success
+[2023-05-01 20:28:17] WARNING root fetch - processPackages [multi-agent-path-planning]: Skipping, unable to determine old version
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [multi-agent-path-planning] error
+[2023-05-01 20:28:17] INFO root fetch - processPackages [spacs]: Downloading https://files.pythonhosted.org/packages/73/95/7017e407c96e42cd6a27d9852dda553e351e4d1f899777732e36ef729b30/spacs-0.0.5.tar.gz
+[2023-05-01 20:28:17] INFO root fetch - processPackages [dbt-lineage-viewer]: Downloading https://files.pythonhosted.org/packages/ca/80/0c10c2bdb06a31dc48cb228755aa8c4679d99e2e9f72bdbd2d37ce405017/dbt_lineage_viewer-0.5.tar.gz
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [ondewo-s2t-client]: success
+[2023-05-01 20:28:17] INFO root fetch - processPackages [dbt-lineage-viewer]: executing diffoscope
+[2023-05-01 20:28:17] INFO root fetch - processPackages [dbt-lineage-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_lineage_viewer-0.4.tar.gz tmp/dbt_lineage_viewer-0.5.tar.gz --markdown 20230501/d/dbt-lineage-viewer/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-01 20:28:17] INFO root fetch - processPackages [spacs]: executing diffoscope
+[2023-05-01 20:28:17] INFO root fetch - processPackages [spacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacs-0.0.4.tar.gz tmp/spacs-0.0.5.tar.gz --markdown 20230501/s/spacs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [decentralizedroutines]: success
+[2023-05-01 20:28:17] INFO root fetch - processPackages [edx-enterprise]: New version: [3.9.9] Old Version: [3.9.7]
+[2023-05-01 20:28:17] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-05-01 20:28:18] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2023-05-01 20:28:18] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-3.9.7.tar.gz tmp/edx-enterprise-3.9.9.tar.gz --markdown 20230501/e/edx-enterprise/3.9.7-3.9.9/diff.md --exclude *.pyd
+[2023-05-01 20:28:18] INFO root fetch - main [MainThread]: End processing [dbt-lineage-viewer]: success
+[2023-05-01 20:28:18] INFO root fetch - main [MainThread]: End processing [spacs]: success
+[2023-05-01 20:28:19] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-01 20:28:20] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2023-05-01 20:28:22] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2023-05-01 20:28:22] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-01 20:28:22] INFO root fetch - main [MainThread]: Store serial: [17930166]
