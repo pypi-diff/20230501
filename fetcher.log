@@ -802,3 +802,50 @@
 [2023-05-01 02:00:46] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-05-01 02:00:47] INFO root fetch - main [MainThread]: End processing [modal-client]: success
 [2023-05-01 02:00:47] INFO root fetch - main [MainThread]: Store serial: [17920887]
+[2023-05-01 02:05:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17920887]
+[2023-05-01 02:05:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SalamSource
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: energinet-ml-sdk
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qt-custom
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remindmail
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mct-nightly
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kmaps
+[2023-05-01 02:05:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ezfinpy
+[2023-05-01 02:05:55] WARNING root fetch - processPackages [SalamSource]: Skipping, unable to determine old version
+[2023-05-01 02:05:55] INFO root fetch - main [MainThread]: End processing [SalamSource] error
+[2023-05-01 02:05:55] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1682812997] Old Version: [1682726569]
+[2023-05-01 02:05:55] INFO root fetch - processPackages [kmaps]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 02:05:56] INFO root fetch - processPackages [ezfinpy]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 02:05:56] INFO root fetch - processPackages [remindmail]: New version: [2023.4.30.1] Old Version: [2023.4.29.1]
+[2023-05-01 02:05:56] INFO root fetch - processPackages [energinet-ml-sdk]: New version: [0.9.2.dev87] Old Version: [0.9.2.dev86]
+[2023-05-01 02:05:56] INFO root fetch - processPackages [qt-custom]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-01 02:05:56] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-05-01 02:05:56] INFO root fetch - processPackages [kmaps]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [kmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmaps-0.0.4.tar.gz tmp/kmaps-0.0.5.tar.gz --markdown 20230501/k/kmaps/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 02:05:56] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/3a/0b/9bb4b8d0586faa10ad677a1314a46134f248228bf4a3a0dbd50e0bb31e0f/torchdatasets-nightly-1682812997.tar.gz
+[2023-05-01 02:05:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230501/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-05-01 02:05:56] INFO root fetch - processPackages [ezfinpy]: Downloading https://files.pythonhosted.org/packages/af/5f/af53135c439b2a5f4c294377e46db63bd3a8bc7f5a561cd7bdca882a2d9f/ezfinpy-0.1.1.tar.gz
+[2023-05-01 02:05:56] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/8c/c9/6189763873ace57c0c23cbd065058e821973da7ac98b70deba3600b75bc7/qt-custom-0.2.6.tar.gz
+[2023-05-01 02:05:56] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1682726569.tar.gz tmp/torchdatasets-nightly-1682812997.tar.gz --markdown 20230501/t/torchdatasets-nightly/1682726569-1682812997/diff.md --exclude *.pyd
+[2023-05-01 02:05:56] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/28/4f/cd53a89c141044021e3af7dc3e584f416a44a71acdf0cea65760721a7886/remindmail-2023.4.30.1.tar.gz
+[2023-05-01 02:05:56] INFO root fetch - processPackages [energinet-ml-sdk]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [energinet-ml-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energinet-ml-sdk-0.9.2.dev86.tar.gz tmp/energinet-ml-sdk-0.9.2.dev87.tar.gz --markdown 20230501/e/energinet-ml-sdk/0.9.2.dev86-0.9.2.dev87/diff.md --exclude *.pyd
+[2023-05-01 02:05:56] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.4.29.1.tar.gz tmp/remindmail-2023.4.30.1.tar.gz --markdown 20230501/r/remindmail/2023.4.29.1-2023.4.30.1/diff.md --exclude *.pyd
+[2023-05-01 02:05:56] INFO root fetch - processPackages [ezfinpy]: Downloading https://files.pythonhosted.org/packages/d6/b6/2e7c958d3957195510016c9e9e463ebcf061dea0c140d4ef44b32a9a828a/ezfinpy-0.1.2.tar.gz
+[2023-05-01 02:05:56] INFO root fetch - processPackages [ezfinpy]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [ezfinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezfinpy-0.1.1.tar.gz tmp/ezfinpy-0.1.2.tar.gz --markdown 20230501/e/ezfinpy/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 02:05:56] INFO root fetch - processPackages [qt-custom]: Downloading https://files.pythonhosted.org/packages/ef/94/9aeaddbd8d37ecdf606e9a3270abcc54d78f46428354157ab14b257d653c/qt-custom-0.2.7.tar.gz
+[2023-05-01 02:05:56] INFO root fetch - processPackages [qt-custom]: executing diffoscope
+[2023-05-01 02:05:56] INFO root fetch - processPackages [qt-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qt-custom-0.2.6.tar.gz tmp/qt-custom-0.2.7.tar.gz --markdown 20230501/q/qt-custom/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-01 02:05:57] INFO root fetch - main [MainThread]: End processing [kmaps]: success
+[2023-05-01 02:05:57] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-01 02:05:57] INFO root fetch - main [MainThread]: End processing [ezfinpy]: success
+[2023-05-01 02:05:57] INFO root fetch - main [MainThread]: End processing [qt-custom]: success
+[2023-05-01 02:05:57] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-05-01 02:05:59] INFO root fetch - main [MainThread]: End processing [energinet-ml-sdk]: success
+[2023-05-01 02:06:01] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-01 02:06:01] INFO root fetch - main [MainThread]: Store serial: [17920914]
