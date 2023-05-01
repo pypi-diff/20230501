@@ -10299,3 +10299,145 @@
 [2023-05-01 14:30:58] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2023-05-01 14:30:58] INFO root fetch - main [MainThread]: End processing [uztagger]: success
 [2023-05-01 14:30:58] INFO root fetch - main [MainThread]: Store serial: [17926379]
+[2023-05-01 14:36:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926379]
+[2023-05-01 14:36:07] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-statement-import-online-paypal
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: renovosolutions.aws-cdk-aspects-security-group
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: normcap
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvworld
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: renovosolutions.aws-cdk-one-time-event
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-dots
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: renovosolutions.aws-cdk-aws-sso
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiwigrad
+[2023-05-01 14:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vec-geohash
+[2023-05-01 14:36:07] INFO root fetch - processPackages [cvworld]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.0.2]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [cvworld]: executing diffoscope
+[2023-05-01 14:36:07] INFO root fetch - processPackages [cvworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvworld-0.3.tar.gz tmp/cvworld-0.4.tar.gz --markdown 20230501/c/cvworld/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 14:36:07] INFO root fetch - processPackages [normcap]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-01 14:36:07] WARNING root fetch - processPackages [vec-geohash]: Skipping, unable to determine old version
+[2023-05-01 14:36:07] INFO root fetch - processPackages [vec-geohash]: Start processing: Common-Crawl-Extractor
+[2023-05-01 14:36:07] INFO root fetch - main [MainThread]: End processing [vec-geohash] error
+[2023-05-01 14:36:07] INFO root fetch - processPackages [kiwigrad]: New version: [0.25] Old Version: [0.24]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [mo-dots]: New version: [9.376.23121] Old Version: [9.368.23092]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-01 14:36:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: executing diffoscope
+[2023-05-01 14:36:07] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aws-sso-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-aws-sso-0.1.99.tar.gz --markdown 20230501/r/renovosolutions.aws-cdk-aws-sso/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-01 14:36:08] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230501/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] WARNING root fetch - processPackages [Common-Crawl-Extractor]: Skipping, unable to determine old version
+[2023-05-01 14:36:08] INFO root fetch - processPackages [Common-Crawl-Extractor]: Start processing: renovosolutions.aws-cdk-control-tower-lifecycle-events
+[2023-05-01 14:36:08] INFO root fetch - main [MainThread]: End processing [Common-Crawl-Extractor] error
+[2023-05-01 14:36:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Downloading https://files.pythonhosted.org/packages/7d/14/4872fe1851f2d4901bba98cecd4820a6aa81f9ec71fb2577cfd809e47d97/odoo_addon_account_statement_import_online_paypal-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-01 14:36:08] INFO root fetch - processPackages [normcap]: Downloading https://files.pythonhosted.org/packages/9e/52/a0437ea55cbdda602cef1881b8ab94a98bea88aebba8aa4cfa11d1ae74ea/normcap-0.4.0.tar.gz
+[2023-05-01 14:36:08] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/de/f9/aa2e6218db914845fccfc0274f21220ed4995d229708a7f10a7db99aa461/mo_dots-9.368.23092-py2.py3-none-any.whl
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Downloading https://files.pythonhosted.org/packages/87/7c/af41d25a32b040b0473d5b1f96433d36349fe59cccfe0b874d7844700c9e/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-01 14:36:08] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/92/6c/b42c3cf033c4ff6ce53f09190a76e007cd9a0bd6c25b4e2d347cd2c71a49/kiwigrad-0.25.tar.gz
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Downloading https://files.pythonhosted.org/packages/fc/80/89565cb0dd5fafad52c849d5d1f6219d0326e29a3a2424e8c79c20fb1e71/odoo_addon_account_statement_import_online_paypal-15.0.1.1.0-py3-none-any.whl
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-aspects-security-group-2.1.99.tar.gz --markdown 20230501/r/renovosolutions.aws-cdk-aspects-security-group/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/5a/fc/08ff3416d1f4464cee3e8a21389099c46e658d0d02868d021c683f97449c/mo_dots-9.376.23121-py2.py3-none-any.whl
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/5d/e8/4e165b2f8e043b8a6f533e80c731ae1580c6d388f06d2d292837f02a1aa7/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz
+[2023-05-01 14:36:08] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.24.tar.gz tmp/kiwigrad-0.25.tar.gz --markdown 20230501/k/kiwigrad/0.24-0.25/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_online_paypal-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_online_paypal-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230501/o/odoo-addon-account-statement-import-online-paypal/15.0.1.0.0.2-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.368.23092-py2.py3-none-any.whl.zip tmp/mo_dots-9.376.23121-py2.py3-none-any.whl.zip --markdown 20230501/m/mo-dots/9.368.23092-9.376.23121/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [normcap]: Downloading https://files.pythonhosted.org/packages/7a/3c/45dfd15052c6c08b83c936f608e89e8fb3b688b05d3a7af5c3250e83de86/normcap-0.4.1.tar.gz
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Downloading https://files.pythonhosted.org/packages/80/80/e18538dade74958e4680bda9c6ec21d445f0f6a82ee16527ba03c23f5c46/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz
+[2023-05-01 14:36:08] INFO root fetch - processPackages [normcap]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [normcap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normcap-0.4.0.tar.gz tmp/normcap-0.4.1.tar.gz --markdown 20230501/n/normcap/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: executing diffoscope
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-one-time-event-2.1.98.tar.gz tmp/renovosolutions.aws-cdk-one-time-event-2.1.99.tar.gz --markdown 20230501/r/renovosolutions.aws-cdk-one-time-event/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-01 14:36:08] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Downloading https://files.pythonhosted.org/packages/05/df/7a5fef5d04715e9053c344907162075912807a5afd58dc0cbc9d037f01ac/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz
+[2023-05-01 14:36:09] INFO root fetch - processPackages [cvworld]: Start processing: openstef
+[2023-05-01 14:36:09] INFO root fetch - main [MainThread]: End processing [cvworld]: success
+[2023-05-01 14:36:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: executing diffoscope
+[2023-05-01 14:36:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.98.tar.gz tmp/renovosolutions.aws-cdk-control-tower-lifecycle-events-0.1.99.tar.gz --markdown 20230501/r/renovosolutions.aws-cdk-control-tower-lifecycle-events/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-01 14:36:09] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-01 14:36:09] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-05-01 14:36:09] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230501/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:09] INFO root fetch - processPackages [renovosolutions.aws-cdk-aspects-security-group]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-05-01 14:36:09] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aspects-security-group]: success
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-aws-sso]: Start processing: renovosolutions.aws-cdk-renovo-instance-service
+[2023-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-aws-sso]: success
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: New version: [2.9.99] Old Version: [2.9.98]
+[2023-05-01 14:36:10] INFO root fetch - processPackages [kiwigrad]: Start processing: idds-atlas
+[2023-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [kiwigrad]: success
+[2023-05-01 14:36:10] INFO root fetch - processPackages [mo-dots]: Start processing: idds-client
+[2023-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2023-05-01 14:36:10] INFO root fetch - processPackages [odoo-addon-account-statement-import-online-paypal]: Start processing: idds-common
+[2023-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-online-paypal]: success
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-atlas]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/40/a5/cc7ffccd513253dd42962b024e0d562e27edb9b627338202d0ce082ad261/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/40/a5/cc7ffccd513253dd42962b024e0d562e27edb9b627338202d0ce082ad261/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-client]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-one-time-event]: Start processing: idds-doma
+[2023-05-01 14:36:10] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-one-time-event]: success
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-common]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-doma]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/a5/93/b9267204671c1e1ca1e8dced6f2f1cee6059166a58950f2b9c0e4f3d4b0f/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Downloading https://files.pythonhosted.org/packages/a5/93/b9267204671c1e1ca1e8dced6f2f1cee6059166a58950f2b9c0e4f3d4b0f/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.2.8.tar.gz tmp/idds-client-1.2.9.tar.gz --markdown 20230501/i/idds-client/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.2.8.tar.gz tmp/idds-common-1.2.9.tar.gz --markdown 20230501/i/idds-common/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.2.8.tar.gz tmp/idds-atlas-1.2.9.tar.gz --markdown 20230501/i/idds-atlas/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-05-01 14:36:10] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.2.8.tar.gz tmp/idds-doma-1.2.9.tar.gz --markdown 20230501/i/idds-doma/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230501/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: executing diffoscope
+[2023-05-01 14:36:10] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.98.tar.gz tmp/renovosolutions.aws-cdk-renovo-instance-service-2.9.99.tar.gz --markdown 20230501/r/renovosolutions.aws-cdk-renovo-instance-service/2.9.98-2.9.99/diff.md --exclude *.pyd
+[2023-05-01 14:36:11] INFO root fetch - processPackages [renovosolutions.aws-cdk-control-tower-lifecycle-events]: Start processing: idds-server
+[2023-05-01 14:36:11] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-control-tower-lifecycle-events]: success
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-server]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:11] INFO root fetch - processPackages [openstef]: Start processing: idds-monitor
+[2023-05-01 14:36:11] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-05-01 14:36:11] INFO root fetch - processPackages [normcap]: Start processing: idds-website
+[2023-05-01 14:36:11] INFO root fetch - main [MainThread]: End processing [normcap]: success
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-monitor]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-website]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.2.8.tar.gz tmp/idds-server-1.2.9.tar.gz --markdown 20230501/i/idds-server/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.2.8.tar.gz tmp/idds-monitor-1.2.9.tar.gz --markdown 20230501/i/idds-monitor/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-05-01 14:36:11] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.2.8.tar.gz tmp/idds-website-1.2.9.tar.gz --markdown 20230501/i/idds-website/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:12] INFO root fetch - processPackages [idds-common]: Start processing: idds-workflow
+[2023-05-01 14:36:12] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-05-01 14:36:12] INFO root fetch - processPackages [idds-client]: Start processing: mo-parsing
+[2023-05-01 14:36:12] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-05-01 14:36:12] INFO root fetch - processPackages [idds-workflow]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-01 14:36:12] INFO root fetch - processPackages [mo-parsing]: New version: [8.6.21337] Old Version: [8.4.21326]
+[2023-05-01 14:36:12] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/9d/a4/9961d49f979aec0dc7bcd90c693b5c03e598f0a416d578a8ff7c588ee37f/mo-parsing-8.4.21326.tar.gz
+[2023-05-01 14:36:12] INFO root fetch - processPackages [renovosolutions.aws-cdk-renovo-instance-service]: Start processing: bmpy
+[2023-05-01 14:36:12] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-05-01 14:36:12] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-cdk-renovo-instance-service]: success
+[2023-05-01 14:36:12] INFO root fetch - processPackages [bmpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 14:36:12] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-05-01 14:36:12] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-05-01 14:36:12] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.2.8.tar.gz tmp/idds-workflow-1.2.9.tar.gz --markdown 20230501/i/idds-workflow/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-01 14:36:12] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-05-01 14:36:12] INFO root fetch - processPackages [bmpy]: Downloading https://files.pythonhosted.org/packages/fa/2a/1c67fa1e96a04ccc2351edc58d108f572b9aff6d44065e91e92035074fad/bmpy-0.0.4.tar.gz
+[2023-05-01 14:36:12] INFO root fetch - processPackages [bmpy]: executing diffoscope
+[2023-05-01 14:36:12] INFO root fetch - processPackages [bmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmpy-0.0.3.tar.gz tmp/bmpy-0.0.4.tar.gz --markdown 20230501/b/bmpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 14:36:13] INFO root fetch - processPackages [mo-parsing]: Downloading https://files.pythonhosted.org/packages/f5/1a/82201993fe48978b96bd30729e1d7c8097d4513168689bc51790c6a20d90/mo-parsing-8.6.21337.tar.gz
+[2023-05-01 14:36:13] INFO root fetch - processPackages [mo-parsing]: executing diffoscope
+[2023-05-01 14:36:13] INFO root fetch - processPackages [mo-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-parsing-8.4.21326.tar.gz tmp/mo-parsing-8.6.21337.tar.gz --markdown 20230501/m/mo-parsing/8.4.21326-8.6.21337/diff.md --exclude *.pyd
+[2023-05-01 14:36:13] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-05-01 14:36:13] INFO root fetch - main [MainThread]: End processing [bmpy]: success
+[2023-05-01 14:36:14] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-01 14:36:14] INFO root fetch - main [MainThread]: End processing [mo-parsing]: success
+[2023-05-01 14:36:14] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-05-01 14:36:20] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-05-01 14:36:36] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-05-01 14:36:36] INFO root fetch - main [MainThread]: Store serial: [17926447]
