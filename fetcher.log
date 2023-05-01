@@ -15278,3 +15278,51 @@ EOFError: EOF read where object expected
 [2023-05-01 19:35:43] INFO root fetch - main [MainThread]: End processing [linode-api4]: success
 [2023-05-01 19:37:57] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-05-01 19:37:57] INFO root fetch - main [MainThread]: Store serial: [17929559]
+[2023-05-01 19:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929559]
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asytest
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywxdll
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweetbean
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HACKERTBILIB
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-nowpayments
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythoncryptoaddition
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sweelol
+[2023-05-01 19:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sweetbean
+[2023-05-01 19:43:07] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping, unable to determine old version
+[2023-05-01 19:43:07] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: circuitpython-lps28
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-01 19:43:07] INFO root fetch - processPackages [asytest]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 19:43:07] WARNING root fetch - processPackages [HACKERTBILIB]: Skipping, unable to determine old version
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [HACKERTBILIB] error
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweelol]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-01 19:43:07] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230501.16.35.890439] Old Version: [20230501.15.49.563155]
+[2023-05-01 19:43:07] WARNING root fetch - processPackages [py-nowpayments]: Skipping, unable to determine old version
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [py-nowpayments] error
+[2023-05-01 19:43:07] WARNING root fetch - processPackages [pywxdll]: Skipping, unable to determine old version
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [pywxdll] error
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweetbean]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweetbean]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 19:43:07] ERROR root fetch - processPackages [pythoncryptoaddition]: Unable to get metadata: No such project 'pythoncryptoaddition'
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [pythoncryptoaddition] error
+[2023-05-01 19:43:07] WARNING root fetch - processPackages [circuitpython-lps28]: Skipping, unable to determine old version
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [circuitpython-lps28] error
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweelol]: executing diffoscope
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweelol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweelol-1.1.0.tar.gz tmp/sweelol-1.1.1.tar.gz --markdown 20230501/s/sweelol/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:43:07] INFO root fetch - processPackages [asytest]: Downloading https://files.pythonhosted.org/packages/88/5d/e754c86943bf58390fc81a2fabf3573c3fe14ec0a18ce1fb5889b4819ca6/asytest-0.1.0.tar.gz
+[2023-05-01 19:43:07] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b5/39/3a775fb1b91a1b601bef4de38761df1c3facb3792d814f1ded1cc8534c27/certora-cli-alpha-master-20230501.15.49.563155.tar.gz
+[2023-05-01 19:43:07] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 38323989>=10485760
+[2023-05-01 19:43:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-05-01 19:43:07] INFO root fetch - processPackages [asytest]: Downloading https://files.pythonhosted.org/packages/ed/42/d21d7884bddd7ce5133b6ffb5e4df5dbe9d862ccef33f428b6698ddaadb0/asytest-0.1.1.tar.gz
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweetbean]: executing diffoscope
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweetbean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetbean-0.0.8.tar.gz tmp/sweetbean-0.0.9.tar.gz --markdown 20230501/s/sweetbean/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweetbean]: executing diffoscope
+[2023-05-01 19:43:07] INFO root fetch - processPackages [sweetbean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweetbean-0.0.8.tar.gz tmp/sweetbean-0.0.9.tar.gz --markdown 20230501/s/sweetbean/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 19:43:07] INFO root fetch - processPackages [asytest]: executing diffoscope
+[2023-05-01 19:43:07] INFO root fetch - processPackages [asytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asytest-0.1.0.tar.gz tmp/asytest-0.1.1.tar.gz --markdown 20230501/a/asytest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:43:08] INFO root fetch - main [MainThread]: End processing [sweelol]: success
+[2023-05-01 19:43:08] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
+[2023-05-01 19:43:08] INFO root fetch - main [MainThread]: End processing [sweetbean]: success
+[2023-05-01 19:43:08] INFO root fetch - main [MainThread]: End processing [asytest]: success
+[2023-05-01 19:43:08] INFO root fetch - main [MainThread]: Store serial: [17929598]
