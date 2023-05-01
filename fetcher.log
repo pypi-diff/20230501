@@ -11145,3 +11145,48 @@
 [2023-05-01 14:57:46] INFO root fetch - main [MainThread]: End processing [django-mermaid]: success
 [2023-05-01 14:57:54] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2023-05-01 14:57:54] INFO root fetch - main [MainThread]: Store serial: [17926828]
+[2023-05-01 15:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17926828]
+[2023-05-01 15:03:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: client-GPT
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: insidecouchbase
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valr-py
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-fumen-py
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aacommpy
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threedigrid-builder
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pizurscan
+[2023-05-01 15:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-01 15:03:03] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 15:03:03] INFO root fetch - processPackages [py-fumen-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-01 15:03:03] INFO root fetch - processPackages [insidecouchbase]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-05-01 15:03:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.30] Old Version: [2023.4.29]
+[2023-05-01 15:03:03] INFO root fetch - processPackages [pizurscan]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-01 15:03:03] WARNING root fetch - processPackages [valr-py]: Skipping, unable to determine old version
+[2023-05-01 15:03:03] INFO root fetch - processPackages [client-GPT]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-01 15:03:03] INFO root fetch - main [MainThread]: End processing [valr-py] error
+[2023-05-01 15:03:03] INFO root fetch - processPackages [insidecouchbase]: executing diffoscope
+[2023-05-01 15:03:03] INFO root fetch - processPackages [insidecouchbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insidecouchbase-0.0.5.tar.gz tmp/insidecouchbase-0.1.0.tar.gz --markdown 20230501/i/insidecouchbase/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 15:03:03] INFO root fetch - processPackages [threedigrid-builder]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-01 15:03:03] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-01 15:03:03] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230501/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 15:03:03] INFO root fetch - processPackages [pizurscan]: executing diffoscope
+[2023-05-01 15:03:03] INFO root fetch - processPackages [pizurscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizurscan-0.1.1.tar.gz tmp/pizurscan-0.1.2.tar.gz --markdown 20230501/p/pizurscan/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-01 15:03:03] INFO root fetch - processPackages [py-fumen-py]: executing diffoscope
+[2023-05-01 15:03:03] INFO root fetch - processPackages [py-fumen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_py-0.0.1.tar.gz tmp/py_fumen_py-0.0.2.tar.gz --markdown 20230501/p/py-fumen-py/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-01 15:03:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/8c/79/ea436830df5de9ba4d551efae0c0f5f5b1b26036689d2cba3832811ad801/fbgemm_gpu_nightly_cpu-2023.4.30-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-01 15:03:03] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/2c/e1/9e264cac9dd3136894d0343e718af980cb8a07cf16a29809269d6ad4546f/threedigrid-builder-1.8.0.tar.gz
+[2023-05-01 15:03:03] INFO root fetch - processPackages [client-GPT]: Downloading https://files.pythonhosted.org/packages/7f/f3/7bde316b4e9bad5acac85cb440ea12f5ba4786cd4bf47c5c7d51613bb767/client_GPT-1.1.3.tar.gz
+[2023-05-01 15:03:03] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-05-01 15:03:03] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-1.1.2.tar.gz tmp/client_GPT-1.1.3.tar.gz --markdown 20230501/c/client-GPT/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-01 15:03:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-01 15:03:03] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.29-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.30-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230501/f/fbgemm-gpu-nightly-cpu/2023.4.29-2023.4.30/diff.md --exclude *.pyd
+[2023-05-01 15:03:04] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/6b/de/d4fa81887befd3d08d5cf0d124803d3d142dbde109c6825cae8b8eb896e7/threedigrid-builder-1.9.0.tar.gz
+[2023-05-01 15:03:04] INFO root fetch - processPackages [threedigrid-builder]: executing diffoscope
+[2023-05-01 15:03:04] INFO root fetch - processPackages [threedigrid-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-builder-1.8.0.tar.gz tmp/threedigrid-builder-1.9.0.tar.gz --markdown 20230501/t/threedigrid-builder/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-01 15:03:04] INFO root fetch - main [MainThread]: End processing [insidecouchbase]: success
+[2023-05-01 15:03:04] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-01 15:03:05] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-05-01 15:03:05] INFO root fetch - main [MainThread]: End processing [py-fumen-py]: success
+[2023-05-01 15:03:05] INFO root fetch - main [MainThread]: End processing [pizurscan]: success
+[2023-05-01 15:03:05] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-01 15:03:06] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
+[2023-05-01 15:03:06] INFO root fetch - main [MainThread]: Store serial: [17926866]
