@@ -7080,3 +7080,33 @@
 [2023-05-01 12:05:13] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
 [2023-05-01 12:05:18] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-01 12:05:18] INFO root fetch - main [MainThread]: Store serial: [17924675]
+[2023-05-01 12:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924675]
+[2023-05-01 12:10:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 12:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QuNet
+[2023-05-01 12:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-05-01 12:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veda-cli
+[2023-05-01 12:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proactive-jupyter-kernel
+[2023-05-01 12:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boston
+[2023-05-01 12:10:27] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-01 12:10:27] INFO root fetch - processPackages [boston]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 12:10:27] INFO root fetch - processPackages [veda-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 12:10:27] INFO root fetch - processPackages [QuNet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 12:10:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-01 12:10:27] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 12:10:27] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.8.tar.gz tmp/boston-1.0.9.tar.gz --markdown 20230501/b/boston/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:10:27] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-01 12:10:27] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/21/1e/90facdda4475f9ce8b0780cfec605dd0c0acda4c36bf9a15061d98fecb50/veda_cli-0.0.3.tar.gz
+[2023-05-01 12:10:27] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-01 12:10:27] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-01 12:10:27] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-05-01 12:10:27] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.8-py3-none-any.whl.zip tmp/QuNet-0.0.9-py3-none-any.whl.zip --markdown 20230501/Q/QuNet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 12:10:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-01 12:10:27] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230501/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-01 12:10:27] INFO root fetch - processPackages [veda-cli]: Downloading https://files.pythonhosted.org/packages/36/33/ae2ba318a6f6c9b412d6b62ec54505e7185b67be2c5b5a3b85bbe8d9864d/veda_cli-0.0.4.tar.gz
+[2023-05-01 12:10:27] INFO root fetch - processPackages [veda-cli]: executing diffoscope
+[2023-05-01 12:10:27] INFO root fetch - processPackages [veda-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veda_cli-0.0.3.tar.gz tmp/veda_cli-0.0.4.tar.gz --markdown 20230501/v/veda-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 12:10:28] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 12:10:28] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-05-01 12:10:28] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-01 12:10:29] INFO root fetch - main [MainThread]: End processing [veda-cli]: success
+[2023-05-01 12:10:29] INFO root fetch - main [MainThread]: Store serial: [17924693]
