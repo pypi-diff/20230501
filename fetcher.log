@@ -13301,3 +13301,40 @@ EOFError: EOF read where object expected
 [2023-05-01 17:22:37] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-01 17:22:37] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-05-01 17:22:37] INFO root fetch - main [MainThread]: Store serial: [17928146]
+[2023-05-01 17:27:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928146]
+[2023-05-01 17:27:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hsfs
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-cli
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-cli-client
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usefulib
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: voip-utils
+[2023-05-01 17:27:47] INFO root fetch - processPackages [usefulib]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ovos-cli-client]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2023-05-01 17:27:47] INFO root fetch - processPackages [voip-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-01 17:27:47] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-01 17:27:47] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc0] Old Version: [3.1.1rc4]
+[2023-05-01 17:27:47] INFO root fetch - processPackages [voip-utils]: Downloading https://files.pythonhosted.org/packages/60/57/09846ecf84056ecce710267f2ff93423457c5fd6660db7e61c01b7b26306/voip-utils-0.0.5.tar.gz
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ovos-cli-client]: Downloading https://files.pythonhosted.org/packages/d5/87/39287e068a8e97aeb71ccef8f2566af1be070eacff10b702fb1f01a3a3aa/ovos-cli-client-0.0.1.tar.gz
+[2023-05-01 17:27:47] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/13/5e/7c987605af62aec987c4ee817c32a1f1dccae97f53623d4caf4d18e3d9b2/oarepo-cli-11.0.7.tar.gz
+[2023-05-01 17:27:47] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/59/1c/736da77f15b3d855d18a43d539f1099e897860c6cab3b1e6ecc9f3a38067/hsfs-3.1.1rc4.tar.gz
+[2023-05-01 17:27:47] INFO root fetch - processPackages [usefulib]: Downloading https://files.pythonhosted.org/packages/bb/59/182f97c9c898be7905c37565f6dc7c83d75d92ff0334b86c7a6e1477e056/usefulib-1.0.5.tar.gz
+[2023-05-01 17:27:47] INFO root fetch - processPackages [ovos-cli-client]: Downloading https://files.pythonhosted.org/packages/c1/b0/482780f090e68fd704b66f2042618e5ae2bbcb8d074edb2f7de8272c407f/ovos_cli_client-0.0.1a1-py3-none-any.whl
+[2023-05-01 17:27:47] INFO root fetch - processPackages [voip-utils]: Downloading https://files.pythonhosted.org/packages/8f/05/96af5fa49ba479d0f4243b04130cfe0bc84f9331cf79179fa33d61b3678a/voip-utils-0.0.6.tar.gz
+[2023-05-01 17:27:47] INFO root fetch - processPackages [usefulib]: executing diffoscope
+[2023-05-01 17:27:47] INFO root fetch - processPackages [usefulib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usefulib-1.0.4.tar.gz tmp/usefulib-1.0.5.tar.gz --markdown 20230501/u/usefulib/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-01 17:27:47] INFO root fetch - processPackages [voip-utils]: executing diffoscope
+[2023-05-01 17:27:47] INFO root fetch - processPackages [voip-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voip-utils-0.0.5.tar.gz tmp/voip-utils-0.0.6.tar.gz --markdown 20230501/v/voip-utils/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-01 17:27:47] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/4a/5f/3d68c0f1efb3ab209351838ec6851f53334337e78bd622201c489d05a6d8/hsfs-3.2.0rc0.tar.gz
+[2023-05-01 17:27:48] INFO root fetch - processPackages [ovos-cli-client]: executing diffoscope
+[2023-05-01 17:27:48] INFO root fetch - processPackages [ovos-cli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-cli-client-0.0.1.tar.gz tmp/ovos_cli_client-0.0.1a1-py3-none-any.whl.zip --markdown 20230501/o/ovos-cli-client/0.0.1-0.0.1a1/diff.md --exclude *.pyd
+[2023-05-01 17:27:48] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-05-01 17:27:48] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-05-01 17:27:48] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.1.1rc4.tar.gz tmp/hsfs-3.2.0rc0.tar.gz --markdown 20230501/h/hsfs/3.1.1rc4-3.2.0rc0/diff.md --exclude *.pyd
+[2023-05-01 17:27:48] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-01 17:27:48] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230501/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-01 17:27:48] INFO root fetch - main [MainThread]: End processing [usefulib]: success
+[2023-05-01 17:27:49] INFO root fetch - main [MainThread]: End processing [ovos-cli-client]: success
+[2023-05-01 17:27:49] INFO root fetch - main [MainThread]: End processing [voip-utils]: success
+[2023-05-01 17:27:49] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-01 17:27:50] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-05-01 17:27:50] INFO root fetch - main [MainThread]: Store serial: [17928161]
