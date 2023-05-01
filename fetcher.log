@@ -12359,3 +12359,97 @@ EOFError: EOF read where object expected
 [2023-05-01 16:28:30] INFO root fetch - main [MainThread]: End processing [amqp-client-python]: success
 [2023-05-01 16:29:12] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-05-01 16:29:12] INFO root fetch - main [MainThread]: Store serial: [17927587]
+[2023-05-01 16:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927587]
+[2023-05-01 16:34:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonglaive
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kmergenetyper
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-poe-chat
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: afloat
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AI-Summarizer
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: herbs
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spPersist
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poc-poetry-partifact-plugin
+[2023-05-01 16:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moonglaive
+[2023-05-01 16:34:21] INFO root fetch - processPackages [AI-Summarizer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 16:34:21] INFO root fetch - processPackages [nonebot-poe-chat]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-01 16:34:21] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-01 16:34:21] INFO root fetch - processPackages [spPersist]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 16:34:21] INFO root fetch - processPackages [afloat]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 16:34:21] INFO root fetch - processPackages [nonebot-poe-chat]: Downloading https://files.pythonhosted.org/packages/fe/9b/478f2453df3749eecc9257cfd4bd090557e5f8c997df18e09a20facf207d/nonebot_poe_chat-1.1.4.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 16:34:22] INFO root fetch - processPackages [AI-Summarizer]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [AI-Summarizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AI-Summarizer-1.0.2.tar.gz tmp/AI-Summarizer-1.0.3.tar.gz --markdown 20230501/A/AI-Summarizer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kmergenetyper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 16:34:22] INFO root fetch - processPackages [herbs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-01 16:34:22] WARNING root fetch - processPackages [nonebot-poe-chat]: Skipping package: exceeds size limit 13495352>=10485760
+[2023-05-01 16:34:22] INFO root fetch - processPackages [nonebot-poe-chat]: Start processing: kennard-stone
+[2023-05-01 16:34:22] INFO root fetch - main [MainThread]: End processing [nonebot-poe-chat] error
+[2023-05-01 16:34:22] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-01 16:34:22] INFO root fetch - processPackages [spPersist]: Downloading https://files.pythonhosted.org/packages/05/04/6a7b93c0bac6f7dbea3152ef816ffae4cbbb529a74fa843ba9b76b1b7f63/sppersist-0.1.3.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [afloat]: Downloading https://files.pythonhosted.org/packages/85/cb/40f4fdd1c710774e2ae5f67b4dc396f1dccbb2cd885f317275854a291d32/afloat-0.0.8.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/49/a5/94562892f90bf04ddc3ec2913292c0ab89977d238456084c59010b69c3aa/moonglaive-0.0.8.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kennard-stone]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/49/a5/94562892f90bf04ddc3ec2913292c0ab89977d238456084c59010b69c3aa/moonglaive-0.0.8.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_poetry_partifact_plugin-0.8.0.tar.gz tmp/poc_poetry_partifact_plugin-0.9.0.tar.gz --markdown 20230501/p/poc-poetry-partifact-plugin/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.1.2.tar.gz tmp/sppersist-0.1.3.tar.gz --markdown 20230501/s/spPersist/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [herbs]: Downloading https://files.pythonhosted.org/packages/dc/0e/75662af2ff3fa01ab86b1c9697ea18c6d9a55f2a8497449630a74e2ecae2/herbs-0.2.2.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [afloat]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [afloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afloat-0.0.7.tar.gz tmp/afloat-0.0.8.tar.gz --markdown 20230501/a/afloat/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/95/b4/c6748628d797218b7e47fc0ef4a8b432d2709bddcb3bb0c576925d19b8af/moonglaive-0.0.9.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/95/b4/c6748628d797218b7e47fc0ef4a8b432d2709bddcb3bb0c576925d19b8af/moonglaive-0.0.9.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kmergenetyper]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kmergenetyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmergenetyper-1.0.8.tar.gz tmp/kmergenetyper-1.0.9.tar.gz --markdown 20230501/k/kmergenetyper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230501/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonglaive-0.0.8.tar.gz tmp/moonglaive-0.0.9.tar.gz --markdown 20230501/m/moonglaive/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [moonglaive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonglaive-0.0.8.tar.gz tmp/moonglaive-0.0.9.tar.gz --markdown 20230501/m/moonglaive/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kennard-stone]: Downloading https://files.pythonhosted.org/packages/0d/54/e70eb91918d78b69e14378dbb8a0d242999de8959a4280c475a7ea9adf25/kennard_stone-2.1.0.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kennard-stone]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [kennard-stone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kennard_stone-2.0.1.tar.gz tmp/kennard_stone-2.1.0.tar.gz --markdown 20230501/k/kennard-stone/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-01 16:34:22] INFO root fetch - processPackages [herbs]: Downloading https://files.pythonhosted.org/packages/76/f0/30b4a585a6e64ca346cda4dcab604c60db6bf6744a7743dddc87fd714260/herbs-0.2.3.tar.gz
+[2023-05-01 16:34:22] INFO root fetch - processPackages [herbs]: executing diffoscope
+[2023-05-01 16:34:22] INFO root fetch - processPackages [herbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herbs-0.2.2.tar.gz tmp/herbs-0.2.3.tar.gz --markdown 20230501/h/herbs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-01 16:34:23] INFO root fetch - processPackages [AI-Summarizer]: Start processing: sunnyday-fff
+[2023-05-01 16:34:23] INFO root fetch - main [MainThread]: End processing [AI-Summarizer]: success
+[2023-05-01 16:34:23] WARNING root fetch - processPackages [sunnyday-fff]: Skipping, unable to determine old version
+[2023-05-01 16:34:23] INFO root fetch - processPackages [sunnyday-fff]: Start processing: propan
+[2023-05-01 16:34:23] INFO root fetch - main [MainThread]: End processing [sunnyday-fff] error
+[2023-05-01 16:34:23] INFO root fetch - processPackages [poc-poetry-partifact-plugin]: Start processing: Rare
+[2023-05-01 16:34:23] INFO root fetch - main [MainThread]: End processing [poc-poetry-partifact-plugin]: success
+[2023-05-01 16:34:23] INFO root fetch - processPackages [spPersist]: Start processing: appthreat-vulnerability-db
+[2023-05-01 16:34:23] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 16:34:23] INFO root fetch - processPackages [propan]: New version: [0.0.9.4] Old Version: [0.0.9.3]
+[2023-05-01 16:34:23] INFO root fetch - processPackages [Rare]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-01 16:34:23] INFO root fetch - processPackages [appthreat-vulnerability-db]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-05-01 16:34:23] INFO root fetch - processPackages [Rare]: Downloading https://files.pythonhosted.org/packages/90/f4/7d31455a569e51420210491986f917549f006dfd4d217a035d0b4e581e79/Rare-1.9.4.tar.gz
+[2023-05-01 16:34:23] INFO root fetch - processPackages [always-updates]: Start processing: redisbench-admin
+[2023-05-01 16:34:23] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-01 16:34:23] INFO root fetch - processPackages [redisbench-admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 16:34:23] INFO root fetch - main [MainThread]: End processing [kmergenetyper]: success
+[2023-05-01 16:34:24] INFO root fetch - processPackages [propan]: Downloading https://files.pythonhosted.org/packages/22/e4/8295fdf02c055d2986623f223bb8417c6bc52419437e9323f32d95c94e17/propan-0.0.9.4.tar.gz
+[2023-05-01 16:34:24] INFO root fetch - processPackages [redisbench-admin]: executing diffoscope
+[2023-05-01 16:34:24] INFO root fetch - processPackages [redisbench-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redisbench-admin-0.9.8.tar.gz tmp/redisbench-admin-0.9.9.tar.gz --markdown 20230501/r/redisbench-admin/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 16:34:24] INFO root fetch - processPackages [appthreat-vulnerability-db]: Downloading https://files.pythonhosted.org/packages/cb/79/fcd4fb3b51459af1485c20e1c39eda3c4d15378a95d24e30202a48f426ce/appthreat-vulnerability-db-5.1.2.tar.gz
+[2023-05-01 16:34:24] INFO root fetch - processPackages [propan]: executing diffoscope
+[2023-05-01 16:34:24] INFO root fetch - processPackages [propan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propan-0.0.9.3.tar.gz tmp/propan-0.0.9.4.tar.gz --markdown 20230501/p/propan/0.0.9.3-0.0.9.4/diff.md --exclude *.pyd
+[2023-05-01 16:34:24] INFO root fetch - main [MainThread]: End processing [moonglaive]: success
+[2023-05-01 16:34:24] INFO root fetch - main [MainThread]: End processing [moonglaive]: success
+[2023-05-01 16:34:24] INFO root fetch - processPackages [appthreat-vulnerability-db]: executing diffoscope
+[2023-05-01 16:34:24] INFO root fetch - processPackages [appthreat-vulnerability-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appthreat-vulnerability-db-5.1.1.tar.gz tmp/appthreat-vulnerability-db-5.1.2.tar.gz --markdown 20230501/a/appthreat-vulnerability-db/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-05-01 16:34:24] INFO root fetch - main [MainThread]: End processing [afloat]: success
+[2023-05-01 16:34:24] INFO root fetch - main [MainThread]: End processing [kennard-stone]: success
+[2023-05-01 16:34:24] INFO root fetch - processPackages [Rare]: Downloading https://files.pythonhosted.org/packages/aa/af/ddeb6c998b285a004c7a3aa083ee7fd0a94be265073b53c3e8229f3a6f0c/Rare-1.9.5.tar.gz
+[2023-05-01 16:34:24] INFO root fetch - processPackages [Rare]: executing diffoscope
+[2023-05-01 16:34:24] INFO root fetch - processPackages [Rare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rare-1.9.4.tar.gz tmp/Rare-1.9.5.tar.gz --markdown 20230501/R/Rare/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-01 16:34:25] INFO root fetch - main [MainThread]: End processing [appthreat-vulnerability-db]: success
+[2023-05-01 16:34:25] INFO root fetch - main [MainThread]: End processing [herbs]: success
+[2023-05-01 16:34:25] INFO root fetch - main [MainThread]: End processing [propan]: success
+[2023-05-01 16:34:27] INFO root fetch - main [MainThread]: End processing [Rare]: success
+[2023-05-01 16:34:30] INFO root fetch - main [MainThread]: End processing [redisbench-admin]: success
+[2023-05-01 16:34:30] INFO root fetch - main [MainThread]: Store serial: [17927641]
