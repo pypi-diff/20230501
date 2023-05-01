@@ -4711,3 +4711,40 @@
 [2023-05-01 07:28:32] INFO root fetch - main [MainThread]: End processing [ssl-labs-screenshot]: success
 [2023-05-01 07:28:32] INFO root fetch - main [MainThread]: End processing [rescupybs]: success
 [2023-05-01 07:28:32] INFO root fetch - main [MainThread]: Store serial: [17923131]
+[2023-05-01 07:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923131]
+[2023-05-01 07:33:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: staplechain
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-scw-vpc
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssl-labs-screenshot
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testghacookiecutter
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spPersist
+[2023-05-01 07:33:41] INFO root fetch - processPackages [spPersist]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-05-01 07:33:41] WARNING root fetch - processPackages [staplechain]: Skipping, unable to determine old version
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ssl-labs-screenshot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 07:33:41] INFO root fetch - processPackages [xia-scw-vpc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 07:33:41] INFO root fetch - main [MainThread]: End processing [staplechain] error
+[2023-05-01 07:33:41] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.1.1] Old Version: [2023.5.1.0]
+[2023-05-01 07:33:41] INFO root fetch - processPackages [testghacookiecutter]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-05-01 07:33:41] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 07:33:41] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.0.9.tar.gz tmp/sppersist-0.1.0.tar.gz --markdown 20230501/s/spPersist/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-05-01 07:33:41] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/44/2d/6065b52573437aaec13fc1d2c010382d7c41f14a172a14d63b82ea8b7771/xia_scw_vpc-0.0.7-cp39-none-win_amd64.whl
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ssl-labs-screenshot]: Downloading https://files.pythonhosted.org/packages/a8/37/737c88da8fd20cb21e562c79e00c9c37235180f52aa54bc7e702aee25c6c/ssl-labs-screenshot-1.0.9.tar.gz
+[2023-05-01 07:33:41] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/f9/a4/c93e4e8ed4db85296385f23b2a1206c0d3c6a5700d6bd99ae39c32cbdf1c/testghacookiecutter-0.0.91-cp39-cp39-win_amd64.whl
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ssl-labs-screenshot]: executing diffoscope
+[2023-05-01 07:33:41] INFO root fetch - processPackages [ssl-labs-screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssl-labs-screenshot-1.0.8.tar.gz tmp/ssl-labs-screenshot-1.0.9.tar.gz --markdown 20230501/s/ssl-labs-screenshot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 07:33:41] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/51/3e/34abeaaa9dee2b054de54927c1b3763108770a7c896d58e685ece2aa7ed2/crazy-thursday-2023.5.1.1.tar.gz
+[2023-05-01 07:33:41] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-01 07:33:41] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.1.0.tar.gz tmp/crazy-thursday-2023.5.1.1.tar.gz --markdown 20230501/c/crazy-thursday/2023.5.1.0-2023.5.1.1/diff.md --exclude *.pyd
+[2023-05-01 07:33:41] INFO root fetch - processPackages [xia-scw-vpc]: Downloading https://files.pythonhosted.org/packages/ee/47/91e046ab145efd96b145517254a76f77f63e4e8f6b20309251d3aa2370ab/xia_scw_vpc-0.0.8-cp39-none-win_amd64.whl
+[2023-05-01 07:33:41] INFO root fetch - processPackages [testghacookiecutter]: Downloading https://files.pythonhosted.org/packages/4a/bb/80f9f3d6827e6fdd00e8801670400896ab92503f16ab887fa2fb6ee82b4a/testghacookiecutter-0.0.92-cp39-cp39-win_amd64.whl
+[2023-05-01 07:33:41] INFO root fetch - processPackages [testghacookiecutter]: executing diffoscope
+[2023-05-01 07:33:41] INFO root fetch - processPackages [testghacookiecutter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testghacookiecutter-0.0.91-cp39-cp39-win_amd64.whl.zip tmp/testghacookiecutter-0.0.92-cp39-cp39-win_amd64.whl.zip --markdown 20230501/t/testghacookiecutter/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-05-01 07:33:41] INFO root fetch - processPackages [xia-scw-vpc]: executing diffoscope
+[2023-05-01 07:33:41] INFO root fetch - processPackages [xia-scw-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia_scw_vpc-0.0.7-cp39-none-win_amd64.whl.zip tmp/xia_scw_vpc-0.0.8-cp39-none-win_amd64.whl.zip --markdown 20230501/x/xia-scw-vpc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [ssl-labs-screenshot]: success
+[2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [testghacookiecutter]: success
+[2023-05-01 07:33:42] INFO root fetch - main [MainThread]: End processing [xia-scw-vpc]: success
+[2023-05-01 07:33:42] INFO root fetch - main [MainThread]: Store serial: [17923173]
