@@ -3756,3 +3756,32 @@
 [2023-05-01 04:40:24] INFO root fetch - main [MainThread]: End processing [hydroqc2mqtt]: success
 [2023-05-01 04:40:24] INFO root fetch - main [MainThread]: End processing [scaled]: success
 [2023-05-01 04:40:24] INFO root fetch - main [MainThread]: Store serial: [17922568]
+[2023-05-01 04:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922568]
+[2023-05-01 04:45:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 04:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: souJpg-comm
+[2023-05-01 04:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: image-reward
+[2023-05-01 04:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fern-pave
+[2023-05-01 04:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polynomiograpy
+[2023-05-01 04:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soremoji
+[2023-05-01 04:45:33] INFO root fetch - processPackages [fern-pave]: New version: [0.0.17] Old Version: [0.0.14]
+[2023-05-01 04:45:33] INFO root fetch - processPackages [souJpg-comm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-01 04:45:33] INFO root fetch - processPackages [image-reward]: New version: [1.2] Old Version: [1.1]
+[2023-05-01 04:45:33] WARNING root fetch - processPackages [soremoji]: Skipping, unable to determine old version
+[2023-05-01 04:45:33] INFO root fetch - main [MainThread]: End processing [soremoji] error
+[2023-05-01 04:45:33] INFO root fetch - processPackages [fern-pave]: Downloading https://files.pythonhosted.org/packages/26/c7/5ef01fb85138fea3c400e6ef4d05a094d162ec4a5d4b7cc88aa1d1ed2d54/fern_pave-0.0.17.tar.gz
+[2023-05-01 04:45:33] INFO root fetch - processPackages [image-reward]: Downloading https://files.pythonhosted.org/packages/03/19/d95e847e52f082b0f452a597d8010582ebc96f03d48af0619a53eb389d01/image-reward-1.1.tar.gz
+[2023-05-01 04:45:33] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/cc/d0/638b9ba2e4743fdb4eaab751a6c7e7ef5d215cac43feb3cd2210ed6094ae/souJpg-comm-1.0.2.tar.gz
+[2023-05-01 04:45:34] WARNING root fetch - processPackages [polynomiograpy]: Skipping, unable to determine old version
+[2023-05-01 04:45:34] INFO root fetch - main [MainThread]: End processing [polynomiograpy] error
+[2023-05-01 04:45:34] INFO root fetch - processPackages [fern-pave]: executing diffoscope
+[2023-05-01 04:45:34] INFO root fetch - processPackages [fern-pave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fern_pave-0.0.14.tar.gz tmp/fern_pave-0.0.17.tar.gz --markdown 20230501/f/fern-pave/0.0.14-0.0.17/diff.md --exclude *.pyd
+[2023-05-01 04:45:34] INFO root fetch - processPackages [souJpg-comm]: Downloading https://files.pythonhosted.org/packages/28/d6/2463297f190d06ac54419342ff4af77d12541090c782641acec56dffa6a6/souJpg-comm-1.0.3.tar.gz
+[2023-05-01 04:45:34] INFO root fetch - processPackages [image-reward]: Downloading https://files.pythonhosted.org/packages/f0/08/03c454186f1025ad184d26700984a83a0bdb88272996816e8ec6ddf633a2/image-reward-1.2.tar.gz
+[2023-05-01 04:45:34] INFO root fetch - processPackages [image-reward]: executing diffoscope
+[2023-05-01 04:45:34] INFO root fetch - processPackages [image-reward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image-reward-1.1.tar.gz tmp/image-reward-1.2.tar.gz --markdown 20230501/i/image-reward/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-01 04:45:34] INFO root fetch - processPackages [souJpg-comm]: executing diffoscope
+[2023-05-01 04:45:34] INFO root fetch - processPackages [souJpg-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/souJpg-comm-1.0.2.tar.gz tmp/souJpg-comm-1.0.3.tar.gz --markdown 20230501/s/souJpg-comm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-01 04:45:35] INFO root fetch - main [MainThread]: End processing [fern-pave]: success
+[2023-05-01 04:45:35] INFO root fetch - main [MainThread]: End processing [image-reward]: success
+[2023-05-01 04:45:35] INFO root fetch - main [MainThread]: End processing [souJpg-comm]: success
+[2023-05-01 04:45:35] INFO root fetch - main [MainThread]: Store serial: [17922587]
