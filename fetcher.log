@@ -4931,3 +4931,79 @@
 [2023-05-01 08:15:05] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
 [2023-05-01 08:15:06] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-user-user]: success
 [2023-05-01 08:15:06] INFO root fetch - main [MainThread]: Store serial: [17923311]
+[2023-05-01 08:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923311]
+[2023-05-01 08:20:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kirui
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-cloudformation-snowflake-database-grant
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IOHMM
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cloudformation-snowflake-database-database
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-cloudformation-snowflake-warehouse-grant
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-plugins
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: msaBase
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trustme
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-cloudformation-snowflake-role-grant
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-cloudformation-snowflake-role-role
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-database]: New version: [1.2.0a7] Old Version: [1.1.0a7]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-warehouse-grant]: New version: [1.2.0a7] Old Version: [1.1.0a7]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [IOHMM]: New version: [0.0.7] Old Version: [0.0.3]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [kirui]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-grant]: New version: [1.2.0a7] Old Version: [1.1.0a7]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-role]: New version: [1.2.0a7] Old Version: [1.1.0a7]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-grant]: New version: [1.2.0a7] Old Version: [1.1.0a7]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [trustme]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-database]: Downloading https://files.pythonhosted.org/packages/58/6c/cac8ed66832a1804bf0c1ce9e2fa5013f0b19a4a68e14d9be46453ff16b5/cdk-cloudformation-snowflake-database-database-1.1.0a7.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [kirui]: Downloading https://files.pythonhosted.org/packages/5c/02/ef763ac57b765431c91b652bc3c450b4d701850188741babc3338e99da79/kirui-0.5.7.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/48/a9/7bf059f723aac247bea4fdff9546f0995e4c4c48e80ad47526378d1058bc/ml_plugins-0.0.4.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-warehouse-grant]: Downloading https://files.pythonhosted.org/packages/b0/dd/67ef6057ae3673c1f0482bf524d42697a61284e69ca4304649a6b1b14efe/cdk-cloudformation-snowflake-warehouse-grant-1.1.0a7.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [IOHMM]: Downloading https://files.pythonhosted.org/packages/0e/a3/0d6cffa29f4a7a6d9b82ecdd44024f5434fb191b872ce7800e51571369a3/IOHMM-0.0.3.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-role]: Downloading https://files.pythonhosted.org/packages/96/1b/004c8bdecc8b15eb65daa7d3315ad202aa66bdf3fb428dce532f7fa869e4/cdk-cloudformation-snowflake-role-role-1.1.0a7.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [trustme]: Downloading https://files.pythonhosted.org/packages/34/8e/66203d0c8c4557db28772678359e0878610624db8438b1ed9361ceeaad1d/trustme-0.9.0.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-grant]: Downloading https://files.pythonhosted.org/packages/7e/64/9e32f6a22758146f235a7c75aedced38b908cca4b7910ba6baad2efb5c8e/cdk-cloudformation-snowflake-role-grant-1.1.0a7.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-grant]: Downloading https://files.pythonhosted.org/packages/79/2b/8f3e33e13ffd2ad5ee8eebb75240f022a6ebacfcdebbcb465997c7f0ceae/cdk-cloudformation-snowflake-database-grant-1.1.0a7.tar.gz
+[2023-05-01 08:20:14] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-05-01 08:20:14] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230501/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 08:20:14] INFO root fetch - processPackages [trustme]: Downloading https://files.pythonhosted.org/packages/34/42/9958ef9b4a8f804f142b262f029d121706646db98d8459a83a5104496264/trustme-1.0.0.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/22/0c/087cb3af5f037c43a15717b4aa03e08c6b290127a4b466abc8a84c1c2d7e/ml_plugins-0.0.5.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [trustme]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-database]: Downloading https://files.pythonhosted.org/packages/13/a8/79d21bcf8f9126b54f32a64f07c7dd57930e17fa117e3bf466a12358e1f6/cdk-cloudformation-snowflake-database-database-1.2.0a7.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [trustme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustme-0.9.0.tar.gz tmp/trustme-1.0.0.tar.gz --markdown 20230501/t/trustme/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-grant]: Downloading https://files.pythonhosted.org/packages/23/78/0c5949ea15fe4bc57de202a127807205939c011ac66d1f9872f5313f0d96/cdk-cloudformation-snowflake-role-grant-1.2.0a7.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-role]: Downloading https://files.pythonhosted.org/packages/48/07/003b5268dfc3668d0a963a8ef60c0719ce228d3a7ee5b79e0e51770fea7c/cdk-cloudformation-snowflake-role-role-1.2.0a7.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-warehouse-grant]: Downloading https://files.pythonhosted.org/packages/49/b5/71223c610a73aadc401055bb0cbb9b6835a796a9507131f55c67556c8a2d/cdk-cloudformation-snowflake-warehouse-grant-1.2.0a7.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [IOHMM]: Downloading https://files.pythonhosted.org/packages/f0/03/6455b137027fb8a2c14ede0812dc8721e0d06c6c3f722703d48e14cf7029/IOHMM-0.0.7.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.4.tar.gz tmp/ml_plugins-0.0.5.tar.gz --markdown 20230501/m/ml-plugins/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-grant]: Downloading https://files.pythonhosted.org/packages/bc/da/5bdae14fcdf951e6940e4a19df8bfcc2c0ae3e9b61d14f15790f8756f22f/cdk-cloudformation-snowflake-database-grant-1.2.0a7.tar.gz
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-database]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-snowflake-database-database-1.1.0a7.tar.gz tmp/cdk-cloudformation-snowflake-database-database-1.2.0a7.tar.gz --markdown 20230501/c/cdk-cloudformation-snowflake-database-database/1.1.0a7-1.2.0a7/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-grant]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-grant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-snowflake-role-grant-1.1.0a7.tar.gz tmp/cdk-cloudformation-snowflake-role-grant-1.2.0a7.tar.gz --markdown 20230501/c/cdk-cloudformation-snowflake-role-grant/1.1.0a7-1.2.0a7/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-role]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-role-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-snowflake-role-role-1.1.0a7.tar.gz tmp/cdk-cloudformation-snowflake-role-role-1.2.0a7.tar.gz --markdown 20230501/c/cdk-cloudformation-snowflake-role-role/1.1.0a7-1.2.0a7/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-warehouse-grant]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-warehouse-grant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-snowflake-warehouse-grant-1.1.0a7.tar.gz tmp/cdk-cloudformation-snowflake-warehouse-grant-1.2.0a7.tar.gz --markdown 20230501/c/cdk-cloudformation-snowflake-warehouse-grant/1.1.0a7-1.2.0a7/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [IOHMM]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [IOHMM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IOHMM-0.0.3.tar.gz tmp/IOHMM-0.0.7.tar.gz --markdown 20230501/I/IOHMM/0.0.3-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-grant]: executing diffoscope
+[2023-05-01 08:20:15] INFO root fetch - processPackages [cdk-cloudformation-snowflake-database-grant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-cloudformation-snowflake-database-grant-1.1.0a7.tar.gz tmp/cdk-cloudformation-snowflake-database-grant-1.2.0a7.tar.gz --markdown 20230501/c/cdk-cloudformation-snowflake-database-grant/1.1.0a7-1.2.0a7/diff.md --exclude *.pyd
+[2023-05-01 08:20:15] INFO root fetch - processPackages [kirui]: Downloading https://files.pythonhosted.org/packages/76/25/554b338f5aaf4a9347c99a6774351e4fd04a985c2fc98c04f2e34ee92564/kirui-0.5.8.tar.gz
+[2023-05-01 08:20:16] INFO root fetch - processPackages [msaBase]: Start processing: pretext
+[2023-05-01 08:20:16] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-05-01 08:20:16] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-05-01 08:20:16] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230430] Old Version: [1.5.3.dev20230429]
+[2023-05-01 08:20:16] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-01 08:20:16] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230429.tar.gz tmp/pretext-1.5.3.dev20230430.tar.gz --markdown 20230501/p/pretext/1.5.3.dev20230429-1.5.3.dev20230430/diff.md --exclude *.pyd
+[2023-05-01 08:20:16] INFO root fetch - main [MainThread]: End processing [trustme]: success
+[2023-05-01 08:20:16] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-database-database]: success
+[2023-05-01 08:20:16] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-database-grant]: success
+[2023-05-01 08:20:16] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-role-role]: success
+[2023-05-01 08:20:16] INFO root fetch - processPackages [kirui]: executing diffoscope
+[2023-05-01 08:20:16] INFO root fetch - processPackages [kirui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kirui-0.5.7.tar.gz tmp/kirui-0.5.8.tar.gz --markdown 20230501/k/kirui/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-01 08:20:17] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-role-grant]: success
+[2023-05-01 08:20:17] INFO root fetch - main [MainThread]: End processing [cdk-cloudformation-snowflake-warehouse-grant]: success
+[2023-05-01 08:20:17] INFO root fetch - main [MainThread]: End processing [IOHMM]: success
+[2023-05-01 08:20:21] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-01 08:20:22] INFO root fetch - main [MainThread]: End processing [kirui]: success
+[2023-05-01 08:20:22] INFO root fetch - main [MainThread]: Store serial: [17923348]
