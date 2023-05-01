@@ -7295,3 +7295,34 @@
 [2023-05-01 12:27:00] INFO root fetch - main [MainThread]: End processing [paux]: success
 [2023-05-01 12:27:02] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-05-01 12:27:02] INFO root fetch - main [MainThread]: Store serial: [17924816]
+[2023-05-01 12:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924816]
+[2023-05-01 12:32:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-01 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wear-extract
+[2023-05-01 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prysk
+[2023-05-01 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiotubes
+[2023-05-01 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hexo-inpainting
+[2023-05-01 12:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meter-digits-recognizer
+[2023-05-01 12:32:11] INFO root fetch - processPackages [prysk]: New version: [0.9] Old Version: [0.15.1]
+[2023-05-01 12:32:11] INFO root fetch - processPackages [hexo-inpainting]: New version: [1.0.1] Old Version: [0.4]
+[2023-05-01 12:32:11] WARNING root fetch - processPackages [wear-extract]: Skipping, unable to determine old version
+[2023-05-01 12:32:11] INFO root fetch - processPackages [aiotubes]: New version: [3.4] Old Version: [3.3]
+[2023-05-01 12:32:11] INFO root fetch - main [MainThread]: End processing [wear-extract] error
+[2023-05-01 12:32:11] INFO root fetch - processPackages [meter-digits-recognizer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 12:32:11] INFO root fetch - processPackages [prysk]: Downloading https://files.pythonhosted.org/packages/35/8d/f5317afa3e6cef22add566830be9143e823d16d159c0ed5014283173e74b/prysk-0.15.1.tar.gz
+[2023-05-01 12:32:11] INFO root fetch - processPackages [hexo-inpainting]: Downloading https://files.pythonhosted.org/packages/1a/55/f747e6f6b1ef5f27775c3ef48b78750c7eff46deda52a434fdcde1865535/hexo_inpainting-1.0.1.tar.gz
+[2023-05-01 12:32:11] INFO root fetch - processPackages [aiotubes]: Downloading https://files.pythonhosted.org/packages/3d/3e/b60fc0380a976a1a662884a712bfc99e29b80e4a824a1f6c6d8bd2ede1d1/aiotubes-3.4.tar.gz
+[2023-05-01 12:32:11] INFO root fetch - processPackages [meter-digits-recognizer]: Downloading https://files.pythonhosted.org/packages/5d/b4/f1bd825495b41285e3f871ce0e3ab508c3bf33a16605e0b1929317913283/meter-digits-recognizer-0.1.8.tar.gz
+[2023-05-01 12:32:11] INFO root fetch - processPackages [hexo-inpainting]: executing diffoscope
+[2023-05-01 12:32:11] INFO root fetch - processPackages [hexo-inpainting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexo_inpainting-0.4.tar.gz tmp/hexo_inpainting-1.0.1.tar.gz --markdown 20230501/h/hexo-inpainting/0.4-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 12:32:11] INFO root fetch - processPackages [aiotubes]: executing diffoscope
+[2023-05-01 12:32:11] INFO root fetch - processPackages [aiotubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotubes-3.3.tar.gz tmp/aiotubes-3.4.tar.gz --markdown 20230501/a/aiotubes/3.3-3.4/diff.md --exclude *.pyd
+[2023-05-01 12:32:11] INFO root fetch - processPackages [prysk]: executing diffoscope
+[2023-05-01 12:32:11] INFO root fetch - processPackages [prysk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prysk-0.15.1.tar.gz tmp/prysk-0.9.tar.gz --markdown 20230501/p/prysk/0.15.1-0.9/diff.md --exclude *.pyd
+[2023-05-01 12:32:12] INFO root fetch - processPackages [meter-digits-recognizer]: Downloading https://files.pythonhosted.org/packages/d0/a6/aac9760c32f8f883915f0e74cf3bc2b481998275d2b63dd7756ffeb00497/meter-digits-recognizer-0.1.9.tar.gz
+[2023-05-01 12:32:12] INFO root fetch - main [MainThread]: End processing [hexo-inpainting]: success
+[2023-05-01 12:32:12] INFO root fetch - main [MainThread]: End processing [aiotubes]: success
+[2023-05-01 12:32:12] INFO root fetch - main [MainThread]: End processing [prysk]: success
+[2023-05-01 12:32:13] INFO root fetch - processPackages [meter-digits-recognizer]: executing diffoscope
+[2023-05-01 12:32:13] INFO root fetch - processPackages [meter-digits-recognizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-digits-recognizer-0.1.8.tar.gz tmp/meter-digits-recognizer-0.1.9.tar.gz --markdown 20230501/m/meter-digits-recognizer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 12:32:22] INFO root fetch - main [MainThread]: End processing [meter-digits-recognizer]: success
+[2023-05-01 12:32:22] INFO root fetch - main [MainThread]: Store serial: [17924838]
