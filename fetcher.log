@@ -4385,3 +4385,51 @@
 [2023-05-01 06:37:44] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
 [2023-05-01 06:38:08] INFO root fetch - main [MainThread]: End processing [malbench]: success
 [2023-05-01 06:38:08] INFO root fetch - main [MainThread]: Store serial: [17922959]
+[2023-05-01 06:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922959]
+[2023-05-01 06:43:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transmission-rpc
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: start-url
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmachine
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowetl
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowclient
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edgar-analyzer
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rajanpdf
+[2023-05-01 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Musicreater
+[2023-05-01 06:43:18] INFO root fetch - processPackages [start-url]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-01 06:43:18] WARNING root fetch - processPackages [rajanpdf]: Skipping, unable to determine old version
+[2023-05-01 06:43:18] INFO root fetch - main [MainThread]: End processing [rajanpdf] error
+[2023-05-01 06:43:18] INFO root fetch - processPackages [Musicreater]: New version: [0.5.1] Old Version: [0.5.0.2]
+[2023-05-01 06:43:18] INFO root fetch - processPackages [edgar-analyzer]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2023-05-01 06:43:18] INFO root fetch - processPackages [transmission-rpc]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-05-01 06:43:18] INFO root fetch - processPackages [start-url]: Downloading https://files.pythonhosted.org/packages/a5/c1/9a56e3c270bfc26e202db35e8de3c5e3850ac3ff0a04988aa0e8ef2a9deb/start_url-0.0.3.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [edgar-analyzer]: Downloading https://files.pythonhosted.org/packages/41/ca/5d6eedc3754a1aee6bdc02733df9ffd50b38bd4cec86591b05fd2498db06/edgar-analyzer-0.0.1rc2.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [transmission-rpc]: Downloading https://files.pythonhosted.org/packages/74/23/c7ee8bb5d9c8b3b7998f961580c5d4339215fb2d1b5b1d41d3e12bc120a1/transmission_rpc-4.2.0.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [Musicreater]: Downloading https://files.pythonhosted.org/packages/6c/1f/a675c3939f1fec5225ebdce970190169b8d8445346f96a497f169842e1df/Musicreater-0.5.1.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230501/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-01 06:43:18] INFO root fetch - processPackages [start-url]: Downloading https://files.pythonhosted.org/packages/0a/c1/71aec2e8cf0fe770205a75c6b3e9fd85a2bfa59ea31299f41f6a38f6344a/start_url-0.0.4.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230501/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-01 06:43:18] INFO root fetch - processPackages [Musicreater]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [Musicreater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Musicreater-0.5.0.2.tar.gz tmp/Musicreater-0.5.1.tar.gz --markdown 20230501/M/Musicreater/0.5.0.2-0.5.1/diff.md --exclude *.pyd
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230501/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-05-01 06:43:18] INFO root fetch - processPackages [edgar-analyzer]: Downloading https://files.pythonhosted.org/packages/b4/10/19535da6caf4b2b091608f47b7dd7f34152df3f562b5f34918970856178d/edgar-analyzer-0.0.1rc3.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [transmission-rpc]: Downloading https://files.pythonhosted.org/packages/29/a9/5ba1587aa40f7bbb150dca5d64b032236b34a9838ffa6554f91f743290ed/transmission_rpc-4.2.1.tar.gz
+[2023-05-01 06:43:18] INFO root fetch - processPackages [start-url]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [start-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_url-0.0.3.tar.gz tmp/start_url-0.0.4.tar.gz --markdown 20230501/s/start-url/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-01 06:43:18] INFO root fetch - processPackages [transmission-rpc]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [transmission-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transmission_rpc-4.2.0.tar.gz tmp/transmission_rpc-4.2.1.tar.gz --markdown 20230501/t/transmission-rpc/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-05-01 06:43:18] INFO root fetch - processPackages [edgar-analyzer]: executing diffoscope
+[2023-05-01 06:43:18] INFO root fetch - processPackages [edgar-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgar-analyzer-0.0.1rc2.tar.gz tmp/edgar-analyzer-0.0.1rc3.tar.gz --markdown 20230501/e/edgar-analyzer/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [start-url]: success
+[2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [transmission-rpc]: success
+[2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [Musicreater]: success
+[2023-05-01 06:43:20] INFO root fetch - main [MainThread]: End processing [edgar-analyzer]: success
+[2023-05-01 06:43:21] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-05-01 06:43:21] INFO root fetch - main [MainThread]: Store serial: [17922984]
