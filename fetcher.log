@@ -3021,3 +3021,27 @@
 [2023-05-01 03:04:59] INFO root fetch - processPackages [super-ec2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super-ec2-0.0.98.tar.gz tmp/super-ec2-0.0.99.tar.gz --markdown 20230501/s/super-ec2/0.0.98-0.0.99/diff.md --exclude *.pyd
 [2023-05-01 03:05:00] INFO root fetch - main [MainThread]: End processing [super-ec2]: success
 [2023-05-01 03:05:00] INFO root fetch - main [MainThread]: Store serial: [17922067]
+[2023-05-01 03:10:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922067]
+[2023-05-01 03:10:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-01 03:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redmage
+[2023-05-01 03:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automatize
+[2023-05-01 03:10:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gumbi
+[2023-05-01 03:10:10] INFO root fetch - processPackages [redmage]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-01 03:10:10] INFO root fetch - processPackages [automatize]: New version: [1.0b2] Old Version: [1.0b1]
+[2023-05-01 03:10:10] INFO root fetch - processPackages [gumbi]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-01 03:10:10] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/7d/6c/71f4c9c965cd3cefd747823d65f58173348a8d999c5c189ec6083b1f0dac/redmage-0.0.4.tar.gz
+[2023-05-01 03:10:10] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/58/c3/4c9b4382d11b854d98803b1ec71811ab3411afd227936be5082501f2a21b/automatize-1.0b1.tar.gz
+[2023-05-01 03:10:10] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/37/0d/85de826981a7491d6cd61159445b340d859e6ec0a66b87b49c9a942ca24e/gumbi-0.1.9.tar.gz
+[2023-05-01 03:10:10] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/3e/e4/e4d78da852150d177994ded35ed6a66332faea795af7436604a21700d2ff/redmage-0.0.5.tar.gz
+[2023-05-01 03:10:10] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/ec/55/fcb07fb580c6857b19fbfa11b596047e99f3b8de69537379a001018b5d24/automatize-1.0b2.tar.gz
+[2023-05-01 03:10:10] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-05-01 03:10:10] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.0.4.tar.gz tmp/redmage-0.0.5.tar.gz --markdown 20230501/r/redmage/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-01 03:10:11] INFO root fetch - processPackages [automatize]: executing diffoscope
+[2023-05-01 03:10:11] INFO root fetch - processPackages [automatize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatize-1.0b1.tar.gz tmp/automatize-1.0b2.tar.gz --markdown 20230501/a/automatize/1.0b1-1.0b2/diff.md --exclude *.pyd
+[2023-05-01 03:10:11] INFO root fetch - processPackages [gumbi]: Downloading https://files.pythonhosted.org/packages/f9/7a/51aadfd7b6147de0529249d7fa24233b67d2dc7e51ddf59665ae33f21eda/gumbi-0.2.0.tar.gz
+[2023-05-01 03:10:12] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-05-01 03:10:12] INFO root fetch - processPackages [gumbi]: executing diffoscope
+[2023-05-01 03:10:12] INFO root fetch - processPackages [gumbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gumbi-0.1.9.tar.gz tmp/gumbi-0.2.0.tar.gz --markdown 20230501/g/gumbi/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-01 03:10:12] INFO root fetch - main [MainThread]: End processing [automatize]: success
+[2023-05-01 03:10:30] INFO root fetch - main [MainThread]: End processing [gumbi]: success
+[2023-05-01 03:10:30] INFO root fetch - main [MainThread]: Store serial: [17922076]
