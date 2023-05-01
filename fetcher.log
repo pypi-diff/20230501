@@ -5034,3 +5034,31 @@
 [2023-05-01 08:25:36] INFO root fetch - main [MainThread]: End processing [kirui]: success
 [2023-05-01 08:25:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-01 08:25:37] INFO root fetch - main [MainThread]: Store serial: [17923365]
+[2023-05-01 08:30:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17923365]
+[2023-05-01 08:30:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-01 08:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-05-01 08:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-client
+[2023-05-01 08:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zengin-code
+[2023-05-01 08:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: annoworkcli
+[2023-05-01 08:30:45] INFO root fetch - processPackages [qctrl-client]: New version: [7.0.0] Old Version: [6.0.0]
+[2023-05-01 08:30:45] INFO root fetch - processPackages [annoworkcli]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-05-01 08:30:45] INFO root fetch - processPackages [zengin-code]: New version: [1.1.0.20230501] Old Version: [1.1.0.20230404]
+[2023-05-01 08:30:45] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-01 08:30:46] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-01 08:30:46] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230501/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-01 08:30:46] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/ed/46/cadfd86aed53e30584735f5086d491b881b1c0ee9a1b7de21926805d8694/annoworkcli-3.2.0.tar.gz
+[2023-05-01 08:30:46] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/25/e5/28430e6d71d296ed1f011abef33502a743e71315111b19816eb6077018e5/zengin_code-1.1.0.20230404.tar.gz
+[2023-05-01 08:30:46] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/16/51/3ab3f06c55f1c31ba19fa68fb31190faead082243e7eb0146a0c83cd779a/qctrl_client-7.0.0.tar.gz
+[2023-05-01 08:30:46] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2023-05-01 08:30:46] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-6.0.0.tar.gz tmp/qctrl_client-7.0.0.tar.gz --markdown 20230501/q/qctrl-client/6.0.0-7.0.0/diff.md --exclude *.pyd
+[2023-05-01 08:30:46] INFO root fetch - processPackages [annoworkcli]: Downloading https://files.pythonhosted.org/packages/37/5c/8af7cf06d56b4ac6369e048a5ef3615620088162b3ea31326d9a6acc5d6f/annoworkcli-3.2.1.tar.gz
+[2023-05-01 08:30:46] INFO root fetch - processPackages [annoworkcli]: executing diffoscope
+[2023-05-01 08:30:46] INFO root fetch - processPackages [annoworkcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annoworkcli-3.2.0.tar.gz tmp/annoworkcli-3.2.1.tar.gz --markdown 20230501/a/annoworkcli/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-05-01 08:30:46] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/02/4b/54d61f776d43420f52812de5da512a38f4b378be75e05dfce43d2e9b85e4/zengin_code-1.1.0.20230501.tar.gz
+[2023-05-01 08:30:46] INFO root fetch - processPackages [zengin-code]: executing diffoscope
+[2023-05-01 08:30:46] INFO root fetch - processPackages [zengin-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zengin_code-1.1.0.20230404.tar.gz tmp/zengin_code-1.1.0.20230501.tar.gz --markdown 20230501/z/zengin-code/1.1.0.20230404-1.1.0.20230501/diff.md --exclude *.pyd
+[2023-05-01 08:30:47] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2023-05-01 08:30:47] INFO root fetch - main [MainThread]: End processing [annoworkcli]: success
+[2023-05-01 08:30:52] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-01 08:31:05] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
+[2023-05-01 08:31:05] INFO root fetch - main [MainThread]: Store serial: [17923376]
