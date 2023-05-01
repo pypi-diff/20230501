@@ -6951,3 +6951,58 @@
 [2023-05-01 11:49:35] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-01 11:49:41] INFO root fetch - main [MainThread]: End processing [pycatia]: success
 [2023-05-01 11:49:41] INFO root fetch - main [MainThread]: Store serial: [17924559]
+[2023-05-01 11:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17924559]
+[2023-05-01 11:54:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-voice-assistant
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo3crypto
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citizenk
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dipex
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boston
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crawling9
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: owo-info
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aacommpy
+[2023-05-01 11:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edgar-analyzer
+[2023-05-01 11:54:50] INFO root fetch - processPackages [citizenk]: New version: [0.1.41] Old Version: [0.1.40]
+[2023-05-01 11:54:50] INFO root fetch - processPackages [python-voice-assistant]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-05-01 11:54:50] INFO root fetch - processPackages [neo3crypto]: New version: [0.4] Old Version: [0.3]
+[2023-05-01 11:54:50] WARNING root fetch - processPackages [crawling9]: Skipping, unable to determine old version
+[2023-05-01 11:54:50] INFO root fetch - processPackages [boston]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 11:54:50] INFO root fetch - main [MainThread]: End processing [crawling9] error
+[2023-05-01 11:54:50] INFO root fetch - processPackages [owo-info]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-01 11:54:50] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-01 11:54:50] INFO root fetch - processPackages [edgar-analyzer]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2023-05-01 11:54:50] INFO root fetch - processPackages [edgar-analyzer]: executing diffoscope
+[2023-05-01 11:54:50] INFO root fetch - processPackages [edgar-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgar-analyzer-0.0.1rc2.tar.gz tmp/edgar-analyzer-0.0.1rc3.tar.gz --markdown 20230501/e/edgar-analyzer/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2023-05-01 11:54:50] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-01 11:54:50] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230501/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-01 11:54:50] INFO root fetch - processPackages [aacommpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 11:54:50] INFO root fetch - processPackages [boston]: executing diffoscope
+[2023-05-01 11:54:50] INFO root fetch - processPackages [boston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boston-1.0.8.tar.gz tmp/boston-1.0.9.tar.gz --markdown 20230501/b/boston/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 11:54:50] INFO root fetch - processPackages [neo3crypto]: Downloading https://files.pythonhosted.org/packages/70/42/ac19684fdf1dc0aedcb1e943c75b80f811fe5b513d0e2bd1c03872c5084c/neo3crypto-0.3-cp39-cp39-win_amd64.whl
+[2023-05-01 11:54:50] INFO root fetch - processPackages [citizenk]: Downloading https://files.pythonhosted.org/packages/2b/4d/e987c79b70336a25879d8ae95ab68f74c76dc7efdd67956b6b5d68f82d9d/citizenk-0.1.41.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [python-voice-assistant]: Downloading https://files.pythonhosted.org/packages/8d/70/f5ee3fa8e8bdb3953adb63d938d6be1b5ab62be85dd1235c05aa0d4efb5c/python_voice_assistant-0.0.1.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [owo-info]: Downloading https://files.pythonhosted.org/packages/28/60/5ebc6ed173e9260534d6f9ea7e46c351f4ef4d8d2e611e37b75ccb0ad5f5/owo_info-0.0.0.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/cc/84/119419f68fa685857690cc3988e6a0509a9f8a40da053b9e158cc56e4f9b/aacommpy-0.1.8.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [citizenk]: executing diffoscope
+[2023-05-01 11:54:50] INFO root fetch - processPackages [citizenk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citizenk-0.1.40.tar.gz tmp/citizenk-0.1.41.tar.gz --markdown 20230501/c/citizenk/0.1.40-0.1.41/diff.md --exclude *.pyd
+[2023-05-01 11:54:50] INFO root fetch - processPackages [python-voice-assistant]: Downloading https://files.pythonhosted.org/packages/da/4f/143cf60c060448d633288001bd4d90af30bc17d29911fb0a992bda5d29b5/python_voice_assistant-1.0.1.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [neo3crypto]: Downloading https://files.pythonhosted.org/packages/ef/7a/b79eed5053e21bf2982e1eb5edf68fa807c668aa38113da6862955a5e5bd/neo3crypto-0.4-cp311-cp311-win_amd64.whl
+[2023-05-01 11:54:50] INFO root fetch - processPackages [owo-info]: Downloading https://files.pythonhosted.org/packages/56/72/9735be00fcf45db031b63f7b13e9cde1b2c6f9c95c428193b98d65cc1ccc/owo_info-0.0.1.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [aacommpy]: Downloading https://files.pythonhosted.org/packages/14/6d/defc6d745b118f6b34275d3b3990a2a53be8d450e9ef0cec09d3ea855372/aacommpy-0.1.9.tar.gz
+[2023-05-01 11:54:50] INFO root fetch - processPackages [python-voice-assistant]: executing diffoscope
+[2023-05-01 11:54:50] INFO root fetch - processPackages [python-voice-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_voice_assistant-0.0.1.tar.gz tmp/python_voice_assistant-1.0.1.tar.gz --markdown 20230501/p/python-voice-assistant/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-05-01 11:54:50] INFO root fetch - processPackages [neo3crypto]: executing diffoscope
+[2023-05-01 11:54:50] INFO root fetch - processPackages [neo3crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo3crypto-0.3-cp39-cp39-win_amd64.whl.zip tmp/neo3crypto-0.4-cp311-cp311-win_amd64.whl.zip --markdown 20230501/n/neo3crypto/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-01 11:54:51] INFO root fetch - processPackages [aacommpy]: executing diffoscope
+[2023-05-01 11:54:51] INFO root fetch - processPackages [aacommpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aacommpy-0.1.8.tar.gz tmp/aacommpy-0.1.9.tar.gz --markdown 20230501/a/aacommpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 11:54:51] INFO root fetch - processPackages [owo-info]: executing diffoscope
+[2023-05-01 11:54:51] INFO root fetch - processPackages [owo-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owo_info-0.0.0.tar.gz tmp/owo_info-0.0.1.tar.gz --markdown 20230501/o/owo-info/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-01 11:54:51] INFO root fetch - main [MainThread]: End processing [boston]: success
+[2023-05-01 11:54:51] INFO root fetch - main [MainThread]: End processing [edgar-analyzer]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [citizenk]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [python-voice-assistant]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [owo-info]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [aacommpy]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [neo3crypto]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-01 11:54:52] INFO root fetch - main [MainThread]: Store serial: [17924614]
