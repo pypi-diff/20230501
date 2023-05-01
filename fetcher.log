@@ -3574,3 +3574,43 @@
 [2023-05-01 04:18:02] INFO root fetch - main [MainThread]: End processing [pibble]: success
 [2023-05-01 04:18:02] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
 [2023-05-01 04:18:02] INFO root fetch - main [MainThread]: Store serial: [17922457]
+[2023-05-01 04:23:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922457]
+[2023-05-01 04:23:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anki
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aqt
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spPersist
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: souJpg-comm
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanopb
+[2023-05-01 04:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: brazilcep
+[2023-05-01 04:23:11] INFO root fetch - processPackages [anki]: New version: [2.1.62rc1] Old Version: [2.1.62b1]
+[2023-05-01 04:23:11] INFO root fetch - processPackages [nanopb]: New version: [0.4.8.dev1402] Old Version: [0.4.8.dev1401]
+[2023-05-01 04:23:11] INFO root fetch - processPackages [aqt]: New version: [2.1.62rc1] Old Version: [2.1.62b1]
+[2023-05-01 04:23:11] WARNING root fetch - processPackages [souJpg-comm]: Skipping, unable to determine old version
+[2023-05-01 04:23:11] INFO root fetch - main [MainThread]: End processing [souJpg-comm] error
+[2023-05-01 04:23:11] INFO root fetch - processPackages [brazilcep]: New version: [6.0.0a2] Old Version: [6.0.0a1]
+[2023-05-01 04:23:11] INFO root fetch - processPackages [spPersist]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-01 04:23:11] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-05-01 04:23:11] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-05-01 04:23:11] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230501/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-05-01 04:23:11] INFO root fetch - processPackages [spPersist]: executing diffoscope
+[2023-05-01 04:23:11] INFO root fetch - processPackages [spPersist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sppersist-0.0.8.tar.gz tmp/sppersist-0.0.9.tar.gz --markdown 20230501/s/spPersist/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-01 04:23:11] INFO root fetch - processPackages [brazilcep]: Downloading https://files.pythonhosted.org/packages/f9/c6/2c0a8b6042a0059f3a592e7f025dd39ced7f41b80e0973aa631ff6290d81/brazilcep-6.0.0a1.tar.gz
+[2023-05-01 04:23:11] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/de/60/35e4b3e37d191efbfb3c276776f64b2e8609906f8a1c9ef8c6f5b3c75407/nanopb-0.4.8.dev1401.tar.gz
+[2023-05-01 04:23:12] INFO root fetch - processPackages [aqt]: executing diffoscope
+[2023-05-01 04:23:12] INFO root fetch - processPackages [aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqt-2.1.62b1-py3-none-any.whl.zip tmp/aqt-2.1.62rc1-py3-none-any.whl.zip --markdown 20230501/a/aqt/2.1.62b1-2.1.62rc1/diff.md --exclude *.pyd
+[2023-05-01 04:23:12] INFO root fetch - processPackages [anki]: executing diffoscope
+[2023-05-01 04:23:12] INFO root fetch - processPackages [anki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anki-2.1.62b1-cp39-abi3-win_amd64.whl.zip tmp/anki-2.1.62rc1-cp39-abi3-win_amd64.whl.zip --markdown 20230501/a/anki/2.1.62b1-2.1.62rc1/diff.md --exclude *.pyd
+[2023-05-01 04:23:12] INFO root fetch - processPackages [brazilcep]: Downloading https://files.pythonhosted.org/packages/88/91/198498b1c46575b51987905e0317d253218765e2a8dcf07b73f593b583ca/brazilcep-6.0.0a2.tar.gz
+[2023-05-01 04:23:12] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/6e/12/e786b36cc7ddc4c4624b1e3fc4ee4558f3025e8a1b9b6983081dab4f7847/nanopb-0.4.8.dev1402.tar.gz
+[2023-05-01 04:23:12] INFO root fetch - processPackages [brazilcep]: executing diffoscope
+[2023-05-01 04:23:12] INFO root fetch - processPackages [brazilcep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brazilcep-6.0.0a1.tar.gz tmp/brazilcep-6.0.0a2.tar.gz --markdown 20230501/b/brazilcep/6.0.0a1-6.0.0a2/diff.md --exclude *.pyd
+[2023-05-01 04:23:12] INFO root fetch - processPackages [nanopb]: executing diffoscope
+[2023-05-01 04:23:12] INFO root fetch - processPackages [nanopb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanopb-0.4.8.dev1401.tar.gz tmp/nanopb-0.4.8.dev1402.tar.gz --markdown 20230501/n/nanopb/0.4.8.dev1401-0.4.8.dev1402/diff.md --exclude *.pyd
+[2023-05-01 04:23:12] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-05-01 04:23:12] INFO root fetch - main [MainThread]: End processing [spPersist]: success
+[2023-05-01 04:23:13] INFO root fetch - main [MainThread]: End processing [brazilcep]: success
+[2023-05-01 04:23:13] INFO root fetch - main [MainThread]: End processing [nanopb]: success
+[2023-05-01 04:23:15] INFO root fetch - main [MainThread]: End processing [anki]: success
+[2023-05-01 04:24:46] INFO root fetch - main [MainThread]: End processing [aqt]: success
+[2023-05-01 04:24:46] INFO root fetch - main [MainThread]: Store serial: [17922484]
