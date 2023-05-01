@@ -14885,3 +14885,95 @@ EOFError: EOF read where object expected
 [2023-05-01 19:12:16] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
 [2023-05-01 19:12:18] INFO root fetch - main [MainThread]: End processing [batdetect2]: success
 [2023-05-01 19:12:18] INFO root fetch - main [MainThread]: Store serial: [17929279]
+[2023-05-01 19:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17929279]
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skelly-synchronize
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanolayer
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-tts-plugin-marytts
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blacklist-checker
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-image-pipeline
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sarcgraph
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: start-url
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-data
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moshpdf-asim215
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leadguru-common
+[2023-05-01 19:17:27] WARNING root fetch - processPackages [ovos-tts-plugin-marytts]: Skipping, unable to determine old version
+[2023-05-01 19:17:27] INFO root fetch - processPackages [ovos-tts-plugin-marytts]: Start processing: HACKERTBILIB
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [ovos-tts-plugin-marytts] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [skelly-synchronize]: New version: [2023.5.1008] Old Version: [2023.4.1007]
+[2023-05-01 19:17:27] INFO root fetch - processPackages [nanolayer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-01 19:17:27] WARNING root fetch - processPackages [moshpdf-asim215]: Skipping, unable to determine old version
+[2023-05-01 19:17:27] WARNING root fetch - processPackages [blacklist-checker]: Skipping, unable to determine old version
+[2023-05-01 19:17:27] INFO root fetch - processPackages [moshpdf-asim215]: Start processing: django-addresses
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [moshpdf-asim215] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [sarcgraph]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-01 19:17:27] INFO root fetch - processPackages [blacklist-checker]: Start processing: pywxdll
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [blacklist-checker] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [start-url]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-01 19:17:27] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 19:17:27] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-01 19:17:27] WARNING root fetch - processPackages [HACKERTBILIB]: Skipping, unable to determine old version
+[2023-05-01 19:17:27] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-01 19:17:27] ERROR root fetch - processPackages [pywxdll]: Unable to get metadata: No such project 'pywxdll'
+[2023-05-01 19:17:27] INFO root fetch - processPackages [HACKERTBILIB]: Start processing: benchmark-runner
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [HACKERTBILIB] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [pywxdll]: Start processing: blacklist-checker
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [pywxdll] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [django-addresses]: New version: [0.2.0b1] Old Version: [0.1]
+[2023-05-01 19:17:27] WARNING root fetch - processPackages [blacklist-checker]: Skipping, unable to determine old version
+[2023-05-01 19:17:27] INFO root fetch - processPackages [blacklist-checker]: Start processing: genomenotebook
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [blacklist-checker] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [genomenotebook]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-01 19:17:27] INFO root fetch - processPackages [nanolayer]: executing diffoscope
+[2023-05-01 19:17:27] INFO root fetch - processPackages [nanolayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolayer-0.4.8-py3-none-any.whl.zip tmp/nanolayer-0.4.9-py3-none-any.whl.zip --markdown 20230501/n/nanolayer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-01 19:17:27] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-05-01 19:17:27] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230501/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 19:17:27] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-05-01 19:17:27] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230501/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-01 19:17:27] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-01 19:17:27] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/02/22/5dc5eb5d15df86185ffc3c0e682ecf81677ffc2ad1d87acfeef0168536b8/genomenotebook-0.4.6.tar.gz
+[2023-05-01 19:17:27] INFO root fetch - processPackages [sarcgraph]: Downloading https://files.pythonhosted.org/packages/71/85/bd606d5ec5788d8a3312d0e3cb67c6f048df753c3a2b28d4a8aa439ba82f/sarcgraph-0.1.0.tar.gz
+[2023-05-01 19:17:27] INFO root fetch - processPackages [django-addresses]: Downloading https://files.pythonhosted.org/packages/b4/ca/834720a4f85380409d9c2821844391b13fd576b6bca9e424e6188af196b6/django-addresses-0.1.tar.gz
+[2023-05-01 19:17:27] WARNING root fetch - processPackages [genomenotebook]: Skipping package: exceeds size limit 21335409>=10485760
+[2023-05-01 19:17:27] INFO root fetch - processPackages [genomenotebook]: Start processing: SiteScraper
+[2023-05-01 19:17:27] INFO root fetch - main [MainThread]: End processing [genomenotebook] error
+[2023-05-01 19:17:27] INFO root fetch - processPackages [start-url]: Downloading https://files.pythonhosted.org/packages/1f/58/c95bcfa3a1db263594f301b5e51ef3ca6ea8c8f5ec8a6b3c0abdaf2c73e4/start_url-0.0.8.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [skelly-synchronize]: Downloading https://files.pythonhosted.org/packages/f2/12/5c45ae16248ae75c1d0320e76d5d0a9ca6b759f44f27ea8e89c76279ef11/skelly_synchronize-2023.5.1008.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [start-url]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [start-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_url-0.0.7.tar.gz tmp/start_url-0.0.8.tar.gz --markdown 20230501/s/start-url/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-01 19:17:28] INFO root fetch - processPackages [SiteScraper]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-01 19:17:28] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/35/ea/043d0a6ff697672294482e425cdc887fd0d9ab54fd2b9194523a2fccfb80/cdk-image-pipeline-0.3.0.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [skelly-synchronize]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [skelly-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelly_synchronize-2023.4.1007.tar.gz tmp/skelly_synchronize-2023.5.1008.tar.gz --markdown 20230501/s/skelly-synchronize/2023.4.1007-2023.5.1008/diff.md --exclude *.pyd
+[2023-05-01 19:17:28] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.2.1.tar.gz tmp/cdk-image-pipeline-0.3.0.tar.gz --markdown 20230501/c/cdk-image-pipeline/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 19:17:28] INFO root fetch - processPackages [django-addresses]: Downloading https://files.pythonhosted.org/packages/45/47/3481c6f80c9e0fa4be6374bfb7aa52d11f157a9a54c97f6ba78148fdc00a/django-addresses-0.2.0b1.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [sarcgraph]: Downloading https://files.pythonhosted.org/packages/8b/8c/497630cc0964b68f39ca48755c5c1398d7f9911370c1be50e11db30101bb/sarcgraph-0.1.1.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/c0/22/3263d4e86b25ba67fe429740e529e400c23ed4dd8a993efe6220a6e98048/SiteScraper-0.1.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230501/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-01 19:17:28] INFO root fetch - processPackages [django-addresses]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [django-addresses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-addresses-0.1.tar.gz tmp/django-addresses-0.2.0b1.tar.gz --markdown 20230501/d/django-addresses/0.1-0.2.0b1/diff.md --exclude *.pyd
+[2023-05-01 19:17:28] INFO root fetch - processPackages [sarcgraph]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [sarcgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarcgraph-0.1.0.tar.gz tmp/sarcgraph-0.1.1.tar.gz --markdown 20230501/s/sarcgraph/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:17:28] INFO root fetch - processPackages [SiteScraper]: Downloading https://files.pythonhosted.org/packages/f0/72/db4bbe9dfee2d9fa41599a113c68f4b1474a33cdf7638cf6cafbd825791f/SiteScraper-0.1.1.tar.gz
+[2023-05-01 19:17:28] INFO root fetch - processPackages [SiteScraper]: executing diffoscope
+[2023-05-01 19:17:28] INFO root fetch - processPackages [SiteScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SiteScraper-0.1.tar.gz tmp/SiteScraper-0.1.1.tar.gz --markdown 20230501/S/SiteScraper/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-01 19:17:29] INFO root fetch - processPackages [leadguru-data]: Start processing: pybricksdev
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [nanolayer]: success
+[2023-05-01 19:17:29] INFO root fetch - processPackages [pybricksdev]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [start-url]: success
+[2023-05-01 19:17:29] INFO root fetch - processPackages [pybricksdev]: Downloading https://files.pythonhosted.org/packages/d8/1e/c421edf2d4e3e78875f086225f3f2c71e3d1cf1c15ce112c9572c5a08c75/pybricksdev-1.0.0a8.tar.gz
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [skelly-synchronize]: success
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [sarcgraph]: success
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [django-addresses]: success
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-05-01 19:17:29] INFO root fetch - main [MainThread]: End processing [SiteScraper]: success
+[2023-05-01 19:17:30] INFO root fetch - processPackages [pybricksdev]: Downloading https://files.pythonhosted.org/packages/b2/c2/4693366e378d5b1836a7720f8cabd4cfd2957d17aad28c11dda505034edc/pybricksdev-1.0.0a9.tar.gz
+[2023-05-01 19:17:30] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2023-05-01 19:17:30] INFO root fetch - processPackages [pybricksdev]: executing diffoscope
+[2023-05-01 19:17:30] INFO root fetch - processPackages [pybricksdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybricksdev-1.0.0a8.tar.gz tmp/pybricksdev-1.0.0a9.tar.gz --markdown 20230501/p/pybricksdev/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-05-01 19:17:31] INFO root fetch - main [MainThread]: End processing [pybricksdev]: success
+[2023-05-01 19:17:31] INFO root fetch - main [MainThread]: Store serial: [17929343]
