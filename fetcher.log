@@ -3917,3 +3917,35 @@
 [2023-05-01 05:11:29] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-bank-statement-import]: success
 [2023-05-01 05:11:29] INFO root fetch - main [MainThread]: End processing [toxicjasmine]: success
 [2023-05-01 05:11:29] INFO root fetch - main [MainThread]: Store serial: [17922646]
+[2023-05-01 05:16:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922646]
+[2023-05-01 05:16:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: get-all-files
+[2023-05-01 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ale-frugal
+[2023-05-01 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-05-01 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netunicorn-connector-ssh
+[2023-05-01 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-01 05:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-01 05:16:38] WARNING root fetch - processPackages [ale-frugal]: Skipping, unable to determine old version
+[2023-05-01 05:16:38] WARNING root fetch - processPackages [get-all-files]: Skipping, unable to determine old version
+[2023-05-01 05:16:38] INFO root fetch - main [MainThread]: End processing [ale-frugal] error
+[2023-05-01 05:16:38] INFO root fetch - main [MainThread]: End processing [get-all-files] error
+[2023-05-01 05:16:38] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1682910886] Old Version: [0.1.1682910877]
+[2023-05-01 05:16:38] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230501] Old Version: [0.0.16.dev20230430]
+[2023-05-01 05:16:38] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1682910886] Old Version: [0.1.1682910877]
+[2023-05-01 05:16:38] WARNING root fetch - processPackages [netunicorn-connector-ssh]: Skipping, unable to determine old version
+[2023-05-01 05:16:38] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-ssh] error
+[2023-05-01 05:16:38] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/26/04/bddf840491bb85b502fa92c7da01fa1df412a6ad59ed42d362bf5bb003fc/eia-odin-pkg-rioatmadja2018-0.1.1682910877.tar.gz
+[2023-05-01 05:16:38] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/26/04/bddf840491bb85b502fa92c7da01fa1df412a6ad59ed42d362bf5bb003fc/eia-odin-pkg-rioatmadja2018-0.1.1682910877.tar.gz
+[2023-05-01 05:16:38] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/98/e8/c819d63415f5090447480d618f0b63dbd6150010892f7d96819095ad5183/GANDLF-0.0.16.dev20230501.tar.gz
+[2023-05-01 05:16:38] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-01 05:16:38] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230430.tar.gz tmp/GANDLF-0.0.16.dev20230501.tar.gz --markdown 20230501/G/GANDLF/0.0.16.dev20230430-0.0.16.dev20230501/diff.md --exclude *.pyd
+[2023-05-01 05:16:38] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/7f/73/9d27963fec10cf21b97528faa9ec2b7d39298543164f87f4b636c4eca5fd/eia_odin_pkg_rioatmadja2018-0.1.1682910886-py3-none-any.whl
+[2023-05-01 05:16:38] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/7f/73/9d27963fec10cf21b97528faa9ec2b7d39298543164f87f4b636c4eca5fd/eia_odin_pkg_rioatmadja2018-0.1.1682910886-py3-none-any.whl
+[2023-05-01 05:16:39] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-01 05:16:39] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1682910877.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1682910886-py3-none-any.whl.zip --markdown 20230501/e/eia-odin-pkg-rioatmadja2018/0.1.1682910877-0.1.1682910886/diff.md --exclude *.pyd
+[2023-05-01 05:16:39] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-01 05:16:39] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1682910877.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1682910886-py3-none-any.whl.zip --markdown 20230501/e/eia-odin-pkg-rioatmadja2018/0.1.1682910877-0.1.1682910886/diff.md --exclude *.pyd
+[2023-05-01 05:16:39] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-01 05:16:40] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-01 05:16:40] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-01 05:16:40] INFO root fetch - main [MainThread]: Store serial: [17922667]
