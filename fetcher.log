@@ -13388,3 +13388,39 @@ EOFError: EOF read where object expected
 [2023-05-01 17:33:02] INFO root fetch - main [MainThread]: End processing [GptCode]: success
 [2023-05-01 17:33:03] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
 [2023-05-01 17:33:03] INFO root fetch - main [MainThread]: Store serial: [17928206]
+[2023-05-01 17:38:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928206]
+[2023-05-01 17:38:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-01 17:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foursight-core
+[2023-05-01 17:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inigo-py
+[2023-05-01 17:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napatrackmater
+[2023-05-01 17:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QPUIQ
+[2023-05-01 17:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiddifypanel
+[2023-05-01 17:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: client-GPT
+[2023-05-01 17:38:12] INFO root fetch - processPackages [QPUIQ]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-01 17:38:12] INFO root fetch - processPackages [client-GPT]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-01 17:38:12] INFO root fetch - processPackages [inigo-py]: New version: [0.25.1] Old Version: [0.25.0]
+[2023-05-01 17:38:12] INFO root fetch - processPackages [hiddifypanel]: New version: [6.0.0.dev5] Old Version: [6.0.0.dev4]
+[2023-05-01 17:38:12] INFO root fetch - processPackages [napatrackmater]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-05-01 17:38:13] INFO root fetch - processPackages [client-GPT]: executing diffoscope
+[2023-05-01 17:38:13] INFO root fetch - processPackages [client-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/client_GPT-1.1.2.tar.gz tmp/client_GPT-1.1.3.tar.gz --markdown 20230501/c/client-GPT/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-01 17:38:13] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b60] Old Version: [4.1.0.5b59]
+[2023-05-01 17:38:13] INFO root fetch - processPackages [QPUIQ]: executing diffoscope
+[2023-05-01 17:38:13] INFO root fetch - processPackages [QPUIQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QPUIQ-0.1.8.tar.gz tmp/QPUIQ-0.1.9.tar.gz --markdown 20230501/Q/QPUIQ/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-01 17:38:13] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-05-01 17:38:13] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-6.0.0.dev4-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-6.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230501/h/hiddifypanel/6.0.0.dev4-6.0.0.dev5/diff.md --exclude *.pyd
+[2023-05-01 17:38:13] INFO root fetch - processPackages [inigo-py]: Downloading https://files.pythonhosted.org/packages/82/f0/4a9c04b87a7823e3390a5ae0bb914f11aaa69cb37a870e4fadf4cc7fb34d/inigo_py-0.25.0.tar.gz
+[2023-05-01 17:38:13] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/61/ac/a00fa664275887870cfe491bea8e31a58336df2eee93590acb6d2f367dfe/foursight_core-4.1.0.5b59.tar.gz
+[2023-05-01 17:38:13] WARNING root fetch - processPackages [inigo-py]: Skipping package: exceeds size limit 73034210>=10485760
+[2023-05-01 17:38:13] INFO root fetch - main [MainThread]: End processing [inigo-py] error
+[2023-05-01 17:38:13] INFO root fetch - processPackages [napatrackmater]: Downloading https://files.pythonhosted.org/packages/6e/bd/aa1d943af94cf36d985d8caf608d90fbe6c85d7e3828d8593759c97af69f/napatrackmater-3.4.5.tar.gz
+[2023-05-01 17:38:13] INFO root fetch - processPackages [napatrackmater]: executing diffoscope
+[2023-05-01 17:38:13] INFO root fetch - processPackages [napatrackmater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napatrackmater-3.4.4.tar.gz tmp/napatrackmater-3.4.5.tar.gz --markdown 20230501/n/napatrackmater/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-05-01 17:38:13] INFO root fetch - processPackages [foursight-core]: Downloading https://files.pythonhosted.org/packages/25/a2/fe4eb8a0b8eeb1e8f469591ccb6e76dd98442da0aa414ae3b402f74d2a98/foursight_core-4.1.0.5b60.tar.gz
+[2023-05-01 17:38:13] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-05-01 17:38:13] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b59.tar.gz tmp/foursight_core-4.1.0.5b60.tar.gz --markdown 20230501/f/foursight-core/4.1.0.5b59-4.1.0.5b60/diff.md --exclude *.pyd
+[2023-05-01 17:38:14] INFO root fetch - main [MainThread]: End processing [client-GPT]: success
+[2023-05-01 17:38:14] INFO root fetch - main [MainThread]: End processing [QPUIQ]: success
+[2023-05-01 17:38:14] INFO root fetch - main [MainThread]: End processing [napatrackmater]: success
+[2023-05-01 17:38:29] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-05-01 17:38:30] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-05-01 17:38:30] INFO root fetch - main [MainThread]: Store serial: [17928249]
