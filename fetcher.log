@@ -11675,3 +11675,60 @@ EOFError: EOF read where object expected
 [2023-05-01 15:34:35] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
 [2023-05-01 15:34:36] INFO root fetch - main [MainThread]: End processing [deeplabcut]: success
 [2023-05-01 15:34:36] INFO root fetch - main [MainThread]: Store serial: [17927125]
+[2023-05-01 15:39:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927125]
+[2023-05-01 15:39:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devbio-napari
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zeroconf
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: misura
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vnpy-askshare
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars-u64-idx
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mosek
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: landingzone-organization
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fink-filters
+[2023-05-01 15:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bibx
+[2023-05-01 15:39:45] INFO root fetch - processPackages [zeroconf]: New version: [0.58.2] Old Version: [0.58.1]
+[2023-05-01 15:39:45] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.17.9] Old Version: [0.17.8]
+[2023-05-01 15:39:45] WARNING root fetch - processPackages [landingzone-organization]: Skipping, unable to determine old version
+[2023-05-01 15:39:45] INFO root fetch - processPackages [landingzone-organization]: Start processing: oceano-algos
+[2023-05-01 15:39:45] INFO root fetch - main [MainThread]: End processing [landingzone-organization] error
+[2023-05-01 15:39:45] INFO root fetch - processPackages [fink-filters]: New version: [3.9] Old Version: [3.8]
+[2023-05-01 15:39:45] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-05-01 15:39:46] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-01 15:39:46] WARNING root fetch - processPackages [misura]: Skipping, unable to determine old version
+[2023-05-01 15:39:46] INFO root fetch - main [MainThread]: End processing [misura] error
+[2023-05-01 15:39:46] INFO root fetch - processPackages [devbio-napari]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-01 15:39:46] WARNING root fetch - processPackages [vnpy-askshare]: Skipping, unable to determine old version
+[2023-05-01 15:39:46] INFO root fetch - main [MainThread]: End processing [vnpy-askshare] error
+[2023-05-01 15:39:46] INFO root fetch - processPackages [bibx]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-05-01 15:39:46] INFO root fetch - processPackages [fink-filters]: Downloading https://files.pythonhosted.org/packages/ad/03/a1e30cd9ef3fd94bad1a3a4191fe94f321e88803bceeeb3342e49219b4af/fink-filters-3.8.tar.gz
+[2023-05-01 15:39:46] INFO root fetch - processPackages [oceano-algos]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 15:39:46] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-05-01 15:39:46] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.17.8.tar.gz tmp/polars_u64_idx-0.17.9.tar.gz --markdown 20230501/p/polars-u64-idx/0.17.8-0.17.9/diff.md --exclude *.pyd
+[2023-05-01 15:39:46] WARNING root fetch - processPackages [fink-filters]: Skipping package: exceeds size limit 10772648>=10485760
+[2023-05-01 15:39:46] INFO root fetch - main [MainThread]: End processing [fink-filters] error
+[2023-05-01 15:39:46] INFO root fetch - processPackages [devbio-napari]: Downloading https://files.pythonhosted.org/packages/51/c7/315fcf7c2b557de8a2a021ab3cf0788e127d42ea58fdca63d6ed3877ef19/devbio-napari-0.8.1.tar.gz
+[2023-05-01 15:39:46] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-05-01 15:39:46] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2023-05-01 15:39:46] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.58.1.tar.gz tmp/zeroconf-0.58.2.tar.gz --markdown 20230501/z/zeroconf/0.58.1-0.58.2/diff.md --exclude *.pyd
+[2023-05-01 15:39:46] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-05-01 15:39:46] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230501/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-01 15:39:46] INFO root fetch - processPackages [bibx]: Downloading https://files.pythonhosted.org/packages/b7/e2/4f5b513c612c33569af6a6ef0c82d51cdfa04272227f086641b45bf6dbaa/bibx-0.0.1a3.tar.gz
+[2023-05-01 15:39:46] INFO root fetch - processPackages [oceano-algos]: executing diffoscope
+[2023-05-01 15:39:46] INFO root fetch - processPackages [oceano-algos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceano_algos-0.0.98.tar.gz tmp/oceano_algos-0.0.99.tar.gz --markdown 20230501/o/oceano-algos/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 15:39:46] INFO root fetch - processPackages [devbio-napari]: Downloading https://files.pythonhosted.org/packages/94/77/454e3914aba32833d6f4c3547320dc36d4c193f233ebc61f83aa08cba3d0/devbio-napari-0.9.0.tar.gz
+[2023-05-01 15:39:46] INFO root fetch - processPackages [devbio-napari]: executing diffoscope
+[2023-05-01 15:39:46] INFO root fetch - processPackages [devbio-napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devbio-napari-0.8.1.tar.gz tmp/devbio-napari-0.9.0.tar.gz --markdown 20230501/d/devbio-napari/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-01 15:39:47] INFO root fetch - processPackages [bibx]: executing diffoscope
+[2023-05-01 15:39:47] INFO root fetch - processPackages [bibx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibx-0.0.1a2.tar.gz tmp/bibx-0.0.1a3.tar.gz --markdown 20230501/b/bibx/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-05-01 15:39:47] INFO root fetch - main [MainThread]: End processing [oceano-algos]: success
+[2023-05-01 15:39:47] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2023-05-01 15:39:47] INFO root fetch - main [MainThread]: End processing [devbio-napari]: success
+[2023-05-01 15:39:49] INFO root fetch - main [MainThread]: End processing [bibx]: success
+[2023-05-01 15:39:49] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-05-01 15:39:50] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-05-01 15:39:52] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-05-01 15:39:52] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230501/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-05-01 15:40:04] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-05-01 15:40:39] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-05-01 15:40:39] INFO root fetch - main [MainThread]: Store serial: [17927178]
