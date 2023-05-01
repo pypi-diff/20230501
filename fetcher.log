@@ -11619,3 +11619,59 @@ EOFError: EOF read where object expected
 [2023-05-01 15:29:22] INFO root fetch - main [MainThread]: End processing [Pint]: success
 [2023-05-01 15:29:24] INFO root fetch - main [MainThread]: End processing [cikuu]: success
 [2023-05-01 15:29:24] INFO root fetch - main [MainThread]: Store serial: [17927097]
+[2023-05-01 15:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17927097]
+[2023-05-01 15:34:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaw-sweep-sg-cali
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gentrace-py
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landingzone-organization
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MDbrew
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yt-idefix
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easierfile
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonglaive
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deeplabcut
+[2023-05-01 15:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wikiseriessjoerdtoolcli
+[2023-05-01 15:34:33] INFO root fetch - processPackages [gentrace-py]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-01 15:34:33] WARNING root fetch - processPackages [landingzone-organization]: Skipping, unable to determine old version
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yaw-sweep-sg-cali]: New version: [2.2] Old Version: [2.1]
+[2023-05-01 15:34:33] INFO root fetch - processPackages [easierfile]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-01 15:34:33] INFO root fetch - main [MainThread]: End processing [landingzone-organization] error
+[2023-05-01 15:34:33] WARNING root fetch - processPackages [wikiseriessjoerdtoolcli]: Skipping, unable to determine old version
+[2023-05-01 15:34:33] INFO root fetch - main [MainThread]: End processing [wikiseriessjoerdtoolcli] error
+[2023-05-01 15:34:33] INFO root fetch - processPackages [MDbrew]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yt-idefix]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-05-01 15:34:33] INFO root fetch - processPackages [moonglaive]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-01 15:34:33] INFO root fetch - processPackages [deeplabcut]: New version: [2.3rc3] Old Version: [2.3rc2]
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yaw-sweep-sg-cali]: Downloading https://files.pythonhosted.org/packages/96/70/a530579b5f55d7aa4e66d76e2ed985e1a1d4b4e6728d5b85dbe09bb91b9e/yaw_sweep_sg_cali-2.1.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/95/ae/d4528974c00799f39e509a8340fcad9157a3360d0bb92c8dab8d7e71018d/MDbrew-2.2.2.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [easierfile]: Downloading https://files.pythonhosted.org/packages/11/50/8efdd78a6ef1743fa2432192fd915faf49165766f026048a09a3e5789b04/easierfile-2.0.0.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/aa/c4/1b62682dc784b1068f8ed242e78e2f7cff7f8c11303484ce675c3916fc9d/yt_idefix-1.1.1.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/b0/f8/3efed3c29a4c830ccbf6ad8a972fed91fec6ad4ddea0af1b7c5b06b9299e/moonglaive-0.0.6.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [deeplabcut]: Downloading https://files.pythonhosted.org/packages/bb/c6/c510e3c5bdf64ba587dfd2442ac2698717d23997e840ac86d51b13f7778e/deeplabcut-2.3rc2.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-01 15:34:33] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.2.1.tar.gz tmp/MDbrew-2.2.2.tar.gz --markdown 20230501/M/MDbrew/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-01 15:34:33] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/db/07/32d58498cb39605f690605747a7fdf23c1989c7692d7eed23730a0c1deca/gentrace_py-0.7.3.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yt-idefix]: Downloading https://files.pythonhosted.org/packages/52/06/cb8497b82e7d9eaf473c8a89a324a21fff61e9722e16143a8c96236ae1ff/yt_idefix-2.0.0.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yaw-sweep-sg-cali]: Downloading https://files.pythonhosted.org/packages/aa/90/12d3a1eb83ac7bde847ae8f28d01ab2d4720818845546d999eaea8984b3c/yaw_sweep_sg_cali-2.2.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [easierfile]: Downloading https://files.pythonhosted.org/packages/4d/e9/420d7f592531229df8ce028023aeb1cf84152782e471efff3528f40dcec3/easierfile-2.1.0.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2023-05-01 15:34:33] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.7.2.tar.gz tmp/gentrace_py-0.7.3.tar.gz --markdown 20230501/g/gentrace-py/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yt-idefix]: executing diffoscope
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yt-idefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_idefix-1.1.1.tar.gz tmp/yt_idefix-2.0.0.tar.gz --markdown 20230501/y/yt-idefix/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-01 15:34:33] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/20/9a/3a74c2089bf26abd533346a29d1d2e9767f603ac8ee9317f796632da7c31/moonglaive-0.0.7.tar.gz
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yaw-sweep-sg-cali]: executing diffoscope
+[2023-05-01 15:34:33] INFO root fetch - processPackages [yaw-sweep-sg-cali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaw_sweep_sg_cali-2.1.tar.gz tmp/yaw_sweep_sg_cali-2.2.tar.gz --markdown 20230501/y/yaw-sweep-sg-cali/2.1-2.2/diff.md --exclude *.pyd
+[2023-05-01 15:34:33] INFO root fetch - processPackages [easierfile]: executing diffoscope
+[2023-05-01 15:34:33] INFO root fetch - processPackages [easierfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easierfile-2.0.0.tar.gz tmp/easierfile-2.1.0.tar.gz --markdown 20230501/e/easierfile/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-01 15:34:34] INFO root fetch - processPackages [moonglaive]: executing diffoscope
+[2023-05-01 15:34:34] INFO root fetch - processPackages [moonglaive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonglaive-0.0.6.tar.gz tmp/moonglaive-0.0.7.tar.gz --markdown 20230501/m/moonglaive/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-01 15:34:34] INFO root fetch - processPackages [deeplabcut]: Downloading https://files.pythonhosted.org/packages/4b/68/c367615e563341ff579843d20bda1c7aef3fe6a52ce81d3dabed8f312e2f/deeplabcut-2.3rc3.tar.gz
+[2023-05-01 15:34:34] INFO root fetch - processPackages [deeplabcut]: executing diffoscope
+[2023-05-01 15:34:34] INFO root fetch - processPackages [deeplabcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplabcut-2.3rc2.tar.gz tmp/deeplabcut-2.3rc3.tar.gz --markdown 20230501/d/deeplabcut/2.3rc2-2.3rc3/diff.md --exclude *.pyd
+[2023-05-01 15:34:34] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-01 15:34:35] INFO root fetch - main [MainThread]: End processing [easierfile]: success
+[2023-05-01 15:34:35] INFO root fetch - main [MainThread]: End processing [yt-idefix]: success
+[2023-05-01 15:34:35] INFO root fetch - main [MainThread]: End processing [moonglaive]: success
+[2023-05-01 15:34:35] INFO root fetch - main [MainThread]: End processing [yaw-sweep-sg-cali]: success
+[2023-05-01 15:34:35] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2023-05-01 15:34:36] INFO root fetch - main [MainThread]: End processing [deeplabcut]: success
+[2023-05-01 15:34:36] INFO root fetch - main [MainThread]: Store serial: [17927125]
