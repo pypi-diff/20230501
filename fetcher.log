@@ -3232,3 +3232,56 @@
 [2023-05-01 03:32:49] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-05-01 03:32:49] INFO root fetch - main [MainThread]: End processing [d2lapi]: success
 [2023-05-01 03:32:49] INFO root fetch - main [MainThread]: Store serial: [17922254]
+[2023-05-01 03:37:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17922254]
+[2023-05-01 03:38:00] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CS333-Final-Project
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d2lapi
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: souJpg-comm
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: souJpg-comm
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arkdata
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-numpy
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-05-01 03:38:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pandas
+[2023-05-01 03:38:00] INFO root fetch - processPackages [d2lapi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-01 03:38:00] WARNING root fetch - processPackages [souJpg-comm]: Skipping, unable to determine old version
+[2023-05-01 03:38:00] INFO root fetch - processPackages [souJpg-comm]: Start processing: nbdev-pytorch
+[2023-05-01 03:38:00] INFO root fetch - main [MainThread]: End processing [souJpg-comm] error
+[2023-05-01 03:38:00] WARNING root fetch - processPackages [souJpg-comm]: Skipping, unable to determine old version
+[2023-05-01 03:38:00] INFO root fetch - main [MainThread]: End processing [souJpg-comm] error
+[2023-05-01 03:38:00] INFO root fetch - processPackages [rp]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-01 03:38:00] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 03:38:00] WARNING root fetch - processPackages [CS333-Final-Project]: Skipping, unable to determine old version
+[2023-05-01 03:38:00] INFO root fetch - main [MainThread]: End processing [CS333-Final-Project] error
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 03:38:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-01 03:38:00] INFO root fetch - processPackages [rp]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [rp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp-0.1.98.tar.gz tmp/rp-0.1.99.tar.gz --markdown 20230501/r/rp/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230501/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230501/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [d2lapi]: Downloading https://files.pythonhosted.org/packages/11/1e/ebe7a88bde662acccdcf5c9798a7da0012e2e17531d312b3dda64824a8c5/d2lapi-0.3.0.tar.gz
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230501/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230501/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230501/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [d2lapi]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [d2lapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d2lapi-0.2.0.tar.gz tmp/d2lapi-0.3.0.tar.gz --markdown 20230501/d/d2lapi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-01 03:38:00] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230501/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 03:38:01] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-01 03:38:01] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-01 03:38:01] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-01 03:38:02] INFO root fetch - main [MainThread]: End processing [d2lapi]: success
+[2023-05-01 03:38:02] INFO root fetch - main [MainThread]: End processing [rp]: success
+[2023-05-01 03:38:03] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-01 03:38:03] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-01 03:38:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-01 03:38:03] INFO root fetch - main [MainThread]: Store serial: [17922294]
