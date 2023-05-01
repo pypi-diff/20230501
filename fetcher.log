@@ -13997,3 +13997,95 @@ EOFError: EOF read where object expected
 [2023-05-01 18:15:52] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-simpleio]: success
 [2023-05-01 18:15:53] INFO root fetch - main [MainThread]: End processing [hivemind]: success
 [2023-05-01 18:15:53] INFO root fetch - main [MainThread]: Store serial: [17928693]
+[2023-05-01 18:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17928693]
+[2023-05-01 18:21:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nx5d
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-sdk
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pvmodule
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foursight-core
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fireworks-ml
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mosaicml-cli
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: temporalio
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-cdk.asset-awscli-v1
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkposters
+[2023-05-01 18:21:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-shelly-deep2
+[2023-05-01 18:21:02] INFO root fetch - processPackages [foursight-core]: New version: [4.1.0.5b60] Old Version: [4.1.0.5b59]
+[2023-05-01 18:21:02] WARNING root fetch - processPackages [certora-cli-alpha-shelly-deep2]: Skipping, unable to determine old version
+[2023-05-01 18:21:02] INFO root fetch - processPackages [certora-cli-alpha-shelly-deep2]: Start processing: openai-forward
+[2023-05-01 18:21:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-deep2] error
+[2023-05-01 18:21:02] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [pvmodule]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-05-01 18:21:02] INFO root fetch - processPackages [foursight-core]: executing diffoscope
+[2023-05-01 18:21:02] INFO root fetch - processPackages [foursight-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_core-4.1.0.5b59.tar.gz tmp/foursight_core-4.1.0.5b60.tar.gz --markdown 20230501/f/foursight-core/4.1.0.5b59-4.1.0.5b60/diff.md --exclude *.pyd
+[2023-05-01 18:21:02] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [nx5d]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [fireworks-ml]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [temporalio]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.0a4] Old Version: [0.4.0a3]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [mkposters]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-01 18:21:02] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-05-01 18:21:02] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: NlpToolkit-Classification
+[2023-05-01 18:21:02] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-05-01 18:21:02] INFO root fetch - processPackages [openai-forward]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [pvmodule]: executing diffoscope
+[2023-05-01 18:21:02] INFO root fetch - processPackages [pvmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvmodule-0.0.98.tar.gz tmp/pvmodule-0.0.99.tar.gz --markdown 20230501/p/pvmodule/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-01 18:21:02] INFO root fetch - processPackages [NlpToolkit-Classification]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-01 18:21:02] INFO root fetch - processPackages [temporalio]: Downloading https://files.pythonhosted.org/packages/50/7d/08af3792e80c1808f1443d35c99839e9d52261a32b5b1396f5e2dafadd71/temporalio-1.1.0.tar.gz
+[2023-05-01 18:21:02] INFO root fetch - processPackages [mkposters]: Downloading https://files.pythonhosted.org/packages/4a/e0/8ecd4541b8d392fcce6fc8af7268708888ebab1407534d1eb9bddc1c5136/mkposters-0.0.2.tar.gz
+[2023-05-01 18:21:02] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/cd/1f/e747bdf33278358418b1e9be72320303cffbb8d9f7b49bc9387dc7e2a656/nx5d-0.3.6.tar.gz
+[2023-05-01 18:21:02] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/ed/25/8b638dcde8c25f8da68e7771e4686bc4c4b5934747f1367f229820c830f8/openai_forward-0.1.2.tar.gz
+[2023-05-01 18:21:02] INFO root fetch - processPackages [NlpToolkit-Classification]: Downloading https://files.pythonhosted.org/packages/bc/32/4277b3c2be19a528d3e3ccebf1411b2e23ae14f3c92902d71314b3f89d15/NlpToolkit-Classification-1.0.8.tar.gz
+[2023-05-01 18:21:02] INFO root fetch - processPackages [fireworks-ml]: executing diffoscope
+[2023-05-01 18:21:02] INFO root fetch - processPackages [fireworks-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireworks_ml-0.3.7-py3-none-any.whl.zip tmp/fireworks-ml-0.3.9.tar.gz --markdown 20230501/f/fireworks-ml/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-05-01 18:21:02] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-05-01 18:21:02] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.0a3.tar.gz tmp/mosaicml-cli-0.4.0a4.tar.gz --markdown 20230501/m/mosaicml-cli/0.4.0a3-0.4.0a4/diff.md --exclude *.pyd
+[2023-05-01 18:21:02] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2023-05-01 18:21:02] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20230501/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2023-05-01 18:21:03] INFO root fetch - processPackages [nx5d]: executing diffoscope
+[2023-05-01 18:21:03] INFO root fetch - processPackages [nx5d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx5d-0.3.5.tar.gz tmp/nx5d-0.3.6.tar.gz --markdown 20230501/n/nx5d/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-01 18:21:03] INFO root fetch - processPackages [temporalio]: Downloading https://files.pythonhosted.org/packages/05/81/9a1f69604351da42e120b0d06de2c8a0a909bfe5c365c7901d12dfdb63e7/temporalio-1.2.0.tar.gz
+[2023-05-01 18:21:03] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/27/b5/938d05486ba0180a8d7eb91d60dfe62cd8fe054ff09fd9097628163ddda6/openai_forward-0.1.3.tar.gz
+[2023-05-01 18:21:03] INFO root fetch - processPackages [openai-forward]: executing diffoscope
+[2023-05-01 18:21:03] INFO root fetch - processPackages [openai-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_forward-0.1.2.tar.gz tmp/openai_forward-0.1.3.tar.gz --markdown 20230501/o/openai-forward/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-01 18:21:03] INFO root fetch - processPackages [temporalio]: executing diffoscope
+[2023-05-01 18:21:03] INFO root fetch - processPackages [temporalio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temporalio-1.1.0.tar.gz tmp/temporalio-1.2.0.tar.gz --markdown 20230501/t/temporalio/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-01 18:21:03] INFO root fetch - processPackages [NlpToolkit-Classification]: Downloading https://files.pythonhosted.org/packages/e4/9e/915313a58c76ee2361afe0453303354d6a7a7054d55d0b972a53be884e6e/NlpToolkit-Classification-1.0.9.tar.gz
+[2023-05-01 18:21:03] INFO root fetch - processPackages [NlpToolkit-Classification]: executing diffoscope
+[2023-05-01 18:21:03] INFO root fetch - processPackages [NlpToolkit-Classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NlpToolkit-Classification-1.0.8.tar.gz tmp/NlpToolkit-Classification-1.0.9.tar.gz --markdown 20230501/N/NlpToolkit-Classification/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-01 18:21:03] INFO root fetch - processPackages [mkposters]: Downloading https://files.pythonhosted.org/packages/73/98/85045c33a37d1ec58ce860e15ab20d3019252b8ec1a3d705e88275fb8116/mkposters-0.0.3.tar.gz
+[2023-05-01 18:21:03] INFO root fetch - processPackages [mkposters]: executing diffoscope
+[2023-05-01 18:21:03] INFO root fetch - processPackages [mkposters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkposters-0.0.2.tar.gz tmp/mkposters-0.0.3.tar.gz --markdown 20230501/m/mkposters/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-01 18:21:04] INFO root fetch - processPackages [pvmodule]: Start processing: sayhellox123
+[2023-05-01 18:21:04] INFO root fetch - main [MainThread]: End processing [pvmodule]: success
+[2023-05-01 18:21:04] INFO root fetch - processPackages [sayhellox123]: New version: [0.3] Old Version: [0.2]
+[2023-05-01 18:21:04] INFO root fetch - processPackages [sayhellox123]: executing diffoscope
+[2023-05-01 18:21:04] INFO root fetch - processPackages [sayhellox123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sayhellox123-0.2.tar.gz tmp/sayhellox123-0.3.tar.gz --markdown 20230501/s/sayhellox123/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-01 18:21:04] INFO root fetch - processPackages [fireworks-ml]: Start processing: NlpToolkit-Classification-Cy
+[2023-05-01 18:21:04] INFO root fetch - main [MainThread]: End processing [fireworks-ml]: success
+[2023-05-01 18:21:04] INFO root fetch - processPackages [NlpToolkit-Classification-Cy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-01 18:21:04] INFO root fetch - processPackages [openai-forward]: Start processing: hyalus
+[2023-05-01 18:21:04] INFO root fetch - main [MainThread]: End processing [openai-forward]: success
+[2023-05-01 18:21:04] WARNING root fetch - processPackages [hyalus]: Skipping, unable to determine old version
+[2023-05-01 18:21:04] INFO root fetch - processPackages [hyalus]: Start processing: module-qc-data-tools
+[2023-05-01 18:21:04] INFO root fetch - main [MainThread]: End processing [hyalus] error
+[2023-05-01 18:21:04] INFO root fetch - processPackages [NlpToolkit-Classification-Cy]: Downloading https://files.pythonhosted.org/packages/ad/59/adcb43a5fb3ebc9016823e4eebe35be271b8dba0c875b1d1236d53c1dc6d/NlpToolkit-Classification-Cy-1.0.7.tar.gz
+[2023-05-01 18:21:05] INFO root fetch - processPackages [module-qc-data-tools]: New version: [1.0.6] Old Version: [1.0.5rc0]
+[2023-05-01 18:21:05] INFO root fetch - processPackages [module-qc-data-tools]: Downloading https://files.pythonhosted.org/packages/a1/ec/6326ace67f783294cbf14e8b330dcbf177ebdcd679029b892db849213c5e/module_qc_data_tools-1.0.6.tar.gz
+[2023-05-01 18:21:05] INFO root fetch - main [MainThread]: End processing [sayhellox123]: success
+[2023-05-01 18:21:05] INFO root fetch - processPackages [module-qc-data-tools]: executing diffoscope
+[2023-05-01 18:21:05] INFO root fetch - processPackages [module-qc-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_qc_data_tools-1.0.5rc0.tar.gz tmp/module_qc_data_tools-1.0.6.tar.gz --markdown 20230501/m/module-qc-data-tools/1.0.5rc0-1.0.6/diff.md --exclude *.pyd
+[2023-05-01 18:21:05] INFO root fetch - main [MainThread]: End processing [nx5d]: success
+[2023-05-01 18:21:05] INFO root fetch - processPackages [NlpToolkit-Classification-Cy]: Downloading https://files.pythonhosted.org/packages/64/71/9d9cc209ba8df42f20f75d3cb445a3137b97a97eef0dee9cd7435ca6ca74/NlpToolkit-Classification-Cy-1.0.8.tar.gz
+[2023-05-01 18:21:05] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2023-05-01 18:21:05] INFO root fetch - processPackages [NlpToolkit-Classification-Cy]: executing diffoscope
+[2023-05-01 18:21:05] INFO root fetch - processPackages [NlpToolkit-Classification-Cy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230501:/home/abi/fetcher/20230501:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NlpToolkit-Classification-Cy-1.0.7.tar.gz tmp/NlpToolkit-Classification-Cy-1.0.8.tar.gz --markdown 20230501/N/NlpToolkit-Classification-Cy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-01 18:21:06] INFO root fetch - main [MainThread]: End processing [NlpToolkit-Classification]: success
+[2023-05-01 18:21:06] INFO root fetch - main [MainThread]: End processing [module-qc-data-tools]: success
+[2023-05-01 18:21:07] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-05-01 18:21:11] INFO root fetch - main [MainThread]: End processing [temporalio]: success
+[2023-05-01 18:21:19] INFO root fetch - main [MainThread]: End processing [foursight-core]: success
+[2023-05-01 18:21:20] INFO root fetch - main [MainThread]: End processing [NlpToolkit-Classification-Cy]: success
+[2023-05-01 18:24:03] ERROR root fetch - processPackages [mkposters]: Timeout during execution of pkgdiff
+[2023-05-01 18:24:03] INFO root fetch - main [MainThread]: End processing [mkposters] error
+[2023-05-01 18:24:03] INFO root fetch - main [MainThread]: Store serial: [17928744]
